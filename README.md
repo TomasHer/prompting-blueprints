@@ -51,6 +51,6 @@ This repo uses **MkDocs Material**. GitHub Actions builds the site and deploys t
 
 ---
 
-**Author:** Your Name  
-**LinkedIn:** https://www.linkedin.com/in/YOUR_HANDLE  
+**Author:** Tomas Herda
+**LinkedIn:** https://www.linkedin.com/in/herdatom  
 **Last updated:** 2025-09-06
