@@ -1,0 +1,32 @@
+site_name: Prompting Blueprints
+site_description: Practical prompt patterns, model tips, and tool tactics for LLMs.
+site_url: https://YOUR_GITHUB_USERNAME.github.io/prompting-blueprints
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+    - toc.integrate
+nav:
+  - Home: README.md
+  - Patterns:
+    - Overview: patterns/pattern-template.md
+    - Role + Constraints + Format: patterns/role-constraint-format.md
+  - Models:
+    - GPT-5 Quickstart: models/gpt-5/quickstart.md
+    - GPT-5 Tips: models/gpt-5/tips.md
+    - Gemini Quickstart: models/gemini/quickstart.md
+    - Gemini Tips: models/gemini/tips.md
+  - Tools:
+    - NotebookLM: tools/notebooklm.md
+    - Perplexity Comet: tools/perplexity-comet.md
+  - Evaluations:
+    - Overview: evaluations/README.md
+    - promptfoo.yml: evaluations/promptfoo.yml
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+docs_dir: "."

@@ -1,0 +1,16 @@
+# Minimal promptfoo example (edit to your needs)
+prompts:
+  - |
+    You are an exacting QA assistant.
+    Respond in valid JSON with keys: verdict, reasons.
+    If unsure, set verdict to "insufficient_information".
+
+tests:
+  - vars: { input: "Paris is the capital of France." }
+    assert:
+      - type: contains-json
+      - type: javascript
+        value: |
+          const obj = JSON.parse(output);
+          if (!['ok','insufficient_information'].includes(obj.verdict)) throw 'bad verdict';
+          return true;
