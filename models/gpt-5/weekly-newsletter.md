@@ -32,7 +32,7 @@ This guide shows you how to set up a **weekly, scheduled newsletter workflow** i
 ---
 
 ## Where to find your created ChatGPT Scheduled Tasks
-![ChatGPT Scheduled Tasks](assets/chatgpt_scheduled_tasks.png "ChatGPT Scheduled Tasks")
+<img src="../../assets/chatgpt_scheduled_tasks.png" alt="ChatGPT Scheduled Tasks" width="50%">
 
 ---
 
