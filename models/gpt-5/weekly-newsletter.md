@@ -31,8 +31,8 @@ This guide shows you how to set up a **weekly, scheduled newsletter workflow** i
 
 ---
 
-## Screenshot placeholder (replace later)
-![Scheduled tasks in ChatGPT — placeholder](images/chatgpt-scheduled-tasks.png "All scheduled tasks — replace with your screenshot after setup")
+## Where to find your created ChatGPT Scheduled Tasks
+![ChatGPT Scheduled Tasks](assets/chatgpt_scheduled_tasks.png "ChatGPT Scheduled Tasks")
 
 ---
 
