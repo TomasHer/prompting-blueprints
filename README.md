@@ -1,4 +1,4 @@
-<img src="assets/prompting_blueprints_herda.png" alt="Prompting Blueprints" width="50%">
+<img src="assets/prompting_blueprints_herda.png" alt="Prompting Blueprints" width="80%">
 
 **Prompting Blueprints** is an LLM prompt engineering playbook: reusable patterns, model-specific tips (GPT-5, Gemini), and tool tactics (NotebookLM, Perplexity Comet).
 Use it as a personal portfolio and a reference you can share on LinkedIn.
