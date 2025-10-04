@@ -1,8 +1,6 @@
-# Weekly Newsletter Automation for [*TOPIC*] (ChatGPT + Web Browsing)
+# Weekly Newsletter Automation for your [*TOPIC*]
 
 This guide shows you how to set up a **weekly, scheduled newsletter workflow** inside ChatGPT that searches the web every Thursday at **09:00 GMT**, selects the strongest stories, and produces three outputs you can share immediately: concise newsletter blurbs, a LinkedIn post, and a short SEO article.
-
-> You’ll add one scheduled task and use the **copy‑paste prompt** below. A placeholder for your **Scheduled Tasks** screenshot is included; replace it after you’ve set things up.
 
 ---
 
@@ -27,13 +25,6 @@ This guide shows you how to set up a **weekly, scheduled newsletter workflow** i
 - Stay **opinionated but evidence‑based**, and include the **source link once**.  
 - Optimize naturally for search **without keyword stuffing**.
 
-> **Tip about time zones:** 09:00 GMT is typically **10:00 in winter / 11:00 in summer** for Europe/Vienna. Adjust if needed.
-
----
-
-## Where to find your created ChatGPT Scheduled Tasks
-<img src="../../assets/chatgpt_scheduled_tasks.png" alt="ChatGPT Scheduled Tasks" width="50%">
-
 ---
 
 ## Quick Setup (5 minutes)
@@ -46,16 +37,12 @@ This guide shows you how to set up a **weekly, scheduled newsletter workflow** i
 2) **Create a scheduled task in ChatGPT (Automations).**  
    - **Title:** `Run weekly [*TOPIC*] scan + newsletter`  
    - **Prompt:** Use the **Copy‑Paste Automation Prompt** below.  
-   - **Schedule:** Weekly on **Thursdays at 09:00 GMT**. If your Automations UI allows iCal/VEVENT syntax, use:
-     ```
-     BEGIN:VEVENT
-     RRULE:FREQ=WEEKLY;BYDAY=TH;BYHOUR=9;BYMINUTE=0;BYSECOND=0
-     END:VEVENT
-     ```
+   - **Schedule:** Weekly on **Thursdays at 09:00 GMT**.
    - **Start date:** Next Thursday (or today + 7d).
 
 3) **Confirm it’s listed in your scheduled tasks.**  
-   - Replace the screenshot placeholder above with your own.
+   - Where to find your created ChatGPT Scheduled Tasks? Go to your ChatGPT profile settings.
+<img src="../../assets/chatgpt_scheduled_tasks.png" alt="ChatGPT Scheduled Tasks" width="50%">
 
 4) **First run (optional).**  
    - Trigger the task manually once to generate an initial issue and confirm quality.
@@ -64,7 +51,7 @@ This guide shows you how to set up a **weekly, scheduled newsletter workflow** i
 
 ## Copy‑Paste Automation Prompt (edit the bracketed parts)
 
-> Paste this into the **Prompt** field when creating your scheduled task. Keep the schedule separate in the Automations UI.
+> Paste this into the **Prompt** field when creating your scheduled task.
 
 ```text
 Search for the most important, credible developments in [*TOPIC*] published since the previous run (or, if unavailable, within the past 7 days). Prioritize primary sources, authoritative outlets, and pieces with clear new facts or data. Avoid listicles, press releases with no substance, and speculative hype.
@@ -106,18 +93,6 @@ For each blurb, include:
 
 ---
 
-## Optional query hints for [*TOPIC*]
-
-Use these to guide the search logic (the automation prompt can imply them; adapt to your niche):
-
-- Core query: `[*TOPIC*] (study OR benchmark OR release OR law OR standard OR outage OR update) after:last_run`
-- Authority bias: `site:.gov OR site:.edu OR site:nature.com OR site:who.int` (replace with your domain list)
-- Exclusions: `-rumor -speculation -press release -sponsored`
-- Region filters: add country/region terms where relevant.
-- PDF-heavy areas: add `filetype:pdf` for formal reports.
-
----
-
 ## Quality checklist before you publish
 
 - **Recency:** Dates are current and beyond last week’s run.  
@@ -147,40 +122,7 @@ Use these to guide the search logic (the automation prompt can imply them; adapt
 
 ---
 
-## Example output skeleton (for reference)
-
-```md
-# Weekly [*TOPIC*] Update — 2025-09-25
-
-## Newsletter blurbs (3 × ~100 words)
-### 1) Headline
-**Takeaway:** …  
-**Date:** 2025-09-24  
-**Source:** https://…  
-Summary: …
-
-### 2) Headline
-**Takeaway:** …  
-**Date:** 2025-09-23  
-**Source:** https://…  
-Summary: …
-
-### 3) Headline
-**Takeaway:** …  
-**Date:** 2025-09-22  
-**Source:** https://…  
-Summary: …
-
-## LinkedIn post (~200 words)
-[hook] … [insight] … [question] …
-
-## SEO article (~500 words)
-[intro] … [context] … [analysis] … [implication] … [wrap‑up] … (source link)
-```
-
----
-
 ### Notes
-- This tutorial assumes your ChatGPT workspace supports **Automations**. If not, you can run the same prompt manually each Thursday or use a calendar reminder linking here.
-- Replace every `[ *TOPIC* ]` with your chosen topic label (e.g., “Prompt Engineering,” “AI and Agile,” “LLM Safety”).
+- This tutorial assumes your ChatGPT workspace supports **Scheduled Tasks**. If not, you can run the same prompt manually each Thursday or use a calendar reminder linking here.
+- Replace every `[*TOPIC*]` with your chosen topic label (e.g., “Artificial Intelligence,” “Agile,” “LLM Safety”).
 
