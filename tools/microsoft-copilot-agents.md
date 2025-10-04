@@ -1,4 +1,4 @@
-# Microsoft Copilot Agents Instruction Guide
+# Microsoft Copilot Agents Guide
 
 This guide distills the key practices from the official Microsoft documentation on [writing effective instructions for Copilot agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-instructions). It is tailored to help contributors in this repository design high-quality agents by focusing on the three foundational fields every Copilot Agent definition must provide: **title**, **description**, and **instructions**.
 
