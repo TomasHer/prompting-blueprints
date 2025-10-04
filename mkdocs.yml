@@ -14,8 +14,7 @@ nav:
     - Overview: patterns/pattern-template.md
     - Role + Constraints + Format: patterns/role-constraint-format.md
   - Models:
-    - GPT-5 Quickstart: models/gpt-5/quickstart.md
-    - GPT-5 Tips: models/gpt-5/tips.md
+    - GPT-5 Tips: models/gpt-5/general-tips.md
     - Gemini Quickstart: models/gemini/quickstart.md
     - Gemini Tips: models/gemini/tips.md
   - Tools:
