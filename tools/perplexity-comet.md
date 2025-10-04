@@ -1,4 +1,5 @@
 <img src="../assets/perplexity/perplexity_comet.png" alt="ChatGPT Scheduled Tasks" width="80%">
+
 # Perplexity Comet Tutorial: Multi‑Tab Synthesis for LinkedIn Article
 
 > A step‑by‑step guide showing how to use **Perplexity Comet** to synthesize multiple sources into a polished LinkedIn article—using the XP2025 AI & Agile workshop as a real example.
