@@ -1,6 +1,7 @@
-# Perplexity Comet Tutorial: Multi‑Tab Synthesis → LinkedIn Article (XP2025 AI & Agile)
+<img src="../assets/perplexity/perplexity_comet.png" alt="ChatGPT Scheduled Tasks" width="80%">
+# Perplexity Comet Tutorial: Multi‑Tab Synthesis for LinkedIn Article
 
-> A step‑by‑step guide showing how to use **Perplexity Comet** to synthesize multiple sources into a polished LinkedIn article—using the XP2025 AI & Agile workshop as a real example. Screenshots are marked as placeholders for you to replace.
+> A step‑by‑step guide showing how to use **Perplexity Comet** to synthesize multiple sources into a polished LinkedIn article—using the XP2025 AI & Agile workshop as a real example.
 
 ---
 
@@ -27,8 +28,8 @@ This tutorial demonstrates a reproducible workflow in **Perplexity Comet** to:
 
 ## Prerequisites
 
-- Access to **Perplexity Comet** (no special settings required)
-- A LinkedIn account with access to **Write article**
+- Access to **Perplexity Comet**
+- A LinkedIn account
 - Your sources prepared as public links or files
 
 ---
@@ -49,18 +50,16 @@ This tutorial demonstrates a reproducible workflow in **Perplexity Comet** to:
 ## What You’ll Build (Key Moments / Screenshots)
 
 1. **Consolidate 3 tabs into one summary** (citations visible).  
-   _Screenshot placeholder:_ `images/01-comet-tabs.png`  
+<img src="../assets/perplexity/perplexity_1.png" alt="ChatGPT Scheduled Tasks" width="80%">
    **Alt text:** Perplexity Comet with @tab1, @tab2, @tab3 open and cited in the response.
 
 2. **Navigate to LinkedIn → Write article** and create a **draft** with title + body.  
-   _Screenshot placeholder:_ `images/02-linkedin-create-article.png`  
+<img src="../assets/perplexity/perplexity_2.png" alt="ChatGPT Scheduled Tasks" width="80%">
    **Alt text:** LinkedIn “Write article” screen with title and editor visible.
 
 3. **Human‑in‑the‑loop review** before posting.  
-   _Screenshot placeholder:_ `images/03-human-review-checklist.png`  
+<img src="../assets/perplexity/perplexity_3.png" alt="ChatGPT Scheduled Tasks" width="80%">
    **Alt text:** A short checklist verifying accuracy, citations, tone, and links before publishing.
-
-> You can add more screenshots (e.g., running the prompt, refining sections, or verifying citations).
 
 ---
 
@@ -73,8 +72,6 @@ This tutorial demonstrates a reproducible workflow in **Perplexity Comet** to:
    - @tab2 → `https://arxiv.org/pdf/2508.20563`  
    - @tab3 → `https://gpt-lab.eu/ai-agile-workshop-xp2025/`
 
-> _Screenshot placeholder:_ `images/01-comet-tabs.png`
-
 **Tip:** Ensure each tab opens and is readable (PDF viewer or webpage preview).
 
 ---
@@ -83,7 +80,7 @@ This tutorial demonstrates a reproducible workflow in **Perplexity Comet** to:
 
 Paste the **Starter Prompt Template** into Comet’s chat and run it. This template asks Comet to synthesize content into a LinkedIn article with a clear structure (hook → summary → sections → insights → CTA) and proper citations.
 
-> _Screenshot placeholder:_ `images/04-run-starter-prompt.png`
+<img src="../assets/perplexity/perplexity_4.png" alt="ChatGPT Scheduled Tasks" width="80%">
 
 ---
 
@@ -93,8 +90,6 @@ Paste the **Starter Prompt Template** into Comet’s chat and run it. This templ
 - Verify **flow**: hook → executive summary → main sections → professional insights → CTA.
 - If something is missing, ask a **targeted follow‑up** in the same chat (e.g., “Tighten the executive summary to 2 sentences,” “Add explicit quotes from @tab2,” “Ensure @tab3 is cited in the second section”).
 
-> _Screenshot placeholder:_ `images/05-review-draft.png`
-
 ---
 
 ### 4) Move the draft to LinkedIn (Articles)
@@ -103,8 +98,6 @@ Paste the **Starter Prompt Template** into Comet’s chat and run it. This templ
 2. Paste the **title** and **body** from Comet’s output.  
 3. Add any images or formatting you want.  
 4. Save as **draft**.
-
-> _Screenshot placeholder:_ `images/02-linkedin-create-article.png`
 
 **Tip:** If Comet provides multiple title options, pick the one that best matches your audience and keywords.
 
@@ -121,8 +114,6 @@ Before publishing, run this checklist:
 - **Call‑to‑Action:** Ends with a question or invitation to discuss.  
 - **Links:** External links open correctly and are publicly accessible.
 
-> _Screenshot placeholder:_ `images/03-human-review-checklist.png`
-
 When satisfied, **publish** the article.
 
 ---
@@ -135,8 +126,8 @@ Analyze the content from @tab1 and @tab2, then create a comprehensive LinkedIn a
 **TASK:** Multi-tab content synthesis into LinkedIn article format
 
 **CONTENT SOURCES:**
-- Primary source: @tab1 
-- Secondary source: @tab2
+- Primary source: @tab1 and @tab2
+- Secondary source: @tab3
 
 **ARTICLE REQUIREMENTS:**
 1. **Hook**: Start with an attention-grabbing opening that connects both sources
@@ -166,53 +157,11 @@ Analyze the content from @tab1 and @tab2, then create a comprehensive LinkedIn a
 
 ---
 
-## Optional: 3‑Tab Variant (if you include @tab3)
-
-When you want to include a third source, minimally adapt the prompt like this:
-
-```text
-Analyze the content from @tab1, @tab2, and @tab3, then create a comprehensive LinkedIn article following this structure:
-
-**TASK:** Multi-tab content synthesis into LinkedIn article format
-
-**CONTENT SOURCES:**
-- Primary source: @tab1 
-- Secondary sources: @tab2 and @tab3
-
-**ARTICLE REQUIREMENTS:**
-1. **Hook**: Start with an attention-grabbing opening that connects all three sources
-2. **Executive Summary**: 2-3 sentences highlighting the key insights across tabs
-3. **Main Content**: 
-   - Synthesize insights into 3-4 key sections
-   - Include specific examples, data points, or quotes from each tab
-   - Create logical flow and explicitly knit together insights from @tab1, @tab2, @tab3
-4. **Professional Insights**: Add 2-3 actionable takeaways for LinkedIn audience
-5. **Call-to-Action**: End with engagement question or discussion prompt
-
-**FORMAT SPECIFICATIONS:**
-- Length: 800-1200 words optimal for LinkedIn
-- Use subheadings for readability
-- Include bullet points where appropriate
-- Add relevant hashtags (5-7 maximum)
-- Mention any companies, tools, or people referenced in the tabs
-- Maintain professional, conversational tone
-
-**CITATION REQUIREMENTS:**
-- Reference specific information from each tab
-- Include links to original sources if available
-- Credit any authors, companies, or research mentioned
-
-**OUTPUT:** Complete LinkedIn article ready for posting with proper formatting and structure.
-```
-
----
-
 ## Tips & Pitfalls
 
 - **Be explicit about sources.** Name the tabs in your prompt and ask Comet to attribute specific claims.  
 - **Use short follow‑ups.** Iterate on sections (“tighten the hook,” “add two quotes from @tab2”).  
 - **Mind PDFs.** If a PDF is long, ask for page‑anchored citations (e.g., “cite @tab1 pp. 3–5 when quoting results”).  
-- **No logos needed.** Keep visuals simple; screenshots should focus on the workflow steps.  
 - **Privacy.** Redact personal data in screenshots if any appear in your tabs or LinkedIn UI.
 
 ---
@@ -232,13 +181,3 @@ Analyze the content from @tab1, @tab2, and @tab3, then create a comprehensive Li
 - **Example final article:** <https://www.linkedin.com/pulse/xp2025-ai-agile-software-development-workshop-insights-tomas-herda-5blye>
 
 ---
-
-## How to Use This File
-
-- Place this file at your repository root (e.g., `README.md`).  
-- Add screenshots into an `images/` folder and update the file names if you choose different names.  
-- Replace or extend the prompt blocks as you iterate on your workflow.
-
----
-
-*No logos or proprietary assets are included. You control which screenshots and links you publish.*
