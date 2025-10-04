@@ -19,6 +19,7 @@ nav:
     - Gemini Quickstart: models/gemini/quickstart.md
     - Gemini Tips: models/gemini/tips.md
   - Tools:
+    - Copilot Agent Instruction Guide: tools/copilot-agent-instruction-guide.md
     - NotebookLM: tools/notebooklm.md
     - Perplexity Comet: tools/perplexity-comet.md
   - Evaluations:
