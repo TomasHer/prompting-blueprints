@@ -1,3 +1,5 @@
+<img src="../assets/microsoft/copilot_agent_builder.png" alt="ChatGPT Scheduled Tasks" width="80%">
+
 # Microsoft Copilot Agents Guide
 
 This guide distills the key practices from the official Microsoft documentation on [writing effective instructions for Copilot agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-instructions). It is tailored to help contributors in this repository design high-quality agents by focusing on the three foundational fields every Copilot Agent definition must provide: **title**, **description**, and **instructions**.
