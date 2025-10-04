@@ -1,4 +1,4 @@
-# Guide to High-Impact Prompting Patterns
+# Guide to Prompt Pattern Catalogue
 
 This guide summarizes seven prompting patterns from Dr. Jules White's research on prompting blueprints and explains when and how to apply them in practice. Each section provides a quick diagnostic for when the pattern is useful, a step-by-step workflow, and an example scaffold you can adapt in your own prompts.
 
