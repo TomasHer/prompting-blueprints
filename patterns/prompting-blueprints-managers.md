@@ -1,8 +1,4 @@
----
-title: "Prompting Blueprints for Managers"
-tags: ["managers", "tutorial", "prompting"]
-last_updated: 2024-05-06
----
+<img src="../assets/openai/openai_academy1.jpeg" alt="OpenAI Academy" width="80%">
 
 # Prompting Blueprints for Managers
 
