@@ -1,4 +1,4 @@
-<img src="../assets/microsoft/copilot_agent_builder.png" alt="ChatGPT Scheduled Tasks" width="80%">
+<img src="../assets/microsoft/copilot_agent_builder.png" alt="Copilot Agent Builder" width="80%">
 
 # Microsoft Copilot Agents Guide
 
