@@ -1,4 +1,4 @@
-<img src="../assets/perplexity/perplexity_comet.png" alt="ChatGPT Scheduled Tasks" width="80%">
+<img src="../assets/perplexity/perplexity_comet.png" alt="Perplexity Comet" width="80%">
 
 # Perplexity Comet Tutorial: Multi‑Tab Synthesis for LinkedIn Article
 
