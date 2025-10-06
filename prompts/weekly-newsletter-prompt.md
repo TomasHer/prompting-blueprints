@@ -42,7 +42,7 @@ This guide shows you how to set up a **weekly, scheduled newsletter workflow** i
 
 3) **Confirm it’s listed in your scheduled tasks.**  
    - Where to find your created ChatGPT Scheduled Tasks? Go to your ChatGPT profile settings.
-<img src="../../assets/chatgpt_scheduled_tasks.png" alt="ChatGPT Scheduled Tasks" width="50%">
+<img src="../assets/openai/chatgpt_scheduled_tasks.png" alt="ChatGPT Scheduled Tasks" width="50%">
 
 4) **First run (optional).**  
    - Trigger the task manually once to generate an initial issue and confirm quality.
