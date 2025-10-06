@@ -1,6 +1,6 @@
 <img src="assets/prompting_blueprints_herda.png" alt="Prompting Blueprints" width="100%">
 
-**Prompting Blueprints** is an LLM prompt engineering playbook: reusable patterns, model-specific tips (GPT-5, Gemini), and tool tactics (NotebookLM, Perplexity Comet).
+**Prompting Blueprints** is an LLM prompt engineering playbook: reusable patterns, ready-to-run prompt packs, model-specific tips (GPT-5, Gemini), and tool tactics (NotebookLM, Perplexity Comet).
 Use it as a personal portfolio and a reference you can share on LinkedIn.
 
 > ✅ **Ready for GitHub Pages** via MkDocs Material (see `.github/workflows/gh-pages.yml`).
@@ -8,17 +8,19 @@ Use it as a personal portfolio and a reference you can share on LinkedIn.
 > ✅ **Social preview** image included in `assets/social-preview.png` (set it in Repo → Settings → Social preview).
 
 ## What’s inside
-- **Patterns** (`/patterns`): Reusable templates (Role + Constraints + Format, Few-shot scaffolds, Guardrails).
-- **Models** (`/models`): Nuances and tips for GPT-5 and Gemini.
-- **Tools** (`/tools`): Practical tactics for NotebookLM and Perplexity Comet.
-- **Use cases** (`/use-cases`): Copy-paste prompts for common tasks.
+- **Patterns** (`/patterns`): Reusable templates like Role + Constraints + Format and the prompt pattern catalogue guide.
+- **Prompts** (`/prompts`): Ready-made collections (e.g., manager blueprints, newsletter workflows) to paste into your model of choice.
+- **Models** (`/models`): Nuances and tips for GPT-5 and Gemini (quickstarts and deeper guides).
+- **Tools** (`/tools`): Practical tactics for NotebookLM, Perplexity Comet, and Microsoft Copilot Agents.
+- **Use cases** (`/use-cases`): Applied prompts such as research note generation.
 - **Evaluations** (`/evaluations`): Example `promptfoo.yml` assertions and usage.
 
 ## Quick start
 1. Browse [/patterns](./patterns) for model-agnostic scaffolds.
-2. See [/models/gpt-5](./models/gpt-5) and [/models/gemini](./models/gemini) for model nuances.
-3. Try [/tools](./tools) to get more from NotebookLM and Perplexity Comet.
-4. Run evaluations (optional): see [/evaluations](./evaluations).
+2. Grab copy-ready prompt packs in [/prompts](./prompts) or scenario-specific flows in [/use-cases](./use-cases).
+3. Dive into [/models/gpt-5](./models/gpt-5) and [/models/gemini](./models/gemini) for model nuances.
+4. Apply tool workflows from [/tools](./tools) to boost productivity.
+5. Run evaluations (optional): see [/evaluations](./evaluations).
 
 ## Example Pattern (Role + Constraints + Output Format)
 **Intent:** Reliable, structured outputs.
