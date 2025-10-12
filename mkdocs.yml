@@ -16,6 +16,7 @@ nav:
   - Prompts:
     - Managers Prompting Blueprints: prompts/managers-prompting-blueprints.md
     - Researchers Prompting Blueprints: prompts/researchers-prompting-blueprints.md
+    - Writers Prompting Blueprints: prompts/writers-prompting-blueprints.md
     - Weekly Newsletter Blueprint: prompts/weekly-newsletter-blueprint.md
   - Models:
     - GPT-5 General Tips: models/gpt-5/general-tips.md
