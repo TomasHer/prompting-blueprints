@@ -1,11 +1,11 @@
-cff-version: 1.2.0
+cff-version: 1.3.0
 message: "If you use this playbook, please cite it as below."
-title: "Prompting Blueprints: LLM Prompt Engineering Playbook"
+title: "Prompting Blueprints by Tomas Herda"
 authors:
-  - family-names: "Your-Last-Name"
-    given-names: "Your-First-Name"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-version: "0.1.0"
+  - family-names: "Herda"
+    given-names: "Tomas"
+    orcid: "https://orcid.org/0009-0005-2912-380X"
+version: "0.1.3"
 date-released: "2025-09-06"
-repository-code: "https://github.com/YOUR_HANDLE/prompting-blueprints"
+repository-code: "https://github.com/TomasHer/prompting-blueprints"
 license: "MIT AND CC-BY-4.0"
