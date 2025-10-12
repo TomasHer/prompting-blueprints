@@ -1,3 +1,5 @@
+<img src="../assets/google/google_notebooklm_audio_overview.jpg" alt="Google NotebookLM Audio Overview" width="80%">
+
 # NotebookLM Audio Overviews Blueprint
 
 ## Intent
@@ -25,14 +27,16 @@ Don’t mention {TERM_Y_TO_AVOID}.
 Don’t repeat {PHRASE_Z} too often.
 Don’t use abbreviation of {TERM_W}; instead say the full version: {TERM_W_FULL}.
 ```
-
 ### Why it works
 - Keeps the narrator centered on the chosen theme while honoring NotebookLM's source attribution.
 - Explicit guardrails reduce the risk of speculative or repetitive narration.
 - Forces clarity by expanding acronyms that might confuse listeners in audio form.
 
 ## Delivery tips inside NotebookLM
-1. Run a first pass with the blueprint, then review the generated outline and citations.
+1. Run a first pass with the blueprint, then review the generated audio.
+
+<img src="../assets/google/google_notebooklm.png" alt="Google NotebookLM Custom Instructions" width="80%">
+
 2. Ask follow-up questions such as "Highlight the strongest supporting quote" or "Suggest a tighter intro" to polish the script before rendering audio.
 3. Use NotebookLM's highlight playback to confirm that every point traces back to your uploaded materials.
 4. Share the finished overview with collaborators and note any additional guardrails for future revisions.
