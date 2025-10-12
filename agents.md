@@ -36,6 +36,7 @@
 - Add/edit Markdown content in `patterns/`, `prompts/`, `use-cases/`, `models/`, `tools/`.
 - Add/edit evaluation configs under `evaluations/` and lightweight supporting assets.
 - Update `mkdocs.yml` **only** to register new or renamed pages you introduce.
+- Update `external-sources.md` **only** to register new external sources in alphabetical order.
 - Fix typos, broken links, headings, anchors, or front-matter across the repo.
 
 ### 🚫 You must not
