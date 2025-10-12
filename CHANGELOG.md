@@ -7,6 +7,7 @@ All notable changes to this project will be documented here.
 - Add writers prompting blueprints for typography and style guardrails.
 - Add Microsoft Copilot Researcher Agent blueprint with reasoning prompt patterns.
 - Add consolidated external sources index covering referenced links across the repo.
+- Rename NotebookLM tactics doc and expand it into an audio overview blueprint with source-linked guardrails.
 
 ## 2025-09-06
 - Initial public release: scaffolding, patterns, model & tool tips, evaluations, MkDocs + Pages workflow.

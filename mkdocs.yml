@@ -25,7 +25,7 @@ nav:
   - Tools:
     - Microsoft Copilot Agents: tools/microsoft-copilot-agents.md
     - Microsoft Copilot Researcher Agent: tools/microsoft-copilot-researcher-agent.md
-    - NotebookLM: tools/notebooklm.md
+    - NotebookLM Audio Overviews: tools/notebooklm-audio-overviews-blueprint.md
     - Perplexity Comet: tools/perplexity-comet.md
   - Use Cases:
     - Research Notes: use-cases/research-notes.md
