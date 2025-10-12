@@ -10,78 +10,70 @@ Equip writers and editors with ready-to-use prompting scaffolds that enforce edi
 
 ## Blueprint: Avoiding double dashes
 This instruction ensures manuscripts stay typographically clean by replacing the model's default `--` em dash substitution with an actual em dash or rephrased sentence.
-
-### Prompt structure
-1. **Role framing** — Position the model as a meticulous copy editor applying a specific typography rule.
-2. **Constraint** — Explicitly forbid the `--` pattern and explain the required replacement behavior.
-3. **Revision steps** — Ask for a quick scan before rewriting to minimize cascading edits.
-4. **Output format** — Return only the corrected passage so writers can paste the result into their document.
-
-### Template
 ```
-You are a professional copy editor specializing in long-form manuscripts.
+LLMs should avoid using em dashes (—) when generating text. Apply these guidelines instead:
+Use commas for parenthetical or interruptive phrases.
+Use periods to separate independent clauses for clarity and emphasis.
+Use colons to introduce lists or explanations.
+Use ellipses (...) sparingly, and only in narration, to indicate a soft dramatic pause—not to 
+imply incomplete thoughts.
 
-Instruction: Read the supplied passage and revise it so there are no instances of the double hyphen sequence `--`. Replace each occurrence with an em dash `—` or rewrite the sentence if an em dash would be awkward. Preserve all other content and punctuation.
-
-Steps:
-1. Re-read the passage once to spot any `--` sequences.
-2. For each occurrence, decide whether an em dash `—` is appropriate or whether the sentence should be split/rephrased.
-3. Return the fully revised passage with no commentary.
-
-Output format: Revised passage only, no bullet points, no explanations.
+Revisions:
+“He arrived—unexpectedly—at the meeting.” → “He arrived, unexpectedly, at the meeting.”
+“The storm passed—they were relieved.” → “The storm passed. They were relieved.”
+“She packed three things—books, snacks, headphones.” 
+→ “She packed three things: books, snacks, headphones.”
+“I was about to reply—” → “I was about to reply...”
+“If only they had listened—” → “If only they had listened.”
+"Our neighbor—Mrs. Patel—moved away last month.” 
+→ "Our neighbor, Mrs. Patel, moved away last month."
+"He told me to head to—” → "He told me to head to..."
+"She opened the gift—and smiled."
+→ "She opened the gift. She smiled."
+→ "She opened the gift and smiled."
+→ "She opened the gift...and smiled." (Use sparingly)
 ```
-
-### Example (from the source)
-```
-Avoiding Double Dashes Instruction
-
-Instruction: Replace double dashes (--) with em dashes (—).
-
-Example Input: The research team -- comprised of linguists and engineers -- submitted the paper on time.
-Example Output: The research team — comprised of linguists and engineers — submitted the paper on time.
-```
-
-### Adaptation tips for writers/editors
-- Pair this blueprint with a second pass for house style (e.g., Oxford comma usage) when preparing manuscripts for publication.
-- If your CMS strips em dashes, swap the replacement rule for spaced hyphens or parentheses instead.
-- When collaborating with authors, include a short rationale explaining why double dashes are flagged to encourage consistent adoption.
 
 ## Blueprint: Writing styles instruction
 Use this pattern to enforce a target tone or genre so the model mirrors a specific voice across drafts, newsletter blurbs, or academic abstracts.
-
-### Prompt structure
-1. **Role framing** — Identify the stylistic persona (e.g., "award-winning narrative nonfiction editor").
-2. **Style guide bullets** — Provide crisp, scannable cues that capture pacing, diction, and perspective.
-3. **Content brief** — Supply the core message or outline the model must work from.
-4. **Quality bar** — Clarify revision loops or acceptance criteria so the model self-audits before finalizing.
-
-### Template
 ```
-You are an editor coaching an author to write in the <STYLE_REFERENCE> voice.
+Use simple language:
+Write clearly using short, plain sentences.
+Good example: "I need help with this issue."
 
-Context:
-- Audience: <AUDIENCE_DETAILS>
-- Key points to cover: <BULLET_LIST>
+Avoid AI-sounding phrases:
+Skip clichés like “dive into” or “unleash your potential.”
+Avoid: "Let's dive into this game-changing solution."
+Good example: "Here's how it works."
 
-Style requirements:
-- <RULE_1>
-- <RULE_2>
-- <RULE_3>
+Be direct and concise:
+Get to the point. Cut unnecessary words.
+Good example: "We should meet tomorrow."
 
-Task:
-1. Draft the passage in the requested style while incorporating every key point.
-2. Reread to confirm the style requirements are met.
-3. Return the final draft as a single block of prose.
-```
+Keep a natural tone:
+Write like you talk. It’s fine to start with “and” or “but.”
+Good example: "And that’s why it matters."
 
-### Example (from the source)
-```
-Writing Styles Instruction
+Skip marketing language:
+Avoid hype or exaggerated claims.
+Avoid: "This revolutionary product will transform your life."
+Good example: "This product can help you."
 
-Instruction: Write in the style of the Economist.
+Be honest and real:
+Don’t force friendliness or enthusiasm.
+Good example: "I don’t think that’s the best idea."
 
-Example Input: Summarize the latest AI policy updates in Europe.
-Example Output: The Continent’s policymakers, never shy of regulation, have unfurled fresh strictures on artificial intelligence. The package tightens data-use disclosures, nudges labs toward watermarking, and hints at future audits—all delivered in prose as dry as Brussels paperwork.
+Simplify grammar:
+Perfect grammar isn’t required. Use your natural style.
+Good example: "I guess we can try that."
+
+Cut the fluff:
+Avoid unnecessary adjectives and adverbs.
+Good example: "We finished the task."
+
+Focus on clarity:
+Make your message easy to understand.
+Good example: "Please send the file by Monday."
 ```
 
 ### Adaptation tips for writers/editors
