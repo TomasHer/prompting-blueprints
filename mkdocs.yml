@@ -24,6 +24,7 @@ nav:
     - Gemini General Tips: models/gemini/general-tips.md
   - Tools:
     - Microsoft Copilot Agents: tools/microsoft-copilot-agents.md
+    - Microsoft Copilot Researcher Agent: tools/microsoft-copilot-researcher-agent.md
     - NotebookLM: tools/notebooklm.md
     - Perplexity Comet: tools/perplexity-comet.md
   - Use Cases:
