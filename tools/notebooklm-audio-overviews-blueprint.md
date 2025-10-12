@@ -15,7 +15,7 @@ Help NotebookLM creators turn curated source packets into focused, source-ground
 - Upload transcripts, briefs, or outlines that clearly define the "topic X" focus for the audio.
 - Note down disallowed terms ("Y"), phrases you want to throttle ("Z"), and the full expansion for any acronym ("W").
 
-## Prompt blueprint (from Tomas Herdan's LinkedIn playbook)
+## Prompt blueprint (from Tomas Herda's LinkedIn playbook)
 Paste this into an Audio Overview prompt or pin it as a persistent instruction inside the Notebook. Replace the placeholders before running:
 
 ```
@@ -38,5 +38,5 @@ Don’t use abbreviation of {TERM_W}; instead say the full version: {TERM_W_FULL
 4. Share the finished overview with collaborators and note any additional guardrails for future revisions.
 
 ## References
-- Prompt adapted from Tomas Herdan's LinkedIn post on NotebookLM audio strategies: <https://www.linkedin.com/posts/herdatom_notebooklm-google-aiandagile-activity-7323293140201709569-mBAU>
+- Prompt adapted from Tomas Herda's LinkedIn post on NotebookLM audio strategies: <https://www.linkedin.com/posts/herdatom_notebooklm-google-aiandagile-activity-7323293140201709569-mBAU>
 - Additional Google guidance on Audio Overviews: <https://notebooklm.google/audio>
