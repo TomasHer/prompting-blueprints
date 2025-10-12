@@ -16,12 +16,19 @@ Provide academic researchers with ready-to-use prompting patterns that improve c
 3. Share relevant study context, datasets, or preliminary analyses.
 4. Ask for outputs that align with both the persona and your target deliverable (e.g., abstract, reviewer response).
 
-**Example prompt**
+**Blueprint**
 ```text
 Act as <persona> who specializes in <domain>. Maintain a <tone> voice.
 Given the following context, provide guidance aligned with this role.
 CONTEXT: <insert details>
 OUTPUT: <describe format, e.g., bullet recommendations, narrative, etc.>
+```
+
+**Example**
+```text
+From now on, act as a senior academic journal reviewer in the field of computer science. 
+When I share my research abstract or methodology, provide feedback as a reviewer would, 
+focusing on clarity, novelty, and methodological rigor.
 ```
 
 ## Question Refinement Pattern — "Suggest a Better Question"
@@ -37,11 +44,26 @@ OUTPUT: <describe format, e.g., bullet recommendations, narrative, etc.>
 3. Request a short rationale for the revision to ensure it fits your research design.
 4. Iterate with follow-up refinements until the question is publication-ready.
 
-**Example prompt**
+**Blueprint**
 ```text
 Within the scope of <domain or constraints>, suggest a better version of the following question:
 "<original question>"
 Explain why your revision will lead to a more useful answer.
+```
+
+**Example**
+```text
+Whenever I ask a question related to designing a research experiment or selecting a methodology, 
+suggest a better version of the question that includes relevant variables, constraints, 
+or assumptions. Then ask me if I’d like to proceed with your refined version.
+```
+
+**Another Example**
+```text
+Whenever I share a new research idea, ask me 10 detailed questions that will help refine and 
+clarify the idea. These questions should cover aspects such as the research problem, objectives, 
+methodology, data sources, expected outcomes, and potential limitations. After I answer them, 
+use my responses to suggest a more focused and well-structured version of my original research idea.
 ```
 
 ## Alternative Approaches Pattern — "List the Best Alternatives"
@@ -57,11 +79,19 @@ Explain why your revision will lead to a more useful answer.
 3. Request pros, cons, risks, and required expertise for each option.
 4. Follow up by stress-testing the top candidates with deeper analysis or pilot considerations.
 
-**Example prompt**
+**Blueprint**
 ```text
 Within the scope of <project or constraints>, list the top <N> alternative ways to accomplish <goal>.
 For each approach, include: summary, key advantages, trade-offs, and required resources.
 Conclude with guidance on when to choose each option.
+```
+
+**Example**
+```text
+Whenever I ask how to analyze my research data, suggest at least two alternative statistical or 
+computational methods, compare their strengths and weaknesses in terms of accuracy, 
+interpretability, and suitability for small sample sizes, and then ask me which one I’d like to 
+explore further.
 ```
 
 ## Fact Check List Pattern — "List the Facts in the Output"
@@ -77,12 +107,19 @@ Conclude with guidance on when to choose each option.
 3. Optionally, request confidence levels or suggested primary sources to confirm the facts.
 4. Use the list to drive manual verification, annotation, or citation management workflows.
 
-**Example prompt**
+**Blueprint**
 ```text
 Given the following output, extract every factual claim into a checklist for verification.
 For each fact, include a short label and the exact statement.
 OUTPUT TO CHECK:
 <insert text>
+```
+
+**Example**
+```text
+When you generate a literature review summary or suggest related work, include a list of key 
+factual claims or references that should be verified for accuracy and relevance to my research 
+topic in machine learning. 
 ```
 
 ## Flipped Interaction Pattern — "Ask Me Questions to Achieve X"
@@ -98,10 +135,17 @@ OUTPUT TO CHECK:
 3. Respond to each question with concrete methodological, logistical, or theoretical information.
 4. When all questions are answered, request a synthesized output tailored to your target audience (e.g., reviewers, lab team).
 
-**Example prompt**
+**Blueprint**
 ```text
 I am preparing an academic manuscript on <research topic>. Ask me one question at a time to clarify the study's objectives, data, methods, and theoretical framing before writing anything.
 After I confirm you have enough detail, draft a structured outline that includes research questions, methodology, expected contributions, and follow-up experiments.
+```
+
+**Example**
+```text
+I would like to create a prompt suitable for reasoning LLM. Topic is suggestions about effective 
+prompt engineering techniques for Intent Classification within Customer Service questions. Give me 
+a simple list of 10 questions that will help to get enough context to build the right prompt.
 ```
 
 ## References
