@@ -6,6 +6,7 @@ All notable changes to this project will be documented here.
 - Add researchers prompting blueprints for academic workflows.
 - Add writers prompting blueprints for typography and style guardrails.
 - Add Microsoft Copilot Researcher Agent blueprint with reasoning prompt patterns.
+- Add consolidated external sources index covering referenced links across the repo.
 
 ## 2025-09-06
 - Initial public release: scaffolding, patterns, model & tool tips, evaluations, MkDocs + Pages workflow.
