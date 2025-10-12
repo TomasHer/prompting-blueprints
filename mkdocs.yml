@@ -15,6 +15,7 @@ nav:
     - Guide to Prompt Pattern Catalogue: patterns/prompt-pattern-catalogue-guide.md
   - Prompts:
     - Managers Prompting Blueprints: prompts/managers-prompting-blueprints.md
+    - Researchers Prompting Blueprints: prompts/researchers-prompting-blueprints.md
     - Weekly Newsletter Blueprint: prompts/weekly-newsletter-blueprint.md
   - Models:
     - GPT-5 General Tips: models/gpt-5/general-tips.md
