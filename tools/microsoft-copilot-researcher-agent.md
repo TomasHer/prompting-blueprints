@@ -1,3 +1,5 @@
+<img src="../assets/microsoft/microsoft_researcher_agent.png" alt="Microsoft Copilot Researcher Agent" width="80%">
+
 # Microsoft Copilot Researcher Agent Blueprint
 
 ## Intent
