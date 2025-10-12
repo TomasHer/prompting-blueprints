@@ -1,4 +1,4 @@
-# Writer Prompting Blueprints
+# Writers Prompting Blueprints
 
 ## Intent
 Equip writers and editors with ready-to-use prompting scaffolds that enforce editorial standards while leveraging reasoning-capable LLMs for drafting, revising, and polishing long-form or short-form copy.
