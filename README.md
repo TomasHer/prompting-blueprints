@@ -1,29 +1,61 @@
 <img src="assets/prompting_blueprints_herda.png" alt="Prompting Blueprints" width="100%">
 
-**Prompting Blueprints** is an LLM prompt engineering playbook: reusable patterns, ready-to-run prompt packs, model-specific tips (GPT-5, Gemini), and tool tactics (NotebookLM, Perplexity Comet).
-Use it as a personal portfolio and a reference you can share on LinkedIn.
+# Prompting Blueprints
 
-> ✅ **Ready for GitHub Pages** via MkDocs Material (see `.github/workflows/gh-pages.yml`).
-> ✅ **Dual-license**: Code under MIT, content under CC BY 4.0.
-> ✅ **Social preview** image included in `assets/prompting_blueprints_herda_social.png`.
+Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT‑5, Gemini), and tool playbooks (NotebookLM, Perplexity Comet, Copilot Agents). Includes example evaluations with **promptfoo**.
+
+<p align="left">
+  <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/code-MIT-green.svg"></a>
+  <a href="./LICENSE-DOCS"><img alt="Docs License: CC BY 4.0" src="https://img.shields.io/badge/docs-CC%20BY%204.0-blue.svg"></a>
+  <a href="./CONTRIBUTING.md"><img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg"></a>
+  <a href="https://github.com/TomasHer/prompting-blueprints/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/TomasHer/prompting-blueprints.svg?style=social"></a>
+</p>
+
+> Use this repo as your **prompting portfolio & playbook**: share highlights on LinkedIn, fork for your team, and adapt patterns to your use cases.
+
+---
+
+## TL;DR
+- **Patterns:** reusable scaffolds (role + constraints + format) → `./patterns`
+- **Prompts:** curated packs for common jobs and workflows → `./prompts`
+- **Models:** specifics for GPT‑5 & Gemini (dos/don’ts, quickstarts) → `./models`
+- **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents → `./tools`
+- **Use cases:** applied flows (e.g., research notes) → `./use-cases`
+- **Evaluations:** `promptfoo` assertions & samples → `./evaluations`
+
+Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models) · [tools](./tools) · [use‑cases](./use-cases) · [evaluations](./evaluations) · [changelog](./CHANGELOG.md)
+
+---
+
+## Who is this for?
+- **Practitioners & teams** who want consistent, high‑quality outputs
+- **Leads & educators** who need examples they can demo and share
+- **Everyone** looking for opinionated, “just‑paste‑this” prompts with structure
 
 ## What’s inside
-- **Patterns** (`/patterns`): Reusable templates like Role + Constraints + Format and the prompt pattern catalogue guide.
-- **Prompts** (`/prompts`): Ready-made collections (e.g., manager blueprints, newsletter workflows) to paste into your model of choice.
-- **Models** (`/models`): Nuances and tips for GPT-5 and Gemini (quickstarts and deeper guides).
-- **Tools** (`/tools`): Practical tactics for NotebookLM, Perplexity Comet, and Microsoft Copilot Agents.
-- **Use cases** (`/use-cases`): Applied prompts such as research note generation.
-- **Evaluations** (`/evaluations`): Example `promptfoo.yml` assertions and usage.
+- A **pattern catalog**: role, constraints, format, guardrails
+- **Copy‑ready prompt packs** organized by job/function
+- **Model guides**: nuances, capabilities, and pitfalls
+- **Tool playbooks**: tactical prompts and workflows
+- **Evaluation samples**: promptfoo assertions & runs
+
+---
 
 ## Quick start
-1. Browse [/patterns](./patterns) for model-agnostic scaffolds.
-2. Grab copy-ready prompt packs in [/prompts](./prompts) or scenario-specific flows in [/use-cases](./use-cases).
-3. Dive into [/models/gpt-5](./models/gpt-5) and [/models/gemini](./models/gemini) for model nuances.
-4. Apply tool workflows from [/tools](./tools) to boost productivity.
-5. Run evaluations (optional): see [/evaluations](./evaluations).
+```bash
+# 1) Clone
+git clone https://github.com/TomasHer/prompting-blueprints.git
+cd prompting-blueprints
 
-## Example Pattern (Role + Constraints + Output Format)
-**Intent:** Reliable, structured outputs.
+# 2) Browse patterns & prompts
+# (open folders in your editor and copy what you need)
+
+# 3) Optional: run local docs site
+pip install mkdocs-material
+mkdocs serve  # http://127.0.0.1:8000
+```
+
+### Example pattern (Role + Constraints + JSON output)
 ```text
 You are an exacting <ROLE>. Follow ALL constraints.
 
@@ -42,16 +74,152 @@ OUTPUT FORMAT (JSON):
 }
 ```
 
-## Site docs
-This repo uses **MkDocs Material**. GitHub Actions builds the site and deploys to GitHub Pages on every push to `main`.
-- Config: [`mkdocs.yml`](./mkdocs.yml) (uses the repo root as `docs_dir`).
-- Workflow: [`.github/workflows/gh-pages.yml`](.github/workflows/gh-pages.yml).
-
-## License
-- **Code**: MIT — see [LICENSE](./LICENSE)
-- **Documentation & prompts**: CC BY 4.0 — see [LICENSE-DOCS](./LICENSE-DOCS)
+> Tip: Save reusable **roles** and **formats** in your editor snippets.
 
 ---
 
-**Author:** Tomas Herda
-**LinkedIn:** https://www.linkedin.com/in/herdatom
+## Evaluations with promptfoo (optional)
+This repo ships example assertions and configs under `./evaluations`.
+
+```bash
+# Install
+npm -g i promptfoo  # or: npx promptfoo@latest
+
+# Dry‑run an example config (edit paths as needed)
+promptfoo eval -c evaluations/promptfoo.yml
+
+# Open the dashboard
+promptfoo view
+```
+
+> Keep your own API keys in `.env` (promptfoo supports env var substitution). Do **not** commit secrets.
+
+---
+
+## Publish as a website (MkDocs Material)
+This repository is ready to build a static documentation site with MkDocs.
+
+### 1) Local preview
+```bash
+pip install mkdocs-material
+mkdocs serve
+```
+
+### 2) GitHub Pages deploy (GitHub Actions)
+If you don’t already have a Pages workflow, add **`.github/workflows/gh-pages.yml`**:
+
+```yaml
+name: Deploy MkDocs to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install deps
+        run: |
+          pip install mkdocs-material
+      - name: Build site
+        run: mkdocs build --strict
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+Then go to **Settings → Pages** and select “GitHub Actions” as the source.
+
+> The site title, navigation, and theme are configured in [`mkdocs.yml`](./mkdocs.yml). This repo uses the root directory as `docs_dir`, so Markdown at the root appears in the site.
+
+---
+
+## Repository structure
+```text
+assets/                 # social preview, images
+patterns/               # pattern catalog & templates
+prompts/                # copy‑ready prompt packs
+models/                 # model guides (gpt‑5, gemini, ...)
+tools/                  # NotebookLM, Perplexity Comet, Copilot Agents
+use-cases/              # applied workflows
+evaluations/            # promptfoo examples
+CHANGELOG.md            # updates
+CONTRIBUTING.md         # how to contribute
+CODE_OF_CONDUCT.md      # community expectations
+CITATION.cff            # how to cite
+LICENSE                 # MIT (code)
+LICENSE-DOCS            # CC BY 4.0 (docs & prompts)
+```
+
+---
+
+## Contributing
+Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) and follow the [Code of Conduct](./CODE_OF_CONDUCT.md). If you add a new pattern or prompt pack, include:
+1. **Intent** (problem it solves)
+2. **Constraints** (guardrails)
+3. **Output format** (JSON/Markdown schema)
+4. **Example input & output**
+
+---
+
+## License
+- **Code:** MIT — see [LICENSE](./LICENSE)
+- **Docs & prompts:** CC BY 4.0 — see [LICENSE‑DOCS](./LICENSE-DOCS)
+
+If you share snippets publicly, please attribute: _“Tomas Herda, Prompting Blueprints (CC BY 4.0)”_.
+
+---
+
+## Cite this work
+Researchers and educators can cite this repo via [CITATION.cff](./CITATION.cff).
+
+```bibtex
+@software{herda_prompting_blueprints,
+  title = {Prompting Blueprints},
+  author = {Herda, Tomas},
+  year = {2025},
+  url = {https://github.com/TomasHer/prompting-blueprints}
+}
+```
+
+---
+
+## Credits
+**Author:** [Tomas Herda](https://www.linkedin.com/in/herdatom)
+
+Social preview image: set it in **Repository → Settings → Social preview** (file: `assets/prompting_blueprints_herda_social.png`).
+
+---
+
+## FAQ
+**Q: Can I use these prompts commercially?**  
+A: Yes. Code is MIT; docs/prompts are CC BY 4.0 (attribution required).
+
+**Q: Which models are supported?**  
+A: Patterns are model‑agnostic; guides cover GPT‑5 and Gemini explicitly.
+
+**Q: How do I run evaluations without exposing secrets?**  
+A: Use environment variables and a local `.env` file that is git‑ignored.
