@@ -5,7 +5,7 @@ Use it as a personal portfolio and a reference you can share on LinkedIn.
 
 > ✅ **Ready for GitHub Pages** via MkDocs Material (see `.github/workflows/gh-pages.yml`).
 > ✅ **Dual-license**: Code under MIT, content under CC BY 4.0.
-> ✅ **Social preview** image included in `assets/social-preview.png` (set it in Repo → Settings → Social preview).
+> ✅ **Social preview** image included in `assets/prompting_blueprints_herda_social.png`.
 
 ## What’s inside
 - **Patterns** (`/patterns`): Reusable templates like Role + Constraints + Format and the prompt pattern catalogue guide.
