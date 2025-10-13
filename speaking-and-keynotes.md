@@ -6,6 +6,8 @@ Use this page to explore Tomas Herda's recent and upcoming speaking engagements 
 ## Upcoming & recent engagements
 - **9 Oct 2025 — 2025 Global LeSS Conference** (Amsterdam, the Netherlands)  
   “Moving toward LeSS: Austrian Post's journey of Simplifying Structures and Empowering Teams” — [Session page](https://less.works/conferenza/sessions/2025-global-less-conference-amsterdam-moving-toward-less-austrian-post-s-journey-of-simplifying-structures-and-empowering-teams-446)
+<img src="assets/speaking/less2025b.PNG" alt="LeSS2025" width="50%">
+
 - **17 Jun 2025 — GAISE 2025 Summer School** (Tampere University, Finland)  
   “Prompting by AI Center of Excellence – Austrian Post” — [Schedule](https://gpt-lab.eu/gaise-2025/schedule/)
 - **XP 2025** — details coming soon
