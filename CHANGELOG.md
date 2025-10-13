@@ -9,6 +9,7 @@ All notable changes to this project will be documented here.
 - Add consolidated external sources index covering referenced links across the repo.
 - Rename NotebookLM tactics doc and expand it into an audio overview blueprint with source-linked guardrails.
 - Register NotebookLM audio overview references in the external sources index.
+- Register Speaking & Keynotes session links in the external sources index.
 - Move Speaking & Keynotes details to a dedicated page linked from the README and site navigation.
 
 ## 2025-09-06
