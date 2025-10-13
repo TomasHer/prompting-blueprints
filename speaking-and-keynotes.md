@@ -45,9 +45,11 @@ Use this page to explore Tomas Herda's recent and upcoming speaking engagements 
 <img src="assets/speaking/xp2023.jpeg" alt="XP2023">
 
 ## Topics
-- Generative AI in practice (prompt patterns, evaluation, guardrails)
-- AI & Agile delivery (LeSS, team workflows, governance)
+- Generative AI in practice (prompt blueprints, patterns, tools)
+- Scaling LeSS and Agile Transformations in enterprise environments
+- AI-augmented software delivery and team workflows
 - Case studies from Austrian Post’s AI Center of Excellence
+- LLM-driven requirements engineering, testing, and quality assurance
 
 ## Formats
 Keynotes (30–45 min) · Conference Talks (10–30 min) · Workshops (2–8 h) · Conference Tracks (1-3 days)
