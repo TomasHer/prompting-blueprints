@@ -42,7 +42,7 @@ Use this page to explore Tomas Herda's recent and upcoming speaking engagements 
   
 - **13 Jun 2023 — XP 2023 - Experience Reports Track** (Amsterdam, the Netherlands)  
   “Restarting Scaled Agile Development at Austrian Post“ — [Experience Report](https://agilealliance.org/resources/experience-reports/restarting-scaled-agile-development-at-austrian-post/)
-<img src="assets/speaking/xp2023.jpeg" alt="XP2023" width="50%">
+<img src="assets/speaking/xp2023.jpeg" alt="XP2023">
 
 ## Topics
 - Generative AI in practice (prompt patterns, evaluation, guardrails)
