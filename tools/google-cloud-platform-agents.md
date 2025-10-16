@@ -1,3 +1,5 @@
+<img src="../assets/google/google_cloud_platform.png" alt="Copilot Agent Builder" width="80%">
+
 # Google Cloud Agent Development Kit (ADK) Quickstart
 
 ## Intent
