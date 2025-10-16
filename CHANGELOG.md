@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Google Cloud ADK quickstart tutorial covering setup, tooling, and deployment guidance.
 - Add researchers prompting blueprints for academic workflows.
 - Add writers prompting blueprints for typography and style guardrails.
 - Add Microsoft Copilot Researcher Agent blueprint with reasoning prompt patterns.
