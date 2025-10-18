@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add static image preview for the Gemini Prompting Guide 101.
 - Move prompting guides overview into the patterns directory and refresh Gemini 101 links.
 - Add prompting guides overview page with Gemini 101 preview and index scaffold.
 - Add Google Cloud ADK quickstart tutorial covering setup, tooling, and deployment guidance.
