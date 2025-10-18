@@ -1,4 +1,4 @@
-> _Hero image placeholder — maintainers will upload final artwork._
+<img src="../assets/microsoft/microsoft_sharepoint_knowledge_agent.jpg" alt="Microsoft Sharepoint Knowledge Agent" width="80%">
 
 # Microsoft SharePoint Knowledge Agent Blueprint
 
@@ -60,4 +60,3 @@ Microsoft’s official Knowledge Agent overview stresses its availability within
 
 ## References
 - Microsoft. “Knowledge Agent: An overview.” https://support.microsoft.com/en-gb/topic/knowledge-agent-an-overview-c0b1efc3-81d0-4981-8be9-7ba3a75fae15
-- Microsoft. “SharePoint Knowledge Agent Cheatsheet” (2025).
