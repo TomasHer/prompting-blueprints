@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Rename the `assets/prompting-guides` directory to `assets/guides` and update all references.
 - Update SharePoint Knowledge Agent tutorial with a hero image placeholder pending maintainer artwork.
 - Add Microsoft Facilitator Agent blueprint for Teams meeting orchestration.
 - Add Prompt Pattern Catalogue smoke tests and document quick run commands for evaluations.
