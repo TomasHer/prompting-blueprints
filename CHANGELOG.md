@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add prompting guides overview page with Gemini 101 preview and index scaffold.
 - Add Google Cloud ADK quickstart tutorial covering setup, tooling, and deployment guidance.
 - Add researchers prompting blueprints for academic workflows.
 - Add writers prompting blueprints for typography and style guardrails.
