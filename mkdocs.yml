@@ -26,6 +26,7 @@ nav:
     - Google Cloud ADK Quickstart: tools/google-cloud-platform-agents.md
     - Microsoft Copilot Agents: tools/microsoft-copilot-agents.md
     - Microsoft Copilot Researcher Agent: tools/microsoft-copilot-researcher-agent.md
+    - Microsoft Facilitator Agent: tools/microsoft-facilitator-agent.md
     - NotebookLM Audio Overviews: tools/notebooklm-audio-overviews-blueprint.md
     - Perplexity Comet: tools/perplexity-comet.md
   - Guides:
