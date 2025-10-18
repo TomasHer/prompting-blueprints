@@ -20,10 +20,11 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 - **Prompts:** curated packs for common jobs and workflows → `./prompts`
 - **Models:** specifics for GPT‑5 & Gemini (dos/don’ts, quickstarts) → `./models`
 - **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents → `./tools`
+- **Guides:** deep-dive primers and downloadable PDFs (e.g., Gemini Prompting Guide 101) → `./guides`
 - **Use cases:** applied flows (e.g., research notes) → `./use-cases`
 - **Evaluations:** `promptfoo` assertions & samples → `./evaluations`
 
-Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models) · [tools](./tools) · [use‑cases](./use-cases) · [evaluations](./evaluations) · [changelog](./CHANGELOG.md)
+Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models) · [tools](./tools) · [guides](./guides) · [use‑cases](./use-cases) · [evaluations](./evaluations) · [changelog](./CHANGELOG.md)
 
 ---
 
@@ -37,6 +38,7 @@ Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models
 - **Copy‑ready prompt packs** organized by job/function
 - **Model guides**: nuances, capabilities, and pitfalls
 - **Tool playbooks**: tactical prompts and workflows
+- **Prompting guides**: long-form walkthroughs with downloadable references
 - **Evaluation samples**: promptfoo assertions & runs
 
 ---
@@ -164,6 +166,7 @@ patterns/               # pattern catalog & templates
 prompts/                # copy‑ready prompt packs
 models/                 # model guides (gpt‑5, gemini, ...)
 tools/                  # NotebookLM, Perplexity Comet, Copilot Agents
+guides/                 # long-form prompting guides & PDFs
 use-cases/              # applied workflows
 evaluations/            # promptfoo examples
 CHANGELOG.md            # updates
