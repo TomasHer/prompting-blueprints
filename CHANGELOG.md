@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Microsoft Facilitator Agent blueprint for Teams meeting orchestration.
 - Add Prompt Pattern Catalogue smoke tests and document quick run commands for evaluations.
 - Move prompting guides overview into a dedicated root-level `guides` directory.
 - Add static image preview for the Gemini Prompting Guide 101.

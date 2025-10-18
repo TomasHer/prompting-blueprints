@@ -19,6 +19,7 @@
 - [LinkedIn Post by Tomas Herda – NotebookLM audio strategies](https://www.linkedin.com/posts/herdatom_notebooklm-google-aiandagile-activity-7323293140201709569-mBAU)
 - [LSZ Talents for IT Future Event (2024)](https://lsz.at/Talents-Graz-Downloadarea)
 - [Microsoft Learn – Writing effective instructions for Copilot agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-instructions)
+- [Microsoft Support – Facilitator in Microsoft Teams meetings](https://support.microsoft.com/en-us/office/facilitator-in-microsoft-teams-meetings-37657f91-39b5-40eb-9421-45141e3ce9f6)
 - [Microsoft Support – Get started with Researcher in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/get-started-with-researcher-in-microsoft-365-copilot-e63ab760-f3de-4c47-ae87-dad601b0e9c4)
 - [OpenAI Academy – Use cases for managers](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/use-cases-for-managers)
 - [Researchr – XP 2025 AI and Agile Workshop Program](https://conf.researchr.org/home/xp-2025/aiandagile-2025#program)
