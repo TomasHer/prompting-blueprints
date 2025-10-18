@@ -1,0 +1,119 @@
+# Smoke tests that sample the Prompt Pattern Catalogue scaffolds.
+description: Quick regression tests for the Prompt Pattern Catalogue scaffolds.
+providers:
+  - id: openai:gpt-4o-mini
+    config:
+      temperature: 0
+
+# Each test in this file mirrors a scaffold from patterns/prompt-pattern-catalogue.md.
+# Assertions focus on structure rather than subjective quality so the suite stays deterministic.
+tests:
+  - description: Persona pattern output cites the role and constraints before giving guidance.
+    prompt: |
+      Act as a cybersecurity incident responder who specializes in cloud infrastructure breaches.
+      Maintain a calm, plain-language voice for stressed stakeholders.
+      Given the following context, provide guidance aligned with this role.
+      CONTEXT:
+      - An AWS account showed unauthorized IAM role creation overnight.
+      - CloudTrail logging is active, but GuardDuty alerts were dismissed earlier in the week.
+      - The leadership team wants a 24-hour containment plan.
+      OUTPUT: Respond using the following structure exactly:
+      Persona: <role summary in one sentence> (Tone: <tone description>)
+      Constraints: <two bullet points describing must-follow rules>
+      Recommendations:
+      - <bullet>
+      - <bullet>
+      - <bullet>
+      Constraint Check: <one sentence confirming the voice and scope were respected>
+    assert:
+      - type: contains
+        value: "Persona:"
+      - type: contains
+        value: "Constraints:"
+      - type: contains
+        value: "Constraint Check:"
+      - type: javascript
+        value: |
+          const personaMatch = /Persona:\s*(.+?)\s*\(Tone:/i.exec(output);
+          if (!personaMatch || !personaMatch[1].toLowerCase().includes('cybersecurity incident responder')) {
+            throw 'persona line missing or incorrect';
+          }
+          if (!/Constraints:\s*\n\s*-\s+/i.test(output)) {
+            throw 'constraints list missing bullet points';
+          }
+          if (!/Constraint Check:\s*(?:(?!unknown|unsure).)+/i.test(output)) {
+            throw 'constraint check must affirm compliance without hedging';
+          }
+          return true;
+
+  - description: Question refinement pattern provides a sharper question plus rationale.
+    prompt: |
+      Within the scope of enterprise data governance for a multinational retailer, suggest a better version of the following question:
+      "How can we fix data issues quickly?"
+      Explain why your revision will lead to a more useful answer.
+      Format your response exactly as:
+      Original Question: <repeat the original>
+      Refined Question: <improved version>
+      Why it helps: <2-3 sentence rationale>
+    assert:
+      - type: contains
+        value: "Original Question: \"How can we fix data issues quickly?\""
+      - type: contains
+        value: "Refined Question:"
+      - type: contains
+        value: "Why it helps:"
+      - type: javascript
+        value: |
+          const refinedMatch = /Refined Question:\s*(.+)/i.exec(output);
+          if (!refinedMatch) {
+            throw 'refined question missing';
+          }
+          const refined = refinedMatch[1].trim();
+          if (!refined.endsWith('?')) {
+            throw 'refined question must end with a question mark';
+          }
+          if (refined.includes('How can we fix data issues quickly')) {
+            throw 'refined question must differ from the original wording';
+          }
+          if (!/Why it helps:\s*.+/i.test(output)) {
+            throw 'rationale section missing';
+          }
+          return true;
+
+  - description: Template pattern response fills every placeholder with context-aware details.
+    prompt: |
+      You must use the following template exactly:
+      ### Deliverable: Cloud Cost Optimization Brief
+      Problem Statement: <one sentence>
+      Solution Outline:
+      - Step 1: <detail>
+      - Step 2: <detail>
+      Metrics to Track:
+      - <metric>
+      - <metric>
+      Next Checkpoint: <date or timeframe>
+      Use the context below to populate each placeholder without leaving anything blank.
+      If information is missing, infer a reasonable placeholder instead of writing "TBD".
+      CONTEXT:
+      - Team: FinOps crew supporting streaming analytics workloads on GCP.
+      - Pain point: BigQuery costs spiking 35% month-over-month due to unpartitioned tables.
+      - Leadership expects a measurable plan within two weeks.
+    assert:
+      - type: contains
+        value: "### Deliverable: Cloud Cost Optimization Brief"
+      - type: contains
+        value: "Problem Statement:"
+      - type: contains
+        value: "Next Checkpoint:"
+      - type: javascript
+        value: |
+          if (/TBD/i.test(output)) {
+            throw 'template must not leave placeholders as TBD';
+          }
+          if (!/FinOps/i.test(output)) {
+            throw 'response should reuse contextual details (FinOps team)';
+          }
+          if (!/BigQuery/i.test(output)) {
+            throw 'response should mention the BigQuery cost driver';
+          }
+          return true;
