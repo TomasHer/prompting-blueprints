@@ -1,3 +1,5 @@
+<img src="../assets/microsoft/microsoft_facilitator_agent.png" alt="Microsoft Facilitator Agent" width="80%">
+
 # Microsoft Facilitator Agent Blueprint
 
 ## Intent
