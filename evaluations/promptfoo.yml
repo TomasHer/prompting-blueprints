@@ -1,4 +1,7 @@
 # Minimal promptfoo example (edit to your needs)
+files:
+  - ./pattern-catalogue-smoke.yml
+
 prompts:
   - |
     You are an exacting QA assistant.

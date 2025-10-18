@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Prompt Pattern Catalogue smoke tests and document quick run commands for evaluations.
 - Move prompting guides overview into a dedicated root-level `guides` directory.
 - Add static image preview for the Gemini Prompting Guide 101.
 - Move prompting guides overview into the patterns directory and refresh Gemini 101 links.
