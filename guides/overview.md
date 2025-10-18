@@ -1,4 +1,4 @@
-# Prompting Guides Overview
+# Guides Overview
 
 ## Gemini Prompting Guide 101
 <figure>
@@ -32,7 +32,7 @@
   <figcaption>Click the preview to open the OpenAI identifying and scaling AI use cases PDF.</figcaption>
 </figure>
 
-## Prompting Guides Library
+## Guides Library
 - [Gemini Prompting Guide 101](../assets/guides/gemini-prompting-guide-101.pdf) — Core prompting patterns, guardrails, and examples for Gemini models.
 - [OpenAI: A Practical Guide to Building Agents](../assets/guides/openai-a-practical-guide-to-building-agents.pdf) — Blueprint for designing agent workflows, orchestration, and evaluation.
 - [OpenAI: AI in the Enterprise](../assets/guides/openai-ai-in-the-enterprise.pdf) — Frameworks for deploying AI capabilities across enterprise functions.
