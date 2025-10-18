@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Update SharePoint Knowledge Agent tutorial with a hero image placeholder pending maintainer artwork.
 - Add Microsoft Facilitator Agent blueprint for Teams meeting orchestration.
 - Add Prompt Pattern Catalogue smoke tests and document quick run commands for evaluations.
 - Move prompting guides overview into a dedicated root-level `guides` directory.
