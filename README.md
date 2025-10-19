@@ -2,7 +2,7 @@
 
 # Prompting Blueprints
 
-Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT‑5, Gemini), and tool playbooks (NotebookLM, Perplexity Comet, SharePoint Knowledge Agent, Copilot Agents). Includes example evaluations with **promptfoo**.
+Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT‑5, Gemini), and tool playbooks (NotebookLM, Perplexity Comet, Copilot Agents). Includes example evaluations with **promptfoo**.
 
 <p align="left">
   <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/code-MIT-green.svg"></a>
@@ -19,7 +19,7 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 - **Patterns:** reusable scaffolds (role + constraints + format) → `./patterns`
 - **Prompts:** curated packs for common jobs and workflows → `./prompts`
 - **Models:** specifics for GPT‑5 & Gemini (dos/don’ts, quickstarts) → `./models`
-- **Tools:** tactics for NotebookLM, Perplexity Comet, SharePoint Knowledge Agent, Copilot Agents → `./tools`
+- **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents → `./tools`
 - **Guides:** deep-dive primers and downloadable PDFs (e.g., Gemini Prompting Guide 101) → `./guides`
 - **Use cases:** applied flows (e.g., research notes) → `./use-cases`
 - **Evaluations:** `promptfoo` assertions & samples → `./evaluations`
@@ -37,7 +37,7 @@ Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models
 - A **pattern catalog**: role, constraints, format, guardrails
 - **Copy‑ready prompt packs** organized by job/function
 - **Model guides**: nuances, capabilities, and pitfalls
-- **Tool playbooks**: tactical prompts and workflows for NotebookLM, SharePoint Knowledge Agent, Copilot, and more
+- **Tool playbooks**: tactical prompts and workflows for NotebookLM, Copilot, and more
 - **Prompting guides**: long-form walkthroughs with downloadable references
 - **Evaluation samples**: promptfoo assertions & runs
 
