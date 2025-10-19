@@ -49,7 +49,3 @@ Help prompt engineers decide when to reach for multi-step reasoning models (e.g.
   - Closing paragraph with timeline reminder
   Use a professional yet approachable tone.
   ```
-
-## Related resources
-- [Prompting for deliberate reasoning](../patterns/reasoning-scaffold.md)
-- [Prompting for structured outputs](../patterns/structured-output-blueprint.md)
