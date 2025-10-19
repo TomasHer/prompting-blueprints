@@ -3,11 +3,6 @@
 ## Intent
 Use this glossary to get comfortable with the essential terms you will see across generative AI tutorials, tools, and communities.
 
-## How to use this guide
-- Skim the quick definitions table to anchor each concept.
-- Dive into the individual sections for plain-language explanations and real-world hints.
-- Revisit the "Try it" prompts when you want a hands-on way to reinforce the idea.
-
 ## Quick definitions
 | Term | Plain-language snapshot |
 | --- | --- |
