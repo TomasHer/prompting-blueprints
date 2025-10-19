@@ -13,7 +13,7 @@ nav:
   - Patterns:
     - Microsoft Copilot Prompt Template: patterns/copilot-prompt-template.md
     - Role + Constraints + Format: patterns/role-constraint-format.md
-    - Guide to Prompt Pattern Catalogue: patterns/prompt-pattern-catalogue-guide.md
+    - Guide to Prompt Pattern Catalogue: patterns/prompt-pattern-catalogue.md
   - Prompts:
     - Managers Prompting Blueprints: prompts/managers-prompting-blueprints.md
     - Researchers Prompting Blueprints: prompts/researchers-prompting-blueprints.md
@@ -28,6 +28,7 @@ nav:
     - Microsoft Copilot Agents: tools/microsoft-copilot-agents.md
     - Microsoft Copilot Researcher Agent: tools/microsoft-copilot-researcher-agent.md
     - Microsoft Facilitator Agent: tools/microsoft-facilitator-agent.md
+    - Microsoft SharePoint Knowledge Agent: tools/microsoft-sharepoint-knowledge-agent.md
     - NotebookLM Audio Overviews: tools/notebooklm-audio-overviews-blueprint.md
     - Perplexity Comet: tools/perplexity-comet.md
   - Guides:
