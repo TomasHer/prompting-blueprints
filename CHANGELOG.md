@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add placeholders for upcoming software engineering AI research references.
 - Add research topics index documenting Tomas Herda's AI and Agile XP 2025 work.
 - Add Microsoft Copilot prompt template covering goal, context, expectations, and source guidance.
 - Add beginner-friendly glossary of essential generative AI terms and link it from the guides navigation.

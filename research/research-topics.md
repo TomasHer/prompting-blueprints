@@ -13,4 +13,33 @@ Document research initiatives co-authored by Tomas Herda and provide quick acces
   - [arXiv:2508.20563 - XP2025 AI and Agile - Research Roadmap](https://arxiv.org/abs/2508.20563)
 
 ## Looking Ahead
-More research topics will be added later as Tomas Herda publishes new findings and resources.
+The following publications are queued for deeper documentation. Details will be expanded as notes and outcomes are finalized.
+
+- **Generative Artificial Intelligence for Software Engineering—A Research Agenda** ([Link](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.70005))
+  - **Summary:** _TBD_
+  - **Role:** _TBD_
+  - **Key Findings:** _TBD_
+- **Generating Test Scenarios from NL Requirements Using Retrieval-Augmented LLMs: An Industrial Study** ([Link](https://ieeexplore.ieee.org/abstract/document/10628480))
+  - **Summary:** _TBD_
+  - **Role:** _TBD_
+  - **Key Findings:** _TBD_
+- **Prioritizing Software Requirements Using Large Language Models** ([Link](https://arxiv.org/abs/2405.01564))
+  - **Summary:** _TBD_
+  - **Role:** _TBD_
+  - **Key Findings:** _TBD_
+- **A Multi-agent LLM System for Automated Requirements Analysis: A Study on User Story Generation and Prioritization** ([Link](https://link.springer.com/chapter/10.1007/978-3-032-04200-2_12))
+  - **Summary:** _TBD_
+  - **Role:** _TBD_
+  - **Key Findings:** _TBD_
+- **LLM-Based Agents for Automating the Enhancement of User Story Quality: An Early Report** ([Link](https://link.springer.com/chapter/10.1007/978-3-031-61154-4_8))
+  - **Summary:** _TBD_
+  - **Role:** _TBD_
+  - **Key Findings:** _TBD_
+- **Exploring Human-AI Collaboration in Agile: Customised LLM Meeting Assistants** ([Link](https://link.springer.com/chapter/10.1007/978-3-031-61154-4_11))
+  - **Summary:** _TBD_
+  - **Role:** _TBD_
+  - **Key Findings:** _TBD_
+- **TimeLess: A Vision for the Next Generation of Software Development** ([Link](https://arxiv.org/abs/2411.08507))
+  - **Summary:** _TBD_
+  - **Role:** _TBD_
+  - **Key Findings:** _TBD_
