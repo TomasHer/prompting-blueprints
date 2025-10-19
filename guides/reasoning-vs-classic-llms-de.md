@@ -49,7 +49,3 @@ Zeigt Prompt-Ingenieur:innen auf Deutsch, wann sie planende Reasoning-Modelle (z
   - Abschlusssatz mit Terminhinweis
   Verwende einen professionellen, zugänglichen Ton.
   ```
-
-## Weiterführende Ressourcen
-- [Reasoning-Scaffold-Pattern](../patterns/reasoning-scaffold.md)
-- [Blueprint für strukturierte Outputs](../patterns/structured-output-blueprint.md)
