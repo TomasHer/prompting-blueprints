@@ -11,6 +11,7 @@ theme:
 nav:
   - Home: README.md
   - Patterns:
+    - Microsoft Copilot Prompt Template: patterns/copilot-prompt-template.md
     - Role + Constraints + Format: patterns/role-constraint-format.md
     - Guide to Prompt Pattern Catalogue: patterns/prompt-pattern-catalogue-guide.md
   - Prompts:

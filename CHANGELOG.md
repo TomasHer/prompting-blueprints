@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Microsoft Copilot prompt template covering goal, context, expectations, and source guidance.
 - Add beginner-friendly glossary of essential generative AI terms and link it from the guides navigation.
 - Add OpenAI guide previews and links to the guides overview page.
 - Rename the `assets/prompting-guides` directory to `assets/guides` and update all references.
