@@ -220,6 +220,9 @@ Social preview image: set it in **Repository → Settings → Social preview** (
 ## Speaking & Keynotes
 Explore Tomas Herda’s upcoming appearances, talk topics, and booking details on the dedicated [Speaking & Keynotes page](./speaking-and-keynotes.md).
 
+## Research
+Review ongoing investigations, experiment logs, and calls for collaboration in the [Research topics index](./research/research-topics.md).
+
 ---
 
 ## FAQ
