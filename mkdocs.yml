@@ -31,6 +31,7 @@ nav:
     - Perplexity Comet: tools/perplexity-comet.md
   - Guides:
     - Overview: guides/overview.md
+    - Generative AI Basics Glossary: guides/genai-basics-glossary.md
   - Speaking & Keynotes: speaking-and-keynotes.md
   - Use Cases:
     - Research Notes: use-cases/research-notes.md
