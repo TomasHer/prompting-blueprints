@@ -1,3 +1,5 @@
+<img src="../assets/microsoft/microsoft_copilot.jpg" alt="Copilot Copilot" width="80%">
+
 # Microsoft Copilot Prompt Template
 
 ## Intent
