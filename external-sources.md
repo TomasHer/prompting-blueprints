@@ -7,6 +7,7 @@
 - [AI and Agile Software Development: A Research Roadmap from the XP2025 Workshop (arXiv 2508.20563)](https://arxiv.org/pdf/2508.20563)
 - [AIRE’24 Workshop — AI and Requirements Engineering](https://aire-ws.github.io/aire24/)
 - [Agent Development Kit Documentation (Google)](https://google.github.io/adk-docs/)
+- [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
 - [GAISE 2025 Summer School Schedule (GPT-Lab)](https://gpt-lab.eu/gaise-2025/schedule/)
 - [Google NotebookLM – Audio Overviews](https://notebooklm.google/audio)
 - [Google – ADK Python GitHub Repository](https://github.com/google/adk-python)

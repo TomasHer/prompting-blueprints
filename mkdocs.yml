@@ -24,6 +24,7 @@ nav:
     - Gemini Quickstart: models/gemini/quickstart.md
     - Gemini General Tips: models/gemini/general-tips.md
   - Tools:
+    - Claude Agent Skills Playbook: tools/claude-agent-skills.md
     - Google Cloud ADK Quickstart: tools/google-cloud-platform-agents.md
     - Microsoft Copilot Agents: tools/microsoft-copilot-agents.md
     - Microsoft Copilot Researcher Agent: tools/microsoft-copilot-researcher-agent.md
