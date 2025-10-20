@@ -1,3 +1,5 @@
+<img src="../assets/anthropic/claude-agent-skills.svg" alt="Claude Agent Skills" width="80%">
+
 # Claude Agent Skills Playbook
 
 ## Intent
