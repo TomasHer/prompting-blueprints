@@ -26,6 +26,7 @@ nav:
   - Tools:
     - Claude Agent Skills Playbook: tools/claude-agent-skills.md
     - Google Cloud ADK Quickstart: tools/google-cloud-platform-agents.md
+    - Microsoft Agent Framework Quickstart: tools/microsoft-agent-framework.md
     - Microsoft Copilot Agents: tools/microsoft-copilot-agents.md
     - Microsoft Copilot Researcher Agent: tools/microsoft-copilot-researcher-agent.md
     - Microsoft Facilitator Agent: tools/microsoft-facilitator-agent.md

@@ -3,12 +3,14 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Refine the Microsoft Agent Framework quickstart with pillar guidance highlighting MCP, A2A, OpenAPI-first design, and cloud-agnostic operations.
 - Add Claude Agent Skills playbook summarizing Anthropic guidance on reusable workflows.
 - Add README Research section linking to the research topics index.
 - Add placeholders for upcoming software engineering AI research references.
 - Add research topics index documenting Tomas Herda's AI and Agile XP 2025 work.
 - Add Microsoft Copilot prompt template covering goal, context, expectations, and source guidance.
 - Add beginner-friendly glossary of essential generative AI terms and link it from the guides navigation.
+- Document Model Context Protocol (MCP) and Agent-to-Agent (A2A) collaboration in the generative AI basics glossary.
 - Add OpenAI guide previews and links to the guides overview page.
 - Rename the `assets/prompting-guides` directory to `assets/guides` and update all references.
 - Update SharePoint Knowledge Agent tutorial with a hero image placeholder pending maintainer artwork.
