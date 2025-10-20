@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Claude Agent Skills playbook summarizing Anthropic guidance on reusable workflows.
 - Add README Research section linking to the research topics index.
 - Add placeholders for upcoming software engineering AI research references.
 - Add research topics index documenting Tomas Herda's AI and Agile XP 2025 work.
