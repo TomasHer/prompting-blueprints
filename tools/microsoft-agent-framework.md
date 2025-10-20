@@ -1,3 +1,5 @@
+<img src="../assets/microsoft/microsoft_agent_framework.png" alt="Microsoft Agent Framework" width="80%">
+
 # Microsoft Agent Framework Quickstart
 
 ## Intent
