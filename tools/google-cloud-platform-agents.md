@@ -1,4 +1,4 @@
-<img src="../assets/google/google_cloud_platform.png" alt="Copilot Agent Builder" width="80%">
+<img src="../assets/google/google_cloud_platform.png" alt="Google Cloud Platform" width="80%">
 
 # Google Cloud Agent Development Kit (ADK) Quickstart
 
