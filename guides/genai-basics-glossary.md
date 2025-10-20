@@ -12,6 +12,8 @@ Use this glossary to get comfortable with the essential terms you will see acros
 | Fine-tuning | Giving a model extra practice on your own examples so it behaves the way you need. |
 | Embeddings | Turning text into number lists so computers can compare meaning quickly. |
 | Retrieval-Augmented Generation (RAG) | Fetching reference documents and letting the model read them before it answers. |
+| Model Context Protocol (MCP) | A standard that lets agents discover and call tools, data sources, and skills through a consistent interface. |
+| Agent-to-Agent (A2A) | A collaboration pattern where specialized agents exchange context and tasks to solve problems together. |
 | Tokens | The word pieces the model reads and writes instead of full words or characters. |
 | Hallucination | When an AI sounds confident but makes up facts or quotes that are untrue. |
 | Zero-shot Prompting | Asking the model to perform a task without showing any examples first. |
@@ -79,5 +81,12 @@ Use this glossary to get comfortable with the essential terms you will see acros
 - **Why it matters:** Adjusting temperature helps you balance reliability and creativity depending on the task.
 - **Try it:** Generate the same prompt at temperatures 0.2, 0.7, and 1.0 to see how the tone and variety shift.
 
-## Looking ahead
-Future additions will cover different types of AI agents, the Model Context Protocol (MCP), and Agent-to-Agent (A2A) patterns so you can keep expanding your foundation.
+## Model Context Protocol (MCP)
+- **What it means:** MCP is an open protocol that advertises tools, data sources, and capabilities so agents can request structured context from each other or external systems without custom integrations.
+- **Why it matters:** Standardizing discovery and invocation of resources keeps your agent stack modular, reduces bespoke glue code, and lets you reuse connectors across platforms like the Microsoft Agent Framework.
+- **Try it:** Review an MCP server manifest and identify which tools or data providers your agent could reuse, then sketch how you would register it inside your orchestration layer.
+
+## Agent-to-Agent (A2A) collaboration
+- **What it means:** A2A collaboration coordinates multiple specialized agents that exchange goals, outputs, or critiques to reach a shared objective.
+- **Why it matters:** Delegating to focused agents—such as planners, tool specialists, or reviewers—boosts reliability and gives you clearer hand-off points for human oversight.
+- **Try it:** Design a troubleshooting flow where a planner agent decomposes the task, a tool specialist calls APIs, and a reviewer agent confirms policy compliance before returning the final answer.
