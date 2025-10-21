@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add AI Use Case Identification tutorial with placeholders for Figure 3 and Table 1 from Vom Brocke et al. study.
 - Refine the Microsoft Agent Framework quickstart with pillar guidance highlighting MCP, A2A, OpenAPI-first design, and cloud-agnostic operations.
 - Add Claude Agent Skills playbook summarizing Anthropic guidance on reusable workflows.
 - Add README Research section linking to the research topics index.
