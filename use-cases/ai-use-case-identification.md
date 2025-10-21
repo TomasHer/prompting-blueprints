@@ -10,7 +10,7 @@
 ## Overview
 Ground this workflow in the study by Vom Brocke et al. on how organizations evaluate AI under non-laboratory conditions. The method combines strategic framing, opportunity scouting, and implementation design so that AI ideas are linked to measurable business goals and technical feasibility.
 
-> _Placeholder for Figure 3. Process Model of Our AI Use Case Identification Method._
+<img src="../assets/research/ai_use_cases_figure.png" alt="AI Use Cases Figure" width="80%">
 
 ### Four Outcomes You Should Capture
 1. **Business goal clarity** – every idea maps to an owner, KPI, and success horizon.
@@ -19,7 +19,7 @@ Ground this workflow in the study by Vom Brocke et al. on how organizations eval
 4. **Execution decision** – the portfolio of AI use cases is prioritized with transparent scoring and next steps.
 
 ## Method Components
-> _Placeholder for Table 1. Components of Our AI Use Case Identification Method._
+<img src="../assets/research/ai_use_cases_table.png" alt="AI Use Cases Figure" width="80%">
 
 | Component | Why it matters | Prompts to unblock the team |
 | --- | --- | --- |
@@ -103,4 +103,4 @@ Output as a markdown table sorted by highest strategic fit.
 - Executive summary slide or memo referencing Figure 3 and Table 1 once visuals are added.
 
 ## References
-- Vom Brocke, J., Maedche, A., & Leimeister, J. M. (2023). _How to Identify Promising AI Use Cases Under Real Business Conditions_. Proceedings of the 56th Hawaii International Conference on System Sciences.
+- [Vom Brocke, J., Maedche, A., & Leimeister, J. M. (2023). _How to Identify Promising AI Use Cases Under Real Business Conditions_. Proceedings of the 56th Hawaii International Conference on System Sciences.](https://www.alexandria.unisg.ch/server/api/core/bitstreams/35316f07-8d0b-47dc-bbf0-36753ca834b3/content)
