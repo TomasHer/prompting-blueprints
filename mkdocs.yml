@@ -42,6 +42,7 @@ nav:
   - Research:
     - Tomas Herda Research Topics: research/research-topics.md
   - Use Cases:
+    - AI Use Case Identification: use-cases/ai-use-case-identification.md
     - Research Notes: use-cases/research-notes.md
   - Evaluations:
     - Overview: evaluations/README.md
