@@ -1,3 +1,5 @@
+<img src="../assets/google/google_veo_3_1.gif" alt="Google Veo 3.1" width="80%">
+
 # Create Cinematic Videos with Google Veo 3.1
 
 ## Intent
@@ -62,5 +64,6 @@ Structure each prompt with clear timestamps and shot directions. Use brackets fo
 - **Audio mismatches**: Clarify whether you want silence (`"SFX: none"`) or foreground vs. background sound (`"SFX: subtle"`, `"SFX: loud"`).
 
 ## References
+- Google Labs Flow https://labs.google/fx/tools/flow
 - Google Cloud. *The ultimate prompting guide for Veo 3.1*. https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-veo-3-1
 - Google One Help. *Check or manage your AI Premium Plan credits*. https://support.google.com/googleone/answer/16287445?visit_id=638968334505579471-862084453&p=g1_ai_credit_menu&rd=1#g1_ai_credit_menu
