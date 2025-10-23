@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Move the Google Veo 3.1 tutorial into the use cases section and update navigation.
 - Add Google Veo 3.1 Flow tutorial covering prompting workflow and credit management.
 - Add AI Use Case Identification tutorial with placeholders for Figure 3 and Table 1 from Vom Brocke et al. study.
 - Refine the Microsoft Agent Framework quickstart with pillar guidance highlighting MCP, A2A, OpenAPI-first design, and cloud-agnostic operations.

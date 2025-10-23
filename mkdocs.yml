@@ -36,13 +36,13 @@ nav:
   - Guides:
     - Overview: guides/overview.md
     - Generative AI Basics Glossary: guides/genai-basics-glossary.md
-    - Create Veo 3.1 Videos: guides/create-veo-3-1-video-tutorial.md
     - Reasoning vs. Classic LLMs: guides/reasoning-vs-classic-llms.md
     - Reasoning vs. Classic LLMs (DE): guides/reasoning-vs-classic-llms-de.md
   - Speaking & Keynotes: speaking-and-keynotes.md
   - Research:
     - Tomas Herda Research Topics: research/research-topics.md
   - Use Cases:
+    - Google Veo 3.1 Video Tutorial: use-cases/google-veo-3-1-video-tutorial.md
     - AI Use Case Identification: use-cases/ai-use-case-identification.md
     - Research Notes: use-cases/research-notes.md
   - Evaluations:
