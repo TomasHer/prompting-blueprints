@@ -43,6 +43,7 @@ nav:
   - Research:
     - Tomas Herda Research Topics: research/research-topics.md
   - Use Cases:
+    - Program Delivery Manager Copilot Playbook: use-cases/program-delivery-manager-copilot-playbook.md
     - Google Veo 3.1 Video Tutorial: use-cases/google-veo-3-1-video-tutorial.md
     - AI Use Case Identification: use-cases/ai-use-case-identification.md
     - Research Notes: use-cases/research-notes.md
