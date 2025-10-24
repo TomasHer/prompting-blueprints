@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Program Delivery Manager Copilot playbook covering project planning and review workflows.
 - Move the Google Veo 3.1 tutorial into the use cases section and update navigation.
 - Add Google Veo 3.1 Flow tutorial covering prompting workflow and credit management.
 - Add AI Use Case Identification tutorial with placeholders for Figure 3 and Table 1 from Vom Brocke et al. study.
