@@ -1,3 +1,5 @@
+<img src="../assets/microsoft/microsoft_copilot_program_delivery_manager.png" alt="Copilot Program Delivery Manager" width="80%">
+
 # Program Delivery Manager Copilot Playbook
 
 **Intent:** Help program delivery managers use Microsoft 365 Copilot to orchestrate daily operations, build actionable project plans, and run data-backed project reviews.
