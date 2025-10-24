@@ -30,6 +30,23 @@ Use when you need a Copilot Researcher Agent to:
 4. **Structure the final report.** Define headings, tables, and appendices in advance. Copilot Researcher can populate each section iteratively as evidence arrives.
 5. **Audit and fact check.** Reserve a pass for verifying citations, dates, and quantitative claims. Document verification status for handover.
 
+## Microsoft prompt starters to seed instructions
+Pull ready-to-run scenarios from the Microsoft M365 Copilot prompting guide to accelerate agent configuration and onboard stakeholders. Use the prompts below as seed instructions or quick tests when validating the agent’s grounding in your tenant data.
+
+### Researcher agent
+| Scenario | Prompt |
+| --- | --- |
+| Comprehensive research report | “Based on the internal meeting discussion on [topic], draft a comprehensive research report evaluating the ideas proposed. Incorporate relevant insights from web-based research on [topic] and solutions.” |
+| Project management tracker | “Create an action-item tracker based on all communication channels and information from the past 7 days. Split it into actions pending on me (sorted by urgency and relevance) and actions I requested from others (with follow-up status and elapsed time). Recommend who needs a follow-up.” |
+| Product launch campaign | “Using our internal knowledge base, previous campaign data, and customer insights, create a launch content package for the new product update. Include a customer announcement email, blog post, LinkedIn and Twitter captions, internal team update, and help center entry.” |
+| Competitive landscape review | “Draft a research report identifying market gaps based on internal stakeholder discussions (sales, research and development, support) and competitive insights plus sales data.” |
+| Executive project recap | “Draft a project update based on our last [meeting series]. Include KPI performance, major wins/losses, risks, competitive moves, likely tough questions, and suggested answers. Flag any major metric changes.” |
+
+### Share across teams
+- Drop these starters into your Copilot Researcher instructions library so new collaborators can test common workflows immediately.
+- Point business partners to the [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts) for additional Microsoft-curated prompts they can bookmark inside Copilot Chat.
+- Reference the [Microsoft 365 Copilot Prompting Guide](../guides/microsoft-365-copilot-prompting-guide.md) for full do/don’t lists, evaluation rubric, and long-document tactics.
+
 ## Reasoning prompt patterns from GPT-Lab
 The GPT-Lab resource “Effective Prompts for Reasoning LLMs” highlights patterns that pair exceptionally well with Copilot Researcher’s long-context and document-grounding capabilities. Keep the examples verbatim inside your instructions or prompt library so reviewers can trace external sourcing.
 
@@ -95,3 +112,4 @@ Microsoft’s official guidance for Researcher in Microsoft 365 Copilot emphasiz
 ## References
 - GPT-Lab. “Effective Prompts for Reasoning LLMs.” https://gpt-lab.eu/effective-prompts-for-reasoning-llms/
 - Microsoft. “Get started with Researcher in Microsoft 365 Copilot.” https://support.microsoft.com/en-us/topic/get-started-with-researcher-in-microsoft-365-copilot-e63ab760-f3de-4c47-ae87-dad601b0e9c4
+- Microsoft. *Recommended Prompts for Microsoft 365 Copilot.* August 2025. Internal slide deck stored at `assets/guides/microsoft-m365-copilot-prompting-guide.pptx`.

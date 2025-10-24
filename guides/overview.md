@@ -46,3 +46,4 @@
 - [OpenAI: AI in the Enterprise](../assets/guides/openai-ai-in-the-enterprise.pdf) — Frameworks for deploying AI capabilities across enterprise functions.
 - [OpenAI: Identifying and Scaling AI Use Cases](../assets/guides/openai-identifying-and-scaling-ai-use-cases.pdf) — Tactics to spot high-value AI opportunities and drive adoption.
 - [Microsoft: M365 Copilot Prompting Guide](../assets/guides/microsoft-m365-copilot-prompting-guide.pptx) — Prompts, patterns, and deployment tips tailored for Microsoft 365 Copilot scenarios.
+- [Microsoft 365 Copilot Prompting Guide](microsoft-365-copilot-prompting-guide.md) — Markdown digest of Microsoft’s prompt starters, do’s and don’ts, ACRUE rubric, and long-document tactics.

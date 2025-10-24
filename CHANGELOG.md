@@ -28,6 +28,7 @@ All notable changes to this project will be documented here.
 - Add researchers prompting blueprints for academic workflows.
 - Add writers prompting blueprints for typography and style guardrails.
 - Add Microsoft Copilot Researcher Agent blueprint with reasoning prompt patterns.
+- Add Microsoft 365 Copilot prompting digest with prompt starters, guidance, and gallery link, and wire tips into Copilot agent docs.
 - Add consolidated external sources index covering referenced links across the repo.
 - Rename NotebookLM tactics doc and expand it into an audio overview blueprint with source-linked guardrails.
 - Register NotebookLM audio overview references in the external sources index.
