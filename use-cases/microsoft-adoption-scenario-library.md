@@ -1,3 +1,5 @@
+<img src="../assets/microsoft/microsoft_scenario_library.png" alt="Microsoft Scenario Library" width="80%">
+
 # Microsoft Adoption Scenario Library Prompts
 
 ## Intent
