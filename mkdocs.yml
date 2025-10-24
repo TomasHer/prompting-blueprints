@@ -47,6 +47,7 @@ nav:
     - Google Veo 3.1 Video Tutorial: use-cases/google-veo-3-1-video-tutorial.md
     - AI Use Case Identification: use-cases/ai-use-case-identification.md
     - Research Notes: use-cases/research-notes.md
+    - Microsoft Adoption Scenario Library: use-cases/microsoft-adoption-scenario-library.md
   - Evaluations:
     - Overview: evaluations/README.md
     - promptfoo.yml: evaluations/promptfoo.yml
