@@ -22,9 +22,11 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 - **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents → `./tools`
 - **Guides:** deep-dive primers and downloadable PDFs (e.g., Gemini Prompting Guide 101) → `./guides`
 - **Use cases:** applied flows (e.g., research notes) → `./use-cases`
+- **Research:** areas of focus, open questions, and collaboration signals → `./research`
+- **Speaking:** keynote decks, talk outlines, and submission notes → `./speaking`
 - **Evaluations:** `promptfoo` assertions & samples → `./evaluations`
 
-Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models) · [tools](./tools) · [guides](./guides) · [use‑cases](./use-cases) · [evaluations](./evaluations) · [changelog](./CHANGELOG.md)
+Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models) · [tools](./tools) · [guides](./guides) · [use‑cases](./use-cases) · [research](./research) · [speaking](./speaking) · [evaluations](./evaluations) · [changelog](./CHANGELOG.md)
 
 ---
 
@@ -168,6 +170,8 @@ models/                 # model guides (gpt‑5, gemini, ...)
 tools/                  # NotebookLM, Perplexity Comet, Copilot Agents
 guides/                 # long-form prompting guides & PDFs
 use-cases/              # applied workflows
+research/               # research focus areas & collaboration signals
+speaking/               # keynote outlines and talk prep
 evaluations/            # promptfoo examples
 CHANGELOG.md            # updates
 CONTRIBUTING.md         # how to contribute
@@ -218,10 +222,10 @@ Social preview image: set it in **Repository → Settings → Social preview** (
 ---
 
 ## Speaking & Keynotes
-Explore Tomas Herda’s upcoming appearances, talk topics, and booking details on the dedicated [Speaking & Keynotes page](./speaking-and-keynotes.md).
+Explore Tomas Herda’s upcoming appearances, talk topics, and booking details on the dedicated [Speaking & Keynotes overview](./speaking/overview.md).
 
 ## Research
-Review ongoing investigations, experiment logs, and calls for collaboration in the [Research topics index](./research/research-topics.md).
+Review ongoing investigations, experiment logs, and calls for collaboration in the [Research overview](./research/overview.md).
 
 ---
 

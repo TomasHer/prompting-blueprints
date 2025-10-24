@@ -39,9 +39,9 @@ nav:
     - Reasoning vs. Classic LLMs: guides/reasoning-vs-classic-llms.md
     - Reasoning vs. Classic LLMs (DE): guides/reasoning-vs-classic-llms-de.md
     - Microsoft 365 Copilot Prompting Guide: guides/microsoft-365-copilot-prompting-guide.md
-  - Speaking & Keynotes: speaking-and-keynotes.md
+  - Speaking & Keynotes: speaking/overview.md
   - Research:
-    - Tomas Herda Research Topics: research/research-topics.md
+    - Tomas Herda Research Overview: research/overview.md
   - Use Cases:
     - Program Delivery Manager Copilot Playbook: use-cases/program-delivery-manager-copilot-playbook.md
     - Google Veo 3.1 Video Tutorial: use-cases/google-veo-3-1-video-tutorial.md
