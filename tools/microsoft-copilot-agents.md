@@ -32,6 +32,18 @@ Before drafting the three sections, collect reference documents, APIs, datasets,
 3. Document known limitations and privacy constraints.
 4. Draft example dialogues that demonstrate the desired behavior.
 
+### Capture context, goal, source, expectations
+Microsoft’s Copilot prompting guide recommends structuring every brief around four anchors before you start writing agent instructions:
+
+| Anchor | What to capture | Example |
+| --- | --- | --- |
+| **Context** | Who is involved and why the task matters. | “I work in marketing and focus on competitor research.” |
+| **Goal** | The desired response or deliverable. | “Give me a concise summary of recent news about [company name].” |
+| **Source** | Data or documents the agent should prioritize. | “Focus on web articles from the last 2 months.” |
+| **Expectations** | Output constraints such as tone, length, or format. | “Provide the answer in two to three paragraphs and use a business tone.” |
+
+Log these anchors directly inside your agent instructions or configuration forms so reviewers can confirm scoping decisions during change control.
+
 ## 3. Craft Precise Instructions
 
 When writing the instruction block:
@@ -142,6 +154,13 @@ Use the checklist below before publishing a new agent:
 - [ ] Example queries have been tested in a development environment.
 - [ ] Security/privacy requirements have been reviewed with stakeholders.
 
+## Evaluate outputs with the ACRUE rubric
+Score a representative set of prompts—especially Microsoft-provided starters—across the ACRUE dimensions (Accurate, Comprehensive, Relevant, Useful, Exceptional). Use the rubric to compare Copilot agents against baseline chat experiences or alternative tooling and document follow-up actions when a score falls below “4 - Good.”
+
+## Keep prompts discoverable
+- Publish Microsoft’s latest prompt starters in your prompt library or the instructions field so business users can test agent behaviors quickly.
+- Encourage teams to browse the [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts) and the internal [Microsoft 365 Copilot Prompting Guide](../guides/microsoft-365-copilot-prompting-guide.md) for ready-to-use scenarios across chat, Researcher, and Microsoft 365 apps.
+
 ## 6. Keep Instructions Current
 
 Revisit the instructions whenever backend capabilities change. Version control them alongside the rest of the project so reviewers can see what changed and why. When releasing major updates:
@@ -150,3 +169,6 @@ Revisit the instructions whenever backend capabilities change. Version control t
 - Communicate updates to stakeholders so they can adjust their processes.
 
 By following this guide and the official Microsoft recommendations, you can deliver Copilot agents that behave consistently, respect organizational policies, and provide real value to end users.
+
+## References
+- Microsoft. *Recommended Prompts for Microsoft 365 Copilot.* August 2025. Internal slide deck stored at `assets/guides/microsoft-m365-copilot-prompting-guide.pptx`.
