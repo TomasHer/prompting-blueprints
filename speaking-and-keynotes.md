@@ -4,7 +4,10 @@
 Use this page to explore Tomas Herda's recent and upcoming speaking engagements and find the fastest way to book a talk or workshop.
 
 ## Highlights
-- **9 Oct 2025 — 2025 Global LeSS Conference** (Amsterdam, the Netherlands)  
+- **27 Feb 2026 — Large-Scale Scrum (LeSS) in NYC Meetup** (Hybrid: New York City & online)
+  “Scaling Generative AI with LeSS at Austrian Post” — [Meetup event](https://www.meetup.com/large-scale-scrum-less-in-nyc/events/311688494/)
+  - Highlights lessons for LeSS practitioners who want to fold generative AI experiments into product strategy without losing focus.
+- **9 Oct 2025 — 2025 Global LeSS Conference** (Amsterdam, the Netherlands)
   “Moving toward LeSS: Austrian Post's journey of Simplifying Structures and Empowering Teams” — [Session page](https://less.works/conferenza/sessions/2025-global-less-conference-amsterdam-moving-toward-less-austrian-post-s-journey-of-simplifying-structures-and-empowering-teams-446)
 <img src="assets/speaking/less2025b.PNG" alt="LeSS2025">
 
