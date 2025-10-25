@@ -45,6 +45,8 @@ Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models
 - **Prompting guides**: long-form walkthroughs with downloadable references
 - **Evaluation samples**: promptfoo assertions & runs
 
+[🎥 Watch the Prompting Blueprints introduction video](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U) for a guided tour of the repo highlights.
+
 [View the repository mind map](assets/prompting_blueprints_mindmap.png) for a visual overview of key folders and resources.
 
 ---
