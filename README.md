@@ -45,6 +45,8 @@ Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models
 - **Prompting guides**: long-form walkthroughs with downloadable references
 - **Evaluation samples**: promptfoo assertions & runs
 
+[View the repository mind map](assets/prompting_blueprints_mindmap.png) for a visual overview of key folders and resources.
+
 ---
 
 ## Quick start
