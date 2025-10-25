@@ -23,5 +23,7 @@
 - [Microsoft Support – Facilitator in Microsoft Teams meetings](https://support.microsoft.com/en-us/office/facilitator-in-microsoft-teams-meetings-37657f91-39b5-40eb-9421-45141e3ce9f6)
 - [Microsoft Support – Get started with Researcher in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/get-started-with-researcher-in-microsoft-365-copilot-e63ab760-f3de-4c47-ae87-dad601b0e9c4)
 - [OpenAI Academy – Use cases for managers](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/use-cases-for-managers)
+- [OpenAI Cookbook – GPT-5 Prompt Optimization Cookbook](https://cookbook.openai.com/examples/gpt-5/prompt-optimization-cookbook)
+- [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
 - [Researchr – XP 2025 AI and Agile Workshop Program](https://conf.researchr.org/home/xp-2025/aiandagile-2025#program)
 - [Springer – LLM-based Agents for Automating the Enhancement of User Story Quality](https://link.springer.com/book/10.1007/978-3-031-61154-4)

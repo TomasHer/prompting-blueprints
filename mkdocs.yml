@@ -32,6 +32,7 @@ nav:
     - Microsoft Facilitator Agent: tools/microsoft-facilitator-agent.md
     - Microsoft SharePoint Knowledge Agent: tools/microsoft-sharepoint-knowledge-agent.md
     - NotebookLM Audio Overviews: tools/notebooklm-audio-overviews-blueprint.md
+    - GPT-5 Prompt Optimizer: tools/gpt-5-prompt-optimizer.md
     - Perplexity Comet: tools/perplexity-comet.md
   - Guides:
     - Overview: guides/overview.md

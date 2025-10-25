@@ -27,6 +27,7 @@ All notable changes to this project will be documented here.
 - Rename the `assets/prompting-guides` directory to `assets/guides` and update all references.
 - Update SharePoint Knowledge Agent tutorial with a hero image placeholder pending maintainer artwork.
 - Add Microsoft Facilitator Agent blueprint for Teams meeting orchestration.
+- Add GPT-5 Prompt Optimizer tutorial with workflow, RAG-focused prompt template, and references.
 - Add Prompt Pattern Catalogue smoke tests and document quick run commands for evaluations.
 - Move prompting guides overview into a dedicated root-level `guides` directory.
 - Add static image preview for the Gemini Prompting Guide 101.
