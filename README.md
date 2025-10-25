@@ -217,6 +217,8 @@ Researchers and educators can cite this repo via [CITATION.cff](./CITATION.cff).
 ## Credits
 **Author:** [Tomas Herda](https://www.linkedin.com/in/herdatom)
 
+![Prompting Blueprints social preview cover art](assets/prompting_blueprints_herda_social.png)
+
 Social preview image: set it in **Repository → Settings → Social preview** (file: `assets/prompting_blueprints_herda_social.png`).
 
 ---
