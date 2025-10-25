@@ -47,7 +47,7 @@ Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models
 
 [🎥 Watch the Prompting Blueprints introduction video](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U) for a guided tour of the repo highlights.
 
-[View the repository mind map](assets/prompting_blueprints_mindmap.png) for a visual overview of key folders and resources.
+[🧠 View the repository mind map](assets/prompting_blueprints_mindmap.png) for a visual overview of key folders and resources.
 
 ---
 
