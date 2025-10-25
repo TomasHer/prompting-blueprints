@@ -167,22 +167,25 @@ Then go to **Settings → Pages** and select “GitHub Actions” as the source.
 
 ## Repository structure
 ```text
-assets/                 # social preview, images
+assets/                 # social previews and supporting images
+docs/                   # documentation site extras (e.g., licenses)
+evaluations/            # promptfoo configs and fixtures
+guides/                 # long-form prompting guides & PDFs
+models/                 # model guides (gpt‑5, gemini, ...)
 patterns/               # pattern catalog & templates
 prompts/                # copy‑ready prompt packs
-models/                 # model guides (gpt‑5, gemini, ...)
-tools/                  # NotebookLM, Perplexity Comet, Copilot Agents
-guides/                 # long-form prompting guides & PDFs
-use-cases/              # applied workflows
 research/               # research focus areas & collaboration signals
 speaking/               # keynote outlines and talk prep
-evaluations/            # promptfoo examples
-CHANGELOG.md            # updates
+tools/                  # NotebookLM, Perplexity Comet, Copilot Agents
+use-cases/              # applied workflows
+CHANGELOG.md            # updates (Keep a Changelog)
 CONTRIBUTING.md         # how to contribute
 CODE_OF_CONDUCT.md      # community expectations
 CITATION.cff            # how to cite
 LICENSE                 # MIT (code)
-LICENSE-DOCS            # CC BY 4.0 (docs & prompts)
+docs/LICENSE-CC-BY-4.0.txt  # CC BY 4.0 (docs & prompts)
+external-sources.md     # curated references & attributions
+mkdocs.yml              # documentation site navigation
 ```
 
 ---

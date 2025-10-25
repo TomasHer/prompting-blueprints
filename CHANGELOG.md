@@ -44,6 +44,7 @@ All notable changes to this project will be documented here.
 - Move Speaking & Keynotes details to a dedicated page linked from the README and site navigation.
 - Reference the Gemini Prompting Guide 101 from the Gemini general tips.
 - Document reasoning vs. classic LLM prompting differences in English and German guides and add them to navigation.
+- Refresh README repository structure to reflect current directories and key files.
 
 ## 2025-09-06
 - Initial public release: scaffolding, patterns, model & tool tips, evaluations, MkDocs + Pages workflow.
