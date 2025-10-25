@@ -193,10 +193,9 @@ Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) and 
 ---
 
 ## License
-- **Code:** MIT — see [LICENSE](./LICENSE)
-- **Docs & prompts:** CC BY 4.0 — see [LICENSE‑DOCS](./LICENSE-DOCS)
 
-If you share snippets publicly, please attribute: _“Tomas Herda, Prompting Blueprints (CC BY 4.0)”_.
+- **Code:** MIT — see [`LICENSE`](./LICENSE).
+- **Documentation & non-code content:** CC BY 4.0 — see [`docs/LICENSE-CC-BY-4.0.txt`](./docs/LICENSE-CC-BY-4.0.txt).
 
 ---
 
