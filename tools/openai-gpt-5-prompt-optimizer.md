@@ -1,3 +1,5 @@
+<img src="../assets/openai/openai_prompt_optimizer.gif" alt="OpenAI Prompt Optimizer" width="80%">
+
 # GPT-5 Prompt Optimizer Tutorial: From Baseline Prompt to Production Ready Instructions
 
 > A guided workflow for using the **GPT-5 Prompt Optimizer** to improve everyday prompts, plus advanced tips for complex retrieval-augmented generation (RAG) systems.
