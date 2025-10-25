@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Embed the social preview image directly in the README credits section.
 - Rename research topics and speaking highlights pages to overview indexes and refresh navigation links.
 - Add Large-Scale Scrum (LeSS) in NYC meetup (27 Feb 2026) appearance to Speaking & Keynotes highlights.
 - Add Microsoft Adoption Scenario Library prompt guide with Teams, SharePoint, and Power Platform examples.
