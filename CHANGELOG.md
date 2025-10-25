@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Reference the publicly accessible Google NotebookLM notebook from the README quick links section.
 - Expand research overview with summaries and key findings for upcoming publications.
 - Embed the social preview image directly in the README credits section.
 - Rename research topics and speaking highlights pages to overview indexes and refresh navigation links.
