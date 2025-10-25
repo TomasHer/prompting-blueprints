@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Highlight the Prompting Blueprints introduction video alongside the README repository mind map for quick orientation.
 - Move the repository mind map link to the end of the README “What’s inside” section for quick visual navigation.
 - Reference the publicly accessible Google NotebookLM notebook from the README quick links section.
 - Expand research overview with summaries and key findings for upcoming publications.
