@@ -176,8 +176,9 @@ guides/                 # long-form prompting guides & PDFs
 models/                 # model guides (gpt‑5, gemini, ...)
 patterns/               # pattern catalog & templates
 prompts/                # copy‑ready prompt packs
-research/               # research focus areas & collaboration signals
-speaking/               # keynote outlines and talk prep
+about-author/           # maintainer background (speaking, research)
+  research/             # research focus areas & collaboration signals
+  speaking/             # keynote outlines and talk prep
 tools/                  # NotebookLM, Perplexity Comet, Copilot Agents
 use-cases/              # applied workflows
 CHANGELOG.md            # updates (Keep a Changelog)
@@ -230,10 +231,10 @@ Social preview image: [Image](./assets/prompting_blueprints_herda_social.png)
 ---
 
 ## Speaking & Keynotes
-Explore Tomas Herda’s upcoming appearances, talk topics, and booking details on the dedicated [Speaking & Keynotes overview](./speaking/index.md).
+Explore Tomas Herda’s upcoming appearances, talk topics, and booking details on the dedicated [Speaking & Keynotes overview](./about-author/speaking/index.md).
 
 ## Research
-Review ongoing investigations, experiment logs, and calls for collaboration in the [Research overview](./research/overview.md).
+Review ongoing investigations, experiment logs, and calls for collaboration in the [Research overview](./about-author/research/overview.md).
 
 ---
 
