@@ -1,4 +1,4 @@
-# Speaking & Keynotes
+# Author's Speaking & Keynotes
 
 ## Intent
 Use this page to explore Tomas Herda's recent and upcoming speaking engagements and find the fastest way to book a talk or workshop.
