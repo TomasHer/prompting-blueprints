@@ -5,7 +5,7 @@ Document research initiatives co-authored by Tomas Herda and provide quick acces
 
 ## Current Topics
 ### AI and Agile XP 2025
-[![AI and Agile XP 2025 session preview](../assets/video-preview/AI_and_Agile_XP_2025.png)](https://www.youtube.com/watch?v=VYZGBN4rHTo)
+[![AI and Agile XP 2025 session preview](../../assets/video-preview/AI_and_Agile_XP_2025.png)](https://www.youtube.com/watch?v=VYZGBN4rHTo)
 
 - **Involvement:** [AI and Agile 2025 at XP Conference](https://conf.researchr.org/home/xp-2025/aiandagile-2025)
 - **Published papers:**
