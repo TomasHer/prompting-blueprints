@@ -233,6 +233,8 @@ Social preview image: [Image](./assets/prompting_blueprints_herda_social.png)
 ## Speaking & Keynotes
 Explore Tomas Herda’s upcoming appearances, talk topics, and booking details on the dedicated [Speaking & Keynotes overview](./about-author/speaking/index.md).
 
+For conference organization work—including program committees and track leadership across CAIN, SAC, ISD, and XP—see the [Program Committee & Track Leadership overview](./about-author/speaking/program-committee/index.md).
+
 ## Research
 Review ongoing investigations, experiment logs, and calls for collaboration in the [Research overview](./about-author/research/overview.md).
 
