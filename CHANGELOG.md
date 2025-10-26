@@ -46,6 +46,7 @@ All notable changes to this project will be documented here.
 - Register NotebookLM audio overview references in the external sources index.
 - Register Speaking & Keynotes session links in the external sources index.
 - Move Speaking & Keynotes details to a dedicated page linked from the README and site navigation.
+- Reference conference program committee and track leadership overview from the README Speaking section.
 - Reference the Gemini Prompting Guide 101 from the Gemini general tips.
 - Document reasoning vs. classic LLM prompting differences in English and German guides and add them to navigation.
 - Refresh README repository structure to reflect current directories and key files.
