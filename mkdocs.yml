@@ -40,7 +40,9 @@ nav:
     - Reasoning vs. Classic LLMs: guides/reasoning-vs-classic-llms.md
     - Reasoning vs. Classic LLMs (DE): guides/reasoning-vs-classic-llms-de.md
     - Microsoft 365 Copilot Prompting Guide: guides/microsoft-365-copilot-prompting-guide.md
-  - Speaking & Keynotes: speaking/overview.md
+  - Speaking & Keynotes:
+    - Overview: speaking/overview.md
+    - Program Committee & Track Leadership: speaking/program-committee-overview.md
   - Research:
     - Tomas Herda Research Overview: research/overview.md
   - Use Cases:
