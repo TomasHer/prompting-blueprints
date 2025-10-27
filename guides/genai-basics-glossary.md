@@ -20,6 +20,7 @@ Use this glossary to get comfortable with the essential terms you will see acros
 | Chain-of-Thought | Requesting a step-by-step explanation so the model reasons aloud. |
 | Context Window | The maximum amount of tokens the model can consider in one go. |
 | Temperature | A setting that controls how predictable or creative the model's responses are. |
+| Vibe Coding | Conversational coding where you let an AI pair programmer drive implementation while you stay focused on ideas. |
 
 ## LLM (Large Language Model)
 - **What it means:** Large language models are AI systems trained on vast text datasets so they can predict the next piece of text with high accuracy.
@@ -90,3 +91,11 @@ Use this glossary to get comfortable with the essential terms you will see acros
 - **What it means:** A2A collaboration coordinates multiple specialized agents that exchange goals, outputs, or critiques to reach a shared objective.
 - **Why it matters:** Delegating to focused agents—such as planners, tool specialists, or reviewers—boosts reliability and gives you clearer hand-off points for human oversight.
 - **Try it:** Design a troubleshooting flow where a planner agent decomposes the task, a tool specialist calls APIs, and a reviewer agent confirms policy compliance before returning the final answer.
+
+## Vibe coding
+- **What it means:** Coined by Andrej Karpathy in a 3 Feb 2025 X post, vibe coding hands most keystrokes to an AI assistant (e.g., Cursor Composer + Claude Sonnet) while you steer with natural-language prompts, voice commands, and quick accept/reject decisions.
+- **Why it matters:** Treating coding as a free-flowing dialogue keeps momentum high for prototypes, helps you explore alternative implementations faster, and demonstrates how aggressively delegating to AI shifts your role toward product vision and taste. It also highlights trade-offs—skipping diff reviews or relying on "Accept All" can obscure how the system evolves.
+- **Try it:** Launch an IDE with an embedded assistant or voice interface, narrate UI tweaks or bug reports instead of manually editing files, feed any runtime errors straight back to the assistant, and pause periodically to review diffs so the codebase stays understandable.
+- **Karpathy's description:**
+
+  > There's a new kind of coding I call "vibe coding", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's possible because the LLMs (e.g. Cursor Composer w/ Sonnet) are quite capable now. Also I just talk to Composer with SuperWhisper so I barely even touch the keyboard. I delegate to the dumbest things like "decrease the padding on the sidebar by half" because I'm too lazy to find it. I "Accept All" anyway, I don't read the diffs anymore. When I get error messages I just copy paste them in with no comment usually, that fixes it. The code grows beyond my usual comprehension, I don't know who designed it for a while. Sometimes the LLMs can't fix a bug so I just wait it out or ask for random changes until it gets unstuck. Occasionally after a foggy vibecoding weekend projects, what I built amuses. I'm building a project for webapp, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works.

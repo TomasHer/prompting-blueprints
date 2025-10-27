@@ -25,6 +25,7 @@ All notable changes to this project will be documented here.
 - Add Microsoft Copilot prompt template covering goal, context, expectations, and source guidance.
 - Add beginner-friendly glossary of essential generative AI terms and link it from the guides navigation.
 - Document Model Context Protocol (MCP) and Agent-to-Agent (A2A) collaboration in the generative AI basics glossary.
+- Expand the Vibe coding glossary entry with Karpathy's 3 Feb 2025 X post transcription and deeper guidance.
 - Add OpenAI guide previews and links to the guides overview page.
 - Add Microsoft M365 Copilot prompting guide preview and download link to the guides overview page.
 - Rename the `assets/prompting-guides` directory to `assets/guides` and update all references.
