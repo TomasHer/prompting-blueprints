@@ -17,6 +17,7 @@ All notable changes to this project will be documented here.
 - Move the Google Veo 3.1 tutorial into the use cases section and update navigation.
 - Add Google Veo 3.1 Flow tutorial covering prompting workflow and credit management.
 - Add AI Use Case Identification tutorial with placeholders for Figure 3 and Table 1 from Vom Brocke et al. study.
+- Add requirements engineering dataset experimentation tutorial leveraging LLM4RE resources.
 - Refine the Microsoft Agent Framework quickstart with pillar guidance highlighting MCP, A2A, OpenAPI-first design, and cloud-agnostic operations.
 - Add Claude Agent Skills playbook summarizing Anthropic guidance on reusable workflows.
 - Add README Research section linking to the research topics index.
@@ -28,6 +29,7 @@ All notable changes to this project will be documented here.
 - Expand the Vibe coding glossary entry with Karpathy's 3 Feb 2025 X post transcription and deeper guidance.
 - Add OpenAI guide previews and links to the guides overview page.
 - Add Microsoft M365 Copilot prompting guide preview and download link to the guides overview page.
+- Highlight experimentation guidance for LLM4RE requirements engineering datasets in the external sources index.
 - Rename the `assets/prompting-guides` directory to `assets/guides` and update all references.
 - Update SharePoint Knowledge Agent tutorial with a hero image placeholder pending maintainer artwork.
 - Add Microsoft Facilitator Agent blueprint for Teams meeting orchestration.
