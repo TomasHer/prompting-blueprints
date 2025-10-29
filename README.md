@@ -22,7 +22,7 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 - **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents → `./tools`
 - **Guides:** deep-dive primers and downloadable PDFs (e.g., Gemini Prompting Guide 101) → `./guides`
 - **Use cases:** applied flows (e.g., research notes) → `./use-cases`
-- **Research:** areas of focus, open questions, and collaboration signals → `./research`
+- **Research:** tutorials, reusable blueprints, and collaboration signals for academic researchers → `./research`
 - **Speaking:** keynote decks, talk outlines, and submission notes → `./speaking`
 - **Evaluations:** `promptfoo` assertions & samples → `./evaluations`
 
@@ -44,6 +44,7 @@ Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models
 - **Tool playbooks**: tactical prompts and workflows for NotebookLM, Copilot, and more
 - **Prompting guides**: long-form walkthroughs with downloadable references
 - **Evaluation samples**: promptfoo assertions & runs
+- **Research tutorials**: academic-ready walkthroughs and blueprints for researchers exploring prompting workflows
 
 [🎥 Watch the Prompting Blueprints introduction video](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U) for a guided tour of the repo purpose.
 
