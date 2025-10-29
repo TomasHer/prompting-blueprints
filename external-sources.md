@@ -5,6 +5,7 @@
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
 - [Agent Development Kit Documentation (Google)](https://google.github.io/adk-docs/)
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
+- [Business Insider – Google AI told me to put glue on pizza. I tried it.](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5)
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
 - [Google ADK Python GitHub Repository](https://github.com/google/adk-python)
 - [Google Cloud Platform – Agent Starter Pack GitHub Repository](https://github.com/GoogleCloudPlatform/agent-starter-pack)
@@ -25,8 +26,10 @@
 - [OpenAI Academy – Use cases for managers](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/use-cases-for-managers)
 - [OpenAI Cookbook – GPT-5 Prompt Optimization Cookbook](https://cookbook.openai.com/examples/gpt-5/prompt-optimization-cookbook)
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
+- [Reddit – I hope this answers everyone’s questions about the Titanic pool](https://www.reddit.com/r/titanic/comments/1l2zy41/i_hope_this_answers_everyones_questions_about_the/)
 - [Requirements Engineering Datasets for LLM4RE](https://nlp4se.github.io/LLM4RE-Datasets/) — curated corpora you can reuse to experiment with AI-supported requirements engineering workflows.
 - [Prompting Blueprints introduction video (YouTube)](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U)
+- [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
 - [Vom Brocke et al. – How to Identify Promising AI Use Cases](https://www.alexandria.unisg.ch/server/api/core/bitstreams/35316f07-8d0b-47dc-bbf0-36753ca834b3/content)
 
 ## About the Author

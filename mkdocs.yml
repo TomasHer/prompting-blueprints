@@ -36,6 +36,7 @@ nav:
     - Perplexity Comet: tools/perplexity-comet.md
   - Guides:
     - Overview: guides/overview.md
+    - AI Gone Wrong Incident Stories: guides/ai-gone-wrong-stories.md
     - Generative AI Basics Glossary: guides/genai-basics-glossary.md
     - Reasoning vs. Classic LLMs: guides/reasoning-vs-classic-llms.md
     - Reasoning vs. Classic LLMs (DE): guides/reasoning-vs-classic-llms-de.md
