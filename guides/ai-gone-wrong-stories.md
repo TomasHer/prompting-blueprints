@@ -1,3 +1,5 @@
+<img src="../assets/ai-gone-wrong/ai-gone-wrong-1.png" alt="AI Gone Wrong" width="80%">
+
 # AI Gone Wrong Incident Stories
 
 ## Intent
