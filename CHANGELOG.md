@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Embed glue-in-pizza and Titanic pool images in the AI gone wrong incident stories guide.
 - Add AI gone wrong incident stories guide with workshop facilitation prompts.
 - Relocate speaking and research content into an `about-author` folder and refresh navigation links.
 - Document Tomas Herda's program committee and track leadership roles across 2024–2026 conferences.

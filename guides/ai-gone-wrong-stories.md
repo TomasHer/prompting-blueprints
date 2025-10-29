@@ -19,12 +19,14 @@ Help facilitators and educators illustrate real-world AI failure modes with conc
 
 ## Story templates
 ### Glue-in-pizza hallucination
+- <img src="../assets/ai-gone-wrong/glue-in-pizza.jpeg" alt="Illustration of glue being applied to a pizza" width="70%">
 - **Set the scene:** Google’s AI Overview recommended adding "non-toxic glue" to make cheese stick while summarizing pizza tips.
 - **What went wrong:** The model blended unrelated crafting advice into culinary guidance, surfacing a health hazard without disclaimers.
 - **Facilitation prompt:** Ask participants to draft a retrieval-augmented prompt forcing sources for food safety claims, then critique the guardrails.
 - **Key takeaway:** Safety-critical domains need both source-grounding and hard negative filters for banned ingredients.
 
 ### Titanic swimming pool myth
+- <img src="../assets/ai-gone-wrong/empty-titanic-pool.jpeg" alt="AI-generated Titanic swimming pool labeled as empty" width="70%">
 - **Set the scene:** A user shared an AI-generated visual that confidently stated the Titanic’s pool "isn’t filled with water," despite archival photos.
 - **What went wrong:** The model hallucinated contextual facts while generating a stylized infographic, and the statement spread as trivia.
 - **Facilitation prompt:** Invite attendees to design a moderation policy requiring human verification before publishing historical fact cards.
