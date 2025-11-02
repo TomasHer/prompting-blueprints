@@ -1,4 +1,4 @@
-# Deep Research Tools Playbook
+# Deep Research Tutorial
 
 ## Intent
 Help researchers and strategists choose and operationalize deep research modes in Perplexity, Gemini, and ChatGPT. Summarize core capabilities, when to deploy each workflow, and how to enable the relevant tooling.
@@ -15,7 +15,7 @@ Help researchers and strategists choose and operationalize deep research modes i
 | Best for | Exploratory market sweeps, literature dives, “unknown unknowns.” | Cross-format intelligence, Workspace-native projects, multilingual needs. | Executive summaries, product requirement deep-dives, configurable deliverables. |
 | Key controls | Adjustable duration, focus areas, citation harvesting. | Research focus selection, Workspace integration, output tone guidance. | Prompt-level guardrails, deliverable templates, follow-up query queue. |
 | Typical output | Threaded findings with citations, recommended next steps. | Multi-section briefs with evidence highlights, image-rich insights. | Tailored reports (slides, briefs) with inline references and follow-up tasks. |
-| Pricing / access (Mar 2026) | Paid add-on for Pro/Enterprise; time-boxed runs. | Gemini Advanced subscription; rolling Workspace rollout. | ChatGPT Enterprise / Pro add-on; availability varies by org policy. |
+| Pricing / access | Paid add-on for Pro/Enterprise; time-boxed runs. | Gemini Advanced subscription | ChatGPT Enterprise / Plus / Pro; availability varies by org policy. |
 
 ## Workflow Highlights
 
@@ -25,7 +25,7 @@ Help researchers and strategists choose and operationalize deep research modes i
 3. Let the run complete; harvest citations and recommended follow-ups for action plans.
 4. Export summaries to your knowledge base and set review cadence for updates.
 
-> _Screenshot placeholder: Insert Perplexity Deep Research activation image here._
+> <img src="../assets/deep-research/deep-research-perplexity1.jpg" alt="Perplexity Deep Research" width="60%">
 
 **Enablement tips**
 - Ensure the Deep Research add-on is toggled in workspace settings for eligible seats.
@@ -38,7 +38,7 @@ Help researchers and strategists choose and operationalize deep research modes i
 3. Iterate on section summaries, using follow-up prompts to add visuals or data tables.
 4. Export to Google Docs or Slides for stakeholder review.
 
-> _Screenshot placeholder: Insert Gemini Deep Research enablement image here._
+> <img src="../assets/deep-research/deep-research-gemini1.jpg" alt="Gemini Deep Research" width="60%">
 
 **Enablement tips**
 - Verify Gemini Advanced access and the Deep Research beta toggle in Admin Console.
@@ -51,7 +51,7 @@ Help researchers and strategists choose and operationalize deep research modes i
 3. Launch Deep Research; review interim findings and queue follow-up questions inline.
 4. Package the final report using ChatGPT’s export or copy-ready markdown block.
 
-> _Screenshot placeholder: Insert ChatGPT Deep Research activation image here._
+> <img src="../assets/deep-research/deep-research-chatgpt1.jpg" alt="ChatGPT Deep Research" width="60%">
 
 **Enablement tips**
 - Confirm Deep Research access in the ChatGPT organization settings (Pro or Enterprise).
@@ -65,8 +65,7 @@ Help researchers and strategists choose and operationalize deep research modes i
 - **Quality loops**: Schedule human spot-checks for critical decisions; log discrepancies to refine prompts.
 
 ## Related Blueprints
-- [Research Notes Workflow](./research-notes.md)
-- [Program Delivery Manager Copilot Playbook](./program-delivery-manager-copilot-playbook.md)
+- [Microsoft Copilot Researcher Agent Blueprint](../tools/microsoft-copilot-researcher-agent.md)
 
 ## References
 - [Perplexity: Introducing Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research)
