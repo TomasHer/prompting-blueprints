@@ -59,6 +59,7 @@ All notable changes to this project will be documented here.
 - Expand `external-sources.md` to include every cited reference across the repository.
 - Add Deep Research Tools Playbook summarizing Perplexity, Gemini, and ChatGPT workflows with image placeholders.
 - Correct Titanic pool story date in the AI gone wrong incident stories guide.
+- Add deep research prompt examples for strategy analysis and telescope purchasing scenarios.
 
 ## 2025-09-06
 - Initial public release: scaffolding, patterns, model & tool tips, evaluations, MkDocs + Pages workflow.

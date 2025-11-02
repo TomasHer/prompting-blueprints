@@ -64,6 +64,18 @@ Help researchers and strategists choose and operationalize deep research modes i
 - **Handoffs**: Embed outputs into project hubs (Notion, Confluence, Workspace) with clear owner and refresh cadence.
 - **Quality loops**: Schedule human spot-checks for critical decisions; log discrepancies to refine prompts.
 
+## Deep Research Prompt Examples
+
+### Corporate Strategy Analyst (Tech)
+- **Job / Industry**: Corporate Strategy Analyst (Tech)
+- **Prompt**: “As a senior strategy analyst, your task is to create a comprehensive, board-ready competitive landscape analysis focused on AI-chip startups, specifically those listed in the Silicon Angle list for 2024 and beyond, and that have secured Series A funding or higher. Your analysis should encompass several key components: a detailed funding history for each startup, an overview of their core technologies, profiles of key executives, an examination of relevant patent families, an assessment of strategic partnerships, and a summary of significant strategic moves made over the past 12 months. The final deliverable should be a 30-page report organized into distinct sections: an Executive Summary, a Market Map, individual Company Profiles (one page for each startup), a Patent Heatmap, and an analysis of Risks & Opportunities. Ensure that you provide inline citations and include live source links for all referenced materials.”
+- **Source**: [PromptPerfect — Deep Research prompt examples](https://daily.promptperfect.xyz/p/fifteen-examples-of-how-to-use-deep-research-in-chatgpt-with-prompts)
+
+### Telescope Purchase Guidance
+- **Use case**: Purchase of a telescope
+- **Prompt**: “I'm looking for a refractor telescope specifically designed for an intermediate astrophotographer and I need help choosing the right one. I'd like an aperture size greater than 70 MM and compatibility with DSLR cameras. Could you provide me with a list of top refractor telescopes suitable for astrophotography, including their pros and cons, and a brief guide on how to select the best one based on my budget of $1500? Please include information on any additional equipment I might need to get started with astrophotography.”
+- **Source**: [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
+
 ## Related Blueprints
 - [Microsoft Copilot Researcher Agent Blueprint](../tools/microsoft-copilot-researcher-agent.md)
 
@@ -71,3 +83,5 @@ Help researchers and strategists choose and operationalize deep research modes i
 - [Perplexity: Introducing Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research)
 - [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
 - [ChatGPT Deep Research announcement](https://openai.com/index/introducing-deep-research/)
+- [PromptPerfect — Deep Research prompt examples](https://daily.promptperfect.xyz/p/fifteen-examples-of-how-to-use-deep-research-in-chatgpt-with-prompts)
+- [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
