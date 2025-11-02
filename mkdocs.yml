@@ -53,6 +53,7 @@ nav:
     - Research Notes: use-cases/research-notes.md
     - Requirements Engineering Dataset Experiments: use-cases/requirements-engineering-dataset-experiments.md
     - Microsoft Adoption Scenario Library: use-cases/microsoft-adoption-scenario-library.md
+    - Deep Research Tools Playbook: use-cases/deep-research.md
   - Evaluations:
     - Overview: evaluations/README.md
     - promptfoo.yml: evaluations/promptfoo.yml
