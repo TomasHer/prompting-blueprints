@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add vibe research playbook outlining exploratory sensemaking workflows and tool stacks.
 - Embed glue-in-pizza and Titanic pool images in the AI gone wrong incident stories guide.
 - Add AI gone wrong incident stories guide with workshop facilitation prompts.
 - Relocate speaking and research content into an `about-author` folder and refresh navigation links.
