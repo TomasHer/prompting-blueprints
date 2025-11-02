@@ -14,8 +14,8 @@ Help facilitators and educators illustrate real-world AI failure modes with conc
 | Source | Why it matters | How to reuse |
 | --- | --- | --- |
 | [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors) | Continuously updated portal curating “AI gone wrong” reports across industries. | Monitor for fresh anecdotes to rotate into decks or newsletter retrospectives. |
-| [Business Insider – Google AI’s glue-on-pizza suggestion](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5) | Shows how hallucinated cooking advice can slip through safety filters when generative search rushes answers. | Contrast with prompt guardrails that demand food-safety citations before responding. |
-| [Reddit – Titanic pool water claim](https://www.reddit.com/r/titanic/comments/1l2zy41/i_hope_this_answers_everyones_questions_about_the/) | Viral meme of an AI image response insisting the Titanic pool lacks water, highlighting overconfident captions. | Use in demos about verifying visual ground truth or gating automated social posts. |
+| [Business Insider – Google AI’s glue-on-pizza suggestion](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5) *(reported May 30, 2024)* | Shows how hallucinated cooking advice can slip through safety filters when generative search rushes answers. | Contrast with prompt guardrails that demand food-safety citations before responding. |
+| [Reddit – Titanic pool water claim](https://www.reddit.com/r/titanic/comments/1l2zy41/i_hope_this_answers_everyones_questions_about_the/) *(posted June 4, 2025)* | Viral meme of an AI image response insisting the Titanic pool lacks water, highlighting overconfident captions. | Use in demos about verifying visual ground truth or gating automated social posts. |
 
 ## Story templates
 ### Glue-in-pizza hallucination
