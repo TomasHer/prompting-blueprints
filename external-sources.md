@@ -9,6 +9,7 @@
 - [Business Insider – Google AI told me to put glue on pizza. I tried it.](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5)
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
 - [Google ADK Python GitHub Repository](https://github.com/google/adk-python)
+- [Google — Gemini API changelog](https://ai.google.dev/gemini-api/docs/changelog?hl=en)
 - [Google Cloud Platform – Agent Starter Pack GitHub Repository](https://github.com/GoogleCloudPlatform/agent-starter-pack)
 - [Google Labs Flow](https://labs.google/fx/tools/flow)
 - [Google NotebookLM – Audio Overviews](https://notebooklm.google/audio)
