@@ -99,3 +99,4 @@ Use this glossary to get comfortable with the essential terms you will see acros
 - **Karpathy's description:**
 
   > <img src="../assets/other/vibe_coding_andrej_karpathy.jpg" alt="Vibe Coding" width="80%">
+

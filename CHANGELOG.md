@@ -41,6 +41,7 @@ All notable changes to this project will be documented here.
 - Add Prompt Pattern Catalogue smoke tests and document quick run commands for evaluations.
 - Move prompting guides overview into a dedicated root-level `guides` directory.
 - Add static image preview for the Gemini Prompting Guide 101.
+- Add LLM lifecycle monitoring guide covering signals, practices, and tooling accelerators.
 - Move prompting guides overview into the patterns directory and refresh Gemini 101 links.
 - Add prompting guides overview page with Gemini 101 preview and index scaffold.
 - Add Google Cloud ADK quickstart tutorial covering setup, tooling, and deployment guidance.
