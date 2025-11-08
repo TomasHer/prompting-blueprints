@@ -18,7 +18,6 @@ AI agents are software systems that use artificial intelligence techniques to pe
 **Intent**: Compare the common maturity levels so you can scope agent capabilities before adding orchestration, new tools, or autonomy.
 
 ![Spectrum of AI agent types showing Retrieval, Task, and Autonomous panels](../assets/other/types-of-ai-agents.png)
-*Simple → Advanced*
 
 | Type | Core responsibilities | Ideal scope |
 | --- | --- | --- |
@@ -101,9 +100,6 @@ AI agents are software systems that use artificial intelligence techniques to pe
 
 ## History of AI Agents
 The idea of AI agents grew from the increasing sophistication of prompting techniques used with large language models. Early practitioners found that structured prompting templates—such as the Persona Pattern, step-by-step reasoning prompts, and AI Planning patterns—enabled models to simulate specialized roles, break down complex tasks, and coordinate multi-step plans reliably. These approaches proved so effective that teams began encapsulating them into reusable software scaffolding, eventually forming the foundation of the agent paradigm we see today.
-
-## Additional Resources *(Placeholder)*
-> **Upcoming content**: Replace this paragraph with links, references, and further reading materials that deepen understanding of AI agents and related technologies.
 
 ## References
 - [Google Cloud – What are AI agents?](https://cloud.google.com/discover/what-are-ai-agents)
