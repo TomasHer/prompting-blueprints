@@ -3,6 +3,11 @@
 ## Overview
 AI agents are software systems that use artificial intelligence techniques to perceive information, reason about it, and take actions toward a goal. According to Google Cloud's overview, modern AI agents combine language models with orchestrated tools and data sources so that they can observe real-world signals, plan multi-step solutions, and act autonomously or semi-autonomously on a user's behalf. These systems often integrate perception, reasoning, and action loops to deliver adaptive, context-aware assistance.
 
+## Brief History of AI Agents
+Modern agent design traces back to discrete prompt-engineering breakthroughs. Chain-of-thought prompting, published on 28 Jan 2022, showed that guiding models through intermediate reasoning steps dramatically boosts multi-hop problem solving and set the stage for agents that explain and justify decisions ([Wei et al.](https://arxiv.org/abs/2201.11903)). On 21 Feb 2023 Dr. Jules White introduced the Persona Pattern, demonstrating how role-specific scaffolds unlock tool selection and memory strategies; the pattern is cataloged in both the original paper ([White et al.](https://arxiv.org/abs/2302.11382)) and [patterns/prompt-pattern-catalogue.md](../patterns/prompt-pattern-catalogue.md), with additional context from Vanderbilt’s prompt-pattern collection (https://www.vanderbilt.edu/generative-ai/prompt-patterns/).
+
+White later formalized the AI Planning pattern in the [“ChatGPT Advanced Data Analysis”](https://www.vanderbilt.edu/datascience/2023/08/29/new-course-chatgpt-advanced-data-analysis-by-dr-jules-white-associate-professor-of-computer-science/) course, which encouraged practitioners to externalize goal decomposition and action graphs before letting agents operate autonomously. Our team, in collaboration with university partners and documented in [about-author/research/overview.md](../about-author/research/overview.md), began experimenting with that pattern in October 2023 for the “LLM-Based Agents for Automating the Enhancement of User Story Quality” study ([Zhang et al.](https://link.springer.com/chapter/10.1007/978-3-031-61154-4_8)), publishing findings on 14 Mar 2024 and underscoring how structured planning bridges prompt templates and fully autonomous agent stacks.
+
 ## Core Capabilities
 - **Perception**: Agents ingest structured and unstructured data, including natural language, to understand user intent and environmental context.
 - **Reasoning and Planning**: They evaluate goals, decompose tasks, and determine appropriate next steps using techniques such as chain-of-thought prompting and planning heuristics.
@@ -119,10 +124,12 @@ AI agents are software systems that use artificial intelligence techniques to pe
 | ✗ | [CrewAI](https://docs.crewai.com/introduction) | Local, Remote | Remote | Predefined, 40+ integrations | Flow- & role-based |
 | ✓ | [n8n](https://n8n.io/) | Local, Remote | Remote | Predefined, 100+ integrations | Workflows, sub-workflows |
 
-## History of AI Agents
-The idea of AI agents grew from the increasing sophistication of prompting techniques used with large language models. Early practitioners found that structured prompting templates—such as the Persona Pattern, step-by-step reasoning prompts, and AI Planning patterns—enabled models to simulate specialized roles, break down complex tasks, and coordinate multi-step plans reliably. These approaches proved so effective that teams began encapsulating them into reusable software scaffolding, eventually forming the foundation of the agent paradigm we see today.
-
 ## References
+- [Wei et al. – Chain-of-thought prompting elicits reasoning in large language models](https://arxiv.org/abs/2201.11903)
+- [White – Persona Pattern: Prompt Pattern Catalog](https://arxiv.org/abs/2302.11382)
+- [Vanderbilt University – Prompt Patterns collection](https://www.vanderbilt.edu/generative-ai/prompt-patterns/)
+- [White – ChatGPT Advanced Data Analysis course announcement](https://www.vanderbilt.edu/datascience/2023/08/29/new-course-chatgpt-advanced-data-analysis-by-dr-jules-white-associate-professor-of-computer-science/)
+- [Herda et al. – LLM-Based Agents for Automating the Enhancement of User Story Quality](https://link.springer.com/chapter/10.1007/978-3-031-61154-4_8)
 - [Google Cloud – What are AI agents?](https://cloud.google.com/discover/what-are-ai-agents)
 - [Microsoft Inside Track – How our employees are extending enterprise AI with custom retrieval agents](https://www.microsoft.com/insidetrack/blog/how-our-employees-are-extending-enterprise-ai-with-custom-retrieval-agents/)
 - [OpenAI – Agents API guide](https://platform.openai.com/docs/guides/agents)
