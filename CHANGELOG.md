@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Document the 7-step AI agent build workflow, frameworks table, and supporting diagram in the AI agents overview guide.
 - Move the AI agents overview into the guides collection and cite the Google Cloud primer.
 - Add n8n vibe research workflow tutorial for co-designing shareable automation templates.
 - Add vibe research playbook outlining exploratory sensemaking workflows and tool stacks.
