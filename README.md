@@ -22,11 +22,11 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 - **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents → `./tools`
 - **Guides:** deep-dive primers and downloadable PDFs (e.g., Gemini Prompting Guide 101) → `./guides`
 - **Use cases:** applied flows (e.g., research notes) → `./use-cases`
-- **Research:** tutorials, reusable blueprints, and collaboration signals for academic researchers → `./research`
-- **Speaking:** keynote decks, talk outlines, and submission notes → `./speaking`
+- **Research:** tutorials, reusable blueprints, and collaboration signals for academic researchers → `./research` and `./about-author/research`
+- **Speaking:** keynote decks, talk outlines, and submission notes → `./about-author/speaking`
 - **Evaluations:** `promptfoo` assertions & samples → `./evaluations`
 
-Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models) · [tools](./tools) · [guides](./guides) · [use‑cases](./use-cases) · [research](./research) · [speaking](./speaking) · [evaluations](./evaluations) · [changelog](./CHANGELOG.md)
+Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models) · [tools](./tools) · [guides](./guides) · [use‑cases](./use-cases) · [research](./research) · [author research](./about-author/research) · [speaking](./about-author/speaking) · [evaluations](./evaluations) · [changelog](./CHANGELOG.md)
 
 > Want more? Browse the publicly accessible [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263) for extended context, references, and drafts.
 
