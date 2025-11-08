@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Move the AI agents overview into the guides collection and cite the Google Cloud primer.
 - Add n8n vibe research workflow tutorial for co-designing shareable automation templates.
 - Add vibe research playbook outlining exploratory sensemaking workflows and tool stacks.
 - Embed glue-in-pizza and Titanic pool images in the AI gone wrong incident stories guide.
