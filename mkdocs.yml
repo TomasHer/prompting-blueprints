@@ -36,6 +36,7 @@ nav:
     - Perplexity Comet: tools/perplexity-comet.md
   - Guides:
     - Overview: guides/overview.md
+    - Understanding AI Agents: guides/ai-agents-overview.md
     - AI Gone Wrong Incident Stories: guides/ai-gone-wrong-stories.md
     - Generative AI Basics Glossary: guides/genai-basics-glossary.md
     - LLM Lifecycle Monitoring Guide: guides/llm-lifecycle-monitoring.md

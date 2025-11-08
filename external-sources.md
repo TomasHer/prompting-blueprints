@@ -11,6 +11,7 @@
 - [Google ADK Python GitHub Repository](https://github.com/google/adk-python)
 - [Google — Gemini API changelog](https://ai.google.dev/gemini-api/docs/changelog?hl=en)
 - [Google Cloud Platform – Agent Starter Pack GitHub Repository](https://github.com/GoogleCloudPlatform/agent-starter-pack)
+- [Google Cloud – What are AI agents?](https://cloud.google.com/discover/what-are-ai-agents)
 - [Google Labs Flow](https://labs.google/fx/tools/flow)
 - [Google NotebookLM – Audio Overviews](https://notebooklm.google/audio)
 - [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263)
