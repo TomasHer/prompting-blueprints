@@ -14,8 +14,34 @@ AI agents are software systems that use artificial intelligence techniques to pe
 3. **Foundation Models and Tools** – Provide language understanding, content generation, and the ability to interact with enterprise systems or third-party services.
 4. **Governance and Safety** – Enforces policies, monitors for misuse, and ensures responses stay aligned with organizational standards.
 
-## Agent Types *(Placeholder)*
-> **Upcoming content**: Replace this paragraph with detailed descriptions of Retrieval Agents, Task Agents, and Autonomous Agents. Include their distinguishing capabilities, ideal use cases, and design considerations.
+## Agent Types
+**Intent**: Compare the common maturity levels so you can scope agent capabilities before adding orchestration, new tools, or autonomy.
+
+![Spectrum of AI agent types showing Retrieval, Task, and Autonomous panels](../assets/other/types-of-ai-agents.png)
+*Simple → Advanced*
+
+| Type | Core responsibilities | Ideal scope |
+| --- | --- | --- |
+| Retrieval | Tap grounding data, reason over snippets, summarize, and answer scoped questions. | Knowledge bases, policies, product catalogs, support wikis. |
+| Task | Take direct actions, call tools, and automate multi-step jobs when asked. | Workflow automation, CRM updates, support triage, creative drafts. |
+| Autonomous | Plan dynamically, orchestrate other agents, learn from feedback, and escalate when needed. | Mission-critical copilots, ops copilots, research pods, complex routing. |
+
+### Retrieval agents
+- **Use when** you need grounded answers pulled from approved documents or APIs without exposing full tool access.
+- **Core moves**: chunk and embed data, route questions through retrieval-augmented prompts, explain citations inline.
+- **Design notes**: prioritize latency, caching, and guardrails that stop the agent from hallucinating outside the grounding corpus.
+
+### Task agents
+- **Use when** users expect the agent to execute predictable workflows (create tickets, summarize calls, update sheets).
+- **Core moves**: invoke deterministic tools, log every action, request clarifications when a parameter is missing.
+- **Design notes**: pair prompts with checklists, expose safe defaults, and track completion metrics per task template.
+
+### Autonomous agents
+- **Use when** the work requires multi-day plans, branching decision trees, or hand-offs across several specialized agents.
+- **Core moves**: maintain scratchpads, spawn or orchestrate sub-agents, decide when to escalate to humans.
+- **Design notes**: treat planning graphs as infrastructure, layer evals for alignment/safety, and add memory policies so context stays auditable.
+
+> **Note:** Agents vary in levels of complexity and capabilities depending on your need.
 
 ## AI Workflows *(Placeholder)*
 > **Upcoming content**: Replace this paragraph with an explanation of Non-agentic, Agentic, and AI Agent workflows. Highlight how each workflow progresses in autonomy and complexity, including diagrams or tables if helpful.
@@ -81,3 +107,4 @@ The idea of AI agents grew from the increasing sophistication of prompting techn
 
 ## References
 - [Google Cloud – What are AI agents?](https://cloud.google.com/discover/what-are-ai-agents)
+- [Microsoft Inside Track – How our employees are extending enterprise AI with custom retrieval agents](https://www.microsoft.com/insidetrack/blog/how-our-employees-are-extending-enterprise-ai-with-custom-retrieval-agents/)
