@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Describe non-agentic, agentic, and AI agent workflows with supporting diagrams in the AI agents overview guide.
 - Detail retrieval, task, and autonomous agent tiers with supporting diagram, official framework links, and Microsoft custom retrieval agent reference in the AI agents overview guide.
 - Document the 7-step AI agent build workflow, frameworks table, and supporting diagram in the AI agents overview guide.
 - Move the AI agents overview into the guides collection and cite the Google Cloud primer.

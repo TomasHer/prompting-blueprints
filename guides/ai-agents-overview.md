@@ -42,8 +42,29 @@ AI agents are software systems that use artificial intelligence techniques to pe
 
 > **Note:** Agents vary in levels of complexity and capabilities depending on your need.
 
-## AI Workflows *(Placeholder)*
-> **Upcoming content**: Replace this paragraph with an explanation of Non-agentic, Agentic, and AI Agent workflows. Highlight how each workflow progresses in autonomy and complexity, including diagrams or tables if helpful.
+## AI Workflows
+**Intent**: Show how execution maturity evolves from single-shot prompts to fully autonomous agents so teams can pick the right operating model.
+
+### Non-Agentic Workflow
+- **Use when** you only need a one-off response or lightweight generation with no memory or tool usage. Think of it as querying a smart autocomplete.
+- **Example**: Asking ChatGPT a single question and pasting the reply into your doc.
+- **Steps**: The diagram outlines the quick ask → response loop with no state carried forward.
+
+![Non-agentic workflow diagram](../assets/other/non-agentic-workflow.png)
+
+### Agentic Workflow
+- **Use when** you want a co-pilot that iterates with you, calls tools, or keeps short-lived context (IDE copilots, spreadsheet helpers, etc.).
+- **Example**: GitHub Copilot suggesting code while you type—still user-driven, but the assistant plans a few moves ahead.
+- **Steps**: Refer to the diagram to see how the workflow alternates between user checkpoints and agent-led actions.
+
+![Agentic workflow diagram](../assets/other/agentic-workflow.png)
+
+### AI Agents
+- **Use when** you can hand over the goal and let the system decide the plan, tools, and escalation path—ideal for exec assistants or ops copilots.
+- **Example**: An AI executive assistant that reschedules meetings without step-by-step prompts.
+- **Steps**: The diagram shows the agent perceiving the goal, planning autonomously, acting across tools, and reporting back.
+
+![AI agent workflow diagram](../assets/other/ai-agent.png)
 
 ## Building an AI Agent Tutorial
 **Intent**: Provide a copy-ready recipe for shipping production-grade agents that blend prompts, tools, and evaluations.
