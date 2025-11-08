@@ -89,15 +89,15 @@ AI agents are software systems that use artificial intelligence techniques to pe
 ## Common Agentic Frameworks
 | No-code | Framework | LLM | MCP | Tools (functions everywhere) | Agents orchestration |
 |---|---|---|---|---|---|
-| ✗ | OpenAI Agents API | OpenAI | Remote | Predefined (web, file/code) | Threads |
-| ✗ | Google Vertex AI | * | Remote | Predefined (search, vision, etc.) | Flow-based, native A2A |
-| ✗ | Anthropic Agents API | * | Remote | Predefined (web, file/code) | Tool-calling only |
-| ✗ | Microsoft AutoGen | * | None | Predefined (REPL, code) | Programmatic chaining |
-| ✓ | Autogen Studio | * | None | Predefined | Visual agent chaining |
-| ✗ | LangGraph | Local, Remote | Local, Remote | LangChain Functions | Graph (DAG)-based flow |
-| ✗ | LangChain | Local, Remote | Remote | Functions (custom-defined) | Manual (chains/agents) |
-| ✗ | CrewAI | Local, Remote | Remote | Predefined, 40+ integrations | Flow- & role-based |
-| ✓ | n8n | Local, Remote | Remote | Predefined, 100+ integrations | Workflows, sub-workflows |
+| ✗ | [OpenAI Agents API](https://platform.openai.com/docs/guides/agents) | OpenAI | Remote | Predefined (web, file/code) | Threads |
+| ✗ | [Google Vertex AI](https://cloud.google.com/products/agent-builder?hl=en) | * | Remote | Predefined (search, vision, etc.) | Flow-based, native A2A |
+| ✗ | [Anthropic Agents API](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk) | * | Remote | Predefined (web, file/code) | Tool-calling only |
+| ✗ | [Microsoft AutoGen](https://microsoft.github.io/autogen/stable//index.html) | * | None | Predefined (REPL, code) | Programmatic chaining |
+| ✓ | [Autogen Studio](https://microsoft.github.io/autogen/dev//user-guide/autogenstudio-user-guide/index.html) | * | None | Predefined | Visual agent chaining |
+| ✗ | [LangGraph](https://docs.langchain.com/oss/python/langgraph/studio) | Local, Remote | Local, Remote | LangChain Functions | Graph (DAG)-based flow |
+| ✗ | [LangChain](https://docs.langchain.com/oss/python/langgraph/studio) | Local, Remote | Remote | Functions (custom-defined) | Manual (chains/agents) |
+| ✗ | [CrewAI](https://docs.crewai.com/introduction) | Local, Remote | Remote | Predefined, 40+ integrations | Flow- & role-based |
+| ✓ | [n8n](https://n8n.io/) | Local, Remote | Remote | Predefined, 100+ integrations | Workflows, sub-workflows |
 
 ## History of AI Agents
 The idea of AI agents grew from the increasing sophistication of prompting techniques used with large language models. Early practitioners found that structured prompting templates—such as the Persona Pattern, step-by-step reasoning prompts, and AI Planning patterns—enabled models to simulate specialized roles, break down complex tasks, and coordinate multi-step plans reliably. These approaches proved so effective that teams began encapsulating them into reusable software scaffolding, eventually forming the foundation of the agent paradigm we see today.
@@ -108,3 +108,12 @@ The idea of AI agents grew from the increasing sophistication of prompting techn
 ## References
 - [Google Cloud – What are AI agents?](https://cloud.google.com/discover/what-are-ai-agents)
 - [Microsoft Inside Track – How our employees are extending enterprise AI with custom retrieval agents](https://www.microsoft.com/insidetrack/blog/how-our-employees-are-extending-enterprise-ai-with-custom-retrieval-agents/)
+- [OpenAI – Agents API guide](https://platform.openai.com/docs/guides/agents)
+- [Google Cloud – Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder?hl=en)
+- [Anthropic – Building agents with the Claude Agent SDK](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk)
+- [Microsoft – AutoGen documentation](https://microsoft.github.io/autogen/stable//index.html)
+- [Microsoft – Autogen Studio docs](https://microsoft.github.io/autogen/dev//user-guide/autogenstudio-user-guide/index.html)
+- [LangChain – LangGraph Studio docs](https://docs.langchain.com/oss/python/langgraph/studio)
+- [LangChain – Framework docs](https://docs.langchain.com/oss/python/langgraph/studio)
+- [CrewAI – Framework documentation](https://docs.crewai.com/introduction)
+- [n8n – Official site](https://n8n.io/)
