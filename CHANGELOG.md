@@ -3,7 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
-- Add AI tool chaining playbook summarizing October 2025 TheFuturaLab guidance for Claude 4.5, ChatGPT-5, and Perplexity.
+- Add AI tool chaining playbook summarizing October 2025 TheFuturaLab guidance for Claude 4.5, ChatGPT-5, Perplexity, Gemini 2.5, Grok 4, DeepSeek V3.1, and Mistral Large 2, with official resource links.
 - Describe non-agentic, agentic, and AI agent workflows with supporting diagrams in the AI agents overview guide.
 - Detail retrieval, task, and autonomous agent tiers with supporting diagram, official framework links, and Microsoft custom retrieval agent reference in the AI agents overview guide.
 - Document the 7-step AI agent build workflow, frameworks table, and supporting diagram in the AI agents overview guide.
