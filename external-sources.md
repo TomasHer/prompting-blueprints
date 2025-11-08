@@ -41,6 +41,7 @@
 - [Requirements Engineering Datasets for LLM4RE](https://nlp4se.github.io/LLM4RE-Datasets/) — curated corpora you can reuse to experiment with AI-supported requirements engineering workflows.
 - [Prompting Blueprints introduction video (YouTube)](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U)
 - [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
+- [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
 - [Vom Brocke et al. – How to Identify Promising AI Use Cases](https://www.alexandria.unisg.ch/server/api/core/bitstreams/35316f07-8d0b-47dc-bbf0-36753ca834b3/content)
 
 ## About the Author
