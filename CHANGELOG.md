@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add LangChain Deep Agents tools guide with planning, sub-agent, and file workspace tactics plus navigation updates.
 - Describe non-agentic, agentic, and AI agent workflows with supporting diagrams in the AI agents overview guide.
 - Detail retrieval, task, and autonomous agent tiers with supporting diagram, official framework links, and Microsoft custom retrieval agent reference in the AI agents overview guide.
 - Document the 7-step AI agent build workflow, frameworks table, and supporting diagram in the AI agents overview guide.
