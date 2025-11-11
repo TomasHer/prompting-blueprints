@@ -33,8 +33,9 @@ nav:
     - Microsoft Facilitator Agent: tools/microsoft-facilitator-agent.md
     - Microsoft SharePoint Knowledge Agent: tools/microsoft-sharepoint-knowledge-agent.md
     - NotebookLM Audio Overviews: tools/notebooklm-audio-overviews-blueprint.md
-    - GPT-5 Prompt Optimizer: tools/gpt-5-prompt-optimizer.md
+    - OpenAI GPT-5 Prompt Optimizer: tools/openai-gpt-5-prompt-optimizer.md
     - Perplexity Comet: tools/perplexity-comet.md
+    - AI Tool Chaining (Oct 2025): tools/ai-tool-chaining-oct-2025.md
   - Guides:
     - Overview: guides/overview.md
     - Understanding AI Agents: guides/ai-agents-overview.md
@@ -51,14 +52,14 @@ nav:
     - Tomas Herda Research Overview: about-author/research/overview.md
     - Vibe Research Playbook: research/vibe-research.md
     - n8n Vibe Research Workflow Tutorial: research/n8n-research-workflow-tutorial.md
+    - Requirements Engineering Dataset Experiments: research/requirements-engineering-dataset-experiments.md
   - Use Cases:
     - Program Delivery Manager Copilot Playbook: use-cases/program-delivery-manager-copilot-playbook.md
     - Google Veo 3.1 Video Tutorial: use-cases/google-veo-3-1-video-tutorial.md
     - AI Use Case Identification: use-cases/ai-use-case-identification.md
-    - Research Notes: use-cases/research-notes.md
-    - Requirements Engineering Dataset Experiments: use-cases/requirements-engineering-dataset-experiments.md
     - Microsoft Adoption Scenario Library: use-cases/microsoft-adoption-scenario-library.md
     - Deep Research Tools Playbook: use-cases/deep-research.md
+    - Summarization Playbook: use-cases/summarization-tutorial.md
   - Evaluations:
     - Overview: evaluations/README.md
     - promptfoo.yml: evaluations/promptfoo.yml
