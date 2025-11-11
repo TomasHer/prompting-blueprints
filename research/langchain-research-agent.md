@@ -1,3 +1,5 @@
+<img src="../assets/langchain/langchain_deep_agent.png" alt="Langchain Deep Agent" width="80%">
+
 # LangChain Research Agent Tutorial
 
 ## Intent

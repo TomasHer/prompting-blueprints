@@ -1,3 +1,5 @@
+<img src="../assets/langchain/langchain_deep_agent.png" alt="Langchain Deep Agent" width="80%">
+
 # LangChain Deep Agents Playbook
 
 > Based on LangChain’s “Deep Agents” post, this guide shows how to recreate Claude Code–style research agents that plan, use sub-workers, and leave durable artifacts.
@@ -20,6 +22,8 @@
 These products proved that deeper planning + memory lets agents outgrow “question → answer” chats, especially for research and asynchronous coding.
 
 ## Core building blocks (from LangChain’s Deep Agents article)
+
+<img src="../assets/langchain/langchain_deep_agent_characteristics.png" alt="Langchain Deep Agent Characteristics" width="80%">
 
 ### Detailed system prompt
 - Claude Code’s recreated base prompts are lengthy, with instructions for every tool call and multiple examples.
