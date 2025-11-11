@@ -20,6 +20,7 @@ All notable changes to this project will be documented here.
 - Move the repository mind map link to the end of the README “What’s inside” section for quick visual navigation.
 - Reference the publicly accessible Google NotebookLM notebook from the README quick links section.
 - Expand research overview with summaries and key findings for upcoming publications.
+- Add publication metadata, missing arXiv links, and year-based reverse-chronological ordering to the research overview backlog.
 - Embed the social preview image directly in the README credits section.
 - Rename research topics and speaking highlights pages to overview indexes and refresh navigation links.
 - Add Large-Scale Scrum (LeSS) in NYC meetup (27 Feb 2026) appearance to Speaking & Keynotes highlights.
