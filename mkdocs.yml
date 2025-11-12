@@ -42,6 +42,7 @@ nav:
     - AI Gone Wrong Incident Stories: guides/ai-gone-wrong-stories.md
     - Generative AI Basics Glossary: guides/genai-basics-glossary.md
     - LLM Lifecycle Monitoring Guide: guides/llm-lifecycle-monitoring.md
+    - AI Adoption Readiness Guide: guides/ai-adoption-guide.md
     - Reasoning vs. Classic LLMs: guides/reasoning-vs-classic-llms.md
     - Reasoning vs. Classic LLMs (DE): guides/reasoning-vs-classic-llms-de.md
     - Microsoft 365 Copilot Prompting Guide: guides/microsoft-365-copilot-prompting-guide.md

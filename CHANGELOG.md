@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add AI adoption readiness checklist guide with eight organizational green flags and navigation entry.
 - Add LangChain research agent tutorial covering dual-agent workflow, prompt text, and navigation links.
 - Add LangChain Deep Agents tools guide with planning, sub-agent, and file workspace tactics plus navigation updates.
 - Add AI tool chaining playbook summarizing October 2025 TheFuturaLab guidance for Claude 4.5, ChatGPT-5, Perplexity, Gemini 2.5, Grok 4, DeepSeek V3.1, and Mistral Large 2, with official resource links.
