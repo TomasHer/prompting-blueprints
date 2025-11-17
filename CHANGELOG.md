@@ -32,6 +32,7 @@ All notable changes to this project will be documented here.
 - Add Google Veo 3.1 Flow tutorial covering prompting workflow and credit management.
 - Add AI Use Case Identification tutorial with placeholders for Figure 3 and Table 1 from Vom Brocke et al. study.
 - Add requirements engineering dataset experimentation tutorial leveraging LLM4RE resources.
+- Add Lovable vibe coding tutorial with architecture enforcement prompt, workflow, and navigation entry.
 - Refine the Microsoft Agent Framework quickstart with pillar guidance highlighting MCP, A2A, OpenAPI-first design, and cloud-agnostic operations.
 - Add Claude Agent Skills playbook summarizing Anthropic guidance on reusable workflows.
 - Add README Research section linking to the research topics index.
