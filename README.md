@@ -20,7 +20,7 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 - **Prompts:** curated packs for common jobs and workflows → `./prompts`
 - **Models:** specifics for GPT‑5 & Gemini (dos/don’ts, quickstarts) → `./models`
 - **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents → `./tools`
-- **Guides:** deep-dive primers and downloadable PDFs (e.g., Gemini Prompting Guide 101) → `./guides`
+- **Guides:** AI Agents Overview, deep-dive primers, and downloadable PDFs (e.g., Gemini Prompting Guide 101) → `./guides`
 - **Use cases:** applied flows (e.g., research notes) → `./use-cases`
 - **Research:** tutorials, reusable blueprints, and collaboration signals for academic researchers → `./research` and `./about-author/research`
 - **Speaking:** keynote decks, talk outlines, and submission notes → `./about-author/speaking`

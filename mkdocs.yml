@@ -38,7 +38,7 @@ nav:
     - AI Tool Chaining (Oct 2025): tools/ai-tool-chaining-oct-2025.md
   - Guides:
     - Overview: guides/overview.md
-    - Understanding AI Agents: guides/ai-agents-overview.md
+    - AI Agents Overview: guides/ai-agents-overview.md
     - AI Gone Wrong Incident Stories: guides/ai-gone-wrong-stories.md
     - Generative AI Basics Glossary: guides/genai-basics-glossary.md
     - LLM Lifecycle Monitoring Guide: guides/llm-lifecycle-monitoring.md
