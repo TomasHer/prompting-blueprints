@@ -12,6 +12,7 @@ All notable changes to this project will be documented here.
 - Detail retrieval, task, and autonomous agent tiers with supporting diagram, official framework links, and Microsoft custom retrieval agent reference in the AI agents overview guide.
 - Document the 7-step AI agent build workflow, frameworks table, and supporting diagram in the AI agents overview guide.
 - Move the AI agents overview into the guides collection and cite the Google Cloud primer.
+- Add AI terms explained glossary v2 capturing 85 grouped definitions from the reference visual and linking it in navigation.
 - Add n8n vibe research workflow tutorial for co-designing shareable automation templates.
 - Add vibe research playbook outlining exploratory sensemaking workflows and tool stacks.
 - Embed glue-in-pizza and Titanic pool images in the AI gone wrong incident stories guide.
