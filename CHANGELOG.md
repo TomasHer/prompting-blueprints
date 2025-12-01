@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add AI coding spectrum guide covering vibe, AI-assisted, and agentic modes with tool links, prompts, and navigation entry.
 - Highlight the AI agents overview guide in the README TL;DR and MkDocs navigation.
 - Add AI adoption readiness checklist guide with eight organizational green flags and navigation entry.
 - Add LangChain research agent tutorial covering dual-agent workflow, prompt text, and navigation links.

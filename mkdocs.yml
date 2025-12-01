@@ -40,6 +40,7 @@ nav:
   - Guides:
     - Overview: guides/overview.md
     - AI Agents Overview: guides/ai-agents-overview.md
+    - AI Coding Spectrum: guides/ai-coding-spectrum.md
     - AI Gone Wrong Incident Stories: guides/ai-gone-wrong-stories.md
     - Generative AI Basics Glossary: guides/genai-basics-glossary.md
     - AI Terms Explained (Glossary v2): guides/genai-terms-explained-v2.md
