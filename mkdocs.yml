@@ -44,6 +44,7 @@ nav:
     - AI Gone Wrong Incident Stories: guides/ai-gone-wrong-stories.md
     - Generative AI Basics Glossary: guides/genai-basics-glossary.md
     - AI Terms Explained (Glossary v2): guides/genai-terms-explained-v2.md
+    - Generative AI Project Tutorial: guides/gen-ai-project-tutorial.md
     - LLM Lifecycle Monitoring Guide: guides/llm-lifecycle-monitoring.md
     - AI Adoption Readiness Guide: guides/ai-adoption-guide.md
     - Reasoning vs. Classic LLMs: guides/reasoning-vs-classic-llms.md
