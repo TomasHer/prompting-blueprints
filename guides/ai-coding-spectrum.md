@@ -9,7 +9,7 @@ Clarify how Vibe-Coding, AI-Assisted Coding, and Agentic Coding differ so you ca
 - **Agentic Coding (Advanced)**: Delegate multi-step development to agents that plan, code, test, and refine with minimal supervision.
 
 ### Vibe-Coding (Beginner)
-> Diagram placeholder: Add a Vibe-Coding flow (Describe vision → Generate interface → Working code → Test and iterate).
+![Vibe-Coding flow diagram showing describe vision, generate interface, working code, then test and iterate](../assets/other/vibe-coding.png)
 
 - **What it is**: A fast way to translate rough ideas into working prototypes without hand-writing every component.
 - **How it works**: You describe the vision in plain English; the AI drafts interfaces and scaffolds code instantly.
@@ -26,7 +26,7 @@ Return code blocks and a brief setup note so I can run it locally.
 ```
 
 ### AI-Assisted Coding (Mid-Level)
-> Diagram placeholder: Add an AI-Assisted Coding loop (Thinking → Context → AI-assisted development with checkpoints/debugging → Working code).
+![AI-Assisted Coding loop diagram covering thinking, context, AI-assisted development with checkpoints/debugging, and working code](../assets/other/ai-assisted-coding.png)
 
 - **What it is**: Live coding support that injects intelligent completions, suggestions, and checks as you write.
 - **How it works**: The model streams real-time code, comments, tests, and warnings while you control commits and merges.
@@ -42,7 +42,7 @@ Behaviors: explain suggestions briefly, surface lint/test deltas, and stop to as
 ```
 
 ### Agentic Coding (Advanced)
-> Diagram placeholder: Add an Agentic Coding pipeline (goal intake → planning and tool selection → autonomous coding/testing → review checkpoints → delivery).
+![Agentic Coding pipeline diagram covering goal intake, planning and tool selection, autonomous coding/testing, review checkpoints, and delivery](../assets/other/agentic-coding.png)
 
 - **What it is**: AI agents that can complete end-to-end development tasks from a single objective.
 - **How it works**: The agent plans, writes, tests, and refines code with minimal supervision, escalating only at defined checkpoints.

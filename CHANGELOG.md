@@ -6,6 +6,7 @@ All notable changes to this project will be documented here.
 - Add Codex agent prompting guide summarizing prompting tips, AGENTS.md layering, and navigation entry.
 - Add generative AI project tutorial summarizing template structure with navigation entry.
 - Add AI coding spectrum guide covering vibe, AI-assisted, and agentic modes with tool links, prompts, and navigation entry.
+- Embed Vibe, AI-Assisted, and Agentic coding diagrams into the AI coding spectrum guide.
 - Highlight the AI agents overview guide in the README TL;DR and MkDocs navigation.
 - Add AI adoption readiness checklist guide with eight organizational green flags and navigation entry.
 - Add LangChain research agent tutorial covering dual-agent workflow, prompt text, and navigation links.
