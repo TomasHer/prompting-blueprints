@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Codex agent prompting guide summarizing prompting tips, AGENTS.md layering, and navigation entry.
 - Add generative AI project tutorial summarizing template structure with navigation entry.
 - Add AI coding spectrum guide covering vibe, AI-assisted, and agentic modes with tool links, prompts, and navigation entry.
 - Highlight the AI agents overview guide in the README TL;DR and MkDocs navigation.
