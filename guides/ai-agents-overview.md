@@ -1,6 +1,8 @@
 # Understanding AI Agents
 
 ## Overview
+[▶️ Watch the AI agents overview](https://youtu.be/bx-bcUWw2Wo) for a quick tour before diving into the details.
+
 AI agents are software systems that use artificial intelligence techniques to perceive information, reason about it, and take actions toward a goal. According to Google Cloud's overview, modern AI agents combine language models with orchestrated tools and data sources so that they can observe real-world signals, plan multi-step solutions, and act autonomously or semi-autonomously on a user's behalf. These systems often integrate perception, reasoning, and action loops to deliver adaptive, context-aware assistance.
 
 ## Brief History of AI Agents

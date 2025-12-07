@@ -9,6 +9,7 @@ All notable changes to this project will be documented here.
 - Add AI coding spectrum guide covering vibe, AI-assisted, and agentic modes with tool links, prompts, and navigation entry.
 - Embed Vibe, AI-Assisted, and Agentic coding diagrams into the AI coding spectrum guide.
 - Highlight the AI agents overview guide in the README TL;DR and MkDocs navigation.
+- Link a YouTube walkthrough near the top of the AI agents overview guide.
 - Add AI adoption readiness checklist guide with eight organizational green flags and navigation entry.
 - Add LangChain research agent tutorial covering dual-agent workflow, prompt text, and navigation links.
 - Add Gemini Nano Banana Pro prompt library with two starter examples and navigation entry.
