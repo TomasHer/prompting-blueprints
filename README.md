@@ -6,7 +6,7 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 
 <p align="left">
   <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/code-MIT-green.svg"></a>
-  <a href="./LICENSE-DOCS"><img alt="Docs License: CC BY 4.0" src="https://img.shields.io/badge/docs-CC%20BY%204.0-blue.svg"></a>
+  <a href="./docs/LICENSE-CC-BY-4.0.txt"><img alt="Docs License: CC BY 4.0" src="https://img.shields.io/badge/docs-CC%20BY%204.0-blue.svg"></a>
   <a href="./CONTRIBUTING.md"><img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg"></a>
   <a href="https://github.com/TomasHer/prompting-blueprints/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/TomasHer/prompting-blueprints.svg?style=social"></a>
 </p>
@@ -24,9 +24,10 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 - **Use cases:** applied flows (e.g., research notes) → `./use-cases`
 - **Research:** tutorials, reusable blueprints, and collaboration signals for academic researchers → `./research` and `./about-author/research`
 - **Speaking:** keynote decks, talk outlines, and submission notes → `./about-author/speaking`
-- **Evaluations:** `promptfoo` assertions & samples → `./evaluations`
+- **Evaluations:** `promptfoo` assertions & samples (aggregated suite + prompt pattern catalogue smoke tests) → `./evaluations`
+- **External sources:** curated references cited across guides and playbooks → `./external-sources.md`
 
-Quick links: [patterns](./patterns) · [prompts](./prompts) · [models](./models) · [tools](./tools) · [guides](./guides) · [use‑cases](./use-cases) · [research](./research) · [author research](./about-author/research) · [speaking](./about-author/speaking) · [evaluations](./evaluations) · [changelog](./CHANGELOG.md)
+Quick links: [AI agents overview](./guides/ai-agents-overview.md) · [patterns](./patterns) · [prompts](./prompts) · [models](./models) · [tools](./tools) · [guides](./guides) · [use‑cases](./use-cases) · [research](./research) · [author research](./about-author/research) · [speaking](./about-author/speaking) · [evaluations](./evaluations) · [external sources](./external-sources.md) · [changelog](./CHANGELOG.md)
 
 > Want more? Browse the publicly accessible [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263) for extended context, references, and drafts.
 
@@ -90,14 +91,17 @@ OUTPUT FORMAT (JSON):
 ---
 
 ## Evaluations with promptfoo (optional)
-This repo ships example assertions and configs under `./evaluations`.
+This repo ships example assertions and configs under `./evaluations` (aggregated suite plus prompt pattern catalogue smoke tests).
 
 ```bash
 # Install
 npm -g i promptfoo  # or: npx promptfoo@latest
 
-# Dry‑run an example config (edit paths as needed)
+# Aggregated suite (edit paths as needed)
 promptfoo eval -c evaluations/promptfoo.yml
+
+# Prompt Pattern Catalogue smoke test
+promptfoo eval -c evaluations/pattern-catalogue-smoke.yml
 
 # Open the dashboard
 promptfoo view
@@ -182,6 +186,7 @@ about-author/           # maintainer background (speaking, research)
   speaking/             # keynote outlines and talk prep
 tools/                  # NotebookLM, Perplexity Comet, Copilot Agents
 use-cases/              # applied workflows
+website/                # static HTML experiments (e.g., AI toolkit preview)
 CHANGELOG.md            # updates (Keep a Changelog)
 CONTRIBUTING.md         # how to contribute
 CODE_OF_CONDUCT.md      # community expectations

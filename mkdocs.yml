@@ -1,6 +1,6 @@
 site_name: Prompting Blueprints
 site_description: Practical prompt patterns, model tips, and tool tactics for LLMs.
-site_url: https://YOUR_GITHUB_USERNAME.github.io/prompting-blueprints
+site_url: https://TomasHer.github.io/prompting-blueprints
 theme:
   name: material
   features:
@@ -70,7 +70,9 @@ nav:
     - Summarization Playbook: use-cases/summarization-tutorial.md
   - Evaluations:
     - Overview: evaluations/README.md
-    - promptfoo.yml: evaluations/promptfoo.yml
+    - Aggregated Suite (promptfoo.yml): evaluations/promptfoo.yml
+    - Pattern Catalogue Smoke Tests: evaluations/pattern-catalogue-smoke.yml
+  - External Sources: external-sources.md
 markdown_extensions:
   - admonition
   - toc:
