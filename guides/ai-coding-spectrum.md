@@ -3,6 +3,8 @@
 ## Intent
 Clarify how Vibe-Coding, AI-Assisted Coding, and Agentic Coding differ so you can match workflow depth, autonomy, and tool choices to the task at hand. Use this as a quick teaching deck or onboarding primer.
 
+[▶️ Watch the AI Coding Spectrum overview](https://youtu.be/cU_mlreODyw) for a quick walkthrough of the three modes.
+
 ## Levels at a glance
 - **Vibe-Coding (Beginner)**: Rapidly turn rough ideas into functional prototypes; speed over precision for early validation.
 - **AI-Assisted Coding (Mid-Level)**: Pair-programming with real-time suggestions, completions, and guardrails; you stay in the driver’s seat.
