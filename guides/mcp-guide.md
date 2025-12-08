@@ -1,4 +1,4 @@
-# Model Context Protocol (MCP) Guide in 3 Minutes
+# Model Context Protocol (MCP) Guide
 
 ## Intent
 Equip builders with a quick, copy-ready reference for why MCP matters, how it works, and how to set up a secure MCP stack for assistants and agents.
