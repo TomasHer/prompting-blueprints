@@ -48,6 +48,7 @@ nav:
     - Generative AI Project Tutorial: guides/gen-ai-project-tutorial.md
     - LLM Lifecycle Monitoring Guide: guides/llm-lifecycle-monitoring.md
     - AI Adoption Readiness Guide: guides/ai-adoption-guide.md
+    - Model Context Protocol (MCP) Guide: guides/model-context-protocol-guide.md
     - Reasoning vs. Classic LLMs: guides/reasoning-vs-classic-llms.md
     - Reasoning vs. Classic LLMs (DE): guides/reasoning-vs-classic-llms-de.md
     - Microsoft 365 Copilot Prompting Guide: guides/microsoft-365-copilot-prompting-guide.md
