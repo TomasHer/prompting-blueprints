@@ -42,5 +42,21 @@ Equip builders with a quick, copy-ready reference for why MCP matters, how it wo
 - **Security**: Secrets stay within the MCP server boundary; clients request capabilities instead of sending raw keys, supporting least-privilege access.
 - **Extensibility**: Official templates cover common backends (Postgres, HTTP, Git, filesystem, browser automation), and the spec permits custom transports as long as they honor the JSON-RPC contract.
 
+## 12 MCP servers to try in 2025
+| MCP server | What it does | Learn more |
+| --- | --- | --- |
+| File System Server | Gives the LLM direct access to the local file system to read, write, and create directories. | https://modelcontextprotocol.io/servers/file-system |
+| GitHub MCP Server | Connects assistants to GitHub repositories so they can create files and folders. | https://modelcontextprotocol.io/servers/github |
+| Slack MCP Server | Uses the Slack API to automate tasks within Slack workspaces. | https://modelcontextprotocol.io/servers/slack |
+| Google Maps MCP Server | Wraps the Google Maps API for map search and retrieval. | https://modelcontextprotocol.io/servers/google-maps |
+| Docker MCP Server | Integrates with Docker to run containers and manage networks, volumes, and images. | https://modelcontextprotocol.io/servers/docker |
+| Web Search MCP Server | Provides web and local search that assistants can call directly. | https://modelcontextprotocol.io/servers/web-search |
+| PostgreSQL MCP Server | Lets an LLM manage PostgreSQL database tables for CRUD operations. | https://modelcontextprotocol.io/servers/postgresql |
+| Google Drive MCP Server | Retrieves files and metadata from Google Drive. | https://modelcontextprotocol.io/servers/google-drive |
+| Redis MCP Server | Manages Redis database tables through MCP tools. | https://modelcontextprotocol.io/servers/redis |
+| Notion MCP Server | Connects to the Notion API to work securely with Notion workspaces. | https://modelcontextprotocol.io/servers/notion |
+| Stripe MCP Server | Surfaces Stripe APIs as MCP tools for payments and billing automation. | https://modelcontextprotocol.io/servers/stripe |
+| Perplexity MCP Server | Calls the Perplexity Search API through MCP for retrieval-augmented answers. | https://modelcontextprotocol.io/servers/perplexity |
+
 ## References
 - Replit. “Everything you need to know about MCP.” https://blog.replit.com/everything-you-need-to-know-about-mcp
