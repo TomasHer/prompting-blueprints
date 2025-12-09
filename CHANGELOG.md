@@ -4,7 +4,7 @@ All notable changes to this project will be documented here.
 
 ## Unreleased
 - Add Model Context Protocol (MCP) quick-start guide summarizing why models need MCP, how it works, and setup steps, with navigational entry.
-- Add MCP server quick-reference table with links to 12 official servers in the MCP guide.
+- Refresh MCP server quick-reference table to match the 2025 lineup and remove the link column in the MCP guide.
 - Surface external sources index and promptfoo smoke tests in navigation and README; fix docs license badge target.
 - Add Codex agent prompting guide summarizing prompting tips, AGENTS.md layering, and navigation entry.
 - Add generative AI project tutorial summarizing template structure with navigation entry.
