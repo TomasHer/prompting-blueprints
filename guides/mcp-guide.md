@@ -43,20 +43,20 @@ Equip builders with a quick, copy-ready reference for why MCP matters, how it wo
 - **Extensibility**: Official templates cover common backends (Postgres, HTTP, Git, filesystem, browser automation), and the spec permits custom transports as long as they honor the JSON-RPC contract.
 
 ## 12 MCP servers to try in 2025
-| MCP server | What it does | Learn more |
-| --- | --- | --- |
-| File System Server | Gives the LLM direct access to the local file system to read, write, and create directories. | https://modelcontextprotocol.io/servers/file-system |
-| GitHub MCP Server | Connects assistants to GitHub repositories so they can create files and folders. | https://modelcontextprotocol.io/servers/github |
-| Slack MCP Server | Uses the Slack API to automate tasks within Slack workspaces. | https://modelcontextprotocol.io/servers/slack |
-| Google Maps MCP Server | Wraps the Google Maps API for map search and retrieval. | https://modelcontextprotocol.io/servers/google-maps |
-| Docker MCP Server | Integrates with Docker to run containers and manage networks, volumes, and images. | https://modelcontextprotocol.io/servers/docker |
-| Web Search MCP Server | Provides web and local search that assistants can call directly. | https://modelcontextprotocol.io/servers/web-search |
-| PostgreSQL MCP Server | Lets an LLM manage PostgreSQL database tables for CRUD operations. | https://modelcontextprotocol.io/servers/postgresql |
-| Google Drive MCP Server | Retrieves files and metadata from Google Drive. | https://modelcontextprotocol.io/servers/google-drive |
-| Redis MCP Server | Manages Redis database tables through MCP tools. | https://modelcontextprotocol.io/servers/redis |
-| Notion MCP Server | Connects to the Notion API to work securely with Notion workspaces. | https://modelcontextprotocol.io/servers/notion |
-| Stripe MCP Server | Surfaces Stripe APIs as MCP tools for payments and billing automation. | https://modelcontextprotocol.io/servers/stripe |
-| Perplexity MCP Server | Calls the Perplexity Search API through MCP for retrieval-augmented answers. | https://modelcontextprotocol.io/servers/perplexity |
+| MCP server | What it does |
+| --- | --- |
+| File System Server | Gives the LLM direct access to the local file system to read, write, and create directories. |
+| GitHub MCP Server | Connects Claude to GitHub repositories and allows creating files and directories. |
+| Slack MCP Server | Uses the Slack API to automate tasks within Slack workspaces. |
+| Google Maps MCP Server | MCP Server for the Google Maps API. |
+| Docker MCP Server | Integrates with Docker to run commands and manage containers. |
+| Brave MCP Server | MCP Server for the Brave browser with Brave's API. |
+| PostgreSQL MCP Server | Lets an LLM manage PostgreSQL database tables for CRUD operations. |
+| Google Drive MCP Server | Retrieves files and metadata from Google Drive. |
+| Redis MCP Server | MCP Server integrates with Redis databases to store and retrieve data. |
+| Notion MCP Server | MCP Server for the Notion API allowing you to work with Notion workspaces. |
+| Stripe MCP Server | MCP Server to work with Stripe payment APIs to automate billing and management. |
+| Perplexity MCP Server | MCP Server for the Perplexity Search API enabling RAG for answers. |
 
 ## References
 - Replit. “Everything you need to know about MCP.” https://blog.replit.com/everything-you-need-to-know-about-mcp
