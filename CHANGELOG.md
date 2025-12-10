@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add FACTS Benchmark overview covering four factuality dimensions with navigation entry.
 - Add Model Context Protocol (MCP) quick-start guide summarizing why models need MCP, how it works, and setup steps, with navigational entry.
 - Refresh MCP server quick-reference table to match the 2025 lineup and remove the link column in the MCP guide.
 - Surface external sources index and promptfoo smoke tests in navigation and README; fix docs license badge target.

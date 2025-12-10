@@ -62,6 +62,7 @@ nav:
     - n8n Vibe Research Workflow Tutorial: research/n8n-research-workflow-tutorial.md
     - Requirements Engineering Dataset Experiments: research/requirements-engineering-dataset-experiments.md
     - LangChain Research Agent Tutorial: research/langchain-research-agent.md
+    - FACTS Benchmark Overview: research/facts-benchmark-overview.md
   - Use Cases:
     - Program Delivery Manager Copilot Playbook: use-cases/program-delivery-manager-copilot-playbook.md
     - Google Veo 3.1 Video Tutorial: use-cases/google-veo-3-1-video-tutorial.md
