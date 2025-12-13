@@ -22,6 +22,8 @@
 - [Google One Help – Check AI Premium credits](https://support.google.com/googleone/answer/16287445?visit_id=638968334505579471-862084453&p=g1_ai_credit_menu&rd=1#g1_ai_credit_menu)
 - [GPT-Lab – Effective Prompts for Reasoning LLMs](https://gpt-lab.eu/effective-prompts-for-reasoning-llms/)
 - [GitHub – LangChain Deep Agents Repository](https://github.com/langchain-ai/deepagents)
+- [GitHub – nanoGPT](https://github.com/karpathy/nanoGPT)
+- [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
 - [LangChain Blog – Deep Agents](https://blog.langchain.com/deep-agents/)
 - [M365copilot.com](https://www.m365copilot.com)

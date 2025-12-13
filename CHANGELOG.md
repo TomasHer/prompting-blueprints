@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add nanoGPT + nanochat tool guide covering setup, speedrun workflow, and navigation entry.
 - Add 2025 top 10 machine learning algorithms field guide with strengths, use cases, and navigation entry.
 - Add FACTS Benchmark overview covering four factuality dimensions with navigation entry.
 - Add Model Context Protocol (MCP) quick-start guide summarizing why models need MCP, how it works, and setup steps, with navigational entry.
