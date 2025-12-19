@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Update Claude Agent Skills playbook with the anthropics/skills repository reference and PDF skill examples.
 - Add Google Startup Technical Guide for AI Agents preview and download link to the guides overview.
 - Add Unsloth phone deployment tutorial with QAT, ExecuTorch export, and iOS/Android setup steps plus navigation entry.
 - Add best model providers for AI agents guide for 2026 with navigation entry.

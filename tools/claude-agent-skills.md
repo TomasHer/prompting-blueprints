@@ -13,11 +13,32 @@ Help prompt engineers design, publish, and maintain Claude Agent Skills that ext
 ### Skill Anatomy
 | Component | Purpose | Notes |
 | --- | --- | --- |
+| **Skill metadata (SKILL.md frontmatter)** | Unique identifier and a clear description of when to use the skill. | The repo requires `name` and `description` fields in YAML frontmatter. |
 | **Summary** | One-sentence positioning that appears in the skills browser. | Use action verbs and highlight the outcome. |
 | **Detailed instructions** | Core logic, step-by-step flows, escalation rules, and output guidance. | Write in second person ("You are...") and keep paragraphs short. |
 | **Input expectations** | Fields the skill requires from the invoking agent or end user. | Prompt the agent to confirm missing inputs before proceeding. |
 | **Output format** | Structured Markdown or JSON to guarantee predictable downstream handling. | Include headings for status, recommendations, and follow-up tasks. |
 | **Guardrails** | Compliance, privacy, or tone constraints. | Clarify when to hand off to a human or decline the request. |
+
+## Anthropic Skills Repository (Official Examples)
+The [anthropics/skills](https://github.com/anthropics/skills) repository is the public reference for Claude skills, showing how to package instructions, scripts, and resources in a self-contained folder that Claude can load dynamically.
+
+### Repository Layout
+| Path | Purpose |
+| --- | --- |
+| `skills/` | Example skills grouped into Creative & Design, Development & Technical, Enterprise & Communication, and Document Skills. |
+| `spec/` | The Agent Skills specification. |
+| `template/` | A starter template skill with required `SKILL.md` frontmatter. |
+
+### Notes From the Repo
+- Many skills are open source (Apache 2.0). Document creation/editing skills under `skills/docx`, `skills/pdf`, `skills/pptx`, and `skills/xlsx` are source-available, not open source.  
+- The README frames the skills as demonstration and educational references; test behavior in your own environment before relying on them.  
+- The README also includes Claude Code plugin marketplace commands plus notes on using skills in Claude.ai and the Claude API.  
+
+### Skill Examples Worth Studying
+- The repo includes a large catalog of skill examples in [`skills/`](https://github.com/anthropics/skills/tree/main/skills).  
+- The PDF skill quick reference highlights common workflows: Merge PDFs, Split PDFs, Extract text, Extract tables, Create PDFs, Command line merge, OCR scanned PDFs, and Fill PDF forms.  
+  - Reference: [`skills/pdf` quick reference](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md#quick-reference)  
 
 ## Skill Lifecycle in Anthropic's Platform
 1. **Authoring:** Builders create skills inside the Anthropic console, supply instructions, define inputs/outputs, and attach optional tool integrations.  
@@ -79,4 +100,7 @@ Help prompt engineers design, publish, and maintain Claude Agent Skills that ext
 - [ ] Telemetry or feedback loop is configured to monitor adoption.
 
 ## References
-- [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
+- [Anthropic - Skills for Claude Agents](https://www.anthropic.com/news/skills)
+- [GitHub - Anthropic Skills repository](https://github.com/anthropics/skills)
+- [GitHub - Anthropic Skills examples directory](https://github.com/anthropics/skills/tree/main/skills)
+- [GitHub - Anthropic PDF skill quick reference](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md#quick-reference)
