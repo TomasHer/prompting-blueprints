@@ -7,7 +7,7 @@
 ## Quick reference lineup
 | Provider | Popular models | Best use case |
 | --- | --- | --- |
-| OpenAI | GPT-5 (5.2, 5.1), GPT-4.5, GPT-3.5, DALL·E 2 | Safest and most reliable general-purpose agents with strong guardrails. |
+| OpenAI | GPT-5.2, o3-pro, DALL-E | Safest and most reliable general-purpose agents with strong guardrails. |
 | Google | Gemini 3 (3.0, 3.5), Gemini 2.0, Gemini 1.5 Pro, Gemini 1.5 Flash, Gemini 1.5 Nano | Safest, most reliable open models for enterprise agents on Google Cloud. |
 | Anthropic | Opus 4.5, Sonnet 3.5 Pro, Sonnet 3.5 | Reliable and safe agents with strong tool-use and reasoning. |
 | xAI | Grok 4.1, Grok 2, Grok 2 Mini | Low-latency agents that prioritize speed. |
@@ -54,6 +54,3 @@
 - Check licensing and data residency, especially for regulated industries or region-locked providers.
 - Run quick evaluations on latency, cost per 1K tokens, and tool-use reliability before rollout.
 - Keep a fallback model per region to handle outages or policy blocks.
-
-## References
-- Based on the “Best Model Providers for AI Agents in 2025” comparison by Rakesh Gohel on LinkedIn (October 2025).
