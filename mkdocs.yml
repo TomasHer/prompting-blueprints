@@ -39,6 +39,7 @@ nav:
     - Perplexity Comet: tools/perplexity-comet.md
     - AI Tool Chaining (Oct 2025): tools/ai-tool-chaining-oct-2025.md
     - Lovable Vibe Coding Tutorial: tools/lovable-vibe-coding-tutorial.md
+    - Unsloth Phone Deployment Tutorial: tools/llm-on-phone-deployment-tutorial.md
   - Guides:
     - Overview: guides/overview.md
     - AI Agents Overview: guides/ai-agents-overview.md

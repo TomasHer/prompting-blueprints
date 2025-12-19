@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Unsloth phone deployment tutorial with QAT, ExecuTorch export, and iOS/Android setup steps plus navigation entry.
 - Add best model providers for AI agents guide for 2026 with navigation entry.
 - Add nanoGPT + nanochat tool guide covering setup, speedrun workflow, and navigation entry.
 - Add 2025 top 10 machine learning algorithms field guide with strengths, use cases, and navigation entry.

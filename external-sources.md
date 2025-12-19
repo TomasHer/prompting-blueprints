@@ -11,6 +11,7 @@
 - [ChatGPT Deep Research announcement](https://openai.com/index/introducing-deep-research/)
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
 - [Google ADK Python GitHub Repository](https://github.com/google/adk-python)
+- [Google Android Command Line Tools (Linux)](https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip)
 - [Google — Gemini API changelog](https://ai.google.dev/gemini-api/docs/changelog?hl=en)
 - [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
 - [Google Cloud Platform – Agent Starter Pack GitHub Repository](https://github.com/GoogleCloudPlatform/agent-starter-pack)
@@ -21,6 +22,8 @@
 - [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263)
 - [Google One Help – Check AI Premium credits](https://support.google.com/googleone/answer/16287445?visit_id=638968334505579471-862084453&p=g1_ai_credit_menu&rd=1#g1_ai_credit_menu)
 - [GPT-Lab – Effective Prompts for Reasoning LLMs](https://gpt-lab.eu/effective-prompts-for-reasoning-llms/)
+- [GitHub – ExecuTorch Examples Repository](https://github.com/meta-pytorch/executorch-examples)
+- [GitHub – ExecuTorch Qwen3 Config (0.6B)](https://raw.githubusercontent.com/pytorch/executorch/main/examples/models/qwen3/config/0_6b_config.json)
 - [GitHub – LangChain Deep Agents Repository](https://github.com/langchain-ai/deepagents)
 - [GitHub – nanoGPT](https://github.com/karpathy/nanoGPT)
 - [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
@@ -49,6 +52,7 @@
 - [Prompting Blueprints introduction video (YouTube)](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U)
 - [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
 - [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
+- [Unsloth Documentation – Deploy LLMs on Phone](https://docs.unsloth.ai/new/deploy-llms-phone)
 - [Vom Brocke et al. – How to Identify Promising AI Use Cases](https://www.alexandria.unisg.ch/server/api/core/bitstreams/35316f07-8d0b-47dc-bbf0-36753ca834b3/content)
 
 ## About the Author
