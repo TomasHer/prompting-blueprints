@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Fix MkDocs guide paths for the MCP and 2026 model providers pages, and link the guides overview/PDF library from the README.
 - Update Claude Agent Skills playbook with the anthropics/skills repository reference and PDF skill examples.
 - Add Google Startup Technical Guide for AI Agents preview and download link to the guides overview.
 - Add Unsloth phone deployment tutorial with QAT, ExecuTorch export, and iOS/Android setup steps plus navigation entry.
