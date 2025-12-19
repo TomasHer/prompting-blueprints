@@ -8,6 +8,14 @@
   <figcaption>Click the preview to open the Gemini Prompting Guide 101 PDF.</figcaption>
 </figure>
 
+## Google: Startup Technical Guide for AI Agents
+<figure>
+  <a href="../assets/guides/google-ai-agents-for-startup.pdf">
+    <img src="../assets/guides/previews/google-ai-agents-for-startup.png" alt="Preview of the Google Startup Technical Guide for AI Agents first page" width="100%" loading="lazy" />
+  </a>
+  <figcaption>Click the preview to open the Google Startup Technical Guide for AI Agents PDF.</figcaption>
+</figure>
+
 ## OpenAI: A Practical Guide to Building Agents
 <figure>
   <a href="../assets/guides/openai-a-practical-guide-to-building-agents.pdf">
@@ -50,6 +58,7 @@
 
 ## Guides Library
 - [Gemini Prompting Guide 101](../assets/guides/gemini-prompting-guide-101.pdf) — Core prompting patterns, guardrails, and examples for Gemini models.
+- [Google: Startup Technical Guide for AI Agents](../assets/guides/google-ai-agents-for-startup.pdf) — Technical guide for startups building AI agents.
 - [OpenAI: A Practical Guide to Building Agents](../assets/guides/openai-a-practical-guide-to-building-agents.pdf) — Blueprint for designing agent workflows, orchestration, and evaluation.
 - [OpenAI: AI in the Enterprise](../assets/guides/openai-ai-in-the-enterprise.pdf) — Frameworks for deploying AI capabilities across enterprise functions.
 - [OpenAI: Identifying and Scaling AI Use Cases](../assets/guides/openai-identifying-and-scaling-ai-use-cases.pdf) — Tactics to spot high-value AI opportunities and drive adoption.
