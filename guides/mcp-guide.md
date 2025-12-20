@@ -42,6 +42,12 @@ Equip builders with a quick, copy-ready reference for why MCP matters, how it wo
 - **Security**: Secrets stay within the MCP server boundary; clients request capabilities instead of sending raw keys, supporting least-privilege access.
 - **Extensibility**: Official templates cover common backends (Postgres, HTTP, Git, filesystem, browser automation), and the spec permits custom transports as long as they honor the JSON-RPC contract.
 
+## Microsoft MCP for Beginners highlights
+- **Lesson-based learning path**: The Microsoft MCP for Beginners repository structures MCP onboarding as short lessons that build from core concepts to hands-on builds.
+- **Concept-to-practice flow**: Each lesson pairs the protocol fundamentals (clients, servers, tools/resources/prompts, transports) with practical lab-style exercises.
+- **Multi-language samples**: Examples are provided in multiple programming languages so teams can adopt MCP in their existing stacks.
+- **End-to-end workflows**: The guide walks through configuring servers, wiring clients, and validating interactions so newcomers can run MCP locally before deploying.
+
 ## 12 MCP servers to try in 2025
 | MCP server | What it does |
 | --- | --- |
@@ -60,3 +66,4 @@ Equip builders with a quick, copy-ready reference for why MCP matters, how it wo
 
 ## References
 - Replit. “Everything you need to know about MCP.” https://blog.replit.com/everything-you-need-to-know-about-mcp
+- Microsoft. “MCP for Beginners.” https://github.com/microsoft/mcp-for-beginners
