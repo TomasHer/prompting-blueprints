@@ -40,6 +40,7 @@
 - [Microsoft Adoption: Executing a project review with Microsoft 365 Copilot](https://adoption.microsoft.com/en-us/scenario-library/operations/executing-a-project-review/)
 - [Microsoft Learn – Agent Framework overview](https://learn.microsoft.com/en-us/agent-framework/overview/agent-framework-overview)
 - [Microsoft Learn – Writing effective instructions for Copilot agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-instructions)
+- [Microsoft MCP for Beginners](https://github.com/microsoft/mcp-for-beginners)
 - [Microsoft Support – Facilitator in Microsoft Teams meetings](https://support.microsoft.com/en-us/office/facilitator-in-microsoft-teams-meetings-37657f91-39b5-40eb-9421-45141e3ce9f6)
 - [Microsoft Support – Get started with Researcher in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/get-started-with-researcher-in-microsoft-365-copilot-e63ab760-f3de-4c47-ae87-dad601b0e9c4)
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)

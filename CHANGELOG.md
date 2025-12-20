@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Microsoft MCP for Beginners highlights and reference to the MCP guide.
 - Add EASE 2026 VIBEX workshop placement plus EASE/XP 2026 dates and locations in the program committee overview.
 - Add XP 2026 workshop co-organizer and Human-AI Collaboration PC roles to the program committee overview.
 - Fix MkDocs guide paths for the MCP and 2026 model providers pages, and link the guides overview/PDF library from the README.
