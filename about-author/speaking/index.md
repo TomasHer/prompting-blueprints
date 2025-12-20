@@ -12,6 +12,11 @@ Use this page to explore Tomas Herda's recent and upcoming speaking engagements 
 <img src="../../assets/speaking/less2026.png" alt="LeSS2026">
 
 ### Past highlights
+- **18 Nov 2025 — Austrian Post - Open Architecture Day** (Vienna, Austria)
+
+  “AI Agents” — [LinkedIn post](https://www.linkedin.com/posts/herdatom_aiagents-artificialintelligence-aiandagile-activity-7396789361201238016-aNBd)
+<img src="../../assets/speaking/oad2025.jpeg" alt="OAD2025">
+
 - **9 Oct 2025 — 2025 Global LeSS Conference** (Amsterdam, the Netherlands)
 
   “Moving toward LeSS: Austrian Post's journey of Simplifying Structures and Empowering Teams” — [Session page](https://less.works/conferenza/sessions/2025-global-less-conference-amsterdam-moving-toward-less-austrian-post-s-journey-of-simplifying-structures-and-empowering-teams-446)

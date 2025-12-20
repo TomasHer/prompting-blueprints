@@ -82,6 +82,7 @@
 - [Lean and Agile Software Development Track (SAC 2026)](https://y2026.lasd.pl)
 - [LeSS 2025 Conference Session – Moving toward LeSS](https://less.works/conferenza/sessions/2025-global-less-conference-amsterdam-moving-toward-less-austrian-post-s-journey-of-simplifying-structures-and-empowering-teams-446)
 - [LinkedIn Article – XP2025 AI & Agile Workshop Insights](https://www.linkedin.com/pulse/xp2025-ai-agile-software-development-workshop-insights-tomas-herda-5blye)
+- [LinkedIn Post – Austrian Post Open Architecture Day (AI Agents)](https://www.linkedin.com/posts/herdatom_aiagents-artificialintelligence-aiandagile-activity-7396789361201238016-aNBd)
 - [LinkedIn Post by Tomas Herda – NotebookLM audio strategies](https://www.linkedin.com/posts/herdatom_notebooklm-google-aiandagile-activity-7323293140201709569-mBAU)
 - [LSZ Talents for IT Future Event (2024)](https://lsz.at/Talents-Graz-Downloadarea)
 - [Meetup – Large-Scale Scrum NYC: The Courage to Descale](https://www.meetup.com/large-scale-scrum-less-in-nyc/events/311688494/)

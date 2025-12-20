@@ -48,6 +48,7 @@ All notable changes to this project will be documented here.
 - Embed the social preview image directly in the README credits section.
 - Rename research topics and speaking highlights pages to overview indexes and refresh navigation links.
 - Add Large-Scale Scrum (LeSS) in NYC meetup (27 Feb 2026) appearance to Speaking & Keynotes highlights.
+- Add Austrian Post Open Architecture Day (18 Nov 2025) AI Agents talk to Speaking & Keynotes highlights.
 - Add Microsoft Adoption Scenario Library prompt guide with Teams, SharePoint, and Power Platform examples.
 - Add Program Delivery Manager Copilot playbook covering project planning and review workflows.
 - Move the Google Veo 3.1 tutorial into the use cases section and update navigation.
