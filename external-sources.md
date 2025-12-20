@@ -2,6 +2,9 @@
 
 ## Prompting Blueprints
 
+- [A2A Protocol Documentation – Get started](https://a2a-protocol.org/latest/#get-started-with-a2a)
+- [A2A .NET SDK (GitHub)](https://github.com/a2aproject/a2a-dotnet)
+- [A2A Python SDK (GitHub)](https://github.com/a2aproject/a2a-python)
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
 - [Albertina Bekhti – Vibe Research Instead of Deep Research? AI Agents and the Future of Scientific Discovery](https://medium.com/@abertina/vibe-research-instead-of-deep-research-ai-agents-and-the-future-of-scientific-discovery-4d561248f3e2)
 - [Agent Development Kit Documentation (Google)](https://google.github.io/adk-docs/)
