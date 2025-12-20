@@ -11,7 +11,6 @@ theme:
 nav:
   - Home: README.md
   - Patterns:
-    - Microsoft Copilot Prompt Template: patterns/copilot-prompt-template.md
     - Role + Constraints + Format: patterns/role-constraint-format.md
     - Guide to Prompt Pattern Catalogue: patterns/prompt-pattern-catalogue.md
   - Prompts:
@@ -24,12 +23,15 @@ nav:
     - Gemini Quickstart: models/gemini/quickstart.md
     - Gemini General Tips: models/gemini/general-tips.md
     - Gemini Nano Banana Pro Prompt Library: models/gemini/nano-banana-pro-library.md
+    - Google Veo 3.1 Video Tutorial: models/google-veo-3-1-video-tutorial.md
   - Tools:
     - Claude Agent Skills Playbook: tools/claude-agent-skills.md
     - Google Cloud ADK Quickstart: tools/google-cloud-platform-agents.md
     - LangChain Deep Agents Playbook: tools/langchain-deep-agents.md
     - Microsoft Agent Framework Quickstart: tools/microsoft-agent-framework.md
+    - Microsoft 365 Copilot Prompting Guide: tools/microsoft-365-copilot-prompting-guide.md
     - Microsoft Copilot Agents: tools/microsoft-copilot-agents.md
+    - Microsoft Copilot Prompt Template: tools/copilot-prompt-template.md
     - Microsoft Copilot Researcher Agent: tools/microsoft-copilot-researcher-agent.md
     - Microsoft Facilitator Agent: tools/microsoft-facilitator-agent.md
     - Microsoft SharePoint Knowledge Agent: tools/microsoft-sharepoint-knowledge-agent.md
@@ -40,6 +42,7 @@ nav:
     - AI Tool Chaining (Oct 2025): tools/ai-tool-chaining-oct-2025.md
     - Lovable Vibe Coding Tutorial: tools/lovable-vibe-coding-tutorial.md
     - Unsloth Phone Deployment Tutorial: tools/llm-on-phone-deployment-tutorial.md
+    - n8n Vibe Research Workflow Tutorial: tools/n8n-research-workflow-tutorial.md
   - Guides:
     - Overview: guides/overview.md
     - AI Agents Overview: guides/ai-agents-overview.md
@@ -55,7 +58,6 @@ nav:
     - Agent-to-Agent (A2A) Protocol Guide: guides/a2a-protocol-guide.md
     - Reasoning vs. Classic LLMs: guides/reasoning-vs-classic-llms.md
     - Reasoning vs. Classic LLMs (DE): guides/reasoning-vs-classic-llms-de.md
-    - Microsoft 365 Copilot Prompting Guide: guides/microsoft-365-copilot-prompting-guide.md
     - Codex Agent Prompting Guide: guides/codex-agent-prompting-guide.md
     - Best Model Providers for AI Agents for 2026: guides/models-for-ai-agents-2026.md
   - Speaking & Keynotes:
@@ -64,13 +66,10 @@ nav:
   - Research:
     - Tomas Herda Research Overview: about-author/research/overview.md
     - Vibe Research Playbook: research/vibe-research.md
-    - n8n Vibe Research Workflow Tutorial: research/n8n-research-workflow-tutorial.md
     - Requirements Engineering Dataset Experiments: research/requirements-engineering-dataset-experiments.md
     - LangChain Research Agent Tutorial: research/langchain-research-agent.md
-    - FACTS Benchmark Overview: research/facts-benchmark-overview.md
   - Use Cases:
     - Program Delivery Manager Copilot Playbook: use-cases/program-delivery-manager-copilot-playbook.md
-    - Google Veo 3.1 Video Tutorial: use-cases/google-veo-3-1-video-tutorial.md
     - AI Use Case Identification: use-cases/ai-use-case-identification.md
     - Microsoft Adoption Scenario Library: use-cases/microsoft-adoption-scenario-library.md
     - Deep Research Tools Playbook: use-cases/deep-research.md
@@ -79,6 +78,7 @@ nav:
     - Overview: evaluations/README.md
     - Aggregated Suite (promptfoo.yml): evaluations/promptfoo.yml
     - Pattern Catalogue Smoke Tests: evaluations/pattern-catalogue-smoke.yml
+    - FACTS Benchmark Overview: evaluations/facts-benchmark-overview.md
   - External Sources: external-sources.md
 markdown_extensions:
   - admonition

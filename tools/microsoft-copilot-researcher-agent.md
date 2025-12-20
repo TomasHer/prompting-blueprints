@@ -45,7 +45,7 @@ Pull ready-to-run scenarios from the Microsoft M365 Copilot prompting guide to a
 ### Share across teams
 - Drop these starters into your Copilot Researcher instructions library so new collaborators can test common workflows immediately.
 - Point business partners to the [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts) for additional Microsoft-curated prompts they can bookmark inside Copilot Chat.
-- Reference the [Microsoft 365 Copilot Prompting Guide](../guides/microsoft-365-copilot-prompting-guide.md) for full do/don’t lists, evaluation rubric, and long-document tactics.
+- Reference the [Microsoft 365 Copilot Prompting Guide](microsoft-365-copilot-prompting-guide.md) for full do/don’t lists, evaluation rubric, and long-document tactics.
 
 ## Reasoning prompt patterns from GPT-Lab
 The GPT-Lab resource “Effective Prompts for Reasoning LLMs” highlights patterns that pair exceptionally well with Copilot Researcher’s long-context and document-grounding capabilities. Keep the examples verbatim inside your instructions or prompt library so reviewers can trace external sourcing.
