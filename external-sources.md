@@ -16,6 +16,7 @@
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
 - [Google ADK Python GitHub Repository](https://github.com/google/adk-python)
 - [Google Android Command Line Tools (Linux)](https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip)
+- [Google — FunctionGemma](https://blog.google/technology/developers/functiongemma/)
 - [Google — Gemini API changelog](https://ai.google.dev/gemini-api/docs/changelog?hl=en)
 - [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
 - [Google Cloud Platform – Agent Starter Pack GitHub Repository](https://github.com/GoogleCloudPlatform/agent-starter-pack)
