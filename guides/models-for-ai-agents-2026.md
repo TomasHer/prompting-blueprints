@@ -30,9 +30,18 @@
 - Control costs and deployment: consider Mistral AI for on-prem latency-sensitive stacks or Meta for self-hosting and fine-tuning.
 - Scale enterprise backends: choose AWS for serverless agent backends and NVIDIA for high-performance multimodal workloads.
 
+## Research highlight: tool-calling specialization beats scale
+- The paper (arXiv 2512.15943) fine-tunes a **350M-parameter model** explicitly for agentic tool calling: select the right tool, pass the right arguments, and finish the task.
+- On ToolBench, the specialized small model reports a **77.55% pass rate**, while much larger general models (20–500× bigger) trail significantly.
+- Reported baselines in the paper: **ChatGPT-CoT ~26%**, **ToolLLaMA ~30%**, and **Claude-CoT** is not competitive on the same evaluation.
+- Practical takeaway: for agent stacks dominated by tool invocation accuracy, **task-specific fine-tuning can outperform raw scale**, so plan model selection around the *job* (tool calling vs. general conversation) rather than parameter count.
+
 ## Agent selection checklist for 2026
 - Clarify the agent’s core job: retrieval-first, reasoning-heavy, creative, or automation-focused.
 - Verify model availability in your stack (cloud-managed API vs. on-prem vs. edge deployment).
 - Check licensing and data residency, especially for regulated industries or region-locked providers.
 - Run quick evaluations on latency, cost per 1K tokens, and tool-use reliability before rollout.
 - Keep a fallback model per region to handle outages or policy blocks.
+
+## References
+- https://arxiv.org/pdf/2512.15943
