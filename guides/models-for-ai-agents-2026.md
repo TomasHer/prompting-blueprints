@@ -36,6 +36,12 @@
 - Reported baselines in the paper: **ChatGPT-CoT ~26%**, **ToolLLaMA ~30%**, and **Claude-CoT** is not competitive on the same evaluation.
 - Practical takeaway: for agent stacks dominated by tool invocation accuracy, **task-specific fine-tuning can outperform raw scale**, so plan model selection around the *job* (tool calling vs. general conversation) rather than parameter count.
 
+## Cost-control spotlight: FunctionGemma for tool calls
+- **FunctionGemma** is a **270M-parameter** Gemma-family model tuned specifically for tool/function calling and structured arguments, positioning it as a low-cost alternative to using frontier LLMs just to trigger tools.
+- Use it as a **tool-call router**: let a larger model handle planning and user-facing reasoning, and delegate the actual tool selection + argument formatting to FunctionGemma.
+- Best fit: **agentic workflows with lots of small tool invocations**, where shaving cost/latency per call matters more than long-form reasoning quality.
+- Practical takeaway: separate **planning vs. execution** models so you only pay frontier rates when you truly need deep reasoning or long-context synthesis.
+
 ## Agent selection checklist for 2026
 - Clarify the agent’s core job: retrieval-first, reasoning-heavy, creative, or automation-focused.
 - Verify model availability in your stack (cloud-managed API vs. on-prem vs. edge deployment).
@@ -45,3 +51,4 @@
 
 ## References
 - https://arxiv.org/pdf/2512.15943
+- https://blog.google/technology/developers/functiongemma/
