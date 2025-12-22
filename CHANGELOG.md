@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add tool-calling specialization research highlight to the 2026 model providers guide with new arXiv reference.
 - Add A2A protocol quick-start guide with official SDK links and navigation entry.
 - Add Microsoft MCP for Beginners highlights and reference to the MCP guide.
 - Add EASE 2026 VIBEX workshop placement plus EASE/XP 2026 dates and locations in the program committee overview.
