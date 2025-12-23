@@ -8,10 +8,10 @@ Highlight Tomas Herda's roles across program committees and track leadership tea
 ### Future engagements
 | Conference | Location & Dates | Function | Track |
 | --- | --- | --- | --- |
-| [CAIN 2026](https://conf.researchr.org/home/cain-2026) (co-located with [ICSE 2026](https://conf.researchr.org/home/icse-2026)) | Rio de Janeiro, Brazil 🇧🇷<br>April 12–13, 2026 | Track Program Committee Member | [CAIN 2026 Industry Track](https://conf.researchr.org/track/cain-2026/cain-2026-industry-track) |
 | [SAC 2026](https://www.sigapp.org/sac/sac2026/) | Thessaloniki, Greece 🇬🇷<br>March 23–27, 2026 | Track Program Committee Member | [Lean and Agile Software Development Track](https://y2026.lasd.pl) |
-| [EASE 2026](https://conf.researchr.org/home/ease-2026) | Glasgow, Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿<br>June 9–12, 2026 | Workshop Co-Organizer | [VIBEX 2026 Workshop](https://conf.researchr.org/home/ease-2026/vibex-2026) |
 | [XP 2026](https://conf.researchr.org/home/xp-2026) | São Paulo, Brazil 🇧🇷<br>April 8–11, 2026 | Workshop Program Committee Member | [Human-AI Collaboration Workshop](https://conf.researchr.org/track/xp-2026/xp-2026-human-ai-collaboration) |
+| [CAIN 2026](https://conf.researchr.org/home/cain-2026) (co-located with [ICSE 2026](https://conf.researchr.org/home/icse-2026)) | Rio de Janeiro, Brazil 🇧🇷<br>April 12–13, 2026 | Track Program Committee Member | [CAIN 2026 Industry Track](https://conf.researchr.org/track/cain-2026/cain-2026-industry-track) |
+| [EASE 2026](https://conf.researchr.org/home/ease-2026) | Glasgow, Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿<br>June 9–12, 2026 | Workshop Co-Organizer | [VIBEX 2026 Workshop](https://conf.researchr.org/home/ease-2026/vibex-2026) |
 
 ### Past engagements
 | Conference | Location & Dates | Function | Track |
