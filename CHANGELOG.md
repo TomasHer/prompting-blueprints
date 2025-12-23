@@ -4,6 +4,7 @@ All notable changes to this project will be documented here.
 
 ## Unreleased
 - Add FunctionGemma fine-tuning and LM Studio local serving tutorial with tool-call workflow guidance.
+- Add FunctionGemma hero image to the fine-tuning + LM Studio guide.
 - Add FunctionGemma cost-control guidance for tool-calling workflows to the 2026 model providers guide.
 - Add tool-calling specialization research highlight to the 2026 model providers guide with new arXiv reference.
 - Add A2A protocol quick-start guide with official SDK links and navigation entry.

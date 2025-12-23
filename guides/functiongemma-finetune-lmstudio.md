@@ -1,3 +1,5 @@
+<img src="../assets/google/function-gemma.jpg" alt="FunctionGemma" width="80%">
+
 # FunctionGemma Fine-Tuning + Local Serving (LM Studio)
 
 ## Intent
