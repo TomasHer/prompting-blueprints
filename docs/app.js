@@ -8,7 +8,9 @@ const CFG = {
   branch: "main",
   maxSearchResults: 25,
   treeCacheTtlMs: 1000 * 60 * 60 * 6, // 6 hours
-  fileCacheTtlMs: 1000 * 60 * 60 * 12 // 12 hours
+  fileCacheTtlMs: 1000 * 60 * 60 * 12, // 12 hours
+  excludeDirs: [".vscode", "website"],
+  excludeFiles: ["docs/app.js", "docs/index.html", "docs/styles.css", "agents.md"]
 };
 
 const els = {
@@ -65,6 +67,15 @@ function extOf(path){
 function dirname(path){
   const i = path.lastIndexOf("/");
   return i === -1 ? "" : path.slice(0, i+1);
+}
+
+function shouldExcludePath(path){
+  const parts = path.split("/");
+  const base = parts[parts.length - 1];
+  if (parts.some((part) => CFG.excludeDirs.includes(part))) return true;
+  if (CFG.excludeFiles.includes(path)) return true;
+  if (CFG.excludeFiles.includes(base)) return true;
+  return false;
 }
 
 /** Resolve a relative link (as in markdown) against a base file path inside repo. */
@@ -564,13 +575,13 @@ async function init(){
     setPill("", "Initializing…");
 
     const { paths } = await getRepoTree();
+    const filteredPaths = paths.filter((p) => !shouldExcludePath(p));
 
-    // Prefer to hide obvious non-content: e.g., .gitignore? none, but keep everything as requested
-    const model = buildTreeModel(paths);
+    const model = buildTreeModel(filteredPaths);
 
     const treeApi = renderTree(model);
 
-    setupSearch(paths, async (p) => loadFile(p, {scrollToTop:true, setActive: treeApi.setActive}));
+    setupSearch(filteredPaths, async (p) => loadFile(p, {scrollToTop:true, setActive: treeApi.setActive}));
 
     // Refresh
     els.refreshBtn.addEventListener("click", async () => {
@@ -581,17 +592,17 @@ async function init(){
 
     // Deep link
     const initial = parseHash();
-    if(initial && paths.includes(initial)){
+    if(initial && filteredPaths.includes(initial)){
       await loadFile(initial, {scrollToTop:true, setActive: treeApi.setActive});
       treeApi.setActive(initial);
     }else{
       // Try to load README by default if present
-      const readme = paths.find(p => p.toLowerCase() === "readme.md");
+      const readme = filteredPaths.find(p => p.toLowerCase() === "readme.md");
       if(readme){
         await loadFile(readme, {scrollToTop:false, setActive: treeApi.setActive});
         treeApi.setActive(readme);
       }else{
-        setPill("ok", `Loaded ${paths.length} files`);
+        setPill("ok", `Loaded ${filteredPaths.length} files`);
       }
     }
   }catch(err){
