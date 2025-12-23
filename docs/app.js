@@ -26,6 +26,9 @@ const els = {
   //refreshBtn: document.getElementById("refreshBtn")
 };
 
+let currentPath = null;
+const DEFAULT_VIEW_HTML = els.viewer.innerHTML;
+
 const API_BASE = () => `https://api.github.com/repos/${CFG.owner}/${CFG.repo}`;
 const RAW_BASE = () => `https://raw.githubusercontent.com/${CFG.owner}/${CFG.repo}/${CFG.branch}/`;
 
@@ -116,7 +119,10 @@ function parseHash(){
 
 function setHashPath(path){
   const enc = encodeURIComponent(path);
+  const nextHash = `#path=${enc}`;
+  if(window.location.hash === nextHash) return false;
   window.location.hash = `path=${enc}`;
+  return true;
 }
 
 function buildTreeModel(paths){
@@ -256,6 +262,9 @@ function renderTree(root){
         // scroll into view
         el.scrollIntoView({block:"nearest"});
       }
+    },
+    clearActive(){
+      for(const el of activeEls.values()) el.classList.remove("active");
     }
   };
 }
@@ -337,6 +346,11 @@ function updateHeaderLinks(path){
   els.rawLink.href = rawUrl;
 }
 
+function resetHeaderLinks(){
+  els.viewOnGithub.href = "#";
+  els.rawLink.href = "#";
+}
+
 function updateBreadcrumbs(path){
   els.breadcrumbs.textContent = path || "";
 }
@@ -347,6 +361,14 @@ function isBinaryView(ext){
 
 function setViewerHtml(html){
   els.viewer.innerHTML = html;
+}
+
+function showEmptyState(){
+  currentPath = null;
+  setViewerHtml(DEFAULT_VIEW_HTML);
+  updateBreadcrumbs("");
+  resetHeaderLinks();
+  els.viewer.scrollTop = 0;
 }
 
 function enhanceCodeBlocks(){
@@ -405,11 +427,12 @@ function scrollToFragment(fragmentId){
 }
 
 async function loadFile(path, opts = {}){
+  currentPath = path;
   const e = extOf(path);
   updateBreadcrumbs(path);
   updateHeaderLinks(path);
   if(opts.setActive) opts.setActive(path);
-  setHashPath(path);
+  if(opts.updateHash !== false) setHashPath(path);
 
   const cacheKey = `pb_file_${CFG.owner}_${CFG.repo}_${CFG.branch}_${path}`;
   const cached = cacheGet(cacheKey);
@@ -598,21 +621,35 @@ async function init(){
       window.location.reload();
     });*/
 
-    // Deep link
-    const initial = parseHash();
-    if(initial && filteredPaths.includes(initial)){
-      await loadFile(initial, {scrollToTop:true, setActive: treeApi.setActive});
-      treeApi.setActive(initial);
-    }else{
-      // Try to load README by default if present
-      const readme = filteredPaths.find(p => p.toLowerCase() === "readme.md");
+    const readme = filteredPaths.find(p => p.toLowerCase() === "readme.md") || null;
+
+    async function syncFromHash(source){
+      const target = parseHash();
+      if(target && filteredPaths.includes(target)){
+        if(target === currentPath) return;
+        await loadFile(target, {scrollToTop:true, setActive: treeApi.setActive, updateHash:false});
+        treeApi.setActive(target);
+        return;
+      }
+
       if(readme){
-        await loadFile(readme, {scrollToTop:false, setActive: treeApi.setActive});
+        if(readme === currentPath) return;
+        const shouldUpdateHash = source === "init";
+        const shouldScrollTop = source !== "init";
+        await loadFile(readme, {scrollToTop: shouldScrollTop, setActive: treeApi.setActive, updateHash: shouldUpdateHash});
         treeApi.setActive(readme);
       }else{
+        treeApi.clearActive();
+        showEmptyState();
         setPill("ok", `Loaded ${filteredPaths.length} files`);
       }
     }
+
+    window.addEventListener("hashchange", () => {
+      syncFromHash("hashchange");
+    });
+
+    await syncFromHash("init");
   }catch(err){
     setPill("bad", "Init failed");
     els.viewer.innerHTML = `

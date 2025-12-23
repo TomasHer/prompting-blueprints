@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Fix docs viewer back/forward navigation to respect browser history.
 - Exclude the `assets/` directory from docs viewer search results.
 - Fix docs viewer hash navigation so the home button renders README.md.
 - Replace the docs landing header text with a button linking to the hosted README view.
