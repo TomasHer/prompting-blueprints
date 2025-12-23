@@ -19,7 +19,7 @@ Ground this workflow in the study by Vom Brocke et al. on how organizations eval
 4. **Execution decision** – the portfolio of AI use cases is prioritized with transparent scoring and next steps.
 
 ## Method Components
-<img src="../assets/research/ai_use_cases_table.png" alt="AI Use Cases Figure" width="80%">
+<img src="../assets/research/ai_use_cases_table.png" alt="AI Use Cases Table" width="80%">
 
 | Component | Why it matters | Prompts to unblock the team |
 | --- | --- | --- |
@@ -100,7 +100,7 @@ Output as a markdown table sorted by highest strategic fit.
 - Prioritized backlog of AI use cases with owners and KPIs.
 - Data readiness scorecards with remediation actions.
 - Solution concept briefs, including human oversight steps and monitoring requirements.
-- Executive summary slide or memo referencing Figure 3 and Table 1 once visuals are added.
+- Executive summary slide or memo referencing Figure 3 and Table 1.
 
 ## References
 - [Vom Brocke, J., Maedche, A., & Leimeister, J. M. (2023). _How to Identify Promising AI Use Cases Under Real Business Conditions_. Proceedings of the 56th Hawaii International Conference on System Sciences.](https://www.alexandria.unisg.ch/server/api/core/bitstreams/35316f07-8d0b-47dc-bbf0-36753ca834b3/content)
