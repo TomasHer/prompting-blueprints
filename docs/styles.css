@@ -94,6 +94,9 @@ code, pre{font-family:var(--mono)}
 .btn:hover{background: rgba(78,161,255,.22)}
 .btn.secondary{background: rgba(255,255,255,.04)}
 .btn.secondary:hover{background: rgba(255,255,255,.07)}
+#repoBtn{
+  padding:3px 3px;
+}
 .sidebar{
   grid-area:sidebar;
   border-right:1px solid var(--border);
