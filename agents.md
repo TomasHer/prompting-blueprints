@@ -139,6 +139,7 @@ If a command fails, capture the error, suggest a minimal fix, and avoid broad de
 ## 7. Safety & sourcing
 - Never commit secrets or private data. Redact or mock API keys.
 - Cite public sources in a **References** section when adapting external material.
+- When creating a new Markdown file, add all external references to `external-sources.md` in alphabetical order.
 - Keep quotes short and properly attributed. Ensure assets comply with CC BY 4.0 or similar licenses.
 
 ---

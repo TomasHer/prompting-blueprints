@@ -2,6 +2,9 @@
 
 ## Prompting Blueprints
 
+### A
+- [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382)](https://arxiv.org/abs/2302.11382)
+- [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
 - [A2A .NET SDK (GitHub)](https://github.com/a2aproject/a2a-dotnet)
 - [A2A Protocol Documentation – Get started](https://a2a-protocol.org/latest/#get-started-with-a2a)
 - [A2A Python SDK (GitHub)](https://github.com/a2aproject/a2a-python)
@@ -13,11 +16,13 @@
 - [Anthropic — Claude Code](https://www.anthropic.com/claude-code)
 - [Anthropic – Claude Code announcement](https://www.anthropic.com/news/claude-code)
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
-- [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382)](https://arxiv.org/abs/2302.11382)
-- [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
 - [arXiv 2512.15943 — Tool-calling specialization beats scale (PDF)](https://arxiv.org/pdf/2512.15943)
+
+### B
 - [bolt.new](https://bolt.new/)
 - [Business Insider – Google AI told me to put glue on pizza. I tried it.](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5)
+
+### C
 - [ChatGPT Deep Research announcement](https://openai.com/index/introducing-deep-research/)
 - [Cognition – Introducing Devin](https://www.cognition-labs.com/blog/introducing-devin)
 - [Colab — FunctionGemma (270M) LM Studio notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/FunctionGemma_(270M)-LMStudio.ipynb)
@@ -25,9 +30,15 @@
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
 - [CrewAI – Framework documentation](https://docs.crewai.com/introduction)
 - [Cursor](https://www.cursor.com/)
+
+### D
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
 - [DeepSeek](https://www.deepseek.com/)
+
+### E
 - [Elicit](https://elicit.com/)
+
+### G
 - [Gemini CLI](https://ai.google.dev/cli)
 - [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
 - [Generative AI project template (GitHub)](https://github.com/honestsoul/generative_ai_project)
@@ -61,8 +72,14 @@
 - [Google One Help – Check AI Premium credits](https://support.google.com/googleone/answer/16287445?visit_id=638968334505579471-862084453&p=g1_ai_credit_menu&rd=1#g1_ai_credit_menu)
 - [Google Workspace – Gemini](https://workspace.google.com/products/gemini/)
 - [GPT-Lab – Effective Prompts for Reasoning LLMs](https://gpt-lab.eu/effective-prompts-for-reasoning-llms/)
+
+### J
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
+
+### K
 - [KIRO](https://kiro.studio/)
+
+### L
 - [LangChain Blog – Deep Agents](https://blog.langchain.com/deep-agents/)
 - [LangChain Deep Agents Repository (tree/master)](https://github.com/langchain-ai/deepagents/tree/master)
 - [LangChain Deep Agents – research_agent.py example](https://github.com/langchain-ai/deepagents/blob/master/examples/research/research_agent.py)
@@ -70,6 +87,8 @@
 - [LM Studio blog – FunctionGemma + Unsloth tutorial](https://lmstudio.ai/blog/functiongemma-unsloth)
 - [Lovable](https://lovable.dev/)
 - [Lovable – Prompting guide](https://docs.lovable.dev/prompting/prompting-one)
+
+### M
 - [M365copilot.com](https://www.m365copilot.com)
 - [Make](https://www.make.com/)
 - [Manus – Research Agent Workspace](https://manus.im/)
@@ -89,9 +108,13 @@
 - [Microsoft Support – Get started with Researcher in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/get-started-with-researcher-in-microsoft-365-copilot-e63ab760-f3de-4c47-ae87-dad601b0e9c4)
 - [Microsoft Support – Knowledge Agent: An overview](https://support.microsoft.com/en-gb/topic/knowledge-agent-an-overview-c0b1efc3-81d0-4981-8be9-7ba3a75fae15)
 - [Mistral – Mistral Large](https://mistral.ai/models/mistral-large/)
+
+### N
 - [n8n – Official site](https://n8n.io/)
 - [n8n – Workflow templates gallery](https://n8n.io/workflows/)
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
+
+### O
 - [On Tech Ethics Podcast – Vibe Research and the Future of Science (CITI Program)](https://about.citiprogram.org/blog/on-tech-ethics-podcast-vibe-research-and-the-future-of-science/)
 - [OpenAI Academy – Use cases for managers](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/use-cases-for-managers)
 - [OpenAI – Agents API guide](https://platform.openai.com/docs/guides/agents)
@@ -102,39 +125,64 @@
 - [OpenAI Cookbook – GPT-5 Prompt Optimization Cookbook](https://cookbook.openai.com/examples/gpt-5/prompt-optimization-cookbook)
 - [OpenAI – Introducing Deep Research](https://openai.com/index/introducing-deep-research/)
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
+
+### P
 - [Perplexity](https://www.perplexity.ai/)
 - [Perplexity: Introducing Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research)
 - [Prompting Blueprints introduction video (YouTube)](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U)
 - [PromptPerfect — Deep Research prompt examples](https://daily.promptperfect.xyz/p/fifteen-examples-of-how-to-use-deep-research-in-chatgpt-with-prompts)
+
+### R
 - [Reddit – I hope this answers everyone’s questions about the Titanic pool](https://www.reddit.com/r/titanic/comments/1l2zy41/i_hope_this_answers_everyones_questions_about_the/)
 - [Replit](https://replit.com/)
 - [Replit – Everything you need to know about MCP](https://blog.replit.com/everything-you-need-to-know-about-mcp)
 - [Requirements Engineering Datasets for LLM4RE](https://nlp4se.github.io/LLM4RE-Datasets/)
+
+### S
 - [Stagewise](https://stagewise.ai/)
+
+### T
 - [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
 - [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
+
+### U
 - [Unsloth Documentation – Deploy LLMs on Phone](https://docs.unsloth.ai/new/deploy-llms-phone)
+
+### V
 - [V0](https://v0.dev/)
 - [Vanderbilt – ChatGPT Advanced Data Analysis course announcement](https://www.vanderbilt.edu/datascience/2023/08/29/new-course-chatgpt-advanced-data-analysis-by-dr-jules-white-associate-professor-of-computer-science/)
 - [Vanderbilt University – Prompt Patterns collection](https://www.vanderbilt.edu/generative-ai/prompt-patterns/)
 - [Vom Brocke et al. – How to Identify Promising AI Use Cases](https://www.alexandria.unisg.ch/server/api/core/bitstreams/35316f07-8d0b-47dc-bbf0-36753ca834b3/content)
+
+### W
 - [Wei et al. – Chain-of-thought prompting elicits reasoning in large language models](https://arxiv.org/abs/2201.11903)
+
+### X
 - [xAI – Grok](https://grok.x.ai/)
+
+### Y
 - [YouTube – AI agents overview](https://youtu.be/bx-bcUWw2Wo)
 - [YouTube – AI Coding Spectrum overview](https://youtu.be/cU_mlreODyw)
 
 ## About the Author
 
+### A
 - [Agile Alliance – XP2023 Experience Report on Restarting Scaled Agile Development](https://agilealliance.org/resources/experience-reports/restarting-scaled-agile-development-at-austrian-post/)
 - [Agile Alliance – XP2024 AI & Agile Industry & Practice Track](https://agilealliance.org/xp2024/industry-and-practice-ai-and-agile/)
 - [AI and Agile Software Development: From Frustration to Success – XP2025 Workshop Summary](https://link.springer.com/chapter/10.1007/978-3-032-05799-0_1)
 - [AIRE’24 Workshop — AI and Requirements Engineering](https://aire-ws.github.io/aire24/)
+
+### C
 - [CAIN 2026](https://conf.researchr.org/home/cain-2026)
 - [CAIN 2026 – Industry Track](https://conf.researchr.org/track/cain-2026/cain-2026-industry-track)
+
+### E
 - [EASE 2026 Conference (Researchr)](https://conf.researchr.org/home/ease-2026)
 - [Exploring Human-AI Collaboration in Agile: Customised LLM Meeting Assistants (arXiv 2404.14871)](https://arxiv.org/abs/2404.14871)
 - [Exploring Human-AI Collaboration in Agile: Customised LLM Meeting Assistants (arXiv 2404.14871 PDF)](https://arxiv.org/pdf/2404.14871)
 - [Exploring Human-AI Collaboration in Agile: Customised LLM Meeting Assistants (Open PDF)](https://library.oapen.org/bitstream/handle/20.500.12657/90931/978-3-031-61154-4.pdf?sequence=1#page=171)
+
+### G
 - [GAISE 2025 Summer School Schedule (GPT-Lab)](https://gpt-lab.eu/gaise-2025/schedule/)
 - [Generating Test Scenarios from NL Requirements Using Retrieval-Augmented LLMs: An Industrial Study (IEEE Xplore)](https://ieeexplore.ieee.org/abstract/document/10628480)
 - [Generating Test Scenarios from NL Requirements Using Retrieval-Augmented LLMs (arXiv 2404.12772)](https://arxiv.org/abs/2404.12772)
@@ -142,9 +190,13 @@
 - [Generative Artificial Intelligence for Software Engineering – A Research Agenda (arXiv 2310.18648)](https://arxiv.org/abs/2310.18648)
 - [Generative Artificial Intelligence for Software Engineering – A Research Agenda (Wiley article)](https://onlinelibrary.wiley.com/doi/10.1002/spe.70005)
 - [GPT-Lab – XP2025 AI Agile Workshop](https://gpt-lab.eu/ai-agile-workshop-xp2025/)
+
+### I
 - [ICSE 2026](https://conf.researchr.org/home/icse-2026)
 - [IEEE RE’24 – Industrial Innovation Papers Track](https://conf.researchr.org/track/RE-2024/RE-2024-industrial-innovation-papers)
 - [ISD 2025 Conference](https://isd2025.fon.bg.ac.rs)
+
+### L
 - [Lean and Agile Software Development Track (ISD 2025)](https://y2025.lasd.pl)
 - [Lean and Agile Software Development Track (SAC 2026)](https://y2026.lasd.pl)
 - [LeSS 2025 Conference Session – Moving toward LeSS](https://less.works/conferenza/sessions/2025-global-less-conference-amsterdam-moving-toward-less-austrian-post-s-journey-of-simplifying-structures-and-empowering-teams-446)
@@ -154,18 +206,30 @@
 - [LLM-Based Agents for Automating the Enhancement of User Story Quality: An Early Report (arXiv 2403.09442)](https://arxiv.org/abs/2403.09442)
 - [LLM-Based Agents for Automating the Enhancement of User Story Quality: An Early Report (Open PDF)](https://library.oapen.org/bitstream/handle/20.500.12657/90931/978-3-031-61154-4.pdf?sequence=1#page=126)
 - [LSZ Talents for IT Future Event (2024)](https://lsz.at/Talents-Graz-Downloadarea)
+
+### M
 - [Meetup – Large-Scale Scrum NYC: The Courage to Descale](https://www.meetup.com/large-scale-scrum-less-in-nyc/events/311688494/)
+
+### P
 - [Prioritizing Software Requirements Using Large Language Models (arXiv 2405.01564)](https://arxiv.org/abs/2405.01564)
+
+### R
 - [Researchr – VIBEX 2026 Workshop](https://conf.researchr.org/home/ease-2026/vibex-2026)
 - [Researchr – XP 2025 AI & Agile Workshop](https://conf.researchr.org/home/xp-2025/aiandagile-2025)
 - [Researchr – XP 2025 AI & Agile Workshop Program](https://conf.researchr.org/home/xp-2025/aiandagile-2025#program)
 - [Researchr – XP 2026 Human-AI Collaboration Workshop](https://conf.researchr.org/track/xp-2026/xp-2026-human-ai-collaboration)
+
+### S
 - [SAC 2026 Conference](https://www.sigapp.org/sac/sac2026/)
 - [Springer – LLM-based Agents for Automating the Enhancement of User Story Quality](https://link.springer.com/book/10.1007/978-3-031-61154-4)
 - [Springer – Multi-agent LLM System for Automated Requirements Analysis](https://link.springer.com/chapter/10.1007/978-3-032-04200-2_12)
 - [Springer – User Story Quality Enhancement (Chapter 8)](https://link.springer.com/chapter/10.1007/978-3-031-61154-4_8)
+
+### T
 - [TimeLess: A Vision for the Next Generation of Software Development (arXiv 2411.08507)](https://arxiv.org/abs/2411.08507)
 - [Tomas Herda – LinkedIn](https://www.linkedin.com/in/herdatom)
+
+### X
 - [XP 2024 Conference – Call for Submissions](https://agilealliance.org/xp2024/call-for-submissions/)
 - [XP 2024 Conference – Posters Track](https://agilealliance.org/xp2024/posters/)
 - [XP 2025 AI & Agile Workshop Research Roadmap (arXiv 2508.20563)](https://arxiv.org/abs/2508.20563)
@@ -174,4 +238,6 @@
 - [XP 2025 AI & Agile Workshop Summary (arXiv 2506.20159 PDF)](https://arxiv.org/pdf/2506.20159)
 - [XP 2025 Conference (Researchr)](https://conf.researchr.org/home/xp-2025)
 - [XP 2026 Conference (Researchr)](https://conf.researchr.org/home/xp-2026)
+
+### Y
 - [YouTube – AI and Agile XP 2025 session preview](https://www.youtube.com/watch?v=VYZGBN4rHTo)
