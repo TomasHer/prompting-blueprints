@@ -12,6 +12,7 @@ All notable changes to this project will be documented here.
 - Add Microsoft MCP for Beginners highlights and reference to the MCP guide.
 - Add EASE 2026 VIBEX workshop placement plus EASE/XP 2026 dates and locations in the program committee overview.
 - Add XP 2026 workshop co-organizer and Human-AI Collaboration PC roles to the program committee overview.
+- Move the program committee overview page to `about-author/program-committee/index.md` and update navigation/readme links.
 - Fix MkDocs guide paths for the MCP and 2026 model providers pages, and link the guides overview/PDF library from the README.
 - Update Claude Agent Skills playbook with the anthropics/skills repository reference and PDF skill examples.
 - Add Google Startup Technical Guide for AI Agents preview and download link to the guides overview.
