@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Rename FunctionGemma fine-tuning + LM Studio guide file to `guides/finetune-functiongemma.md`.
 - Add FunctionGemma fine-tuning and LM Studio local serving tutorial with tool-call workflow guidance.
 - Add FunctionGemma hero image to the fine-tuning + LM Studio guide.
 - Add FunctionGemma cost-control guidance for tool-calling workflows to the 2026 model providers guide.
