@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add context engineering guide to MkDocs navigation and README quick links.
 - Rename FunctionGemma fine-tuning + LM Studio guide file to `guides/finetune-functiongemma.md`.
 - Add FunctionGemma fine-tuning and LM Studio local serving tutorial with tool-call workflow guidance.
 - Add FunctionGemma hero image to the fine-tuning + LM Studio guide.
