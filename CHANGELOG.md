@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Set a minimum width for the docs viewer search input.
 - Fix docs viewer back/forward navigation to respect browser history.
 - Exclude the `assets/` directory from docs viewer search results.
 - Fix docs viewer hash navigation so the home button renders README.md.
