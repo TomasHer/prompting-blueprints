@@ -28,10 +28,6 @@ const els = {
 const API_BASE = () => `https://api.github.com/repos/${CFG.owner}/${CFG.repo}`;
 const RAW_BASE = () => `https://raw.githubusercontent.com/${CFG.owner}/${CFG.repo}/${CFG.branch}/`;
 
-let treeApiRef = null;
-let filteredPathsRef = [];
-let activePath = null;
-
 function nowMs(){ return Date.now(); }
 
 function setPill(kind, text){
@@ -111,27 +107,9 @@ function parseHash(){
   try{ return decodeURIComponent(m[1]); }catch(_){ return m[1]; }
 }
 
-function normalizePathMatch(path, paths){
-  if(!path || !Array.isArray(paths)) return null;
-  if(paths.includes(path)) return path;
-  const lower = path.toLowerCase();
-  const match = paths.find((p) => p.toLowerCase() === lower);
-  return match || null;
-}
-
 function setHashPath(path){
   const enc = encodeURIComponent(path);
-  const next = `#path=${enc}`;
-  if(window.location.hash === next) return;
   window.location.hash = `path=${enc}`;
-}
-
-async function handleHashChange(){
-  if(!filteredPathsRef.length) return;
-  const requested = parseHash();
-  const target = normalizePathMatch(requested, filteredPathsRef);
-  if(!target || target === activePath) return;
-  await loadFile(target, {scrollToTop:true, setActive: treeApiRef ? treeApiRef.setActive : null});
 }
 
 function buildTreeModel(paths){
@@ -420,7 +398,6 @@ function scrollToFragment(fragmentId){
 }
 
 async function loadFile(path, opts = {}){
-  activePath = path;
   const e = extOf(path);
   updateBreadcrumbs(path);
   updateHeaderLinks(path);
@@ -599,15 +576,12 @@ async function init(){
 
     const { paths } = await getRepoTree();
     const filteredPaths = paths.filter((p) => !shouldExcludePath(p));
-    filteredPathsRef = filteredPaths;
 
-    const model = buildTreeModel(filteredPathsRef);
+    const model = buildTreeModel(filteredPaths);
 
     const treeApi = renderTree(model);
-    treeApiRef = treeApi;
 
-    setupSearch(filteredPathsRef, async (p) => loadFile(p, {scrollToTop:true, setActive: treeApi.setActive}));
-    window.addEventListener("hashchange", handleHashChange);
+    setupSearch(filteredPaths, async (p) => loadFile(p, {scrollToTop:true, setActive: treeApi.setActive}));
 
     // Refresh
     els.refreshBtn.addEventListener("click", async () => {
@@ -617,8 +591,8 @@ async function init(){
     });
 
     // Deep link
-    const initial = normalizePathMatch(parseHash(), filteredPathsRef);
-    if(initial){
+    const initial = parseHash();
+    if(initial && filteredPaths.includes(initial)){
       await loadFile(initial, {scrollToTop:true, setActive: treeApi.setActive});
       treeApi.setActive(initial);
     }else{
