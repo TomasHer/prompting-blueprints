@@ -22,8 +22,8 @@ const els = {
   viewOnGithub: document.getElementById("viewOnGithub"),
   rawLink: document.getElementById("rawLink"),
   searchInput: document.getElementById("searchInput"),
-  searchResults: document.getElementById("searchResults"),
-  refreshBtn: document.getElementById("refreshBtn")
+  searchResults: document.getElementById("searchResults")
+  //refreshBtn: document.getElementById("refreshBtn")
 };
 
 const API_BASE = () => `https://api.github.com/repos/${CFG.owner}/${CFG.repo}`;
@@ -592,11 +592,11 @@ async function init(){
     setupSearch(searchPaths, async (p) => loadFile(p, {scrollToTop:true, setActive: treeApi.setActive}));
 
     // Refresh
-    els.refreshBtn.addEventListener("click", async () => {
+    /*els.refreshBtn.addEventListener("click", async () => {
       const cacheKey = `pb_tree_${CFG.owner}_${CFG.repo}_${CFG.branch}`;
       cacheDel(cacheKey);
       window.location.reload();
-    });
+    });*/
 
     // Deep link
     const initial = parseHash();
