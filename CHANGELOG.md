@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Fix docs viewer hash navigation so the home button renders README.md.
 - Replace the docs landing header text with a button linking to the hosted README view.
 - Add context engineering guide to MkDocs navigation and README quick links.
 - Rename FunctionGemma fine-tuning + LM Studio guide file to `guides/finetune-functiongemma.md`.
