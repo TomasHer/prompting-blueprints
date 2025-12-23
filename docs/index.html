@@ -14,7 +14,6 @@
     <header class="topbar">
       <div class="brand">
         <div class="brand-title">Prompting Blueprints</div>
-        <div class="brand-subtitle">Repository web viewer (GitHub-backed)</div>
       </div>
 
       <div class="topbar-actions">
@@ -42,20 +41,10 @@
         <div class="hint">
           Tip: Ctrl/Cmd+K to focus search. Click a folder to expand.
         </div>
-        <div class="hint">
-          This UI loads content directly from GitHub. To make it fully offline, use the included <code>offline/build_static_site.py</code> on a local clone.
-        </div>
       </div>
     </aside>
 
     <main class="content">
-      <div class="content-header">
-        <div class="breadcrumbs" id="breadcrumbs"></div>
-        <div class="content-actions">
-          <a id="viewOnGithub" class="btn secondary" target="_blank" rel="noreferrer" href="#">View on GitHub</a>
-          <a id="rawLink" class="btn secondary" target="_blank" rel="noreferrer" href="#">Raw</a>
-        </div>
-      </div>
 
       <article id="viewer" class="viewer">
         <div class="empty">
@@ -66,6 +55,14 @@
           </p>
         </div>
       </article>
+
+      <div class="content-header">
+        <div class="breadcrumbs" id="breadcrumbs"></div>
+        <div class="content-actions">
+          <a id="viewOnGithub" class="btn secondary" target="_blank" rel="noreferrer" href="#">View on GitHub</a>
+          <a id="rawLink" class="btn secondary" target="_blank" rel="noreferrer" href="#">Raw</a>
+        </div>
+      </div>
 
       <footer class="footer">
         <div>MIT (code) / CC BY 4.0 (docs) — per repository license.</div>
