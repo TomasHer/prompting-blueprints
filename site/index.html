@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prompting Blueprints — Web Viewer</title>
+  <meta name="description" content="Browse and read all files from TomasHer/prompting-blueprints with a clean UI."/>
+  <link rel="stylesheet" href="./styles.css" />
+  <!-- Lightweight syntax highlighting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/github-dark.min.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-title">Prompting Blueprints</div>
+        <div class="brand-subtitle">Repository web viewer (GitHub-backed)</div>
+      </div>
+
+      <div class="topbar-actions">
+        <div class="search">
+          <input id="searchInput" type="search" placeholder="Search files (name/path)…" autocomplete="off"/>
+          <div id="searchResults" class="search-results" aria-live="polite"></div>
+        </div>
+
+        <button id="refreshBtn" class="btn secondary" title="Refresh file list">Refresh</button>
+        <a id="repoBtn" class="btn" target="_blank" rel="noreferrer" href="https://github.com/TomasHer/prompting-blueprints">GitHub</a>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-title">Files</div>
+        <div class="sidebar-meta">
+          <span id="statusPill" class="pill">Loading…</span>
+        </div>
+      </div>
+
+      <div id="tree" class="tree" role="tree" aria-label="Repository file tree"></div>
+
+      <div class="sidebar-footer">
+        <div class="hint">
+          Tip: Ctrl/Cmd+K to focus search. Click a folder to expand.
+        </div>
+        <div class="hint">
+          This UI loads content directly from GitHub. To make it fully offline, use the included <code>offline/build_static_site.py</code> on a local clone.
+        </div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <div class="content-header">
+        <div class="breadcrumbs" id="breadcrumbs"></div>
+        <div class="content-actions">
+          <a id="viewOnGithub" class="btn secondary" target="_blank" rel="noreferrer" href="#">View on GitHub</a>
+          <a id="rawLink" class="btn secondary" target="_blank" rel="noreferrer" href="#">Raw</a>
+        </div>
+      </div>
+
+      <article id="viewer" class="viewer">
+        <div class="empty">
+          <h1>Welcome</h1>
+          <p>Select a file in the left sidebar to view it.</p>
+          <p class="small">
+            Default branch assumed: <code>main</code>. You can change owner/repo/branch in <code>app.js</code>.
+          </p>
+        </div>
+      </article>
+
+      <footer class="footer">
+        <div>MIT (code) / CC BY 4.0 (docs) — per repository license.</div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Markdown rendering -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js" ></script>
+  <script src="./app.js"></script>
+</body>
+</html>
