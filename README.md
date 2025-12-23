@@ -112,8 +112,8 @@ Researchers and educators can cite this repo via [CITATION.cff](./CITATION.cff).
 
 ## Credits
 **Author:** [Tomas Herda](https://www.linkedin.com/in/herdatom)
-
-Social preview image: [Image](./assets/prompting_blueprints_herda_social.png)
+![Tomas Herda](./assets/prompting_blueprints_herda_square.JPG)
+Repository social preview image: [Image](./assets/prompting_blueprints_herda_social.png)
 
 ---
 
