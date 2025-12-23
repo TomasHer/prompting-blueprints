@@ -10,6 +10,7 @@ const CFG = {
   treeCacheTtlMs: 1000 * 60 * 60 * 6, // 6 hours
   fileCacheTtlMs: 1000 * 60 * 60 * 12, // 12 hours
   excludeDirs: [".vscode", "website"],
+  searchExcludeDirs: ["assets"],
   excludeFiles: ["docs/app.js", "docs/index.html", "docs/styles.css", "agents.md"]
 };
 
@@ -76,6 +77,12 @@ function shouldExcludePath(path){
   if (CFG.excludeFiles.includes(path)) return true;
   if (CFG.excludeFiles.includes(base)) return true;
   return false;
+}
+
+function shouldExcludeSearchPath(path){
+  if(!Array.isArray(CFG.searchExcludeDirs) || CFG.searchExcludeDirs.length === 0) return false;
+  const parts = path.split("/");
+  return parts.some((part) => CFG.searchExcludeDirs.includes(part));
 }
 
 /** Resolve a relative link (as in markdown) against a base file path inside repo. */
@@ -576,12 +583,13 @@ async function init(){
 
     const { paths } = await getRepoTree();
     const filteredPaths = paths.filter((p) => !shouldExcludePath(p));
+    const searchPaths = filteredPaths.filter((p) => !shouldExcludeSearchPath(p));
 
     const model = buildTreeModel(filteredPaths);
 
     const treeApi = renderTree(model);
 
-    setupSearch(filteredPaths, async (p) => loadFile(p, {scrollToTop:true, setActive: treeApi.setActive}));
+    setupSearch(searchPaths, async (p) => loadFile(p, {scrollToTop:true, setActive: treeApi.setActive}));
 
     // Refresh
     els.refreshBtn.addEventListener("click", async () => {
