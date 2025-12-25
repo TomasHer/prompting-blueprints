@@ -4,6 +4,7 @@ All notable changes to this project will be documented here.
 
 ## Unreleased
 - Add ChatGPT how-to guide with mode selection, feature tips, and navigation entry.
+- Add 2026 AI software implementation guide covering MCP-first design, skills, and agent orchestration.
 - Add Claude fine-tuning tutorial covering the Qwen3-0.6B workflow and navigation entry.
 - Add responsive line break for the docs viewer brand title under 1000px width.
 - Set a minimum width for the docs viewer search input.
