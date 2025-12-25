@@ -73,6 +73,9 @@
 - [Google Workspace – Gemini](https://workspace.google.com/products/gemini/)
 - [GPT-Lab – Effective Prompts for Reasoning LLMs](https://gpt-lab.eu/effective-prompts-for-reasoning-llms/)
 
+### H
+- [Hugging Face – HF Skills: training a fine-tuning agent with Claude Code](https://huggingface.co/blog/hf-skills-training)
+
 ### J
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
 
