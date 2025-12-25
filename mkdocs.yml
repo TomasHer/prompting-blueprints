@@ -60,6 +60,7 @@ nav:
     - Reasoning vs. Classic LLMs: guides/reasoning-vs-classic-llms.md
     - Reasoning vs. Classic LLMs (DE): guides/reasoning-vs-classic-llms-de.md
     - Codex Agent Prompting Guide: guides/codex-agent-prompting-guide.md
+    - Fine-Tune an Open Source LLM with Claude: guides/claude-fine-tune-llm.md
     - FunctionGemma Fine-Tuning + Local Serving (LM Studio): guides/finetune-functiongemma.md
     - Best Model Providers for AI Agents for 2026: guides/models-for-ai-agents-2026.md
   - Speaking & Keynotes:
