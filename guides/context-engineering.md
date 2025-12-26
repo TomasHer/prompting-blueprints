@@ -1,5 +1,7 @@
 # Context Engineering
 
+![Context engineering overview](../assets/other/context-engineering.PNG)
+
 Context engineering is the discipline of dynamically managing the entirety of information an AI agent sees. It's about filling the context window with the right information for the next step.
 
 ## Key Characteristics
