@@ -41,6 +41,7 @@
 - Use it as a **tool-call router**: let a larger model handle planning and user-facing reasoning, and delegate the actual tool selection + argument formatting to FunctionGemma.
 - Best fit: **agentic workflows with lots of small tool invocations**, where shaving cost/latency per call matters more than long-form reasoning quality.
 - Practical takeaway: separate **planning vs. execution** models so you only pay frontier rates when you truly need deep reasoning or long-context synthesis.
+- Related guide: [Fine-tune FunctionGemma](finetune-functiongemma.md) for tuning steps, guardrails, and evaluation tips.
 
 ## Agent selection checklist for 2026
 - Clarify the agent’s core job: retrieval-first, reasoning-heavy, creative, or automation-focused.
