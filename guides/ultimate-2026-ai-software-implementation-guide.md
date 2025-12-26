@@ -1,7 +1,7 @@
 # Ultimate 2026 Implementation Guide for AI Software Products
 
 ## Intent
-Provide a 2026-ready implementation playbook for AI products that treats the model context window as a full operating environment. The guide combines Model Context Protocol (MCP), modular Skills, and AI Agents into a single Context Engineering stack.
+Provide a 2026-ready implementation playbook for AI products that treats the model context window as a full operating environment. The guide combines [Model Context Protocol (MCP)](mcp-guide.md), modular [Skills](../tools/claude-agent-skills.md), and AI Agents into a single [Context Engineering](context-engineering.md) stack.
 
 ## Use when
 - You are building or refactoring an AI-native product that must interoperate with multiple agents and tools.
@@ -10,21 +10,21 @@ Provide a 2026-ready implementation playbook for AI products that treats the mod
 ## Audience
 Product engineers, solution architects, and AI platform teams shipping agentic experiences.
 
-## Context Engineering Stack (2026 view)
+## [Context Engineering](context-engineering.md) Stack (2026 view)
 | Layer | Purpose | Key moves |
 | --- | --- | --- |
-| **MCP Infrastructure** | Standardize how models access data, events, and actions via MCP servers. | Ship MCP servers for core domains (identity, documents, transactions) instead of bespoke integrations. Stream only the slices of data an agent needs per turn. |
-| **Skills (Capability Layer)** | Package a task-specific intent, tool schema, guardrails, and error handling. | Keep skills atomic (Search, Analysis, Code, Review). Attach expert personas and chain-of-thought requirements to each skill. Load skills on-demand to reduce tool noise. |
+| **[MCP Infrastructure](mcp-guide.md)** | Standardize how models access data, events, and actions via MCP servers. | Ship MCP servers for core domains (identity, documents, transactions) instead of bespoke integrations. Stream only the slices of data an agent needs per turn. |
+| **[Skills (Capability Layer)](../tools/claude-agent-skills.md)** | Package a task-specific intent, tool schema, guardrails, and error handling. | Keep skills atomic (Search, Analysis, Code, Review). Attach expert personas and chain-of-thought requirements to each skill. Load skills on-demand to reduce tool noise. |
 | **AI Agents (Orchestration Layer)** | Manage the context lifecycle, pick skills, and decide when to call MCP resources. | Monitor state, summarize aggressively, and maintain long-term objectives while respecting token limits. |
 
 ## 2026 delivery phases
-### Phase 1: Expose the data with MCP
+### Phase 1: Expose the data with [MCP](mcp-guide.md)
 - Build MCP servers first; UI can follow. Treat every domain surface (files, tickets, metrics, payments) as an MCP Resource or Tool.
 - Normalize schemas so any MCP-compliant agent can use them without custom glue code.
 - Implement streaming filters to minimize context bloat: return only the last N events, scoped by user, project, or time window.
 - Publish a minimal MCP catalog with authentication notes, rate limits, and example invocations.
 
-### Phase 2: Design modular Skills
+### Phase 2: Design modular [Skills](../tools/claude-agent-skills.md)
 - Group capabilities into loadable skills rather than one monolithic bot.
 - Define crisp **input schemas** (required fields, enums, defaults) and **OUTPUT FORMAT** expectations for every skill.
 - Attach **expert personas** per skill (e.g., "Senior Accountant" for FinancialAnalysisSkill) and include failure recovery guidance.
@@ -45,7 +45,7 @@ Product engineers, solution architects, and AI platform teams shipping agentic e
 4) **Measure**: Track token spend, latency, and success loops. Add telemetry for skill selection and context hit rate.
 5) **Harden**: Apply constraint injection (policy text, limits), red-team prompt tests, and deterministic evaluations for structured outputs.
 
-## MCP-first build checklist
+## [MCP](mcp-guide.md)-first build checklist
 - [ ] MCP servers deployed for every critical domain with smoke-tested schemas.
 - [ ] Streaming and filtering implemented to avoid overfilling the context window.
 - [ ] Skill Registry mapped to MCP resources with versioning and examples.

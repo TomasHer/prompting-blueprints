@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add cross-links to context engineering, MCP, and skills guides from the 2026 AI software implementation guide.
 - Link the FunctionGemma fine-tuning guide from the 2026 model providers guide.
 - Add ChatGPT how-to guide with mode selection, feature tips, and navigation entry.
 - Add 2026 AI software implementation guide covering MCP-first design, skills, and agent orchestration.
