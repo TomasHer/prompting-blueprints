@@ -49,7 +49,7 @@
    - Pull structures (e.g., JSON, bullet templates) from the [Prompt Pattern Catalogue](../patterns/prompt-pattern-catalogue.md) so outputs are copy-paste ready.
 
 3) **Set context and sources early**
-   - Follow the [Context Engineering guide](./context-engineering.md) to chunk long inputs, prioritize evidence, and steer retrieval.
+   - Follow the [Context Engineering guide](../02-ai-agents/context-engineering.md) to chunk long inputs, prioritize evidence, and steer retrieval.
    - For research tasks, combine **Deep Research** with explicit source rules and verification steps; mirror the rigor shown in the [Researchers prompting blueprint](../prompts/researchers-prompting-blueprints.md).
 
 4) **Use projects, memory, and connectors for continuity**
@@ -58,8 +58,8 @@
 
 5) **Choose a prompt starting point by use case**
    - **Content + comms:** Start with the [Writers prompting blueprint](../prompts/writers-prompting-blueprints.md) and the **Content draft** / **Email drafting** patterns above.
-   - **Analysis + coding:** Combine **Data analysis** mode with the debugging steps here and the [AI coding spectrum](./ai-coding-spectrum.md) to decide between assistive vs. agentic workflows.
-   - **Workshop & ideation:** Use **Canvas** cards for card sorts or sketches, then migrate outputs into the [Agent-to-Agent protocol](./a2a-protocol-guide.md) when you need multi-agent follow-up.
+   - **Analysis + coding:** Combine **Data analysis** mode with the debugging steps here and the [AI coding spectrum](../02-ai-agents/ai-coding-spectrum.md) to decide between assistive vs. agentic workflows.
+   - **Workshop & ideation:** Use **Canvas** cards for card sorts or sketches, then migrate outputs into the [Agent-to-Agent protocol](../02-ai-agents/a2a-protocol-guide.md) when you need multi-agent follow-up.
 
 6) **Review, test, and iterate**
    - Keep outputs short, then expand with variants. Enforce structure using the patterns above.

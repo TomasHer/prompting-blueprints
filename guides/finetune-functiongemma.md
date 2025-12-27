@@ -155,8 +155,8 @@ print(response.choices[0].message)
 - **LM Studio import fails** → Re-export GGUF with a smaller quantization or shorter context length.
 
 ## Related resources
-- [Best model providers for AI agents for 2026](models-for-ai-agents-2026.md)
-- [Model Context Protocol (MCP) guide](mcp-guide.md)
+- [Best model providers for AI agents for 2026](../02-ai-agents/models-for-ai-agents-2026.md)
+- [Model Context Protocol (MCP) guide](../02-ai-agents/mcp-guide.md)
 
 ## References
 - https://lmstudio.ai/blog/functiongemma-unsloth

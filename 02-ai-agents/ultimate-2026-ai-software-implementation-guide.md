@@ -1,7 +1,7 @@
 # Ultimate 2026 Implementation Guide for AI Software Products
 
 ## Intent
-Provide a 2026-ready implementation playbook for AI products that treats the model context window as a full operating environment. The guide combines [Model Context Protocol (MCP)](mcp-guide.md), modular [Skills](../tools/claude-agent-skills.md), and AI Agents into a single [Context Engineering](context-engineering.md) stack.
+Provide a 2026-ready implementation playbook for AI products that treats the model context window as a full operating environment. The guide combines [Model Context Protocol (MCP)](mcp-guide.md), modular [Skills](claude-agent-skills.md), and AI Agents into a single [Context Engineering](context-engineering.md) stack.
 
 ## Use when
 - You are building or refactoring an AI-native product that must interoperate with multiple agents and tools.
@@ -14,7 +14,7 @@ Product engineers, solution architects, and AI platform teams shipping agentic e
 | Layer | Purpose | Key moves |
 | --- | --- | --- |
 | **[MCP Infrastructure](mcp-guide.md)** | Standardize how models access data, events, and actions via MCP servers. | Ship MCP servers for core domains (identity, documents, transactions) instead of bespoke integrations. Stream only the slices of data an agent needs per turn. |
-| **[Skills (Capability Layer)](../tools/claude-agent-skills.md)** | Package a task-specific intent, tool schema, guardrails, and error handling. | Keep skills atomic (Search, Analysis, Code, Review). Attach expert personas and chain-of-thought requirements to each skill. Load skills on-demand to reduce tool noise. |
+| **[Skills (Capability Layer)](claude-agent-skills.md)** | Package a task-specific intent, tool schema, guardrails, and error handling. | Keep skills atomic (Search, Analysis, Code, Review). Attach expert personas and chain-of-thought requirements to each skill. Load skills on-demand to reduce tool noise. |
 | **AI Agents (Orchestration Layer)** | Manage the context lifecycle, pick skills, and decide when to call MCP resources. | Monitor state, summarize aggressively, and maintain long-term objectives while respecting token limits. |
 
 ## 2026 delivery phases
@@ -24,7 +24,7 @@ Product engineers, solution architects, and AI platform teams shipping agentic e
 - Implement streaming filters to minimize context bloat: return only the last N events, scoped by user, project, or time window.
 - Publish a minimal MCP catalog with authentication notes, rate limits, and example invocations.
 
-### Phase 2: Design modular [Skills](../tools/claude-agent-skills.md)
+### Phase 2: Design modular [Skills](claude-agent-skills.md)
 - Group capabilities into loadable skills rather than one monolithic bot.
 - Define crisp **input schemas** (required fields, enums, defaults) and **OUTPUT FORMAT** expectations for every skill.
 - Attach **expert personas** per skill (e.g., "Senior Accountant" for FinancialAnalysisSkill) and include failure recovery guidance.
