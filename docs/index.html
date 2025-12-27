@@ -6,13 +6,15 @@
   <title>Prompting Blueprints by Tomas Herda</title>
   <meta name="description" content="Browse and read all files from TomasHer/prompting-blueprints with a clean UI."/>
   <link rel="stylesheet" href="./styles.css" />
-  <!-- Lightweight syntax highlighting -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/github-dark.min.css" />
 </head>
 <body>
   <div class="app">
     <header class="topbar">
       <div class="brand">
+        <button id="menuToggle" class="btn secondary" aria-label="Toggle Menu" style="display:none; margin-right: 10px;">
+          ☰
+        </button>
         <div class="brand-title"><span class="brand-name">Prompting Blueprints</span> by <a href="https://www.linkedin.com/in/herdatom/">Tomas Herda</a></div>
       </div>
 
@@ -22,7 +24,6 @@
           <div id="searchResults" class="search-results" aria-live="polite"></div>
         </div>
 
-        <!--<button id="refreshBtn" class="btn secondary" title="Refresh file list">Refresh</button>-->
         <a id="repoBtn" class="btn" target="_blank" rel="noreferrer" href="https://github.com/TomasHer/prompting-blueprints" aria-label="GitHub repository">
           <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" alt="GitHub" width="30" height="30" />
         </a>
@@ -72,7 +73,8 @@
     </main>
   </div>
 
-  <!-- Markdown rendering -->
+  <div id="mobileOverlay" class="mobile-overlay"></div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js" ></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js" ></script>
   <script src="./app.js"></script>

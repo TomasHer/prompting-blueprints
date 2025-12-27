@@ -22,8 +22,13 @@ const els = {
   viewOnGithub: document.getElementById("viewOnGithub"),
   rawLink: document.getElementById("rawLink"),
   searchInput: document.getElementById("searchInput"),
-  searchResults: document.getElementById("searchResults")
-  //refreshBtn: document.getElementById("refreshBtn")
+  searchResults: document.getElementById("searchResults"),
+  //refreshBtn: document.getElementById("refreshBtn"),
+  
+  // NEW
+  menuBtn: document.getElementById("menuToggle"),
+  sidebar: document.querySelector(".sidebar"),
+  overlay: document.getElementById("mobileOverlay")
 };
 
 let currentPath = null;
@@ -620,6 +625,37 @@ async function init(){
       cacheDel(cacheKey);
       window.location.reload();
     });*/
+
+    // NEW: Mobile Menu Logic
+    function toggleMenu(forceState) {
+      if(!els.sidebar || !els.overlay) return;
+      const isOpen = els.sidebar.classList.contains("open");
+      const nextState = forceState !== undefined ? forceState : !isOpen;
+      
+      if (nextState) {
+        els.sidebar.classList.add("open");
+        els.overlay.classList.add("open");
+      } else {
+        els.sidebar.classList.remove("open");
+        els.overlay.classList.remove("open");
+      }
+    }
+
+    if(els.menuBtn) els.menuBtn.addEventListener("click", () => toggleMenu());
+    if(els.overlay) els.overlay.addEventListener("click", () => toggleMenu(false));
+    
+    // Auto-close menu when clicking a file (leaf node) in the tree
+    if(els.tree){
+      els.tree.addEventListener("click", (e) => {
+        const nodeEl = e.target.closest(".node");
+        // check if it is a leaf (no children sibling)
+        if(nodeEl && !nodeEl.nextElementSibling?.classList.contains("children")){
+           if (window.innerWidth <= 980) {
+              toggleMenu(false);
+           }
+        }
+      });
+    }
 
     const readme = filteredPaths.find(p => p.toLowerCase() === "readme.md") || null;
 
