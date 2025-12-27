@@ -2,7 +2,7 @@
 
 # Prompting Blueprints
 
-Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT‑5, Gemini), and tool playbooks (NotebookLM, Perplexity Comet, Copilot Agents). Includes example evaluations with **promptfoo**.
+Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curated collection of concepts and tactics for building autonomous AI workflows. Master tool-specific playbooks, backed by structured prompt packs and rigorous evaluations for the latest AI models.
 
 <p align="left">
   <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/code-MIT-green.svg"></a>
