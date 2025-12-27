@@ -71,17 +71,16 @@ nav:
   - Speaking & Keynotes:
     - Overview: 01-about-author/speaking/index.md
     - Program Committee & Track Leadership: 01-about-author/program-committee/index.md
-  - Research:
+  - Use Cases & Research:
     - Tomas Herda Research Overview: 01-about-author/research/overview.md
-    - Vibe Research Playbook: research/vibe-research.md
-    - Requirements Engineering Dataset Experiments: research/requirements-engineering-dataset-experiments.md
-    - LangChain Research Agent Tutorial: research/langchain-research-agent.md
-  - Use Cases:
-    - Program Delivery Manager Copilot Playbook: use-cases/program-delivery-manager-copilot-playbook.md
-    - AI Use Case Identification: use-cases/ai-use-case-identification.md
-    - Microsoft Adoption Scenario Library: use-cases/microsoft-adoption-scenario-library.md
-    - Deep Research Tools Playbook: use-cases/deep-research.md
-    - Summarization Playbook: use-cases/summarization-tutorial.md
+    - Vibe Research Playbook: 07-use-cases-and-research/vibe-research.md
+    - Requirements Engineering Dataset Experiments: 07-use-cases-and-research/requirements-engineering-dataset-experiments.md
+    - LangChain Research Agent Tutorial: 07-use-cases-and-research/langchain-research-agent.md
+    - Program Delivery Manager Copilot Playbook: 07-use-cases-and-research/program-delivery-manager-copilot-playbook.md
+    - AI Use Case Identification: 07-use-cases-and-research/ai-use-case-identification.md
+    - Microsoft Adoption Scenario Library: 07-use-cases-and-research/microsoft-adoption-scenario-library.md
+    - Deep Research Tools Playbook: 07-use-cases-and-research/deep-research.md
+    - Summarization Playbook: 07-use-cases-and-research/summarization-tutorial.md
   - External Sources: external-sources.md
 markdown_extensions:
   - admonition

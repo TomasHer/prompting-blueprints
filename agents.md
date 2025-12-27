@@ -21,7 +21,7 @@
 | `02-ai-agents/` | Agent architectures, protocols, context engineering, and skills playbooks. | Add/refresh agent guides, protocols, and skills guidance. |
 | `03-prompts-and-patterns/` | Prompt packs and reusable patterns with intent, output formats, sample I/O. | Add/refresh packs, pattern catalog entries, structured outputs. |
 | `04-guides/` | Long-form guides, primers, and PDFs. | Add/refresh guides and overview entries. |
-| `use-cases/` | End-to-end walkthroughs for specific scenarios. | Add domain/task guides, wire inputs/outputs to patterns. |
+| `07-use-cases-and-research/` | End-to-end walkthroughs and research playbooks for specific scenarios. | Add domain/task guides, research playbooks, wire inputs/outputs to patterns. |
 | `05-tools/` | Tactics for NotebookLM, Perplexity Comet, Microsoft Copilot Agents, etc. | Add setup steps, guardrails, sample outputs. |
 | `06-models-and-evaluations/` | Model-specific nuances plus evaluation overviews and configs. | Expand capabilities, context limits, formatting tips, benchmark primers, and promptfoo configs. |
 | `assets/` | Static images/social previews. | Only add lightweight assets (<10 MB, CC-friendly). |
@@ -33,7 +33,7 @@
 
 ## 2. Allowed vs. restricted changes
 ### ✅ You may
-- Add/edit Markdown content in `02-ai-agents/`, `03-prompts-and-patterns/`, `04-guides/`, `use-cases/`, `05-tools/`, `06-models-and-evaluations/`.
+- Add/edit Markdown content in `02-ai-agents/`, `03-prompts-and-patterns/`, `04-guides/`, `07-use-cases-and-research/`, `05-tools/`, `06-models-and-evaluations/`.
 - Add/edit promptfoo configs under `06-models-and-evaluations/` and lightweight supporting assets.
 - Update `mkdocs.yml` **only** to register new or renamed pages you introduce.
 - Update `external-sources.md` **only** to register new external sources in alphabetical order.

@@ -16,7 +16,7 @@ Enable academic researchers and n8n developers to co-design a vibe research auto
 | Facilitator | Keep the agenda on track, mediate decisions, and document unresolved risks. | Compile session notes, publish recap, and maintain alignment with conference workshop goals. |
 
 ## Pre-session checklist (sent 48 hours ahead)
-1. Share the [Vibe Research Playbook](../research/vibe-research.md) to align on terminology and guardrails.
+1. Share the [Vibe Research Playbook](../07-use-cases-and-research/vibe-research.md) to align on terminology and guardrails.
 2. Provide a 3-question form capturing the research theme, must-have data feeds (RSS, APIs, spreadsheets), and compliance flags.
 3. Set up a shared n8n cloud workspace or self-hosted instance with demo credentials plus a sandbox Slack or email endpoint for output testing.
 4. Prepare a whiteboard (Miro, FigJam) with three lanes: "Signals", "Automation opportunities", and "Risks & follow-ups".
@@ -63,6 +63,6 @@ Assistant task: Cluster signals into 3 themes, name the metaphors in play, and s
 - [ ] Schedule a dry run before the 2026 conference to confirm API availability and update prompts with latest vibe insights.
 
 ## Related resources
-- [Vibe Research Playbook](../research/vibe-research.md) – foundational mindset, tooling, and guardrails.
-- [Deep Research Tools Playbook](../use-cases/deep-research.md) – plan rigorous follow-up once vibe hypotheses are validated.
+- [Vibe Research Playbook](../07-use-cases-and-research/vibe-research.md) – foundational mindset, tooling, and guardrails.
+- [Deep Research Tools Playbook](../07-use-cases-and-research/deep-research.md) – plan rigorous follow-up once vibe hypotheses are validated.
 - [n8n Workflow Templates Gallery](https://n8n.io/workflows/) – distribution channel for the finalized automation.

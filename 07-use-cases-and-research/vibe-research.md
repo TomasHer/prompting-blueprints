@@ -6,7 +6,7 @@ Guide research strategists and innovation teams on how to use "vibe research" wo
 ## Use when
 - You need directional insight or opportunity framing within hours, not days, but still want traceability for a subsequent deep-dive study.
 - Leadership wants to pressure-test a concept using trend scans, metaphor analysis, or early market signals before funding a full research sprint.
-- You plan to hand off a vibe brief to a deep research squad or to the [Deep Research Tools Playbook](../use-cases/deep-research.md) for validation and expansion.
+- You plan to hand off a vibe brief to a deep research squad or to the [Deep Research Tools Playbook](./deep-research.md) for validation and expansion.
 
 ## What "vibe" means in research
 - **Pattern-first exploration.** Vibe research privileges pattern discovery over exhaustive sourcing, combining speculative synthesis with automated clustering to spark hypotheses.
@@ -38,7 +38,7 @@ Guide research strategists and innovation teams on how to use "vibe research" wo
 3. Visualize the insurance research map with geographic layers (market size, regulatory headlines, incumbents vs. startups) to expose pattern gaps.
 
 ### Step 4 — Turn vibes into decisions
-- Summarize the opportunity, risks, and unknowns in a one-page brief. Call out which signals require rigorous follow-up and link to the [Deep Research Tools Playbook](../use-cases/deep-research.md) plan for validation.
+- Summarize the opportunity, risks, and unknowns in a one-page brief. Call out which signals require rigorous follow-up and link to the [Deep Research Tools Playbook](./deep-research.md) plan for validation.
 - Tag each insight with source type (peer-reviewed, podcast, analyst memo, community post) so teams can judge confidence quickly.
 - Record what resonated with stakeholders to refine future vibe sprints and avoid repeating low-signal sources.
 

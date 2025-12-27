@@ -76,11 +76,11 @@ README.md
 06-models-and-evaluations/pattern-catalogue-smoke.yml
 
 #07 Use Cases & Research files
-use-cases/summarization-tutorial.md
-use-cases/ai-use-case-identification.md
-use-cases/deep-research.md
-use-cases/program-delivery-manager-copilot-playbook.md
-use-cases/microsoft-adoption-scenario-library.md
-research/langchain-research-agent.md
-research/vibe-research.md
-research/requirements-engineering-dataset-experiments.md
+07-use-cases-and-research/summarization-tutorial.md
+07-use-cases-and-research/ai-use-case-identification.md
+07-use-cases-and-research/deep-research.md
+07-use-cases-and-research/program-delivery-manager-copilot-playbook.md
+07-use-cases-and-research/microsoft-adoption-scenario-library.md
+07-use-cases-and-research/langchain-research-agent.md
+07-use-cases-and-research/vibe-research.md
+07-use-cases-and-research/requirements-engineering-dataset-experiments.md
