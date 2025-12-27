@@ -17,17 +17,16 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 
 ## TL;DR
 - **Prompts & patterns:** prompt packs and reusable scaffolds (role + constraints + format) → `./03-prompts-and-patterns`
-- **Models:** specifics for GPT‑5 & Gemini (dos/don’ts, quickstarts) → `./models`
+- **Models & evaluations:** model tips, evaluation overviews, and promptfoo configs → `./06-models-and-evaluations`
 - **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents → `./05-tools`
 - **AI Agents:** agent architectures, protocols, context engineering, and skills playbooks → `./02-ai-agents`
 - **Guides:** deep-dive primers and a PDF library (Gemini Prompting Guide 101, Google Startup AI Agents) → `./04-guides` (see `./04-guides/overview.md`)
 - **Use cases:** applied flows (e.g., research notes) → `./use-cases`
 - **Research:** tutorials, reusable blueprints, and collaboration signals for academic researchers → `./research` and `./01-about-author/research`
 - **Speaking:** keynote decks, talk outlines, and submission notes → `./01-about-author/speaking`
-- **Evaluations:** `promptfoo` assertions & samples (aggregated suite + prompt pattern catalogue smoke tests) → `./evaluations`
 - **External sources:** curated references cited across guides and playbooks → `./external-sources.md`
 
-Quick links: [AI agents overview](./02-ai-agents/ai-agents-overview.md) · [context engineering](./02-ai-agents/context-engineering.md) · [prompts & patterns](./03-prompts-and-patterns) · [models](./models) · [tools](./05-tools) · [guides overview](./04-guides/overview.md) · [use‑cases](./use-cases) · [research](./research) · [author research](./01-about-author/research) · [speaking](./01-about-author/speaking) · [evaluations](./evaluations) · [external sources](./external-sources.md) · [changelog](./CHANGELOG.md)
+Quick links: [AI agents overview](./02-ai-agents/ai-agents-overview.md) · [context engineering](./02-ai-agents/context-engineering.md) · [prompts & patterns](./03-prompts-and-patterns) · [models & evaluations](./06-models-and-evaluations) · [tools](./05-tools) · [guides overview](./04-guides/overview.md) · [use‑cases](./use-cases) · [research](./research) · [author research](./01-about-author/research) · [speaking](./01-about-author/speaking) · [external sources](./external-sources.md) · [changelog](./CHANGELOG.md)
 
 > Want more? Browse the publicly accessible [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263) for extended context, references, and drafts.
 
@@ -63,10 +62,9 @@ Quick links: [AI agents overview](./02-ai-agents/ai-agents-overview.md) · [cont
 03-prompts-and-patterns/    # prompt packs and pattern catalog
 04-guides/              # long-form prompting guides & PDFs
 05-tools/               # NotebookLM, Perplexity Comet, Copilot Agents
+06-models-and-evaluations/  # model guides, evaluation overviews, and promptfoo configs
 assets/                 # social previews and supporting images
 docs/                   # documentation site extras (e.g., licenses)
-evaluations/            # promptfoo configs and fixtures
-models/                 # model guides (gpt‑5, gemini, ...)
 research/               # research tutorials, reusable blueprints, and collaborations
 use-cases/              # applied workflows
 website/                # static HTML experiments (e.g., AI toolkit preview)

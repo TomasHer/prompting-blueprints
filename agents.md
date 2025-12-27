@@ -22,9 +22,8 @@
 | `03-prompts-and-patterns/` | Prompt packs and reusable patterns with intent, output formats, sample I/O. | Add/refresh packs, pattern catalog entries, structured outputs. |
 | `04-guides/` | Long-form guides, primers, and PDFs. | Add/refresh guides and overview entries. |
 | `use-cases/` | End-to-end walkthroughs for specific scenarios. | Add domain/task guides, wire inputs/outputs to patterns. |
-| `models/` | Model-specific nuances (GPT-5, Gemini, etc.). | Expand capabilities, context limits, formatting tips. |
 | `05-tools/` | Tactics for NotebookLM, Perplexity Comet, Microsoft Copilot Agents, etc. | Add setup steps, guardrails, sample outputs. |
-| `evaluations/` | `promptfoo` configs to validate structure and outputs. | Add assertions and datasets for new content. |
+| `06-models-and-evaluations/` | Model-specific nuances plus evaluation overviews and configs. | Expand capabilities, context limits, formatting tips, benchmark primers, and promptfoo configs. |
 | `assets/` | Static images/social previews. | Only add lightweight assets (<10 MB, CC-friendly). |
 | Root docs (`README.md`, `CONTRIBUTING.md`, etc.) | Contributor and project documentation. | Fix typos, links, metadata when necessary. |
 
@@ -34,8 +33,8 @@
 
 ## 2. Allowed vs. restricted changes
 ### ✅ You may
-- Add/edit Markdown content in `02-ai-agents/`, `03-prompts-and-patterns/`, `04-guides/`, `use-cases/`, `models/`, `05-tools/`.
-- Add/edit evaluation configs under `evaluations/` and lightweight supporting assets.
+- Add/edit Markdown content in `02-ai-agents/`, `03-prompts-and-patterns/`, `04-guides/`, `use-cases/`, `05-tools/`, `06-models-and-evaluations/`.
+- Add/edit promptfoo configs under `06-models-and-evaluations/` and lightweight supporting assets.
 - Update `mkdocs.yml` **only** to register new or renamed pages you introduce.
 - Update `external-sources.md` **only** to register new external sources in alphabetical order.
 - Fix typos, broken links, headings, anchors, or front-matter across the repo.
@@ -71,7 +70,7 @@
 - Link back to foundational patterns or prompt packs where relevant.
 
 ### Evaluations (`promptfoo`)
-- Place configs in `evaluations/`. Use deterministic inputs.
+- Place configs in `06-models-and-evaluations/`. Use deterministic inputs.
 - Add assertions for structure (`contain-json`, schema checks) or keywords.
 - Keep provider IDs generic (`openai:gpt-5`) and omit credentials. Use environment variables locally.
 
@@ -94,7 +93,7 @@ npm install -g promptfoo
 ```bash
 mkdocs serve         # Local docs preview (auto reload)
 mkdocs build         # Build the static site (should pass before PR)
-promptfoo test -c "evaluations/**/*.yml"  # Run all evaluations (adjust scope if needed)
+promptfoo test -c "06-models-and-evaluations/*.yml"  # Run all evaluations (adjust scope if needed)
 mdformat .           # Optional Markdown formatting if installed
 ```
 
@@ -111,7 +110,7 @@ If a command fails, capture the error, suggest a minimal fix, and avoid broad de
 ### Conventional commits
 - `feat: add critique loop pattern`
 - `docs(models): expand gpt-5 context tips`
-- `test(evaluations): add role+constraints assertions`
+- `test(models-and-evaluations): add role+constraints assertions`
 
 ### Changelog policy
 - Update `CHANGELOG.md` under **Unreleased** with a one-line summary of your change.
@@ -149,8 +148,8 @@ If a command fails, capture the error, suggest a minimal fix, and avoid broad de
 > Agents should not start these without explicit approval via issue or request.
 - [ ] Add pattern: **Critique-Refine Loop**
 - [ ] Refresh prompt pack: **Research-to-Newsletter**
-- [ ] Expand `models/gpt-5/` with structured output recipes
-- [ ] Add `evaluations/structure-validators.yml` for JSON shape checks
+- [ ] Expand GPT-5 guidance in `06-models-and-evaluations/` with structured output recipes
+- [ ] Add `06-models-and-evaluations/structure-validators.yml` for JSON shape checks
 
 ---
 

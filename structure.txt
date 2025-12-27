@@ -68,13 +68,12 @@ README.md
 05-tools/vibe-kanban-tool-tutorial.md
 
 #06 Models & Evaluations files
-models/google-veo-3-1-video-tutorial.md
-models/gpt-5/general-tips.md
-models/gemini/general-tips.md
-models/gemini/nano-banana-pro-library.md
-models/gemini/quickstart.md
-evaluations/facts-benchmark-overview.md
-evaluations/README.md
+06-models-and-evaluations/google-veo-3-1-video-tutorial.md
+06-models-and-evaluations/nano-banana-pro-library.md
+06-models-and-evaluations/facts-benchmark-overview.md
+06-models-and-evaluations/README.md
+06-models-and-evaluations/promptfoo.yml
+06-models-and-evaluations/pattern-catalogue-smoke.yml
 
 #07 Use Cases & Research files
 use-cases/summarization-tutorial.md

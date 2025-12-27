@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Move model/evaluation docs and promptfoo configs into `06-models-and-evaluations/`, remove legacy GPT-5/Gemini tips, and refresh references.
 - Refresh README.md and AGENTS.md folder references for the current repository structure.
 - Rename the `tools` folder to `05-tools` and refresh references.
 - Move prompt and pattern blueprints into `03-prompts-and-patterns/` and refresh links.

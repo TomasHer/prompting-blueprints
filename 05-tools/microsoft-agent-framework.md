@@ -99,7 +99,7 @@
 ## 5. Evaluate, harden, and ship
 1. Run quality gates before production:
    ```bash
-   promptfoo test -c evaluations/agent-framework.yml
+   promptfoo test -c 06-models-and-evaluations/agent-framework.yml
    python scripts/safety_checks.py
    ```
 2. Configure deployment pipelines:

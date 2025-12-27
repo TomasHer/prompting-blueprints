@@ -63,7 +63,7 @@
 
 6) **Review, test, and iterate**
    - Keep outputs short, then expand with variants. Enforce structure using the patterns above.
-   - For repeatable flows, codify prompts in a Project note and add evaluation criteria inspired by the [promptfoo configs](../evaluations/README.md) to keep quality consistent.
+   - For repeatable flows, codify prompts in a Project note and add evaluation criteria inspired by the [promptfoo configs](../06-models-and-evaluations/README.md) to keep quality consistent.
 
 ## Quick prompts you can reuse
 - "You are a <role>. Follow these constraints: <style/length/sources>. Use this output format: <structure>." (Role + Constraints)

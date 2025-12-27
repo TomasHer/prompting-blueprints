@@ -18,12 +18,13 @@ nav:
     - Researchers Prompting Blueprints: 03-prompts-and-patterns/researchers-prompting-blueprints.md
     - Writers Prompting Blueprints: 03-prompts-and-patterns/writers-prompting-blueprints.md
     - Weekly Newsletter Blueprint: 03-prompts-and-patterns/weekly-newsletter-blueprint.md
-  - Models:
-    - GPT-5 General Tips: models/gpt-5/general-tips.md
-    - Gemini Quickstart: models/gemini/quickstart.md
-    - Gemini General Tips: models/gemini/general-tips.md
-    - Gemini Nano Banana Pro Prompt Library: models/gemini/nano-banana-pro-library.md
-    - Google Veo 3.1 Video Tutorial: models/google-veo-3-1-video-tutorial.md
+  - Models & Evaluations:
+    - Overview: 06-models-and-evaluations/README.md
+    - Gemini Nano Banana Pro Prompt Library: 06-models-and-evaluations/nano-banana-pro-library.md
+    - Google Veo 3.1 Video Tutorial: 06-models-and-evaluations/google-veo-3-1-video-tutorial.md
+    - FACTS Benchmark Overview: 06-models-and-evaluations/facts-benchmark-overview.md
+    - Aggregated Suite (promptfoo.yml): 06-models-and-evaluations/promptfoo.yml
+    - Pattern Catalogue Smoke Tests: 06-models-and-evaluations/pattern-catalogue-smoke.yml
   - Tools:
     - Claude Agent Skills Playbook: 02-ai-agents/claude-agent-skills.md
     - Google Cloud ADK Quickstart: 05-tools/google-cloud-platform-agents.md
@@ -81,11 +82,6 @@ nav:
     - Microsoft Adoption Scenario Library: use-cases/microsoft-adoption-scenario-library.md
     - Deep Research Tools Playbook: use-cases/deep-research.md
     - Summarization Playbook: use-cases/summarization-tutorial.md
-  - Evaluations:
-    - Overview: evaluations/README.md
-    - Aggregated Suite (promptfoo.yml): evaluations/promptfoo.yml
-    - Pattern Catalogue Smoke Tests: evaluations/pattern-catalogue-smoke.yml
-    - FACTS Benchmark Overview: evaluations/facts-benchmark-overview.md
   - External Sources: external-sources.md
 markdown_extensions:
   - admonition
