@@ -6,6 +6,7 @@ All notable changes to this project will be documented here.
 - Move prompt and pattern blueprints into `03-prompts-and-patterns/` and refresh links.
 - Move AI agent guides and the Claude Agent Skills playbook into `02-ai-agents/` and refresh links.
 - Update references to the renamed `01-about-author` folder.
+- Rename the `guides` folder to `04-guides` and refresh links.
 - Add Vibe Kanban tutorial hero image.
 - Add Vibe Kanban tool tutorial with setup, workflow prompts, navigation entry, and external references.
 - Move the GitHub Copilot custom instructions tutorial into tools and add a hero image.
@@ -23,7 +24,7 @@ All notable changes to this project will be documented here.
 - Fix docs viewer hash navigation so the home button renders README.md.
 - Replace the docs landing header text with a button linking to the hosted README view.
 - Add context engineering guide to MkDocs navigation and README quick links.
-- Rename FunctionGemma fine-tuning + LM Studio guide file to `guides/finetune-functiongemma.md`.
+- Rename FunctionGemma fine-tuning + LM Studio guide file to `04-guides/finetune-functiongemma.md`.
 - Add FunctionGemma fine-tuning and LM Studio local serving tutorial with tool-call workflow guidance.
 - Add FunctionGemma hero image to the fine-tuning + LM Studio guide.
 - Add FunctionGemma cost-control guidance for tool-calling workflows to the 2026 model providers guide.

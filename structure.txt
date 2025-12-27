@@ -31,20 +31,20 @@ README.md
 03-prompts-and-patterns/role-constraint-format.md
 
 #04 Guides files
-guides/claude-fine-tune-llm.md
-guides/finetune-functiongemma.md
-guides/genai-basics-glossary.md
-guides/reasoning-vs-classic-llms.md
-guides/top-10-ml-algorithms.md
-guides/llm-lifecycle-monitoring.md
-guides/ai-adoption-guide.md
-guides/how-to-use-chatgpt.md
-guides/codex-agent-prompting-guide.md
-guides/genai-terms-explained-v2.md
-guides/reasoning-vs-classic-llms-de.md
-guides/gen-ai-project-tutorial.md
-guides/overview.md
-guides/ai-gone-wrong-stories.md
+04-guides/claude-fine-tune-llm.md
+04-guides/finetune-functiongemma.md
+04-guides/genai-basics-glossary.md
+04-guides/reasoning-vs-classic-llms.md
+04-guides/top-10-ml-algorithms.md
+04-guides/llm-lifecycle-monitoring.md
+04-guides/ai-adoption-guide.md
+04-guides/how-to-use-chatgpt.md
+04-guides/codex-agent-prompting-guide.md
+04-guides/genai-terms-explained-v2.md
+04-guides/reasoning-vs-classic-llms-de.md
+04-guides/gen-ai-project-tutorial.md
+04-guides/overview.md
+04-guides/ai-gone-wrong-stories.md
 
 #05 Tools files
 tools/microsoft-facilitator-agent.md

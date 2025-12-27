@@ -46,26 +46,26 @@ nav:
     - Unsloth Phone Deployment Tutorial: tools/llm-on-phone-deployment-tutorial.md
     - n8n Vibe Research Workflow Tutorial: tools/n8n-research-workflow-tutorial.md
   - Guides:
-    - Overview: guides/overview.md
-    - How to Use ChatGPT: guides/how-to-use-chatgpt.md
+    - Overview: 04-guides/overview.md
+    - How to Use ChatGPT: 04-guides/how-to-use-chatgpt.md
     - AI Agents Overview: 02-ai-agents/ai-agents-overview.md
     - Context Engineering: 02-ai-agents/context-engineering.md
     - Ultimate 2026 AI Software Implementation Guide: 02-ai-agents/ultimate-2026-ai-software-implementation-guide.md
     - AI Coding Spectrum: 02-ai-agents/ai-coding-spectrum.md
-    - AI Gone Wrong Incident Stories: guides/ai-gone-wrong-stories.md
-    - Generative AI Basics Glossary: guides/genai-basics-glossary.md
-    - AI Terms Explained (Glossary v2): guides/genai-terms-explained-v2.md
-    - Top 10 Machine Learning Algorithms: guides/top-10-ml-algorithms.md
-    - Generative AI Project Tutorial: guides/gen-ai-project-tutorial.md
-    - LLM Lifecycle Monitoring Guide: guides/llm-lifecycle-monitoring.md
-    - AI Adoption Readiness Guide: guides/ai-adoption-guide.md
+    - AI Gone Wrong Incident Stories: 04-guides/ai-gone-wrong-stories.md
+    - Generative AI Basics Glossary: 04-guides/genai-basics-glossary.md
+    - AI Terms Explained (Glossary v2): 04-guides/genai-terms-explained-v2.md
+    - Top 10 Machine Learning Algorithms: 04-guides/top-10-ml-algorithms.md
+    - Generative AI Project Tutorial: 04-guides/gen-ai-project-tutorial.md
+    - LLM Lifecycle Monitoring Guide: 04-guides/llm-lifecycle-monitoring.md
+    - AI Adoption Readiness Guide: 04-guides/ai-adoption-guide.md
     - Model Context Protocol (MCP) Guide: 02-ai-agents/mcp-guide.md
     - Agent-to-Agent (A2A) Protocol Guide: 02-ai-agents/a2a-protocol-guide.md
-    - Reasoning vs. Classic LLMs: guides/reasoning-vs-classic-llms.md
-    - Reasoning vs. Classic LLMs (DE): guides/reasoning-vs-classic-llms-de.md
-    - Codex Agent Prompting Guide: guides/codex-agent-prompting-guide.md
-    - Fine-Tune an Open Source LLM with Claude: guides/claude-fine-tune-llm.md
-    - FunctionGemma Fine-Tuning + Local Serving (LM Studio): guides/finetune-functiongemma.md
+    - Reasoning vs. Classic LLMs: 04-guides/reasoning-vs-classic-llms.md
+    - Reasoning vs. Classic LLMs (DE): 04-guides/reasoning-vs-classic-llms-de.md
+    - Codex Agent Prompting Guide: 04-guides/codex-agent-prompting-guide.md
+    - Fine-Tune an Open Source LLM with Claude: 04-guides/claude-fine-tune-llm.md
+    - FunctionGemma Fine-Tuning + Local Serving (LM Studio): 04-guides/finetune-functiongemma.md
     - Best Model Providers for AI Agents for 2026: 02-ai-agents/models-for-ai-agents-2026.md
   - Speaking & Keynotes:
     - Overview: 01-about-author/speaking/index.md
