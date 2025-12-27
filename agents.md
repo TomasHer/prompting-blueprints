@@ -22,7 +22,7 @@
 | `prompts/` | Prompt packs grouped by workflow or audience. | Add packs, refine prompts, document adaptation tips. |
 | `use-cases/` | End-to-end walkthroughs for specific scenarios. | Add domain/task guides, wire inputs/outputs to patterns. |
 | `models/` | Model-specific nuances (GPT-5, Gemini, etc.). | Expand capabilities, context limits, formatting tips. |
-| `tools/` | Tactics for NotebookLM, Perplexity Comet, Microsoft Copilot Agents, etc. | Add setup steps, guardrails, sample outputs. |
+| `05-tools/` | Tactics for NotebookLM, Perplexity Comet, Microsoft Copilot Agents, etc. | Add setup steps, guardrails, sample outputs. |
 | `evaluations/` | `promptfoo` configs to validate structure and outputs. | Add assertions and datasets for new content. |
 | `assets/` | Static images/social previews. | Only add lightweight assets (<10 MB, CC-friendly). |
 | Root docs (`README.md`, `CONTRIBUTING.md`, etc.) | Contributor and project documentation. | Fix typos, links, metadata when necessary. |
@@ -33,7 +33,7 @@
 
 ## 2. Allowed vs. restricted changes
 ### ✅ You may
-- Add/edit Markdown content in `patterns/`, `prompts/`, `use-cases/`, `models/`, `tools/`.
+- Add/edit Markdown content in `patterns/`, `prompts/`, `use-cases/`, `models/`, `05-tools/`.
 - Add/edit evaluation configs under `evaluations/` and lightweight supporting assets.
 - Update `mkdocs.yml` **only** to register new or renamed pages you introduce.
 - Update `external-sources.md` **only** to register new external sources in alphabetical order.

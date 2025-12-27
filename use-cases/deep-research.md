@@ -77,7 +77,7 @@ Help researchers and strategists choose and operationalize deep research modes i
 - **Source**: [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
 
 ## Related Blueprints
-- [Microsoft Copilot Researcher Agent Blueprint](../tools/microsoft-copilot-researcher-agent.md)
+- [Microsoft Copilot Researcher Agent Blueprint](../05-tools/microsoft-copilot-researcher-agent.md)
 
 ## References
 - [Perplexity: Introducing Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research)

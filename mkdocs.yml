@@ -26,25 +26,25 @@ nav:
     - Google Veo 3.1 Video Tutorial: models/google-veo-3-1-video-tutorial.md
   - Tools:
     - Claude Agent Skills Playbook: 02-ai-agents/claude-agent-skills.md
-    - Google Cloud ADK Quickstart: tools/google-cloud-platform-agents.md
-    - LangChain Deep Agents Playbook: tools/langchain-deep-agents.md
-    - Microsoft Agent Framework Quickstart: tools/microsoft-agent-framework.md
-    - GitHub Copilot Custom Instructions Tutorial: tools/github-copilot-custom-instructions-tutorial.md
-    - Microsoft 365 Copilot Prompting Guide: tools/microsoft-365-copilot-prompting-guide.md
-    - Microsoft Copilot Agents: tools/microsoft-copilot-agents.md
-    - Microsoft Copilot Prompt Template: tools/copilot-prompt-template.md
-    - Microsoft Copilot Researcher Agent: tools/microsoft-copilot-researcher-agent.md
-    - Microsoft Facilitator Agent: tools/microsoft-facilitator-agent.md
-    - Microsoft SharePoint Knowledge Agent: tools/microsoft-sharepoint-knowledge-agent.md
-    - NotebookLM Audio Overviews: tools/notebooklm-audio-overviews-blueprint.md
-    - OpenAI GPT-5 Prompt Optimizer: tools/openai-gpt-5-prompt-optimizer.md
-    - nanoGPT + nanochat Tool Guide: tools/nanogpt-tool-guide.md
-    - Perplexity Comet: tools/perplexity-comet.md
-    - AI Tool Chaining (Oct 2025): tools/ai-tool-chaining-oct-2025.md
-    - Lovable Vibe Coding Tutorial: tools/lovable-vibe-coding-tutorial.md
-    - Vibe Kanban Tool Tutorial: tools/vibe-kanban-tool-tutorial.md
-    - Unsloth Phone Deployment Tutorial: tools/llm-on-phone-deployment-tutorial.md
-    - n8n Vibe Research Workflow Tutorial: tools/n8n-research-workflow-tutorial.md
+    - Google Cloud ADK Quickstart: 05-tools/google-cloud-platform-agents.md
+    - LangChain Deep Agents Playbook: 05-tools/langchain-deep-agents.md
+    - Microsoft Agent Framework Quickstart: 05-tools/microsoft-agent-framework.md
+    - GitHub Copilot Custom Instructions Tutorial: 05-tools/github-copilot-custom-instructions-tutorial.md
+    - Microsoft 365 Copilot Prompting Guide: 05-tools/microsoft-365-copilot-prompting-guide.md
+    - Microsoft Copilot Agents: 05-tools/microsoft-copilot-agents.md
+    - Microsoft Copilot Prompt Template: 05-tools/copilot-prompt-template.md
+    - Microsoft Copilot Researcher Agent: 05-tools/microsoft-copilot-researcher-agent.md
+    - Microsoft Facilitator Agent: 05-tools/microsoft-facilitator-agent.md
+    - Microsoft SharePoint Knowledge Agent: 05-tools/microsoft-sharepoint-knowledge-agent.md
+    - NotebookLM Audio Overviews: 05-tools/notebooklm-audio-overviews-blueprint.md
+    - OpenAI GPT-5 Prompt Optimizer: 05-tools/openai-gpt-5-prompt-optimizer.md
+    - nanoGPT + nanochat Tool Guide: 05-tools/nanogpt-tool-guide.md
+    - Perplexity Comet: 05-tools/perplexity-comet.md
+    - AI Tool Chaining (Oct 2025): 05-tools/ai-tool-chaining-oct-2025.md
+    - Lovable Vibe Coding Tutorial: 05-tools/lovable-vibe-coding-tutorial.md
+    - Vibe Kanban Tool Tutorial: 05-tools/vibe-kanban-tool-tutorial.md
+    - Unsloth Phone Deployment Tutorial: 05-tools/llm-on-phone-deployment-tutorial.md
+    - n8n Vibe Research Workflow Tutorial: 05-tools/n8n-research-workflow-tutorial.md
   - Guides:
     - Overview: 04-guides/overview.md
     - How to Use ChatGPT: 04-guides/how-to-use-chatgpt.md

@@ -47,25 +47,25 @@ README.md
 04-guides/ai-gone-wrong-stories.md
 
 #05 Tools files
-tools/microsoft-facilitator-agent.md
-tools/ai-tool-chaining-oct-2025.md
-tools/nanogpt-tool-guide.md
-tools/notebooklm-audio-overviews-blueprint.md
-tools/google-cloud-platform-agents.md
-tools/microsoft-copilot-researcher-agent.md
-tools/microsoft-365-copilot-prompting-guide.md
-tools/llm-on-phone-deployment-tutorial.md
-tools/perplexity-comet.md
-tools/github-copilot-custom-instructions-tutorial.md
-tools/langchain-deep-agents.md
-tools/microsoft-agent-framework.md
-tools/openai-gpt-5-prompt-optimizer.md
-tools/microsoft-sharepoint-knowledge-agent.md
-tools/lovable-vibe-coding-tutorial.md
-tools/microsoft-copilot-agents.md
-tools/n8n-research-workflow-tutorial.md
-tools/copilot-prompt-template.md
-tools/vibe-kanban-tool-tutorial.md
+05-tools/microsoft-facilitator-agent.md
+05-tools/ai-tool-chaining-oct-2025.md
+05-tools/nanogpt-tool-guide.md
+05-tools/notebooklm-audio-overviews-blueprint.md
+05-tools/google-cloud-platform-agents.md
+05-tools/microsoft-copilot-researcher-agent.md
+05-tools/microsoft-365-copilot-prompting-guide.md
+05-tools/llm-on-phone-deployment-tutorial.md
+05-tools/perplexity-comet.md
+05-tools/github-copilot-custom-instructions-tutorial.md
+05-tools/langchain-deep-agents.md
+05-tools/microsoft-agent-framework.md
+05-tools/openai-gpt-5-prompt-optimizer.md
+05-tools/microsoft-sharepoint-knowledge-agent.md
+05-tools/lovable-vibe-coding-tutorial.md
+05-tools/microsoft-copilot-agents.md
+05-tools/n8n-research-workflow-tutorial.md
+05-tools/copilot-prompt-template.md
+05-tools/vibe-kanban-tool-tutorial.md
 
 #06 Models & Evaluations files
 models/google-veo-3-1-video-tutorial.md
