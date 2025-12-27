@@ -1,3 +1,5 @@
+<img src="../assets/microsoft/github-copilot.png" alt="GitHub Copilot" width="80%">
+
 # Intent
 Explain how to craft high-signal GitHub Copilot custom instructions using the five tips from the GitHub Blog article “5 tips for writing better custom instructions for Copilot.” The tutorial distills the guidance into copy-ready checklists and includes every prompt example from the article so you can paste them directly into your Copilot settings.
 
