@@ -17,7 +17,7 @@ Adapted from Microsoft's "A day in the life of a Program Delivery Manager" journ
 3. **Midday coordination** – capture decisions, action items, and dependencies from cross-functional syncs.
 4. **Execute a project review** – generate a concise executive narrative, risk log, and next-step commitments from telemetry and notes.
 
-> 💡 **Tip:** Pair this playbook with the [Role + Constraints + Format pattern](../patterns/role-constraint-format.md) when you need Copilot to return tables or JSON for downstream tools.
+> 💡 **Tip:** Pair this playbook with the [Role + Constraints + Format pattern](../03-prompts-and-patterns/role-constraint-format.md) when you need Copilot to return tables or JSON for downstream tools.
 
 ## Prerequisites
 - Microsoft 365 Copilot enabled for Outlook, Teams, Loop, Word, and Excel.

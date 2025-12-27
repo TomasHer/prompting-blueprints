@@ -68,4 +68,4 @@ I want a {goal} for {context}. Respond in {expectations} and use {source}.
 
 ## Related Resources
 - [Microsoft Copilot Agents Blueprint](microsoft-copilot-agents.md)
-- [Guide to Prompt Pattern Catalogue](../patterns/prompt-pattern-catalogue.md)
+- [Guide to Prompt Pattern Catalogue](../03-prompts-and-patterns/prompt-pattern-catalogue.md)

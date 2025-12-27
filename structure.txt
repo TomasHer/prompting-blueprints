@@ -23,12 +23,12 @@ README.md
 02-ai-agents/claude-agent-skills.md
 
 #03 Prompts & Patterns files
-prompts/researchers-prompting-blueprints.md
-prompts/writers-prompting-blueprints.md
-prompts/managers-prompting-blueprints.md
-prompts/weekly-newsletter-blueprint.md
-patterns/prompt-pattern-catalogue.md
-patterns/role-constraint-format.md
+03-prompts-and-patterns/researchers-prompting-blueprints.md
+03-prompts-and-patterns/writers-prompting-blueprints.md
+03-prompts-and-patterns/managers-prompting-blueprints.md
+03-prompts-and-patterns/weekly-newsletter-blueprint.md
+03-prompts-and-patterns/prompt-pattern-catalogue.md
+03-prompts-and-patterns/role-constraint-format.md
 
 #04 Guides files
 guides/claude-fine-tune-llm.md

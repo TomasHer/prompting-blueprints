@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Move prompt and pattern blueprints into `03-prompts-and-patterns/` and refresh links.
 - Move AI agent guides and the Claude Agent Skills playbook into `02-ai-agents/` and refresh links.
 - Update references to the renamed `01-about-author` folder.
 - Add Vibe Kanban tutorial hero image.

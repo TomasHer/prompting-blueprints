@@ -11,13 +11,13 @@ theme:
 nav:
   - Home: README.md
   - Patterns:
-    - Role + Constraints + Format: patterns/role-constraint-format.md
-    - Guide to Prompt Pattern Catalogue: patterns/prompt-pattern-catalogue.md
+    - Role + Constraints + Format: 03-prompts-and-patterns/role-constraint-format.md
+    - Guide to Prompt Pattern Catalogue: 03-prompts-and-patterns/prompt-pattern-catalogue.md
   - Prompts:
-    - Managers Prompting Blueprints: prompts/managers-prompting-blueprints.md
-    - Researchers Prompting Blueprints: prompts/researchers-prompting-blueprints.md
-    - Writers Prompting Blueprints: prompts/writers-prompting-blueprints.md
-    - Weekly Newsletter Blueprint: prompts/weekly-newsletter-blueprint.md
+    - Managers Prompting Blueprints: 03-prompts-and-patterns/managers-prompting-blueprints.md
+    - Researchers Prompting Blueprints: 03-prompts-and-patterns/researchers-prompting-blueprints.md
+    - Writers Prompting Blueprints: 03-prompts-and-patterns/writers-prompting-blueprints.md
+    - Weekly Newsletter Blueprint: 03-prompts-and-patterns/weekly-newsletter-blueprint.md
   - Models:
     - GPT-5 General Tips: models/gpt-5/general-tips.md
     - Gemini Quickstart: models/gemini/quickstart.md

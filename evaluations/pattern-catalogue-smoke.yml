@@ -5,7 +5,7 @@ providers:
     config:
       temperature: 0
 
-# Each test in this file mirrors a scaffold from patterns/prompt-pattern-catalogue.md.
+# Each test in this file mirrors a scaffold from 03-prompts-and-patterns/prompt-pattern-catalogue.md.
 # Assertions focus on structure rather than subjective quality so the suite stays deterministic.
 tests:
   - description: Persona pattern output cites the role and constraints before giving guidance.

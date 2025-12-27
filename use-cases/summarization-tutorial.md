@@ -49,7 +49,6 @@ Use these prompts as starting points. Replace the bracketed section with the tex
 - Add a short "Next actions" block when the summary is meant to trigger decision-making.
 
 ## Related Blueprints
-- [Role + Constraint Format](../patterns/role-constraint-format.md)
-- [Researchers Prompting Blueprints](../prompts/researchers-prompting-blueprints.md)
-- [Writers Prompting Blueprints](../prompts/writers-prompting-blueprints.md)
-
+- [Role + Constraint Format](../03-prompts-and-patterns/role-constraint-format.md)
+- [Researchers Prompting Blueprints](../03-prompts-and-patterns/researchers-prompting-blueprints.md)
+- [Writers Prompting Blueprints](../03-prompts-and-patterns/writers-prompting-blueprints.md)
