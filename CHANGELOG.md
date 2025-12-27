@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add GitHub Copilot custom instructions tutorial with prompt examples and navigation link.
 - Add context engineering guide hero image.
 - Add cross-links to context engineering, MCP, and skills guides from the 2026 AI software implementation guide.
 - Link the FunctionGemma fine-tuning guide from the 2026 model providers guide.
