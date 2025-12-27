@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Update references to the renamed `01-about-author` folder.
 - Add Vibe Kanban tutorial hero image.
 - Add Vibe Kanban tool tutorial with setup, workflow prompts, navigation entry, and external references.
 - Move the GitHub Copilot custom instructions tutorial into tools and add a hero image.
@@ -29,7 +30,7 @@ All notable changes to this project will be documented here.
 - Add Microsoft MCP for Beginners highlights and reference to the MCP guide.
 - Add EASE 2026 VIBEX workshop placement plus EASE/XP 2026 dates and locations in the program committee overview.
 - Add XP 2026 workshop co-organizer and Human-AI Collaboration PC roles to the program committee overview.
-- Move the program committee overview page to `about-author/program-committee/index.md` and update navigation/readme links.
+- Move the program committee overview page to `01-about-author/program-committee/index.md` and update navigation/readme links.
 - Fix MkDocs guide paths for the MCP and 2026 model providers pages, and link the guides overview/PDF library from the README.
 - Update Claude Agent Skills playbook with the anthropics/skills repository reference and PDF skill examples.
 - Add Google Startup Technical Guide for AI Agents preview and download link to the guides overview.
@@ -61,7 +62,7 @@ All notable changes to this project will be documented here.
 - Add vibe research playbook outlining exploratory sensemaking workflows and tool stacks.
 - Embed glue-in-pizza and Titanic pool images in the AI gone wrong incident stories guide.
 - Add AI gone wrong incident stories guide with workshop facilitation prompts.
-- Relocate speaking and research content into an `about-author` folder and refresh navigation links.
+- Relocate speaking and research content into an `01-about-author` folder and refresh navigation links.
 - Document Tomas Herda's program committee and track leadership roles across 2024–2026 conferences.
 - Highlight the Prompting Blueprints introduction video alongside the README repository mind map for quick orientation.
 - Move the repository mind map link to the end of the README “What’s inside” section for quick visual navigation.

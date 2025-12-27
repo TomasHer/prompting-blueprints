@@ -1,0 +1,87 @@
+#Hidden Repository Files
+CONTRIBUTING.md
+external-sources.md
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+
+#00 Main page file
+README.md
+
+#01 About Author files
+01-about-author/speaking/index.md
+01-about-author/program-committee/index.md
+01-about-author/research/overview.md
+
+#02 AI Agents 2026 files
+guides/context-engineering.md
+guides/models-for-ai-agents-2026.md
+guides/ai-coding-spectrum.md
+guides/ultimate-2026-ai-software-implementation-guide.md
+guides/a2a-protocol-guide.md
+guides/mcp-guide.md
+guides/ai-agents-overview.md
+tools/claude-agent-skills.md
+
+#03 Prompts & Patterns files
+prompts/researchers-prompting-blueprints.md
+prompts/writers-prompting-blueprints.md
+prompts/managers-prompting-blueprints.md
+prompts/weekly-newsletter-blueprint.md
+patterns/prompt-pattern-catalogue.md
+patterns/role-constraint-format.md
+
+#04 Guides files
+guides/claude-fine-tune-llm.md
+guides/finetune-functiongemma.md
+guides/genai-basics-glossary.md
+guides/reasoning-vs-classic-llms.md
+guides/top-10-ml-algorithms.md
+guides/llm-lifecycle-monitoring.md
+guides/ai-adoption-guide.md
+guides/how-to-use-chatgpt.md
+guides/codex-agent-prompting-guide.md
+guides/genai-terms-explained-v2.md
+guides/reasoning-vs-classic-llms-de.md
+guides/gen-ai-project-tutorial.md
+guides/overview.md
+guides/ai-gone-wrong-stories.md
+
+#05 Tools files
+tools/microsoft-facilitator-agent.md
+tools/ai-tool-chaining-oct-2025.md
+tools/nanogpt-tool-guide.md
+tools/notebooklm-audio-overviews-blueprint.md
+tools/google-cloud-platform-agents.md
+tools/microsoft-copilot-researcher-agent.md
+tools/microsoft-365-copilot-prompting-guide.md
+tools/llm-on-phone-deployment-tutorial.md
+tools/perplexity-comet.md
+tools/github-copilot-custom-instructions-tutorial.md
+tools/langchain-deep-agents.md
+tools/microsoft-agent-framework.md
+tools/openai-gpt-5-prompt-optimizer.md
+tools/microsoft-sharepoint-knowledge-agent.md
+tools/lovable-vibe-coding-tutorial.md
+tools/microsoft-copilot-agents.md
+tools/n8n-research-workflow-tutorial.md
+tools/copilot-prompt-template.md
+tools/vibe-kanban-tool-tutorial.md
+
+#06 Models & Evaluations files
+models/google-veo-3-1-video-tutorial.md
+models/gpt-5/general-tips.md
+models/gemini/general-tips.md
+models/gemini/nano-banana-pro-library.md
+models/gemini/quickstart.md
+evaluations/facts-benchmark-overview.md
+evaluations/README.md
+
+#07 Use Cases & Research files
+use-cases/summarization-tutorial.md
+use-cases/ai-use-case-identification.md
+use-cases/deep-research.md
+use-cases/program-delivery-manager-copilot-playbook.md
+use-cases/microsoft-adoption-scenario-library.md
+research/langchain-research-agent.md
+research/vibe-research.md
+research/requirements-engineering-dataset-experiments.md

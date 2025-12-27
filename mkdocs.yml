@@ -68,10 +68,10 @@ nav:
     - FunctionGemma Fine-Tuning + Local Serving (LM Studio): guides/finetune-functiongemma.md
     - Best Model Providers for AI Agents for 2026: guides/models-for-ai-agents-2026.md
   - Speaking & Keynotes:
-    - Overview: about-author/speaking/index.md
-    - Program Committee & Track Leadership: about-author/program-committee/index.md
+    - Overview: 01-about-author/speaking/index.md
+    - Program Committee & Track Leadership: 01-about-author/program-committee/index.md
   - Research:
-    - Tomas Herda Research Overview: about-author/research/overview.md
+    - Tomas Herda Research Overview: 01-about-author/research/overview.md
     - Vibe Research Playbook: research/vibe-research.md
     - Requirements Engineering Dataset Experiments: research/requirements-engineering-dataset-experiments.md
     - LangChain Research Agent Tutorial: research/langchain-research-agent.md

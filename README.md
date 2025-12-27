@@ -22,12 +22,12 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 - **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents → `./tools`
 - **Guides:** AI Agents Overview, Context Engineering, deep-dive primers, and a PDF library (Gemini Prompting Guide 101, Google Startup AI Agents) → `./guides` (see `./guides/overview.md`)
 - **Use cases:** applied flows (e.g., research notes) → `./use-cases`
-- **Research:** tutorials, reusable blueprints, and collaboration signals for academic researchers → `./research` and `./about-author/research`
-- **Speaking:** keynote decks, talk outlines, and submission notes → `./about-author/speaking`
+- **Research:** tutorials, reusable blueprints, and collaboration signals for academic researchers → `./research` and `./01-about-author/research`
+- **Speaking:** keynote decks, talk outlines, and submission notes → `./01-about-author/speaking`
 - **Evaluations:** `promptfoo` assertions & samples (aggregated suite + prompt pattern catalogue smoke tests) → `./evaluations`
 - **External sources:** curated references cited across guides and playbooks → `./external-sources.md`
 
-Quick links: [AI agents overview](./guides/ai-agents-overview.md) · [context engineering](./guides/context-engineering.md) · [patterns](./patterns) · [prompts](./prompts) · [models](./models) · [tools](./tools) · [guides overview](./guides/overview.md) · [use‑cases](./use-cases) · [research](./research) · [author research](./about-author/research) · [speaking](./about-author/speaking) · [evaluations](./evaluations) · [external sources](./external-sources.md) · [changelog](./CHANGELOG.md)
+Quick links: [AI agents overview](./guides/ai-agents-overview.md) · [context engineering](./guides/context-engineering.md) · [patterns](./patterns) · [prompts](./prompts) · [models](./models) · [tools](./tools) · [guides overview](./guides/overview.md) · [use‑cases](./use-cases) · [research](./research) · [author research](./01-about-author/research) · [speaking](./01-about-author/speaking) · [evaluations](./evaluations) · [external sources](./external-sources.md) · [changelog](./CHANGELOG.md)
 
 > Want more? Browse the publicly accessible [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263) for extended context, references, and drafts.
 
@@ -62,7 +62,7 @@ guides/                 # long-form prompting guides & PDFs
 models/                 # model guides (gpt‑5, gemini, ...)
 patterns/               # pattern catalog & templates
 prompts/                # copy‑ready prompt packs
-about-author/           # maintainer background (speaking, research)
+01-about-author/           # maintainer background (speaking, research)
   research/             # research focus areas & collaboration signals
   speaking/             # keynote outlines and talk prep
 tools/                  # NotebookLM, Perplexity Comet, Copilot Agents
@@ -120,12 +120,12 @@ Repository social preview image: [Image](./assets/prompting_blueprints_herda_soc
 ---
 
 ## Speaking & Keynotes & Organization
-Explore Tomas Herda’s upcoming appearances, talk topics, and booking details on the dedicated [Speaking & Keynotes overview](./about-author/speaking/index.md).
+Explore Tomas Herda’s upcoming appearances, talk topics, and booking details on the dedicated [Speaking & Keynotes overview](./01-about-author/speaking/index.md).
 
-For conference organization work - including program committees and track leadership see the [Program Committee & Track Leadership overview](./about-author/program-committee/index.md).
+For conference organization work - including program committees and track leadership see the [Program Committee & Track Leadership overview](./01-about-author/program-committee/index.md).
 
 ## Research
-Review ongoing investigations, experiment logs, and calls for collaboration in the [Research overview](./about-author/research/overview.md).
+Review ongoing investigations, experiment logs, and calls for collaboration in the [Research overview](./01-about-author/research/overview.md).
 
 ---
 
