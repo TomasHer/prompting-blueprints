@@ -46,6 +46,7 @@
 - [GitHub - Anthropic Skills examples directory](https://github.com/anthropics/skills/tree/main/skills)
 - [GitHub - Anthropic Skills repository](https://github.com/anthropics/skills)
 - [GitHub Copilot](https://github.com/features/copilot)
+- [GitHub Blog – 5 tips for writing better custom instructions for Copilot](https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/)
 - [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
 - [GitHub – ExecuTorch Examples Repository](https://github.com/meta-pytorch/executorch-examples)
 - [GitHub – ExecuTorch Examples Repository (.git)](https://github.com/meta-pytorch/executorch-examples.git)
