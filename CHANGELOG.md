@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Refresh README.md and AGENTS.md folder references for the current repository structure.
 - Rename the `tools` folder to `05-tools` and refresh references.
 - Move prompt and pattern blueprints into `03-prompts-and-patterns/` and refresh links.
 - Move AI agent guides and the Claude Agent Skills playbook into `02-ai-agents/` and refresh links.

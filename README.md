@@ -16,8 +16,7 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 ---
 
 ## TL;DR
-- **Patterns:** reusable scaffolds (role + constraints + format) → `./patterns`
-- **Prompts:** curated packs for common jobs and workflows → `./prompts`
+- **Prompts & patterns:** prompt packs and reusable scaffolds (role + constraints + format) → `./03-prompts-and-patterns`
 - **Models:** specifics for GPT‑5 & Gemini (dos/don’ts, quickstarts) → `./models`
 - **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents → `./05-tools`
 - **AI Agents:** agent architectures, protocols, context engineering, and skills playbooks → `./02-ai-agents`
@@ -28,7 +27,7 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 - **Evaluations:** `promptfoo` assertions & samples (aggregated suite + prompt pattern catalogue smoke tests) → `./evaluations`
 - **External sources:** curated references cited across guides and playbooks → `./external-sources.md`
 
-Quick links: [AI agents overview](./02-ai-agents/ai-agents-overview.md) · [context engineering](./02-ai-agents/context-engineering.md) · [patterns](./patterns) · [prompts](./prompts) · [models](./models) · [tools](./05-tools) · [guides overview](./04-guides/overview.md) · [use‑cases](./use-cases) · [research](./research) · [author research](./01-about-author/research) · [speaking](./01-about-author/speaking) · [evaluations](./evaluations) · [external sources](./external-sources.md) · [changelog](./CHANGELOG.md)
+Quick links: [AI agents overview](./02-ai-agents/ai-agents-overview.md) · [context engineering](./02-ai-agents/context-engineering.md) · [prompts & patterns](./03-prompts-and-patterns) · [models](./models) · [tools](./05-tools) · [guides overview](./04-guides/overview.md) · [use‑cases](./use-cases) · [research](./research) · [author research](./01-about-author/research) · [speaking](./01-about-author/speaking) · [evaluations](./evaluations) · [external sources](./external-sources.md) · [changelog](./CHANGELOG.md)
 
 > Want more? Browse the publicly accessible [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263) for extended context, references, and drafts.
 
@@ -56,18 +55,19 @@ Quick links: [AI agents overview](./02-ai-agents/ai-agents-overview.md) · [cont
 
 ## Repository structure
 ```text
+01-about-author/           # maintainer background (speaking, research, program committees)
+  program-committee/    # program committee & track leadership overview
+  research/             # research focus areas & collaboration signals
+  speaking/             # keynote outlines and talk prep
+02-ai-agents/           # AI agents playbooks, protocols, and skills
+03-prompts-and-patterns/    # prompt packs and pattern catalog
+04-guides/              # long-form prompting guides & PDFs
+05-tools/               # NotebookLM, Perplexity Comet, Copilot Agents
 assets/                 # social previews and supporting images
 docs/                   # documentation site extras (e.g., licenses)
 evaluations/            # promptfoo configs and fixtures
-04-guides/              # long-form prompting guides & PDFs
-02-ai-agents/           # AI agents playbooks, protocols, and skills
 models/                 # model guides (gpt‑5, gemini, ...)
-patterns/               # pattern catalog & templates
-prompts/                # copy‑ready prompt packs
-01-about-author/           # maintainer background (speaking, research)
-  research/             # research focus areas & collaboration signals
-  speaking/             # keynote outlines and talk prep
-05-tools/               # NotebookLM, Perplexity Comet, Copilot Agents
+research/               # research tutorials, reusable blueprints, and collaborations
 use-cases/              # applied workflows
 website/                # static HTML experiments (e.g., AI toolkit preview)
 CHANGELOG.md            # updates (Keep a Changelog)

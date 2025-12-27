@@ -18,8 +18,9 @@
 ### Repository map
 | Area | Purpose | Typical changes |
 | --- | --- | --- |
-| `patterns/` | Reusable prompting templates with intent, pattern text, output formats, sample I/O. | New/updated blueprints, structured outputs. |
-| `prompts/` | Prompt packs grouped by workflow or audience. | Add packs, refine prompts, document adaptation tips. |
+| `02-ai-agents/` | Agent architectures, protocols, context engineering, and skills playbooks. | Add/refresh agent guides, protocols, and skills guidance. |
+| `03-prompts-and-patterns/` | Prompt packs and reusable patterns with intent, output formats, sample I/O. | Add/refresh packs, pattern catalog entries, structured outputs. |
+| `04-guides/` | Long-form guides, primers, and PDFs. | Add/refresh guides and overview entries. |
 | `use-cases/` | End-to-end walkthroughs for specific scenarios. | Add domain/task guides, wire inputs/outputs to patterns. |
 | `models/` | Model-specific nuances (GPT-5, Gemini, etc.). | Expand capabilities, context limits, formatting tips. |
 | `05-tools/` | Tactics for NotebookLM, Perplexity Comet, Microsoft Copilot Agents, etc. | Add setup steps, guardrails, sample outputs. |
@@ -33,7 +34,7 @@
 
 ## 2. Allowed vs. restricted changes
 ### ✅ You may
-- Add/edit Markdown content in `patterns/`, `prompts/`, `use-cases/`, `models/`, `05-tools/`.
+- Add/edit Markdown content in `02-ai-agents/`, `03-prompts-and-patterns/`, `04-guides/`, `use-cases/`, `models/`, `05-tools/`.
 - Add/edit evaluation configs under `evaluations/` and lightweight supporting assets.
 - Update `mkdocs.yml` **only** to register new or renamed pages you introduce.
 - Update `external-sources.md` **only** to register new external sources in alphabetical order.
@@ -59,7 +60,7 @@
 - Prefer one concept per file; aim for < ~250 lines each.
 - Start each new resource with an **Intent** or **Use when** section.
 - Include an **OUTPUT FORMAT** section (JSON or Markdown) when structure matters.
-- Reference related patterns/prompts/use-cases to keep navigation cohesive.
+- Reference related patterns, prompt packs, and use cases to keep navigation cohesive.
 
 ### Patterns & prompts specifics
 - Provide guidance on variables/placeholders and guardrails.
@@ -103,7 +104,7 @@ If a command fails, capture the error, suggest a minimal fix, and avoid broad de
 
 ## 5. Workflow expectations
 ### Branch naming
-- `feat/<area>-<slug>` for new content/features (e.g., `feat/patterns-critique-loop`).
+- `feat/<area>-<slug>` for new content/features (e.g., `feat/prompts-and-patterns-critique-loop`).
 - `docs/<area>-<slug>` for documentation-only updates.
 - `fix/<area>-<slug>` for fixes or refactors.
 
