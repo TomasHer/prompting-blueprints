@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Vibe Kanban tutorial hero image.
 - Add Vibe Kanban tool tutorial with setup, workflow prompts, navigation entry, and external references.
 - Move the GitHub Copilot custom instructions tutorial into tools and add a hero image.
 - Add GitHub Copilot custom instructions tutorial with prompt examples and navigation link.

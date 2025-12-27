@@ -1,4 +1,5 @@
 # Vibe Kanban Tutorial: Parallel AI Coding Board
+![Vibe Kanban dashboard](../assets/other/vibe-kanban.jpg)
 
 > How to orchestrate Claude Code, Gemini CLI, and Codex tasks from a single Kanban so you can switch agents instantly, keep status visible, and avoid context switching across tooling.
 
