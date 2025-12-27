@@ -28,7 +28,8 @@ const els = {
   // NEW
   menuBtn: document.getElementById("menuToggle"),
   sidebar: document.querySelector(".sidebar"),
-  overlay: document.getElementById("mobileOverlay")
+  overlay: document.getElementById("mobileOverlay"),
+  app: document.querySelector(".app")
 };
 
 let currentPath = null;
@@ -626,25 +627,44 @@ async function init(){
       window.location.reload();
     });*/
 
-    // NEW: Mobile Menu Logic
+    // NEW: Toggle Sidebar logic (handles both Desktop collapse and Mobile overlay)
     function toggleMenu(forceState) {
-      if(!els.sidebar || !els.overlay) return;
-      const isOpen = els.sidebar.classList.contains("open");
-      const nextState = forceState !== undefined ? forceState : !isOpen;
+      if(!els.sidebar) return;
       
-      if (nextState) {
-        els.sidebar.classList.add("open");
-        els.overlay.classList.add("open");
+      const isMobile = window.innerWidth <= 980;
+      
+      if(isMobile) {
+        // Mobile: Toggle "open" class on sidebar + overlay
+        if(!els.overlay) return;
+        const isOpen = els.sidebar.classList.contains("open");
+        const nextState = forceState !== undefined ? forceState : !isOpen;
+        if(nextState) {
+          els.sidebar.classList.add("open");
+          els.overlay.classList.add("open");
+        } else {
+          els.sidebar.classList.remove("open");
+          els.overlay.classList.remove("open");
+        }
       } else {
-        els.sidebar.classList.remove("open");
-        els.overlay.classList.remove("open");
+        // Desktop: Toggle "sidebar-collapsed" class on .app container
+        if(!els.app) return;
+        const isCollapsed = els.app.classList.contains("sidebar-collapsed");
+        
+        // If forceState is true (Open), we want to REMOVE collapsed class
+        // If forceState is false (Close), we want to ADD collapsed class
+        if (forceState !== undefined) {
+          if (forceState) els.app.classList.remove("sidebar-collapsed");
+          else els.app.classList.add("sidebar-collapsed");
+        } else {
+          els.app.classList.toggle("sidebar-collapsed");
+        }
       }
     }
 
     if(els.menuBtn) els.menuBtn.addEventListener("click", () => toggleMenu());
     if(els.overlay) els.overlay.addEventListener("click", () => toggleMenu(false));
     
-    // Auto-close menu when clicking a file (leaf node) in the tree
+    // Auto-close menu when clicking a file (only on mobile)
     if(els.tree){
       els.tree.addEventListener("click", (e) => {
         const nodeEl = e.target.closest(".node");
