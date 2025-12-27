@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Update README summary, TL;DR, quick links, and What's inside to match the current structure.
 - Move use case and research docs into `07-use-cases-and-research/` and refresh navigation + links.
 - Move model/evaluation docs and promptfoo configs into `06-models-and-evaluations/`, remove legacy GPT-5/Gemini tips, and refresh references.
 - Refresh README.md and AGENTS.md folder references for the current repository structure.

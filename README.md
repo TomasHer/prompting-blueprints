@@ -16,17 +16,17 @@ Reusable prompt patterns, copy‑ready prompt packs, model‑specific tips (GPT�
 ---
 
 ## TL;DR
-- **Prompts & patterns:** prompt packs and reusable scaffolds (role + constraints + format) → `./03-prompts-and-patterns`
-- **Models & evaluations:** model tips, evaluation overviews, and promptfoo configs → `./06-models-and-evaluations`
-- **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents → `./05-tools`
-- **AI Agents:** agent architectures, protocols, context engineering, and skills playbooks → `./02-ai-agents`
-- **Guides:** deep-dive primers and a PDF library (Gemini Prompting Guide 101, Google Startup AI Agents) → `./04-guides` (see `./04-guides/overview.md`)
-- **Use cases & research:** applied workflows, research tutorials, and collaboration playbooks → `./07-use-cases-and-research`
-- **Author research:** investigations, experiment logs, and collaboration calls → `./01-about-author/research`
-- **Speaking:** keynote decks, talk outlines, and submission notes → `./01-about-author/speaking`
-- **External sources:** curated references cited across guides and playbooks → `./external-sources.md`
+- **About the author:** speaking, program committee, and research overviews -> `./01-about-author`
+- **AI agents:** agent architectures, protocols (MCP/A2A), context engineering, and skills playbooks -> `./02-ai-agents`
+- **Prompts & patterns:** prompt packs and reusable scaffolds (role + constraints + format) -> `./03-prompts-and-patterns`
+- **Guides:** deep-dive primers and a PDF library (Gemini Prompting Guide 101, Google Startup AI Agents) -> `./04-guides` (see `./04-guides/overview.md`)
+- **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents, and more -> `./05-tools`
+- **Models & evaluations:** model tips, benchmark overviews, and promptfoo configs -> `./06-models-and-evaluations`
+- **Use cases & research:** applied workflows, research tutorials, and collaboration playbooks -> `./07-use-cases-and-research`
+- **External sources:** curated references cited across guides and playbooks -> `./external-sources.md`
+- **Changelog:** release notes and updates -> `./CHANGELOG.md`
 
-Quick links: [AI agents overview](./02-ai-agents/ai-agents-overview.md) · [context engineering](./02-ai-agents/context-engineering.md) · [prompts & patterns](./03-prompts-and-patterns) · [models & evaluations](./06-models-and-evaluations) · [tools](./05-tools) · [guides overview](./04-guides/overview.md) · [use‑cases & research](./07-use-cases-and-research) · [author research](./01-about-author/research) · [speaking](./01-about-author/speaking) · [external sources](./external-sources.md) · [changelog](./CHANGELOG.md)
+Quick links: [Author's Speaking](./01-about-author/speaking) · [Author's Involvement](./01-about-author/program-committee) · [Author's Research](./01-about-author/research) · [AI Agents Overview](./02-ai-agents/ai-agents-overview.md) · [Context Engineering](./02-ai-agents/context-engineering.md) · [Prompts & Patterns](./03-prompts-and-patterns) · [AI Guides Overview](./04-guides/overview.md) · [AI Tools](./05-tools) · [Models & Evaluations](./06-models-and-evaluations) · [Use-cases & Research](./07-use-cases-and-research) · [External Sources](./external-sources.md) · [Changelog](./CHANGELOG.md)
 
 > Want more? Browse the publicly accessible [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263) for extended context, references, and drafts.
 
@@ -38,13 +38,13 @@ Quick links: [AI agents overview](./02-ai-agents/ai-agents-overview.md) · [cont
 - **Everyone** looking for opinionated, “just‑paste‑this” prompts with structure
 
 ## What’s inside
-- A **pattern catalog**: role, constraints, format, guardrails
-- **Copy‑ready prompt packs** organized by job/function
-- **Model guides**: nuances, capabilities, and pitfalls
-- **Tool playbooks**: tactical prompts and workflows for NotebookLM, Copilot, and more
-- **Prompting guides**: long-form walkthroughs with downloadable references
-- **Evaluation samples**: promptfoo assertions & runs
-- **Research tutorials**: academic-ready walkthroughs and blueprints for researchers exploring prompting workflows
+- **About the author**: speaking highlights, program committee roles, and research directions
+- **AI agent playbooks**: architectures, MCP/A2A protocols, context engineering, and skills
+- **Prompt packs & patterns**: role-constraint-format scaffolds and domain blueprints
+- **Guides library**: primers, glossaries, and downloadable PDFs
+- **Tool playbooks**: NotebookLM, Copilot Agents, Perplexity Comet, LangChain, and workflow automations
+- **Models & evaluations**: model-specific tips, benchmark primers, and promptfoo configs
+- **Use cases & research**: applied workflows, tutorials, and experiment playbooks
 
 [🎥 Watch the Prompting Blueprints introduction video](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U) for a guided tour of the repo purpose.
 
