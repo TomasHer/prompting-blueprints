@@ -45,6 +45,7 @@ nav:
     - Lovable Vibe Coding Tutorial: 05-tools/lovable-vibe-coding-tutorial.md
     - Vibe Kanban Tool Tutorial: 05-tools/vibe-kanban-tool-tutorial.md
     - Unsloth Phone Deployment Tutorial: 05-tools/llm-on-phone-deployment-tutorial.md
+    - n8n vs LangGraph Comparison: 05-tools/n8n-vs-langgraph.md
     - n8n Vibe Research Workflow Tutorial: 05-tools/n8n-research-workflow-tutorial.md
   - Guides:
     - Overview: 04-guides/overview.md

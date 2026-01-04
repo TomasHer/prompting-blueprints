@@ -88,6 +88,7 @@
 - [LangChain Deep Agents Repository (tree/master)](https://github.com/langchain-ai/deepagents/tree/master)
 - [LangChain Deep Agents – research_agent.py example](https://github.com/langchain-ai/deepagents/blob/master/examples/research/research_agent.py)
 - [LangChain – LangGraph Studio docs](https://docs.langchain.com/oss/python/langgraph/studio)
+- [LangGraph – Official site](https://www.langchain.com/langgraph)
 - [LM Studio blog – FunctionGemma + Unsloth tutorial](https://lmstudio.ai/blog/functiongemma-unsloth)
 - [Lovable](https://lovable.dev/)
 - [Lovable – Prompting guide](https://docs.lovable.dev/prompting/prompting-one)

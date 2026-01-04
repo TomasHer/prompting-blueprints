@@ -67,6 +67,7 @@ All notable changes to this project will be documented here.
 - Move the AI agents overview into the guides collection and cite the Google Cloud primer.
 - Add AI terms explained glossary v2 capturing 85 grouped definitions from the reference visual and linking it in navigation.
 - Add n8n vibe research workflow tutorial for co-designing shareable automation templates.
+- Add n8n vs LangGraph tool comparison guide with decision checklist, examples, and navigation entry.
 - Add vibe research playbook outlining exploratory sensemaking workflows and tool stacks.
 - Embed glue-in-pizza and Titanic pool images in the AI gone wrong incident stories guide.
 - Add AI gone wrong incident stories guide with workshop facilitation prompts.
