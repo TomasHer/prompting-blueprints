@@ -25,6 +25,11 @@ Help product and platform teams stay ahead of model launches, version changes, a
 - **Test before the cutoff.** Run regression suites against the replacement model (or version) and compare outputs side-by-side so product teams know what to rebaseline.
 - **Document adaptation playbooks.** Maintain versioned guides for swapping API endpoints, updating tool schemas, and capturing policy deltas so future migrations are faster.
 
+## Handling discontinued models
+- **Map deprecated IDs to replacements.** Keep a lookup table of model IDs flagged for removal and the newest recommended alternatives so services can switch traffic with a feature flag.
+- **Follow vendor migration guides.** Use provider playbooks—such as [Google’s Gemini migration guide](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/migrate)—to update endpoints, safety settings, and request schemas when older versions sunset.
+- **Backfill tests and evals.** Refresh regression suites against the successor model to catch format differences (e.g., tool-call envelopes or safety blocks) before rollout.
+
 ## Tooling accelerators
 - **Lifecycle dashboard.** Aggregate RSS feeds, status alerts, and GitHub releases into a single internal board with severity tags and due dates.
 - **Automated checks.** Schedule scripts that hit provider metadata endpoints, flag deprecated model IDs, or diff SDK changelogs for breaking changes.
