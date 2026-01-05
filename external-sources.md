@@ -15,28 +15,36 @@
 - [Anthropic – Claude](https://www.anthropic.com/claude)
 - [Anthropic — Claude Code](https://www.anthropic.com/claude-code)
 - [Anthropic – Claude Code announcement](https://www.anthropic.com/news/claude-code)
+- [Anthropic Skilljar - Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action)
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
 - [arXiv 2512.15943 — Tool-calling specialization beats scale (PDF)](https://arxiv.org/pdf/2512.15943)
 
 ### B
+- [Bear Blog - A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
 - [bolt.new](https://bolt.new/)
 - [Business Insider – Google AI told me to put glue on pizza. I tried it.](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5)
 
 ### C
 - [ChatGPT Deep Research announcement](https://openai.com/index/introducing-deep-research/)
+- [Claude - Claude Code product page](https://claude.com/product/claude-code)
+- [Code Newsletter - THE CODE](https://codenewsletter.ai/subscribe?utm_source=linkedin_profile_om)
 - [Cognition – Introducing Devin](https://www.cognition-labs.com/blog/introducing-devin)
 - [Colab — FunctionGemma (270M) LM Studio notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/FunctionGemma_(270M)-LMStudio.ipynb)
 - [Continue](https://continue.dev/)
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
+- [Coursera - Claude Code: Software Engineering with AI Agents](https://www.coursera.org/learn/claude-code)
 - [CrewAI – Framework documentation](https://docs.crewai.com/introduction)
 - [Cursor](https://www.cursor.com/)
 
 ### D
+- [DAIR.AI Thinkific - Claude Code for Everyone](https://dair-ai.thinkific.com/courses/claude-code)
+- [DeepLearning.AI - Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/)
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
 - [DeepSeek](https://www.deepseek.com/)
 
 ### E
 - [Elicit](https://elicit.com/)
+- [Every - Source Code](https://every.to/source-code)
 
 ### G
 - [Gemini CLI](https://ai.google.dev/cli)
@@ -45,6 +53,13 @@
 - [GitHub - Anthropic PDF skill quick reference](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md#quick-reference)
 - [GitHub - Anthropic Skills examples directory](https://github.com/anthropics/skills/tree/main/skills)
 - [GitHub - Anthropic Skills repository](https://github.com/anthropics/skills)
+- [GitHub - Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)
+- [GitHub - Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills)
+- [GitHub - Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
+- [GitHub - Claude Code cheat sheet](https://github.com/Njengah/claude-code-cheat-sheet)
+- [GitHub - Claude Code templates](https://github.com/davila7/claude-code-templates)
+- [GitHub - Claude Code workflows](https://github.com/OneRedOak/claude-code-workflows)
+- [GitHub - Vibe Coding Playbook](https://github.com/RiyaParikh0112/vibe-coding-playbook)
 - [GitHub Copilot](https://github.com/features/copilot)
 - [GitHub Blog – 5 tips for writing better custom instructions for Copilot](https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/)
 - [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
@@ -97,6 +112,10 @@
 - [M365copilot.com](https://www.m365copilot.com)
 - [Make](https://www.make.com/)
 - [Manus – Research Agent Workspace](https://manus.im/)
+- [Medium - Daniel Avila](https://medium.com/@dan.avila7)
+- [Medium - Joe Njenga](https://medium.com/@joe.njenga)
+- [Medium - Joe Njenga Claude Code list](https://medium.com/@joe.njenga/list/claude-code-bd02c285e37f)
+- [Medium - JP Caparas](https://jpcaparas.medium.com/)
 - [Microsoft Adoption: A day in the life of a Program Delivery Manager](https://adoption.microsoft.com/en-us/scenario-library/nonprofit/a-day-in-the-life-of-a-program-delivery-manager/)
 - [Microsoft Adoption: Create a project plan with Microsoft 365 Copilot](https://adoption.microsoft.com/en-us/scenario-library/information-technology/create-a-project-plan/)
 - [Microsoft Adoption: Executing a project review with Microsoft 365 Copilot](https://adoption.microsoft.com/en-us/scenario-library/operations/executing-a-project-review/)
@@ -145,6 +164,7 @@
 
 ### S
 - [Stagewise](https://stagewise.ai/)
+- [Substack - Why Senior Engineers Who Master Claude Code Will Leave Their Competition Behind](https://agiinprogress.substack.com/p/the-100000-productivity-multiplier)
 
 ### T
 - [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
@@ -164,11 +184,21 @@
 - [Wei et al. – Chain-of-thought prompting elicits reasoning in large language models](https://arxiv.org/abs/2201.11903)
 
 ### X
+- [X - Boris Cherny](https://x.com/bcherny)
+- [X - Thariq](https://x.com/trq212)
 - [xAI – Grok](https://grok.x.ai/)
 
 ### Y
 - [YouTube – AI agents overview](https://youtu.be/bx-bcUWw2Wo)
 - [YouTube – AI Coding Spectrum overview](https://youtu.be/cU_mlreODyw)
+- [YouTube - Alex Finn](https://www.youtube.com/@AlexFinnOfficial/videos)
+- [YouTube - Build an AI Life Co-Pilot with Claude Code](https://www.youtube.com/watch?v=D0nDWQdN3F4)
+- [YouTube - Build with Multiple AI Agents using Claude Code](https://www.youtube.com/watch?v=Z_iWe6dyGzs)
+- [YouTube - Claude Code is crazy good in 2026](https://www.youtube.com/watch?v=smMC1W-Mjt4)
+- [YouTube - Claude Code Setup and Installation](https://www.youtube.com/watch?v=SUysp3sJHbA&list=PL4cUxeGkcC9g4YJeBqChhFJwKQ9TRiivY)
+- [YouTube - Claude Code Skills: Automate Everything You Do](https://youtu.be/vOW1xAVbuNI?si=W2sCy-YUBAATWXyL)
+- [YouTube - My Claude Code Workflow for 2026](https://www.youtube.com/watch?v=sy65ARFI9Bg)
+- [YouTube - Ray Amjad](https://www.youtube.com/@RAmjad)
 
 ## About the Author
 

@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Claude Code tool guide with workflow templates, example output format, and curated resources.
 - Update README summary, TL;DR, quick links, and What's inside to match the current structure.
 - Move use case and research docs into `07-use-cases-and-research/` and refresh navigation + links.
 - Move model/evaluation docs and promptfoo configs into `06-models-and-evaluations/`, remove legacy GPT-5/Gemini tips, and refresh references.

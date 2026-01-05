@@ -27,6 +27,7 @@ nav:
     - Pattern Catalogue Smoke Tests: 06-models-and-evaluations/pattern-catalogue-smoke.yml
   - Tools:
     - Claude Agent Skills Playbook: 02-ai-agents/claude-agent-skills.md
+    - Claude Code Tool Guide: 05-tools/claude-code-tool-guide.md
     - Google Cloud ADK Quickstart: 05-tools/google-cloud-platform-agents.md
     - LangChain Deep Agents Playbook: 05-tools/langchain-deep-agents.md
     - Microsoft Agent Framework Quickstart: 05-tools/microsoft-agent-framework.md
