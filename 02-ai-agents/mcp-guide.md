@@ -48,6 +48,8 @@ Equip builders with a quick, copy-ready reference for why MCP matters, how it wo
 - **Multi-language samples**: Examples are provided in multiple programming languages so teams can adopt MCP in their existing stacks.
 - **End-to-end workflows**: The guide walks through configuring servers, wiring clients, and validating interactions so newcomers can run MCP locally before deploying.
 
+> Prefer a narrated walkthrough before building? Watch Pamela Fox's three-part Microsoft Reactor series on **Python + MCP: Building MCP servers with FastMCP** (with a YouTube fallback link) to see FastMCP setup, manifest design, and end-to-end server testing.
+
 ## 12 MCP servers to try in 2025
 | MCP server | What it does |
 | --- | --- |
@@ -67,3 +69,4 @@ Equip builders with a quick, copy-ready reference for why MCP matters, how it wo
 ## References
 - Replit. “Everything you need to know about MCP.” https://blog.replit.com/everything-you-need-to-know-about-mcp
 - Microsoft. “MCP for Beginners.” https://github.com/microsoft/mcp-for-beginners
+- Microsoft Reactor (Pamela Fox). “Python + MCP: Building MCP servers with FastMCP” (3-part guided intro). https://developer.microsoft.com/en-us/reactor/events/26542/ and https://www.youtube.com/live/_mUuhOwv9PY
