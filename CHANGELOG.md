@@ -37,6 +37,7 @@ All notable changes to this project will be documented here.
 - Add tool-calling specialization research highlight to the 2026 model providers guide with new arXiv reference.
 - Add A2A protocol quick-start guide with official SDK links and navigation entry.
 - Add Microsoft MCP for Beginners highlights and reference to the MCP guide.
+- Add Pamela Fox FastMCP webinar recommendation inside the MCP guide and register the external links.
 - Add EASE 2026 VIBEX workshop placement plus EASE/XP 2026 dates and locations in the program committee overview.
 - Add XP 2026 workshop co-organizer and Human-AI Collaboration PC roles to the program committee overview.
 - Move the program committee overview page to `01-about-author/program-committee/index.md` and update navigation/readme links.
