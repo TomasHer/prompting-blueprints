@@ -4,7 +4,7 @@
 
 Context engineering is the discipline of dynamically managing the entirety of information an AI agent sees. It's about filling the context window with the right information for the next step.
 
-For a practical example, see [Cursor Dynamic Context Discovery](../04-guides/cursor-dynamic-context-discovery.md).
+For a practical example, see [Cursor Dynamic Context Discovery](./cursor-dynamic-context-discovery.md).
 
 ## Key Characteristics
 
