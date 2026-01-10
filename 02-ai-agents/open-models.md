@@ -49,3 +49,4 @@ Open models aren’t just cheaper or more accessible—they are strategic infras
 ## Reference
 - NVIDIA Nemotron overview: https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/
 - Jensen Huang quote from NVIDIA LinkedIn post: “When AI is open, it proliferates everywhere.”
+- NVIDIA LinkedIn post: https://www.linkedin.com/posts/nvidia-ai_when-ai-is-open-it-proliferates-everywhere-activity-7415497601711525888-qtXD
