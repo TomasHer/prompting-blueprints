@@ -17,6 +17,8 @@ Dynamic context discovery flips the model:
 
 In Cursor’s framing, the filesystem is not just storage—it is the interface for memory, tools, and prior work.
 
+![Illustration of dynamic context discovery](../assets/other/cursor-dynamic-context.jpg)
+
 ## Core idea: the filesystem is the memory layer
 Cursor highlights the filesystem as a universal substrate for context. This enables:
 - **Just-in-time retrieval:** The agent reads from the filesystem when a signal appears in the user request.
