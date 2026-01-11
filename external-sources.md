@@ -233,8 +233,10 @@
 - [ICSE 2026](https://conf.researchr.org/home/icse-2026)
 - [IEEE RE’24 – Industrial Innovation Papers Track](https://conf.researchr.org/track/RE-2024/RE-2024-industrial-innovation-papers)
 - [ISD 2025 Conference](https://isd2025.fon.bg.ac.rs)
+- [ISD 2026 Conference](https://isd2026.ksi.fit.cvut.cz)
 
 ### L
+- [Lean and Agile Software Development (LASD)](https://lasd.pl/)
 - [Lean and Agile Software Development Track (ISD 2025)](https://y2025.lasd.pl)
 - [Lean and Agile Software Development Track (SAC 2026)](https://y2026.lasd.pl)
 - [LeSS 2025 Conference Session – Moving toward LeSS](https://less.works/conferenza/sessions/2025-global-less-conference-amsterdam-moving-toward-less-austrian-post-s-journey-of-simplifying-structures-and-empowering-teams-446)

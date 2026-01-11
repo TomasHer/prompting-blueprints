@@ -40,6 +40,7 @@ All notable changes to this project will be documented here.
 - Add Pamela Fox FastMCP webinar recommendation inside the MCP guide and register the external links.
 - Add EASE 2026 VIBEX workshop placement plus EASE/XP 2026 dates and locations in the program committee overview.
 - Add XP 2026 workshop co-organizer and Human-AI Collaboration PC roles to the program committee overview.
+- Add ISD 2026 program committee role to the program committee overview.
 - Move the program committee overview page to `01-about-author/program-committee/index.md` and update navigation/readme links.
 - Fix MkDocs guide paths for the MCP and 2026 model providers pages, and link the guides overview/PDF library from the README.
 - Update Claude Agent Skills playbook with the anthropics/skills repository reference and PDF skill examples.
