@@ -47,6 +47,7 @@ Equip builders with a quick, copy-ready reference for why MCP matters, how it wo
 - **Concept-to-practice flow**: Each lesson pairs the protocol fundamentals (clients, servers, tools/resources/prompts, transports) with practical lab-style exercises.
 - **Multi-language samples**: Examples are provided in multiple programming languages so teams can adopt MCP in their existing stacks.
 - **End-to-end workflows**: The guide walks through configuring servers, wiring clients, and validating interactions so newcomers can run MCP locally before deploying.
+> Looking for a narrated walkthrough? Microsoft also offers a 2-hour **MCP for Beginners** YouTube playlist that complements the lesson-based guide with video explanations and demos.
 
 > Prefer a narrated walkthrough before building? Watch Pamela Fox's three-part Microsoft Reactor series on **Python + MCP: Building MCP servers with FastMCP** (with a YouTube fallback link) to see FastMCP setup, manifest design, and end-to-end server testing.
 
@@ -69,4 +70,5 @@ Equip builders with a quick, copy-ready reference for why MCP matters, how it wo
 ## References
 - Replit. “Everything you need to know about MCP.” https://blog.replit.com/everything-you-need-to-know-about-mcp
 - Microsoft. “MCP for Beginners.” https://github.com/microsoft/mcp-for-beginners
+- Microsoft. “MCP for Beginners (2-hour course playlist).” https://m.youtube.com/playlist?list=PLlrxD0HtieHjYfVUpGl_-ai7D6FRBjV-d
 - Microsoft Reactor (Pamela Fox). “Python + MCP: Building MCP servers with FastMCP” (3-part guided intro). https://developer.microsoft.com/en-us/reactor/events/26542/ and https://www.youtube.com/live/_mUuhOwv9PY
