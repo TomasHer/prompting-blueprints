@@ -133,6 +133,7 @@ All notable changes to this project will be documented here.
 - Add Deep Research Tools Playbook summarizing Perplexity, Gemini, and ChatGPT workflows with image placeholders.
 - Correct Titanic pool story date in the AI gone wrong incident stories guide.
 - Add deep research prompt examples for strategy analysis and telescope purchasing scenarios.
+- Add XP 2026 PR workshop program committee role to the program committee overview.
 - Add summarization playbook use case with prompt library for executive, research, and policy outputs.
 
 ## 2025-09-06

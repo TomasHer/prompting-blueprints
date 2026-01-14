@@ -258,6 +258,7 @@
 - [Researchr – XP 2025 AI & Agile Workshop](https://conf.researchr.org/home/xp-2025/aiandagile-2025)
 - [Researchr – XP 2025 AI & Agile Workshop Program](https://conf.researchr.org/home/xp-2025/aiandagile-2025#program)
 - [Researchr – XP 2026 Human-AI Collaboration Workshop](https://conf.researchr.org/track/xp-2026/xp-2026-human-ai-collaboration)
+- [Researchr – XP 2026 PR Workshop](https://conf.researchr.org/track/xp-2026/xp-2026-pr-workshop#About)
 
 ### S
 - [SAC 2026 Conference](https://www.sigapp.org/sac/sac2026/)
