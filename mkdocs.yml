@@ -43,6 +43,11 @@ nav:
     - OpenAI GPT-5 Prompt Optimizer: 05-tools/openai-gpt-5-prompt-optimizer.md
     - nanoGPT + nanochat Tool Guide: 05-tools/nanogpt-tool-guide.md
     - Perplexity Comet: 05-tools/perplexity-comet.md
+    - Gamma Guide: 05-tools/gamma-guide.md
+    - ElevenLabs Guide: 05-tools/elevenlabs-guide.md
+    - HeyGen Guide: 05-tools/heygen-guide.md
+    - Napkin Guide: 05-tools/napkin-guide.md
+    - Suno Guide: 05-tools/suno-guide.md
     - AI Tool Chaining (Oct 2025): 05-tools/ai-tool-chaining-oct-2025.md
     - Lovable Vibe Coding Tutorial: 05-tools/lovable-vibe-coding-tutorial.md
     - Vibe Kanban Tool Tutorial: 05-tools/vibe-kanban-tool-tutorial.md
