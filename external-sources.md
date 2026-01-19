@@ -227,6 +227,8 @@
 - [Generative Artificial Intelligence for Software Engineering—A Research Agenda](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.70005)
 - [Generative Artificial Intelligence for Software Engineering – A Research Agenda (arXiv 2310.18648)](https://arxiv.org/abs/2310.18648)
 - [Generative Artificial Intelligence for Software Engineering – A Research Agenda (Wiley article)](https://onlinelibrary.wiley.com/doi/10.1002/spe.70005)
+- [Google Scholar – Tomas Herda](https://scholar.google.com/citations?user=fq1PsnsAAAAJ&hl=en)
+- [GPT-Lab (Tampere University)](https://gpt-lab.eu)
 - [GPT-Lab – XP2025 AI Agile Workshop](https://gpt-lab.eu/ai-agile-workshop-xp2025/)
 
 ### I
@@ -251,6 +253,7 @@
 - [Meetup – Large-Scale Scrum NYC: The Courage to Descale](https://www.meetup.com/large-scale-scrum-less-in-nyc/events/311688494/)
 
 ### P
+- [Post Business Solutions – Intelligent Document Processing](https://www.post.at/en/g/c/daita)
 - [Prioritizing Software Requirements Using Large Language Models (arXiv 2405.01564)](https://arxiv.org/abs/2405.01564)
 
 ### R

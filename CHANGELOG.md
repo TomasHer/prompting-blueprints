@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Tomas Herda biography page under `01-about-author/`.
 - Add NotebookLM 2026 tool tutorial with the Curate-Learn-Act workflow and prompt pack.
 - Add template tool guide pages for Gamma, ElevenLabs, HeyGen, Napkin, and Suno.
 - Add Claude Code tool guide with workflow templates, example output format, and curated resources.
