@@ -39,6 +39,7 @@ nav:
     - Microsoft Facilitator Agent: 05-tools/microsoft-facilitator-agent.md
     - Microsoft SharePoint Knowledge Agent: 05-tools/microsoft-sharepoint-knowledge-agent.md
     - NotebookLM Audio Overviews: 05-tools/notebooklm-audio-overviews-blueprint.md
+    - NotebookLM 2026 Tool Tutorial: 05-tools/notebooklm-2026-tool-tutorial.md
     - NotebookLM Prompting Blueprints: 05-tools/notebooklm-prompting-blueprints.md
     - OpenAI GPT-5 Prompt Optimizer: 05-tools/openai-gpt-5-prompt-optimizer.md
     - nanoGPT + nanochat Tool Guide: 05-tools/nanogpt-tool-guide.md
