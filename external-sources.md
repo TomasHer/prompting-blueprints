@@ -62,6 +62,7 @@
 - [GitHub - Vibe Coding Playbook](https://github.com/RiyaParikh0112/vibe-coding-playbook)
 - [GitHub Copilot](https://github.com/features/copilot)
 - [GitHub Blog – 5 tips for writing better custom instructions for Copilot](https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/)
+- [GitHub Docs – Extend the GitHub Copilot coding agent with MCP](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp)
 - [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
 - [GitHub – ExecuTorch Examples Repository](https://github.com/meta-pytorch/executorch-examples)
 - [GitHub – ExecuTorch Examples Repository (.git)](https://github.com/meta-pytorch/executorch-examples.git)

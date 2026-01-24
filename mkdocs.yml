@@ -33,6 +33,7 @@ nav:
     - LangChain Deep Agents Playbook: 05-tools/langchain-deep-agents.md
     - Microsoft Agent Framework Quickstart: 05-tools/microsoft-agent-framework.md
     - GitHub Copilot Custom Instructions Tutorial: 05-tools/github-copilot-custom-instructions-tutorial.md
+    - GitHub Copilot Coding Agent MCP Tutorial: 05-tools/github-copilot-coding-agent-mcp-tutorial.md
     - Microsoft 365 Copilot Prompting Guide: 05-tools/microsoft-365-copilot-prompting-guide.md
     - Microsoft Copilot Agents: 05-tools/microsoft-copilot-agents.md
     - Microsoft Copilot Prompt Template: 05-tools/copilot-prompt-template.md
