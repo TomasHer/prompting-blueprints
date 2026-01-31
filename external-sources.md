@@ -27,6 +27,7 @@
 ### C
 - [ChatGPT Deep Research announcement](https://openai.com/index/introducing-deep-research/)
 - [Claude - Claude Code product page](https://claude.com/product/claude-code)
+- [Clerk](https://clerk.com/)
 - [Code Newsletter - THE CODE](https://codenewsletter.ai/subscribe?utm_source=linkedin_profile_om)
 - [Cognition – Introducing Devin](https://www.cognition-labs.com/blog/introducing-devin)
 - [Colab — FunctionGemma (270M) LM Studio notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/FunctionGemma_(270M)-LMStudio.ipynb)
@@ -47,6 +48,7 @@
 - [Every - Source Code](https://every.to/source-code)
 
 ### G
+- [Gemini API](https://ai.google.dev/gemini-api)
 - [Gemini CLI](https://ai.google.dev/cli)
 - [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
 - [Generative AI project template (GitHub)](https://github.com/honestsoul/generative_ai_project)
@@ -137,6 +139,7 @@
 ### N
 - [n8n – Official site](https://n8n.io/)
 - [n8n – Workflow templates gallery](https://n8n.io/workflows/)
+- [Next.js](https://nextjs.org/)
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
 
 ### O
@@ -161,13 +164,17 @@
 - [Reddit – I hope this answers everyone’s questions about the Titanic pool](https://www.reddit.com/r/titanic/comments/1l2zy41/i_hope_this_answers_everyones_questions_about_the/)
 - [Replit](https://replit.com/)
 - [Replit – Everything you need to know about MCP](https://blog.replit.com/everything-you-need-to-know-about-mcp)
+- [Resend](https://resend.com/)
 - [Requirements Engineering Datasets for LLM4RE](https://nlp4se.github.io/LLM4RE-Datasets/)
 
 ### S
 - [Stagewise](https://stagewise.ai/)
+- [Stripe](https://stripe.com/)
 - [Substack - Why Senior Engineers Who Master Claude Code Will Leave Their Competition Behind](https://agiinprogress.substack.com/p/the-100000-productivity-multiplier)
+- [Supabase](https://supabase.com/)
 
 ### T
+- [Tailwind CSS](https://tailwindcss.com/)
 - [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
 - [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
 
@@ -176,6 +183,7 @@
 
 ### V
 - [V0](https://v0.dev/)
+- [Vercel](https://vercel.com/)
 - [Vibe Kanban (GitHub)](https://github.com/BloopAI/vibe-kanban)
 - [Vanderbilt – ChatGPT Advanced Data Analysis course announcement](https://www.vanderbilt.edu/datascience/2023/08/29/new-course-chatgpt-advanced-data-analysis-by-dr-jules-white-associate-professor-of-computer-science/)
 - [Vanderbilt University – Prompt Patterns collection](https://www.vanderbilt.edu/generative-ai/prompt-patterns/)

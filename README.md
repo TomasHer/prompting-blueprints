@@ -17,16 +17,19 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 
 ## TL;DR
 - **About the author:** speaking, program committee, and research overviews -> `./01-about-author`
-- **AI agents:** agent architectures, protocols (MCP/A2A), context engineering, and skills playbooks -> `./02-ai-agents`
+- **AI agents:** agent architectures, protocols (MCP/A2A), context engineering (incl. dynamic context discovery), open models, and skills playbooks -> `./02-ai-agents`
 - **Prompts & patterns:** prompt packs and reusable scaffolds (role + constraints + format) -> `./03-prompts-and-patterns`
 - **Guides:** deep-dive primers and a PDF library (Gemini Prompting Guide 101, Google Startup AI Agents) -> `./04-guides` (see `./04-guides/overview.md`)
 - **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents, and more -> `./05-tools`
+- **Vibe coding stack:** beginner-friendly build stack and toolchain tutorial -> `./04-guides/vibe-coding-tech-stack.md`
 - **Models & evaluations:** model tips, benchmark overviews, and promptfoo configs -> `./06-models-and-evaluations`
 - **Use cases & research:** applied workflows, research tutorials, and collaboration playbooks -> `./07-use-cases-and-research`
 - **External sources:** curated references cited across guides and playbooks -> `./external-sources.md`
 - **Changelog:** release notes and updates -> `./CHANGELOG.md`
 
 Quick links: [Author's Speaking](./01-about-author/speaking) · [Author's Involvement](./01-about-author/program-committee) · [Author's Research](./01-about-author/research) · [AI Agents Overview](./02-ai-agents/ai-agents-overview.md) · [Context Engineering](./02-ai-agents/context-engineering.md) · [Prompts & Patterns](./03-prompts-and-patterns) · [AI Guides Overview](./04-guides/overview.md) · [AI Tools](./05-tools) · [Models & Evaluations](./06-models-and-evaluations) · [Use-cases & Research](./07-use-cases-and-research) · [External Sources](./external-sources.md) · [Changelog](./CHANGELOG.md)
+
+Featured additions: [Tomas Herda Biography](./01-about-author/tomas-herda-biography.md) · [Dynamic Context Discovery](./02-ai-agents/cursor-dynamic-context-discovery.md) · [Open Models for Agentic AI](./02-ai-agents/open-models.md) · [Vibe Coding Tech Stack](./04-guides/vibe-coding-tech-stack.md)
 
 > Want more? Browse the publicly accessible [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263) for extended context, references, and drafts.
 
@@ -61,6 +64,7 @@ Quick links: [Author's Speaking](./01-about-author/speaking) · [Author's Involv
 02-ai-agents/           # AI agents playbooks, protocols, and skills
 03-prompts-and-patterns/    # prompt packs and pattern catalog
 04-guides/              # long-form prompting guides & PDFs
+  vibe-coding-tech-stack.md  # vibe coding stack tutorial and starter workflow
 05-tools/               # NotebookLM, Perplexity Comet, Copilot Agents
 06-models-and-evaluations/  # model guides, evaluation overviews, and promptfoo configs
 assets/                 # social previews and supporting images
@@ -75,6 +79,7 @@ LICENSE                 # MIT (code)
 docs/LICENSE-CC-BY-4.0.txt  # CC BY 4.0 (docs & prompts)
 external-sources.md     # curated references & attributions
 mkdocs.yml              # documentation site navigation
+agents.md               # instructions for AI coding agents working in this repo
 ```
 
 ---

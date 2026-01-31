@@ -3,6 +3,8 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Move the Vibe Coding Tech Stack guide into `04-guides/` and restructure it with an Intent-first layout.
+- Update README and MkDocs navigation to include dynamic context discovery, open models, and the vibe coding tech stack tutorial.
 - Add Tomas Herda biography page under `01-about-author/`.
 - Add NotebookLM 2026 tool tutorial with the Curate-Learn-Act workflow and prompt pack.
 - Add template tool guide pages for Gamma, ElevenLabs, HeyGen, Napkin, and Suno.

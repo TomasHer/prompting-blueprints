@@ -50,6 +50,7 @@ nav:
     - Napkin Guide: 05-tools/napkin-guide.md
     - Suno Guide: 05-tools/suno-guide.md
     - AI Tool Chaining (Oct 2025): 05-tools/ai-tool-chaining-oct-2025.md
+    - Vibe Coding Tech Stack Tutorial: 04-guides/vibe-coding-tech-stack.md
     - Lovable Vibe Coding Tutorial: 05-tools/lovable-vibe-coding-tutorial.md
     - Vibe Kanban Tool Tutorial: 05-tools/vibe-kanban-tool-tutorial.md
     - Unsloth Phone Deployment Tutorial: 05-tools/llm-on-phone-deployment-tutorial.md
@@ -60,6 +61,7 @@ nav:
     - How to Use ChatGPT: 04-guides/how-to-use-chatgpt.md
     - AI Agents Overview: 02-ai-agents/ai-agents-overview.md
     - Context Engineering: 02-ai-agents/context-engineering.md
+    - Cursor Dynamic Context Discovery: 02-ai-agents/cursor-dynamic-context-discovery.md
     - Ultimate 2026 AI Software Implementation Guide: 02-ai-agents/ultimate-2026-ai-software-implementation-guide.md
     - AI Coding Spectrum: 02-ai-agents/ai-coding-spectrum.md
     - AI Gone Wrong Incident Stories: 04-guides/ai-gone-wrong-stories.md
@@ -78,6 +80,7 @@ nav:
     - Fine-Tune an Open Source LLM with Claude: 04-guides/claude-fine-tune-llm.md
     - FunctionGemma Fine-Tuning + Local Serving (LM Studio): 04-guides/finetune-functiongemma.md
     - Best Model Providers for AI Agents for 2026: 02-ai-agents/models-for-ai-agents-2026.md
+    - Open Models for Agentic AI: 02-ai-agents/open-models.md
   - About the Author:
     - Tomas Herda Biography: 01-about-author/tomas-herda-biography.md
   - Speaking & Keynotes:
