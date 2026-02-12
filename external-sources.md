@@ -109,6 +109,7 @@
 - [LangGraph – Official site](https://www.langchain.com/langgraph)
 - [LM Studio blog – FunctionGemma + Unsloth tutorial](https://lmstudio.ai/blog/functiongemma-unsloth)
 - [Lovable](https://lovable.dev/)
+- [Lovable – Prompting best practices](https://docs.lovable.dev/prompting/prompting-one#prompting-best-practices)
 - [Lovable – Prompting guide](https://docs.lovable.dev/prompting/prompting-one)
 
 ### M

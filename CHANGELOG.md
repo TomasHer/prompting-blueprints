@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Lovable prompting best practices reference to the Lovable vibe coding tutorial.
 - Move the Vibe Coding Tech Stack guide into `04-guides/` and restructure it with an Intent-first layout.
 - Update README and MkDocs navigation to include dynamic context discovery, open models, and the vibe coding tech stack tutorial.
 - Add Tomas Herda biography page under `01-about-author/`.

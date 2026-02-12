@@ -135,3 +135,4 @@ Stay within the approved architecture. Respond only with the OUTPUT FORMAT.
 
 ## References
 - Lovable prompting guide: <https://docs.lovable.dev/prompting/prompting-one>
+- Lovable prompting best practices: <https://docs.lovable.dev/prompting/prompting-one#prompting-best-practices>
