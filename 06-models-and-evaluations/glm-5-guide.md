@@ -114,7 +114,7 @@ For developers using GLM-5 for coding assistance (e.g., in Claude Code or simila
 - **Config Update**: Simply update your model configuration string to `"GLM-5"`.
 - **Note**: GLM-5 is a larger model and may consume more quota/resources than GLM-4.7. It is optimized to handle complex, multi-step refactoring tasks that smaller models might struggle with.
 
-## Related resources
+## References
 - [GLM-5 GitHub Repository](https://github.com/zai-org/GLM-5)
 - [Hugging Face Model Card](https://huggingface.co/zai-org/GLM-5)
 - [Z.AI Blog Announcement](https://z.ai/blog/glm-5)

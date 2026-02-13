@@ -91,9 +91,11 @@
 - [Google One Help – Check AI Premium credits](https://support.google.com/googleone/answer/16287445?visit_id=638968334505579471-862084453&p=g1_ai_credit_menu&rd=1#g1_ai_credit_menu)
 - [Google Workspace – Gemini](https://workspace.google.com/products/gemini/)
 - [GPT-Lab – Effective Prompts for Reasoning LLMs](https://gpt-lab.eu/effective-prompts-for-reasoning-llms/)
+- [GLM-5 GitHub Repository](https://github.com/zai-org/GLM-5)
 
 ### H
 - [Hugging Face – HF Skills: training a fine-tuning agent with Claude Code](https://huggingface.co/blog/hf-skills-training)
+- [Hugging Face Model Card – GLM-5](https://huggingface.co/zai-org/GLM-5)
 
 ### J
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
@@ -146,6 +148,7 @@
 
 ### O
 - [On Tech Ethics Podcast – Vibe Research and the Future of Science (CITI Program)](https://about.citiprogram.org/blog/on-tech-ethics-podcast-vibe-research-and-the-future-of-science/)
+- [OpenClaw](https://openclaw.ai)
 - [OpenAI Academy – Use cases for managers](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/use-cases-for-managers)
 - [OpenAI – Agents API guide](https://platform.openai.com/docs/guides/agents)
 - [OpenAI – ChatGPT](https://openai.com/chatgpt)
@@ -295,3 +298,6 @@
 
 ### Y
 - [YouTube – AI and Agile XP 2025 session preview](https://www.youtube.com/watch?v=VYZGBN4rHTo)
+
+### Z
+- [Z.AI Blog Announcement – GLM-5](https://z.ai/blog/glm-5)
