@@ -21,6 +21,7 @@ nav:
   - Models & Evaluations:
     - Overview: 06-models-and-evaluations/README.md
     - Gemini Nano Banana Pro Prompt Library: 06-models-and-evaluations/nano-banana-pro-library.md
+    - AI Video Camera Movements Prompt Library: 06-models-and-evaluations/ai-video-camera-movements-prompt-library.md
     - GLM-5 Setup & Serving Guide: 06-models-and-evaluations/glm-5-guide.md
     - Google Veo 3.1 Video Tutorial: 06-models-and-evaluations/google-veo-3-1-video-tutorial.md
     - FACTS Benchmark Overview: 06-models-and-evaluations/facts-benchmark-overview.md
