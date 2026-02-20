@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add AI video camera movements prompt library with 42 copy-ready movement lines and examples.
 - Add Lovable prompting best practices reference to the Lovable vibe coding tutorial.
 - Add GLM-5 setup and serving guide with vLLM/SGLang and OpenClaw workflows.
 - Move the Vibe Coding Tech Stack guide into `04-guides/` and restructure it with an Intent-first layout.
