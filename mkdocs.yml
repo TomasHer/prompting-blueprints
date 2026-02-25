@@ -100,6 +100,7 @@ nav:
     - Microsoft Adoption Scenario Library: 07-use-cases-and-research/microsoft-adoption-scenario-library.md
     - Deep Research Tools Playbook: 07-use-cases-and-research/deep-research.md
     - Summarization Playbook: 07-use-cases-and-research/summarization-tutorial.md
+    - AI Video Camera Movements Prompt Library: 07-use-cases-and-research/ai-video-camera-movements-prompt-library.md
   - External Sources: external-sources.md
 markdown_extensions:
   - admonition
