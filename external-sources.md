@@ -8,6 +8,7 @@
 - [A2A .NET SDK (GitHub)](https://github.com/a2aproject/a2a-dotnet)
 - [A2A Protocol Documentation – Get started](https://a2a-protocol.org/latest/#get-started-with-a2a)
 - [A2A Python SDK (GitHub)](https://github.com/a2aproject/a2a-python)
+- [AI Shot Studio – 42 Camera Movements for AI Video Prompts](https://aishotstudio.com/42-camera-movements-ai-prompts/)
 - [Agent Development Kit Documentation (Google)](https://google.github.io/adk-docs/)
 - [agents.md](https://agents.md)
 - [Albertina Bekhti – Vibe Research Instead of Deep Research? AI Agents and the Future of Scientific Discovery](https://medium.com/@abertina/vibe-research-instead-of-deep-research-ai-agents-and-the-future-of-scientific-discovery-4d561248f3e2)
