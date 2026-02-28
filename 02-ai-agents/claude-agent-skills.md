@@ -37,6 +37,7 @@ The [anthropics/skills](https://github.com/anthropics/skills) repository is the 
 
 ### Skill Examples Worth Studying
 - The repo includes a large catalog of skill examples in [`skills/`](https://github.com/anthropics/skills/tree/main/skills).  
+- For a hands-on tutorial format, the Hugging Face skills directory is also useful: [`huggingface/skills`](https://github.com/huggingface/skills/tree/main/skills).  
 - The PDF skill quick reference highlights common workflows: Merge PDFs, Split PDFs, Extract text, Extract tables, Create PDFs, Command line merge, OCR scanned PDFs, and Fill PDF forms.  
   - Reference: [`skills/pdf` quick reference](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md#quick-reference)  
 
@@ -103,4 +104,5 @@ The [anthropics/skills](https://github.com/anthropics/skills) repository is the 
 - [Anthropic - Skills for Claude Agents](https://www.anthropic.com/news/skills)
 - [GitHub - Anthropic Skills repository](https://github.com/anthropics/skills)
 - [GitHub - Anthropic Skills examples directory](https://github.com/anthropics/skills/tree/main/skills)
+- [GitHub - Hugging Face Skills tutorial directory](https://github.com/huggingface/skills/tree/main/skills)
 - [GitHub - Anthropic PDF skill quick reference](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md#quick-reference)
