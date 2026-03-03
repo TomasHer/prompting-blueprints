@@ -26,6 +26,8 @@
 - [Business Insider – Google AI told me to put glue on pizza. I tried it.](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5)
 
 ### C
+- [Codelab: Get started with Google Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity#0)
+- [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 - [ChatGPT Deep Research announcement](https://openai.com/index/introducing-deep-research/)
 - [Claude - Claude Code product page](https://claude.com/product/claude-code)
 - [Clerk](https://clerk.com/)
@@ -37,8 +39,10 @@
 - [Coursera - Claude Code: Software Engineering with AI Agents](https://www.coursera.org/learn/claude-code)
 - [CrewAI – Framework documentation](https://docs.crewai.com/introduction)
 - [Cursor](https://www.cursor.com/)
+- [Cursor quickstart](https://cursor.com/docs/get-started/quickstart)
 
 ### D
+- [Docs: GitHub Copilot quickstart](https://docs.github.com/en/copilot/get-started/quickstart)
 - [DAIR.AI Thinkific - Claude Code for Everyone](https://dair-ai.thinkific.com/courses/claude-code)
 - [DeepLearning.AI - Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/)
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
@@ -148,6 +152,7 @@
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
 
 ### O
+- [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
 - [On Tech Ethics Podcast – Vibe Research and the Future of Science (CITI Program)](https://about.citiprogram.org/blog/on-tech-ethics-podcast-vibe-research-and-the-future-of-science/)
 - [OpenClaw](https://openclaw.ai)
 - [OpenAI Academy – Use cases for managers](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/use-cases-for-managers)
@@ -225,6 +230,8 @@
 - [AIRE’24 Workshop — AI and Requirements Engineering](https://aire-ws.github.io/aire24/)
 
 ### C
+- [Codelab: Get started with Google Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity#0)
+- [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 - [CAIN 2026](https://conf.researchr.org/home/cain-2026)
 - [CAIN 2026 – Industry Track](https://conf.researchr.org/track/cain-2026/cain-2026-industry-track)
 
