@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add a Claude Code + NotebookLM integration tutorial with notebooklm-py setup, CLI workflows, and copy/paste YouTube templates.
 - Add a coding AI agent selection tutorial comparing Codex, Claude Code, GitHub Copilot, Cursor, and Antigravity with a quick decision guide.
 - Move the AI video camera movements prompt library into `07-use-cases-and-research/`.
 - Add AI video camera movements prompt library with 42 copy-ready movement lines and examples.
