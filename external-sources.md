@@ -26,12 +26,14 @@
 - [Business Insider – Google AI told me to put glue on pizza. I tried it.](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5)
 
 ### C
-- [Codelab: Get started with Google Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity#0)
-- [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 - [ChatGPT Deep Research announcement](https://openai.com/index/introducing-deep-research/)
+- [Claude - Claude AI](https://claude.ai)
 - [Claude - Claude Code product page](https://claude.com/product/claude-code)
+- [Claude - Claude Cowork product page](https://claude.com/product/cowork)
+- [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 - [Clerk](https://clerk.com/)
 - [Code Newsletter - THE CODE](https://codenewsletter.ai/subscribe?utm_source=linkedin_profile_om)
+- [Codelab: Get started with Google Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity#0)
 - [Cognition – Introducing Devin](https://www.cognition-labs.com/blog/introducing-devin)
 - [Colab — FunctionGemma (270M) LM Studio notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/FunctionGemma_(270M)-LMStudio.ipynb)
 - [Continue](https://continue.dev/)
