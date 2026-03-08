@@ -32,6 +32,7 @@ nav:
     - Claude AI vs Claude Code vs Claude Cowork: 05-tools/claude-ai-vs-code-vs-cowork.md
     - Claude Code Tool Guide: 05-tools/claude-code-tool-guide.md
     - Claude Code Cheatsheet Tutorial: 05-tools/claude-code-cheatsheet-tutorial.md
+    - Claude Code Project Structure Tutorial: 05-tools/claude-code-project-structure-tutorial.md
     - Google Cloud ADK Quickstart: 05-tools/google-cloud-platform-agents.md
     - LangChain Deep Agents Playbook: 05-tools/langchain-deep-agents.md
     - Microsoft Agent Framework Quickstart: 05-tools/microsoft-agent-framework.md
@@ -56,6 +57,7 @@ nav:
     - HeyGen Guide: 05-tools/heygen-guide.md
     - Napkin Guide: 05-tools/napkin-guide.md
     - Suno Guide: 05-tools/suno-guide.md
+    - Lyria 3 in Gemini: 05-tools/lyra-3-gemini.md
     - AI Tool Chaining (Oct 2025): 05-tools/ai-tool-chaining-oct-2025.md
     - Vibe Coding Tech Stack Tutorial: 04-guides/vibe-coding-tech-stack.md
     - Lovable Vibe Coding Tutorial: 05-tools/lovable-vibe-coding-tutorial.md

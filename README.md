@@ -29,7 +29,7 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 
 Quick links: [Author's Speaking](./01-about-author/speaking) · [Author's Involvement](./01-about-author/program-committee) · [Author's Research](./01-about-author/research) · [AI Agents Overview](./02-ai-agents/ai-agents-overview.md) · [Context Engineering](./02-ai-agents/context-engineering.md) · [Prompts & Patterns](./03-prompts-and-patterns) · [AI Guides Overview](./04-guides/overview.md) · [AI Tools](./05-tools) · [Models & Evaluations](./06-models-and-evaluations) · [Use-cases & Research](./07-use-cases-and-research) · [External Sources](./external-sources.md) · [Changelog](./CHANGELOG.md)
 
-Featured additions: [Tomas Herda Biography](./01-about-author/tomas-herda-biography.md) · [Dynamic Context Discovery](./02-ai-agents/cursor-dynamic-context-discovery.md) · [Open Models for Agentic AI](./02-ai-agents/open-models.md) · [Vibe Coding Tech Stack](./04-guides/vibe-coding-tech-stack.md)
+Featured additions: [Dynamic Context Discovery](./02-ai-agents/cursor-dynamic-context-discovery.md) · [Vibe Coding Tech Stack](./04-guides/vibe-coding-tech-stack.md) · [Claude AI vs Code vs Cowork](./05-tools/claude-ai-vs-code-vs-cowork.md) · [Claude Code Project Structure](./05-tools/claude-code-project-structure-tutorial.md) · [Google 5-Day AI Agents Course](./02-ai-agents/google-5-day-ai-agents-course.md) · [Lyria 3 in Gemini](./05-tools/lyra-3-gemini.md)
 
 > Want more? Browse the publicly accessible [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263) for extended context, references, and drafts.
 
