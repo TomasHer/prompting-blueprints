@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Google 5-Day AI Agents Intensive Course tutorial with daily resources and cross-references.
 - Add a Claude Code + NotebookLM integration tutorial with notebooklm-py setup, CLI workflows, and copy/paste YouTube templates.
 - Add a coding AI agent selection tutorial comparing Codex, Claude Code, GitHub Copilot, Cursor, and Antigravity with a quick decision guide.
 - Move the AI video camera movements prompt library into `07-use-cases-and-research/`.

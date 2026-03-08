@@ -108,6 +108,7 @@
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
 
 ### K
+- [Kaggle 5-Day AI Agents Course Guide](https://www.kaggle.com/learn-guide/5-day-agents)
 - [KIRO](https://kiro.studio/)
 
 ### L
