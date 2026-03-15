@@ -1,5 +1,7 @@
 # Claude Building Skills Guide
 
+[![Anthropic Claude Skills Guide Preview](../assets/guides/previews/anthropic-claude-skills-guide.png)](../assets/guides/anthropic-claude-skills-guide.pdf)
+
 ## Why this guide matters
 Skills have effectively replaced classic prompt engineering for AI agents. Instead of rewriting long prompts every time, you can package reusable task intelligence once and apply it across Claude.ai, Claude Code, and API workflows.
 
