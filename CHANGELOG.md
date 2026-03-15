@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Claude Code certification guide covering the Claude Certified Architect Foundations exam domains, prep checklist, and study plan.
 - Add Claude AI vs Claude Code vs Claude Cowork tutorial comparing use cases, pros/cons, and workflows.
 - Add Google 5-Day AI Agents Intensive Course tutorial with daily resources and cross-references.
 - Add a Claude Code + NotebookLM integration tutorial with notebooklm-py setup, CLI workflows, and copy/paste YouTube templates.
