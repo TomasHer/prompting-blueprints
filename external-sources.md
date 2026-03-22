@@ -53,6 +53,7 @@
 
 ### E
 - [Elicit](https://elicit.com/)
+- [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
 - [Every - Source Code](https://every.to/source-code)
 
 ### G

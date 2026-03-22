@@ -199,4 +199,5 @@ REQUEST: Provide a short plan, then implement.
 
 ## References
 - Claude Code official website: <https://claude.com/product/claude-code>
+- [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
 - [Claude Code Project Structure Tutorial](claude-code-project-structure-tutorial.md)
