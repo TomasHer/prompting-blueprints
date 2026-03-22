@@ -30,6 +30,7 @@ nav:
   - Tools:
     - Claude Agent Skills Playbook: 02-ai-agents/claude-agent-skills.md
     - Claude AI vs Claude Code vs Claude Cowork: 05-tools/claude-ai-vs-code-vs-cowork.md
+    - Cowork Tool Selection Tutorial: 05-tools/cowork-tool-selection-tutorial.md
     - Claude Code Tool Guide: 05-tools/claude-code-tool-guide.md
     - Claude Code Certification Guide: 05-tools/claude-code-certification-guide.md
     - Claude Code Cheatsheet Tutorial: 05-tools/claude-code-cheatsheet-tutorial.md
