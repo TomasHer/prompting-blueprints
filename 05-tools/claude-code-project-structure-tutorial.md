@@ -309,3 +309,7 @@ Configure via `.mcp.json`:
 - **[Claude Code Tool Guide](claude-code-tool-guide.md)** — Explore additional automation commands and configurations.
 - **[Claude Code Cheatsheet Tutorial](claude-code-cheatsheet-tutorial.md)** — Keep the essential commands handy.
 - **[Model Context Protocol (MCP) Guide](../02-ai-agents/mcp-guide.md)** — Learn how to configure robust external tool connections.
+
+## References
+- Claude Code product page: <https://claude.com/product/claude-code>
+- [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
