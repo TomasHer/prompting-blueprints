@@ -14,7 +14,7 @@ Highlight Tomas Herda's roles across program committees and track leadership tea
 | [CAIN 2026](https://conf.researchr.org/home/cain-2026) (co-located with [ICSE 2026](https://conf.researchr.org/home/icse-2026)) | Rio de Janeiro, Brazil 🇧🇷<br>April 12–13, 2026 | Track Program Committee Member | [CAIN 2026 Industry Track](https://conf.researchr.org/track/cain-2026/cain-2026-industry-track) |
 | [EASE 2026](https://conf.researchr.org/home/ease-2026) | Glasgow, Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿<br>June 9–12, 2026 | Workshop Co-Organizer | [VIBEX 2026 Workshop](https://conf.researchr.org/home/ease-2026/vibex-2026) |
 | [ISD 2026](https://isd2026.ksi.fit.cvut.cz) | Prague, Czechia 🇨🇿<br>September 2–4, 2026 | Track Program Committee Member | [Lean and Agile Software Development](https://lasd.pl/) |
-| REFSQ 2027 | April 12–15, 2027 | Program Committee Member | Research Track |
+| REFSQ 2027 | Basel, Switzerland 🇨🇭<br>April 12–15, 2027 | Program Committee Member | Research Track |
 
 ### Past engagements
 | Conference | Location & Dates | Function | Track |
