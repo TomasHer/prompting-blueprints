@@ -1,141 +1,311 @@
 # Claude Code Project Structure Tutorial
 
-This tutorial explains a practical repository layout for Claude Code projects so your team can scale context, automation, and reusable AI workflows without creating clutter.
+You won't need any other project structure for Claude Code. Just this one. This definitive guide covers where skills go, how to organize hooks and MCP servers, and explains the 6 extension types alongside memory file workflows.
 
-## 1) Recommended Project Tree
+---
+
+## 1. Project Overview
+Complete Claude Code workspace with skills, Hooks, MCP Servers, Subagents, and Plugins designed for production AI-assisted development.
+
+### The 4-Layer Architecture
+- **L1 - `CLAUDE.md`**: Persistent context and rules
+- **L2 - Skills**: Auto-invoked knowledge packs
+- **L3 - Hooks**: Safety gates and automation
+- **L4 - Agents**: Subagents with their own context
+
+---
+
+## 2. Recommended Project File Structure
+Here is the complete file tree for a production Claude Code workspace:
 
 ```text
-claude_code_project/
+my_project/
 ├── CLAUDE.md
-├── README.md
-├── docs/
-│   ├── architecture.md
-│   ├── decisions/
-│   └── runbooks/
 ├── .claude/
 │   ├── settings.json
-│   ├── hooks/
-│   └── skills/
-│       ├── code-review/
-│       │   └── SKILL.md
-│       ├── refactor/
-│       │   └── SKILL.md
-│       └── release/
-│           └── SKILL.md
-├── tools/
-│   ├── scripts/
-│   └── prompts/
-└── src/
-    ├── api/
-    │   └── CLAUDE.md
-    └── persistence/
-        └── CLAUDE.md
+│   ├── settings.local.json
+│   ├── commands/
+│   │   ├── review.md
+│   │   ├── deploy.md
+│   │   ├── test-all.md
+│   │   └── bootstrap.md
+│   ├── skills/
+│   │   ├── code-review/
+│   │   │   ├── SKILL.md
+│   │   │   ├── scripts/
+│   │   │   ├── references/
+│   │   │   └── assets/
+│   │   ├── text-writer/
+│   │   │   └── SKILL.md
+│   │   ├── security-audit/
+│   │   │   └── SKILL.md
+│   │   └── refactor/
+│   │       └── SKILL.md
+│   ├── agents/
+│   │   ├── code-reviewer.yml
+│   │   ├── test-writer.yml
+│   │   ├── security-auditor.yml
+│   │   └── devops-sre.yml
+│   └── plugins/
+│       ├── manifest.json
+│       └── my-plugin/
+├── .mcp.json
+├── src/
+│   ├── components/
+│   │   ├── auth/
+│   │   ├── dashboard/
+│   │   └── shared/
+│   ├── services/
+│   │   ├── api.ts
+│   │   ├── auth.ts
+│   │   └── database.ts
+│   ├── utils/
+│   │   ├── logger.ts
+│   │   ├── validators.ts
+│   │   └── helpers.ts
+│   ├── types/
+│   │   └── index.ts
+│   └── index.ts
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   └── e2e/
+├── docs/
+│   ├── architecture.md
+│   ├── api-reference.md
+│   └── onboarding.md
+├── scripts/
+│   ├── setup.sh
+│   ├── deploy.sh
+│   └── seed.db.sh
+├── package.json
+├── tsconfig.json
+├── .env.example
+├── .gitignore
+├── Dockerfile
+└── README.md
 ```
 
-## 2) Why this structure works
+### Key Components
+- `CLAUDE.md`: Project memory
+- `.claude/`: Config & extensions
+- `commands/`: Slash commands
+- `skills/`: Auto-activated skills
+- `.mcp.json`: MCP server config
+- `agents/`: Subagent definitions
 
-The layout is modular by design:
-- **Shared AI memory at the root** (`CLAUDE.md`) for project-wide standards.
-- **Scoped AI memory in modules** (`src/*/CLAUDE.md`) for local rules.
-- **Reusable workflows** in `.claude/skills/`.
-- **Automation guardrails** in `.claude/hooks/`.
-- **Engineering documentation** in `docs/`.
-- **Execution assets** (scripts + reusable prompts) in `tools/`.
+---
 
-This keeps AI context precise while still allowing strong team-level consistency.
+## 3. Extension Types
+- **Skills**: Auto-activate on task match
+- **Hooks**: Lifecycle event scripts
+- **MCP**: External tool connections
+- **Subagents**: Isolated parallel work
+- **Agent Teams**: Multi-agent coordination
+- **Plugins**: Bundled distributable setups
 
-## 3) Component-by-component walkthrough
+---
 
-### `CLAUDE.md` (root)
-Use this as the source of truth for:
-- coding conventions
-- architecture constraints
-- testing expectations
-- repo-specific workflows
+## 4. Understanding Memory Hierarchy
 
-**Tip:** Keep this file focused. Put stable rules here, not temporary task notes.
+### `CLAUDE.md` Essentials
+`CLAUDE.md` serves as Claude's persistent memory, loaded automatically at the start of every session.
+- **WHAT**: Tech stack, Directory map, Architecture
+- **WHY**: Purpose of each module, Design decisions
+- **HOW**: Build/test/lint commands, Workflows, Gotchas
 
-### `.claude/skills/`
-Store repeatable AI workflows as composable skills:
-- `code-review/SKILL.md`
-- `refactor/SKILL.md`
-- `release/SKILL.md`
+Your project memory should capture:
+1. Project conventions & style guide
+2. Tech stack & architecture overview
+3. Testing requirements & patterns
+4. Git workflow & branch strategy
+5. Security & compliance rules
+6. File naming & folder conventions
+7. Review checklist before commits
 
-Each skill should define:
-- when to use it
-- required inputs
-- expected outputs
-- validation checklist
+**Memory File Hierarchy Rules:**
+- `~/.claude/CLAUDE.md`: Global - all projects
+- `~/CLAUDE.md`: Parent - monorepo root
+- `./CLAUDE.md`: Project - shared on git
+- `./frontend/CLAUDE.md`: Subfolder - scoped context
 
-### `.claude/hooks/`
-Hooks are great for:
-- pre-flight checks
-- formatting or lint gates
-- policy enforcement
-- reminders before risky operations
+*Keep each file <200 lines. Subfolder files append context. Never overwrite parent context.*
 
-Think of hooks as lightweight automation guardrails for AI-assisted development.
+### CLAUDE.md Template Example
+```markdown
+# Project: MyApp
 
-### `docs/`
-Use this to preserve human-readable engineering knowledge:
-- `architecture.md` for system design
-- `decisions/` for ADRs and tradeoffs
-- `runbooks/` for operational procedures
+## Tech Stack
+- Next.js 14, TypeScript, Tailwind
+- Supabase for auth & database
+- Prisma ORM, tRPC API layer
 
-This prevents core project rationale from living only in chat history.
+## Conventions
+- Always write tests before code
+- Use conventional commits
+- Never commit directly to main
+- Run lint + typecheck before PR
 
-### `tools/`
-Split tooling into:
-- `tools/scripts/` for task automation
-- `tools/prompts/` for reusable prompt templates
+## Architecture
+- src/components - React components
+- src/services   - Business logic
+- src/utils      - Shared helpers
 
-Keeping prompts modular lets you iterate quickly and avoid bloated instructions.
+## Security
+- No secrets in code or logs
+- Validate all user inputs
+- Use parameterized queries only
+```
 
-### `src/` with local `CLAUDE.md`
-Add localized context near each subsystem:
-- `src/api/CLAUDE.md` for API-specific rules
-- `src/persistence/CLAUDE.md` for data/storage conventions
+---
 
-This helps Claude apply the right rules in the right directory.
+## 5. Skills Structure (The Superpower)
+Skills are markdown guides that Claude auto-invokes via natural language.
 
-## 4) Getting started in 5 steps
+### Standard Skill Directory
+- `SKILL.md`: Instructions & metadata
+- `scripts/`: Executable automation
+- `references/`: Docs loaded on demand
+- `assets/`: Templates & static files
 
-1. **Clone and open the repo.**
-2. **Configure `.claude/settings.json`.** Add baseline project defaults.
-3. **Create a focused root `CLAUDE.md`.** Capture global constraints and standards.
-4. **Add your first reusable skills.** Start with review + refactor + release.
-5. **Build modules under `src/` with local context files as needed.**
+### Example `SKILL.md`
+```markdown
+---
+name: testing patterns
+description: Jest testing patterns
+allowed_tools: Read, Grep, Glob
+---
 
-## 5) Best practices checklist
+# Testing Patterns
+Use describe + it + AAA pattern
+Use factory mocks
+```
+*Tip: The `description` field is critical for auto-activation.*
 
-- Keep `CLAUDE.md` minimal, explicit, and structured.
-- Prefer reusable skills for repeated workflows.
-- Add hooks for automation and safety checks.
-- Record architecture decisions in `docs/decisions/`.
-- Maintain modular boundaries between docs, tools, and source code.
+### Skill Ideas for AI Engineers
+- `code-review`
+- `testing-patterns`
+- `commit-messages`
+- `docker-deploy`
+- `codebase-visualizer`
+- `api-design`
 
-## 6) Development tips
+---
 
-- Keep prompts modular and version-controlled.
-- Avoid dumping excessive context; precision beats volume.
-- Refine skills as the team repeats tasks.
-- Update architecture docs whenever system boundaries change.
-- Keep repository structure clean so humans and AI can navigate quickly.
+## 6. Configuring Hooks and MCP
 
-## 7) Suggested first skill templates
+### Hook Events
+Hooks are deterministic callbacks that govern execution.
+- `PreToolUse`: Block before execution (e.g., check safety)
+- `PostToolUse`: Auto lint after writes
+- `SessionStart`: Load context on launch
+- `SessionEnd`: Save session summaries
+- `PreCommit`: Secret detection
+- `Notification`: Slack/webhook alerts
 
-If you are bootstrapping a new project, create these first:
+Exit codes dictate behavior: `0` -> allow, `2` -> block.
 
-- **Code Review Skill**
-  - input: changed files or diff
-  - output: findings by severity, plus fixes
-- **Refactor Skill**
-  - input: target module + constraints
-  - output: staged refactor plan and low-risk edits
-- **Release Skill**
-  - input: release scope + version
-  - output: checklist, notes, and verification steps
+### `settings.json` Structure
+```json
+{
+  "permissions": {
+    "allow": ["Read:*", "Bash:git:*", "Write:*.md"],
+    "deny": ["Read:env:*", "Bash:sudo:*"]
+  },
+  "hooks": {
+    "PreToolUse": [{"matcher": "Book", "hooks": [{"type": "command", "command": "scripts/sec.sh", "timeout": 5}]}],
+    "PostToolUse": [{"matcher": "Write", "hooks": [{"type": "command", "command": "npm run lint"}]}]
+  },
+  "env": {
+    "MAX_THINKING_TOKENS": "18000",
+    "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": "50"
+  }
+}
+```
 
-## Summary
+### Popular MCP Servers
+Configure via `.mcp.json`:
+- **GitHub**: PRs, issues, repos
+- **JIRA/Linear**: Ticket workflows
+- **Slack**: Notifications & search
+- **PostgreSQL**: Direct queries
+- **Playwright**: Browser automation
+- **Filesystem**: Scoped file access
 
-A strong Claude Code project structure is not only about folders—it is about clean context boundaries, repeatable workflows, and documented decisions. This layout gives you a scalable foundation for AI-assisted software development.
+**.mcp.json Example:**
+```json
+{
+  "mcpServers": {
+    "github": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-github"],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+      }
+    },
+    "postgres": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-postgres"],
+      "env": {
+        "DATABASE_URL": "${DATABASE_URL}"
+      }
+    }
+  }
+}
+```
+
+---
+
+## 7. Daily Workflow & Cheatcodes
+
+### Getting Started
+1. `npm i -g @anthropic-ai/claude-code`
+2. `cd your_project && claude`
+3. Generate memory: `/init`
+4. Add slash commands in `.claude/commands/`
+5. Configure MCP in `.mcp.json`
+6. Add skills as workflows grow
+
+### Context Management
+- **0-60% context**: Work freely
+- **50-70%**: Monitor usage
+- **70-80%**: Run `/compact`
+- **80%+**: `/clear` mandatory
+
+### Daily Workflow Pattern
+1. `cd project && claude`
+2. `Shift + Tab + Tab` -> Plan Mode
+3. Describe feature intent
+4. `Shift + Tab` -> Auto Accept
+5. `/compact` periodically
+6. `Esc Esc` -> rewind if needed
+7. Commit frequently
+8. Start new session per feature
+
+### Quick Reference Commands
+- `/init`: Generate `CLAUDE.md`
+- `/doctor`: Check installation
+- `/compact`: Compress context
+- `Shift + Tab`: Change modes
+- `Tab`: Toggle extended thinking
+- `Esc Esc`: Rewind menu
+
+---
+
+## 8. Best Practices for Claude Code
+- **Iterative Development**: Start small, test frequently
+- **Clear Skill Documentation**: Describe skill purpose & usage
+- **Modular Skill Design**: Break down complex tasks
+- **Secure Secret Handling**: Use environment variables, not code
+- **Regular Testing & Auditing**: Ensure skills remain reliable
+
+---
+
+## 9. Related Resources
+- **[Claude Agent Skills Playbook](../02-ai-agents/claude-agent-skills.md)** — Dive deeper into building reusable workflows.
+- **[Claude AI vs Claude Code vs Claude Cowork](claude-ai-vs-code-vs-cowork.md)** — Understand which tool fits your specific use case.
+- **[Claude Code Tool Guide](claude-code-tool-guide.md)** — Explore additional automation commands and configurations.
+- **[Claude Code Cheatsheet Tutorial](claude-code-cheatsheet-tutorial.md)** — Keep the essential commands handy.
+- **[Model Context Protocol (MCP) Guide](../02-ai-agents/mcp-guide.md)** — Learn how to configure robust external tool connections.

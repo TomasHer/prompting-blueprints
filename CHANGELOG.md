@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Rebuild the Claude Code project structure tutorial with a comprehensive 2026 cheatsheet covering memory hierarchies, hooks, MCP server configurations, and skills guidelines.
 - Add Frontier Long Horizon Agent AI Products comparison page covering Claude Cowork, Copilot Cowork, Perplexity Computer, and OpenClaw.
 - Add reference to the Anthropic Claude Skills Guide PDF in the Claude building skills guide.
 - Add Claude Code certification guide covering the Claude Certified Architect Foundations exam domains, prep checklist, and study plan.
