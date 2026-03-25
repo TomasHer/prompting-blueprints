@@ -57,6 +57,7 @@
 - [Every - Source Code](https://every.to/source-code)
 
 ### G
+
 - [Gemini API](https://ai.google.dev/gemini-api)
 - [Gemini CLI](https://ai.google.dev/cli)
 - [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
@@ -72,20 +73,21 @@
 - [GitHub - Claude Code workflows](https://github.com/OneRedOak/claude-code-workflows)
 - [GitHub - notebooklm-py](https://github.com/akosbalasko/notebooklm-py)
 - [GitHub - Vibe Coding Playbook](https://github.com/RiyaParikh0112/vibe-coding-playbook)
-- [GitHub Copilot](https://github.com/features/copilot)
 - [GitHub Blog – 5 tips for writing better custom instructions for Copilot](https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/)
-- [GitHub Docs – Extend the GitHub Copilot coding agent with MCP](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp)
+- [GitHub Copilot](https://github.com/features/copilot)
 - [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
-- [GitHub – ExecuTorch Examples Repository](https://github.com/meta-pytorch/executorch-examples)
+- [GitHub Docs – Extend the GitHub Copilot coding agent with MCP](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp)
 - [GitHub – ExecuTorch Examples Repository (.git)](https://github.com/meta-pytorch/executorch-examples.git)
 - [GitHub – ExecuTorch Examples Repository (tar.gz archive)](https://github.com/meta-pytorch/executorch-examples/archive/main.tar.gz)
+- [GitHub – ExecuTorch Examples Repository](https://github.com/meta-pytorch/executorch-examples)
 - [GitHub – ExecuTorch Qwen3 Config (0.6B)](https://raw.githubusercontent.com/pytorch/executorch/main/examples/models/qwen3/config/0_6b_config.json)
 - [GitHub – LangChain Deep Agents Repository](https://github.com/langchain-ai/deepagents)
-- [GitHub – Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
 - [GitHub – Microsoft Agent Framework (.git)](https://github.com/microsoft/agent-framework.git)
+- [GitHub – Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
 - [GitHub – nanoGPT](https://github.com/karpathy/nanoGPT)
+- [GitHub – Strands agent-sop repository](https://github.com/strands-agents/agent-sop/tree/main)
+- [GLM-5 GitHub Repository](https://github.com/zai-org/GLM-5)
 - [Google ADK Python GitHub Repository](https://github.com/google/adk-python)
-- [Google – ADK Python repository (.git)](https://github.com/google/adk-python.git)
 - [Google Android Command Line Tools (Linux)](https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip)
 - [Google Antigravity](https://labs.google.com/antigravity)
 - [Google Cloud Platform – Agent Starter Pack GitHub Repository](https://github.com/GoogleCloudPlatform/agent-starter-pack)
@@ -93,16 +95,16 @@
 - [Google Cloud – The ultimate prompting guide for Veo 3.1](https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-veo-3-1)
 - [Google Cloud – Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder?hl=en)
 - [Google Cloud – What are AI agents?](https://cloud.google.com/discover/what-are-ai-agents)
-- [Google — FunctionGemma](https://blog.google/technology/developers/functiongemma/)
-- [Google — Gemini API changelog](https://ai.google.dev/gemini-api/docs/changelog?hl=en)
 - [Google Labs Flow](https://labs.google/fx/tools/flow)
+- [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263)
 - [Google NotebookLM – Audio Overviews](https://notebooklm.google/audio)
 - [Google NotebookLM](https://notebooklm.google)
-- [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263)
 - [Google One Help – Check AI Premium credits](https://support.google.com/googleone/answer/16287445?visit_id=638968334505579471-862084453&p=g1_ai_credit_menu&rd=1#g1_ai_credit_menu)
 - [Google Workspace – Gemini](https://workspace.google.com/products/gemini/)
+- [Google – ADK Python repository (.git)](https://github.com/google/adk-python.git)
+- [Google — FunctionGemma](https://blog.google/technology/developers/functiongemma/)
+- [Google — Gemini API changelog](https://ai.google.dev/gemini-api/docs/changelog?hl=en)
 - [GPT-Lab – Effective Prompts for Reasoning LLMs](https://gpt-lab.eu/effective-prompts-for-reasoning-llms/)
-- [GLM-5 GitHub Repository](https://github.com/zai-org/GLM-5)
 
 ### H
 - [Hugging Face – HF Skills: training a fine-tuning agent with Claude Code](https://huggingface.co/blog/hf-skills-training)
@@ -112,7 +114,10 @@
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
 
 ### K
+
 - [Kaggle 5-Day AI Agents Course Guide](https://www.kaggle.com/learn-guide/5-day-agents)
+- [KIRO – Hooks documentation](https://kiro.dev/docs/hooks/)
+- [KIRO – Specs documentation](https://kiro.dev/docs/specs/)
 - [KIRO](https://kiro.studio/)
 
 ### L
@@ -186,7 +191,9 @@
 - [Requirements Engineering Datasets for LLM4RE](https://nlp4se.github.io/LLM4RE-Datasets/)
 
 ### S
+
 - [Stagewise](https://stagewise.ai/)
+- [Strands Agents SDK quickstart overview](https://strandsagents.com/docs/user-guide/quickstart/overview/)
 - [Stripe](https://stripe.com/)
 - [Substack - Why Senior Engineers Who Master Claude Code Will Leave Their Competition Behind](https://agiinprogress.substack.com/p/the-100000-productivity-multiplier)
 - [Supabase](https://supabase.com/)
