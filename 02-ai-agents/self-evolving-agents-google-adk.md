@@ -1,4 +1,4 @@
-<img src="../assets/google/google_cloud_platform.png" alt="Google ADK Self-Evolving Agents" width="80%">
+<img src="../assets/other/self-evolving-ai.png" alt="Google ADK Self-Evolving Agents" width="80%">
 
 # Self-Evolving AI: Scaling Autonomy with Google ADK and Agent Skills
 
