@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Fix broken internal markdown links across repository files including the Google ADK guide and the 5-Day AI Agents course.
 - Add spec-driven development tutorial covering vibecoding-to-production workflows with Kiro Specs/Hooks, Claude Code CLI, Strands Agents SDK, and Antigravity.
 - Add Everything Claude Code GitHub repository references to the external sources index and Claude Code tutorials.
 - Rebuild the Claude Code project structure tutorial with a comprehensive 2026 cheatsheet covering memory hierarchies, hooks, MCP server configurations, and skills guidelines.

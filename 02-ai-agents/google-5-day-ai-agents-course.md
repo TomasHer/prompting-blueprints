@@ -24,7 +24,7 @@ Understand AI agent fundamentals: core architecture, taxonomy of capabilities, a
 
 Learn how agents interact with external systems through tools and APIs. Understand MCP architecture, tool design best practices, and human-in-loop approval workflows.
 
-[![Day 2 Preview](../assets/guides/google-2026/previews/02%20Agent%20Tools%20&%20Interoperability%20with%20Model%20Context%20Protocol%20(MCP).png)](../assets/guides/google-2026/02%20Agent%20Tools%20&%20Interoperability%20with%20Model%20Context%20Protocol%20(MCP).pdf)
+[![Day 2 Preview](../assets/guides/google-2026/previews/02%20Agent%20Tools%20&%20Interoperability%20with%20Model%20Context%20Protocol%20%28MCP%29.png)](../assets/guides/google-2026/02%20Agent%20Tools%20&%20Interoperability%20with%20Model%20Context%20Protocol%20%28MCP%29.pdf)
 
 
 > [!NOTE]
