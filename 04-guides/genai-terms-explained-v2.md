@@ -120,6 +120,11 @@ Transcribe the 85 common AI terms from the "AI Terms Explained" visual into a se
 - **AI agent:** System that perceives, reasons, and acts toward goals.
 - **Actions:** Tool use, API calls, or multi-step planning.
 - **Agentic workflow:** Break top-level task into subtasks; maintain a world model; use memory; plan and use tools; learn from outcomes; provide justifications and citations.
+- **Single-Agent Architecture:** A system where one agent handles the entire pipeline, making all decisions about when to search, summarize, or generate responses. The agent acts as both the user and architect of context.
+- **Multi-Agent Architecture:** A system where multiple specialized agents work together, each taking on specific roles that contribute to a larger goal. Enables more complex task decomposition and parallel processing.
+- **Skills:** The specific capabilities or tools an agent can leverage to complete tasks — such as accessing databases, calling APIs, or performing searches. These are the building blocks of what an agent can actually do.
+- **Agentic RAG:** An AI agent-based implementation of Retrieval-Augmented Generation that uses agents to orchestrate the RAG pipeline. Unlike traditional RAG, agentic RAG can dynamically route queries, validate retrieved information, and make decisions about re-retrieval.
+- **Memory (agent):** The component that stores context, prior interactions, and data collected during task execution. Includes short-term memory (in the context window) and long-term memory (retrieved on demand). Memory operations include write control, deduplication, reconciliation, amendment, and purposeful forgetting.
 - **System prompt:** Governing instructions for an LLM or agent.
 - **Tool call planning:** Choose the right tool and arguments; tools may fail (wrong query, API failure). Examples: calculator, search, SQL, API calls, code generation, Python execution. Include fallback plans.
 
