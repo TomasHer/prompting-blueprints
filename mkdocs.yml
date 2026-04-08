@@ -28,6 +28,7 @@ nav:
     - Aggregated Suite (promptfoo.yml): 06-models-and-evaluations/promptfoo.yml
     - Pattern Catalogue Smoke Tests: 06-models-and-evaluations/pattern-catalogue-smoke.yml
   - Tools:
+    - Best AI Apps for 2026: 05-tools/best-ai-apps-2026.md
     - Claude Agent Skills Playbook: 02-ai-agents/claude-agent-skills.md
     - Claude AI vs Claude Code vs Claude Cowork: 05-tools/claude-ai-vs-code-vs-cowork.md
     - Cowork Tool Selection Tutorial: 05-tools/cowork-tool-selection-tutorial.md
