@@ -9,6 +9,7 @@
 - Keep contributions **scoped, reversible, and copy-ready**.
 - Run `mkdocs build` (docs) and relevant `promptfoo test` configs before opening a PR.
 - Update `CHANGELOG.md` under **Unreleased** and document new pages in `mkdocs.yml` when required.
+- **Every new content file needs YAML front-matter.** Run `python3 scripts/check-frontmatter.py` before opening a PR.
 
 ---
 
@@ -60,6 +61,36 @@
 - Start each new resource with an **Intent** or **Use when** section.
 - Include an **OUTPUT FORMAT** section (JSON or Markdown) when structure matters.
 - Reference related patterns, prompt packs, and use cases to keep navigation cohesive.
+
+### Front-matter (required for all new content files)
+Every new `.md` file in `02-ai-agents/`, `03-prompts-and-patterns/`, `04-guides/`, `05-tools/`, and `07-use-cases-and-research/` must open with a YAML front-matter block.
+
+**Tier A — `03-prompts-and-patterns/`** (full schema):
+```yaml
+---
+title: "Pattern: Role + Constraints + Output Format"
+intent: "One sentence describing what this pattern achieves"
+model_tested: ["GPT-5", "Claude Sonnet 4.6"]
+tags: ["patterns", "structure"]
+last_updated: 2026-04-22
+---
+```
+
+**Tier B — all other content directories** (operational schema):
+```yaml
+---
+title: "MCP Guide"
+tags: ["agents", "mcp"]
+last_updated: 2026-04-22
+---
+```
+
+Rules:
+- `title`: use the exact nav label from `mkdocs.yml`, or the first `# Heading` if not yet registered.
+- `tags`: first tag is always the directory category (`agents`, `patterns`, `guides`, `tools`, `research`); add 1–2 specific keywords after it.
+- `last_updated`: ISO date (`YYYY-MM-DD`) of the commit that creates or significantly updates the file.
+- `model_tested`: required for Tier A only; list every model you tested the prompt against.
+- Run `python3 scripts/check-frontmatter.py` to verify before opening a PR. To generate stubs for new files in bulk, use `python3 scripts/add-frontmatter.py --dry-run` first.
 
 ### Patterns & prompts specifics
 - Provide guidance on variables/placeholders and guardrails.
@@ -124,6 +155,8 @@ If a command fails, capture the error, suggest a minimal fix, and avoid broad de
 - [ ] Relevant `promptfoo test` suites pass, or failures are explained with follow-ups created.
 - [ ] `CHANGELOG.md` updated under **Unreleased**.
 - [ ] Labels added (`area:*`, `type:*`).
+- [ ] All new content files have YAML front-matter (`python3 scripts/check-frontmatter.py` exits 0).
+- [ ] Internal links use explicit relative paths (`./` or `../`), not bare filenames.
 
 > When in doubt, pause and ask: Who is the audience? Should this be a new page or an update? Are there tone/length constraints?
 
