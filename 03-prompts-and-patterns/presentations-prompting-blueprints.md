@@ -1,3 +1,11 @@
+---
+title: "Presentations Prompting Blueprints (Patrick Winston)"
+intent: ""
+model_tested: []
+tags: ["patterns", "presentations-blueprints"]
+last_updated: "2026-04-09"
+---
+
 # Claude Can Now Prepare Your Presentations Using the Exact Framework Patrick Winston Taught MIT Students for 40 Years
 
 Patrick Winston spent four decades teaching MIT students how to give talks that change minds. His framework is precise, ruthless, and built around one principle: every element of a presentation either serves the audience or wastes their time. There is no middle ground.

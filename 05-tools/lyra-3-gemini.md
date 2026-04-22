@@ -1,3 +1,9 @@
+---
+title: "Lyria 3 in Gemini"
+tags: ["tools", "lyra-gemini"]
+last_updated: "2026-02-25"
+---
+
 # Lyria 3 in Gemini: 6 Prompting Tips Tutorial
 
 ## Intent

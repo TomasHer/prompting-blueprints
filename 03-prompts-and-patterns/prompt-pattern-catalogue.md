@@ -1,3 +1,11 @@
+---
+title: "Guide to Prompt Pattern Catalogue"
+intent: ""
+model_tested: []
+tags: ["patterns", "pattern-catalogue"]
+last_updated: "2026-01-10"
+---
+
 # Guide to Prompt Pattern Catalogue
 
 This guide summarizes seven prompting patterns from Dr. Jules White's research on prompting blueprints and explains when and how to apply them in practice. Each section provides a quick diagnostic for when the pattern is useful, a step-by-step workflow, and an example scaffold you can adapt in your own prompts.

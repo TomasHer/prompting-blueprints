@@ -1,3 +1,9 @@
+---
+title: "LangChain Research Agent Tutorial"
+tags: ["research", "langchain-research"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/langchain/langchain_deep_agent.png" alt="Langchain Deep Agent" width="80%">
 
 # LangChain Research Agent Tutorial

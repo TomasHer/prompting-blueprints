@@ -1,3 +1,9 @@
+---
+title: "Deep Research Tools Playbook"
+tags: ["research"]
+last_updated: "2026-01-10"
+---
+
 # Deep Research Tutorial
 
 ## Intent

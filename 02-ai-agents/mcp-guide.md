@@ -1,3 +1,9 @@
+---
+title: "Model Context Protocol (MCP) Guide"
+tags: ["agents", "mcp"]
+last_updated: "2026-01-11"
+---
+
 # Model Context Protocol (MCP) Guide
 
 ## Intent

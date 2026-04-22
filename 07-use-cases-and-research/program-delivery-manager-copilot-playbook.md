@@ -1,3 +1,9 @@
+---
+title: "Program Delivery Manager Copilot Playbook"
+tags: ["research", "program-delivery"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/microsoft/microsoft_copilot_program_delivery_manager.png" alt="Copilot Program Delivery Manager" width="80%">
 
 # Program Delivery Manager Copilot Playbook

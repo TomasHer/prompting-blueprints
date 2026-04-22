@@ -1,3 +1,9 @@
+---
+title: "AI Adoption Readiness Guide"
+tags: ["guides", "adoption"]
+last_updated: "2026-01-10"
+---
+
 # AI Adoption Readiness Guide
 
 ## Intent

@@ -1,3 +1,9 @@
+---
+title: "Microsoft 365 Copilot Prompting Guide"
+tags: ["tools", "microsoft-365"]
+last_updated: "2026-01-10"
+---
+
 # Microsoft 365 Copilot Prompting Guide
 
 ## Intent

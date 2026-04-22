@@ -1,3 +1,9 @@
+---
+title: "Claude AI vs Claude Code vs Claude Cowork"
+tags: ["tools", "claude-code"]
+last_updated: "2026-03-08"
+---
+
 # Claude Ecosystem: AI vs Code vs Cowork
 
 ## Intent

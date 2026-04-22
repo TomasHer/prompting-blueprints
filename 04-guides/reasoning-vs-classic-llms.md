@@ -1,3 +1,9 @@
+---
+title: "Reasoning vs. Classic LLMs"
+tags: ["guides", "reasoning-classic"]
+last_updated: "2026-01-10"
+---
+
 # Reasoning LLMs vs. Classic GPT-Style LLMs
 
 ## Intent

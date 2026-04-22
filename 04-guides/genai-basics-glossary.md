@@ -1,3 +1,9 @@
+---
+title: "Generative AI Basics Glossary"
+tags: ["guides", "genai-basics"]
+last_updated: "2026-01-10"
+---
+
 # Generative AI Basics Glossary
 
 ## Intent

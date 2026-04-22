@@ -1,3 +1,9 @@
+---
+title: "Microsoft Copilot Researcher Agent"
+tags: ["tools", "microsoft-copilot"]
+last_updated: "2026-04-22"
+---
+
 <img src="../assets/microsoft/microsoft_researcher_agent.png" alt="Microsoft Copilot Researcher Agent" width="80%">
 
 # Microsoft Copilot Researcher Agent Blueprint

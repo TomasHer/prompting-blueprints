@@ -1,3 +1,9 @@
+---
+title: "Gemini 3 Pro + n8n Workflow JSON Guide"
+tags: ["guides", "gemini-n8n"]
+last_updated: "2026-01-10"
+---
+
 # Gemini 3 Pro Prompting Guide for n8n Workflow JSON Templates
 
 This guide shows how to prompt **Gemini 3 Pro** to generate an **n8n workflow template in JSON format** that you can import into n8n. It is based on the workflow design approach demonstrated in the tutorial: <https://youtu.be/Vb1SwBAn9cQ>.

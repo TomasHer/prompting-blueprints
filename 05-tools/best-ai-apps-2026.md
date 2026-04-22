@@ -1,3 +1,9 @@
+---
+title: "Best AI Apps for 2026"
+tags: ["tools", "best-apps"]
+last_updated: "2026-04-08"
+---
+
 # The Best AI Apps for 2026
 
 A curated pyramid of the top AI tools across five categories — from general assistants at the peak to creativity tools at the base — plus a bonus row of automation and workflow tools.

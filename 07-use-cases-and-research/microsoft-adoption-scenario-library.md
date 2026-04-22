@@ -1,3 +1,9 @@
+---
+title: "Microsoft Adoption Scenario Library"
+tags: ["research", "microsoft-adoption"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/microsoft/microsoft_scenario_library.png" alt="Microsoft Scenario Library" width="80%">
 
 # Microsoft Adoption Scenario Library Prompts

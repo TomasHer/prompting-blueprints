@@ -1,3 +1,11 @@
+---
+title: "Managers Prompting Blueprints"
+intent: ""
+model_tested: []
+tags: ["patterns", "managers-blueprints"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/openai/openai_academy1.jpeg" alt="OpenAI Academy" width="80%">
 
 # Prompting Blueprints for Managers

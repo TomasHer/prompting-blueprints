@@ -1,3 +1,9 @@
+---
+title: "Microsoft SharePoint Knowledge Agent"
+tags: ["tools", "microsoft-sharepoint"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/microsoft/microsoft_sharepoint_knowledge_agent.jpg" alt="Microsoft Sharepoint Knowledge Agent" width="80%">
 
 # Microsoft SharePoint Knowledge Agent Blueprint

@@ -1,3 +1,9 @@
+---
+title: "LLM Lifecycle Monitoring Guide"
+tags: ["guides", "llm-lifecycle"]
+last_updated: "2026-01-10"
+---
+
 # LLM Lifecycle Monitoring Guide
 
 ## Intent

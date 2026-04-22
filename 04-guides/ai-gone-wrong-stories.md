@@ -1,3 +1,9 @@
+---
+title: "AI Gone Wrong Incident Stories"
+tags: ["guides", "gone-wrong"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/ai-gone-wrong/ai-gone-wrong-1.png" alt="AI Gone Wrong" width="80%">
 
 # AI Gone Wrong Incident Stories

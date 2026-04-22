@@ -1,3 +1,9 @@
+---
+title: "AI Use Case Identification"
+tags: ["research", "use-case"]
+last_updated: "2026-01-10"
+---
+
 # AI Use Case Identification
 
 **Intent:** Help product and transformation teams identify high-value AI opportunities under real-world business constraints.

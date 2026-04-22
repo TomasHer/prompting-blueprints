@@ -1,3 +1,9 @@
+---
+title: "Spec-Driven Development Tutorial"
+tags: ["tools", "spec-driven"]
+last_updated: "2026-03-27"
+---
+
 # Spec-Driven Development Tutorial
 
 ## Intent

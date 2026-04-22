@@ -1,3 +1,9 @@
+---
+title: "FunctionGemma Fine-Tuning + Local Serving (LM Studio)"
+tags: ["guides", "finetune-functiongemma"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/google/function-gemma.jpg" alt="FunctionGemma" width="80%">
 
 # FunctionGemma Fine-Tuning + Local Serving (LM Studio)

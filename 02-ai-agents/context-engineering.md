@@ -1,3 +1,9 @@
+---
+title: "Context Engineering"
+tags: ["agents", "context-engineering"]
+last_updated: "2026-01-10"
+---
+
 # Context Engineering
 
 ![Context engineering overview](../assets/other/context-engineering.PNG)

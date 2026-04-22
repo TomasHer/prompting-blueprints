@@ -1,3 +1,9 @@
+---
+title: "Claude Code Certification Guide"
+tags: ["tools", "claude-code"]
+last_updated: "2026-03-15"
+---
+
 # Claude Code Certification Guide (Claude Certified Architect Foundations)
 
 ## Intent

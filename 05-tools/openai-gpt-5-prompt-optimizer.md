@@ -1,3 +1,9 @@
+---
+title: "OpenAI GPT-5 Prompt Optimizer"
+tags: ["tools", "openai-gpt"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/openai/openai_prompt_optimizer.gif" alt="OpenAI Prompt Optimizer" width="80%">
 
 # GPT-5 Prompt Optimizer Tutorial: From Baseline Prompt to Production Ready Instructions

@@ -1,3 +1,9 @@
+---
+title: "Summarization Playbook"
+tags: ["research", "summarization"]
+last_updated: "2026-01-10"
+---
+
 # Summarization Playbook
 
 ## Intent

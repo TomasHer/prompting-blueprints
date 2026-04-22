@@ -1,3 +1,9 @@
+---
+title: "n8n vs LangGraph Comparison"
+tags: ["tools", "n8n-langgraph"]
+last_updated: "2026-01-10"
+---
+
 # n8n vs LangGraph: Tool Comparison
 
 ## Intent

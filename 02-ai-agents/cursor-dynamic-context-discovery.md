@@ -1,3 +1,9 @@
+---
+title: "Cursor Dynamic Context Discovery"
+tags: ["agents", "cursor-dynamic"]
+last_updated: "2026-01-10"
+---
+
 # Cursor Dynamic Context Discovery (Context Engineering Guide)
 
 ## Overview

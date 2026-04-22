@@ -1,3 +1,9 @@
+---
+title: "Claude Code Cheatsheet Tutorial"
+tags: ["tools", "claude-code"]
+last_updated: "2026-04-22"
+---
+
 # Claude Code Cheatsheet Transcription and Tool Tutorial
 
 ## Claude Code Cheatsheet (Text Transcription)

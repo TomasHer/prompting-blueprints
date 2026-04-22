@@ -1,3 +1,11 @@
+---
+title: "Writers Prompting Blueprints"
+intent: "Equip writers and editors with ready-to-use prompting scaffolds that enforce editorial standards while leveraging reasoning-capable LLMs for drafting, revising, and polishing long-form or short-form c"
+model_tested: []
+tags: ["patterns", "writers-blueprints"]
+last_updated: "2026-01-10"
+---
+
 # Writers Prompting Blueprints
 
 ## Intent

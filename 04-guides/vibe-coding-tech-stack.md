@@ -1,3 +1,9 @@
+---
+title: "Vibe Coding Tech Stack Tutorial"
+tags: ["guides", "vibe-coding"]
+last_updated: "2026-01-31"
+---
+
 # Vibe Coding Tech Stack Tutorial
 
 ## Intent

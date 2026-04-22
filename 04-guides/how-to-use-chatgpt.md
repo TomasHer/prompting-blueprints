@@ -1,3 +1,9 @@
+---
+title: "How to Use ChatGPT"
+tags: ["guides", "use-chatgpt"]
+last_updated: "2026-01-10"
+---
+
 # How to Use ChatGPT
 
 ## Intent

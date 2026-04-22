@@ -1,3 +1,9 @@
+---
+title: "NotebookLM 2026 Tool Tutorial"
+tags: ["tools", "notebooklm"]
+last_updated: "2026-04-22"
+---
+
 # NotebookLM 2026 Tool Tutorial: Curate -> Learn -> Act
 
 ## Intent

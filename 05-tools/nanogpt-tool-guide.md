@@ -1,3 +1,9 @@
+---
+title: "nanoGPT + nanochat Tool Guide"
+tags: ["tools", "nanogpt"]
+last_updated: "2026-01-10"
+---
+
 # nanoGPT + nanochat Tool Guide
 
 ## Intent
