@@ -1,3 +1,9 @@
+---
+title: "Claude Code Cheat Sheet v2.81"
+tags: ["tools", "claude-code"]
+last_updated: "2026-04-22"
+---
+
 # Claude Code Cheat Sheet v2.81
 
 > **Version:** Claude Code v2.81 — as of **March 24, 2026**

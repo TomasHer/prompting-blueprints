@@ -1,3 +1,9 @@
+---
+title: "Unsloth Phone Deployment Tutorial"
+tags: ["tools", "llm-on"]
+last_updated: "2026-01-10"
+---
+
 # Unsloth Phone Deployment Tutorial (iOS + Android)
 
 ## Intent

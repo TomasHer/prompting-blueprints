@@ -1,3 +1,9 @@
+---
+title: "Microsoft Agent Framework Quickstart"
+tags: ["tools", "microsoft-agent"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/microsoft/microsoft_agent_framework.png" alt="Microsoft Agent Framework" width="80%">
 
 # Microsoft Agent Framework Quickstart

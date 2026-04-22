@@ -1,3 +1,9 @@
+---
+title: "Microsoft Copilot Agents"
+tags: ["tools", "microsoft-copilot"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/microsoft/copilot_agent_builder.png" alt="Copilot Agent Builder" width="80%">
 
 # Microsoft Copilot Agents Guide

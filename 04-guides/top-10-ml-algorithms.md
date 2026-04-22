@@ -1,3 +1,9 @@
+---
+title: "Top 10 Machine Learning Algorithms"
+tags: ["guides", "top-10"]
+last_updated: "2026-01-10"
+---
+
 # Top 10 Machine Learning Algorithms (2025 Field Guide)
 
 ## Intent

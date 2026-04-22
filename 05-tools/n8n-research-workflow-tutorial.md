@@ -1,3 +1,9 @@
+---
+title: "n8n Vibe Research Workflow Tutorial"
+tags: ["tools", "n8n-research"]
+last_updated: "2026-01-10"
+---
+
 # n8n Vibe Research Workflow Tutorial
 
 ## Intent

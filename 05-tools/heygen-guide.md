@@ -1,3 +1,9 @@
+---
+title: "HeyGen Guide"
+tags: ["tools", "heygen"]
+last_updated: "2026-01-14"
+---
+
 # HeyGen Guide
 
 ## Intent

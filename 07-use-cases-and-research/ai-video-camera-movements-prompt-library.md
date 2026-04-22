@@ -1,3 +1,9 @@
+---
+title: "AI Video Camera Movements Prompt Library"
+tags: ["research", "video-camera"]
+last_updated: "2026-02-25"
+---
+
 # AI Video Camera Movements Prompt Library (42 Moves)
 
 ## Intent

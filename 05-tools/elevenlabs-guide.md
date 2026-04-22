@@ -1,3 +1,9 @@
+---
+title: "ElevenLabs Guide"
+tags: ["tools", "elevenlabs"]
+last_updated: "2026-01-14"
+---
+
 # ElevenLabs Guide
 
 ## Intent

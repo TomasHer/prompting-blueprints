@@ -1,3 +1,9 @@
+---
+title: "Napkin Guide"
+tags: ["tools", "napkin"]
+last_updated: "2026-01-14"
+---
+
 # Napkin Guide
 
 ## Intent

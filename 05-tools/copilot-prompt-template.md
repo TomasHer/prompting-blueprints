@@ -1,3 +1,9 @@
+---
+title: "Microsoft Copilot Prompt Template"
+tags: ["tools", "copilot-template"]
+last_updated: "2026-04-22"
+---
+
 <img src="../assets/microsoft/microsoft_copilot.jpg" alt="Copilot Copilot" width="80%">
 
 # Microsoft Copilot Prompt Template

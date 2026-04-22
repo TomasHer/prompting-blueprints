@@ -1,3 +1,9 @@
+---
+title: "Generative AI Project Tutorial"
+tags: ["guides", "gen-project"]
+last_updated: "2026-01-10"
+---
+
 # Generative AI Project Tutorial
 
 ## Intent

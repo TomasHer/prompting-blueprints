@@ -1,3 +1,9 @@
+---
+title: "Claude Code + NotebookLM Integration Tutorial"
+tags: ["tools", "claude-code"]
+last_updated: "2026-03-05"
+---
+
 # Claude Code + NotebookLM Integration Tutorial
 
 ## Intent

@@ -1,3 +1,9 @@
+---
+title: "Claude Managed Agents Tutorial"
+tags: ["agents", "claude-managed"]
+last_updated: "2026-04-10"
+---
+
 # Claude Managed Agents Tutorial
 
 ## Intent

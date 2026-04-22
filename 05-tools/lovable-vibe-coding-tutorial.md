@@ -1,3 +1,9 @@
+---
+title: "Lovable Vibe Coding Tutorial"
+tags: ["tools", "lovable-vibe"]
+last_updated: "2026-02-12"
+---
+
 <img src="../assets/lovable/lovable.webp" alt="Lovable" width="80%">
 
 # Lovable Vibe Coding Tutorial: Architecture-First Pairing

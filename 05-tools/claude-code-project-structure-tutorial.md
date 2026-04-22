@@ -1,3 +1,9 @@
+---
+title: "Claude Code Project Structure Tutorial"
+tags: ["tools", "claude-code"]
+last_updated: "2026-04-22"
+---
+
 # Claude Code Project Structure Tutorial
 
 You won't need any other project structure for Claude Code. Just this one. This definitive guide covers where skills go, how to organize hooks and MCP servers, and explains the 6 extension types alongside memory file workflows.

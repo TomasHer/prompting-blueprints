@@ -1,3 +1,9 @@
+---
+title: "AI Coding Spectrum"
+tags: ["agents", "coding-spectrum"]
+last_updated: "2026-01-10"
+---
+
 # AI Coding Spectrum
 
 ## Intent

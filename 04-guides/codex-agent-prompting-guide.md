@@ -1,3 +1,9 @@
+---
+title: "Codex Agent Prompting Guide"
+tags: ["guides", "codex-agent"]
+last_updated: "2026-01-10"
+---
+
 # Codex Agent Prompting Guide
 
 ## Intent

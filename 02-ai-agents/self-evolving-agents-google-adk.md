@@ -1,3 +1,9 @@
+---
+title: "Self-Evolving AI with Google ADK and Agent Skills"
+tags: ["agents", "self-evolving"]
+last_updated: "2026-04-22"
+---
+
 <img src="../assets/other/self-evolving-ai.png" alt="Google ADK Self-Evolving Agents" width="80%">
 
 # Self-Evolving AI: Scaling Autonomy with Google ADK and Agent Skills

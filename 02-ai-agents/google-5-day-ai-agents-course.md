@@ -1,3 +1,9 @@
+---
+title: "Google 5-Day AI Agents Intensive Course"
+tags: ["agents", "google-day"]
+last_updated: "2026-04-22"
+---
+
 # Google 5-Day AI Agents Intensive Course
 
 ![Google AI Agents Course](../assets/guides/google-2026/google-ai-agent-course.jpeg)

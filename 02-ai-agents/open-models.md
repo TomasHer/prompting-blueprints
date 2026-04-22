@@ -1,3 +1,9 @@
+---
+title: "Open Models for Agentic AI"
+tags: ["agents", "open-models"]
+last_updated: "2026-01-10"
+---
+
 # Open Models for Agentic AI: Why Openness Accelerates Innovation
 
 ## The core idea

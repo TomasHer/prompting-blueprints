@@ -1,3 +1,9 @@
+---
+title: "MemPalace: AI Memory System Tutorial"
+tags: ["agents", "mempalace-memory"]
+last_updated: "2026-04-08"
+---
+
 # MemPalace: AI Memory System Tutorial
 
 ## Why Memory Is the Missing Layer of Intelligence

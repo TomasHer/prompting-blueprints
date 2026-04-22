@@ -1,3 +1,9 @@
+---
+title: "Agent-to-Agent (A2A) Protocol Guide"
+tags: ["agents", "a2a-protocol"]
+last_updated: "2026-01-10"
+---
+
 # Agent-to-Agent (A2A) Protocol Guide
 
 ## Intent

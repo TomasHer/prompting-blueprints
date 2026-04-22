@@ -1,3 +1,9 @@
+---
+title: "Vibe Kanban Tool Tutorial"
+tags: ["tools", "vibe-kanban"]
+last_updated: "2026-01-10"
+---
+
 # Vibe Kanban Tutorial: Parallel AI Coding Board
 ![Vibe Kanban dashboard](../assets/other/vibe-kanban.jpg)
 

@@ -1,3 +1,9 @@
+---
+title: "LangChain Deep Agents Playbook"
+tags: ["tools", "langchain-agents"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/langchain/langchain_deep_agent.png" alt="Langchain Deep Agent" width="80%">
 
 # LangChain Deep Agents Playbook

@@ -1,3 +1,9 @@
+---
+title: "AI Terms Explained (Glossary v2)"
+tags: ["guides", "genai-terms"]
+last_updated: "2026-03-29"
+---
+
 # AI Terms Explained (Glossary v2)
 
 ## Intent

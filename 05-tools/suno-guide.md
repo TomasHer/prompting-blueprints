@@ -1,3 +1,9 @@
+---
+title: "Suno Guide"
+tags: ["tools", "suno"]
+last_updated: "2026-01-14"
+---
+
 # Suno Guide
 
 ## Intent

@@ -1,3 +1,9 @@
+---
+title: "Right Selection of a Coding AI Agent (2026)"
+tags: ["tools", "coding-agent"]
+last_updated: "2026-03-03"
+---
+
 # Right Selection of a Coding AI Agent (2026 Tutorial)
 
 ## Intent

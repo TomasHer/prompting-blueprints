@@ -1,3 +1,9 @@
+---
+title: "Claude Agent Skills Playbook"
+tags: ["agents", "claude-agent"]
+last_updated: "2026-02-28"
+---
+
 <img src="../assets/anthropic/claude-agent-skills.svg" alt="Claude Agent Skills" width="80%">
 
 # Claude Agent Skills Playbook

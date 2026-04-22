@@ -1,3 +1,11 @@
+---
+title: "Researchers Prompting Blueprints"
+intent: "Provide academic researchers with ready-to-use prompting patterns that improve clarity, rigor, and collaboration when working with reasoning-focused language models."
+model_tested: []
+tags: ["patterns", "researchers-blueprints"]
+last_updated: "2026-01-10"
+---
+
 # Researchers Prompting Blueprints
 
 ## Intent

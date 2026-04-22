@@ -1,3 +1,9 @@
+---
+title: "Fine-Tune an Open Source LLM with Claude"
+tags: ["guides", "claude-fine"]
+last_updated: "2026-01-10"
+---
+
 # Fine-Tune an Open Source LLM with Claude
 
 ## Intent

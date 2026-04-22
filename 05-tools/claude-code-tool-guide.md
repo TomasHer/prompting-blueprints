@@ -1,3 +1,9 @@
+---
+title: "Claude Code Tool Guide"
+tags: ["tools", "claude-code"]
+last_updated: "2026-01-10"
+---
+
 # Claude Code Tool Guide
 
 ## Intent

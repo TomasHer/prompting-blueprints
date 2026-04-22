@@ -1,3 +1,9 @@
+---
+title: "Spec-Driven Development with AI Tools"
+tags: ["tools", "spec-driven"]
+last_updated: "2026-03-25"
+---
+
 # Spec-Driven Development with AI-Native Tools (2026 Tutorial)
 
 ## Intent

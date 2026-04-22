@@ -1,3 +1,9 @@
+---
+title: "Reasoning vs. Classic LLMs (DE)"
+tags: ["guides", "reasoning-classic"]
+last_updated: "2026-01-10"
+---
+
 # Reasoning-LLMs vs. klassische GPT-Modelle
 
 ## Zweck

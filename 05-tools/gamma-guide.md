@@ -1,3 +1,9 @@
+---
+title: "Gamma Guide"
+tags: ["tools", "gamma"]
+last_updated: "2026-01-14"
+---
+
 # Gamma Guide
 
 ## Intent

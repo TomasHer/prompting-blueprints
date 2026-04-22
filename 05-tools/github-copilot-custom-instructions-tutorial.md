@@ -1,3 +1,9 @@
+---
+title: "GitHub Copilot Custom Instructions Tutorial"
+tags: ["tools", "github-copilot"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/microsoft/github-copilot.png" alt="GitHub Copilot" width="80%">
 
 # Intent

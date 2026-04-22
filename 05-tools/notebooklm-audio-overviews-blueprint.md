@@ -1,3 +1,9 @@
+---
+title: "NotebookLM Audio Overviews"
+tags: ["tools", "notebooklm-audio"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/google/google_notebooklm_audio_overview.jpg" alt="Google NotebookLM Audio Overview" width="80%">
 
 # NotebookLM Audio Overviews Blueprint

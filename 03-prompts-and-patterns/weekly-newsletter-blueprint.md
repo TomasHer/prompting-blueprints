@@ -1,3 +1,11 @@
+---
+title: "Weekly Newsletter Blueprint"
+intent: ""
+model_tested: []
+tags: ["patterns", "weekly-newsletter"]
+last_updated: "2026-01-10"
+---
+
 # Weekly Newsletter Automation for your [*TOPIC*]
 
 This guide shows you how to set up a **weekly, scheduled newsletter workflow** inside ChatGPT that searches the web every Thursday at **09:00 GMT**, selects the strongest stories, and produces three outputs you can share immediately: concise newsletter blurbs, a LinkedIn post, and a short SEO article.

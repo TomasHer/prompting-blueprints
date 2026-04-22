@@ -1,3 +1,9 @@
+---
+title: "Cowork Tool Selection Tutorial"
+tags: ["tools", "cowork-selection"]
+last_updated: "2026-03-22"
+---
+
 # Right Selection of a Cowork AI Tool (2026 Tutorial)
 
 ## Intent

@@ -1,3 +1,9 @@
+---
+title: "Ultimate 2026 AI Software Implementation Guide"
+tags: ["agents", "ultimate-software"]
+last_updated: "2026-04-22"
+---
+
 # Ultimate 2026 Implementation Guide for AI Software Products
 
 ## Intent

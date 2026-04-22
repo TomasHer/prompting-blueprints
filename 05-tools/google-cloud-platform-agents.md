@@ -1,3 +1,9 @@
+---
+title: "Google Cloud ADK Quickstart"
+tags: ["tools", "google-cloud"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/google/google_cloud_platform.png" alt="Google Cloud Platform" width="80%">
 
 # Google Cloud Agent Development Kit (ADK) Quickstart

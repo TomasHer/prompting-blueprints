@@ -1,3 +1,9 @@
+---
+title: "AI Tool Chaining (Oct 2025)"
+tags: ["tools", "chaining"]
+last_updated: "2026-01-10"
+---
+
 # AI Tool Chaining Playbook (October 2025)
 
 ## Intent

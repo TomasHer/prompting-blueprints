@@ -1,3 +1,9 @@
+---
+title: "Vibe Research Playbook"
+tags: ["research", "vibe-research"]
+last_updated: "2026-01-10"
+---
+
 # Vibe Research Playbook
 
 ## Intent

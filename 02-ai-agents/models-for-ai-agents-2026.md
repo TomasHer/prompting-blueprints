@@ -1,3 +1,9 @@
+---
+title: "Best Model Providers for AI Agents for 2026"
+tags: ["agents", "models-agents"]
+last_updated: "2026-01-10"
+---
+
 # Best Model Providers for AI Agents for 2026
 
 ## Intent

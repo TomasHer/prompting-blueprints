@@ -1,3 +1,9 @@
+---
+title: "Claude Building Skills Guide"
+tags: ["guides", "claude-building"]
+last_updated: "2026-03-15"
+---
+
 # Claude Building Skills Guide
 
 [![Anthropic Claude Skills Guide Preview](../assets/guides/previews/anthropic-claude-skills-guide.png)](../assets/guides/anthropic-claude-skills-guide.pdf)

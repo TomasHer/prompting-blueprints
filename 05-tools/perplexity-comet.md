@@ -1,3 +1,9 @@
+---
+title: "Perplexity Comet"
+tags: ["tools", "perplexity-comet"]
+last_updated: "2026-01-10"
+---
+
 <img src="../assets/perplexity/perplexity_comet.png" alt="Perplexity Comet" width="80%">
 
 # Perplexity Comet Tutorial: Multi‑Tab Synthesis for LinkedIn Article

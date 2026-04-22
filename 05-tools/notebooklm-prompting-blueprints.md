@@ -1,3 +1,9 @@
+---
+title: "NotebookLM Prompting Blueprints"
+tags: ["tools", "notebooklm-blueprints"]
+last_updated: "2026-01-11"
+---
+
 # NotebookLM Prompting Blueprints
 
 ## 1. The "5 Essential Questions"
