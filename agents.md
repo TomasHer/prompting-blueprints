@@ -132,6 +132,7 @@ If a command fails, capture the error, suggest a minimal fix, and avoid broad de
 ## 6. Navigation & documentation site
 - The documentation site uses **MkDocs Material**. Only adjust `mkdocs.yml` to add or rename pages you touch.
 - Use relative links inside Markdown. Prefer fenced code blocks for commands.
+- **Always use explicit relative paths for internal links.** Same-directory links must start with `./` (e.g. `[MCP Guide](./mcp-guide.md)`, not `[MCP Guide](mcp-guide.md)`). Cross-directory links use `../` as appropriate. Bare filenames are not resolved correctly by MkDocs and will produce broken links on the docs site.
 - Provide screenshots or sample outputs when altering navigation or visual assets.
 
 ---

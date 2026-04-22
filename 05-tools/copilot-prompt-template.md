@@ -67,5 +67,5 @@ I want a {goal} for {context}. Respond in {expectations} and use {source}.
 - "Write a future-looking narrative about our product strategy grounded in insights from the Q1 leadership summit notes. Keep it to three short paragraphs."
 
 ## Related Resources
-- [Microsoft Copilot Agents Blueprint](microsoft-copilot-agents.md)
+- [Microsoft Copilot Agents Blueprint](./microsoft-copilot-agents.md)
 - [Guide to Prompt Pattern Catalogue](../03-prompts-and-patterns/prompt-pattern-catalogue.md)

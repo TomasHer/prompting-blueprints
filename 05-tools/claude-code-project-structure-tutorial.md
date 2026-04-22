@@ -305,9 +305,9 @@ Configure via `.mcp.json`:
 
 ## 9. Related Resources
 - **[Claude Agent Skills Playbook](../02-ai-agents/claude-agent-skills.md)** — Dive deeper into building reusable workflows.
-- **[Claude AI vs Claude Code vs Claude Cowork](claude-ai-vs-code-vs-cowork.md)** — Understand which tool fits your specific use case.
-- **[Claude Code Tool Guide](claude-code-tool-guide.md)** — Explore additional automation commands and configurations.
-- **[Claude Code Cheatsheet Tutorial](claude-code-cheatsheet-tutorial.md)** — Keep the essential commands handy.
+- **[Claude AI vs Claude Code vs Claude Cowork](./claude-ai-vs-code-vs-cowork.md)** — Understand which tool fits your specific use case.
+- **[Claude Code Tool Guide](./claude-code-tool-guide.md)** — Explore additional automation commands and configurations.
+- **[Claude Code Cheatsheet Tutorial](./claude-code-cheatsheet-tutorial.md)** — Keep the essential commands handy.
 - **[Model Context Protocol (MCP) Guide](../02-ai-agents/mcp-guide.md)** — Learn how to configure robust external tool connections.
 
 ## References

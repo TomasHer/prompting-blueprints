@@ -261,4 +261,4 @@ This mirrors how software engineers extend a codebase with new modules rather th
 - [5 Agent Skill Design Patterns Every ADK Developer Should Know](https://lavinigam.com/posts/adk-skill-design-patterns/)
 - [Introducing Skills in ADK — Google Cloud Community](https://medium.com/google-cloud/introducing-skills-in-adk-teach-your-agent-new-tricks-one-skill-at-a-time-be319f9b1917)
 - [Google Cloud ADK Quickstart](../05-tools/google-cloud-platform-agents.md)
-- [Claude Agent Skills Playbook](claude-agent-skills.md)
+- [Claude Agent Skills Playbook](./claude-agent-skills.md)

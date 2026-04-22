@@ -379,12 +379,12 @@ The following pages from this repository are relevant to this cheat sheet:
 
 ### Claude Code Guides
 
-- [Claude Code Tool Guide](claude-code-tool-guide.md) — Comprehensive guide to Claude Code capabilities and usage
-- [Claude Code Cheatsheet Tutorial](claude-code-cheatsheet-tutorial.md) — Earlier cheatsheet reference (pre-v2.81)
-- [Claude Code Project Structure Tutorial](claude-code-project-structure-tutorial.md) — Best practices for organizing projects in Claude Code
-- [Claude Code Certification Guide](claude-code-certification-guide.md) — Certification path for Claude Code proficiency
-- [Claude Code NotebookLM Integration Tutorial](claude-code-notebooklm-integration-tutorial.md) — Guide for integrating Claude Code with NotebookLM
-- [Claude.ai vs Code vs Cowork](claude-ai-vs-code-vs-cowork.md) — Comparison of Claude.ai, Claude Code, and Cowork tools
+- [Claude Code Tool Guide](./claude-code-tool-guide.md) — Comprehensive guide to Claude Code capabilities and usage
+- [Claude Code Cheatsheet Tutorial](./claude-code-cheatsheet-tutorial.md) — Earlier cheatsheet reference (pre-v2.81)
+- [Claude Code Project Structure Tutorial](./claude-code-project-structure-tutorial.md) — Best practices for organizing projects in Claude Code
+- [Claude Code Certification Guide](./claude-code-certification-guide.md) — Certification path for Claude Code proficiency
+- [Claude Code NotebookLM Integration Tutorial](./claude-code-notebooklm-integration-tutorial.md) — Guide for integrating Claude Code with NotebookLM
+- [Claude.ai vs Code vs Cowork](./claude-ai-vs-code-vs-cowork.md) — Comparison of Claude.ai, Claude Code, and Cowork tools
 - [Claude Building Skills Guide](../04-guides/claude-building-skills-guide.md) — Guide for building custom skills with Claude
 
 ### AI Agents & MCP
@@ -398,10 +398,10 @@ The following pages from this repository are relevant to this cheat sheet:
 
 ### Coding & Spec-Driven Development
 
-- [Spec-Driven Development Tutorial](spec-driven-development-tutorial.md) — Tutorial for spec-driven development approach
-- [Spec-Driven Development AI Tutorial](spec-driven-development-ai-tutorial.md) — AI-specific spec-driven development guide
-- [Coding AI Agent Selection Tutorial](coding-ai-agent-selection-tutorial.md) — Framework for selecting appropriate coding AI agents
-- [AI Tool Chaining](ai-tool-chaining-oct-2025.md) — Chaining multiple AI tools together
+- [Spec-Driven Development Tutorial](./spec-driven-development-tutorial.md) — Tutorial for spec-driven development approach
+- [Spec-Driven Development AI Tutorial](./spec-driven-development-ai-tutorial.md) — AI-specific spec-driven development guide
+- [Coding AI Agent Selection Tutorial](./coding-ai-agent-selection-tutorial.md) — Framework for selecting appropriate coding AI agents
+- [AI Tool Chaining](./ai-tool-chaining-oct-2025.md) — Chaining multiple AI tools together
 
 ### Prompt Patterns
 

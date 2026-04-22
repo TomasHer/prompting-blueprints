@@ -13,7 +13,7 @@ Understand AI agent fundamentals: core architecture, taxonomy of capabilities, a
 [![Day 1 Preview](../assets/guides/google-2026/previews/01%20Introduction%20to%20Agents.png)](../assets/guides/google-2026/01%20Introduction%20to%20Agents.pdf)
 
 > [!NOTE]
-> See also our internal [AI Agents Overview](ai-agents-overview.md) for more context.
+> See also our internal [AI Agents Overview](./ai-agents-overview.md) for more context.
 
 **Resources**
 - [Code Resource 1: From Prompt to Action](https://www.kaggle.com/code/kaggle5daysofai/day-1a-from-prompt-to-action) | [Code Resource 2: Agent Architectures](https://www.kaggle.com/code/kaggle5daysofai/day-1b-agent-architectures)
@@ -28,7 +28,7 @@ Learn how agents interact with external systems through tools and APIs. Understa
 
 
 > [!NOTE]
-> See also our internal [MCP Guide](mcp-guide.md) for more tactics and context.
+> See also our internal [MCP Guide](./mcp-guide.md) for more tactics and context.
 
 **Resources**
 - [Code Resource 1: Agent Tools](https://www.kaggle.com/code/kaggle5daysofai/day-2a-agent-tools) | [Code Resource 2: Agent Tools Best Practices](https://www.kaggle.com/code/kaggle5daysofai/day-2b-agent-tools-best-practices)
@@ -42,7 +42,7 @@ Discover how agents maintain context across conversations. Understand Sessions f
 [![Day 3 Preview](../assets/guides/google-2026/previews/03%20Context%20Engineering:%20Sessions%20&%20Memory.png)](../assets/guides/google-2026/03%20Context%20Engineering:%20Sessions%20&%20Memory.pdf)
 
 > [!TIP]
-> Compare these approaches with our repository's guide on [Context Engineering](context-engineering.md).
+> Compare these approaches with our repository's guide on [Context Engineering](./context-engineering.md).
 
 **Resources**
 - [Code Resource 1: Agent Sessions](https://www.kaggle.com/code/kaggle5daysofai/day-3a-agent-sessions) | [Code Resource 2: Agent Memory](https://www.kaggle.com/code/kaggle5daysofai/day-3b-agent-memory)
@@ -67,7 +67,7 @@ Understand deployment lifecycle and scaling strategies. Learn Agent2Agent Protoc
 [![Day 5 Preview](../assets/guides/google-2026/previews/05%20Prototype%20to%20Production.png)](../assets/guides/google-2026/05%20Prototype%20to%20Production.pdf)
 
 > [!NOTE]
-> To understand coordination deeper, read our local [Agent-to-Agent (A2A) Protocol Guide](a2a-protocol-guide.md).
+> To understand coordination deeper, read our local [Agent-to-Agent (A2A) Protocol Guide](./a2a-protocol-guide.md).
 
 **Resources**
 - [Code Resource 1: Agent2Agent Communication](https://www.kaggle.com/code/kaggle5daysofai/day-5a-agent2agent-communication) | [Code Resource 2: Agent Deployment](https://www.kaggle.com/code/kaggle5daysofai/day-5b-agent-deployment)
