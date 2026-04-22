@@ -208,5 +208,5 @@ Studio plan: Audio overview (Debate) + flashcards (medium) + quiz (10 questions)
 - Share the notebook or chat depending on what you want to reveal.
 
 ## References
-- [NotebookLM Audio Overviews Blueprint](notebooklm-audio-overviews-blueprint.md)
-- [NotebookLM Prompting Blueprints](notebooklm-prompting-blueprints.md)
+- [NotebookLM Audio Overviews Blueprint](./notebooklm-audio-overviews-blueprint.md)
+- [NotebookLM Prompting Blueprints](./notebooklm-prompting-blueprints.md)
