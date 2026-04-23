@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Toolkit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3a 50%, #0a0a1a 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .center-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid #00d4ff;
+            box-shadow: 
+                0 0 30px rgba(0, 212, 255, 0.5),
+                0 0 60px rgba(138, 43, 226, 0.3),
+                inset 0 0 30px rgba(0, 212, 255, 0.2);
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #1a1a3a, #2a2a4a);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        .center-image::before {
+            content: '';
+            position: absolute;
+            width: 240px;
+            height: 240px;
+            border-radius: 50%;
+            border: 2px solid rgba(138, 43, 226, 0.5);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .center-image::after {
+            content: '';
+            position: absolute;
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            animation: pulse 2s ease-in-out infinite 0.5s;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.05); opacity: 0.7; }
+        }
+
+        .center-text {
+            font-size: 1.2rem;
+            color: #00d4ff;
+            text-align: center;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            width: 100%;
+            max-width: 1000px;
+            margin-top: 40px;
+        }
+
+        .tool-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            padding: 20px;
+            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-8px);
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 40px rgba(0, 212, 255, 0.2);
+            border-color: rgba(0, 212, 255, 0.5);
+        }
+
+        .tool-icon {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+        }
+
+        .tool-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 4px;
+            text-align: center;
+        }
+
+        .tool-desc {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.7);
+            text-align: center;
+        }
+
+        /* Custom icon styles */
+        .icon-prompting { color: #ffffff; }
+        .icon-lovable { color: #ff6b6b; }
+        .icon-n8n { color: #ff6d5a; }
+        .icon-langchain { color: #7dd87d; }
+        .icon-github-copilot { color: #79c0ff; }
+        .icon-perplexity { color: #ffffff; }
+        .icon-gemini { color: #4285f4; }
+        .icon-copilot { color: #00bcf2; }
+
+        /* SVG Icons */
+        .tool-icon svg {
+            width: 56px;
+            height: 56px;
+        }
+
+        @media (max-width: 900px) {
+            .tools-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 500px) {
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+            .center-image {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="center-image">
+            <span class="center-text">AI<br>Toolkit</span>
+        </div>
+
+        <div class="tools-grid">
+            <!-- Prompting Blueprints -->
+            <a href="https://github.com/TomasHer/prompting-blueprints" target="_blank" class="tool-card">
+                <div class="tool-icon icon-prompting">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                </div>
+                <span class="tool-name">Prompting Blueprints</span>
+                <span class="tool-desc">Guides & tutorials</span>
+            </a>
+
+            <!-- Lovable -->
+            <a href="https://lovable.dev" target="_blank" class="tool-card">
+                <div class="tool-icon icon-lovable">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                </div>
+                <span class="tool-name">Lovable</span>
+                <span class="tool-desc">App building</span>
+            </a>
+
+            <!-- n8n -->
+            <a href="https://n8n.io" target="_blank" class="tool-card">
+                <div class="tool-icon icon-n8n">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <circle cx="6" cy="12" r="2"/>
+                        <circle cx="12" cy="12" r="2"/>
+                        <circle cx="18" cy="12" r="2"/>
+                        <path d="M8 12h2M14 12h2" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <span class="tool-name">n8n</span>
+                <span class="tool-desc">Workflow automation</span>
+            </a>
+
+            <!-- LangChain -->
+            <a href="https://www.langchain.com" target="_blank" class="tool-card">
+                <div class="tool-icon icon-langchain">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M13.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM9.8 8.9L7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1L6 8.3V13h2V9.6l1.8-.7"/>
+                    </svg>
+                </div>
+                <span class="tool-name">LangChain</span>
+                <span class="tool-desc">Agentic framework</span>
+            </a>
+
+            <!-- GitHub Copilot -->
+            <a href="https://github.com/features/copilot" target="_blank" class="tool-card">
+                <div class="tool-icon icon-github-copilot">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                    </svg>
+                </div>
+                <span class="tool-name">GitHub Copilot</span>
+                <span class="tool-desc">Coding assistant</span>
+            </a>
+
+            <!-- Perplexity -->
+            <a href="https://www.perplexity.ai" target="_blank" class="tool-card">
+                <div class="tool-icon icon-perplexity">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                </div>
+                <span class="tool-name">Perplexity</span>
+                <span class="tool-desc">AI search & discovery</span>
+            </a>
+
+            <!-- Gemini -->
+            <a href="https://gemini.google.com/app" target="_blank" class="tool-card">
+                <div class="tool-icon icon-gemini">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/>
+                    </svg>
+                </div>
+                <span class="tool-name">Gemini</span>
+                <span class="tool-desc">Multimodal AI</span>
+            </a>
+
+            <!-- Copilot (Microsoft) -->
+            <a href="https://www.copilot.com" target="_blank" class="tool-card">
+                <div class="tool-icon icon-copilot">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                    </svg>
+                </div>
+                <span class="tool-name">Copilot</span>
+                <span class="tool-desc">Daily business tasks</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
