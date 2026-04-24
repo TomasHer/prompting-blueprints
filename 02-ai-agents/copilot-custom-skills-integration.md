@@ -1,39 +1,121 @@
 ---
 title: "Integrating Claude Agent Skills into VS Code GitHub Copilot"
 tags: ["agents", "github-copilot", "vscode", "skills", "integration"]
-last_updated: "2026-04-23"
+last_updated: "2026-04-24"
 ---
 
 # Integrating Claude Agent Skills into VS Code GitHub Copilot
 
-This tutorial shows how to take the modular skill pattern described in [Anatomy of a Claude Agent Skill](./anatomy-of-a-skill.md) and apply the same concepts inside Visual Studio Code with GitHub Copilot Agent mode. The underlying ideas — scoped instructions, progressive disclosure, and reusable capability packages — translate directly to Copilot's prompt file system.
+This tutorial shows how to take the modular skill pattern described in [Anatomy of a Claude Agent Skill](./anatomy-of-a-skill.md) and apply the same concepts inside Visual Studio Code with GitHub Copilot Agent mode.
+
+As of VS Code 1.97, Copilot natively understands the Agent Skills format: the same `SKILL.md` file you write for Claude loads directly in Copilot without any conversion. The underlying ideas — scoped instructions, progressive disclosure, and reusable capability packages — are now a shared open standard across Claude, GitHub Copilot in VS Code, Copilot CLI, and the Copilot cloud agent.
 
 ---
 
 ## Concept Mapping
 
-Claude Agent Skills and VS Code Copilot Agent share the same goal: load only the instructions a task needs, from a versioned, reusable source. The table below maps each layer of a Claude skill to its Copilot equivalent.
-
-| Claude Agent Skill | VS Code Copilot equivalent |
-|---|---|
-| `skill-name/SKILL.md` (entry point) | `.github/prompts/skill-name.prompt.md` |
-| YAML frontmatter `name` + `description` | Prompt file frontmatter `description` + `mode` |
-| Level 1 — metadata (~100 tokens) | `description` field in frontmatter (shown in Copilot Chat UI) |
-| Level 2 — instruction body | Markdown body of the `.prompt.md` file |
-| Level 3 — sibling `.md` files | Additional `.prompt.md` files referenced by `#file:` directives |
-| `scripts/` subfolder | Referenced workspace scripts via `#file:` |
-| `/plugin install` in Claude Code | Selecting the prompt in Copilot Chat `/` slash menu |
-| Repository-wide skill activation | `.github/copilot-instructions.md` |
+| Claude Agent Skill | VS Code Copilot (native skills) | VS Code Copilot (prompt files) |
+|---|---|---|
+| `skill-name/SKILL.md` | `.github/skills/skill-name/SKILL.md` | `.github/prompts/skill-name.prompt.md` |
+| YAML `name` (matches directory) | YAML `name` (must match directory) | Filename stem |
+| YAML `description` | YAML `description` (max 1024 chars) | Frontmatter `description` |
+| `user-invocable` frontmatter | `user-invocable` frontmatter | Always in slash menu |
+| `disable-model-invocation` | `disable-model-invocation` | N/A |
+| `argument-hint` | `argument-hint` | N/A |
+| Level 2 — instruction body | Markdown body of `SKILL.md` | Markdown body of `.prompt.md` |
+| Level 3 — sibling `.md` files | Relative Markdown links in body | `#file:` directives |
+| `scripts/` subfolder | Scripts referenced from body | MCP server or `terminal` tool |
+| `/plugin install anthropic:pdf` | Skills gallery / plugin install | N/A |
+| Repository-wide activation | `.github/copilot-instructions.md` | `.github/copilot-instructions.md` |
 
 ---
 
-## Three Integration Approaches
+## Native Agent Skills in Copilot
 
-Choose the approach that matches the scope you need.
+VS Code Copilot recognizes Agent Skills placed in any of the standard skills directories. No conversion is needed — the same `SKILL.md` file works for both Claude and Copilot.
+
+### Skill Locations
+
+Skills are discovered from three scopes:
+
+**Project skills** (checked into the repository, available to the whole team):
+
+```
+.github/skills/pdf/SKILL.md
+.claude/skills/pdf/SKILL.md
+.agents/skills/pdf/SKILL.md
+```
+
+**Personal skills** (stored in your home directory, shared across all projects):
+
+```
+~/.copilot/skills/pdf/SKILL.md
+~/.claude/skills/pdf/SKILL.md
+~/.agents/skills/pdf/SKILL.md
+```
+
+**Custom locations** — add additional paths via the VS Code setting `chat.agentSkillsLocations`.
+
+For monorepos, enable `chat.useCustomizationsInParentRepositories` to discover skills defined in parent directories.
+
+> **Critical requirement:** The `name` field in `SKILL.md` frontmatter must exactly match the parent directory name. A skill at `.github/skills/pdf/SKILL.md` must declare `name: pdf`.
+
+### SKILL.md Frontmatter Fields
+
+| Field | Required | Values | Purpose |
+|---|---|---|---|
+| `name` | Yes | Lowercase letters, numbers, hyphens; max 64 chars | Unique identifier; must match parent directory name |
+| `description` | Yes | String; max 1024 chars | When Copilot should use this skill; write as a usage condition |
+| `argument-hint` | No | String | Placeholder text shown in the chat input bar when the skill is invoked via slash command |
+| `user-invocable` | No | `true` (default) / `false` | `false` hides the skill from the `/` slash menu; skill still loads automatically |
+| `disable-model-invocation` | No | `false` (default) / `true` | `true` prevents Copilot from loading the skill automatically; only loads when explicitly invoked |
+
+### Activation Modes
+
+The `user-invocable` and `disable-model-invocation` fields give fine-grained control over how Copilot loads a skill:
+
+| `user-invocable` | `disable-model-invocation` | Slash menu | Auto-loaded | Typical use case |
+|---|---|---|---|---|
+| `true` (default) | `false` (default) | Yes | Yes | General-purpose skills |
+| `false` | `false` | No | Yes | Background context (e.g., coding standards, domain glossary) |
+| `true` | `true` | Yes | No | Sensitive or expensive skills; load only when explicitly requested |
+| `false` | `true` | No | No | Effectively disabled |
+
+### Verifying Skills in VS Code
+
+1. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Chat: Open Chat Customizations**.
+2. Switch to the **Skills** tab to see all discovered skills: project-scoped, personal, and plugin-contributed.
+3. In Copilot Chat, type `/` — skills appear in the picker as `/pdf` for a local skill or `/my-extension:pdf` for a plugin-contributed skill.
+
+### Community Skills Gallery
+
+The [`github/awesome-copilot`](https://github.com/github/awesome-copilot) repository is a growing community collection of skills, custom agents, instructions, and prompts. The [`anthropics/skills`](https://github.com/anthropics/skills) repository contains reference skills maintained by Anthropic. Skills contributed via VS Code extensions appear automatically in the **Chat Customizations** editor alongside locally defined skills.
+
+### Plugin System
+
+VS Code extensions can bundle and distribute skills. An extension declares skills in its `package.json`:
+
+```json
+{
+  "contributes": {
+    "chatSkills": [
+      { "path": "./skills/pdf/SKILL.md" }
+    ]
+  }
+}
+```
+
+Plugin-contributed skills appear in the slash menu prefixed with the extension name: `/my-extension:pdf`. They show up in the **Skills** tab of the Chat Customizations editor alongside local skills.
+
+---
+
+## Additional Integration Approaches
+
+The following approaches use VS Code-specific mechanisms — prompt files and MCP servers — as an alternative when you need features not available in the native SKILL.md format.
 
 ### Approach 1 — Repository Instructions (Simplest)
 
-Use `.github/copilot-instructions.md` when a skill should be active for **every** Copilot conversation in the repository. This is equivalent to a Claude skill that is always loaded rather than triggered on demand.
+Use `.github/copilot-instructions.md` when a skill should be active for **every** Copilot conversation in the repository. This is equivalent to a skill with `user-invocable: false` and `disable-model-invocation: false` — always loaded, never gated.
 
 Create the file at the repository root:
 
@@ -50,16 +132,16 @@ Port the body of your `SKILL.md` directly into this file. Omit the YAML frontmat
 
 ---
 
-### Approach 2 — Prompt Files (Recommended for Most Skills)
+### Approach 2 — Prompt Files (VS Code-Specific Alternative)
 
-Prompt files are the direct equivalent of a Claude Agent Skill folder. Each `.prompt.md` file in `.github/prompts/` appears as a slash command in Copilot Chat.
+Prompt files are a VS Code-only alternative to `SKILL.md`. Each `.prompt.md` file in `.github/prompts/` appears as a slash command in Copilot Chat and supports richer tooling declarations via frontmatter.
 
 ```
 .github/
 └── prompts/
-    ├── pdf.prompt.md          ← maps to skills/pdf/SKILL.md
-    ├── pdf-reference.prompt.md   ← maps to skills/pdf/reference.md
-    └── pdf-forms.prompt.md    ← maps to skills/pdf/forms.md
+    ├── pdf.prompt.md
+    ├── pdf-reference.prompt.md
+    └── pdf-forms.prompt.md
 ```
 
 #### Prompt File Structure
@@ -95,7 +177,7 @@ print(f"Pages: {len(reader.pages)}")
 | reportlab | Programmatic PDF creation |
 ```
 
-#### Frontmatter Fields
+#### Prompt File Frontmatter Fields
 
 | Field | Values | Purpose |
 |---|---|---|
@@ -103,10 +185,15 @@ print(f"Pages: {len(reader.pages)}")
 | `tools` | array of tool IDs | Tools Copilot may invoke during this skill session |
 | `description` | string | Shown in the `/` slash menu; write it as a routing hint |
 
-**Write the `description` as a usage condition, not a feature list** — the same advice that applies to Claude Skill frontmatter applies here. Copilot surfaces descriptions in the prompt picker; users read them to decide which prompt to activate.
+**Write the `description` as a usage condition, not a feature list** — the same advice that applies to Claude Skill frontmatter applies here.
 
 **Weak:** `"PDF skill."`
 **Strong:** `"Use when the user needs to read, extract text or tables from, merge, split, fill forms in, or create PDF files."`
+
+**When to prefer prompt files over native skills:**
+- You need an explicit `tools` list to restrict which VS Code tools Copilot can invoke.
+- You use `#file:` transclusion to compose several files into a single context load.
+- Your team uses VS Code exclusively and has no need for cross-agent portability.
 
 ---
 
@@ -143,9 +230,9 @@ description: 'PDF operations: extract, merge, split, fill forms using local tool
 
 ---
 
-## Converting the PDF Skill: Step-by-Step
+## Converting the PDF Skill to Prompt Files: Step-by-Step
 
-The following walkthrough converts the official `skills/pdf/` Claude skill to a VS Code Copilot prompt file set.
+The following walkthrough converts the official `skills/pdf/` Claude skill to a VS Code Copilot prompt file set. If you are placing the skill in a standard skills directory (`.github/skills/`), skip this section — the `SKILL.md` file works as-is.
 
 ### Step 1 — Create the prompts directory
 
@@ -297,15 +384,37 @@ c.save()
 4. Type `/` — the prompt picker should list `pdf`, `pdf-reference`, and `pdf-forms` with their descriptions.
 5. Select `pdf` and type a request such as "merge these two PDF files."
 
+Alternatively, open the Command Palette and run **Chat: Open Chat Customizations** to see all skills and prompts in the **Skills** and **Prompts** tabs.
+
 ---
 
 ## Workspace Layout for Multiple Skills
 
-For a repository that hosts several skills, use a flat structure in `.github/prompts/`. Prefixing related files with the skill name keeps the slash menu scannable.
+### Native Skills Layout
 
 ```
 .github/
 ├── copilot-instructions.md      ← always-on repo standards
+└── skills/
+    ├── pdf/
+    │   ├── SKILL.md
+    │   ├── reference.md
+    │   └── forms.md
+    ├── docx/
+    │   └── SKILL.md
+    └── pptx/
+        └── SKILL.md
+```
+
+This layout is identical to the Claude Skills layout and works for both agents without modification.
+
+### Prompt Files Layout (VS Code-Specific)
+
+For a repository that uses prompt files instead, use a flat structure in `.github/prompts/`. Prefixing related files with the skill name keeps the slash menu scannable.
+
+```
+.github/
+├── copilot-instructions.md
 └── prompts/
     ├── pdf.prompt.md
     ├── pdf-reference.prompt.md
@@ -315,45 +424,32 @@ For a repository that hosts several skills, use a flat structure in `.github/pro
     └── xlsx.prompt.md
 ```
 
-Compare this to the Claude Skills layout:
-
-```
-skills/
-├── pdf/
-│   ├── SKILL.md
-│   ├── reference.md
-│   └── forms.md
-├── docx/
-│   └── SKILL.md
-└── pptx/
-    └── SKILL.md
-```
-
-The main structural difference is that Copilot uses a flat directory (`.github/prompts/`) with prefixed file names, while Claude Skills use a nested directory per skill. The content inside each file is identical or nearly identical.
+The main structural difference is that prompt files use a flat directory with prefixed file names, while native skills (and Claude Skills) use a nested directory per skill.
 
 ---
 
 ## Progressive Disclosure in Copilot
 
-The three-level progressive disclosure model from Claude Skills maps to Copilot as follows:
+The three-level progressive disclosure model maps identically to both native skills and prompt files:
 
 ```
 Level 1 — Description     (shown in slash menu, ~20 tokens)
   └─ frontmatter `description` field
 
-Level 2 — Instructions    (loaded when prompt activates, <5 000 tokens)
-  └─ Markdown body of the .prompt.md file
+Level 2 — Instructions    (loaded when skill activates, <5 000 tokens)
+  └─ Markdown body of SKILL.md or .prompt.md
 
-Level 3 — Resources       (loaded on demand via #file: references)
-  └─ Additional .prompt.md files, workspace scripts
+Level 3 — Resources       (loaded on demand)
+  └─ Native skills: relative Markdown links
+  └─ Prompt files: #file: directives
 ```
 
-To keep Level 2 lean, apply the same rules as Claude Skills:
+To keep Level 2 lean:
 
-- Keep the main `.prompt.md` body under 5 000 tokens.
-- Move rarely-needed advanced content into a `-reference.prompt.md` file.
-- Move task-specific branching workflows into their own named `.prompt.md` files.
-- Always reference sibling files with `#file:` directives: `#file:pdf-reference.prompt.md`.
+- Keep the main file body under 5 000 tokens.
+- Move rarely-needed advanced content into a `-reference` file.
+- Move task-specific branching workflows into their own named files.
+- Reference sibling files explicitly in the body so the model knows to load them.
 
 ---
 
@@ -361,48 +457,56 @@ To keep Level 2 lean, apply the same rules as Claude Skills:
 
 The authoring guidelines from Claude Skills apply without modification:
 
-- **Description field:** Write as a routing condition. Users read descriptions in the slash menu to decide which prompt to activate. Make the trigger conditions explicit.
-- **Instruction body:** Lead with a Quick Start. Simple tasks should resolve from Level 2 without needing any `#file:` references.
+- **Description field:** Write as a routing condition. Users read descriptions in the slash menu to decide which skill to activate. Make the trigger conditions explicit.
+- **Instruction body:** Lead with a Quick Start. Simple tasks should resolve from Level 2 without needing any sibling-file references.
 - **Second person:** "You are working with PDFs…" — Copilot responds to instructions addressed directly.
 - **Fenced code blocks:** Include every command and script snippet in a fenced block with a language tag.
 - **Quick Reference section:** List every supported operation as a bullet. This helps Copilot confirm it activated the correct skill.
-- **Branching logic:** Express decision trees as numbered steps with conditional sub-bullets — the same structure that works in `forms.md` works identically in Copilot.
+- **Branching logic:** Express decision trees as numbered steps with conditional sub-bullets.
 
 ---
 
 ## Security Considerations
 
-Copilot prompt files can direct Copilot to run terminal commands and write files. Apply the same audit checklist you would for a Claude Agent Skill:
+Copilot skills and prompt files can direct Copilot to run terminal commands and write files. Apply the same audit checklist you would for a Claude Agent Skill:
 
-1. Read every `.prompt.md` file before activating it in agent mode.
-2. Inspect any scripts referenced via `#file:` or called from the prompt body.
-3. Confirm the prompt does not instruct Copilot to send data to external URLs.
-4. Restrict `tools` in the frontmatter to only what the skill genuinely needs — avoid including `fetchUrl` unless the skill requires network access.
-5. For team repositories, review prompt files in pull requests the same way you review code changes.
+1. Read every `SKILL.md` or `.prompt.md` file before activating it in agent mode.
+2. Inspect any scripts referenced from the skill body or called via the terminal tool.
+3. Confirm the skill does not instruct Copilot to send data to external URLs.
+4. For prompt files, restrict `tools` in the frontmatter to only what the skill genuinely needs — avoid including `fetchUrl` unless the skill requires network access.
+5. For team repositories, review skill files in pull requests the same way you review code changes.
+6. Personal skills in `~/.copilot/skills/` are loaded for every project — audit them as carefully as you would a shell profile.
 
 ---
 
 ## Platform Comparison
 
-| Capability | Claude Agent Skills | VS Code Copilot Prompt Files |
-|---|---|---|
-| Skill entry point | `SKILL.md` | `.prompt.md` |
-| Metadata / routing | YAML frontmatter `name` + `description` | Frontmatter `description` |
-| Instruction body | Markdown | Markdown |
-| Sibling files | `./reference.md` | `#file:pdf-reference.prompt.md` |
-| Always-on instructions | N/A (per-skill activation) | `.github/copilot-instructions.md` |
-| Executable tools | `scripts/` subfolder | MCP server or `terminal` tool |
-| Install command | `/plugin install anthropic:pdf` | `/` slash menu in Copilot Chat |
-| Max skills per session | 8 | Unlimited (but keep body lean) |
-| Context budget | ~5 000 tokens per skill | ~5 000 tokens recommended per prompt |
+| Capability | Claude Agent Skills | VS Code Copilot (native skills) | VS Code Copilot (prompt files) |
+|---|---|---|---|
+| Skill entry point | `SKILL.md` | `SKILL.md` | `.prompt.md` |
+| Metadata / routing | YAML frontmatter | YAML frontmatter (identical schema) | Frontmatter `description` |
+| Cross-agent portability | Yes (open standard) | Yes (open standard) | No (VS Code only) |
+| Instruction body | Markdown | Markdown | Markdown |
+| Sibling file references | Relative Markdown links | Relative Markdown links | `#file:` directives |
+| Always-on instructions | N/A | `.github/copilot-instructions.md` | `.github/copilot-instructions.md` |
+| Executable tools | `scripts/` subfolder | Scripts referenced from body | MCP server or `terminal` tool |
+| Explicit tool allowlist | No | No | `tools` frontmatter field |
+| Install command | `/plugin install anthropic:pdf` | Skills gallery / plugin install | N/A |
+| Auto-load control | `user-invocable` + `disable-model-invocation` | `user-invocable` + `disable-model-invocation` | Always user-invoked |
+| Personal skill scope | N/A | `~/.copilot/skills/` | N/A |
+| Max skills per session | 8 | Unlimited (progressive loading) | Unlimited (but keep body lean) |
+| Context budget | ~5 000 tokens per skill | ~5 000 tokens per skill | ~5 000 tokens recommended |
 
 ---
 
 ## References
 
 - [Anatomy of a Claude Agent Skill](./anatomy-of-a-skill.md)
-- [GitHub — anthropics/skills repository](https://github.com/anthropics/skills)
+- [VS Code Docs — Agent Skills](https://code.visualstudio.com/docs/copilot/customization/agent-skills)
 - [VS Code Docs — Copilot custom instructions](https://code.visualstudio.com/docs/copilot/copilot-customization)
 - [VS Code Docs — Prompt files (`.prompt.md`)](https://code.visualstudio.com/docs/copilot/copilot-customization#_reusable-prompt-files-experimental)
 - [VS Code Docs — MCP servers in VS Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers)
 - [VS Code Docs — Copilot Agent mode](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode)
+- [GitHub — anthropics/skills repository](https://github.com/anthropics/skills)
+- [GitHub — github/awesome-copilot (community gallery)](https://github.com/github/awesome-copilot)
+- [GitHub Changelog — Copilot now supports Agent Skills](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills/)
