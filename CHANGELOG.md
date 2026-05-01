@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add agent context window performance tutorial explaining why larger context windows degrade instruction following, with GPT-5.4 MRCR benchmark data and findings from the ETH Zurich AGENTS.md study (arXiv 2602.11988).
 - Fix broken internal markdown links across repository files including the Google ADK guide and the 5-Day AI Agents course.
 - Add spec-driven development tutorial covering vibecoding-to-production workflows with Kiro Specs/Hooks, Claude Code CLI, Strands Agents SDK, and Antigravity.
 - Add Everything Claude Code GitHub repository references to the external sources index and Claude Code tutorials.
