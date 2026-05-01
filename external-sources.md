@@ -11,6 +11,8 @@
 - [AI Shot Studio – 42 Camera Movements for AI Video Prompts](https://aishotstudio.com/42-camera-movements-ai-prompts/)
 - [Agent Development Kit Documentation (Google)](https://google.github.io/adk-docs/)
 - [agents.md](https://agents.md)
+- [arXiv 2601.20404 — On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents](https://arxiv.org/abs/2601.20404)
+- [arXiv 2602.11988 — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](https://arxiv.org/abs/2602.11988)
 - [Albertina Bekhti – Vibe Research Instead of Deep Research? AI Agents and the Future of Scientific Discovery](https://medium.com/@abertina/vibe-research-instead-of-deep-research-ai-agents-and-the-future-of-scientific-discovery-4d561248f3e2)
 - [Anthropic – Building agents with the Claude Agent SDK](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk)
 - [Anthropic – Claude](https://www.anthropic.com/claude)
