@@ -54,42 +54,44 @@ The "1M context" label is a ceiling, not a recommended operating range.
 
 ### ETH Zurich — Evaluating AGENTS.md (arXiv 2602.11988)
 
-Researchers Thibaud Gloaguen, Niels Mündler, Mark Müller, Veselin Raychev, and Martin Vechev (ETH Zurich) conducted the first rigorous empirical study on whether `AGENTS.md` context files actually help coding agents. Their benchmarks:
+Researchers Thibaud Gloaguen, Niels Mündler, Mark Müller, Veselin Raychev, and Martin Vechev (ETH Zurich, SRI Lab) conducted the first rigorous empirical study on whether `AGENTS.md` context files actually help coding agents. They tested four agents — **Claude Code (Sonnet-4.5)**, **Codex (GPT-5.2)**, **Codex (GPT-5.1 mini)**, and **Qwen Code (Qwen3-30b-coder)** — against two benchmarks:
 
 - **SWE-bench Lite** — 300 tasks from 11 popular Python repositories, paired with LLM-generated context files
-- **AGENTbench** — 138 tasks from 12 repositories containing real developer-committed context files
+- **AGENTbench** (their new benchmark) — 138 tasks from 12 repositories, drawn from 5,694 real GitHub pull requests, all containing developer-committed context files
 
 **Key results:**
 
 | Context file type | Effect on task success rate |
 | :--- | :--- |
-| LLM-generated context files (SWE-bench Lite) | −0.5 pp on average |
-| LLM-generated context files (AGENTbench) | −2 to −3 pp depending on model |
-| Developer-written minimal context files | Slight improvement |
+| LLM-generated (SWE-bench Lite) | −0.5 pp on average |
+| LLM-generated (AGENTbench) | −2 to −3 pp (5 of 8 evaluation settings degraded) |
+| Developer-written, minimal (AGENTbench) | +4 pp on average |
 
-**Cost impact:** Inference costs increase by **20–23%** when context files are present — agents execute more steps and produce longer reasoning traces, even when those files are hurting task success.
+**Cost impact:** Inference costs increase by **19–23%** regardless of file quality — both LLM-generated and human-written context files trigger this overhead.
 
-The finding that agents explore *more* while succeeding *less* is a clear signal: the added instructions are not being followed correctly. They are creating noise that triggers additional, often misdirected, exploration.
+**The "too obedient" trap:** Agents closely follow every instruction in context files, even when those instructions are irrelevant to the task at hand. This produces more test runs, more file traversals, more grep searches, and longer reasoning chains — none of which translate to higher task success. Agents do more work and solve fewer problems. This is not a failure of instruction following; it is instruction following working exactly as designed, applied to the wrong instructions.
 
 ---
 
 ## Why This Happens
 
-### Attention is not uniform
+There are two distinct but related failure modes. Both lead to the same outcome: agents that don't do what you expect.
 
-Transformer attention is not distributed evenly across the context. Models attend most strongly to the **beginning** (primacy) and **end** (recency) of the context window. Instructions buried in the middle — including large `AGENTS.md` files — are systematically under-attended at long contexts.
+### Failure mode 1 — Attention degradation at long contexts
 
-### Training distribution mismatch
+Transformer attention is not distributed evenly across the context. Models attend most strongly to the **beginning** (primacy) and **end** (recency) of the context window. Instructions buried in the middle are systematically under-attended, and this effect worsens as context grows.
 
-Models see far fewer long sequences during pre-training than short ones. Reliability at extreme context lengths is not well-supported by the training distribution, regardless of the technical context limit.
+Models also see far fewer long sequences during pre-training than short ones, so reliability at extreme context lengths is not well-supported by the training distribution — regardless of the technical context limit.
 
-### Instruction density drops
+As a session fills with tool results, file reads, and reasoning steps, the ratio of *instruction tokens* to *total tokens* falls sharply. Rules the agent followed at turn 3 may be silently dropped by turn 30.
 
-As context fills with tool results, file reads, and reasoning steps, the ratio of *instruction tokens* to *total tokens* falls sharply. The model's effective instruction signal weakens with every additional tool call.
+### Failure mode 2 — Over-instruction compliance ("too obedient" agents)
 
-### Conflicting signals compound
+The ETH Zurich paper identifies a subtler problem: agents that follow instructions *too well*. When a context file contains bloated or redundant guidance, a well-trained coding agent executes every line of it — even when those instructions add no value for the specific task. The agent becomes thorough in the wrong direction.
 
-When an `AGENTS.md` file adds dozens of requirements and the conversation history adds dozens more constraints, the model resolves conflicts silently — often by ignoring lower-salience rules entirely.
+LLM-generated context files are the worst offenders because they largely restate information already present in README files or inferable from the codebase structure. They consume context budget and trigger extra agent work without providing actionable signal.
+
+The two modes can compound: a bloated `AGENTS.md` exhausts context budget early, pushing critical later instructions into the low-attention middle zone.
 
 ---
 
@@ -123,10 +125,11 @@ Do not dump all context at the start of a session. Inject information just-in-ti
 
 Based on the ETH Zurich findings, if you maintain an `AGENTS.md` (or `CLAUDE.md`, `CURSOR.md`, etc.):
 
-- Include only **minimal, concrete requirements**: specific tooling commands, test invocation patterns, repo-specific constraints
-- Omit general best practices that the model already knows
-- Omit LLM-generated boilerplate — it increases cost and decreases performance
-- Treat the file as a delta from defaults, not a complete specification
+- **Aim for under ~300 lines.** Shorter, more targeted files correlate with better (or at least non-degraded) agent performance.
+- Include only what is **non-inferable from the codebase itself**: specific build commands, custom test invocation, non-obvious environment setup.
+- Omit general best practices — the model already knows them and following redundant reminders wastes tokens and agent steps.
+- **Never use LLM-generated context files** as-is. They restate README content and inflate cost without improving task success.
+- Treat the file as a delta from defaults, not a complete specification.
 
 ### 4. Set aggressive context warnings
 
