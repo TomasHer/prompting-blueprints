@@ -4,6 +4,7 @@
 
 ### A
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382)](https://arxiv.org/abs/2302.11382)
+- [Agrici Daniel – claude-obsidian: AI-Powered Knowledge Management System (GitHub)](https://github.com/AgriciDaniel/claude-obsidian)
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
 - [A2A .NET SDK (GitHub)](https://github.com/a2aproject/a2a-dotnet)
 - [A2A Protocol Documentation – Get started](https://a2a-protocol.org/latest/#get-started-with-a2a)
@@ -118,6 +119,7 @@
 ### K
 
 - [Kaggle 5-Day AI Agents Course Guide](https://www.kaggle.com/learn-guide/5-day-agents)
+- [Karpathy Andrej – LLM Wiki: A Pattern for Building Personal Knowledge Bases (GitHub Gist)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - [KIRO – Hooks documentation](https://kiro.dev/docs/hooks/)
 - [KIRO – Specs documentation](https://kiro.dev/docs/specs/)
 - [KIRO](https://kiro.studio/)
@@ -166,6 +168,7 @@
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
 
 ### O
+- [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
 - [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
 - [On Tech Ethics Podcast – Vibe Research and the Future of Science (CITI Program)](https://about.citiprogram.org/blog/on-tech-ethics-podcast-vibe-research-and-the-future-of-science/)
 - [OpenClaw](https://openclaw.ai)
