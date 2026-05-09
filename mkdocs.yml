@@ -33,6 +33,8 @@ nav:
     - Anatomy of a Claude Agent Skill: 02-ai-agents/anatomy-of-a-skill.md
     - Claude Agent Skills Playbook: 02-ai-agents/claude-agent-skills.md
     - Claude Building Skills Guide: 04-guides/claude-building-skills-guide.md
+    - Skills Design Patterns: 02-ai-agents/skills-design-patterns.md
+    - Skills Testing and Iteration: 02-ai-agents/skills-testing-iteration.md
     - Claude AI vs Claude Code vs Claude Cowork: 05-tools/claude-ai-vs-code-vs-cowork.md
     - Cowork Tool Selection Tutorial: 05-tools/cowork-tool-selection-tutorial.md
     - Claude Code Tool Guide: 05-tools/claude-code-tool-guide.md
