@@ -65,6 +65,53 @@ Use layered loading so Claude pulls only what is needed:
 
 ---
 
+## Planning your skill: use-case methodology
+
+Before writing any instructions, define 2–3 concrete use cases your skill must handle. A good use case has four parts:
+
+| Part | What to define |
+|---|---|
+| **Trigger** | The exact phrase or intent that should activate the skill |
+| **Steps** | The ordered actions Claude must take |
+| **Tools needed** | Built-in Claude capabilities or specific MCP tools |
+| **Result** | What a successful completion looks like |
+
+**Example:**
+
+```
+Trigger: "help me plan this sprint" or "create sprint tasks"
+Steps:
+  1. Fetch current project status from Linear (via MCP)
+  2. Analyse team velocity and capacity
+  3. Suggest task prioritisation
+  4. Create tasks with proper labels and estimates
+Result: Fully planned sprint with tasks created in Linear
+```
+
+Ask yourself before building:
+- What does a user want to accomplish?
+- What multi-step workflow does this require?
+- Which tools are needed (built-in Claude capabilities or MCP)?
+- What domain knowledge or best practices should be embedded?
+
+---
+
+## Defining success criteria
+
+Set measurable targets before testing so you know when to stop iterating.
+
+**Quantitative:**
+- Skill triggers on ≥ 90% of relevant queries — run 10–20 representative prompts and count automatic loads vs. manual invocations.
+- Target tool call count per workflow — compare with and without the skill to confirm it reduces back-and-forth.
+- Zero failed API calls per run — monitor MCP server logs during testing for retry rates and error codes.
+
+**Qualitative:**
+- Users do not need to prompt Claude for next steps during the workflow.
+- Workflow completes without user correction across 3–5 repeated runs.
+- A new user can accomplish the task on first try with minimal guidance.
+
+---
+
 ## Critical technical requirements
 
 ### File structure
@@ -73,7 +120,7 @@ Use layered loading so Claude pulls only what is needed:
 - Do **not** use `README.md` inside a skill folder
 
 ### Required YAML frontmatter
-- `name`: should be in **UPPER-CASE**
+- `name`: must be in **kebab-case** (lowercase letters, numbers, and hyphens only)
 - `description`: must explain
   - what the skill does,
   - when to use it,
@@ -114,8 +161,43 @@ Why bad: too vague and lacks triggers.
 
 ---
 
+## Distribution essentials
+
+### Installing a skill
+
+**Claude.ai / Claude Code (individual):**
+1. Zip the skill folder: `zip -r my-skill.zip my-skill/`
+2. Claude.ai → Settings → Capabilities → Skills → Upload skill
+3. For Claude Code: place the unzipped folder in `.claude/skills/`
+
+**Organisation-wide:** Admins can deploy skills workspace-wide from the Anthropic console. Skills update automatically for all users without manual reinstallation.
+
+### Using skills via the API
+
+Add the `container.skills` parameter and the required beta headers to any Messages API request:
+
+```python
+headers = {
+    "anthropic-beta": "code-execution-2025-08-25,skills-2025-10-02,files-api-2025-04-14"
+}
+```
+
+Up to 8 skills per request. Skills require the Code Execution Tool beta for their sandboxed runtime environment.
+
+| Use case | Best surface |
+|---|---|
+| End users interacting directly | Claude.ai / Claude Code |
+| Manual testing during development | Claude.ai / Claude Code |
+| Applications using skills programmatically | API |
+| Automated pipelines and agent systems | API |
+
+---
+
 ## Practical takeaway
 If prompt engineering helped you get one-off results, skills help you operationalize those results at scale. Start by creating one narrowly scoped skill with strong triggers and clear step-by-step instructions, then compose it with others as your workflows grow.
 
-## Source context
-This guide is based on your provided summary of Anthropic’s skill-building framework and aligned with your existing **[Claude Agent Skills Playbook](../02-ai-agents/claude-agent-skills.md)**.
+## References
+- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](../assets/guides/anthropic-claude-skills-guide.pdf)
+- [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
+- [Anatomy of a Claude Agent Skill](../02-ai-agents/anatomy-of-a-skill.md)
+- [Claude Agent Skills Playbook](../02-ai-agents/claude-agent-skills.md)

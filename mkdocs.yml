@@ -32,6 +32,9 @@ nav:
     - Best AI Apps for 2026: 05-tools/best-ai-apps-2026.md
     - Anatomy of a Claude Agent Skill: 02-ai-agents/anatomy-of-a-skill.md
     - Claude Agent Skills Playbook: 02-ai-agents/claude-agent-skills.md
+    - Claude Building Skills Guide: 04-guides/claude-building-skills-guide.md
+    - Skills Design Patterns: 02-ai-agents/skills-design-patterns.md
+    - Skills Testing and Iteration: 02-ai-agents/skills-testing-iteration.md
     - Claude AI vs Claude Code vs Claude Cowork: 05-tools/claude-ai-vs-code-vs-cowork.md
     - Cowork Tool Selection Tutorial: 05-tools/cowork-tool-selection-tutorial.md
     - Claude Code Tool Guide: 05-tools/claude-code-tool-guide.md
@@ -97,7 +100,6 @@ nav:
     - Reasoning vs. Classic LLMs: 04-guides/reasoning-vs-classic-llms.md
     - Reasoning vs. Classic LLMs (DE): 04-guides/reasoning-vs-classic-llms-de.md
     - Codex Agent Prompting Guide: 04-guides/codex-agent-prompting-guide.md
-    - Claude Building Skills Guide: 04-guides/claude-building-skills-guide.md
     - Fine-Tune an Open Source LLM with Claude: 04-guides/claude-fine-tune-llm.md
     - FunctionGemma Fine-Tuning + Local Serving (LM Studio): 04-guides/finetune-functiongemma.md
     - Best Model Providers for AI Agents for 2026: 02-ai-agents/models-for-ai-agents-2026.md

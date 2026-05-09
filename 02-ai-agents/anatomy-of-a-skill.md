@@ -59,6 +59,35 @@ description: Comprehensive PDF toolkit for extracting text and tables,
 
 **Write the description as a usage hint, not a feature list.** Claude matches user intent against descriptions. "Use this skill when the user needs to read, create, merge, split, or fill PDF documents" outperforms "PDF operations toolkit."
 
+### Optional fields
+
+| Field | Constraint | Purpose |
+|---|---|---|
+| `license` | string e.g. `MIT`, `Apache-2.0` | Licence declaration for open-source skills |
+| `compatibility` | 1–500 chars | Environment requirements: platform, system packages, network access |
+| `allowed-tools` | space-separated tool specs | Restrict which tools the skill may invoke |
+| `metadata` | key-value object | Custom fields: `author`, `version`, `mcp-server`, `category`, `tags` |
+
+Full frontmatter with all optional fields:
+
+```yaml
+---
+name: my-skill
+description: What it does. Use when user asks to [specific phrases].
+license: MIT
+compatibility: Requires Python 3.11+. Network access to api.example.com needed.
+allowed-tools: "Bash(python:*) WebFetch"
+metadata:
+  author: YourCompany
+  version: 1.0.0
+  mcp-server: my-service
+  category: productivity
+  tags: [automation, reporting]
+---
+```
+
+**Security:** Never include XML angle brackets (`<` or `>`) in frontmatter — it is injected directly into Claude's system prompt. Skills named with a `claude` or `anthropic` prefix are reserved and will be rejected on upload.
+
 ### Markdown Body
 
 Everything after the frontmatter is the instruction document — plain GitHub-flavoured Markdown. Use headings, bullet lists, fenced code blocks, and tables exactly as you would in any documentation file.
@@ -322,6 +351,70 @@ The official [anthropics/skills](https://github.com/anthropics/skills) repositor
 
 ---
 
+## Troubleshooting
+
+### Skill won't upload
+
+**"Could not find SKILL.md"** — The file is not named exactly `SKILL.md`. No variations (`skill.md`, `SKILL.MD`) are accepted. Rename and re-zip.
+
+**"Invalid frontmatter"** — YAML formatting error. Common mistakes:
+
+```yaml
+# Wrong — missing --- delimiters
+name: my-skill
+description: Does things
+
+# Wrong — unclosed quote
+description: "Does things
+
+# Correct
+---
+name: my-skill
+description: Does things.
+---
+```
+
+**"Invalid skill name"** — `name` contains spaces or uppercase letters. Use only lowercase letters, numbers, and hyphens: `my-skill-name`.
+
+### Skill does not trigger
+
+Claude reads the `description` to route requests. If the skill never loads automatically:
+
+- The description is too generic — "Helps with projects" matches nothing specific.
+- Trigger phrases are absent — add phrases users would actually type.
+- Domain-specific terms are missing — if users say "OCR" or "PDF form", those exact words must appear in the description.
+
+**Debug:** Ask Claude `"When would you use the [skill-name] skill?"` — it will quote the description back verbatim. Adjust based on what is missing or vague.
+
+### Skill triggers too often
+
+Narrow scope and add negative triggers:
+
+```
+description: Advanced PDF analysis for legal contracts. Use for clause
+extraction and redline comparison. Do NOT use for simple PDF reading
+(use the pdf skill instead).
+```
+
+### MCP connection issues
+
+If the skill loads but MCP calls fail, work through this checklist in order:
+
+1. Verify the MCP server shows "Connected" in Claude.ai Settings > Extensions.
+2. Confirm the API key is valid and unexpired; refresh OAuth tokens if applicable.
+3. Test the MCP independently — ask Claude to call the MCP tool directly without the skill active. If this fails, the issue is in the MCP configuration, not the skill.
+4. Confirm that tool names in the skill match the MCP server's actual tool names exactly (names are case-sensitive).
+
+### Large context / slow responses
+
+Symptoms: noticeably slow responses or degraded output quality.
+
+- Keep `SKILL.md` under 5 000 tokens. Move deep reference content to `references/` sibling files and link to them.
+- If you have more than 20–50 skills enabled simultaneously, consider selective enablement or grouping related skills into packs.
+- Check that the skill uses Level 3 correctly — the body should reference sibling files rather than inlining all content.
+
+---
+
 ## References
 
 - [GitHub — anthropics/skills repository](https://github.com/anthropics/skills)
@@ -330,3 +423,5 @@ The official [anthropics/skills](https://github.com/anthropics/skills) repositor
 - [Claude Agent Skills Playbook](./claude-agent-skills.md)
 - [Anthropic — Agent Skills overview](https://www.anthropic.com/news/skills)
 - [Anthropic engineering — Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
+- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](../assets/guides/anthropic-claude-skills-guide.pdf)
+- [Claude Building Skills Guide](../04-guides/claude-building-skills-guide.md)
