@@ -182,6 +182,58 @@ Synonyms go in a `## Aliases` section.
 
 ## Contradiction Protocol
 Flag with: > ⚠️ Contradiction: [Page A] claims X, [Page B] claims Y. Source: [citations]
+
+## Diagrams
+Use Mermaid fenced code blocks (```` ```mermaid ````), not image files.
+Name diagram pages: `Diagram: <Topic>.md`
+```
+
+## Diagrams in the Wiki
+
+PNG images are a blind spot in AI-maintained wikis. An LLM can read, update, and cross-reference markdown text, but it cannot modify a raster image. Every architectural diagram stored as a PNG is frozen: when the system it depicts changes, the diagram silently becomes stale.
+
+[Mermaid.js](https://mermaid.js.org) solves this. Mermaid diagrams are plain text written inside a fenced code block, rendered natively by GitHub, Obsidian, and VS Code — the exact stack this pattern relies on:
+
+````markdown
+```mermaid
+flowchart TD
+    A[Raw Sources] -->|ingest| B[LLM Wiki]
+    B -->|schema rules| C[WIKI.md / CLAUDE.md]
+    C -->|governs| B
+    B -->|query| D[Synthesized Answer]
+```
+````
+
+Because the diagram is text, the LLM can:
+
+- **Generate** a new diagram from a description or an existing wiki page
+- **Update** it when the underlying system changes (same as editing any page)
+- **Lint** it — detect orphaned nodes, missing labels, or structural inconsistencies
+- **Cross-reference** it — link a diagram page to the entity pages it depicts
+
+Treat each Mermaid diagram as a first-class wiki page. Add it to the index, give it a stable name, and list it in the `## Related pages` section of every entity it covers.
+
+### Diagram Types Useful for Knowledge Wikis
+
+| Type | Mermaid keyword | Use case |
+| :--- | :--- | :--- |
+| Process flow | `flowchart` | Workflows, decision trees, pipelines |
+| Relationships | `erDiagram` | Entity links, data models |
+| Sequence | `sequenceDiagram` | Agent interactions, API call order |
+| Hierarchy | `classDiagram` | Taxonomy, inheritance |
+| Timeline | `timeline` | Product history, research chronology |
+
+### Schema Addition for Diagrams
+
+Add this block to your `WIKI.md` schema:
+
+```markdown
+## Diagram Pages
+- Use Mermaid fenced code blocks, not images
+- File name: `Diagram: <Topic>.md`
+- Required sections: purpose (one sentence), the diagram block, linked entity pages
+- Update the diagram when any linked entity page changes
+- Flag stale diagrams with: > ⚠️ Diagram may be stale — [EntityPage] was updated on YYYY-MM-DD
 ```
 
 ## Practical Tips
