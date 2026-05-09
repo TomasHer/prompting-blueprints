@@ -330,3 +330,5 @@ The official [anthropics/skills](https://github.com/anthropics/skills) repositor
 - [Claude Agent Skills Playbook](./claude-agent-skills.md)
 - [Anthropic — Agent Skills overview](https://www.anthropic.com/news/skills)
 - [Anthropic engineering — Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
+- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](../assets/guides/anthropic-claude-skills-guide.pdf)
+- [Claude Building Skills Guide](../04-guides/claude-building-skills-guide.md)

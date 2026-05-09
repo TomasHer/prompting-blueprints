@@ -117,5 +117,8 @@ Why bad: too vague and lacks triggers.
 ## Practical takeaway
 If prompt engineering helped you get one-off results, skills help you operationalize those results at scale. Start by creating one narrowly scoped skill with strong triggers and clear step-by-step instructions, then compose it with others as your workflows grow.
 
-## Source context
-This guide is based on your provided summary of Anthropic’s skill-building framework and aligned with your existing **[Claude Agent Skills Playbook](../02-ai-agents/claude-agent-skills.md)**.
+## References
+- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](../assets/guides/anthropic-claude-skills-guide.pdf)
+- [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
+- [Anatomy of a Claude Agent Skill](../02-ai-agents/anatomy-of-a-skill.md)
+- [Claude Agent Skills Playbook](../02-ai-agents/claude-agent-skills.md)
