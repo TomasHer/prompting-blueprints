@@ -405,7 +405,6 @@ The following pages from this repository are relevant to this cheat sheet:
 ### Coding & Spec-Driven Development
 
 - [Spec-Driven Development Tutorial](./spec-driven-development-tutorial.md) — Tutorial for spec-driven development approach
-- [Spec-Driven Development AI Tutorial](./spec-driven-development-ai-tutorial.md) — AI-specific spec-driven development guide
 - [Coding AI Agent Selection Tutorial](./coding-ai-agent-selection-tutorial.md) — Framework for selecting appropriate coding AI agents
 - [AI Tool Chaining](./ai-tool-chaining-oct-2025.md) — Chaining multiple AI tools together
 

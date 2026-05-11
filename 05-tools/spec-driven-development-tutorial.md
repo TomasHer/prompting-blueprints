@@ -140,6 +140,42 @@ Hooks complement Specs by enforcing the *how* of your SDLC while Specs define th
 
 Google Antigravity is Google's AI-native IDE, designed to embed generative AI assistance directly into the development environment. Like Kiro, it supports steering agent behaviour through structured context rather than freeform prompting — meaning spec documents written for one tool can inform agent behaviour in another when stored in the repository.
 
+### GitHub spec-kit
+
+[GitHub spec-kit](https://github.com/github/spec-kit) is an open-source toolkit that turns vague app ideas into agent-ready blueprints. Where Kiro Specs live inside a single IDE, spec-kit is tool-agnostic: its commands work across 30+ AI coding agents — including Claude, Gemini, Cursor, and GitHub Copilot — so the same specification artifacts drive implementation regardless of which agent executes the work.
+
+The core idea is that a spec should be an **executable artifact**, not preliminary scaffolding. spec-kit enforces a structured seven-step workflow via slash commands that can be invoked in any supported agent:
+
+| Command | Purpose |
+|---|---|
+| `/speckit.constitution` | Establish project governance principles |
+| `/speckit.specify` | Define functional requirements |
+| `/speckit.clarify` | Validate and sharpen requirements (optional) |
+| `/speckit.plan` | Generate technical architecture plan |
+| `/speckit.tasks` | Break the plan into actionable tasks |
+| `/speckit.implement` | Execute implementation step by step |
+| `/speckit.analyze` | Check consistency across all artifacts |
+
+**Why it fits spec-driven development:** spec-kit prevents agents from drifting into ad-hoc vibe coding by requiring that a constitution, specification, and plan exist before a single line of implementation is written. The `analyze` command can be run at any point to verify that code, tests, and documentation remain consistent with the original spec — acting as a lightweight, continuous spec-conformance gate.
+
+**Getting started:**
+```bash
+# Inside any supported AI agent, start with governance
+/speckit.constitution
+
+# Then write the spec for your feature
+/speckit.specify
+
+# Generate a plan and task breakdown
+/speckit.plan
+/speckit.tasks
+
+# Execute — the agent works through tasks against the spec
+/speckit.implement
+```
+
+spec-kit also supports 100+ community extensions for specialised workflows and presets that let teams customise artifact formats and terminology without modifying the core tooling. Store the generated spec artifacts in your repository alongside your `CLAUDE.md` or Kiro Specs so every agent — CLI or IDE — reads from the same source of truth.
+
 ---
 
 ## AI CLI tools
@@ -249,10 +285,11 @@ The human reviews the agent's execution log, confirms the plan matches the Spec,
 | Need | Recommended tool |
 |---|---|
 | Fast prototype | Lovable, bolt.new, Replit |
-| Feature spec with task list | Kiro Specs |
+| Feature spec with task list | Kiro Specs, GitHub spec-kit |
 | Automated quality gates | Kiro Hooks |
 | Terminal-based AI coding agent | Claude Code CLI |
 | Repeatable operational SOPs | Strands Agents SDK |
+| Agent-agnostic spec commands | GitHub spec-kit |
 | IDE with built-in AI | Kiro, Google Antigravity |
 | Programmatic agent pipelines | Strands Agents SDK |
 
@@ -275,6 +312,7 @@ The human reviews the agent's execution log, confirms the plan matches the Spec,
 - Kiro IDE — Hooks documentation: https://kiro.dev/docs/hooks/
 - Strands Agents SDK — Quickstart: https://strandsagents.com/docs/user-guide/quickstart/overview/
 - Strands Agent SOP repository: https://github.com/strands-agents/agent-sop/tree/main
+- GitHub spec-kit: https://github.com/github/spec-kit
 - Claude Code CLI overview: https://docs.anthropic.com/en/docs/claude-code/overview
 - [Prompting Blueprints — AI Coding Spectrum](../02-ai-agents/ai-coding-spectrum.md)
 - [Prompting Blueprints — Vibe Coding Tech Stack](../04-guides/vibe-coding-tech-stack.md)
