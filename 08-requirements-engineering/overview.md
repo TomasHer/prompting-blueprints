@@ -13,6 +13,7 @@ A curated collection of prompt patterns and practical tutorials for applying AI 
 Requirements Engineering is a discipline where precision, consistency, and traceability are non-negotiable. AI can augment RE work in several high-value areas:
 
 - **Model consistency checking** — detecting gaps and contradictions across UML, BPMN, SysML, and other interconnected models
+- **Specification-to-code comparison** — identifying deviations between specified requirements and actual implementation
 - **Requirements elicitation support** — generating structured questions, refining ambiguous statements
 - **Traceability analysis** — linking requirements to design elements, test cases, and acceptance criteria
 - **Defect detection** — identifying incomplete, ambiguous, or conflicting requirements
@@ -23,6 +24,7 @@ Requirements Engineering is a discipline where precision, consistency, and trace
 | # | Tutorial | Topic |
 |---|----------|-------|
 | 1 | [Check Model Consistency](./check-model-consistency.md) | Detecting inconsistencies across interconnected RE models (UML, BPMN, SysML) |
+| 2 | [Compare Specification With Source Code](./compare-specification-with-source-code.md) | Identifying deviations between requirements specifications and implemented source code |
 
 ## Source & Attribution
 
