@@ -314,5 +314,6 @@ The human reviews the agent's execution log, confirms the plan matches the Spec,
 - Strands Agent SOP repository: https://github.com/strands-agents/agent-sop/tree/main
 - GitHub spec-kit: https://github.com/github/spec-kit
 - Claude Code CLI overview: https://docs.anthropic.com/en/docs/claude-code/overview
+- [Prompting Blueprints — How to Design a CLAUDE.md That Actually Works](./claude-md-design-tutorial.md)
 - [Prompting Blueprints — AI Coding Spectrum](../02-ai-agents/ai-coding-spectrum.md)
 - [Prompting Blueprints — Vibe Coding Tech Stack](../04-guides/vibe-coding-tech-stack.md)
