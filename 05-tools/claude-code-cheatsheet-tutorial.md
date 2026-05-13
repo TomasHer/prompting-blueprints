@@ -207,3 +207,4 @@ REQUEST: Provide a short plan, then implement.
 - Claude Code official website: <https://claude.com/product/claude-code>
 - [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
 - [Claude Code Project Structure Tutorial](./claude-code-project-structure-tutorial.md)
+- [How to Design a CLAUDE.md That Actually Works](./claude-md-design-tutorial.md) — Dedicated guide covering scopes, the WHAT/WHY/HOW framework, vague-vs-precise rules, and 5 rules for effective CLAUDE.md files

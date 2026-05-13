@@ -169,6 +169,7 @@ The goal is not to fill the context window. It is to keep each context window sm
 - [DAIR.AI Academy — Does AGENTS.md Actually Help Coding Agents?](https://academy.dair.ai/blog/agents-md-evaluation)
 - [InfoQ — New Research Reassesses the Value of AGENTS.md Files for AI Coding](https://www.infoq.com/news/2026/03/agents-context-file-value-review/)
 - [OpenAI — GPT-5.4 MRCR v2 8-needle eval results (March 5, 2026)](https://openai.com)
+- [How to Design a CLAUDE.md That Actually Works](../../05-tools/claude-md-design-tutorial.md)
 - [02-ai-agents/context-engineering.md](./context-engineering.md)
 - [02-ai-agents/ai-agents-overview.md](./ai-agents-overview.md)
 - [02-ai-agents/anatomy-of-a-skill.md](./anatomy-of-a-skill.md)
