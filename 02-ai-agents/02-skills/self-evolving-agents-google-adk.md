@@ -264,6 +264,7 @@ This mirrors how software engineers extend a codebase with new modules rather th
 - [Skills for ADK Agents — Official Docs](https://google.github.io/adk-docs/skills/)
 - [agentskills.io Specification](https://agentskills.io/specification)
 - [google/adk-samples — GitHub](https://github.com/google/adk-samples)
+- [google/skills — GitHub](https://github.com/google/skills)
 - [5 Agent Skill Design Patterns Every ADK Developer Should Know](https://lavinigam.com/posts/adk-skill-design-patterns/)
 - [Introducing Skills in ADK — Google Cloud Community](https://medium.com/google-cloud/introducing-skills-in-adk-teach-your-agent-new-tricks-one-skill-at-a-time-be319f9b1917)
 - [Google Cloud ADK Quickstart](../05-tools/google-cloud-platform-agents.md)

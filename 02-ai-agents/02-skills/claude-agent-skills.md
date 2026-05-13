@@ -112,3 +112,4 @@ The [anthropics/skills](https://github.com/anthropics/skills) repository is the 
 - [GitHub - Anthropic Skills examples directory](https://github.com/anthropics/skills/tree/main/skills)
 - [GitHub - Hugging Face Skills tutorial directory](https://github.com/huggingface/skills/tree/main/skills)
 - [GitHub - Anthropic PDF skill quick reference](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md#quick-reference)
+- [GitHub - Google Skills repository](https://github.com/google/skills)
