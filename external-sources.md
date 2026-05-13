@@ -75,6 +75,7 @@
 - [GitHub - Claude Code cheat sheet](https://github.com/Njengah/claude-code-cheat-sheet)
 - [GitHub - Claude Code templates](https://github.com/davila7/claude-code-templates)
 - [GitHub - Claude Code workflows](https://github.com/OneRedOak/claude-code-workflows)
+- [GitHub - Google Skills repository](https://github.com/google/skills)
 - [GitHub - notebooklm-py](https://github.com/akosbalasko/notebooklm-py)
 - [GitHub - Vibe Coding Playbook](https://github.com/RiyaParikh0112/vibe-coding-playbook)
 - [GitHub Blog – 5 tips for writing better custom instructions for Copilot](https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/)
