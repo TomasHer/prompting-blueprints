@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Requirements Engineering folder (`08-requirements-engineering/`) with overview and first tutorial: Check Model Consistency, based on the IREB AI4RE Prompt Guide.
 - Add AI knowledge base tutorial covering Andrej Karpathy's LLM Wiki pattern and the claude-obsidian implementation for building persistent, compounding knowledge bases for AI agents.
 - Add agent context window performance tutorial explaining why larger context windows degrade instruction following, with GPT-5.4 MRCR benchmark data and findings from the ETH Zurich AGENTS.md study (arXiv 2602.11988).
 - Fix broken internal markdown links across repository files including the Google ADK guide and the 5-Day AI Agents course.

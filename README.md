@@ -24,10 +24,11 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 - **Vibe coding stack:** beginner-friendly build stack and toolchain tutorial -> `./04-guides/vibe-coding-tech-stack.md`
 - **Models & evaluations:** model tips, benchmark overviews, and promptfoo configs -> `./06-models-and-evaluations`
 - **Use cases & research:** applied workflows, research tutorials, and collaboration playbooks -> `./07-use-cases-and-research`
+- **Requirements engineering:** prompting tips and use cases for RE tasks (model consistency, traceability, elicitation) — based on the IREB AI4RE Prompt Guide -> `./08-requirements-engineering`
 - **External sources:** curated references cited across guides and playbooks -> `./external-sources.md`
 - **Changelog:** release notes and updates -> `./CHANGELOG.md`
 
-Quick links: [Author's Speaking](./01-about-author/speaking) · [Author's Involvement](./01-about-author/program-committee) · [Author's Research](./01-about-author/research) · [AI Agents Overview](./02-ai-agents/ai-agents-overview.md) · [Context Engineering](./02-ai-agents/context-engineering.md) · [Prompts & Patterns](./03-prompts-and-patterns) · [AI Guides Overview](./04-guides/overview.md) · [AI Tools](./05-tools) · [Models & Evaluations](./06-models-and-evaluations) · [Use-cases & Research](./07-use-cases-and-research) · [External Sources](./external-sources.md) · [Changelog](./CHANGELOG.md)
+Quick links: [Author's Speaking](./01-about-author/speaking) · [Author's Involvement](./01-about-author/program-committee) · [Author's Research](./01-about-author/research) · [AI Agents Overview](./02-ai-agents/ai-agents-overview.md) · [Context Engineering](./02-ai-agents/context-engineering.md) · [Prompts & Patterns](./03-prompts-and-patterns) · [AI Guides Overview](./04-guides/overview.md) · [AI Tools](./05-tools) · [Models & Evaluations](./06-models-and-evaluations) · [Use-cases & Research](./07-use-cases-and-research) · [Requirements Engineering](./08-requirements-engineering/overview.md) · [External Sources](./external-sources.md) · [Changelog](./CHANGELOG.md)
 
 Featured additions: [Dynamic Context Discovery](./02-ai-agents/cursor-dynamic-context-discovery.md) · [Vibe Coding Tech Stack](./04-guides/vibe-coding-tech-stack.md) · [Claude AI vs Code vs Cowork](./05-tools/claude-ai-vs-code-vs-cowork.md) · [Claude Code Project Structure](./05-tools/claude-code-project-structure-tutorial.md) · [Google 5-Day AI Agents Course](./02-ai-agents/google-5-day-ai-agents-course.md) · [Lyria 3 in Gemini](./05-tools/lyra-3-gemini.md)
 
@@ -48,6 +49,7 @@ Featured additions: [Dynamic Context Discovery](./02-ai-agents/cursor-dynamic-co
 - **Tool playbooks**: NotebookLM, Copilot Agents, Perplexity Comet, LangChain, and workflow automations
 - **Models & evaluations**: model-specific tips, benchmark primers, and promptfoo configs
 - **Use cases & research**: applied workflows, tutorials, and experiment playbooks
+- **Requirements engineering**: prompt patterns for RE tasks — model consistency, traceability, elicitation — based on the IREB AI4RE Prompt Guide
 
 [🎥 Watch the Prompting Blueprints introduction video](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U) for a guided tour of the repo purpose.
 
@@ -70,6 +72,7 @@ Featured additions: [Dynamic Context Discovery](./02-ai-agents/cursor-dynamic-co
 assets/                 # social previews and supporting images
 docs/                   # documentation site extras (e.g., licenses)
 07-use-cases-and-research/  # applied workflows, research playbooks, and tutorials
+08-requirements-engineering/  # RE prompting tips and use cases (IREB AI4RE Prompt Guide)
 website/                # static HTML experiments (e.g., AI toolkit preview)
 CHANGELOG.md            # updates (Keep a Changelog)
 CONTRIBUTING.md         # how to contribute

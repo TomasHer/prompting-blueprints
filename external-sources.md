@@ -276,6 +276,8 @@
 - [ICSE 2026](https://conf.researchr.org/home/icse-2026)
 - [IEEE RE’24 – Industrial Innovation Papers Track](https://conf.researchr.org/track/RE-2024/RE-2024-industrial-innovation-papers)
 - [ISD 2025 Conference](https://isd2025.fon.bg.ac.rs)
+- [IREB AI4RE Prompt Guide – Check Model Consistency](https://ireb.atlassian.net/wiki/spaces/airebpromptguide/pages/2585985025/Prompt+Guide+Check+Model+Consistency)
+- [IREB AI4RE Prompt Guide – Overview](https://ireb.atlassian.net/wiki/spaces/airebpromptguide/overview)
 - [ISD 2026 Conference](https://isd2026.ksi.fit.cvut.cz)
 
 ### L

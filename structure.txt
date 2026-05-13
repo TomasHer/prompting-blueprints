@@ -84,3 +84,7 @@ README.md
 07-use-cases-and-research/langchain-research-agent.md
 07-use-cases-and-research/vibe-research.md
 07-use-cases-and-research/requirements-engineering-dataset-experiments.md
+
+#08 Requirements Engineering files
+08-requirements-engineering/overview.md
+08-requirements-engineering/check-model-consistency.md
