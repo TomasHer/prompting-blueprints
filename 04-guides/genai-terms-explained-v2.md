@@ -15,6 +15,16 @@ Transcribe the 85 common AI terms from the "AI Terms Explained" visual into a se
 - **Deep Learning (DL):** ML using multi-layered neural networks that learn hierarchical representations from large datasets.
 - **Neural Network:** Computational model using interconnected weighted nodes inspired by how neurons process information.
 
+## Model architecture types
+- **Large Language Model (LLM):** A general-purpose autoregressive model trained on large text corpora to predict the next token. Powers chatbots, writing assistants, and coding helpers. Often trained with RLHF and paired with safety filters.
+- **Mixture of Experts (MoE):** An architecture where a gating network routes each input to a top-K subset of specialist sub-networks. Achieves large model capacity with lower per-token compute cost. Examples: DeepSeek V3.2, Llama 4 Maverick.
+- **Large Reasoning Model (LRM):** A model trained to decompose problems, explore multiple reasoning paths, and self-verify before answering. Excels at math, logic, and multi-step planning. Examples: GPT-5.5 Thinking, Claude Opus 4.6.
+- **Vision Language Model (VLM):** A multimodal model that fuses a vision encoder with a language model so it can reason over images and text jointly. Best for screenshots, charts, documents, and visual Q&A. Examples: GPT-4o Advanced, Qwen-VL-Max.
+- **Small Language Model (SLM):** A compact language model (typically under ~30B parameters) produced via knowledge distillation and quantisation. Designed for fast, low-cost, or on-device inference. Examples: Gemma 3 (9B), Mistral Small 24B.
+- **Agentic Action Model:** A model built to operate in an action loop — understand intent, plan steps, invoke tools or APIs, execute, then verify results. Enables autonomous task completion beyond text generation. Examples: OpenAI Agents API, xLAM 2.0.
+- **Open-source Frontier Model:** A state-of-the-art model with publicly released weights that can be customised, fine-tuned, and self-hosted. Prioritises control, privacy, and flexibility. Examples: DeepSeek-R1, Qwen 3.572B.
+- **Specialized Model:** A model pre-trained or fine-tuned on a narrow domain (code, law, healthcare) to outperform general models on that specific task. Examples: Cursor/Codex (coding), GitHub Copilot.
+
 ## Learning paradigms
 ### Supervised learning
 - **Training data:** Labeled input-output pairs used to teach the model.

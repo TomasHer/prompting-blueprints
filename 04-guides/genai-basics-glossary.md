@@ -13,6 +13,13 @@ Use this glossary to get comfortable with the essential terms you will see acros
 | Term | Plain-language snapshot |
 | --- | --- |
 | Large Language Model (LLM) | A powerful text-based AI that predicts the next words by learning from huge collections of writing. |
+| Mixture of Experts (MoE) | A model architecture that routes each input to a small subset of specialist sub-networks, improving efficiency at scale. |
+| Large Reasoning Model (LRM) | A model optimised for multi-step thinking: it breaks problems down, explores options, and checks its own logic before answering. |
+| Vision Language Model (VLM) | A model that jointly encodes images and text so it can reason about both at the same time. |
+| Small Language Model (SLM) | A compact, quantised language model designed for fast, low-cost, or on-device inference. |
+| Agentic Action Model | A model built to plan, call tools or APIs, execute actions, and verify results rather than just produce text. |
+| Open-source Frontier Model | A state-of-the-art model released with open weights so developers can inspect, fine-tune, and self-host it. |
+| Specialized Model | A model fine-tuned or purpose-built for a specific domain such as coding, law, or healthcare. |
 | Transformer | The model design that lets AI focus on the most relevant parts of a sentence to understand meaning. |
 | Prompt Engineering | Crafting inputs that guide an AI model toward the answers or formats you want. |
 | Fine-tuning | Giving a model extra practice on your own examples so it behaves the way you need. |
@@ -32,6 +39,41 @@ Use this glossary to get comfortable with the essential terms you will see acros
 - **What it means:** Large language models are AI systems trained on vast text datasets so they can predict the next piece of text with high accuracy.
 - **Why it matters:** They power chatbots, writing assistants, and code helpers by understanding patterns in language rather than hard-coded rules.
 - **Try it:** Ask a chatbot to rewrite a paragraph in a different tone to see how it adapts its predictions.
+
+## Mixture of Experts (MoE)
+- **What it means:** MoE models contain many specialist sub-networks ("experts"). A gating network routes each token to only the top-K relevant experts, so the model activates a fraction of its parameters per forward pass.
+- **Why it matters:** You get the capacity of a very large model while keeping inference and training compute manageable, making MoE a popular architecture for frontier-scale deployments.
+- **Try it:** Compare the published parameter counts of a dense model and an MoE model of similar quality to see how activated parameters differ from total parameters.
+
+## Large Reasoning Model (LRM)
+- **What it means:** LRMs are trained (often with reinforcement learning) to break a problem into sub-steps, explore alternative reasoning paths, and self-verify before committing to a final answer.
+- **Why it matters:** They outperform standard LLMs on tasks requiring planning, multi-step math, and logical deduction, at the cost of higher token usage and latency.
+- **Try it:** Give a chain-of-thought prompt to a standard LLM and to an LRM and compare how each structures its intermediate reasoning.
+
+## Vision Language Model (VLM)
+- **What it means:** VLMs fuse a vision encoder (for images) with a language model (for text) through a shared embedding or cross-attention layer, allowing unified reasoning over both modalities.
+- **Why it matters:** They unlock tasks like chart interpretation, document understanding, visual Q&A, and screenshot-driven automation without separate pipelines.
+- **Try it:** Upload a screenshot to a VLM and ask it to extract the key numbers; compare accuracy with a plain OCR tool.
+
+## Small Language Model (SLM)
+- **What it means:** SLMs are language models typically under ~30 billion parameters, often produced via knowledge distillation and quantisation from larger models.
+- **Why it matters:** Their smaller footprint enables on-device or edge deployment, lower API cost, and faster latency while still handling many everyday language tasks.
+- **Try it:** Run the same summarisation prompt on a 7B model and a 70B model and measure the latency and quality trade-off.
+
+## Agentic Action Model
+- **What it means:** Agentic models are trained or prompted to operate in a loop: understand intent, plan steps, call external tools or APIs, execute actions, and verify results before producing output.
+- **Why it matters:** They turn an LLM from a text generator into an autonomous worker that can browse the web, write and run code, or interact with services on your behalf.
+- **Try it:** Observe how an agent decomposes a task like "book a meeting" into sub-steps and tool calls versus how a plain LLM would answer the same request.
+
+## Open-source Frontier Model
+- **What it means:** Open-source frontier models release their weights publicly, letting developers download, inspect, fine-tune, and self-host them without relying on a third-party API.
+- **Why it matters:** They offer maximum control over data privacy, deployment environment, and customisation, and reduce vendor lock-in for organisations with strict compliance requirements.
+- **Try it:** Pull a model from a public hub, run a quick inference test locally, and note which customisation options (quantisation level, context length, LoRA adapter) you can tune yourself.
+
+## Specialized Model
+- **What it means:** Specialized models are pre-trained or fine-tuned on domain-specific data (code repositories, legal corpora, medical literature) to outperform general models on narrow tasks.
+- **Why it matters:** Matching the model to the domain reduces errors, hallucinations, and prompt engineering effort compared with prompting a general-purpose model for the same task.
+- **Try it:** Ask a general LLM and a code-specialized model the same debugging question and compare how confidently and accurately each explains the root cause.
 
 ## Transformer architecture
 - **What it means:** Transformers are the neural network design behind most modern language models. They use an attention mechanism to weigh which words in a sentence matter most.
