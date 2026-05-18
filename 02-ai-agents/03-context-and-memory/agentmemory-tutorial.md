@@ -33,7 +33,7 @@ agentmemory is the practical implementation of that pattern for coding agents â€
 | **Knowledge graphs** | Entities and relationships extracted per session, queryable across all history |
 | **Hybrid search** | BM25 keyword + vector similarity + graph traversal fused via Reciprocal Rank Fusion |
 
-See [AI Knowledge Base for Agents: The LLM Wiki Pattern](../02-ai-agents/ai-knowledge-base-tutorial.md) for the conceptual foundation this builds on.
+See [AI Knowledge Base for Agents: The LLM Wiki Pattern](./ai-knowledge-base-tutorial.md) for the conceptual foundation this builds on.
 
 ---
 
