@@ -6,6 +6,10 @@ last_updated: 2026-05-01
 
 # AI Knowledge Base for Agents: The LLM Wiki Pattern
 
+**Looking for an implementation?** [agentmemory](./agentmemory-tutorial.md) is a ready-to-run implementation of this pattern extended with confidence scoring, memory lifecycle management, knowledge graphs, and hybrid search — works with Claude Code, Codex, Cursor, and any MCP-compatible agent.
+
+---
+
 ## Use When
 
 You want AI agents to retain, synthesize, and build on knowledge across sessions — without re-reading raw sources every time. This pattern replaces one-shot RAG retrieval with a living, LLM-maintained wiki that compounds value over time.
