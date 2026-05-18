@@ -20,6 +20,23 @@ Your AI coding agent has a memory problem. Every session ends, and it forgets ev
 
 ---
 
+## The LLM Wiki Pattern — Implemented
+
+Andrej Karpathy proposed that LLMs should incrementally build and maintain a persistent, structured knowledge base rather than re-synthesizing raw context on every query. The idea: ingest sources, write and update interlinked pages, compound value over time instead of forgetting everything.
+
+agentmemory is the practical implementation of that pattern for coding agents — extended with four things the original sketch left open:
+
+| Extension | What it adds |
+|---|---|
+| **Confidence scoring** | Memories carry a reliability score that decays (Ebbinghaus curve) and strengthens with reuse |
+| **Lifecycle management** | Working → Episodic → Semantic → Procedural consolidation; stale memories auto-evict |
+| **Knowledge graphs** | Entities and relationships extracted per session, queryable across all history |
+| **Hybrid search** | BM25 keyword + vector similarity + graph traversal fused via Reciprocal Rank Fusion |
+
+See [AI Knowledge Base for Agents: The LLM Wiki Pattern](../02-ai-agents/ai-knowledge-base-tutorial.md) for the conceptual foundation this builds on.
+
+---
+
 ## The Problem It Solves
 
 Every AI coding agent today has ephemeral memory. When a session ends, context is gone. CLAUDE.md files help, but they are manually maintained, grow without bound, and load 22,000+ tokens of static context even when most of it is irrelevant.
