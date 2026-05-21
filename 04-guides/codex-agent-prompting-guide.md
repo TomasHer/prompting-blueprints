@@ -26,7 +26,7 @@ Goal: <what you want shipped>
 Scope: <files/dirs to edit + files to avoid>
 Context: <symptoms, logs, stack traces, upstream tickets, related PRs>
 Constraints: <style guides, approvals, rollout rules, security limits>
-Tests/Checks: <commands + expected outcomes>
+Done when / Tests: <runnable command + expected outcome, e.g. "pytest exits 0, no test files modified">
 Tools/Notes: <specific commands to prefer/avoid, feature flags, feature toggles>
 
 Plan first, then execute. Narrate major decisions. Ask before risky actions.
@@ -50,6 +50,14 @@ OUTPUT FORMAT: Markdown with sections → Plan, Changes, Tests, Next steps.
 - `subdir/AGENTS.override.md`
   - Team-specific overrides: service-specific tests, forbidden commands, data-handling rules.
 
+## Running tasks in parallel
+Codex can handle multiple independent tasks simultaneously. When work items don't share files or state, submit them in separate sessions at the same time rather than sequentially.
+
+- Open one Codex session per independent task (e.g., fix auth bug / add search endpoint / update docs).
+- Each session gets its own branch; merge when both are green.
+- Avoid parallel sessions on the same files — merge conflicts cost more than the time saved.
+- Use a parent task to coordinate: "Run sessions A, B, and C in parallel; do D only after all three merge."
+
 ## Validation and troubleshooting
 - Run `codex --ask-for-approval never "Summarize the current instructions."` from the repo root to confirm which files Codex loaded and in what order.
 - If guidance is missing, check for higher-level `AGENTS.override.md` files or bump `project_doc_max_bytes`.
@@ -59,3 +67,4 @@ OUTPUT FORMAT: Markdown with sections → Plan, Changes, Tests, Next steps.
 - https://developers.openai.com/codex/prompting
 - https://developers.openai.com/codex/guides/agents-md
 - https://agents.md
+- [Codex TDD Workflow and Skills Guide](./codex-tdd-and-skills.md)
