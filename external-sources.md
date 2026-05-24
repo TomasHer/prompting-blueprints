@@ -187,6 +187,7 @@
 ### P
 - [Perplexity](https://www.perplexity.ai/)
 - [Perplexity: Introducing Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research)
+- [Post Business Solutions — Business Solutions der Österreichischen Post AG](https://www.post.at/businesssolutions)
 - [Prompting Blueprints introduction video (YouTube)](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U)
 - [PromptPerfect — Deep Research prompt examples](https://daily.promptperfect.xyz/p/fifteen-examples-of-how-to-use-deep-research-in-chatgpt-with-prompts)
 
