@@ -126,4 +126,6 @@ Do not score, rank, or recommend candidates.
 ## References
 - contentway.de — *AI & Supply Chain*: "Der Dokumentenflut souverän begegnen" (Partner Content, Business Solutions der Österreichischen Post AG).
 - Post Business Solutions — https://www.post.at/businesssolutions
+- DAiTA platform page (EN) — https://www.post.at/en/g/c/daita
+- DAiTA Plattform-Seite (DE) — https://www.post.at/g/c/daita
 - Related in this repo: [AI Use Case Identification](./ai-use-case-identification.md) · [How to Build AI Agents That Work in Production](../02-ai-agents/05-production/how-to-build-ai-agents-production.md)

@@ -50,6 +50,8 @@
 
 ### D
 - [Docs: GitHub Copilot quickstart](https://docs.github.com/en/copilot/get-started/quickstart)
+- [DAiTA — Intelligent Document Processing platform (EN, Österreichische Post)](https://www.post.at/en/g/c/daita)
+- [DAiTA — Intelligente Dokumentenverarbeitung Plattform (DE, Österreichische Post)](https://www.post.at/g/c/daita)
 - [DAIR.AI Thinkific - Claude Code for Everyone](https://dair-ai.thinkific.com/courses/claude-code)
 - [DeepLearning.AI - Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/)
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
