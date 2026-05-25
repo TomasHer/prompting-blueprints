@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add reference to `multica-ai/andrej-karpathy-skills` (≈154k-star, single-file `CLAUDE.md` implementing Andrej Karpathy's 4-rule baseline) in the 12 Rules for AI Coding Tools guide and the CLAUDE.md design tutorial, plus an entry in `external-sources.md`.
 - Add CI/CD for AI Agents on Microsoft Foundry tutorial (`02-ai-agents/05-production/cicd-ai-agents-microsoft-foundry.md`) covering the five-layer reference architecture, evaluation-driven quality gates, OIDC-based auth, and parallel GitHub Actions / Azure DevOps pipeline implementations for both containerised hosted and declarative prompt-based agents.
 - Add Intelligent Document Processing use-case playbook (`07-use-cases-and-research/intelligent-document-processing-daita.md`) covering ESG reporting, credit applications, and HR intake scenarios, based on the DAiTA platform feature from Post Business Solutions.
 - Add 12 Rules for AI Coding Tools (Senior Engineer Edition) guide to `04-guides/`, covering Andrej Karpathy's mistake-rate data and the 12-rule framework senior engineers settled on for AI-assisted development.

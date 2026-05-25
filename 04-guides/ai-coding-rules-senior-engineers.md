@@ -1,7 +1,7 @@
 ---
 title: "12 Rules for Using AI Coding Tools — Senior Engineer Edition"
 tags: ["guides", "ai-coding", "best-practices"]
-last_updated: "2026-05-20"
+last_updated: "2026-05-25"
 ---
 
 # 12 Rules for Using AI Coding Tools — Senior Engineer Edition
@@ -165,6 +165,32 @@ Paste this into your `CLAUDE.md` or `AGENTS.md` and customise the brackets.
 12. Flag, don't skip. Any uncertainty or skipped record must be surfaced explicitly.
 ```
 
+## Real-world implementation: `multica-ai/andrej-karpathy-skills`
+
+The 4-rule baseline referenced above is not theoretical — it ships as a single ~65-line `CLAUDE.md` in [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) (≈154k GitHub stars, ≈15.8k forks as of May 2026). The repository's premise: most LLM coding failures come from four recurring patterns Karpathy publicly called out — guessing instead of asking, overcomplicating the solution, touching code outside the requested scope, and declaring victory without a verifiable goal. Drop the file in a project root and Claude Code reads it automatically at the start of every session; Cursor honors it as well.
+
+The four rules map 1:1 to rules 1–4 of this guide:
+
+| Repo rule | Maps to | What it enforces |
+| --- | --- | --- |
+| **Think Before Coding** | Rule 1 | State assumptions, surface multiple interpretations, ask when unclear instead of guessing silently. |
+| **Simplicity First** | Rule 2 | Minimum code that solves the problem — no speculative abstractions, no unrequested "flexibility", no error handling for impossible cases. |
+| **Surgical Changes** | Rule 3 | Every changed line must trace back to the request; match existing style; remove only orphans your edit created. |
+| **Goal-Driven Execution** | Rule 4 | Convert vague tasks ("fix the bug") into verifiable criteria ("write a failing test, then make it pass") so the agent can loop independently. |
+
+### Why this matters for software developers
+
+- **Lowest-friction onboarding to AI coding discipline.** One copy-paste file, no setup, no plugins required — the same artifact works across Claude Code and Cursor. Teams that have never written a rules file can adopt the 4-rule baseline in under a minute and immediately get the largest single drop in mistake rate (41% → 11% in the table above).
+- **Reported accuracy gains.** News coverage of the project (e.g. write-ups summarising developer Forrest Chang's adoption of Karpathy's complaints) cites an AI coding accuracy jump from **65% to 94%** when the file is added to a project. Treat the exact figure as anecdotal — it depends on task mix and model — but the direction of improvement matches the mistake-rate research above.
+- **Authoritative provenance.** The rules trace directly to Karpathy's public observations about LLM coding pitfalls, giving teams a credible answer to "why these four and not others?" during code review or platform-team rollout discussions.
+- **A baseline you extend, not replace.** Start with the 4-rule file, then layer the remaining rules from this guide (token budgets, read-before-write, fail-loud, etc.) as your codebase's specific failure modes appear. The 12-rule version in this guide is the natural evolution once the baseline is in place.
+
+### How to adopt it
+
+1. Copy [`CLAUDE.md`](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md) from the repo into your project root (or `~/.claude/CLAUDE.md` for a global default).
+2. Append project-specific context — build/test commands, in-scope directories, conventions — using the [CLAUDE.md design tutorial](../05-tools/claude-md-design-tutorial.md) as the structural guide.
+3. Once teams are comfortable with the 4 rules, extend to the 12-rule version above, or move enforcement-critical rules (no secrets, lint must pass) into [Claude Code Hooks](../05-tools/claude-code-cheatsheet-v2.md) for 100% compliance.
+
 ## Related resources
 
 - [Context Engineering](../02-ai-agents/03-context-and-memory/context-engineering.md) — principles for managing what the model sees
@@ -177,3 +203,4 @@ Paste this into your `CLAUDE.md` or `AGENTS.md` and customise the brackets.
 ## References
 
 - https://karpathy.ai — Andrej Karpathy, source of the opening quote and original 12-rule framework
+- [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — single-file `CLAUDE.md` implementing the 4-rule baseline described above

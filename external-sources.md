@@ -166,6 +166,8 @@
 - [Microsoft Support – Get started with Researcher in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/get-started-with-researcher-in-microsoft-365-copilot-e63ab760-f3de-4c47-ae87-dad601b0e9c4)
 - [Microsoft Support – Knowledge Agent: An overview](https://support.microsoft.com/en-gb/topic/knowledge-agent-an-overview-c0b1efc3-81d0-4981-8be9-7ba3a75fae15)
 - [Mistral – Mistral Large](https://mistral.ai/models/mistral-large/)
+- [multica-ai/andrej-karpathy-skills (GitHub) — single-file CLAUDE.md derived from Andrej Karpathy's LLM coding-pitfall observations](https://github.com/multica-ai/andrej-karpathy-skills)
+- [multica-ai/andrej-karpathy-skills – CLAUDE.md (raw)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)
 
 ### N
 - [n8n – Official site](https://n8n.io/)
