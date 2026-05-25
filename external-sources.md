@@ -154,6 +154,8 @@
 - [Microsoft – AutoGen documentation](https://microsoft.github.io/autogen/stable//index.html)
 - [Microsoft – Autogen Studio user guide](https://microsoft.github.io/autogen/dev//user-guide/autogenstudio-user-guide/index.html)
 - [Microsoft Foundry – Introducing Microsoft Agent Framework](https://devblogs.microsoft.com/foundry/introducing-microsoft-agent-framework-the-open-source-engine-for-agentic-ai-apps/)
+- [Microsoft Tech Community – CI/CD for AI Agents on Microsoft Foundry](https://techcommunity.microsoft.com/blog/educatordeveloperblog/cicd-for-ai-agents-on-microsoft-foundry/4522218)
+- [GitHub – leestott/foundry-cicd reference pipelines](https://github.com/leestott/foundry-cicd)
 - [Microsoft Inside Track – How our employees are extending enterprise AI with custom retrieval agents](https://www.microsoft.com/insidetrack/blog/how-our-employees-are-extending-enterprise-ai-with-custom-retrieval-agents/)
 - [Microsoft – Install Azure CLI (Debian/Ubuntu)](https://aka.ms/InstallAzureCLIDeb)
 - [Microsoft Learn – Agent Framework overview](https://learn.microsoft.com/en-us/agent-framework/overview/agent-framework-overview)

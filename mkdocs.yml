@@ -93,6 +93,7 @@ nav:
     - Top 10 Machine Learning Algorithms: 04-guides/top-10-ml-algorithms.md
     - Generative AI Project Tutorial: 04-guides/gen-ai-project-tutorial.md
     - LLM Lifecycle Monitoring Guide: 04-guides/llm-lifecycle-monitoring.md
+    - CI/CD for AI Agents on Microsoft Foundry: 04-guides/cicd-ai-agents-microsoft-foundry.md
     - AI Adoption Readiness Guide: 04-guides/ai-adoption-guide.md
     - Gemini 3 Pro + n8n Workflow JSON Guide: 04-guides/gemini-n8n-workflow-json-guide.md
     - Model Context Protocol (MCP) Guide: 02-ai-agents/mcp-guide.md
