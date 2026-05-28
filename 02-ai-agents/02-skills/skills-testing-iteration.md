@@ -88,7 +88,7 @@ Run the same task with and without the skill enabled, then measure:
 | Failed / retried tool calls | e.g. 3 | e.g. 0 |
 | Total tokens consumed | e.g. 12 000 | e.g. 6 000 |
 
-Compare these numbers against the quantitative success criteria you set during planning. See [Claude Building Skills Guide](../04-guides/claude-building-skills-guide.md) for the full success criteria framework.
+Compare these numbers against the quantitative success criteria you set during planning. See [Claude Building Skills Guide](../../04-guides/claude-building-skills-guide.md) for the full success criteria framework.
 
 ---
 
@@ -155,7 +155,7 @@ or reporting.
 ## References
 
 - [Anatomy of a Claude Agent Skill](./anatomy-of-a-skill.md)
-- [Claude Building Skills Guide](../04-guides/claude-building-skills-guide.md)
+- [Claude Building Skills Guide](../../04-guides/claude-building-skills-guide.md)
 - [Skills Design Patterns](./skills-design-patterns.md)
-- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](../assets/guides/anthropic-claude-skills-guide.pdf)
+- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](../../assets/guides/anthropic-claude-skills-guide.pdf)
 - [GitHub — anthropics/skills repository](https://github.com/anthropics/skills)

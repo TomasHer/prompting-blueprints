@@ -120,8 +120,8 @@ Evaluate this prompt for schema reliability. Return:
 
 ## Related pages
 - [How to Design a CLAUDE.md That Actually Works](./claude-md-design-tutorial.md)
-- [Claude Agent Skills Playbook](../02-ai-agents/claude-agent-skills.md)
-- [Model Context Protocol (MCP) Quick Start](../02-ai-agents/mcp-guide.md)
+- [Claude Agent Skills Playbook](../02-ai-agents/02-skills/claude-agent-skills.md)
+- [Model Context Protocol (MCP) Quick Start](../02-ai-agents/04-protocols/mcp-guide.md)
 - [Claude Code Tool Guide](./claude-code-tool-guide.md)
 - [Claude Code Cheatsheet Tutorial](./claude-code-cheatsheet-tutorial.md)
 

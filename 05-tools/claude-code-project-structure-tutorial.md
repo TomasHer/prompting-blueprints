@@ -311,11 +311,11 @@ Configure via `.mcp.json`:
 
 ## 9. Related Resources
 - **[How to Design a CLAUDE.md That Actually Works](./claude-md-design-tutorial.md)** — Dedicated guide to scopes, the WHAT/WHY/HOW framework, and the 5 rules for effective CLAUDE.md files.
-- **[Claude Agent Skills Playbook](../02-ai-agents/claude-agent-skills.md)** — Dive deeper into building reusable workflows.
+- **[Claude Agent Skills Playbook](../02-ai-agents/02-skills/claude-agent-skills.md)** — Dive deeper into building reusable workflows.
 - **[Claude AI vs Claude Code vs Claude Cowork](./claude-ai-vs-code-vs-cowork.md)** — Understand which tool fits your specific use case.
 - **[Claude Code Tool Guide](./claude-code-tool-guide.md)** — Explore additional automation commands and configurations.
 - **[Claude Code Cheatsheet Tutorial](./claude-code-cheatsheet-tutorial.md)** — Keep the essential commands handy.
-- **[Model Context Protocol (MCP) Guide](../02-ai-agents/mcp-guide.md)** — Learn how to configure robust external tool connections.
+- **[Model Context Protocol (MCP) Guide](../02-ai-agents/04-protocols/mcp-guide.md)** — Learn how to configure robust external tool connections.
 
 ## References
 - Claude Code product page: <https://claude.com/product/claude-code>

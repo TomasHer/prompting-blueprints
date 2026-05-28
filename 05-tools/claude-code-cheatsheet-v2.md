@@ -396,12 +396,12 @@ The following pages from this repository are relevant to this cheat sheet:
 
 ### AI Agents & MCP
 
-- [MCP Guide](../02-ai-agents/mcp-guide.md) — Model Context Protocol guide for building tool integrations
-- [AI Agents Overview](../02-ai-agents/ai-agents-overview.md) — Foundational overview of agent design, capabilities, types
-- [Claude Agent Skills](../02-ai-agents/claude-agent-skills.md) — Playbook for building and deploying Claude agent skills
-- [Context Engineering](../02-ai-agents/context-engineering.md) — Techniques for designing and managing context in agents
-- [A2A Protocol Guide](../02-ai-agents/a2a-protocol-guide.md) — Agent-to-Agent communication protocol documentation
-- [Models for AI Agents 2026](../02-ai-agents/models-for-ai-agents-2026.md) — 2026 model landscape guide for agent implementations
+- [MCP Guide](../02-ai-agents/04-protocols/mcp-guide.md) — Model Context Protocol guide for building tool integrations
+- [AI Agents Overview](../02-ai-agents/01-foundations/ai-agents-overview.md) — Foundational overview of agent design, capabilities, types
+- [Claude Agent Skills](../02-ai-agents/02-skills/claude-agent-skills.md) — Playbook for building and deploying Claude agent skills
+- [Context Engineering](../02-ai-agents/03-context-and-memory/context-engineering.md) — Techniques for designing and managing context in agents
+- [A2A Protocol Guide](../02-ai-agents/04-protocols/a2a-protocol-guide.md) — Agent-to-Agent communication protocol documentation
+- [Models for AI Agents 2026](../02-ai-agents/01-foundations/models-for-ai-agents-2026.md) — 2026 model landscape guide for agent implementations
 
 ### Coding & Spec-Driven Development
 

@@ -74,8 +74,8 @@ Use this quick checklist before committing to a stack:
 - Do I want to **delegate full end-to-end tasks** to autonomous agents?
 
 ## Related guides
-- [AI Coding Spectrum](../02-ai-agents/ai-coding-spectrum.md)
-- [Context Engineering](../02-ai-agents/context-engineering.md)
+- [AI Coding Spectrum](../02-ai-agents/01-foundations/ai-coding-spectrum.md)
+- [Context Engineering](../02-ai-agents/03-context-and-memory/context-engineering.md)
 - [Codex Agent Prompting Guide](../04-guides/codex-agent-prompting-guide.md)
 - [Claude Code Tool Guide](./claude-code-tool-guide.md)
 

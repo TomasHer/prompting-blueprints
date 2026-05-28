@@ -91,8 +91,8 @@ The support ops team will own the workflows with light engineering help.
 - [n8n Vibe Research Workflow Tutorial](../05-tools/n8n-research-workflow-tutorial.md)
 - [LangChain Deep Agents Playbook](../05-tools/langchain-deep-agents.md)
 - [LangChain Research Agent Tutorial](../07-use-cases-and-research/langchain-research-agent.md)
-- [AI Agents Overview](../02-ai-agents/ai-agents-overview.md)
-- [AI Coding Spectrum](../02-ai-agents/ai-coding-spectrum.md)
+- [AI Agents Overview](../02-ai-agents/01-foundations/ai-agents-overview.md)
+- [AI Coding Spectrum](../02-ai-agents/01-foundations/ai-coding-spectrum.md)
 
 ## References
 - [n8n](https://n8n.io/)
