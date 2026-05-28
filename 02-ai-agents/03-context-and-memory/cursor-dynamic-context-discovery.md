@@ -11,7 +11,7 @@ Cursor’s “Dynamic Context Discovery” reframes context engineering around a
 
 **Source:** https://cursor.com/blog/dynamic-context-discovery
 
-**Related:** [Context Engineering](../02-ai-agents/context-engineering.md)
+**Related:** [Context Engineering](./context-engineering.md)
 
 ## Why dynamic context discovery matters
 Traditional agent setups often stuff massive amounts of background material into the prompt—tool descriptions, docs, codebase summaries, logs, prior chats, etc. That strategy quickly burns the context window and still leaves the agent brittle when the task shifts.
@@ -23,7 +23,7 @@ Dynamic context discovery flips the model:
 
 In Cursor’s framing, the filesystem is not just storage—it is the interface for memory, tools, and prior work.
 
-![Illustration of dynamic context discovery](../assets/other/cursor-dynamic-context.jpg)
+![Illustration of dynamic context discovery](../../assets/other/cursor-dynamic-context.jpg)
 
 ## Core idea: the filesystem is the memory layer
 Cursor highlights the filesystem as a universal substrate for context. This enables:

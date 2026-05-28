@@ -171,5 +171,5 @@ The goal is not to fill the context window. It is to keep each context window sm
 - [OpenAI — GPT-5.4 MRCR v2 8-needle eval results (March 5, 2026)](https://openai.com)
 - [How to Design a CLAUDE.md That Actually Works](../../05-tools/claude-md-design-tutorial.md)
 - [02-ai-agents/context-engineering.md](./context-engineering.md)
-- [02-ai-agents/ai-agents-overview.md](./ai-agents-overview.md)
-- [02-ai-agents/anatomy-of-a-skill.md](./anatomy-of-a-skill.md)
+- [02-ai-agents/ai-agents-overview.md](../01-foundations/ai-agents-overview.md)
+- [02-ai-agents/anatomy-of-a-skill.md](../02-skills/anatomy-of-a-skill.md)

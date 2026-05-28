@@ -302,7 +302,7 @@ The human reviews the agent's execution log, confirms the plan matches the Spec,
 - [ ] Open the project in [Kiro](https://kiro.dev/) and configure at least one Hook (e.g. run tests on save).
 - [ ] Browse the [Strands Agent SOP templates](https://github.com/strands-agents/agent-sop/tree/main) and adapt one for your deployment workflow.
 - [ ] Run the Strands [quickstart](https://strandsagents.com/docs/user-guide/quickstart/overview/) to build your first SOP-driven agent locally.
-- [ ] Review the [AI Coding Spectrum](../02-ai-agents/ai-coding-spectrum.md) guide to understand where spec-driven development sits relative to vibe coding and agentic coding.
+- [ ] Review the [AI Coding Spectrum](../02-ai-agents/01-foundations/ai-coding-spectrum.md) guide to understand where spec-driven development sits relative to vibe coding and agentic coding.
 
 ---
 
@@ -315,5 +315,5 @@ The human reviews the agent's execution log, confirms the plan matches the Spec,
 - GitHub spec-kit: https://github.com/github/spec-kit
 - Claude Code CLI overview: https://docs.anthropic.com/en/docs/claude-code/overview
 - [Prompting Blueprints — How to Design a CLAUDE.md That Actually Works](./claude-md-design-tutorial.md)
-- [Prompting Blueprints — AI Coding Spectrum](../02-ai-agents/ai-coding-spectrum.md)
+- [Prompting Blueprints — AI Coding Spectrum](../02-ai-agents/01-foundations/ai-coding-spectrum.md)
 - [Prompting Blueprints — Vibe Coding Tech Stack](../04-guides/vibe-coding-tech-stack.md)

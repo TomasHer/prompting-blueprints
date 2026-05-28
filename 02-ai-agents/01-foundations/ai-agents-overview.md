@@ -14,7 +14,7 @@ AI agents are software systems that use artificial intelligence techniques to pe
 ## Brief History of AI Agents
 Modern agent design traces back to discrete prompt-engineering breakthroughs. Chain-of-thought prompting, published on 28 Jan 2022, showed that guiding models through intermediate reasoning steps dramatically boosts multi-hop problem solving and set the stage for agents that explain and justify decisions ([Wei et al.](https://arxiv.org/abs/2201.11903)). On 21 Feb 2023 Dr. Jules White introduced the Persona Pattern, demonstrating how role-specific scaffolds unlock tool selection and memory strategies; the pattern is cataloged in both the original paper ([White et al.](https://arxiv.org/abs/2302.11382)) and [03-prompts-and-patterns/prompt-pattern-catalogue.md](../../03-prompts-and-patterns/prompt-pattern-catalogue.md), with additional context from Vanderbilt’s prompt-pattern collection (https://www.vanderbilt.edu/generative-ai/prompt-patterns/).
 
-White later formalized the AI Planning pattern in the [“ChatGPT Advanced Data Analysis”](https://www.vanderbilt.edu/datascience/2023/08/29/new-course-chatgpt-advanced-data-analysis-by-dr-jules-white-associate-professor-of-computer-science/) course, which encouraged practitioners to externalize goal decomposition and action graphs before letting agents operate autonomously. Our team, in collaboration with university partners and documented in [01-about-author/research/overview.md](../01-about-author/research/overview.md), began experimenting with that pattern in October 2023 for the “LLM-Based Agents for Automating the Enhancement of User Story Quality” study ([Zhang et al.](https://link.springer.com/chapter/10.1007/978-3-031-61154-4_8)), publishing findings on 14 Mar 2024 and underscoring how structured planning bridges prompt templates and fully autonomous agent stacks.
+White later formalized the AI Planning pattern in the [“ChatGPT Advanced Data Analysis”](https://www.vanderbilt.edu/datascience/2023/08/29/new-course-chatgpt-advanced-data-analysis-by-dr-jules-white-associate-professor-of-computer-science/) course, which encouraged practitioners to externalize goal decomposition and action graphs before letting agents operate autonomously. Our team, in collaboration with university partners and documented in [01-about-author/research/overview.md](../../01-about-author/research/overview.md), began experimenting with that pattern in October 2023 for the “LLM-Based Agents for Automating the Enhancement of User Story Quality” study ([Zhang et al.](https://link.springer.com/chapter/10.1007/978-3-031-61154-4_8)), publishing findings on 14 Mar 2024 and underscoring how structured planning bridges prompt templates and fully autonomous agent stacks.
 
 ## Core Capabilities
 - **Perception**: Agents ingest structured and unstructured data, including natural language, to understand user intent and environmental context.
@@ -30,7 +30,7 @@ White later formalized the AI Planning pattern in the [“ChatGPT Advanced Data 
 ## Agent Types
 **Intent**: Compare the common maturity levels so you can scope agent capabilities before adding orchestration, new tools, or autonomy.
 
-![Spectrum of AI agent types showing Retrieval, Task, and Autonomous panels](../assets/other/types-of-ai-agents.png)
+![Spectrum of AI agent types showing Retrieval, Task, and Autonomous panels](../../assets/other/types-of-ai-agents.png)
 
 | Type | Core responsibilities | Ideal scope |
 | --- | --- | --- |
@@ -63,26 +63,26 @@ White later formalized the AI Planning pattern in the [“ChatGPT Advanced Data 
 - **Example**: Asking ChatGPT a single question and pasting the reply into your doc.
 - **Steps**: The diagram outlines the quick ask → response loop with no state carried forward.
 
-![Non-agentic workflow diagram](../assets/other/non-agentic-workflow.png)
+![Non-agentic workflow diagram](../../assets/other/non-agentic-workflow.png)
 
 ### Agentic Workflow
 - **Use when** you want a co-pilot that iterates with you, calls tools, or keeps short-lived context (IDE copilots, spreadsheet helpers, etc.).
 - **Example**: GitHub Copilot suggesting code while you type—still user-driven, but the assistant plans a few moves ahead.
 - **Steps**: Refer to the diagram to see how the workflow alternates between user checkpoints and agent-led actions.
 
-![Agentic workflow diagram](../assets/other/agentic-workflow.png)
+![Agentic workflow diagram](../../assets/other/agentic-workflow.png)
 
 ### AI Agents
 - **Use when** you can hand over the goal and let the system decide the plan, tools, and escalation path—ideal for exec assistants or ops copilots.
 - **Example**: An AI executive assistant that reschedules meetings without step-by-step prompts.
 - **Steps**: The diagram shows the agent perceiving the goal, planning autonomously, acting across tools, and reporting back.
 
-![AI agent workflow diagram](../assets/other/ai-agent.png)
+![AI agent workflow diagram](../../assets/other/ai-agent.png)
 
 ## Building an AI Agent Tutorial
 **Intent**: Provide a copy-ready recipe for shipping production-grade agents that blend prompts, tools, and evaluations.
 
-<img src="../assets/other/building-ai-agent.png" alt="Seven-step workflow for building an AI agent" width="100%">
+<img src="../../assets/other/building-ai-agent.png" alt="Seven-step workflow for building an AI agent" width="100%">
 
 ### Step-by-step build
 1. **System prompt — Goals • Role • Instructions**  

@@ -58,7 +58,7 @@ Use this quick checklist before committing to a tool:
 
 ## Related guides
 - [Claude Code Tool Guide](./claude-code-tool-guide.md)
-- [Claude Agent Skills Playbook](../02-ai-agents/claude-agent-skills.md)
+- [Claude Agent Skills Playbook](../02-ai-agents/02-skills/claude-agent-skills.md)
 - [Right Selection of a Coding AI Agent](./coding-ai-agent-selection-tutorial.md)
 
 ## References

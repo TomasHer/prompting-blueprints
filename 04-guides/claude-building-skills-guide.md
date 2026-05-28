@@ -13,7 +13,7 @@ Skills have effectively replaced classic prompt engineering for AI agents. Inste
 
 If you are building AI agents or working with MCP integrations, skills are now a practical competitive advantage: they improve consistency, reduce token usage, and scale expert workflows across teams.
 
-For a foundational companion, read **[Claude Agent Skills Playbook](../02-ai-agents/claude-agent-skills.md)**.
+For a foundational companion, read **[Claude Agent Skills Playbook](../02-ai-agents/02-skills/claude-agent-skills.md)**.
 
 ---
 
@@ -199,5 +199,5 @@ If prompt engineering helped you get one-off results, skills help you operationa
 ## References
 - [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](../assets/guides/anthropic-claude-skills-guide.pdf)
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
-- [Anatomy of a Claude Agent Skill](../02-ai-agents/anatomy-of-a-skill.md)
-- [Claude Agent Skills Playbook](../02-ai-agents/claude-agent-skills.md)
+- [Anatomy of a Claude Agent Skill](../02-ai-agents/02-skills/anatomy-of-a-skill.md)
+- [Claude Agent Skills Playbook](../02-ai-agents/02-skills/claude-agent-skills.md)

@@ -59,7 +59,7 @@ Start at the lowest pattern that satisfies the goal. Escalating to autonomous ad
 
 Identify actions that are irreversible (send email, delete record, charge card) or high-stakes (regulatory submission, patient data). Place a human approval gate before every such action. Design the agent to pause and surface a structured summary — not a raw prompt — so the reviewer can decide quickly.
 
-> Deep dive: [AI Agents Overview — Agent Types](./ai-agents-overview.md)
+> Deep dive: [AI Agents Overview — Agent Types](../01-foundations/ai-agents-overview.md)
 
 ---
 
@@ -77,7 +77,7 @@ Models fall into three tiers based on the compute-reasoning tradeoff:
 
 A common production pattern is to **split planning from execution**: use an LRM or LLM to reason and plan, then delegate individual tool calls to a fine-tuned SLM. This keeps frontier-model costs at the reasoning layer only.
 
-Research reinforces this: a 350M-parameter model fine-tuned specifically for tool calling scores 77.55% on ToolBench, significantly outperforming much larger generalist models on the same task (see [models guide](./models-for-ai-agents-2026.md#research-highlight-tool-calling-specialization-beats-scale)). **FunctionGemma** (270M parameters) is a ready-to-use option for this routing tier.
+Research reinforces this: a 350M-parameter model fine-tuned specifically for tool calling scores 77.55% on ToolBench, significantly outperforming much larger generalist models on the same task (see [models guide](../01-foundations/models-for-ai-agents-2026.md#research-highlight-tool-calling-specialization-beats-scale)). **FunctionGemma** (270M parameters) is a ready-to-use option for this routing tier.
 
 ### Model selection checklist
 
@@ -87,7 +87,7 @@ Research reinforces this: a 350M-parameter model fine-tuned specifically for too
 - [ ] Benchmark latency, cost per 1K tokens, and tool-use reliability before committing.
 - [ ] Name a fallback model per region for outages.
 
-> Deep dive: [Best Model Providers for AI Agents 2026](./models-for-ai-agents-2026.md)
+> Deep dive: [Best Model Providers for AI Agents 2026](../01-foundations/models-for-ai-agents-2026.md)
 
 ---
 
@@ -129,7 +129,7 @@ Use these when you need state machines, multi-agent orchestration, or enterprise
 5. Need role-based specialist agents? → CrewAI.
 6. Need self-evolving modular skills with Google infrastructure? → Google ADK.
 
-> Deep dives: [AI Agents Overview — Common Frameworks](./ai-agents-overview.md) · [Google ADK](./self-evolving-agents-google-adk.md) · [Microsoft Agent Framework](../05-tools/microsoft-agent-framework.md) · [LangChain Deep Agents](../05-tools/langchain-deep-agents.md) · [N8N vs LangGraph](../05-tools/n8n-vs-langgraph.md) · [Anthropic Agent SDK](./claude-managed-agents-tutorial.md)
+> Deep dives: [AI Agents Overview — Common Frameworks](../01-foundations/ai-agents-overview.md) · [Google ADK](../02-skills/self-evolving-agents-google-adk.md) · [Microsoft Agent Framework](../../05-tools/microsoft-agent-framework.md) · [LangChain Deep Agents](../../05-tools/langchain-deep-agents.md) · [N8N vs LangGraph](../../05-tools/n8n-vs-langgraph.md) · [Anthropic Agent SDK](../04-protocols/claude-managed-agents-tutorial.md)
 
 ---
 
@@ -175,7 +175,7 @@ Build MCP servers for your core domains first — identity, documents, transacti
 
 When one agent needs to call another agent that may live on a different system or be built by a different team, use A2A. Each agent publishes an **Agent Card** (a JSON manifest of capabilities, input schema, and authentication) so other agents can discover and invoke it without manual integration.
 
-> Deep dives: [MCP Guide](./mcp-guide.md) · [A2A Protocol Guide](./a2a-protocol-guide.md) · [Claude Managed Agents Tutorial](./claude-managed-agents-tutorial.md)
+> Deep dives: [MCP Guide](../04-protocols/mcp-guide.md) · [A2A Protocol Guide](../04-protocols/a2a-protocol-guide.md) · [Claude Managed Agents Tutorial](../04-protocols/claude-managed-agents-tutorial.md)
 
 ---
 
@@ -207,7 +207,7 @@ Start with Cache + File System Memory for most agents. Add Episodic (vector sear
 
 **MemPalace** is a free, fully local memory system achieving 96.6% R@5 on LongMemEval using raw verbatim storage + semantic search, with no cloud dependency. It is a practical starting point for Episodic + File System memory before you need a managed vector database.
 
-> Deep dives: [MemPalace AI Memory Tutorial](./mempalace-ai-memory-tutorial.md) · [AI Knowledge Base Tutorial](./ai-knowledge-base-tutorial.md)
+> Deep dives: [MemPalace AI Memory Tutorial](../03-context-and-memory/mempalace-ai-memory-tutorial.md) · [AI Knowledge Base Tutorial](../03-context-and-memory/ai-knowledge-base-tutorial.md)
 
 ---
 
@@ -248,7 +248,7 @@ For complex pipelines, a three-agent structure handles context pressure cleanly:
 
 The executor never sees the full history. The planner never sees raw tool outputs. This cuts token usage dramatically and prevents context rot from cascading.
 
-> Deep dives: [Context Engineering](./context-engineering.md) · [Agent Context Window Performance](./agent-context-window-performance.md) · [Cursor Dynamic Context Discovery](./cursor-dynamic-context-discovery.md) · [Ultimate 2026 Implementation Guide](./ultimate-2026-ai-software-implementation-guide.md)
+> Deep dives: [Context Engineering](../03-context-and-memory/context-engineering.md) · [Agent Context Window Performance](../03-context-and-memory/agent-context-window-performance.md) · [Cursor Dynamic Context Discovery](../03-context-and-memory/cursor-dynamic-context-discovery.md) · [Ultimate 2026 Implementation Guide](./ultimate-2026-ai-software-implementation-guide.md)
 
 ---
 
@@ -291,7 +291,7 @@ LangSmith        →  LangChain-native observability and dataset management
 Custom dashboard →  Cost-per-task KPI, tool failure rate, context hit rate
 ```
 
-> Deep dives: [Models & Evaluations](../06-models-and-evaluations/README.md) · [Ultimate 2026 Implementation Guide — Measure & Harden](./ultimate-2026-ai-software-implementation-guide.md)
+> Deep dives: [Models & Evaluations](../../06-models-and-evaluations/README.md) · [Ultimate 2026 Implementation Guide — Measure & Harden](./ultimate-2026-ai-software-implementation-guide.md)
 
 ---
 
@@ -346,19 +346,19 @@ Use this before declaring an agent production-ready.
 
 | Guide | What it covers |
 |---|---|
-| [AI Agents Overview](./ai-agents-overview.md) | Agent types, workflow patterns, 7-step build, framework comparison table |
-| [Models for AI Agents 2026](./models-for-ai-agents-2026.md) | 15+ providers, model selection checklist, SLM tool-calling research |
-| [Claude Managed Agents Tutorial](./claude-managed-agents-tutorial.md) | Anthropic Agent SDK, built-in tools, function calling |
-| [MCP Guide](./mcp-guide.md) | MCP architecture, 12 servers to try, security setup |
-| [A2A Protocol Guide](./a2a-protocol-guide.md) | Agent Cards, cross-system agent collaboration |
-| [Context Engineering](./context-engineering.md) | 5-layer hierarchy, summarization strategies, token budgeting |
-| [Agent Context Window Performance](./agent-context-window-performance.md) | Performance benchmarks and context configuration tradeoffs |
-| [Cursor Dynamic Context Discovery](./cursor-dynamic-context-discovery.md) | Practical context engineering example end-to-end |
-| [MemPalace AI Memory Tutorial](./mempalace-ai-memory-tutorial.md) | Free local memory system, 96.6% LongMemEval benchmark |
-| [AI Knowledge Base Tutorial](./ai-knowledge-base-tutorial.md) | 3-layer knowledge architecture for persistent agent memory |
-| [Self-Evolving Agents — Google ADK](./self-evolving-agents-google-adk.md) | Google ADK, modular skills, dynamic capability discovery |
-| [Microsoft Agent Framework](../05-tools/microsoft-agent-framework.md) | Semantic Kernel + AutoGen, enterprise Azure patterns |
-| [LangChain Deep Agents](../05-tools/langchain-deep-agents.md) | LangChain orchestration, dual-agent research patterns |
-| [N8N vs LangGraph](../05-tools/n8n-vs-langgraph.md) | No-code vs code-first workflow comparison |
+| [AI Agents Overview](../01-foundations/ai-agents-overview.md) | Agent types, workflow patterns, 7-step build, framework comparison table |
+| [Models for AI Agents 2026](../01-foundations/models-for-ai-agents-2026.md) | 15+ providers, model selection checklist, SLM tool-calling research |
+| [Claude Managed Agents Tutorial](../04-protocols/claude-managed-agents-tutorial.md) | Anthropic Agent SDK, built-in tools, function calling |
+| [MCP Guide](../04-protocols/mcp-guide.md) | MCP architecture, 12 servers to try, security setup |
+| [A2A Protocol Guide](../04-protocols/a2a-protocol-guide.md) | Agent Cards, cross-system agent collaboration |
+| [Context Engineering](../03-context-and-memory/context-engineering.md) | 5-layer hierarchy, summarization strategies, token budgeting |
+| [Agent Context Window Performance](../03-context-and-memory/agent-context-window-performance.md) | Performance benchmarks and context configuration tradeoffs |
+| [Cursor Dynamic Context Discovery](../03-context-and-memory/cursor-dynamic-context-discovery.md) | Practical context engineering example end-to-end |
+| [MemPalace AI Memory Tutorial](../03-context-and-memory/mempalace-ai-memory-tutorial.md) | Free local memory system, 96.6% LongMemEval benchmark |
+| [AI Knowledge Base Tutorial](../03-context-and-memory/ai-knowledge-base-tutorial.md) | 3-layer knowledge architecture for persistent agent memory |
+| [Self-Evolving Agents — Google ADK](../02-skills/self-evolving-agents-google-adk.md) | Google ADK, modular skills, dynamic capability discovery |
+| [Microsoft Agent Framework](../../05-tools/microsoft-agent-framework.md) | Semantic Kernel + AutoGen, enterprise Azure patterns |
+| [LangChain Deep Agents](../../05-tools/langchain-deep-agents.md) | LangChain orchestration, dual-agent research patterns |
+| [N8N vs LangGraph](../../05-tools/n8n-vs-langgraph.md) | No-code vs code-first workflow comparison |
 | [Ultimate 2026 Implementation Guide](./ultimate-2026-ai-software-implementation-guide.md) | MCP-first stack, 30-60-90 rollout, production hardening |
-| [Models & Evaluations](../06-models-and-evaluations/README.md) | promptfoo configs, evaluation strategy overview |
+| [Models & Evaluations](../../06-models-and-evaluations/README.md) | promptfoo configs, evaluation strategy overview |

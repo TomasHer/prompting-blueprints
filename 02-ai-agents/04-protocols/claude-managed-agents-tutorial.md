@@ -289,6 +289,6 @@ Asana uses Managed Agents to power an AI teammate that handles project managemen
 - [Anthropic – Building agents with the Claude Agent SDK](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk)
 - [Anthropic API – Agents reference](https://docs.anthropic.com/en/api/agents)
 - [Anthropic API – Sessions reference](https://docs.anthropic.com/en/api/sessions)
-- [02-ai-agents/ai-agents-overview.md](./ai-agents-overview.md)
-- [02-ai-agents/claude-agent-skills.md](./claude-agent-skills.md)
+- [02-ai-agents/ai-agents-overview.md](../01-foundations/ai-agents-overview.md)
+- [02-ai-agents/claude-agent-skills.md](../02-skills/claude-agent-skills.md)
 - [02-ai-agents/mcp-guide.md](./mcp-guide.md)

@@ -142,9 +142,9 @@ REQUEST: Provide a short plan, then implement.
 - [A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
 
 ## Related guides
-- [AI Coding Spectrum](../02-ai-agents/ai-coding-spectrum.md)
-- [Context Engineering](../02-ai-agents/context-engineering.md)
-- [Claude Agent Skills Playbook](../02-ai-agents/claude-agent-skills.md)
+- [AI Coding Spectrum](../02-ai-agents/01-foundations/ai-coding-spectrum.md)
+- [Context Engineering](../02-ai-agents/03-context-and-memory/context-engineering.md)
+- [Claude Agent Skills Playbook](../02-ai-agents/02-skills/claude-agent-skills.md)
 
 ## References
 - Claude Code product page: <https://claude.com/product/claude-code>

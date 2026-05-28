@@ -4,7 +4,7 @@ tags: ["agents", "self-evolving"]
 last_updated: "2026-04-22"
 ---
 
-<img src="../assets/other/self-evolving-ai.png" alt="Google ADK Self-Evolving Agents" width="80%">
+<img src="../../assets/other/self-evolving-ai.png" alt="Google ADK Self-Evolving Agents" width="80%">
 
 # Self-Evolving AI: Scaling Autonomy with Google ADK and Agent Skills
 
@@ -267,5 +267,5 @@ This mirrors how software engineers extend a codebase with new modules rather th
 - [google/skills — GitHub](https://github.com/google/skills)
 - [5 Agent Skill Design Patterns Every ADK Developer Should Know](https://lavinigam.com/posts/adk-skill-design-patterns/)
 - [Introducing Skills in ADK — Google Cloud Community](https://medium.com/google-cloud/introducing-skills-in-adk-teach-your-agent-new-tricks-one-skill-at-a-time-be319f9b1917)
-- [Google Cloud ADK Quickstart](../05-tools/google-cloud-platform-agents.md)
+- [Google Cloud ADK Quickstart](../../05-tools/google-cloud-platform-agents.md)
 - [Claude Agent Skills Playbook](./claude-agent-skills.md)
