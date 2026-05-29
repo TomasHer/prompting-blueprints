@@ -1,0 +1,167 @@
+# Changelog
+
+All notable changes to this project will be documented here.
+
+## Unreleased
+- Add reference to `multica-ai/andrej-karpathy-skills` (≈154k-star, single-file `CLAUDE.md` implementing Andrej Karpathy's 4-rule baseline) in the 12 Rules for AI Coding Tools guide and the CLAUDE.md design tutorial, plus an entry in `external-sources.md`.
+- Add CI/CD for AI Agents on Microsoft Foundry tutorial (`02-ai-agents/05-production/cicd-ai-agents-microsoft-foundry.md`) covering the five-layer reference architecture, evaluation-driven quality gates, OIDC-based auth, and parallel GitHub Actions / Azure DevOps pipeline implementations for both containerised hosted and declarative prompt-based agents.
+- Add Intelligent Document Processing use-case playbook (`07-use-cases-and-research/intelligent-document-processing-daita.md`) covering ESG reporting, credit applications, and HR intake scenarios, based on the DAiTA platform feature from Post Business Solutions.
+- Add 12 Rules for AI Coding Tools (Senior Engineer Edition) guide to `04-guides/`, covering Andrej Karpathy's mistake-rate data and the 12-rule framework senior engineers settled on for AI-assisted development.
+- Add Requirements Engineering folder (`08-requirements-engineering/`) with overview and first tutorial: Check Model Consistency, based on the IREB AI4RE Prompt Guide.
+- Add AI knowledge base tutorial covering Andrej Karpathy's LLM Wiki pattern and the claude-obsidian implementation for building persistent, compounding knowledge bases for AI agents.
+- Add agent context window performance tutorial explaining why larger context windows degrade instruction following, with GPT-5.4 MRCR benchmark data and findings from the ETH Zurich AGENTS.md study (arXiv 2602.11988).
+- Fix broken internal markdown links across repository files including the Google ADK guide and the 5-Day AI Agents course.
+- Add spec-driven development tutorial covering vibecoding-to-production workflows with Kiro Specs/Hooks, Claude Code CLI, Strands Agents SDK, and Antigravity.
+- Add Everything Claude Code GitHub repository references to the external sources index and Claude Code tutorials.
+- Rebuild the Claude Code project structure tutorial with a comprehensive 2026 cheatsheet covering memory hierarchies, hooks, MCP server configurations, and skills guidelines.
+- Add Frontier Long Horizon Agent AI Products comparison page covering Claude Cowork, Copilot Cowork, Perplexity Computer, and OpenClaw.
+- Add reference to the Anthropic Claude Skills Guide PDF in the Claude building skills guide.
+- Add Claude Code certification guide covering the Claude Certified Architect Foundations exam domains, prep checklist, and study plan.
+- Add Claude AI vs Claude Code vs Claude Cowork tutorial comparing use cases, pros/cons, and workflows.
+- Add Google 5-Day AI Agents Intensive Course tutorial with daily resources and cross-references.
+- Add a Claude Code + NotebookLM integration tutorial with notebooklm-py setup, CLI workflows, and copy/paste YouTube templates.
+- Add a coding AI agent selection tutorial comparing Codex, Claude Code, GitHub Copilot, Cursor, and Antigravity with a quick decision guide.
+- Move the AI video camera movements prompt library into `07-use-cases-and-research/`.
+- Add AI video camera movements prompt library with 42 copy-ready movement lines and examples.
+- Add Lovable prompting best practices reference to the Lovable vibe coding tutorial.
+- Add GLM-5 setup and serving guide with vLLM/SGLang and OpenClaw workflows.
+- Move the Vibe Coding Tech Stack guide into `04-guides/` and restructure it with an Intent-first layout.
+- Update README and MkDocs navigation to include dynamic context discovery, open models, and the vibe coding tech stack tutorial.
+- Add Tomas Herda biography page under `01-about-author/`.
+- Add NotebookLM 2026 tool tutorial with the Curate-Learn-Act workflow and prompt pack.
+- Add template tool guide pages for Gamma, ElevenLabs, HeyGen, Napkin, and Suno.
+- Add Claude Code tool guide with workflow templates, example output format, and curated resources.
+- Update README summary, TL;DR, quick links, and What's inside to match the current structure.
+- Move use case and research docs into `07-use-cases-and-research/` and refresh navigation + links.
+- Move model/evaluation docs and promptfoo configs into `06-models-and-evaluations/`, remove legacy GPT-5/Gemini tips, and refresh references.
+- Refresh README.md and AGENTS.md folder references for the current repository structure.
+- Rename the `tools` folder to `05-tools` and refresh references.
+- Move prompt and pattern blueprints into `03-prompts-and-patterns/` and refresh links.
+- Move AI agent guides and the Claude Agent Skills playbook into `02-ai-agents/` and refresh links.
+- Update references to the renamed `01-about-author` folder.
+- Rename the `guides` folder to `04-guides` and refresh links.
+- Add Vibe Kanban tutorial hero image.
+- Add Vibe Kanban tool tutorial with setup, workflow prompts, navigation entry, and external references.
+- Move the GitHub Copilot custom instructions tutorial into tools and add a hero image.
+- Add GitHub Copilot custom instructions tutorial with prompt examples and navigation link.
+- Add GitHub Copilot coding agent MCP tutorial with setup steps, rollout checklist, and navigation entry.
+- Add context engineering guide hero image.
+- Add cross-links to context engineering, MCP, and skills guides from the 2026 AI software implementation guide.
+- Link the FunctionGemma fine-tuning guide from the 2026 model providers guide.
+- Add ChatGPT how-to guide with mode selection, feature tips, and navigation entry.
+- Add 2026 AI software implementation guide covering MCP-first design, skills, and agent orchestration.
+- Add Claude fine-tuning tutorial covering the Qwen3-0.6B workflow and navigation entry.
+- Add responsive line break for the docs viewer brand title under 1000px width.
+- Set a minimum width for the docs viewer search input.
+- Fix docs viewer back/forward navigation to respect browser history.
+- Exclude the `assets/` directory from docs viewer search results.
+- Fix docs viewer hash navigation so the home button renders README.md.
+- Replace the docs landing header text with a button linking to the hosted README view.
+- Add context engineering guide to MkDocs navigation and README quick links.
+- Rename FunctionGemma fine-tuning + LM Studio guide file to `04-guides/finetune-functiongemma.md`.
+- Add FunctionGemma fine-tuning and LM Studio local serving tutorial with tool-call workflow guidance.
+- Add FunctionGemma hero image to the fine-tuning + LM Studio guide.
+- Add FunctionGemma cost-control guidance for tool-calling workflows to the 2026 model providers guide.
+- Add tool-calling specialization research highlight to the 2026 model providers guide with new arXiv reference.
+- Add A2A protocol quick-start guide with official SDK links and navigation entry.
+- Add Microsoft MCP for Beginners highlights and reference to the MCP guide.
+- Add Pamela Fox FastMCP webinar recommendation inside the MCP guide and register the external links.
+- Add EASE 2026 VIBEX workshop placement plus EASE/XP 2026 dates and locations in the program committee overview.
+- Add XP 2026 workshop co-organizer and Human-AI Collaboration PC roles to the program committee overview.
+- Add ISD 2026 program committee role to the program committee overview.
+- Move the program committee overview page to `01-about-author/program-committee/index.md` and update navigation/readme links.
+- Fix MkDocs guide paths for the MCP and 2026 model providers pages, and link the guides overview/PDF library from the README.
+- Update Claude Agent Skills playbook with the anthropics/skills repository reference and PDF skill examples.
+- Add Google Startup Technical Guide for AI Agents preview and download link to the guides overview.
+- Add Unsloth phone deployment tutorial with QAT, ExecuTorch export, and iOS/Android setup steps plus navigation entry.
+- Add best model providers for AI agents guide for 2026 with navigation entry.
+- Add nanoGPT + nanochat tool guide covering setup, speedrun workflow, and navigation entry.
+- Add 2025 top 10 machine learning algorithms field guide with strengths, use cases, and navigation entry.
+- Add FACTS Benchmark overview covering four factuality dimensions with navigation entry.
+- Add Model Context Protocol (MCP) quick-start guide summarizing why models need MCP, how it works, and setup steps, with navigational entry.
+- Refresh MCP server quick-reference table to match the 2025 lineup and remove the link column in the MCP guide.
+- Surface external sources index and promptfoo smoke tests in navigation and README; fix docs license badge target.
+- Add Codex agent prompting guide summarizing prompting tips, AGENTS.md layering, and navigation entry.
+- Add generative AI project tutorial summarizing template structure with navigation entry.
+- Add AI coding spectrum guide covering vibe, AI-assisted, and agentic modes with tool links, prompts, and navigation entry.
+- Embed Vibe, AI-Assisted, and Agentic coding diagrams into the AI coding spectrum guide.
+- Highlight the AI agents overview guide in the README TL;DR and MkDocs navigation.
+- Link a YouTube walkthrough near the top of the AI agents overview guide.
+- Add AI adoption readiness checklist guide with eight organizational green flags and navigation entry.
+- Add LangChain research agent tutorial covering dual-agent workflow, prompt text, and navigation links.
+- Add Gemini Nano Banana Pro prompt library with two starter examples and navigation entry.
+- Add LangChain Deep Agents tools guide with planning, sub-agent, and file workspace tactics plus navigation updates.
+- Add AI tool chaining playbook summarizing October 2025 TheFuturaLab guidance for Claude 4.5, ChatGPT-5, Perplexity, Gemini 2.5, Grok 4, DeepSeek V3.1, and Mistral Large 2, with official resource links.
+- Describe non-agentic, agentic, and AI agent workflows with supporting diagrams in the AI agents overview guide.
+- Detail retrieval, task, and autonomous agent tiers with supporting diagram, official framework links, and Microsoft custom retrieval agent reference in the AI agents overview guide.
+- Document the 7-step AI agent build workflow, frameworks table, and supporting diagram in the AI agents overview guide.
+- Move the AI agents overview into the guides collection and cite the Google Cloud primer.
+- Add AI terms explained glossary v2 capturing 85 grouped definitions from the reference visual and linking it in navigation.
+- Add n8n vibe research workflow tutorial for co-designing shareable automation templates.
+- Add n8n vs LangGraph tool comparison guide with decision checklist, examples, and navigation entry.
+- Add vibe research playbook outlining exploratory sensemaking workflows and tool stacks.
+- Embed glue-in-pizza and Titanic pool images in the AI gone wrong incident stories guide.
+- Add AI gone wrong incident stories guide with workshop facilitation prompts.
+- Relocate speaking and research content into an `01-about-author` folder and refresh navigation links.
+- Document Tomas Herda's program committee and track leadership roles across 2024–2026 conferences.
+- Highlight the Prompting Blueprints introduction video alongside the README repository mind map for quick orientation.
+- Move the repository mind map link to the end of the README “What’s inside” section for quick visual navigation.
+- Reference the publicly accessible Google NotebookLM notebook from the README quick links section.
+- Expand research overview with summaries and key findings for upcoming publications.
+- Add publication metadata, missing arXiv links, and year-based reverse-chronological ordering to the research overview backlog.
+- Embed the social preview image directly in the README credits section.
+- Rename research topics and speaking highlights pages to overview indexes and refresh navigation links.
+- Add Large-Scale Scrum (LeSS) in NYC meetup (27 Feb 2026) appearance to Speaking & Keynotes highlights.
+- Add Austrian Post Open Architecture Day (18 Nov 2025) AI Agents talk to Speaking & Keynotes highlights.
+- Add Microsoft Adoption Scenario Library prompt guide with Teams, SharePoint, and Power Platform examples.
+- Add Program Delivery Manager Copilot playbook covering project planning and review workflows.
+- Move the Google Veo 3.1 tutorial into the use cases section and update navigation.
+- Add Google Veo 3.1 Flow tutorial covering prompting workflow and credit management.
+- Add AI Use Case Identification tutorial with placeholders for Figure 3 and Table 1 from Vom Brocke et al. study.
+- Add requirements engineering dataset experimentation tutorial leveraging LLM4RE resources.
+- Add Lovable vibe coding tutorial with architecture enforcement prompt, workflow, and navigation entry.
+- Refine the Microsoft Agent Framework quickstart with pillar guidance highlighting MCP, A2A, OpenAPI-first design, and cloud-agnostic operations.
+- Add Claude Agent Skills playbook summarizing Anthropic guidance on reusable workflows.
+- Add README Research section linking to the research topics index.
+- Add placeholders for upcoming software engineering AI research references.
+- Add research topics index documenting Tomas Herda's AI and Agile XP 2025 work.
+- Add Microsoft Copilot prompt template covering goal, context, expectations, and source guidance.
+- Add beginner-friendly glossary of essential generative AI terms and link it from the guides navigation.
+- Document Model Context Protocol (MCP) and Agent-to-Agent (A2A) collaboration in the generative AI basics glossary.
+- Expand the Vibe coding glossary entry with Karpathy's 3 Feb 2025 X post transcription and deeper guidance.
+- Add OpenAI guide previews and links to the guides overview page.
+- Add Microsoft M365 Copilot prompting guide preview and download link to the guides overview page.
+- Highlight experimentation guidance for LLM4RE requirements engineering datasets in the external sources index.
+- Rename the `assets/prompting-guides` directory to `assets/guides` and update all references.
+- Update SharePoint Knowledge Agent tutorial with a hero image placeholder pending maintainer artwork.
+- Add Microsoft Facilitator Agent blueprint for Teams meeting orchestration.
+- Add GPT-5 Prompt Optimizer tutorial with workflow, RAG-focused prompt template, and references.
+- Add Prompt Pattern Catalogue smoke tests and document quick run commands for evaluations.
+- Move prompting guides overview into a dedicated root-level `guides` directory.
+- Add static image preview for the Gemini Prompting Guide 101.
+- Add LLM lifecycle monitoring guide covering signals, practices, and tooling accelerators.
+- Move prompting guides overview into the patterns directory and refresh Gemini 101 links.
+- Add prompting guides overview page with Gemini 101 preview and index scaffold.
+- Add Google Cloud ADK quickstart tutorial covering setup, tooling, and deployment guidance.
+- Add researchers prompting blueprints for academic workflows.
+- Add writers prompting blueprints for typography and style guardrails.
+- Add Microsoft Copilot Researcher Agent blueprint with reasoning prompt patterns.
+- Add Microsoft 365 Copilot prompting digest with prompt starters, guidance, and gallery link, and wire tips into Copilot agent docs.
+- Add consolidated external sources index covering referenced links across the repo.
+- Rename NotebookLM tactics doc and expand it into an audio overview blueprint with source-linked guardrails.
+- Register NotebookLM audio overview references in the external sources index.
+- Register Speaking & Keynotes session links in the external sources index.
+- Move Speaking & Keynotes details to a dedicated page linked from the README and site navigation.
+- Reference conference program committee and track leadership overview from the README Speaking section.
+- Reference the Gemini Prompting Guide 101 from the Gemini general tips.
+- Document reasoning vs. classic LLM prompting differences in English and German guides and add them to navigation.
+- Refresh README repository structure to reflect current directories and key files.
+- Expand `external-sources.md` to include every cited reference across the repository.
+- Add Deep Research Tools Playbook summarizing Perplexity, Gemini, and ChatGPT workflows with image placeholders.
+- Correct Titanic pool story date in the AI gone wrong incident stories guide.
+- Add deep research prompt examples for strategy analysis and telescope purchasing scenarios.
+- Add XP 2026 PR workshop program committee role to the program committee overview.
+- Add summarization playbook use case with prompt library for executive, research, and policy outputs.
+
+## 2025-09-06
+- Initial public release: scaffolding, patterns, model & tool tips, evaluations, MkDocs + Pages workflow.

@@ -1,0 +1,137 @@
+site_name: Prompting Blueprints
+site_description: Practical prompt patterns, model tips, and tool tactics for LLMs.
+site_url: https://TomasHer.github.io/prompting-blueprints
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+    - toc.integrate
+nav:
+  - Home: README.md
+  - Patterns:
+    - Role + Constraints + Format: 03-prompts-and-patterns/role-constraint-format.md
+    - Guide to Prompt Pattern Catalogue: 03-prompts-and-patterns/prompt-pattern-catalogue.md
+    - 97 Claude Prompt Shortcuts: 03-prompts-and-patterns/claude-prompt-shortcuts.md
+  - Prompts:
+    - Managers Prompting Blueprints: 03-prompts-and-patterns/managers-prompting-blueprints.md
+    - Researchers Prompting Blueprints: 03-prompts-and-patterns/researchers-prompting-blueprints.md
+    - Writers Prompting Blueprints: 03-prompts-and-patterns/writers-prompting-blueprints.md
+    - Weekly Newsletter Blueprint: 03-prompts-and-patterns/weekly-newsletter-blueprint.md
+    - Presentations Prompting Blueprints (Patrick Winston): 03-prompts-and-patterns/presentations-prompting-blueprints.md
+  - Models & Evaluations:
+    - Overview: 06-models-and-evaluations/README.md
+    - Gemini Nano Banana Pro Prompt Library: 06-models-and-evaluations/nano-banana-pro-library.md
+    - AI Video Camera Movements Prompt Library: 06-models-and-evaluations/ai-video-camera-movements-prompt-library.md
+    - GLM-5 Setup & Serving Guide: 06-models-and-evaluations/glm-5-guide.md
+    - Google Veo 3.1 Video Tutorial: 06-models-and-evaluations/google-veo-3-1-video-tutorial.md
+    - FACTS Benchmark Overview: 06-models-and-evaluations/facts-benchmark-overview.md
+    - Aggregated Suite (promptfoo.yml): 06-models-and-evaluations/promptfoo.yml
+    - Pattern Catalogue Smoke Tests: 06-models-and-evaluations/pattern-catalogue-smoke.yml
+  - Tools:
+    - Best AI Apps for 2026: 05-tools/best-ai-apps-2026.md
+    - Anatomy of a Claude Agent Skill: 02-ai-agents/anatomy-of-a-skill.md
+    - Claude Agent Skills Playbook: 02-ai-agents/claude-agent-skills.md
+    - Claude Building Skills Guide: 04-guides/claude-building-skills-guide.md
+    - Skills Design Patterns: 02-ai-agents/skills-design-patterns.md
+    - Skills Testing and Iteration: 02-ai-agents/skills-testing-iteration.md
+    - Claude AI vs Claude Code vs Claude Cowork: 05-tools/claude-ai-vs-code-vs-cowork.md
+    - Cowork Tool Selection Tutorial: 05-tools/cowork-tool-selection-tutorial.md
+    - Claude Code Tool Guide: 05-tools/claude-code-tool-guide.md
+    - Claude Code Certification Guide: 05-tools/claude-code-certification-guide.md
+    - Claude Code Cheatsheet Tutorial: 05-tools/claude-code-cheatsheet-tutorial.md
+    - Claude Code Project Structure Tutorial: 05-tools/claude-code-project-structure-tutorial.md
+    - Google Cloud ADK Quickstart: 05-tools/google-cloud-platform-agents.md
+    - LangChain Deep Agents Playbook: 05-tools/langchain-deep-agents.md
+    - Microsoft Agent Framework Quickstart: 05-tools/microsoft-agent-framework.md
+    - GitHub Copilot Custom Instructions Tutorial: 05-tools/github-copilot-custom-instructions-tutorial.md
+    - GitHub Copilot Coding Agent MCP Tutorial: 05-tools/github-copilot-coding-agent-mcp-tutorial.md
+    - Right Selection of a Coding AI Agent (2026): 05-tools/coding-ai-agent-selection-tutorial.md
+    - Microsoft 365 Copilot Prompting Guide: 05-tools/microsoft-365-copilot-prompting-guide.md
+    - Microsoft Copilot Agents: 05-tools/microsoft-copilot-agents.md
+    - Microsoft Copilot Prompt Template: 05-tools/copilot-prompt-template.md
+    - Microsoft Copilot Researcher Agent: 05-tools/microsoft-copilot-researcher-agent.md
+    - Microsoft Facilitator Agent: 05-tools/microsoft-facilitator-agent.md
+    - Microsoft SharePoint Knowledge Agent: 05-tools/microsoft-sharepoint-knowledge-agent.md
+    - NotebookLM Audio Overviews: 05-tools/notebooklm-audio-overviews-blueprint.md
+    - NotebookLM 2026 Tool Tutorial: 05-tools/notebooklm-2026-tool-tutorial.md
+    - Claude Code + NotebookLM Integration Tutorial: 05-tools/claude-code-notebooklm-integration-tutorial.md
+    - NotebookLM Prompting Blueprints: 05-tools/notebooklm-prompting-blueprints.md
+    - OpenAI GPT-5 Prompt Optimizer: 05-tools/openai-gpt-5-prompt-optimizer.md
+    - nanoGPT + nanochat Tool Guide: 05-tools/nanogpt-tool-guide.md
+    - Perplexity Comet: 05-tools/perplexity-comet.md
+    - Gamma Guide: 05-tools/gamma-guide.md
+    - ElevenLabs Guide: 05-tools/elevenlabs-guide.md
+    - HeyGen Guide: 05-tools/heygen-guide.md
+    - Napkin Guide: 05-tools/napkin-guide.md
+    - Suno Guide: 05-tools/suno-guide.md
+    - Lyria 3 in Gemini: 05-tools/lyra-3-gemini.md
+    - AI Tool Chaining (Oct 2025): 05-tools/ai-tool-chaining-oct-2025.md
+    - Spec-Driven Development Tutorial: 05-tools/spec-driven-development-tutorial.md
+    - Vibe Coding Tech Stack Tutorial: 04-guides/vibe-coding-tech-stack.md
+    - Lovable Vibe Coding Tutorial: 05-tools/lovable-vibe-coding-tutorial.md
+    - Vibe Kanban Tool Tutorial: 05-tools/vibe-kanban-tool-tutorial.md
+    - Unsloth Phone Deployment Tutorial: 05-tools/llm-on-phone-deployment-tutorial.md
+    - n8n vs LangGraph Comparison: 05-tools/n8n-vs-langgraph.md
+    - n8n Vibe Research Workflow Tutorial: 05-tools/n8n-research-workflow-tutorial.md
+  - Guides:
+    - Overview: 04-guides/overview.md
+    - How to Use ChatGPT: 04-guides/how-to-use-chatgpt.md
+    - AI Knowledge Base for Agents (LLM Wiki Pattern): 02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md
+    - AgentMemory Tutorial: 02-ai-agents/03-context-and-memory/agentmemory-tutorial.md
+    - AI Agents Overview: 02-ai-agents/ai-agents-overview.md
+    - Google 5-Day AI Agents Intensive Course: 02-ai-agents/google-5-day-ai-agents-course.md
+    - Self-Evolving AI with Google ADK and Agent Skills: 02-ai-agents/self-evolving-agents-google-adk.md
+    - Context Engineering: 02-ai-agents/context-engineering.md
+    - Agent Context Window Performance: 02-ai-agents/agent-context-window-performance.md
+    - Cursor Dynamic Context Discovery: 02-ai-agents/cursor-dynamic-context-discovery.md
+    - Ultimate 2026 AI Software Implementation Guide: 02-ai-agents/ultimate-2026-ai-software-implementation-guide.md
+    - AI Coding Spectrum: 02-ai-agents/ai-coding-spectrum.md
+    - AI Gone Wrong Incident Stories: 04-guides/ai-gone-wrong-stories.md
+    - Generative AI Basics Glossary: 04-guides/genai-basics-glossary.md
+    - AI Terms Explained (Glossary v2): 04-guides/genai-terms-explained-v2.md
+    - Top 10 Machine Learning Algorithms: 04-guides/top-10-ml-algorithms.md
+    - Generative AI Project Tutorial: 04-guides/gen-ai-project-tutorial.md
+    - LLM Lifecycle Monitoring Guide: 04-guides/llm-lifecycle-monitoring.md
+    - CI/CD for AI Agents on Microsoft Foundry: 02-ai-agents/05-production/cicd-ai-agents-microsoft-foundry.md
+    - AI Adoption Readiness Guide: 04-guides/ai-adoption-guide.md
+    - Gemini 3 Pro + n8n Workflow JSON Guide: 04-guides/gemini-n8n-workflow-json-guide.md
+    - Model Context Protocol (MCP) Guide: 02-ai-agents/mcp-guide.md
+    - Agent-to-Agent (A2A) Protocol Guide: 02-ai-agents/a2a-protocol-guide.md
+    - Reasoning vs. Classic LLMs: 04-guides/reasoning-vs-classic-llms.md
+    - Reasoning vs. Classic LLMs (DE): 04-guides/reasoning-vs-classic-llms-de.md
+    - 12 Rules for AI Coding Tools (Senior Engineer Edition): 04-guides/ai-coding-rules-senior-engineers.md
+    - Codex Agent Prompting Guide: 04-guides/codex-agent-prompting-guide.md
+    - Codex TDD Workflow and Skills Guide: 04-guides/codex-tdd-and-skills.md
+    - Fine-Tune an Open Source LLM with Claude: 04-guides/claude-fine-tune-llm.md
+    - FunctionGemma Fine-Tuning + Local Serving (LM Studio): 04-guides/finetune-functiongemma.md
+    - Best Model Providers for AI Agents for 2026: 02-ai-agents/models-for-ai-agents-2026.md
+    - Open Models for Agentic AI: 02-ai-agents/open-models.md
+  - About the Author:
+    - Tomas Herda Biography: 01-about-author/tomas-herda-biography.md
+  - Speaking & Keynotes:
+    - Overview: 01-about-author/speaking/index.md
+    - Program Committee & Track Leadership: 01-about-author/program-committee/index.md
+  - Use Cases & Research:
+    - Tomas Herda Research Overview: 01-about-author/research/overview.md
+    - Vibe Research Playbook: 07-use-cases-and-research/vibe-research.md
+    - Requirements Engineering Dataset Experiments: 07-use-cases-and-research/requirements-engineering-dataset-experiments.md
+    - LangChain Research Agent Tutorial: 07-use-cases-and-research/langchain-research-agent.md
+    - Program Delivery Manager Copilot Playbook: 07-use-cases-and-research/program-delivery-manager-copilot-playbook.md
+    - AI Use Case Identification: 07-use-cases-and-research/ai-use-case-identification.md
+    - Microsoft Adoption Scenario Library: 07-use-cases-and-research/microsoft-adoption-scenario-library.md
+    - Intelligent Document Processing Playbook (DAiTA): 07-use-cases-and-research/intelligent-document-processing-daita.md
+    - Deep Research Tools Playbook: 07-use-cases-and-research/deep-research.md
+    - Summarization Playbook: 07-use-cases-and-research/summarization-tutorial.md
+    - AI Video Camera Movements Prompt Library: 07-use-cases-and-research/ai-video-camera-movements-prompt-library.md
+  - External Sources: external-sources.md
+plugins:
+  - search
+  - tags
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+docs_dir: "."
