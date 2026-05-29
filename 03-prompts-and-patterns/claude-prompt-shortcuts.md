@@ -17,9 +17,12 @@ emails, making decisions, learning, and creative work.
 > convention that makes well-known prompting intents fast to recall and consistent to reuse.
 > Replace the `[bracketed]` placeholder with your own topic or pasted text.
 
-> **Source:** Transcribed from the community-shared "100 Claude Prompt Shortcuts"
-> cheat sheet image. Counts and exact wording are reproduced as legibly as possible;
-> the sheet is billed as 100 shortcuts across 11 categories.
+> **Source:** Transcribed from the community-shared cheat sheet image whose printed
+> title is "100 Claude Prompt Shortcuts." The sheet lays its shortcuts out across the
+> **10 categories** reproduced below. A few entries at the bottom of the **Learning**
+> and **Home & Life** columns were not fully legible in the source image, so this page
+> faithfully reproduces the **97 shortcuts** that could be read with confidence rather
+> than inventing the remaining handful to reach the headline count of 100.
 
 ## Explain & Understand
 
