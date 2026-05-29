@@ -29,6 +29,7 @@ README.md
 03-prompts-and-patterns/weekly-newsletter-blueprint.md
 03-prompts-and-patterns/prompt-pattern-catalogue.md
 03-prompts-and-patterns/role-constraint-format.md
+03-prompts-and-patterns/claude-prompt-shortcuts.md
 
 #04 Guides files
 04-guides/claude-fine-tune-llm.md
