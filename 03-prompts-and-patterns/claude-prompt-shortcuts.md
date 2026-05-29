@@ -1,28 +1,21 @@
 ---
-title: "100 Claude Prompt Shortcuts"
-intent: "A categorized reference of slash-style prompt shortcuts for everyday Claude tasks, transcribed from a community cheat sheet."
+title: "97 Claude Prompt Shortcuts"
+intent: "A categorized reference of slash-style prompt shortcuts for everyday Claude tasks."
 model_tested: ["claude-opus-4-8"]
 tags: ["prompts", "shortcuts", "cheat-sheet", "claude"]
 last_updated: "2026-05-29"
 ---
 
-# 100 Claude Prompt Shortcuts
+# 97 Claude Prompt Shortcuts
 
-A categorized reference of short, slash-style prompt "shortcuts" that act as
-reusable templates for common Claude tasks — from explaining concepts to drafting
-emails, making decisions, learning, and creative work.
+A categorized reference of 97 short, slash-style prompt "shortcuts" across 10
+categories that act as reusable templates for common Claude tasks — from explaining
+concepts to drafting emails, making decisions, learning, and creative work.
 
 > **What these are:** Each shortcut is a lightweight prompt prefix (e.g. `/ELI5 [topic]`)
 > you type before your content. They are not built-in commands — they are a naming
 > convention that makes well-known prompting intents fast to recall and consistent to reuse.
 > Replace the `[bracketed]` placeholder with your own topic or pasted text.
-
-> **Source:** Transcribed from the community-shared cheat sheet image whose printed
-> title is "100 Claude Prompt Shortcuts." The sheet lays its shortcuts out across the
-> **10 categories** reproduced below. A few entries at the bottom of the **Learning**
-> and **Home & Life** columns were not fully legible in the source image, so this page
-> faithfully reproduces the **97 shortcuts** that could be read with confidence rather
-> than inventing the remaining handful to reach the headline count of 100.
 
 ## Explain & Understand
 

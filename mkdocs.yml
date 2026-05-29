@@ -13,7 +13,7 @@ nav:
   - Patterns:
     - Role + Constraints + Format: 03-prompts-and-patterns/role-constraint-format.md
     - Guide to Prompt Pattern Catalogue: 03-prompts-and-patterns/prompt-pattern-catalogue.md
-    - 100 Claude Prompt Shortcuts: 03-prompts-and-patterns/claude-prompt-shortcuts.md
+    - 97 Claude Prompt Shortcuts: 03-prompts-and-patterns/claude-prompt-shortcuts.md
   - Prompts:
     - Managers Prompting Blueprints: 03-prompts-and-patterns/managers-prompting-blueprints.md
     - Researchers Prompting Blueprints: 03-prompts-and-patterns/researchers-prompting-blueprints.md
