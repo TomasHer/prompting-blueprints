@@ -39,6 +39,7 @@ trigger: always_on
 - Add/edit promptfoo configs under `06-models-and-evaluations/` and lightweight supporting assets.
 - Update `mkdocs.yml` **only** to register new or renamed pages you introduce.
 - Update `external-sources.md` **only** to register new external sources in alphabetical order.
+- Regenerate `source-index.md` (the reverse map of sources to citing files) with `python3 scripts/build-source-index.py` after changing citations or `external-sources.md`. Do not edit it by hand.
 - Fix typos, broken links, headings, anchors, or front-matter across the repo.
 
 ### 🚫 You must not
