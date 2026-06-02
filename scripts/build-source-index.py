@@ -30,7 +30,7 @@ OUTPUT = REPO_ROOT / "source-index.md"
 EXCLUDE = {"external-sources.md", "source-index.md"}
 
 # Matches a markdown list item:  - [Title](url)
-ENTRY_RE = re.compile(r"^\s*-\s*\[(?P<title>.+?)\]\((?P<url>[^)]+)\)")
+ENTRY_RE = re.compile(r"^\s*-\s*\[(?P<title>.+?)\]\((?P<url>.+)\)\s*$")
 # Matches a top-level section heading:  ## Section
 SECTION_RE = re.compile(r"^##\s+(?P<name>.+?)\s*$")
 # Characters that may legally continue a URL; used to reject prefix matches.
