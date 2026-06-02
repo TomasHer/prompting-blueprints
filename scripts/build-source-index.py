@@ -74,7 +74,8 @@ def build_url_matcher(url: str) -> re.Pattern:
     e.g. https://notebooklm.google must not match
          https://notebooklm.google.com/...
     """
-    return re.compile(re.escape(url) + r"(?!" + URL_TAIL + r")")
+    url_stripped = url.rstrip("/")
+    return re.compile(re.escape(url_stripped) + r"/?(?!" + URL_TAIL + r")")
 
 
 def render(sources, citations) -> str:
