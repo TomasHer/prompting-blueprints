@@ -53,7 +53,7 @@ def parse_registry(text: str):
 def content_files():
     """All git-tracked markdown files that may cite a source."""
     out = subprocess.run(
-        ["git", "ls-files", "*.md"],
+        ["git", "ls-files"],
         cwd=REPO_ROOT,
         capture_output=True,
         text=True,
@@ -61,9 +61,10 @@ def content_files():
     ).stdout
     files = []
     for rel in out.splitlines():
-        if Path(rel).name in EXCLUDE:
-            continue
-        files.append(rel)
+        if rel.endswith(".md"):
+            if Path(rel).name in EXCLUDE:
+                continue
+            files.append(rel)
     return sorted(files)
 
 
