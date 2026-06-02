@@ -1,0 +1,533 @@
+# Source Index
+
+<!-- GENERATED FILE - do not edit by hand. -->
+<!-- Run: python3 scripts/build-source-index.py -->
+
+Reverse map of every entry in [`external-sources.md`](external-sources.md) to the content file(s) that cite it. Use this to backtrack from a source to where it is used. Regenerate after editing citations or the registry.
+
+## Prompting Blueprints
+
+- [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382)](https://arxiv.org/abs/2302.11382)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [Agrici Daniel – claude-obsidian: AI-Powered Knowledge Management System (GitHub)](https://github.com/AgriciDaniel/claude-obsidian)
+  - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`
+- [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
+  - cited in: `03-prompts-and-patterns/prompt-pattern-catalogue.md`
+- [A2A .NET SDK (GitHub)](https://github.com/a2aproject/a2a-dotnet)
+  - cited in: `02-ai-agents/04-protocols/a2a-protocol-guide.md`
+- [A2A Protocol Documentation – Get started](https://a2a-protocol.org/latest/#get-started-with-a2a)
+  - cited in: `02-ai-agents/04-protocols/a2a-protocol-guide.md`
+- [A2A Python SDK (GitHub)](https://github.com/a2aproject/a2a-python)
+  - cited in: `02-ai-agents/04-protocols/a2a-protocol-guide.md`
+- [AI Shot Studio – 42 Camera Movements for AI Video Prompts](https://aishotstudio.com/42-camera-movements-ai-prompts/)
+  - cited in: `06-models-and-evaluations/ai-video-camera-movements-prompt-library.md`, `07-use-cases-and-research/ai-video-camera-movements-prompt-library.md`
+- [Agent Development Kit Documentation (Google)](https://google.github.io/adk-docs/)
+  - cited in: `02-ai-agents/02-skills/self-evolving-agents-google-adk.md`, `05-tools/google-cloud-platform-agents.md`
+- [agents.md](https://agents.md)
+  - cited in: `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`, `04-guides/codex-agent-prompting-guide.md`
+- [arXiv 2601.20404 — On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents](https://arxiv.org/abs/2601.20404)
+  - cited in: `02-ai-agents/03-context-and-memory/agent-context-window-performance.md`, `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`
+- [arXiv 2602.11988 — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](https://arxiv.org/abs/2602.11988)
+  - cited in: `02-ai-agents/03-context-and-memory/agent-context-window-performance.md`, `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`, `05-tools/claude-md-design-tutorial.md`
+- [Albertina Bekhti – Vibe Research Instead of Deep Research? AI Agents and the Future of Scientific Discovery](https://medium.com/@abertina/vibe-research-instead-of-deep-research-ai-agents-and-the-future-of-scientific-discovery-4d561248f3e2)
+  - cited in: `07-use-cases-and-research/vibe-research.md`
+- [Anthropic – Building agents with the Claude Agent SDK](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`, `02-ai-agents/04-protocols/claude-managed-agents-tutorial.md`
+- [Anthropic – Claude](https://www.anthropic.com/claude)
+  - cited in: `04-guides/vibe-coding-tech-stack.md`, `05-tools/ai-tool-chaining-oct-2025.md`
+- [Anthropic — Claude Code](https://www.anthropic.com/claude-code)
+  - cited in: `04-guides/vibe-coding-tech-stack.md`, `05-tools/langchain-deep-agents.md`
+- [Anthropic – Claude Code announcement](https://www.anthropic.com/news/claude-code)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [Anthropic Skilljar - Claude Certified Architect Foundations Access Request](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request)
+  - cited in: `05-tools/claude-code-certification-guide.md`
+- [Anthropic Skilljar - Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
+  - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/claude-agent-skills.md`, `04-guides/claude-building-skills-guide.md`
+- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](assets/guides/anthropic-claude-skills-guide.pdf)
+  - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/skills-design-patterns.md`, `02-ai-agents/02-skills/skills-testing-iteration.md`, `04-guides/claude-building-skills-guide.md`
+- [arXiv 2512.15943 — Tool-calling specialization beats scale (PDF)](https://arxiv.org/pdf/2512.15943)
+  - cited in: `02-ai-agents/01-foundations/models-for-ai-agents-2026.md`
+- [Bear Blog - A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [bolt.new](https://bolt.new/)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`, `05-tools/spec-driven-development-tutorial.md`
+- [Business Insider – Google AI told me to put glue on pizza. I tried it.](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5)
+  - cited in: `04-guides/ai-gone-wrong-stories.md`
+- [ChatGPT Deep Research announcement](https://openai.com/index/introducing-deep-research/)
+  - cited in: `05-tools/langchain-deep-agents.md`, `07-use-cases-and-research/deep-research.md`
+- [Claude - Claude AI](https://claude.ai)
+  - cited in: `05-tools/best-ai-apps-2026.md`, `05-tools/claude-ai-vs-code-vs-cowork.md`
+- [Claude - Claude Code product page](https://claude.com/product/claude-code)
+  - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`, `05-tools/claude-code-cheatsheet-tutorial.md`, `05-tools/claude-code-project-structure-tutorial.md`, `05-tools/claude-code-tool-guide.md`
+- [Claude - Claude Cowork product page](https://claude.com/product/cowork)
+  - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`
+- [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
+  - cited in: `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`, `05-tools/coding-ai-agent-selection-tutorial.md`
+- [Clerk](https://clerk.com/)
+  - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [Code Newsletter - THE CODE](https://codenewsletter.ai/subscribe?utm_source=linkedin_profile_om)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [Codelab: Get started with Google Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity#0)
+  - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
+- [Cognition – Introducing Devin](https://www.cognition-labs.com/blog/introducing-devin)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [Colab — FunctionGemma (270M) LM Studio notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/FunctionGemma_(270M)
+  - cited in: `04-guides/finetune-functiongemma.md`
+- [Continue](https://continue.dev/)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
+  - cited in: `05-tools/microsoft-365-copilot-prompting-guide.md`, `05-tools/microsoft-copilot-researcher-agent.md`
+- [Coursera - Claude Code: Software Engineering with AI Agents](https://www.coursera.org/learn/claude-code)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [CrewAI – Framework documentation](https://docs.crewai.com/introduction)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [Cursor](https://www.cursor.com/)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [Cursor quickstart](https://cursor.com/docs/get-started/quickstart)
+  - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
+- [Docs: GitHub Copilot quickstart](https://docs.github.com/en/copilot/get-started/quickstart)
+  - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
+- [DAiTA — Intelligent Document Processing platform (EN, Österreichische Post)](https://www.post.at/en/g/c/daita)
+  - cited in: `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`
+- [DAiTA — Intelligente Dokumentenverarbeitung Plattform (DE, Österreichische Post)](https://www.post.at/g/c/daita)
+  - cited in: `07-use-cases-and-research/intelligent-document-processing-daita.md`
+- [DAIR.AI Thinkific - Claude Code for Everyone](https://dair-ai.thinkific.com/courses/claude-code)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [DeepLearning.AI - Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
+  - cited in: `06-models-and-evaluations/facts-benchmark-overview.md`
+- [DeepSeek](https://www.deepseek.com/)
+  - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
+- [Elicit](https://elicit.com/)
+  - cited in: `07-use-cases-and-research/vibe-research.md`
+- [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
+  - cited in: `05-tools/claude-code-cheatsheet-tutorial.md`, `05-tools/claude-code-project-structure-tutorial.md`
+- [Every - Source Code](https://every.to/source-code)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [Gemini API](https://ai.google.dev/gemini-api)
+  - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [Gemini CLI](https://ai.google.dev/cli)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
+  - cited in: `07-use-cases-and-research/deep-research.md`
+- [Generative AI project template (GitHub)](https://github.com/honestsoul/generative_ai_project)
+  - cited in: `04-guides/gen-ai-project-tutorial.md`
+- [GitHub - Anthropic PDF skill quick reference](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md#quick-reference)
+  - cited in: `02-ai-agents/02-skills/claude-agent-skills.md`
+- [GitHub - Anthropic Skills examples directory](https://github.com/anthropics/skills/tree/main/skills)
+  - cited in: `02-ai-agents/02-skills/claude-agent-skills.md`
+- [GitHub - Anthropic Skills repository](https://github.com/anthropics/skills)
+  - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/claude-agent-skills.md`, `02-ai-agents/02-skills/copilot-custom-skills-integration.md`, `02-ai-agents/02-skills/skills-design-patterns.md`, `02-ai-agents/02-skills/skills-testing-iteration.md`
+- [GitHub - Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [GitHub - Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [GitHub - Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [GitHub - Claude Code cheat sheet](https://github.com/Njengah/claude-code-cheat-sheet)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [GitHub - Claude Code templates](https://github.com/davila7/claude-code-templates)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [GitHub - Claude Code workflows](https://github.com/OneRedOak/claude-code-workflows)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [GitHub - Google Skills repository](https://github.com/google/skills)
+  - cited in: `02-ai-agents/02-skills/claude-agent-skills.md`, `02-ai-agents/02-skills/self-evolving-agents-google-adk.md`
+- [GitHub - notebooklm-py](https://github.com/akosbalasko/notebooklm-py)
+  - cited in: `05-tools/claude-code-notebooklm-integration-tutorial.md`
+- [GitHub - Vibe Coding Playbook](https://github.com/RiyaParikh0112/vibe-coding-playbook)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [GitHub Blog – 5 tips for writing better custom instructions for Copilot](https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/)
+  - cited in: `05-tools/github-copilot-custom-instructions-tutorial.md`
+- [GitHub Copilot](https://github.com/features/copilot)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
+  - cited in: `05-tools/nanogpt-tool-guide.md`
+- [GitHub Docs – Extend the GitHub Copilot coding agent with MCP](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp)
+  - cited in: `05-tools/github-copilot-coding-agent-mcp-tutorial.md`
+- [GitHub – ExecuTorch Examples Repository (.git)](https://github.com/meta-pytorch/executorch-examples.git)
+  - cited in: `05-tools/llm-on-phone-deployment-tutorial.md`
+- [GitHub – ExecuTorch Examples Repository (tar.gz archive)](https://github.com/meta-pytorch/executorch-examples/archive/main.tar.gz)
+  - cited in: `05-tools/llm-on-phone-deployment-tutorial.md`
+- [GitHub – ExecuTorch Examples Repository](https://github.com/meta-pytorch/executorch-examples)
+  - cited in: `05-tools/llm-on-phone-deployment-tutorial.md`
+- [GitHub – ExecuTorch Qwen3 Config (0.6B)](https://raw.githubusercontent.com/pytorch/executorch/main/examples/models/qwen3/config/0_6b_config.json)
+  - cited in: `05-tools/llm-on-phone-deployment-tutorial.md`
+- [GitHub – LangChain Deep Agents Repository](https://github.com/langchain-ai/deepagents)
+  - cited in: `05-tools/langchain-deep-agents.md`
+- [GitHub – Microsoft Agent Framework (.git)](https://github.com/microsoft/agent-framework.git)
+  - cited in: `05-tools/microsoft-agent-framework.md`
+- [GitHub – Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
+  - cited in: `05-tools/microsoft-agent-framework.md`
+- [GitHub – nanoGPT](https://github.com/karpathy/nanoGPT)
+  - cited in: `05-tools/nanogpt-tool-guide.md`
+- [GitHub – Strands agent-sop repository](https://github.com/strands-agents/agent-sop/tree/main)
+  - cited in: `05-tools/spec-driven-development-tutorial.md`
+- [GLM-5 GitHub Repository](https://github.com/zai-org/GLM-5)
+  - cited in: `06-models-and-evaluations/glm-5-guide.md`
+- [Google ADK Python GitHub Repository](https://github.com/google/adk-python)
+  - cited in: `05-tools/google-cloud-platform-agents.md`
+- [Google Android Command Line Tools (Linux)](https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip)
+  - cited in: `05-tools/llm-on-phone-deployment-tutorial.md`
+- [Google Antigravity](https://labs.google.com/antigravity)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [Google Cloud Platform – Agent Starter Pack GitHub Repository](https://github.com/GoogleCloudPlatform/agent-starter-pack)
+  - cited in: `05-tools/google-cloud-platform-agents.md`
+- [Google Cloud Platform – Agent Starter Pack repository (.git)](https://github.com/GoogleCloudPlatform/agent-starter-pack.git)
+  - cited in: `05-tools/google-cloud-platform-agents.md`
+- [Google Cloud – The ultimate prompting guide for Veo 3.1](https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-veo-3-1)
+  - cited in: `06-models-and-evaluations/google-veo-3-1-video-tutorial.md`
+- [Google Cloud – Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder?hl=en)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [Google Cloud – What are AI agents?](https://cloud.google.com/discover/what-are-ai-agents)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [Google Labs Flow](https://labs.google/fx/tools/flow)
+  - cited in: `06-models-and-evaluations/google-veo-3-1-video-tutorial.md`
+- [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263)
+  - cited in: `README.md`
+- [Google NotebookLM – Audio Overviews](https://notebooklm.google/audio)
+  - cited in: `05-tools/notebooklm-audio-overviews-blueprint.md`
+- [Google NotebookLM](https://notebooklm.google)
+  - cited in: `05-tools/claude-code-notebooklm-integration-tutorial.md`
+- [Google One Help – Check AI Premium credits](https://support.google.com/googleone/answer/16287445?visit_id=638968334505579471-862084453&p=g1_ai_credit_menu&rd=1#g1_ai_credit_menu)
+  - cited in: `06-models-and-evaluations/google-veo-3-1-video-tutorial.md`
+- [Google Workspace – Gemini](https://workspace.google.com/products/gemini/)
+  - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
+- [Google – ADK Python repository (.git)](https://github.com/google/adk-python.git)
+  - cited in: `05-tools/google-cloud-platform-agents.md`
+- [Google — FunctionGemma](https://blog.google/technology/developers/functiongemma/)
+  - cited in: `02-ai-agents/01-foundations/models-for-ai-agents-2026.md`
+- [Google — Gemini API changelog](https://ai.google.dev/gemini-api/docs/changelog?hl=en)
+  - cited in: `04-guides/llm-lifecycle-monitoring.md`
+- [GPT-Lab – Effective Prompts for Reasoning LLMs](https://gpt-lab.eu/effective-prompts-for-reasoning-llms/)
+  - cited in: `03-prompts-and-patterns/researchers-prompting-blueprints.md`, `03-prompts-and-patterns/writers-prompting-blueprints.md`, `05-tools/microsoft-copilot-researcher-agent.md`
+- [Hugging Face – HF Skills: training a fine-tuning agent with Claude Code](https://huggingface.co/blog/hf-skills-training)
+  - cited in: `04-guides/claude-fine-tune-llm.md`
+- [Hugging Face Model Card – GLM-5](https://huggingface.co/zai-org/GLM-5)
+  - cited in: `06-models-and-evaluations/glm-5-guide.md`
+- [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
+  - cited in: `07-use-cases-and-research/vibe-research.md`
+- [Kaggle 5-Day AI Agents Course Guide](https://www.kaggle.com/learn-guide/5-day-agents)
+  - cited in: `02-ai-agents/01-foundations/google-5-day-ai-agents-course.md`
+- [Karpathy Andrej – LLM Wiki: A Pattern for Building Personal Knowledge Bases (GitHub Gist)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+  - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`
+- [KIRO – Hooks documentation](https://kiro.dev/docs/hooks/)
+  - cited in: `05-tools/spec-driven-development-tutorial.md`
+- [KIRO – Specs documentation](https://kiro.dev/docs/specs/)
+  - cited in: `05-tools/spec-driven-development-tutorial.md`
+- [KIRO](https://kiro.studio/)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [LangChain Blog – Deep Agents](https://blog.langchain.com/deep-agents/)
+  - cited in: `05-tools/langchain-deep-agents.md`
+- [LangChain Deep Agents Repository (tree/master)](https://github.com/langchain-ai/deepagents/tree/master)
+  - cited in: `07-use-cases-and-research/langchain-research-agent.md`
+- [LangChain Deep Agents – research_agent.py example](https://github.com/langchain-ai/deepagents/blob/master/examples/research/research_agent.py)
+  - cited in: `05-tools/langchain-deep-agents.md`
+- [LangChain – LangGraph Studio docs](https://docs.langchain.com/oss/python/langgraph/studio)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [LangGraph – Official site](https://www.langchain.com/langgraph)
+  - cited in: `05-tools/n8n-vs-langgraph.md`
+- [LM Studio blog – FunctionGemma + Unsloth tutorial](https://lmstudio.ai/blog/functiongemma-unsloth)
+  - cited in: `04-guides/finetune-functiongemma.md`
+- [Lovable](https://lovable.dev/)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`, `05-tools/spec-driven-development-tutorial.md`
+- [Lovable – Prompting best practices](https://docs.lovable.dev/prompting/prompting-one#prompting-best-practices)
+  - cited in: `05-tools/lovable-vibe-coding-tutorial.md`
+- [Lovable – Prompting guide](https://docs.lovable.dev/prompting/prompting-one)
+  - cited in: `05-tools/lovable-vibe-coding-tutorial.md`
+- [M365copilot.com](https://www.m365copilot.com)
+  - cited in: `05-tools/microsoft-365-copilot-prompting-guide.md`
+- [Make](https://www.make.com/)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [Manus – Research Agent Workspace](https://manus.im/)
+  - cited in: `05-tools/langchain-deep-agents.md`
+- [Medium - Daniel Avila](https://medium.com/@dan.avila7)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [Medium - Joe Njenga](https://medium.com/@joe.njenga)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [Medium - Joe Njenga Claude Code list](https://medium.com/@joe.njenga/list/claude-code-bd02c285e37f)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [Medium - JP Caparas](https://jpcaparas.medium.com/)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [Microsoft Adoption: A day in the life of a Program Delivery Manager](https://adoption.microsoft.com/en-us/scenario-library/nonprofit/a-day-in-the-life-of-a-program-delivery-manager/)
+  - cited in: `07-use-cases-and-research/program-delivery-manager-copilot-playbook.md`
+- [Microsoft Adoption: Create a project plan with Microsoft 365 Copilot](https://adoption.microsoft.com/en-us/scenario-library/information-technology/create-a-project-plan/)
+  - cited in: `07-use-cases-and-research/program-delivery-manager-copilot-playbook.md`
+- [Microsoft Adoption: Executing a project review with Microsoft 365 Copilot](https://adoption.microsoft.com/en-us/scenario-library/operations/executing-a-project-review/)
+  - cited in: `07-use-cases-and-research/program-delivery-manager-copilot-playbook.md`
+- [Microsoft Adoption Scenario Library](https://adoption.microsoft.com/en-us/scenario-library/)
+  - cited in: `07-use-cases-and-research/microsoft-adoption-scenario-library.md`
+- [Microsoft – AutoGen documentation](https://microsoft.github.io/autogen/stable//index.html)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [Microsoft – Autogen Studio user guide](https://microsoft.github.io/autogen/dev//user-guide/autogenstudio-user-guide/index.html)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [Microsoft Foundry – Introducing Microsoft Agent Framework](https://devblogs.microsoft.com/foundry/introducing-microsoft-agent-framework-the-open-source-engine-for-agentic-ai-apps/)
+  - cited in: `05-tools/microsoft-agent-framework.md`
+- [Microsoft Tech Community – CI/CD for AI Agents on Microsoft Foundry](https://techcommunity.microsoft.com/blog/educatordeveloperblog/cicd-for-ai-agents-on-microsoft-foundry/4522218)
+  - cited in: `02-ai-agents/05-production/cicd-ai-agents-microsoft-foundry.md`
+- [GitHub – leestott/foundry-cicd reference pipelines](https://github.com/leestott/foundry-cicd)
+  - cited in: `02-ai-agents/05-production/cicd-ai-agents-microsoft-foundry.md`
+- [Microsoft Inside Track – How our employees are extending enterprise AI with custom retrieval agents](https://www.microsoft.com/insidetrack/blog/how-our-employees-are-extending-enterprise-ai-with-custom-retrieval-agents/)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [Microsoft – Install Azure CLI (Debian/Ubuntu)](https://aka.ms/InstallAzureCLIDeb)
+  - cited in: `05-tools/microsoft-agent-framework.md`
+- [Microsoft Learn – Agent Framework overview](https://learn.microsoft.com/en-us/agent-framework/overview/agent-framework-overview)
+  - cited in: `05-tools/microsoft-agent-framework.md`
+- [Microsoft Learn – Writing effective instructions for Copilot agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-instructions)
+  - cited in: `05-tools/microsoft-copilot-agents.md`
+- [Microsoft MCP for Beginners](https://github.com/microsoft/mcp-for-beginners)
+  - cited in: `02-ai-agents/04-protocols/mcp-guide.md`
+- [Microsoft Reactor – Python + MCP: Building MCP servers with FastMCP (3-part guided intro)](https://developer.microsoft.com/en-us/reactor/events/26542/)
+  - cited in: `02-ai-agents/04-protocols/mcp-guide.md`
+- [Microsoft Support – Facilitator in Microsoft Teams meetings](https://support.microsoft.com/en-us/office/facilitator-in-microsoft-teams-meetings-37657f91-39b5-40eb-9421-45141e3ce9f6)
+  - cited in: `05-tools/microsoft-facilitator-agent.md`
+- [Microsoft Support – Get started with Researcher in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/get-started-with-researcher-in-microsoft-365-copilot-e63ab760-f3de-4c47-ae87-dad601b0e9c4)
+  - cited in: `05-tools/microsoft-copilot-researcher-agent.md`
+- [Microsoft Support – Knowledge Agent: An overview](https://support.microsoft.com/en-gb/topic/knowledge-agent-an-overview-c0b1efc3-81d0-4981-8be9-7ba3a75fae15)
+  - cited in: `05-tools/microsoft-sharepoint-knowledge-agent.md`
+- [Mistral – Mistral Large](https://mistral.ai/models/mistral-large/)
+  - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
+- [multica-ai/andrej-karpathy-skills (GitHub) — single-file CLAUDE.md derived from Andrej Karpathy's LLM coding-pitfall observations](https://github.com/multica-ai/andrej-karpathy-skills)
+  - cited in: `04-guides/ai-coding-rules-senior-engineers.md`, `05-tools/claude-md-design-tutorial.md`
+- [multica-ai/andrej-karpathy-skills – CLAUDE.md (raw)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)
+  - cited in: `04-guides/ai-coding-rules-senior-engineers.md`
+- [n8n – Official site](https://n8n.io/)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`, `05-tools/n8n-vs-langgraph.md`
+- [n8n – Workflow templates gallery](https://n8n.io/workflows/)
+  - cited in: `05-tools/n8n-research-workflow-tutorial.md`
+- [Next.js](https://nextjs.org/)
+  - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
+  - cited in: `07-use-cases-and-research/deep-research.md`
+- [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
+  - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`
+- [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
+  - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
+- [On Tech Ethics Podcast – Vibe Research and the Future of Science (CITI Program)](https://about.citiprogram.org/blog/on-tech-ethics-podcast-vibe-research-and-the-future-of-science/)
+  - cited in: `07-use-cases-and-research/vibe-research.md`
+- [OpenClaw](https://openclaw.ai)
+  - _not cited in any content file_
+- [OpenAI Academy – Use cases for managers](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/use-cases-for-managers)
+  - cited in: `03-prompts-and-patterns/managers-prompting-blueprints.md`
+- [OpenAI – Agents API guide](https://platform.openai.com/docs/guides/agents)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [OpenAI – ChatGPT](https://openai.com/chatgpt)
+  - cited in: `04-guides/vibe-coding-tech-stack.md`, `05-tools/ai-tool-chaining-oct-2025.md`
+- [OpenAI – Codex](https://openai.com/blog/openai-codex)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [OpenAI Codex – AGENTS.md guide](https://developers.openai.com/codex/guides/agents-md)
+  - cited in: `04-guides/codex-agent-prompting-guide.md`, `04-guides/codex-tdd-and-skills.md`
+- [OpenAI Codex – Prompting guide](https://developers.openai.com/codex/prompting)
+  - cited in: `04-guides/codex-agent-prompting-guide.md`
+- [OpenAI Cookbook – GPT-5 Prompt Optimization Cookbook](https://cookbook.openai.com/examples/gpt-5/prompt-optimization-cookbook)
+  - cited in: `05-tools/openai-gpt-5-prompt-optimizer.md`
+- [OpenAI – Introducing Deep Research](https://openai.com/index/introducing-deep-research/)
+  - cited in: `05-tools/langchain-deep-agents.md`, `07-use-cases-and-research/deep-research.md`
+- [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
+  - cited in: `05-tools/openai-gpt-5-prompt-optimizer.md`
+- [Perplexity](https://www.perplexity.ai/)
+  - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
+- [Perplexity: Introducing Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research)
+  - cited in: `07-use-cases-and-research/deep-research.md`
+- [Post Business Solutions — Business Solutions der Österreichischen Post AG](https://www.post.at/businesssolutions)
+  - cited in: `07-use-cases-and-research/intelligent-document-processing-daita.md`
+- [Prompting Blueprints introduction video (YouTube)](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U)
+  - cited in: `README.md`
+- [PromptPerfect — Deep Research prompt examples](https://daily.promptperfect.xyz/p/fifteen-examples-of-how-to-use-deep-research-in-chatgpt-with-prompts)
+  - cited in: `07-use-cases-and-research/deep-research.md`
+- [Reddit – I hope this answers everyone’s questions about the Titanic pool](https://www.reddit.com/r/titanic/comments/1l2zy41/i_hope_this_answers_everyones_questions_about_the/)
+  - cited in: `04-guides/ai-gone-wrong-stories.md`
+- [Replit](https://replit.com/)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [Replit – Everything you need to know about MCP](https://blog.replit.com/everything-you-need-to-know-about-mcp)
+  - cited in: `02-ai-agents/04-protocols/mcp-guide.md`
+- [Resend](https://resend.com/)
+  - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [Requirements Engineering Datasets for LLM4RE](https://nlp4se.github.io/LLM4RE-Datasets/)
+  - cited in: `07-use-cases-and-research/requirements-engineering-dataset-experiments.md`
+- [Stagewise](https://stagewise.ai/)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [Strands Agents SDK quickstart overview](https://strandsagents.com/docs/user-guide/quickstart/overview/)
+  - cited in: `05-tools/spec-driven-development-tutorial.md`
+- [Stripe](https://stripe.com/)
+  - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [Substack - Why Senior Engineers Who Master Claude Code Will Leave Their Competition Behind](https://agiinprogress.substack.com/p/the-100000-productivity-multiplier)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [Supabase](https://supabase.com/)
+  - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [Tailwind CSS](https://tailwindcss.com/)
+  - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
+  - cited in: `04-guides/ai-gone-wrong-stories.md`
+- [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
+  - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
+- [Unsloth Documentation – Deploy LLMs on Phone](https://docs.unsloth.ai/new/deploy-llms-phone)
+  - cited in: `05-tools/llm-on-phone-deployment-tutorial.md`
+- [V0](https://v0.dev/)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`, `05-tools/spec-driven-development-tutorial.md`
+- [Vercel](https://vercel.com/)
+  - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [Vibe Kanban (GitHub)](https://github.com/BloopAI/vibe-kanban)
+  - cited in: `05-tools/vibe-kanban-tool-tutorial.md`
+- [Vanderbilt – ChatGPT Advanced Data Analysis course announcement](https://www.vanderbilt.edu/datascience/2023/08/29/new-course-chatgpt-advanced-data-analysis-by-dr-jules-white-associate-professor-of-computer-science/)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [Vanderbilt University – Prompt Patterns collection](https://www.vanderbilt.edu/generative-ai/prompt-patterns/)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [Vom Brocke et al. – How to Identify Promising AI Use Cases](https://www.alexandria.unisg.ch/server/api/core/bitstreams/35316f07-8d0b-47dc-bbf0-36753ca834b3/content)
+  - cited in: `07-use-cases-and-research/ai-use-case-identification.md`
+- [Wei et al. – Chain-of-thought prompting elicits reasoning in large language models](https://arxiv.org/abs/2201.11903)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [X - Boris Cherny](https://x.com/bcherny)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [X - Thariq](https://x.com/trq212)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [xAI – Grok](https://grok.x.ai/)
+  - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
+- [YouTube – AI agents overview](https://youtu.be/bx-bcUWw2Wo)
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [YouTube – AI Coding Spectrum overview](https://youtu.be/cU_mlreODyw)
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [YouTube - Alex Finn](https://www.youtube.com/@AlexFinnOfficial/videos)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [YouTube – Python + MCP: Building MCP servers with FastMCP (Pamela Fox)](https://www.youtube.com/live/_mUuhOwv9PY)
+  - cited in: `02-ai-agents/04-protocols/mcp-guide.md`
+- [YouTube - Build an AI Life Co-Pilot with Claude Code](https://www.youtube.com/watch?v=D0nDWQdN3F4)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [YouTube - Build with Multiple AI Agents using Claude Code](https://www.youtube.com/watch?v=Z_iWe6dyGzs)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [YouTube - Claude Code is crazy good in 2026](https://www.youtube.com/watch?v=smMC1W-Mjt4)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [YouTube - Claude Code Setup and Installation](https://www.youtube.com/watch?v=SUysp3sJHbA&list=PL4cUxeGkcC9g4YJeBqChhFJwKQ9TRiivY)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [YouTube - Claude Code Skills: Automate Everything You Do](https://youtu.be/vOW1xAVbuNI?si=W2sCy-YUBAATWXyL)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [YouTube - My Claude Code Workflow for 2026](https://www.youtube.com/watch?v=sy65ARFI9Bg)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+- [YouTube - Ray Amjad](https://www.youtube.com/@RAmjad)
+  - cited in: `05-tools/claude-code-tool-guide.md`
+## About the Author
+
+- [Agile Alliance – XP2023 Experience Report on Restarting Scaled Agile Development](https://agilealliance.org/resources/experience-reports/restarting-scaled-agile-development-at-austrian-post/)
+  - cited in: `01-about-author/speaking/index.md`
+- [Agile Alliance – XP2024 AI & Agile Industry & Practice Track](https://agilealliance.org/xp2024/industry-and-practice-ai-and-agile/)
+  - cited in: `01-about-author/program-committee/index.md`, `01-about-author/speaking/index.md`
+- [AI and Agile Software Development: From Frustration to Success – XP2025 Workshop Summary](https://link.springer.com/chapter/10.1007/978-3-032-05799-0_1)
+  - cited in: `01-about-author/research/overview.md`
+- [AIRE’24 Workshop — AI and Requirements Engineering](https://aire-ws.github.io/aire24/)
+  - cited in: `01-about-author/speaking/index.md`
+- [Codelab: Get started with Google Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity#0)
+  - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
+- [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
+  - cited in: `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`, `05-tools/coding-ai-agent-selection-tutorial.md`
+- [CAIN 2026](https://conf.researchr.org/home/cain-2026)
+  - cited in: `01-about-author/program-committee/index.md`
+- [CAIN 2026 – Industry Track](https://conf.researchr.org/track/cain-2026/cain-2026-industry-track)
+  - cited in: `01-about-author/program-committee/index.md`
+- [EASE 2026 Conference (Researchr)](https://conf.researchr.org/home/ease-2026)
+  - cited in: `01-about-author/program-committee/index.md`
+- [Exploring Human-AI Collaboration in Agile: Customised LLM Meeting Assistants (arXiv 2404.14871)](https://arxiv.org/abs/2404.14871)
+  - cited in: `01-about-author/research/overview.md`
+- [Exploring Human-AI Collaboration in Agile: Customised LLM Meeting Assistants (arXiv 2404.14871 PDF)](https://arxiv.org/pdf/2404.14871)
+  - _not cited in any content file_
+- [Exploring Human-AI Collaboration in Agile: Customised LLM Meeting Assistants (Open PDF)](https://library.oapen.org/bitstream/handle/20.500.12657/90931/978-3-031-61154-4.pdf?sequence=1#page=171)
+  - cited in: `01-about-author/research/overview.md`
+- [GAISE 2025 Summer School Schedule (GPT-Lab)](https://gpt-lab.eu/gaise-2025/schedule/)
+  - cited in: `01-about-author/speaking/index.md`
+- [Generating Test Scenarios from NL Requirements Using Retrieval-Augmented LLMs: An Industrial Study (IEEE Xplore)](https://ieeexplore.ieee.org/abstract/document/10628480)
+  - cited in: `01-about-author/research/overview.md`
+- [Generating Test Scenarios from NL Requirements Using Retrieval-Augmented LLMs (arXiv 2404.12772)](https://arxiv.org/abs/2404.12772)
+  - cited in: `01-about-author/research/overview.md`
+- [Generative Artificial Intelligence for Software Engineering—A Research Agenda](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.70005)
+  - _not cited in any content file_
+- [Generative Artificial Intelligence for Software Engineering – A Research Agenda (arXiv 2310.18648)](https://arxiv.org/abs/2310.18648)
+  - cited in: `01-about-author/research/overview.md`
+- [Generative Artificial Intelligence for Software Engineering – A Research Agenda (Wiley article)](https://onlinelibrary.wiley.com/doi/10.1002/spe.70005)
+  - cited in: `01-about-author/research/overview.md`
+- [Google Scholar – Tomas Herda](https://scholar.google.com/citations?user=fq1PsnsAAAAJ&hl=en)
+  - cited in: `01-about-author/tomas-herda-biography.md`
+- [GPT-Lab (Tampere University)](https://gpt-lab.eu)
+  - cited in: `01-about-author/tomas-herda-biography.md`
+- [GPT-Lab – XP2025 AI Agile Workshop](https://gpt-lab.eu/ai-agile-workshop-xp2025/)
+  - cited in: `05-tools/perplexity-comet.md`
+- [ICSE 2026](https://conf.researchr.org/home/icse-2026)
+  - cited in: `01-about-author/program-committee/index.md`
+- [IEEE RE’24 – Industrial Innovation Papers Track](https://conf.researchr.org/track/RE-2024/RE-2024-industrial-innovation-papers)
+  - cited in: `01-about-author/speaking/index.md`
+- [ISD 2025 Conference](https://isd2025.fon.bg.ac.rs)
+  - cited in: `01-about-author/program-committee/index.md`
+- [IREB AI4RE Prompt Guide – Check Model Consistency](https://ireb.atlassian.net/wiki/spaces/airebpromptguide/pages/2585985025/Prompt+Guide+Check+Model+Consistency)
+  - cited in: `08-requirements-engineering/check-model-consistency.md`
+- [IREB AI4RE Prompt Guide – Overview](https://ireb.atlassian.net/wiki/spaces/airebpromptguide/overview)
+  - cited in: `08-requirements-engineering/overview.md`
+- [ISD 2026 Conference](https://isd2026.ksi.fit.cvut.cz)
+  - cited in: `01-about-author/program-committee/index.md`
+- [Lean and Agile Software Development (LASD)](https://lasd.pl/)
+  - cited in: `01-about-author/program-committee/index.md`
+- [Lean and Agile Software Development Track (ISD 2025)](https://y2025.lasd.pl)
+  - cited in: `01-about-author/program-committee/index.md`
+- [Lean and Agile Software Development Track (SAC 2026)](https://y2026.lasd.pl)
+  - cited in: `01-about-author/program-committee/index.md`
+- [LeSS 2025 Conference Session – Moving toward LeSS](https://less.works/conferenza/sessions/2025-global-less-conference-amsterdam-moving-toward-less-austrian-post-s-journey-of-simplifying-structures-and-empowering-teams-446)
+  - cited in: `01-about-author/speaking/index.md`
+- [LinkedIn Article – XP2025 AI & Agile Workshop Insights](https://www.linkedin.com/pulse/xp2025-ai-agile-software-development-workshop-insights-tomas-herda-5blye)
+  - cited in: `05-tools/perplexity-comet.md`
+- [LinkedIn Post – Austrian Post Open Architecture Day (AI Agents)](https://www.linkedin.com/posts/herdatom_aiagents-artificialintelligence-aiandagile-activity-7396789361201238016-aNBd)
+  - cited in: `01-about-author/speaking/index.md`
+- [LinkedIn Post by Tomas Herda – NotebookLM audio strategies](https://www.linkedin.com/posts/herdatom_notebooklm-google-aiandagile-activity-7323293140201709569-mBAU)
+  - cited in: `05-tools/notebooklm-audio-overviews-blueprint.md`
+- [LLM-Based Agents for Automating the Enhancement of User Story Quality: An Early Report (arXiv 2403.09442)](https://arxiv.org/abs/2403.09442)
+  - cited in: `01-about-author/research/overview.md`
+- [LLM-Based Agents for Automating the Enhancement of User Story Quality: An Early Report (Open PDF)](https://library.oapen.org/bitstream/handle/20.500.12657/90931/978-3-031-61154-4.pdf?sequence=1#page=126)
+  - cited in: `01-about-author/research/overview.md`
+- [LSZ Talents for IT Future Event (2024)](https://lsz.at/Talents-Graz-Downloadarea)
+  - cited in: `01-about-author/speaking/index.md`
+- [Meetup – Large-Scale Scrum NYC: The Courage to Descale](https://www.meetup.com/large-scale-scrum-less-in-nyc/events/311688494/)
+  - cited in: `01-about-author/speaking/index.md`
+- [Post Business Solutions – Intelligent Document Processing](https://www.post.at/en/g/c/daita)
+  - cited in: `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`
+- [Prioritizing Software Requirements Using Large Language Models (arXiv 2405.01564)](https://arxiv.org/abs/2405.01564)
+  - cited in: `01-about-author/research/overview.md`
+- [Researchr – VIBEX 2026 Workshop](https://conf.researchr.org/home/ease-2026/vibex-2026)
+  - cited in: `01-about-author/program-committee/index.md`
+- [Researchr – XP 2025 AI & Agile Workshop](https://conf.researchr.org/home/xp-2025/aiandagile-2025)
+  - cited in: `01-about-author/program-committee/index.md`, `01-about-author/research/overview.md`
+- [Researchr – XP 2025 AI & Agile Workshop Program](https://conf.researchr.org/home/xp-2025/aiandagile-2025#program)
+  - cited in: `01-about-author/speaking/index.md`
+- [Researchr – XP 2026 Human-AI Collaboration Workshop](https://conf.researchr.org/track/xp-2026/xp-2026-human-ai-collaboration)
+  - cited in: `01-about-author/program-committee/index.md`
+- [Researchr – XP 2026 PR Workshop](https://conf.researchr.org/track/xp-2026/xp-2026-pr-workshop#About)
+  - cited in: `01-about-author/program-committee/index.md`
+- [SAC 2026 Conference](https://www.sigapp.org/sac/sac2026/)
+  - cited in: `01-about-author/program-committee/index.md`
+- [Springer – LLM-based Agents for Automating the Enhancement of User Story Quality](https://link.springer.com/book/10.1007/978-3-031-61154-4)
+  - cited in: `01-about-author/speaking/index.md`
+- [Springer – Multi-agent LLM System for Automated Requirements Analysis](https://link.springer.com/chapter/10.1007/978-3-032-04200-2_12)
+  - cited in: `01-about-author/research/overview.md`
+- [Springer – User Story Quality Enhancement (Chapter 8)](https://link.springer.com/chapter/10.1007/978-3-031-61154-4_8)
+  - cited in: `01-about-author/research/overview.md`, `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [TimeLess: A Vision for the Next Generation of Software Development (arXiv 2411.08507)](https://arxiv.org/abs/2411.08507)
+  - cited in: `01-about-author/research/overview.md`
+- [Tomas Herda – LinkedIn](https://www.linkedin.com/in/herdatom)
+  - cited in: `01-about-author/speaking/index.md`, `README.md`
+- [XP 2024 Conference – Call for Submissions](https://agilealliance.org/xp2024/call-for-submissions/)
+  - cited in: `01-about-author/program-committee/index.md`
+- [XP 2024 Conference – Posters Track](https://agilealliance.org/xp2024/posters/)
+  - cited in: `01-about-author/program-committee/index.md`
+- [XP 2025 AI & Agile Workshop Research Roadmap (arXiv 2508.20563)](https://arxiv.org/abs/2508.20563)
+  - cited in: `01-about-author/research/overview.md`
+- [XP 2025 AI & Agile Workshop Research Roadmap (arXiv 2508.20563 PDF)](https://arxiv.org/pdf/2508.20563)
+  - cited in: `05-tools/perplexity-comet.md`
+- [XP 2025 AI & Agile Workshop Summary (arXiv 2506.20159)](https://arxiv.org/abs/2506.20159)
+  - cited in: `01-about-author/research/overview.md`
+- [XP 2025 AI & Agile Workshop Summary (arXiv 2506.20159 PDF)](https://arxiv.org/pdf/2506.20159)
+  - cited in: `05-tools/perplexity-comet.md`
+- [XP 2025 Conference (Researchr)](https://conf.researchr.org/home/xp-2025)
+  - cited in: `01-about-author/program-committee/index.md`
+- [XP 2026 Conference (Researchr)](https://conf.researchr.org/home/xp-2026)
+  - cited in: `01-about-author/program-committee/index.md`
+- [YouTube – AI and Agile XP 2025 session preview](https://www.youtube.com/watch?v=VYZGBN4rHTo)
+  - cited in: `01-about-author/research/overview.md`
+- [Z.AI Blog Announcement – GLM-5](https://z.ai/blog/glm-5)
+  - cited in: `06-models-and-evaluations/glm-5-guide.md`
