@@ -50,7 +50,12 @@ AI is changing far more than how code is written — software systems are starti
 - **The Agile lesson still holds:** the more work is in progress, the slower it gets done. AI accelerates output, but human bottlenecks create the wait — Alex framed it via Kent Beck's Theory of Constraints ("see where the bags are piling up") and a baggage-claim metaphor: AI coding is *fast*, while human-in-the-loop and review/approve are the *waiting* states where work piles up.
 - **Backlog thought experiment:** he contrasted how the backlog of **1 person + a 24/7 autonomous AI** looks versus **5 devs using human-in-the-loop** — output isn't the constraint, the human review states are.
 - **Dead, Dying, Very Much Alive game** — Dead: PR-less merge, manual test generation, Scrum, the "10x developer." Dying: hand-coding, code ownership, line-by-line PR review. Very much alive: architectural design, Agile, product managers, and software engineers.
-- **Five takeaways:** (1) autonomous agents aren't new — hallucination without judgment has always changed outcomes, and model size doesn't fix it; (2) human-in-the-loop beats full autonomy for now; (3) complex work needs more than intelligence — architecture, prioritization, naming, and incident calls stay human; (4) the biggest value is **Intelligent Automation (IA)**, reached through contextual awareness rather than bigger models; (5) **tokens are the new currency**, but AI commoditization is inevitable — ask what's optimizing whom.
+- **Five takeaways:**
+<br>(1) autonomous agents aren't new — hallucination without judgment has always changed outcomes, and model size doesn't fix it;
+<br>(2) human-in-the-loop beats full autonomy for now;
+<br>(3) complex work needs more than intelligence — architecture, prioritization, naming, and incident calls stay human;
+<br>(4) the biggest value is **Intelligent Automation (IA)**, reached through contextual awareness rather than bigger models;
+<br>(5) **tokens are the new currency**, but AI commoditization is inevitable — ask what's optimizing whom.
 - **Some memorable lines and data points:** *"Early bird gets the worm, but the second mouse gets the cheese."* On average **65% of a team's work is unplanned**, **token usage is the new KPI**, and — most pointedly — *"You cannot delegate ownership: let the people decide what we work on, describe the problem, and let the team solve the issue."*
 
 ### Academic Track
