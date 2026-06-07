@@ -105,7 +105,7 @@ Special recognition goes to the main organizers — **[Organizer Name]** and **[
 
 [2–4 sentences summarizing the session.]
 
-**Interesting slides**
+**Interesting slides and observations**
 
 <img src="../assets/conferences/[event-slug]/[slide-filename].jpg" alt="[slide description]">
 

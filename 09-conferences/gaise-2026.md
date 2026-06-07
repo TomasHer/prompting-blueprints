@@ -105,7 +105,7 @@ Copy and paste the block below under the relevant day/track, then fill in the de
 
 [2–4 sentences summarizing the session.]
 
-**Interesting slides**
+**Interesting slides and observations**
 
 <img src="../assets/conferences/gaise-2026/[slide-filename].jpg" alt="[slide description]">
 
