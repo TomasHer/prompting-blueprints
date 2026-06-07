@@ -30,10 +30,9 @@ These are my personal notes from the sessions I attended.
 
 ### 🎤 Conference Opening
 
-<!-- OPENING PHOTO PLACEHOLDER -->
-<img src="../assets/conferences/gaise-2026/day1-opening.jpg" alt="GAISE 2026 — Conference Opening">
+<img src="../assets/conferences/gaise-2026/day1/01-opening/IMG_0993.jpg" alt="GAISE 2026 — Conference Opening">
 
-<!-- Add a short note about the opening here. -->
+GAISE 2026 kicked off with a warm welcome from Prof. Pekka Abrahamsson and Virve Yli-Savola of GPT-Lab at Tampere University. They opened the summer school, set the stage for three days exploring how AI is reshaping software engineering, and introduced the program ahead.
 
 ### Academic Track
 
