@@ -20,8 +20,7 @@ These are my personal notes from the sessions I attended.
 
 **Links:** [Full program](https://gpt-lab.eu/gaise26-program/) · [Speakers](https://gpt-lab.eu/gaise26-speakers/) · [Organizer: GPT-Lab](https://gpt-lab.eu/about-us/our-team/)
 
-<!-- EVENT PHOTO PLACEHOLDER -->
-<img src="../assets/conferences/gaise-2026/event-photo.jpg" alt="GAISE 2026 — Tampere University">
+<img src="../assets/conferences/gaise-2026/event-photo.png" alt="GAISE 2026 — Tampere University">
 
 ---
 
