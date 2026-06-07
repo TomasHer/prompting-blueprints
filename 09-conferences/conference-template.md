@@ -82,7 +82,11 @@ These are my personal notes from the sessions I attended.
 <!-- CLOSING PHOTO PLACEHOLDER -->
 <img src="../assets/conferences/[event-slug]/day3-closing.jpg" alt="Conference Closing">
 
-<!-- Short note about the closing. -->
+A sincere thank you to **[organizing body / lab name]** for hosting and curating an exceptional program.
+
+Special recognition goes to the main organizers — **[Organizer Name]** and **[Organizer Name]** — whose planning and dedication kept everything running seamlessly. Thanks also to all the **volunteers** who made the event experience welcoming and smooth for every attendee.
+
+<!-- Expand with specific highlights or personal thanks as appropriate. -->
 
 ---
 

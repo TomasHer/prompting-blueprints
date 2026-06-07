@@ -80,7 +80,11 @@ These are my personal notes from the sessions I attended.
 <!-- CLOSING PHOTO PLACEHOLDER -->
 <img src="../assets/conferences/gaise-2026/day3-closing.jpg" alt="GAISE 2026 — Conference Closing">
 
-<!-- Add a short note about the closing here. -->
+A heartfelt thank you to everyone who made GAISE 2026 possible. The **GPT-Lab team** at Tampere University created an outstanding program that brought together researchers, practitioners, and executives from across the AI and software-engineering community.
+
+Special recognition goes to the main organizers — **Vaishnavi Bankhele** and **Virve Yli-Savola** — whose meticulous planning and tireless effort ensured the event ran smoothly from the first keynote to the final session. Equal thanks to all the **volunteers** who handled registration, logistics, and the countless behind-the-scenes tasks that keep a multi-track conference on track.
+
+Your work gave everyone in the room the space to focus on learning and connecting. Thank you.
 
 ---
 
