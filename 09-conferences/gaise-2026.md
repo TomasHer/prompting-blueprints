@@ -38,7 +38,7 @@ GAISE 2026 kicked off with a warm welcome from Prof. Pekka Abrahamsson and Virve
 
 <img src="../assets/conferences/gaise-2026/day1/03-tomas/tomas1.png" alt="Agent-first IDEs — workshop by Tomas Herda & Agnes Lipovits">
 
-To kick off the session, I presented [#DAiTA — Intelligent Document Processing](https://www.post.at/en/g/c/daita) — Austrian Post Business Solutions' platform for AI-powered automation of business document workflows — as a real-world example of applied AI in enterprise operations.
+To kick off the session, we presented [#DAiTA — Intelligent Document Processing](https://www.post.at/en/g/c/daita) — Austrian Post Business Solutions' platform for AI-powered automation of business document workflows — as a real-world example of applied AI in enterprise operations.
 
 <img src="../assets/conferences/gaise-2026/day1/03-tomas/IMG_8144.png" alt="Agent-first IDEs Workshop — Tomas Herda & Agnes Lipovits">
 
