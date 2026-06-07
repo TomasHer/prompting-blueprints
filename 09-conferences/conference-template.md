@@ -23,7 +23,7 @@ so assets are reached via ../assets/conferences/<event-slug>/...
 
 ## Event Introduction
 
-**[Full event name]** took place on **[dates]** at **[venue / city]**, hosted by [organizer]([organizer URL]).
+**[Full event name]** took place on **[dates]** at **[venue / city]**, hosted by [organizer](<organizer-url>).
 
 [1–3 sentences: what the event was about, the overarching theme, and why it mattered.]
 
