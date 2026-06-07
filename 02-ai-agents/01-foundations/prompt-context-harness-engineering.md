@@ -1,7 +1,7 @@
 ---
 title: "From Prompt to Context to Harness Engineering"
 tags: ["agents", "harness-engineering", "context-engineering"]
-last_updated: "2026-06-03"
+last_updated: "2026-06-07"
 ---
 
 # From Prompt to Context to Harness Engineering
@@ -55,28 +55,37 @@ The discipline has its own deep playbook in this repo: see [Context Engineering]
 
 The harness is **every piece of code, configuration, constraint, and execution logic that isn't the model itself**. It operates at a higher level of abstraction than the previous two and subsumes them: it decides what context to feed in at each step (context engineering), what to say in each system/tool prompt (prompt engineering), what tools are allowed, when to stop, and what counts as "done."
 
+The one-line test for what the harness adds: **without it you have a very smart chatbot; with it you have an operator** — something that can act, learn, and run autonomously across sessions, tools, and goals. Or, as practitioners increasingly put it: *the model is the engine, the harness is the car.* The most powerful engine in the world goes nowhere without a chassis, drivetrain, and steering around it.
+
 Anthropic's own framing makes the lineage concrete: the **Claude Agent SDK is described as a general-purpose agent harness** that uses techniques like context compaction to let an agent make progress on tasks spanning many context windows, while handling tool dispatch, session management, and progress tracking ([search overview](https://parallel.ai/articles/what-is-an-agent-harness)). Claude Code itself is a harness wrapped around a model.
 
 **Analogy:** Architecting the entire office building — standard operating procedures, specialized departments, and quality-assurance checkpoints.
 
 ## Core subsystems of an AI harness
 
-A robust harness bridges the gap between a "smart model" and *reproducible* output. Four subsystems do most of the work:
+A robust harness bridges the gap between a "smart model" and *reproducible* output. Six subsystems do most of the work:
 
-1. **State management.** Raw models are stateless. The harness persists progress to the filesystem (or a store) so an agent can pause, save intermediate results, and resume exactly where it left off — without cramming the entire history back into the context window. This is the structural answer to context anxiety: the window stops being the agent's only memory.
+1. **State management & session persistence.** Raw models are stateless. The harness persists progress to the filesystem (or a store) so an agent can pause, save intermediate results, and resume exactly where it left off — across days, tasks, and even model switches — without cramming the entire history back into the context window. This is the structural answer to context anxiety: the window stops being the agent's only memory.
 
 2. **Verification loops.** The harness enforces *objective* validation. An agent can't simply declare success; the harness demands runnable proof — a passing test suite, a green linter, a successful type check, a build — before a change is allowed through. This is the structural answer to unreliable self-evaluation: truth comes from the environment, not the model.
 
 3. **Workflow orchestration.** Instead of one generalist agent doing everything in one window, the harness routes work through a graph of specialized steps and sub-agents — one maps repository impact, a human-in-the-loop checkpoint reviews the plan, another writes the code. (See [How to Build AI Agents for Production](../05-production/how-to-build-ai-agents-production.md).)
 
-4. **Scope and constraints.** The more you constrain the solution space, the more predictable the output. The harness locks the agent into specific file paths, a defined task, or an allow-list of tools — preventing it from inventing new requirements or wandering into an unrelated refactor.
+4. **Scope & constraints.** The more you constrain the solution space, the more predictable the output. The harness locks the agent into specific file paths, a defined task, or an allow-list of tools — preventing it from inventing new requirements or wandering into an unrelated refactor.
+
+5. **Execution environment (toolchain & sandbox).** A harness has to be *rooted in a real environment*, not an abstract chat box. It gives the model hands and eyes — a tool ecosystem (web search, browser control, code execution, file operations, APIs) — and a place to run them: locally, inside Docker, over SSH, or in a serverless cloud sandbox. Sandboxing is also a safety boundary: it contains what a tool call can touch.
+
+6. **Learning loop (self-improvement).** Advanced harnesses close the loop — capturing outcomes from completed tasks and feeding them back so the agent improves over time. In practice this means an agent that writes its own reusable skills after finishing a task, refines them as they're used again, and carries that procedural memory forward instead of relearning every session.
+
+A practical extension of state and orchestration is **scheduling**: a built-in scheduler (e.g. cron-style triggers) lets the harness run recurring or condition-triggered tasks unattended — operating for hours or days without a human in the loop. This is what turns an interactive assistant into a background operator.
 
 ## How the layers nest
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
 │ HARNESS ENGINEERING  (execution environment)                 │
-│  state · verification · orchestration · scope & constraints  │
+│  state · verification · orchestration · scope ·              │
+│  sandboxed toolchain · learning loop · scheduling           │
 │                                                              │
 │   ┌───────────────────────────────────────────────────┐     │
 │   │ CONTEXT ENGINEERING  (what the model sees)         │     │
@@ -105,7 +114,17 @@ The model is identical in all three. The reliability difference is entirely the 
 ## Implementations you can look at
 
 - **Claude Code / Claude Agent SDK** — Anthropic's general-purpose harness: compaction, tool dispatch, sub-agents, session and permission management. See [Claude Managed Agents](../04-protocols/claude-managed-agents-tutorial.md).
-- **Hermes Agent (Nous Research)** — a CLI-first harness built around a persistent learning loop: it persists memory and skills across sessions, isolates sub-agents in subprocesses, supports MCP, and runs on real backends rather than an abstract chat box. It's a clean illustration of state management + orchestration + a closed learning loop. Walkthrough: [Hermes Agent Tutorial](../../05-tools/hermes-agent-tutorial.md).
+- **Hermes Agent (Nous Research)** — a CLI-first harness built around a persistent learning loop: it persists memory and skills across sessions, isolates sub-agents in subprocesses, supports MCP, runs anywhere (local, Docker, SSH, serverless), and ships a built-in cron scheduler for unattended automations. It's a clean, open-source illustration of all six subsystems in one place. Walkthrough: [Hermes Agent Tutorial](../../05-tools/hermes-agent-tutorial.md).
+
+## Every major lab is building one
+
+Harness engineering isn't a fringe idea — it's where the frontier labs are spending R&D. The model differs; the harness pattern is the same.
+
+- **OpenAI** — the browser-using **Computer-Using Agent** (originally shipped as *Operator*, since folded into ChatGPT's **agent mode** and the Agents SDK) wraps the model in a live browser and terminal so it can navigate, fill forms, and complete purchases autonomously.
+- **Google** — **Gemini** in Workspace acts as a harness that chains multiple apps (Gmail, Docs, Sheets, Calendar) into a multi-step workflow kicked off from a single prompt.
+- **Anthropic** — **Claude Code / Claude Agent SDK** drives the full software-engineering loop on SWE-bench — **read → patch → test → submit** — with the harness (a bash terminal and a file editor, plus compaction and verification) doing the orchestration. **Claude Managed Agents** packages that as a pre-built, configurable harness on managed infrastructure.
+
+The takeaway practitioners keep landing on: **the 2026 agent race isn't about who has the smartest model — it's about who builds the most reliable harness around it.** The same open-source harness pattern (memory, tools, orchestration, sandboxed execution, a learning loop) is now reproducible outside the big labs, which is exactly why a project like Hermes matters.
 
 ## Practitioner checklist
 
@@ -122,10 +141,14 @@ Most "the model is bad" complaints in production are actually harness gaps weari
 - The three generations are **additive and nested**, not a sequence of replacements. You still write prompts and engineer context — inside a harness.
 - Harness engineering exists because **autonomy exposes failure modes prompts can't reach**: context anxiety and unreliable self-evaluation are environment problems with environment-level fixes.
 - Treating the model as **a bounded component in a structured environment**, rather than an unpredictable magic box, is what makes agent results reliable enough to scale.
+- **The model is the engine; the harness is the car.** Every major lab is building one, and in 2026 the differentiator is harness reliability, not raw model IQ.
 
 ## References
 - Inkeep — [Context Anxiety: How AI Agents Panic About Their Perceived Context Windows](https://inkeep.com/blog/context-anxiety)
 - Parallel — [What is an agent harness?](https://parallel.ai/articles/what-is-an-agent-harness)
 - Firecrawl — [What Is an Agent Harness?](https://www.firecrawl.dev/blog/what-is-an-agent-harness)
 - Daily Dose of DS — [The Anatomy of an Agent Harness](https://blog.dailydoseofds.com/p/the-anatomy-of-an-agent-harness)
+- Rakesh Gohel — "The AI Agent Harness: Your Production Control Plane" (infographic + post on the eight harness components, the engine/car framing, and how the big labs apply it)
+- OpenAI — [Introducing Operator](https://openai.com/index/introducing-operator/) / [ChatGPT agent](https://openai.com/index/introducing-chatgpt-agent/) (Computer-Using Agent; Operator folded into agent mode in 2025)
+- Anthropic — [Claude Managed Agents overview](https://platform.claude.com/docs/en/managed-agents/overview) (pre-built, configurable agent harness)
 - Related in this repo: [Context Engineering](../03-context-and-memory/context-engineering.md) · [Prompt Pattern Catalogue](../../03-prompts-and-patterns/prompt-pattern-catalogue.md) · [MCP Guide](../04-protocols/mcp-guide.md) · [Hermes Agent Tutorial](../../05-tools/hermes-agent-tutorial.md)
