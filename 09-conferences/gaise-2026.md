@@ -110,4 +110,11 @@ Copy and paste the block below under the relevant day/track, then fill in the de
 
 ---
 
+## Related Blueprints
+
+- [Researchers Prompting Blueprints](../03-prompts-and-patterns/researchers-prompting-blueprints.md)
+- [AI Agents Overview](../02-ai-agents/ai-agents-overview.md)
+
+---
+
 *Notes by Tomas Herda. Connect on [LinkedIn](https://www.linkedin.com/in/herdatom).*

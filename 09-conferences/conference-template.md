@@ -110,4 +110,10 @@ These are my personal notes from the sessions I attended.
 
 ---
 
+## Related Blueprints
+
+- [Researchers Prompting Blueprints](../03-prompts-and-patterns/researchers-prompting-blueprints.md)
+
+---
+
 *Notes by Tomas Herda. Connect on [LinkedIn](https://www.linkedin.com/in/herdatom).*
