@@ -106,14 +106,11 @@ Copy and paste the block below under the relevant day/track, then fill in the de
 <img src="../assets/conferences/gaise-2026/[slide-filename].jpg" alt="[slide description]">
 
 [Note what made these slides worth capturing.]
+
+**Related Blueprints**
+
+- [Title](../path/to/blueprint.md)
 ```
-
----
-
-## Related Blueprints
-
-- [Researchers Prompting Blueprints](../03-prompts-and-patterns/researchers-prompting-blueprints.md)
-- [AI Agents Overview](../02-ai-agents/ai-agents-overview.md)
 
 ---
 
