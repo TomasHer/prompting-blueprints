@@ -128,6 +128,9 @@ nav:
     - Deep Research Tools Playbook: 07-use-cases-and-research/deep-research.md
     - Summarization Playbook: 07-use-cases-and-research/summarization-tutorial.md
     - AI Video Camera Movements Prompt Library: 07-use-cases-and-research/ai-video-camera-movements-prompt-library.md
+  - Conferences:
+    - GAISE 2026: 09-conferences/gaise-2026.md
+    - Conference Notes Template: 09-conferences/conference-template.md
   - External Sources: external-sources.md
   - Source Index: source-index.md
 plugins:
