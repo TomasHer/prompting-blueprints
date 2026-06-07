@@ -106,13 +106,11 @@ These are my personal notes from the sessions I attended.
 <img src="../assets/conferences/[event-slug]/[slide-filename].jpg" alt="[slide description]">
 
 [Note what made these slides worth capturing.]
+
+**Related Blueprints**
+
+- [Title](../path/to/blueprint.md)
 ```
-
----
-
-## Related Blueprints
-
-- [Researchers Prompting Blueprints](../03-prompts-and-patterns/researchers-prompting-blueprints.md)
 
 ---
 
