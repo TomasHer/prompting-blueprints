@@ -1,7 +1,7 @@
 ---
 title: "Conference Notes — Template"
 tags: ["conferences", "template"]
-last_updated: "2026-06-07"
+last_updated: "[YYYY-MM-DD]"
 ---
 
 <!--
@@ -13,10 +13,27 @@ How to use:
 3. Update the front-matter (title, tags, last_updated).
 4. Replace every [BRACKETED] placeholder and remove the HTML comments you don't need.
 5. Add a nav entry in mkdocs.yml under the "Conferences" section.
-6. Duplicate the "Session block" for each session you attended.
+
+Session heading emoji convention:
+  🎤  Keynote · conference opening · conference closing
+  🛠️  Workshop / hands-on session
+  🎓  Academic talk
+  🏢  Industry talk
+  👔  Executive talk or panel
+  ⚡  Lightning talk
+  👥  Panel discussion
+
+Session structure — follow this pattern for each session:
+  1. Heading:      ### [emoji] [Type] — [Full Title] by [Speaker Name, Affiliation]
+  2. Metadata:     Speaker, Session Type, and Title as bullet list (kept for structured data collection).
+  3. Photos:       Opening image first; additional images interspersed throughout as needed.
+  4. Prose:        2–4 sentences describing what the session covered and its core message.
+  5. Observations: **Interesting observations** — bolded bullet list with brief elaboration per point.
+                   Link to related Blueprints inline within the relevant bullet; no separate section.
 
 All image paths assume this file lives in 09-conferences/ (one level deep),
 so assets are reached via ../assets/conferences/<event-slug>/...
+Image subfolders follow the pattern: day[N]/[session-folder]/[filename].
 -->
 
 # [EVENT NAME] — [City, Country]
@@ -35,8 +52,10 @@ These are my personal notes from the sessions I attended.
 
 **Links:** [Program]([program URL]) · [Speakers]([speakers URL]) · [Organizer]([organizer URL])
 
-<!-- EVENT PHOTO PLACEHOLDER -->
 <img src="../assets/conferences/[event-slug]/event-photo.jpg" alt="[Event name]">
+
+<!-- VIDEO PLACEHOLDER — replace the URL below with the YouTube link once available -->
+<!-- [![[Event name] — Conference Highlight Video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID) -->
 
 ---
 
@@ -45,16 +64,26 @@ These are my personal notes from the sessions I attended.
 ### Theme: [Theme] · [Tracks]
 
 ### 🎤 Conference Opening
-<!-- Remove this section if the day had no opening. -->
 
-<!-- OPENING PHOTO PLACEHOLDER -->
-<img src="../assets/conferences/[event-slug]/day1-opening.jpg" alt="Conference Opening">
+<img src="../assets/conferences/[event-slug]/day1/opening/[photo].jpg" alt="[Event name] — Conference Opening">
 
-<!-- Short note about the opening. -->
+[1–2 sentences about who opened the event, the welcome, and how the program was framed.]
 
-### [Track name] Track
+### [emoji] [Session Type] — [Full Title] by [Speaker Name, Affiliation]
 
-<!-- Session blocks go here. -->
+- **Speaker:** [Name, affiliation/role] — [speaker profile link]
+- **Session Type:** [Keynote / Academic talk / Industry talk / Executive panel / Workshop / Lightning talk]
+- **Title:** [Full session title]
+
+<img src="../assets/conferences/[event-slug]/day1/[session-folder]/[photo].jpg" alt="[alt text]">
+
+[2–4 sentences summarizing the session and its core message.]
+
+**Interesting observations**
+
+- **[Key observation].** [Elaboration. Inline link to related Blueprint if applicable.]
+
+<!-- Add sessions below. -->
 
 ---
 
@@ -62,9 +91,7 @@ These are my personal notes from the sessions I attended.
 
 ### Theme: [Theme] · [Tracks]
 
-### [Track name] Track
-
-<!-- Session blocks go here. -->
+<!-- Add sessions below. -->
 
 ---
 
@@ -72,49 +99,15 @@ These are my personal notes from the sessions I attended.
 
 ### Theme: [Theme] · [Tracks]
 
-### [Track name] Track
-
-<!-- Session blocks go here. -->
+<!-- Add sessions below. -->
 
 ### 🎤 Conference Closing
-<!-- Remove this section if the day had no closing. -->
 
-<!-- CLOSING PHOTO PLACEHOLDER -->
-<img src="../assets/conferences/[event-slug]/day3-closing.jpg" alt="Conference Closing">
+<img src="../assets/conferences/[event-slug]/day3/closing/[photo].jpg" alt="[Event name] — Conference Closing">
 
 A sincere thank you to **[organizing body / lab name]** for hosting and curating an exceptional program.
 
 Special recognition goes to the main organizers — **[Organizer Name]** and **[Organizer Name]** — whose planning and dedication kept everything running seamlessly. Thanks also to all the **volunteers** who made the event experience welcoming and smooth for every attendee.
-
-<!-- Expand with specific highlights or personal thanks as appropriate. -->
-
----
-
-## Session block (copy one per session)
-
-```markdown
-#### [Session Title]
-
-<img src="../assets/conferences/[event-slug]/[photo-filename].jpg" alt="[alt text]">
-
-- **Speaker:** [Name, affiliation/role] — [speaker profile link]
-- **Session Type:** [Keynote / Academic talk / Industry talk / Executive panel / Workshop / Lightning talk]
-- **Title:** [Full session title]
-
-**Description**
-
-[2–4 sentences summarizing the session.]
-
-**Interesting slides and observations**
-
-<img src="../assets/conferences/[event-slug]/[slide-filename].jpg" alt="[slide description]">
-
-[Note what made these slides worth capturing.]
-
-**Related Blueprints**
-
-- [Title](../path/to/blueprint.md)
-```
 
 ---
 
