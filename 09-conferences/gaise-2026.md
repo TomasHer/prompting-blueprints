@@ -99,24 +99,15 @@ A state-of-the-art academic survey of where generative AI in software engineerin
 - **A short history — every era was promised the end of hand-written code.**
 
 <img src="../assets/conferences/gaise-2026/day1/04-waseem/waseem1.png" alt="A short history — every era was promised the end of hand-written code">
-- **The GenAI tooling ecosystem is an 8-layer stack.** From the bottom up:
-<br>(1) **Foundation Models** (GPT, Claude, Gemini, Llama, Mistral, DeepSeek, Qwen, Gemma);
-<br>(2) **Model Platforms** (OpenAI API, Anthropic API, Vertex AI, AWS Bedrock, Azure AI Foundry, Hugging Face, Ollama, LiteLLM, vLLM);
-<br>(3) **AI-Native IDEs** (Cursor, Windsurf, GitHub Copilot, JetBrains AI, Continue.dev, Zed AI, Replit);
-<br>(4) **Vibe-Coding / AI App Builders** (Lovable, Bolt.new, v0, Replit Agent, Create.xyz, Firebase Studio, Framer AI);
-<br>(5) **Agentic Coding Tools** (Claude Code, Copilot Agent, Gemini Code Assist Agent, Cursor Agent, OpenAI Codex, Aider, Cline, OpenHands, Devin, Sweep);
-<br>(6) **Agentic Frameworks** (LangGraph, LangChain, LlamaIndex, CrewAI, AutoGen, Semantic Kernel, Pydantic AI, Haystack);
-<br>(7) **Context, RAG & Tool Connection** (RAG, embeddings, vector DBs, reranking, knowledge graphs, MCP, tool/function calling, codebase indexing, API connectors);
-<br>(8) **Memory, Evaluation & Guardrails** (Mem0, Zep, Letta/MemGPT, Cognee, Graphiti, LangSmith, Langfuse, Ragas, promptfoo, Guardrails AI, human review workflows).
-- **Research approaches — seven ways to study GenAI's real impact.** Each method maps to what it can actually measure:
-<br>(1) **Controlled experiments / RCTs** — with vs. without AI on real tasks → *measurement, verification, security*;
-<br>(2) **Field & repository studies** — telemetry, PRs, defects, delivery metrics → *measurement, maintenance, economics*;
-<br>(3) **Longitudinal & cohort studies** — skill growth and team change over time → *expertise pipeline, economics*;
-<br>(4) **Surveys & interviews** — adoption, trust, perceived vs. real value → *measurement, economics*;
-<br>(5) **Benchmark & dataset construction** — realistic, contamination-free evaluations → *evaluation*;
-<br>(6) **Tool building + design science** — build and empirically test verification/security tooling → *verification, security*;
-<br>(7) **Replication studies** — repeat key studies in new settings → *cross-cutting*. The work fits across empirical SE venues, AI/software engineering, security & testing, education & human factors, and datasets/benchmarks/tool papers.
-- **RENDRI-R: a multi-agent tool for Java code refactoring.** A demo of today's workflow-level AI assistance. It imports Java projects (GitHub clone or ZIP) into a workspace, runs **multi-level analysis** (full-repo scan down to file-level smells, metrics, and dependencies), and produces **research-ready outputs** (reports, acceptance/rejection reasons, exportable evaluation metrics). **Smell detection** uses a PMD-like quickstart ruleset with before/after comparison on original vs. refactored code. Under the hood: a **LangGraph-style orchestration + LLM via OpenRouter** (e.g. Claude or GPT, configurable) running a **Load → Analyze → Plan → Refactor → Verify → Apply** pipeline — with an automated verification gate before any change is accepted, and controlled file-by-file refactoring rather than whole-system rewrites.
+- **The GenAI tooling ecosystem is an 8-layer stack.**
+
+<img src="../assets/conferences/gaise-2026/day1/04-waseem/waseem2.png" alt="The GenAI tooling ecosystem is an 8-layer stack">
+- **Research approaches — seven ways to study GenAI's real impact. Each method maps to what it can actually measure.**
+
+<img src="../assets/conferences/gaise-2026/day1/04-waseem/waseem3.png" alt="Research approaches — seven ways to study GenAI's real impact">
+- **RENDRI-R: a multi-agent tool for Java code refactoring.**
+
+<img src="../assets/conferences/gaise-2026/day1/04-waseem/waseem4.png" alt="RENDRI-R: a multi-agent tool for Java code refactoring">
 
 
 ---
