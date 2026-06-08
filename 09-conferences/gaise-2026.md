@@ -90,7 +90,7 @@ AI is changing far more than how code is written — software systems are starti
 
 ### Academic Track
 
-<!-- Add sessions below using the Session block from "Session Structure" at the bottom of this page. -->
+<!-- Add sessions below. -->
 
 ### Industry Track
 
