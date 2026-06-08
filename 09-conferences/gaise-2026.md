@@ -22,6 +22,9 @@ These are my personal notes from the sessions I attended.
 
 <img src="../assets/conferences/gaise-2026/event-photo.png" alt="GAISE 2026 — Tampere University">
 
+<!-- VIDEO PLACEHOLDER — replace the URL below with the YouTube link once available -->
+<!-- [![GAISE 2026 — Conference Highlight Video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID) -->
+
 ---
 
 ## Day 1 — Monday, 1 June 2026
@@ -87,7 +90,7 @@ AI is changing far more than how code is written — software systems are starti
 
 ### Academic Track
 
-<!-- Add sessions below using the Session block from "Session Structure" at the bottom of this page. -->
+<!-- Add sessions below. -->
 
 ### Industry Track
 
@@ -135,36 +138,6 @@ A heartfelt thank you to everyone who made GAISE 2026 possible. The **GPT-Lab te
 Special recognition goes to the main organizers — **Vaishnavi Bankhele** and **Virve Yli-Savola** — whose meticulous planning and tireless effort ensured the event ran smoothly from the first keynote to the final session. Equal thanks to all the **volunteers** who handled registration, logistics, and the countless behind-the-scenes tasks that keep a multi-track conference on track.
 
 Your work gave everyone in the room the space to focus on learning and connecting. Thank you.
-
----
-
-## Session Structure (copy this block for each session)
-
-Copy and paste the block below under the relevant day/track, then fill in the details.
-
-```markdown
-#### [Session Title]
-
-<img src="../assets/conferences/gaise-2026/[photo-filename].jpg" alt="[alt text]">
-
-- **Speaker:** [Name, affiliation/role] — [speaker profile link]
-- **Session Type:** [Keynote / Academic talk / Industry talk / Executive panel / Workshop / Lightning talk]
-- **Title:** [Full session title]
-
-**Description**
-
-[2–4 sentences summarizing the session.]
-
-**Interesting slides and observations**
-
-<img src="../assets/conferences/gaise-2026/[slide-filename].jpg" alt="[slide description]">
-
-[Note what made these slides worth capturing.]
-
-**Related Blueprints**
-
-- [Title](../path/to/blueprint.md)
-```
 
 ---
 
