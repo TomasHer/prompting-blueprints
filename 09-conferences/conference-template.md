@@ -24,7 +24,7 @@ Session heading emoji convention:
   👥  Panel discussion
 
 Session structure — follow this pattern for each session:
-  1. Heading:      ### [emoji] [Type] — [Full Title] by [Speaker Name, Affiliation]
+  1. Heading:      ### [emoji] [Session Type] — [Full Title] by [Speaker Name, Affiliation]
   2. Metadata:     Speaker, Session Type, and Title as bullet list (kept for structured data collection).
   3. Photos:       Opening image first; additional images interspersed throughout as needed.
   4. Prose:        2–4 sentences describing what the session covered and its core message.
@@ -55,7 +55,7 @@ These are my personal notes from the sessions I attended.
 <img src="../assets/conferences/[event-slug]/event-photo.jpg" alt="[Event name]">
 
 <!-- VIDEO PLACEHOLDER — replace the URL below with the YouTube link once available -->
-<!-- [![[Event name] — Conference Highlight Video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID) -->
+<!-- <a href="https://www.youtube.com/watch?v=VIDEO_ID"><img src="https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg" alt="[Event name] — Conference Highlight Video"></a> -->
 
 ---
 
