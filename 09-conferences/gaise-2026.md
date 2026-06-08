@@ -27,15 +27,49 @@ These are my personal notes from the sessions I attended.
 
 ---
 
+## Sessions
+
+### Day 1 — Monday, 1 June · Autonomous AI Systems
+
+| Session | Speaker |
+|---------|---------|
+| [Conference Opening](#conference-opening) | Prof. Pekka Abrahamsson & Virve Yli-Savola |
+| [Workshop — Agent-first IDEs](#workshop-agent-first-ides) | Tomas Herda & Agnes Lipovits, Austrian Post Business Solutions |
+| [Keynote — When Software Stops Waiting](#keynote-alex-polyakov) | Alex Polyakov, CEO @ ProjectSimple |
+| [Academic Talk — Generative AI in SE: Progress & Open Questions](#academic-waseem) | Muhammad Waseem, PhD |
+| [Workshop — Vibing Ideas: Knowing What to Build When AI Does the Rest](#workshop-vibing-ideas) | Prof. Xiaofeng Wang, Daniel Planötscher & Silvia Cortesia |
+| [Tech Talk — Measuring the Business Value of Agentic AI](#tech-talk-janne) | Janne Kuivalainen, CTO, Danfoss Drives |
+| [Demo — From Task to Action: Why Agent Harnesses Matter](#demo-harnesses) | Malik Abdul Sami & Zeeshan Rasheed, GPT-Lab |
+| [Academic Talk — AI Won't Save Your Research](#academic-kai) | Dr. Kai-Kristian Kemell, GPT-Lab |
+| [Doctoral Research Presentations](#doctoral-research) | Dr. Kai-Kristian Kemell & Dr. Mika Saari, GPT-Lab |
+
+### Day 2 — Tuesday, 2 June · AI-Native World
+
+*Notes coming soon*
+
+### Day 3 — Wednesday, 3 June · Responsible AI Era
+
+| Session | Speaker |
+|---------|---------|
+| [Conference Closing](#conference-closing) | GPT-Lab Team |
+
+---
+
+<a id="day-1"></a>
+
 ## Day 1 — Monday, 1 June 2026
 
 ### Theme: Autonomous AI Systems · Academic & Industry Tracks
+
+<a id="conference-opening"></a>
 
 ### 🎤 Conference Opening
 
 <img src="../assets/conferences/gaise-2026/day1/01-opening/IMG_0993.jpg" alt="GAISE 2026 — Conference Opening">
 
 GAISE 2026 kicked off with a warm welcome from Prof. Pekka Abrahamsson and Virve Yli-Savola of GPT-Lab at Tampere University. They opened the summer school, set the stage for three days exploring how AI is reshaping software engineering, and introduced the program ahead.
+
+<a id="workshop-agent-first-ides"></a>
 
 ### 🛠️ Workshop — Agent-first IDEs by Tomas Herda & Agnes Lipovits, Austrian Post Business Solutions
 
@@ -64,6 +98,8 @@ This hands-on workshop introduced the key concepts behind reliable AI-assisted d
 
 <img src="../assets/conferences/gaise-2026/day1/03-tomas/IMG_1178.heic" alt="AI Bug Detective — hands-on session">
 
+<a id="keynote-alex-polyakov"></a>
+
 ### 🎤 Keynote — When Software Stops Waiting: Life in Autonomous AI Systems by Alex Polyakov, CEO @ ProjectSimple
 
 <img src="../assets/conferences/gaise-2026/day1/02-keynote/keynote1.png" alt="When Software Stops Waiting — keynote by Alex Polyakov">
@@ -87,6 +123,8 @@ AI is changing far more than how code is written — software systems are starti
 <br>(4) the biggest value is **Intelligent Automation (IA)**, reached through contextual awareness rather than bigger models;
 <br>(5) **tokens are the new currency**, but AI commoditization is inevitable — ask what's optimizing whom.
 - **Some memorable lines and data points:** *"Early bird gets the worm, but the second mouse gets the cheese."* On average **65% of a team's work is unplanned**, **token usage is the new KPI**, and — most pointedly — *"You cannot delegate ownership: let the people decide what we work on, describe the problem, and let the team solve the issue."*
+
+<a id="academic-waseem"></a>
 
 ### 🎓 Academic Talk — Generative AI in Software Engineering: Progress & Open Questions by Muhammad Waseem, PhD
 
@@ -112,6 +150,8 @@ A state-of-the-art academic survey of where generative AI in software engineerin
 
 <img src="../assets/conferences/gaise-2026/day1/04-waseem/waseem3.png" alt="RENDRI-R: a multi-agent tool for Java code refactoring">
 
+<a id="workshop-vibing-ideas"></a>
+
 ### 🛠️ Workshop — Vibing Ideas: Knowing What to Build When AI Does the Rest by Prof. Xiaofeng Wang, Daniel Planötscher & Silvia Cortesia, LUT University / Free University of Bozen-Bolzano
 
 <img src="../assets/conferences/gaise-2026/day1/05-xiaofeng/IMG_6619.HEIC" alt="Vibing Ideas: Knowing What to Build When AI Does the Rest — workshop by Prof. Xiaofeng Wang, Daniel Planötscher & Silvia Cortesia">
@@ -124,6 +164,8 @@ A state-of-the-art academic survey of where generative AI in software engineerin
 - **AI as a thinking partner, not a code generator.** Used well, AI helps explore the problem space, challenge assumptions, and pressure-test ideas before any code is written.
 - **Navigating ambiguity is the real work.** Surfacing latent user needs and turning fuzzy, ill-defined problems into something concrete enough to act on is where the leverage lives.
 - **From ideas to solutions worth building.** The hands-on portion practiced shaping and prioritizing ideas — separating what's *possible* from what's *worth doing*.
+
+<a id="tech-talk-janne"></a>
 
 ### 🎤 Tech Talk — Measuring the Business Value of Agentic AI by Janne Kuivalainen, CTO, Danfoss Drives
 
@@ -138,6 +180,8 @@ Agentic AI promises step-change productivity, yet its economic value remains stu
 - **Project phases: Pilot → Implementation → Scaling → Adopted.** Agentic initiatives were framed as moving through four explicit stages, making it clear that business value is realized progressively — a pilot proves the concept, but the payoff only compounds once a use case is scaled and fully adopted.
 - **Maturity and value go together.** Pairing agent maturity with the impact framework keeps expectations honest: early-stage agents shouldn't be measured against fully-adopted returns, and the KPI tree makes that distinction explicit instead of hand-waving it.
 
+<a id="demo-harnesses"></a>
+
 ### 🖥️ Demo — From Task to Action: Why Agent Harnesses Matter by Malik Abdul Sami & Zeeshan Rasheed, GPT-Lab / Tampere University
 
 <img src="../assets/conferences/gaise-2026/day1/07-sami/IMG_7740.JPG" alt="From Task to Action: Why Agent Harnesses Matter — demo by Malik Abdul Sami & Zeeshan Rasheed, GPT-Lab / Tampere University">
@@ -151,11 +195,15 @@ The jump from a powerful LLM to a genuinely useful agent isn't a bigger model �
 - **Observation closes the loop.** The point that stuck: agents don't just emit actions, they *observe* the consequences (diffs, errors, file state) and adjust — the harness is what makes that sense-act-sense cycle possible, not the model alone.
 - **OpenHarness as an open demo.** Rather than a slide-only talk, they shipped the architecture as open source for researchers, builders, and the community — to understand how production AI agents work under the hood, experiment with cutting-edge tools, skills, and agent-coordination patterns, extend it with custom plugins, providers, and domain knowledge, and build specialized agents on top of a proven architecture. Repo: [GPT-Laboratory/harness-testing](https://github.com/GPT-Laboratory/harness-testing).
 
+<a id="academic-kai"></a>
+
 ### 🎓 Academic Talk — AI Won't Save Your Research: Things Researchers Should Never Do by Dr. Kai-Kristian Kemell, GPT-Lab / Tampere University
 
 <img src="../assets/conferences/gaise-2026/day1/08-kai/IMG_1202.heic" alt="AI Won't Save Your Research: Things Researchers Should Never Do — academic talk by Dr. Kai-Kristian Kemell, GPT-Lab / Tampere University">
 
 A candid, practitioner's-eye talk on the pitfalls of leaning on generative AI in academic work. Dr. Kai-Kristian Kemell's message was a useful corrective to the hype: AI is a powerful assistant, but it won't do the thinking, the rigor, or the accountability for you — and researchers who treat it as a shortcut around those responsibilities tend to get burned. A grounded reminder of the things researchers should never hand off to a model.
+
+<a id="doctoral-research"></a>
 
 ### 🎓 Doctoral Research Presentations by Dr. Kai-Kristian Kemell & Dr. Mika Saari, GPT-Lab / Tampere University
 
@@ -165,15 +213,21 @@ A session spotlighting doctoral research from the GPT-Lab community, chaired by 
 
 ---
 
+<a id="day-2"></a>
+
 ## Day 2 — Tuesday, 2 June 2026
 
 ### Theme: AI-Native World · Academic, Industry & Executive Tracks
 
 ---
 
+<a id="day-3"></a>
+
 ## Day 3 — Wednesday, 3 June 2026
 
 ### Theme: Responsible AI Era · Academic & Industry Tracks
+
+<a id="conference-closing"></a>
 
 ### 🎤 Conference Closing
 
