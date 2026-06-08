@@ -96,7 +96,9 @@ A state-of-the-art academic survey of where generative AI in software engineerin
 
 **Interesting observations**
 
-- **A short history — every era was promised the end of hand-written code.** A timeline from automatic programming (1950s) → FORTRAN (1957, "write formulas, not machine code") → 4GLs & CASE (1980s) → visual tools & RAD (1990s) → UML/MDA/MDE (2000s) → low-code/no-code (2010s) → generative AI / coding agents (2020s, "describe the intent, generate and iterate"). Each generation promised to abstract code away — yet code persists, and GenAI is the latest chapter rather than the end of the story.
+- **A short history — every era was promised the end of hand-written code.**
+
+<img src="../assets/conferences/gaise-2026/day1/04-waseem/waseem1.png" alt="A short history — every era was promised the end of hand-written code">
 - **The GenAI tooling ecosystem is an 8-layer stack.** From the bottom up:
 <br>(1) **Foundation Models** (GPT, Claude, Gemini, Llama, Mistral, DeepSeek, Qwen, Gemma);
 <br>(2) **Model Platforms** (OpenAI API, Anthropic API, Vertex AI, AWS Bedrock, Azure AI Foundry, Hugging Face, Ollama, LiteLLM, vLLM);
