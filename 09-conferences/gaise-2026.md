@@ -88,45 +88,17 @@ AI is changing far more than how code is written — software systems are starti
 <br>(5) **tokens are the new currency**, but AI commoditization is inevitable — ask what's optimizing whom.
 - **Some memorable lines and data points:** *"Early bird gets the worm, but the second mouse gets the cheese."* On average **65% of a team's work is unplanned**, **token usage is the new KPI**, and — most pointedly — *"You cannot delegate ownership: let the people decide what we work on, describe the problem, and let the team solve the issue."*
 
-### Academic Track
-
-<!-- Add sessions below. -->
-
-### Industry Track
-
-<!-- Add sessions below. -->
-
 ---
 
 ## Day 2 — Tuesday, 2 June 2026
 
 ### Theme: AI-Native World · Academic, Industry & Executive Tracks
 
-### Academic Track
-
-<!-- Add sessions below. -->
-
-### Industry Track
-
-<!-- Add sessions below. -->
-
-### Executive Track
-
-<!-- Add sessions below. -->
-
 ---
 
 ## Day 3 — Wednesday, 3 June 2026
 
 ### Theme: Responsible AI Era · Academic & Industry Tracks
-
-### Academic Track
-
-<!-- Add sessions below. -->
-
-### Industry Track
-
-<!-- Add sessions below. -->
 
 ### 🎤 Conference Closing
 
