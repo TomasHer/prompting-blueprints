@@ -138,34 +138,4 @@ Your work gave everyone in the room the space to focus on learning and connectin
 
 ---
 
-## Session Structure (copy this block for each session)
-
-Copy and paste the block below under the relevant day/track, then fill in the details.
-
-```markdown
-#### [Session Title]
-
-<img src="../assets/conferences/gaise-2026/[photo-filename].jpg" alt="[alt text]">
-
-- **Speaker:** [Name, affiliation/role] — [speaker profile link]
-- **Session Type:** [Keynote / Academic talk / Industry talk / Executive panel / Workshop / Lightning talk]
-- **Title:** [Full session title]
-
-**Description**
-
-[2–4 sentences summarizing the session.]
-
-**Interesting slides and observations**
-
-<img src="../assets/conferences/gaise-2026/[slide-filename].jpg" alt="[slide description]">
-
-[Note what made these slides worth capturing.]
-
-**Related Blueprints**
-
-- [Title](../path/to/blueprint.md)
-```
-
----
-
 *Notes by Tomas Herda. Connect on [LinkedIn](https://www.linkedin.com/in/herdatom).*
