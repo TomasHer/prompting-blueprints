@@ -99,15 +99,18 @@ A state-of-the-art academic survey of where generative AI in software engineerin
 - **A short history — every era was promised the end of hand-written code.**
 
 <img src="../assets/conferences/gaise-2026/day1/04-waseem/waseem1.png" alt="A short history — every era was promised the end of hand-written code">
+
 - **The GenAI tooling ecosystem is an 8-layer stack.**
 
 <img src="../assets/conferences/gaise-2026/day1/04-waseem/waseem2.png" alt="The GenAI tooling ecosystem is an 8-layer stack">
+
 - **Research approaches — seven ways to study GenAI's real impact. Each method maps to what it can actually measure.**
 
-<img src="../assets/conferences/gaise-2026/day1/04-waseem/waseem3.png" alt="Research approaches — seven ways to study GenAI's real impact">
+<img src="../assets/conferences/gaise-2026/day1/04-waseem/waseem4.png" alt="Research approaches — seven ways to study GenAI's real impact">
+
 - **RENDRI-R: a multi-agent tool for Java code refactoring.**
 
-<img src="../assets/conferences/gaise-2026/day1/04-waseem/waseem4.png" alt="RENDRI-R: a multi-agent tool for Java code refactoring">
+<img src="../assets/conferences/gaise-2026/day1/04-waseem/waseem3.png" alt="RENDRI-R: a multi-agent tool for Java code refactoring">
 
 
 ---
