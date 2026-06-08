@@ -38,6 +38,9 @@ These are my personal notes from the sessions I attended.
 <!-- EVENT PHOTO PLACEHOLDER -->
 <img src="../assets/conferences/[event-slug]/event-photo.jpg" alt="[Event name]">
 
+<!-- VIDEO PLACEHOLDER — replace the URL below with the YouTube link once available -->
+<!-- [![[Event name] — Conference Highlight Video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID) -->
+
 ---
 
 ## Day 1 — [Date]

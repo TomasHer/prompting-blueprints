@@ -22,6 +22,9 @@ These are my personal notes from the sessions I attended.
 
 <img src="../assets/conferences/gaise-2026/event-photo.png" alt="GAISE 2026 — Tampere University">
 
+<!-- VIDEO PLACEHOLDER — replace the URL below with the YouTube link once available -->
+<!-- [![GAISE 2026 — Conference Highlight Video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID) -->
+
 ---
 
 ## Day 1 — Monday, 1 June 2026
