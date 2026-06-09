@@ -51,6 +51,7 @@ These are my personal notes from the sessions I attended.
 | [Panel — The Rise of Agentic Organizations](#panel-agentic-organizations) | Dr. Markus Borg, Alex Polyakov, Karoliina Kettukari & Timo Savolainen · facilitator: Sanni Pöntinen |
 | [Lab — Tools That Use Tools to Build Tools](#lab-jussi-rasku) | Dr. Jussi Rasku, GPT-Lab / Tampere University |
 | [Live Demo — Sovereign AI](#demo-sovereign-ai) | Jiri Härmä, GPT-Lab / Tampere University |
+| [Live Demo — World Models](#demo-world-models) | Kalle Kulonen, GPT-Lab / Tampere University |
 
 ### Day 3 — Wednesday, 3 June · Responsible AI Era
 
@@ -333,6 +334,32 @@ Jiri Härmä's live, interactive walkthrough — *From dependence to sovereignty
 <!-- <img src="../assets/conferences/gaise-2026/day2/04-jiri/FILENAME.JPG" alt="The dependency portfolio — simulating the revenue impact when the Data pipeline fails"> -->
 
 - **From dependence to sovereignty (L1→L5).** A posture lever scales exposure down — from L1 "ungoverned" (full impact) to L5 "sovereign" (0.2×) — turning the case for GenAI sovereignty into a concrete number rather than an abstract principle.
+
+<a id="demo-world-models"></a>
+
+### 🖥️ Live Demo — World Models in Action: Where Language Models Hit a Wall by Kalle Kulonen, GPT-Lab / Tampere University
+
+<img src="../assets/conferences/gaise-2026/day2/05-kalle/IMG_7806.JPG" alt="World Models in Action: Where Language Models Hit a Wall — live demo by Kalle Kulonen, GPT-Lab / Tampere University">
+
+What better way to expose the limits of a language model than to make it literally hit a wall? Kalle Kulonen's live demo handed the *same* maze to a series of frontier LLMs and asked each to trace a valid path from entrance to exit — a task that looks trivial but quietly demands genuine spatial reasoning. The reveal: models that reason brilliantly over text reason over the *picture* of a maze, not its *geometry*, so their routes cut straight through the walls. The closing pivot reframed the whole problem — once the maze becomes a real, physical environment, a **world model** simulates it directly and the shortest path falls out for free.
+
+**Interesting observations**
+
+- **The title is a double pun.** *"Where language models hit a wall"* — they literally crash into the maze walls, and figuratively reach the edge of what next-token reasoning can do. A maze is the perfect probe: trivial for anything with a spatial model of the world, deceptively hard for a pure text predictor.
+
+- **The frontier LLMs all hit the wall — some harder than others.** Handed the same maze, GPT-5.5 and Gemini 3.1 Pro both drew plausible-looking routes that slice straight through the walls — reasoning over the *picture* of the maze rather than its navigable space. Claude Opus 4.8 fared best, tracking the corridors from *Start* to *Exit* on a redrawn maze, but even the cleanest run made the same point: a text model has no real spatial model of the world.
+
+<!-- PHOTO PLACEHOLDER — three maze-attempt slides; save to day2/05-kalle/ and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/05-kalle/gpt-5-5.jpg" alt="GPT-5.5 attempts the maze — the red path cuts straight through the walls"> -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/05-kalle/gemini-3-1-pro.jpg" alt="Gemini 3.1 Pro attempts the maze — the green path also cuts through the walls"> -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/05-kalle/claude-opus-4-8.jpg" alt="Claude Opus 4.8 attempts the maze — the red path follows the corridors from Start to Exit"> -->
+
+- **"What if the maze became real?" — world models in action.** The pivot that named the session: NVIDIA's **Cosmos Predict 2.5** doesn't reason over pixels, it *simulates* the physical environment — so a mouse simply runs the shortest way through a real 3D maze to the cheese. Geometry, navigation, and dynamics emerge from the simulation instead of being guessed from a flat image.
+
+<!-- PHOTO PLACEHOLDER — "What If the Maze Became Real?" (Cosmos Predict 2.5) slide; save as day2/05-kalle/cosmos-predict-2-5.jpg and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/05-kalle/cosmos-predict-2-5.jpg" alt="What If the Maze Became Real? — Cosmos Predict 2.5 simulates a physical maze where a mouse runs the shortest path to the cheese"> -->
+
+- **The takeaway: tokens aren't space.** LLMs predict the next token; they don't maintain a model of the physical world, so spatial and embodied tasks are exactly where they hit a wall. World models — which learn the *dynamics* of an environment rather than the statistics of text — are the complementary capability the field is now racing toward.
 
 ---
 
