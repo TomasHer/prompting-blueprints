@@ -49,6 +49,7 @@ These are my personal notes from the sessions I attended.
 |---------|---------|
 | [Keynote — Agents Code. Teams Erode.](#keynote-markus-borg) | Dr. Markus Borg, CodeScene / Lund University |
 | [Panel — The Rise of Agentic Organizations](#panel-agentic-organizations) | Dr. Markus Borg, Alex Polyakov, Karoliina Kettukari & Timo Savolainen · facilitator: Sanni Pöntinen |
+| [Lab — Tools That Use Tools to Build Tools](#lab-jussi-rasku) | Dr. Jussi Rasku, GPT-Lab / Tampere University |
 
 ### Day 3 — Wednesday, 3 June · Responsible AI Era
 
@@ -268,6 +269,47 @@ Right after the morning keynote, the Executive Track widened the lens from indiv
 <br>**4 · AI-Native Organization** — people and *synthetic colleagues* (Copilot, ChatGPT, Claude, AI agents) both draw on that shared intelligence across leadership, sales, experts, finance, and operations.
 <br>The promised outcomes: **2–5× productivity**, faster learning, better decisions, durable organizational memory, and continuous innovation.
 - **A lighter moment from Alex Polyakov.** On the relentless tempo of building a company, the serial founder drew a laugh from the room: *"To us entrepreneurs, Friday means that there are only 2 days left by the end of the week."*
+
+<a id="lab-jussi-rasku"></a>
+
+### 🛠️ Lab — Tools That Use Tools to Build Tools by Dr. Jussi Rasku, GPT-Lab / Tampere University
+
+<img src="../assets/conferences/gaise-2026/day2/03-jussi/jussi1.jpg" alt="Tools That Use Tools to Build Tools — lab by Dr. Jussi Rasku, GPT-Lab / Tampere University">
+
+Dr. Jussi Rasku framed the rise of agentic coding as a shift *beyond the IDE paradigm* toward **L1–L5 AI software-engineering systems** — staged autonomy levels in which an LLM-powered agent lives inside a **harness**, decomposes a task, calls tools to act and observe, and, when its toolbox falls short, **writes the new tool it needs on the spot**. He grounded the idea in examples ranging from DeepMind's **AlphaEvolve** to GPT-Lab's own multi-agent research on optimization heuristics and auto-generated MCP data adapters, building toward a single claim: an agent's intelligence isn't the model, it's the **loop**. The session then went fully hands-on with the **Pi coding agent** — a UNIX-style, minimal-core agent hosted at [pi.aistico.com](https://pi.aistico.com) — where participants asked Pi to inspect a sample CSV, build whatever tool it needed to understand the data, and run that tool to explain the results. Materials: [GPT-Laboratory/GAISE26_tool_building_pi_agents](https://github.com/GPT-Laboratory/GAISE26_tool_building_pi_agents).
+
+**Interesting observations**
+
+- **A harness is the control layer that turns a model into a worker.** Rasku opened with a dictionary-style definition worth keeping: a harness is *"the control layer around a large language model that turns model outputs into reliable action: providing tools, memory, context, permissions, execution logic, logging, and recovery."* The punchline — **the model imitates reasoning; the harness makes it do work** — complements the Day 1 [harness demo](#demo-harnesses) by Sami & Rasheed and maps directly onto the Blueprint on [prompt, context & harness engineering](https://github.com/TomasHer/prompting-blueprints/blob/main/02-ai-agents/01-foundations/prompt-context-harness-engineering.md).
+
+<img src="../assets/conferences/gaise-2026/day2/03-jussi/jussi2.png" alt="harness — the control layer around a large language model that turns model outputs into reliable action">
+
+- **The loop is the intelligence.** The core mental model: **generate → act → observe → evaluate → revise**. Tool use is what lets an agent *observe and interact* with the world instead of just emitting text — it closes the sense-act-sense cycle, and that loop, not raw model size, is where useful behavior actually comes from.
+
+- **Tool-building compounds capability and enables self-improvement.** When the toolbox runs out, the agent doesn't fail — it builds the missing tool and keeps going, so every new tool widens what the next step can do. AlphaEvolve was the marquee example of this compounding: the model generates, tests, and refines its own candidate solutions to evolve better algorithms over time.
+
+- **Wrapping *any* data source as an MCP — a way out of data-integration hell.** GPT-Lab is exploring an agentic system that can wrap any data source as a [Model Context Protocol](https://github.com/TomasHer/prompting-blueprints/blob/main/02-ai-agents/04-protocols/mcp-guide.md) server. Rasku's survey of existing builders (Tyk API-to-AI, Speakeasy, MCP.Link, AI-Create, OpenAPI-to-MCPServer, openapi-mcp-generator, openapi-mcp) found them *"mostly just (OpenAI) API wrappers"* — nobody had yet tackled the larger project of generating uniform tools over arbitrary data.
+
+<img src="../assets/conferences/gaise-2026/day2/03-jussi/jussi3.png" alt="We are looking into creating an agentic system that can wrap any data source as a MCP — tools-for-building-MCP-servers comparison">
+
+- **Generating MCP servers: 2014 → 2026.** He drew a line from a 2014 GOFAI approach — join-inference and attribute classifiers that imported vehicle-routing problems from raw relations (Kalmbach's master's thesis) — to a 2026 architecture where an **AI MCP generator** introspects a data source and *Claude-Code-style* generates a server from its schema, deploying a uniform MCP layer that agents discover, query, and combine for grounded access.
+
+<img src="../assets/conferences/gaise-2026/day2/03-jussi/jussi4.png" alt="Generating MCP servers — 2014 GOFAI fleet inference vs 2026 AI-generated MCP data wrappers">
+
+- **An aside on the agentic-coding gold rush: the Clawd → Moltbot → OpenClaw mania.** A retired developer's weekend hack went viral — 60K stars in three days, a peak of 710 ★/hr, 100K stars in ~2 days, past React's 10-year total in 60 days, and 350K+ today — surviving an Anthropic cease-and-desist (hence two renames in three days) before being handed to a foundation and absorbed into OpenAI. A vivid illustration of how fast the harness-and-tools ecosystem is moving.
+
+<img src="../assets/conferences/gaise-2026/day2/03-jussi/jussi5.png" alt="The Clawd/Moltbot/OpenClaw mania — open-source agentic coding tool star growth">
+
+- **The lab system: from intent to a running tool, with no editor.** The Pi setup is deliberately minimal: a **chat pane** where you give Pi a task and a **work pane** where you watch it work, backed by an isolated, disposable **sandboxed container**. Inside, the **pi agent** orchestrates — reasoning via an LLM on OpenRouter — then **writes a small script (the tool)** and **runs it on your data**. The whole point: *you state intent, Pi writes and runs the tool, and you never open an editor.*
+
+<img src="../assets/conferences/gaise-2026/day2/03-jussi/jussi6.png" alt="The lab system — Pi agent architecture: chat pane, work pane, sandboxed container that writes and runs a tool on your data">
+
+- **Five takeaways.**
+<br>(1) **Tool use allows agents to observe and interact** — not just generate text.
+<br>(2) **Models become useful systems when a harness makes them do actual work.**
+<br>(3) **The loop is the intelligence:** generate → act → observe → evaluate → revise.
+<br>(4) **Tool-building compounds capability** and allows self-improvement.
+<br>(5) **Generating MCP servers** (one kind of tool) for data is a solution out of data-integration hell.
 
 ---
 
