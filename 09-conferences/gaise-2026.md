@@ -48,6 +48,7 @@ These are my personal notes from the sessions I attended.
 | Session | Speaker |
 |---------|---------|
 | [Keynote — Agents Code. Teams Erode.](#keynote-markus-borg) | Dr. Markus Borg, CodeScene / Lund University |
+| [Panel — The Rise of Agentic Organizations](#panel-agentic-organizations) | Dr. Markus Borg, Alex Polyakov, Karoliina Kettukari & Timo Savolainen · facilitator: Sanni Pöntinen |
 
 ### Day 3 — Wednesday, 3 June · Responsible AI Era
 
@@ -247,6 +248,26 @@ Coding agents now write significant portions of production software, so Dr. Mark
 - **Before signing the AI deal — reinforce best practices.** The closing checklist boiled down to three: (1) **guardrails for brain-aligned code**, (2) **maintain human oversight**, and (3) **beware cognitive and intent debt** — the two debts that never show up in the code itself, yet quietly decide whether the team erodes.
 
 <img src="../assets/conferences/gaise-2026/day2/01-keynote/markus4.png" alt="Before signing the AI deal — reinforce best practices">
+
+<a id="panel-agentic-organizations"></a>
+
+### 💬 Panel — The Rise of Agentic Organizations: Leadership in the Age of Physical and Synthetic AI
+
+<img src="../assets/conferences/gaise-2026/day2/02-panel/IMG_7791.JPG" alt="The Rise of Agentic Organizations panel below Timo Savolainen's 'From Information Chaos to Organizational Shared Intelligence' slide — with Dr. Markus Borg, Alex Polyakov, Karoliina Kettukari and facilitator Sanni Pöntinen">
+
+**Opening remarks & panelist:** Timo Savolainen, Founder & CEO, 4. Aalto · **Panelists:** Dr. Markus Borg (CodeScene / Lund University), Alex Polyakov (CEO, ProjectSimple), Karoliina Kettukari (AI Director, OP Pohjola) · **Facilitator:** Sanni Pöntinen (Doctoral Student, University of Tampere)
+
+Right after the morning keynote, the Executive Track widened the lens from individual coding agents to the whole **agentic organization** — and to the people who have to lead it. The premise: organizations are becoming staffed not only by humans but by **physical AI** (robots and embodied systems) and **synthetic AI** (digital agents and "synthetic colleagues") that observe, decide, and act alongside their teams. Facilitated by Sanni Pöntinen, the panel paired a researcher (Markus Borg), two founders (Alex Polyakov and Timo Savolainen), and an enterprise AI leader (Karoliina Kettukari of OP Pohjola) to work through what leadership, structure, and accountability look like when the workforce is part human and part machine. Timo Savolainen set the table with opening remarks on the substrate all of this depends on — turning scattered, siloed knowledge into **shared organizational intelligence**.
+
+**Interesting observations**
+
+- **Timo Savolainen's opening remarks — From Information Chaos to Organizational Shared Intelligence.** His framing for the whole panel: most organizations today run on *information chaos*, with knowledge scattered across Teams, SharePoint, CRMs, and ERPs — and trapped in people's heads (*"Ask Peter, he knows," "It's somewhere in Teams," "The knowledge left with the employee."*). He mapped a four-stage path out of it:
+<br>**1 · Information Chaos** — scattered, hard to find, hard to trust, not shared.
+<br>**2 · The Great Transformation** — AI captures tacit human knowledge (expertise, experience, decisions, lessons learned) and turns it into structured, machine-readable *shared organizational memory*: *"For the first time in history, tacit knowledge can become a shared organizational asset."*
+<br>**3 · Organizational Shared Intelligence** — a new layer fusing enterprise knowledge, people's "second brains," and tacit know-how into AI-native formats (Markdown, knowledge graphs, metadata & ontologies) that are human-readable, AI-readable, continuously evolving, and a single source of truth.
+<br>**4 · AI-Native Organization** — people and *synthetic colleagues* (Copilot, ChatGPT, Claude, AI agents) both draw on that shared intelligence across leadership, sales, experts, finance, and operations.
+<br>The promised outcomes: **2–5× productivity**, faster learning, better decisions, durable organizational memory, and continuous innovation.
+- **A lighter moment from Alex Polyakov.** On the relentless tempo of building a company, the serial founder drew a laugh from the room: *"To us entrepreneurs, Friday means that there are only 2 days left by the end of the week."*
 
 ---
 
