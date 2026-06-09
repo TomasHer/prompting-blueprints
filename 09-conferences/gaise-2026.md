@@ -50,6 +50,7 @@ These are my personal notes from the sessions I attended.
 | [Keynote — Agents Code. Teams Erode.](#keynote-markus-borg) | Dr. Markus Borg, CodeScene / Lund University |
 | [Panel — The Rise of Agentic Organizations](#panel-agentic-organizations) | Dr. Markus Borg, Alex Polyakov, Karoliina Kettukari & Timo Savolainen · facilitator: Sanni Pöntinen |
 | [Lab — Tools That Use Tools to Build Tools](#lab-jussi-rasku) | Dr. Jussi Rasku, GPT-Lab / Tampere University |
+| [Live Demo — Sovereign AI](#demo-sovereign-ai) | Jiri Härmä, GPT-Lab / Tampere University |
 
 ### Day 3 — Wednesday, 3 June · Responsible AI Era
 
@@ -310,6 +311,28 @@ Dr. Jussi Rasku framed the rise of agentic coding as a shift *beyond the IDE par
 <br>(3) **The loop is the intelligence:** generate → act → observe → evaluate → revise.
 <br>(4) **Tool-building compounds capability** and allows self-improvement.
 <br>(5) **Generating MCP servers** (one kind of tool) for data is a solution out of data-integration hell.
+
+<a id="demo-sovereign-ai"></a>
+
+### 🖥️ Live Demo — Sovereign AI: From Dependence to Sovereignty by Jiri Härmä, GPT-Lab / Tampere University
+
+<img src="../assets/conferences/gaise-2026/day2/04-jiri/IMG_7800.JPG" alt="Sovereign AI: From Dependence to Sovereignty — live demo by Jiri Härmä, GPT-Lab / Tampere University">
+
+Jiri Härmä's live, interactive walkthrough — *From dependence to sovereignty* — reframes an AI stack as a **supply chain** and then **simulates what a single point of failure costs the business**. Using an illustrative composite manufacturer (NordMaq Oy) running on non-EU compute, the core move is simple: toggle one component such as the **Data pipeline** to "fault" and watch the downstream blast radius light up — which apps lose their fallback, and how much revenue is at risk.
+
+**Interesting observations**
+
+- **Your AI stack is a supply chain.** Out of the physical Bill of Materials grows an **AI-BOM** — models, vendors, data, compute, talent. Physical components have had second sources for decades; these have none.
+
+<!-- PHOTO PLACEHOLDER — "Your AI stack is a supply chain" slide; add image to day2/04-jiri/ once available -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/04-jiri/FILENAME.JPG" alt="Your AI stack is a supply chain — the AI-BOM of models, vendors, data, compute, and talent"> -->
+
+- **Simulate the shock.** Knock out a component (e.g. Data pipeline) and the impact propagates live: against ~€980K/week revenue, a six-month single-source outage put **€4.07M at risk** (−15%/week), because two downstream apps had no fallback.
+
+<!-- PHOTO PLACEHOLDER — "The dependency portfolio" slide; add image to day2/04-jiri/ once available -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/04-jiri/FILENAME.JPG" alt="The dependency portfolio — simulating the revenue impact when the Data pipeline fails"> -->
+
+- **From dependence to sovereignty (L1→L5).** A posture lever scales exposure down — from L1 "ungoverned" (full impact) to L5 "sovereign" (0.2×) — turning the case for GenAI sovereignty into a concrete number rather than an abstract principle.
 
 ---
 
