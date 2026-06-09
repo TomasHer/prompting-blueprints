@@ -1,7 +1,7 @@
 ---
 title: "GAISE 2026 — Conference Notes"
 tags: ["conferences", "gaise", "ai", "software-engineering"]
-last_updated: "2026-06-08"
+last_updated: "2026-06-09"
 ---
 
 # GAISE 2026 — Tampere, Finland
@@ -45,7 +45,9 @@ These are my personal notes from the sessions I attended.
 
 ### Day 2 — Tuesday, 2 June · AI-Native World
 
-*Notes coming soon*
+| Session | Speaker |
+|---------|---------|
+| [Keynote — Agents Code. Teams Erode.](#keynote-markus-borg) | Dr. Markus Borg, CodeScene / Lund University |
 
 ### Day 3 — Wednesday, 3 June · Responsible AI Era
 
@@ -218,6 +220,33 @@ A session spotlighting doctoral research from the GPT-Lab community, chaired by 
 ## Day 2 — Tuesday, 2 June 2026
 
 ### Theme: AI-Native World · Academic, Industry & Executive Tracks
+
+<a id="keynote-markus-borg"></a>
+
+### 🎤 Keynote — Agents Code. Teams Erode. by Dr. Markus Borg, CodeScene / Lund University
+
+<img src="../assets/conferences/gaise-2026/day2/01-keynote/markus1.jpg" alt="Agents Code. Teams Erode. — keynote by Dr. Markus Borg, CodeScene / Lund University">
+
+Coding agents now write significant portions of production software, so Dr. Markus Borg argued the question is no longer *whether* they work, but what happens to the **humans around them**. Drawing on CodeScene's **behavioral code analysis**, he made the case that **knowledge distribution, ownership, and coordination** are load-bearing structures that keep hybrid (human + AI) teams from hollowing out — and that left unattended, they quietly erode, letting AI replace the wrong parts of a team rather than augment it. The throughline: agents make the code cheap, but a team can hollow out from the inside unless you actively measure and defend how understanding is spread across the people who own it.
+
+**Interesting observations**
+
+- **Two human challenges loom over hybrid teams.** *Human Challenge 1 — Code Bloat and Cognitive Load:* agents generate volume far faster than humans can absorb it, so the cognitive load of understanding and maintaining the codebase balloons. *Human Challenge 2 — Skill Atrophy and Loss of Intent:* as agents take over more of the work, human skills decay and the rationale behind decisions evaporates, leaving code that nobody fully understands or can explain.
+
+- **Solution 1: Maintain Human Oversight.** Two practices keep humans in the loop — **visualization**, using behavioral code analysis and knowledge maps to make knowledge distribution and ownership visible across the codebase (the colored clusters show where authorship concentrates), and **disciplined provenance tracking**, so you always know what a human wrote versus what an agent generated.
+
+<img src="../assets/conferences/gaise-2026/day2/01-keynote/markus2.png" alt="Solution 1: Maintain Human Oversight — visualization and disciplined provenance tracking">
+
+- **Solution 2: Manage Three Layers of Debt.** Borg reframed AI-era debt as three stacked layers, each with its own mitigation:
+<br>**Technical Debt** (code quality, architecture, maintainability) → add agentic **guardrails** and **monitor** churn & bloat.
+<br>**Intent Debt** (rationale, goals, constraints, decisions) → **capture intent before agents act** — requirements, spec-driven development, architectural decision records, TDD.
+<br>**Cognitive Debt** (models, reasoning, awareness) → treat **understanding as a KPI** — walkthroughs, pairing, retrospectives, and sensemaking sessions.
+
+<img src="../assets/conferences/gaise-2026/day2/01-keynote/markus3.png" alt="Solution 2: Manage Three Layers of Debt — Technical, Intent, and Cognitive Debt">
+
+- **Before signing the AI deal — reinforce best practices.** The closing checklist boiled down to three: (1) **guardrails for brain-aligned code**, (2) **maintain human oversight**, and (3) **beware cognitive and intent debt** — the two debts that never show up in the code itself, yet quietly decide whether the team erodes.
+
+<img src="../assets/conferences/gaise-2026/day2/01-keynote/markus4.png" alt="Before signing the AI deal — reinforce best practices">
 
 ---
 
