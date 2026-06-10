@@ -37,12 +37,12 @@ mkdocs build --strict                       # fails on broken nav/links
   ~31 content pages are unreachable from the site. Add nav sections mirroring the
   folder structure, including: the whole `08-requirements-engineering/` folder
   (overview, check-model-consistency, compare-specification-with-source-code),
-  `02-ai-agents/README.md` + `ai-agents-quiz.md`,
-  `02-skills/copilot-custom-skills-integration.md`,
-  `03-context-and-memory/mempalace-ai-memory-tutorial.md`,
-  `04-protocols/claude-managed-agents-tutorial.md`,
-  `05-production/how-to-build-ai-agents-production.md`,
-  `01-foundations/prompt-context-harness-engineering.md` (verify — may already be listed),
+  `02-ai-agents/README.md` + `02-ai-agents/ai-agents-quiz.md`,
+  `02-ai-agents/02-skills/copilot-custom-skills-integration.md`,
+  `02-ai-agents/03-context-and-memory/mempalace-ai-memory-tutorial.md`,
+  `02-ai-agents/04-protocols/claude-managed-agents-tutorial.md`,
+  `02-ai-agents/05-production/how-to-build-ai-agents-production.md`,
+  `02-ai-agents/01-foundations/prompt-context-harness-engineering.md` (verify — may already be listed),
   `05-tools/claude-code-plugins-tutorial.md`, `05-tools/claude-md-design-tutorial.md`,
   `06-models-and-evaluations/types-of-ai-models-tutorial.md`,
   `09-conferences/conference-template.md` (or deliberately exclude templates).
