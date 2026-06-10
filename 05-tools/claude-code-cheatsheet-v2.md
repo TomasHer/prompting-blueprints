@@ -302,8 +302,8 @@ last_updated: "2026-06-10"
 | Exa Search | Web search and crawling | `github.com/exa-labs/exa-mcp-server` |
 | Playwright | End-to-end testing for web apps | `github.com/lackeyjb/playwright-skill` |
 | Beads | Memory upgrade for coding agents | `github.com/steveegge/beads` |
-| Front-end Design | Improve agents' design skills | `github.com/anthropics/claude-code` (plugins/frontend-design) |
-| PR Review Toolkit | PR automation agents | `github.com/anthropics/claude-code` (plugins/pr-review-toolkit) |
+| Front-end Design | Improve agents' design skills | `github.com/anthropics/claude-code/tree/main/plugins/frontend-design` |
+| PR Review Toolkit | PR automation agents | `github.com/anthropics/claude-code/tree/main/plugins/pr-review-toolkit` |
 | Code Simplifier | Simplifies large code bases | `claude plugin install code-simplifier` |
 
 > Deep dive: [10 Claude Code Plugins That Give You Superpowers](./claude-code-plugins-tutorial.md)
