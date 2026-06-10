@@ -2,8 +2,11 @@
 
 > Remediation backlog from the June 2026 repository audit. Tasks are self-contained:
 > each lists scope, affected files, and a done-check, so they can be executed one at a
-> time (e.g. "do task P1-02 from BACKLOG.md"). Check items off in the same PR that
-> completes them. Maintainer backlog for *content* ideas stays in `agents.md` §8.
+> time (e.g. "do task P1-02 from BACKLOG.md"). When a task (or sub-point) is done,
+> delete it in the same PR that completes it — do not strike it through or leave
+> "done" notes; the PR history is the record. If only part of a task is done, rewrite
+> the entry so it describes just the remaining work. Maintainer backlog for *content*
+> ideas stays in `agents.md` §8.
 
 Verification helpers used below:
 
@@ -145,18 +148,12 @@ mkdocs build --strict                       # fails on broken nav/links
 
 ## Phase 4 — Cleanup & slimming
 
-- [ ] **P4-01 Asset diet (398 MB → target <100 MB).**
-  (a) ~~Delete byte-identical PDF duplicates~~ — done: `assets/prompting-guides/` removed.
-  (b) ~~Replace vendored third-party PDFs with links to the original sources~~ — done:
-  all 16 third-party PDFs/PPTX and their preview renders removed, references now link
-  to official vendor URLs, and the README license section gained a third-party content
-  clause. Full removal from git history still requires the history purge below.
-  (c) Compress images >5 MB (`google_veo_3_1.gif` 16 MB, several speaking photos) and
-  the 2.1 MB README hero PNG.
-  (d) ~~Purge the deleted PDF/PPTX blobs from git history~~ — done via `git filter-repo`
-  (history rewritten, `.git` 349 MB → 217 MB). Old objects may persist on GitHub's
-  servers until their garbage collection runs; contact GitHub Support to expedite
-  if needed.
+- [ ] **P4-01 Asset diet (216 MB → target <100 MB).**
+  Compress images >5 MB (`google_veo_3_1.gif` 16 MB, `openai_prompt_optimizer.gif`
+  5.7 MB, `google_gemini_3.gif` 5.0 MB, speaking photos `post2024.jpg` 7.7 MB and
+  `xp2024d.jpg` 6.9 MB) and the 2.1 MB README hero PNG. Also consider the long tail
+  of 1–5 MB images, notably ~30 conference photos under
+  `assets/conferences/gaise-2026/` (2–4.3 MB JPG/HEIC each).
 
 - [ ] **P4-02 Cut a release.**
   ~40 entries sit under "Unreleased" and the repo has zero git tags. Move them under
