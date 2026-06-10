@@ -153,8 +153,10 @@ mkdocs build --strict                       # fails on broken nav/links
   clause. Full removal from git history still requires the history purge below.
   (c) Compress images >5 MB (`google_veo_3_1.gif` 16 MB, several speaking photos) and
   the 2.1 MB README hero PNG.
-  (d) Purge the deleted PDF/PPTX blobs from git history (`git filter-repo` + force-push)
-  so they are no longer downloadable from old commits.
+  (d) ~~Purge the deleted PDF/PPTX blobs from git history~~ — done via `git filter-repo`
+  (history rewritten, `.git` 349 MB → 217 MB). Old objects may persist on GitHub's
+  servers until their garbage collection runs; contact GitHub Support to expedite
+  if needed.
 
 - [ ] **P4-02 Cut a release.**
   ~40 entries sit under "Unreleased" and the repo has zero git tags. Move them under
