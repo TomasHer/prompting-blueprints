@@ -19,17 +19,18 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 - **About the author:** speaking, program committee, and research overviews -> `./01-about-author`
 - **AI agents:** agent architectures, protocols (MCP/A2A), context engineering (incl. dynamic context discovery), open models, and skills playbooks -> `./02-ai-agents`
 - **Prompts & patterns:** prompt packs and reusable scaffolds (role + constraints + format) -> `./03-prompts-and-patterns`
-- **Guides:** deep-dive primers and a PDF library (Gemini Prompting Guide 101, Google Startup AI Agents) -> `./04-guides` (see `./04-guides/overview.md`)
+- **Guides:** deep-dive primers with links to official vendor guides (Gemini Prompting Guide 101, Google Startup AI Agents) -> `./04-guides` (see `./04-guides/overview.md`)
 - **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents, and more -> `./05-tools`
 - **Vibe coding stack:** beginner-friendly build stack and toolchain tutorial -> `./04-guides/vibe-coding-tech-stack.md`
 - **Models & evaluations:** model tips, benchmark overviews, and promptfoo configs -> `./06-models-and-evaluations`
 - **Use cases & research:** applied workflows, research tutorials, and collaboration playbooks -> `./07-use-cases-and-research`
 - **Requirements engineering:** prompting tips and use cases for RE tasks (model consistency, traceability, elicitation) — based on the IREB AI4RE Prompt Guide -> `./08-requirements-engineering`
+- **Conferences:** conference recaps and session notes (e.g., GAISE 2026) -> `./09-conferences`
 - **External sources:** curated references cited across guides and playbooks -> `./external-sources.md`
 - **Source index:** reverse map of each source to the page(s) that cite it -> `./source-index.md`
 - **Changelog:** release notes and updates -> `./CHANGELOG.md`
 
-Quick links: [Author's Speaking](./01-about-author/speaking) · [Author's Involvement](./01-about-author/program-committee) · [Author's Research](./01-about-author/research) · [AI Agents Overview](./02-ai-agents/01-foundations/ai-agents-overview.md) · [Context Engineering](./02-ai-agents/03-context-and-memory/context-engineering.md) · [Prompts & Patterns](./03-prompts-and-patterns) · [AI Guides Overview](./04-guides/overview.md) · [AI Tools](./05-tools) · [Models & Evaluations](./06-models-and-evaluations) · [Use-cases & Research](./07-use-cases-and-research) · [Requirements Engineering](./08-requirements-engineering/overview.md) · [External Sources](./external-sources.md) · [Source Index](./source-index.md) · [Changelog](./CHANGELOG.md)
+Quick links: [Author's Speaking](./01-about-author/speaking) · [Author's Involvement](./01-about-author/program-committee) · [Author's Research](./01-about-author/research) · [AI Agents Overview](./02-ai-agents/01-foundations/ai-agents-overview.md) · [Context Engineering](./02-ai-agents/03-context-and-memory/context-engineering.md) · [Prompts & Patterns](./03-prompts-and-patterns) · [AI Guides Overview](./04-guides/overview.md) · [AI Tools](./05-tools) · [Models & Evaluations](./06-models-and-evaluations) · [Use-cases & Research](./07-use-cases-and-research) · [Requirements Engineering](./08-requirements-engineering/overview.md) · [Conferences (GAISE 2026)](./09-conferences/gaise-2026.md) · [External Sources](./external-sources.md) · [Source Index](./source-index.md) · [Changelog](./CHANGELOG.md)
 
 Featured additions: [Dynamic Context Discovery](./02-ai-agents/03-context-and-memory/cursor-dynamic-context-discovery.md) · [Vibe Coding Tech Stack](./04-guides/vibe-coding-tech-stack.md) · [Claude AI vs Code vs Cowork](./05-tools/claude-ai-vs-code-vs-cowork.md) · [Claude Code Project Structure](./05-tools/claude-code-project-structure-tutorial.md) · [Google 5-Day AI Agents Course](./02-ai-agents/01-foundations/google-5-day-ai-agents-course.md) · [Lyria 3 in Gemini](./05-tools/lyra-3-gemini.md)
 
@@ -46,11 +47,12 @@ Featured additions: [Dynamic Context Discovery](./02-ai-agents/03-context-and-me
 - **About the author**: speaking highlights, program committee roles, and research directions
 - **AI agent playbooks**: architectures, MCP/A2A protocols, context engineering, and skills
 - **Prompt packs & patterns**: role-constraint-format scaffolds and domain blueprints
-- **Guides library**: primers, glossaries, and downloadable PDFs
+- **Guides library**: primers, glossaries, and links to official vendor PDFs
 - **Tool playbooks**: NotebookLM, Copilot Agents, Perplexity Comet, LangChain, and workflow automations
 - **Models & evaluations**: model-specific tips, benchmark primers, and promptfoo configs
 - **Use cases & research**: applied workflows, tutorials, and experiment playbooks
 - **Requirements engineering**: prompt patterns for RE tasks — model consistency, traceability, elicitation — based on the IREB AI4RE Prompt Guide
+- **Conference notes**: session recaps and takeaways from AI conferences (e.g., GAISE 2026)
 
 [🎥 Watch the Prompting Blueprints introduction video](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U) for a guided tour of the repo purpose.
 
@@ -60,21 +62,29 @@ Featured additions: [Dynamic Context Discovery](./02-ai-agents/03-context-and-me
 
 ## Repository structure
 ```text
-01-about-author/           # maintainer background (speaking, research, program committees)
+01-about-author/        # maintainer background (speaking, research, program committees)
   program-committee/    # program committee & track leadership overview
   research/             # research focus areas & collaboration signals
   speaking/             # keynote outlines and talk prep
 02-ai-agents/           # AI agents playbooks, protocols, and skills
+  01-foundations/       # agent architectures, models, and the AI coding spectrum
+  02-skills/            # agent skills design, testing, and integration
+  03-context-and-memory/  # context engineering and memory tutorials
+  04-protocols/         # MCP, A2A, and managed agents
+  05-production/        # production and CI/CD playbooks
 03-prompts-and-patterns/    # prompt packs and pattern catalog
-04-guides/              # long-form prompting guides & PDFs
+04-guides/              # long-form prompting guides & links to vendor PDFs
   vibe-coding-tech-stack.md  # vibe coding stack tutorial and starter workflow
-05-tools/               # NotebookLM, Perplexity Comet, Copilot Agents
+05-tools/               # tool playbooks (NotebookLM, Claude Code, Copilot, n8n, LangChain, ...)
 06-models-and-evaluations/  # model guides, evaluation overviews, and promptfoo configs
-assets/                 # social previews and supporting images
-docs/                   # documentation site extras (e.g., licenses)
 07-use-cases-and-research/  # applied workflows, research playbooks, and tutorials
 08-requirements-engineering/  # RE prompting tips and use cases (IREB AI4RE Prompt Guide)
+09-conferences/         # conference recaps and session notes (e.g., GAISE 2026)
+assets/                 # social previews and supporting images
+docs/                   # static repo-browser site & licenses
+scripts/                # maintenance scripts (front-matter checks, source index build)
 website/                # static HTML experiments (e.g., AI toolkit preview)
+BACKLOG.md              # planned content and ideas
 CHANGELOG.md            # updates (Keep a Changelog)
 CONTRIBUTING.md         # how to contribute
 CODE_OF_CONDUCT.md      # community expectations
@@ -82,6 +92,7 @@ CITATION.cff            # how to cite
 LICENSE                 # MIT (code)
 docs/LICENSE-CC-BY-4.0.txt  # CC BY 4.0 (docs & prompts)
 external-sources.md     # curated references & attributions
+source-index.md         # reverse map of sources to citing pages
 mkdocs.yml              # documentation site navigation
 agents.md               # instructions for AI coding agents working in this repo
 ```
@@ -143,7 +154,7 @@ Review ongoing investigations, experiment logs, and calls for collaboration in t
 A: Yes. Code is MIT; docs/prompts are CC BY 4.0 (attribution required). Linked third-party materials remain under their owners' terms.
 
 **Q: Which models are supported?**  
-A: Patterns are model‑agnostic; guides cover GPT‑5 and Gemini explicitly.
+A: Patterns are model‑agnostic; dedicated guides cover Claude, GPT‑5, and Gemini explicitly, plus open models such as GLM‑5.
 
 **Q: How do I run evaluations without exposing secrets?**  
 A: Use environment variables and a local `.env` file that is git‑ignored.
