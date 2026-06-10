@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claude Code + NotebookLM Integration Tutorial</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --claude: #d97706;
+      --notebooklm: #22c55e;
+      --accent: #58a6ff;
+      --code-bg: #1e2a3a;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-title {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 1rem;
+    }
+
+    .hero-title .claude  { color: var(--claude); }
+    .hero-title .nlm    { color: var(--notebooklm); }
+
+    .hero-sub {
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .badge-row {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+
+    /* Sections */
+    section { margin-bottom: 2.5rem; }
+
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.25rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin: 1.25rem 0 0.5rem;
+    }
+
+    p { color: var(--muted); margin-bottom: 0.75rem; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Info cards row */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+    }
+
+    .card-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    .card h3   { margin-top: 0; }
+    .card p    { font-size: 0.9rem; }
+
+    /* Feature grid */
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .feature-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .feature-item .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--notebooklm);
+      flex-shrink: 0;
+    }
+
+    /* Code blocks */
+    .code-block {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 0.75rem 0;
+    }
+
+    .code-block-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 1rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .code-block pre {
+      padding: 1rem;
+      overflow-x: auto;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 0.88rem;
+      line-height: 1.6;
+    }
+
+    .comment { color: #6e7f8d; }
+    .cmd     { color: #79c0ff; }
+    .arg     { color: #a5d6ff; }
+    .flag    { color: #ffa657; }
+    .str     { color: #a8d8a8; }
+
+    /* Copy button */
+    .copy-btn {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 5px;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .copy-btn:hover { color: var(--text); border-color: var(--muted); }
+
+    /* Template cards */
+    .template-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .template-card h3 { margin-top: 0; }
+
+    .template-text {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.85rem 1rem;
+      font-size: 0.88rem;
+      color: var(--text);
+      line-height: 1.6;
+      margin-top: 0.75rem;
+    }
+
+    /* Pro tip */
+    .tip {
+      display: flex;
+      gap: 0.75rem;
+      background: #1a2332;
+      border: 1px solid #2d4a6e;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+    }
+
+    .tip-icon { font-size: 1.2rem; flex-shrink: 0; }
+    .tip p    { margin: 0; font-size: 0.92rem; }
+
+    /* Repo links */
+    .repo-links {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.75rem;
+    }
+
+    .repo-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.85rem;
+      color: var(--text);
+    }
+
+    .repo-link:hover { border-color: var(--accent); text-decoration: none; }
+
+    /* References */
+    .ref-list { list-style: none; }
+    .ref-list li { padding: 0.35rem 0; font-size: 0.92rem; }
+    .ref-list li::before { content: "→ "; color: var(--muted); }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-title">
+      <span class="claude">Claude Code</span> + <span class="nlm">NotebookLM</span>
+    </div>
+    <p class="hero-sub">
+      Connect two of the most powerful AI tools available. Run end-to-end research workflows — ingest sources, chat, generate artifacts, and download outputs — directly from your terminal.
+    </p>
+    <div class="badge-row">
+      <span class="badge">tools</span>
+      <span class="badge">claude-code</span>
+      <span class="badge">Last updated: 2026-03-05</span>
+    </div>
+  </div>
+
+  <!-- What makes it work -->
+  <section>
+    <h2>What makes this integration work: <code>notebooklm-py</code></h2>
+    <p>
+      The open-source <a href="https://github.com/akosbalasko/notebooklm-py">notebooklm-py</a> project is the open-source tool that powers this setup.
+      It provides the Python script for connecting to NotebookLM and the Claude Skill for proper use through the terminal.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🐍</div>
+        <h3>Python tooling</h3>
+        <p>Connects to NotebookLM from any terminal environment.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3>Claude Code skill</h3>
+        <p>Installs as a skill so Claude can invoke it with natural language.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔧</div>
+        <h3>Full CLI</h3>
+        <p>Notebook creation, source ingestion, analysis, generation, and downloads.</p>
+      </div>
+    </div>
+
+    <div class="repo-links" style="margin-top:1rem;">
+      <a class="repo-link" href="https://github.com/akosbalasko/notebooklm-py">📄 README</a>
+      <a class="repo-link" href="https://github.com/akosbalasko/notebooklm-py/blob/main/CONTRIBUTING.md">🤝 Contributing</a>
+      <a class="repo-link" href="https://github.com/akosbalasko/notebooklm-py/blob/main/LICENSE">⚖️ MIT License</a>
+      <a class="repo-link" href="https://github.com/akosbalasko/notebooklm-py/security">🔒 Security</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section>
+    <h2>Features available through <code>notebooklm-py</code></h2>
+    <p><code>notebooklm-py</code> exposes the full NotebookLM suite, including notebook creation, analysis, pitch deck generation, and more.</p>
+
+    <h3>Studio outputs</h3>
+    <div class="feature-grid">
+      <div class="feature-item"><span class="dot"></span>Audio Overview</div>
+      <div class="feature-item"><span class="dot"></span>Video Overview</div>
+      <div class="feature-item"><span class="dot"></span>Mind Map</div>
+      <div class="feature-item"><span class="dot"></span>Reports</div>
+      <div class="feature-item"><span class="dot"></span>Flashcards</div>
+      <div class="feature-item"><span class="dot"></span>Quiz</div>
+      <div class="feature-item"><span class="dot"></span>Infographic</div>
+      <div class="feature-item"><span class="dot"></span>Slide Deck</div>
+      <div class="feature-item"><span class="dot"></span>Data Table</div>
+    </div>
+  </section>
+
+  <!-- Installation -->
+  <section>
+    <h2>Installation</h2>
+    <p>Just open your terminal and run the short code snippet below. The installation only takes a few seconds, and a browser window will pop up asking you to log into NotebookLM the first time.</p>
+
+    <div class="code-block">
+      <div class="code-block-header">
+        <span>bash</span>
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+      </div>
+      <pre><span class="comment"># Basic installation</span>
+<span class="cmd">pip</span> <span class="arg">install</span> <span class="str">notebooklm-py</span>
+
+<span class="comment"># With browser login support (required for first-time setup)</span>
+<span class="cmd">pip</span> <span class="arg">install</span> <span class="str">"notebooklm-py[browser]"</span>
+<span class="cmd">playwright</span> <span class="arg">install</span> chromium
+
+<span class="comment"># 1. Authenticate (opens browser)</span>
+<span class="cmd">notebooklm</span> <span class="arg">login</span>
+
+<span class="comment"># Install via CLI or ask Claude Code to do it</span>
+<span class="cmd">notebooklm</span> <span class="arg">skill install</span></pre>
+    </div>
+  </section>
+
+  <!-- Using the skill -->
+  <section>
+    <h2>Using the skill with Claude Code</h2>
+    <p>Claude Code links to NotebookLM through the <code>notebooklm</code> skill. You just describe what you want in natural language, and it automatically triggers the skill to carry it out.</p>
+
+    <h3>2) Create a notebook and add sources</h3>
+    <div class="code-block">
+      <div class="code-block-header">
+        <span>bash</span>
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+      </div>
+      <pre><span class="cmd">notebooklm</span> <span class="arg">create</span> <span class="str">"My Research"</span>
+<span class="cmd">notebooklm</span> <span class="arg">use</span> <span class="str">&lt;notebook_id&gt;</span>
+<span class="cmd">notebooklm</span> <span class="arg">source add</span> <span class="str">"https://en.wikipedia.org/wiki/Artificial_intelligence"</span>
+<span class="cmd">notebooklm</span> <span class="arg">source add</span> <span class="str">"./paper.pdf"</span></pre>
+    </div>
+
+    <h3>3) Chat with your sources</h3>
+    <div class="code-block">
+      <div class="code-block-header">
+        <span>bash</span>
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+      </div>
+      <pre><span class="cmd">notebooklm</span> <span class="arg">ask</span> <span class="str">"What are the key themes?"</span></pre>
+    </div>
+
+    <h3>4) Generate content</h3>
+    <div class="code-block">
+      <div class="code-block-header">
+        <span>bash</span>
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+      </div>
+      <pre><span class="cmd">notebooklm</span> <span class="arg">generate</span> audio <span class="str">"make it engaging"</span> <span class="flag">--wait</span>
+<span class="cmd">notebooklm</span> <span class="arg">generate</span> video <span class="flag">--style</span> whiteboard <span class="flag">--wait</span>
+<span class="cmd">notebooklm</span> <span class="arg">generate</span> quiz <span class="flag">--difficulty</span> hard
+<span class="cmd">notebooklm</span> <span class="arg">generate</span> flashcards <span class="flag">--quantity</span> more
+<span class="cmd">notebooklm</span> <span class="arg">generate</span> slide-deck
+<span class="cmd">notebooklm</span> <span class="arg">generate</span> infographic <span class="flag">--orientation</span> portrait
+<span class="cmd">notebooklm</span> <span class="arg">generate</span> mind-map
+<span class="cmd">notebooklm</span> <span class="arg">generate</span> data-table <span class="str">"compare key concepts"</span></pre>
+    </div>
+
+    <h3>5) Download artifacts</h3>
+    <div class="code-block">
+      <div class="code-block-header">
+        <span>bash</span>
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+      </div>
+      <pre><span class="cmd">notebooklm</span> <span class="arg">download</span> audio ./podcast.mp3
+<span class="cmd">notebooklm</span> <span class="arg">download</span> video ./overview.mp4
+<span class="cmd">notebooklm</span> <span class="arg">download</span> quiz <span class="flag">--format</span> markdown ./quiz.md
+<span class="cmd">notebooklm</span> <span class="arg">download</span> flashcards <span class="flag">--format</span> json ./cards.json
+<span class="cmd">notebooklm</span> <span class="arg">download</span> slide-deck ./slides.pdf
+<span class="cmd">notebooklm</span> <span class="arg">download</span> mind-map ./mindmap.json
+<span class="cmd">notebooklm</span> <span class="arg">download</span> data-table ./data.csv</pre>
+    </div>
+  </section>
+
+  <!-- Best-fit use cases -->
+  <section>
+    <h2>Best-fit use cases</h2>
+    <p>This pairing works especially well for:</p>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">▶️</div>
+        <h3>YouTube research</h3>
+        <p>Ingest a video URL and let NotebookLM extract structured insights automatically.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <h3>Slide decks & infographics</h3>
+        <p>Turn source material into presentation-ready deliverables in one command.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🗂️</div>
+        <h3>Flashcards & quizzes</h3>
+        <p>Generate study materials from any document, PDF, or URL.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Copy/paste templates -->
+  <section>
+    <h2>Copy/paste templates for Claude Code terminal</h2>
+    <p>Replace <code>[INSERT YOUTUBE URL HERE]</code> before running.</p>
+
+    <div class="template-card">
+      <h3>Option 1: Executive Summary (Slide Deck)</h3>
+      <div class="template-text">
+        Use the notebooklm skill to create a new notebook called 'Video Research'. Add this YouTube video as a source: [INSERT YOUTUBE URL HERE]. Once it's processed, generate a comprehensive slide deck that outlines the key takeaways and download the PDF to my current folder.
+      </div>
+    </div>
+
+    <div class="template-card">
+      <h3>Option 2: Deep Study (Flashcards + Quiz)</h3>
+      <div class="template-text">
+        I need to learn the material in this video: [INSERT YOUTUBE URL HERE]. Use the notebooklm skill to add it to a new notebook. Generate a quiz with 'hard' difficulty and a set of flashcards for the core concepts. Download both files in markdown or JSON format.
+      </div>
+    </div>
+
+    <div class="template-card">
+      <h3>Option 3: Visual Breakdown (Infographic + Mind Map)</h3>
+      <div class="template-text">
+        Connect to NotebookLM and ingest this video: [INSERT YOUTUBE URL HERE]. Use the tool to generate a mind map of the video's structure and a portrait-oriented infographic summarizing the data. Save the artifacts to my workspace.
+      </div>
+    </div>
+  </section>
+
+  <!-- Pro tip -->
+  <section>
+    <h2>Pro tip</h2>
+    <div class="tip">
+      <span class="tip-icon">💡</span>
+      <p>
+        If you have already run <code>notebooklm login</code> in your terminal, Claude can access your existing notebooks.
+        To use an existing notebook instead of creating a new one, prompt Claude like this:<br><br>
+        <em>"Use my existing 'Project X' notebook to add this video..."</em>
+      </p>
+    </div>
+  </section>
+
+  <!-- References -->
+  <section>
+    <h2>References</h2>
+    <ul class="ref-list">
+      <li><a href="https://github.com/akosbalasko/notebooklm-py">notebooklm-py (GitHub)</a></li>
+      <li><a href="https://notebooklm.google">Google NotebookLM</a></li>
+    </ul>
+  </section>
+
+</div>
+
+<script>
+  function copyCode(btn) {
+    const pre = btn.closest('.code-block').querySelector('pre');
+    const text = pre.innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      btn.textContent = 'Copied!';
+      setTimeout(() => btn.textContent = 'Copy', 1800);
+    });
+  }
+</script>
+</body>
+</html>
