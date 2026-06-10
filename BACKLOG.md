@@ -116,10 +116,6 @@ mkdocs build --strict                       # fails on broken nav/links
   push protection. Add `SECURITY.md` (disclosure contact) and `.github/CODEOWNERS`
   (`* @TomasHer`). Settings steps are manual in the GitHub UI; files can be done in a PR.
 
-- [ ] **P2-04 (Decision) Personal email exposure.**
-  `01-about-author/speaking/index.md:80` publishes a personal Gmail. If intentional,
-  check this off; otherwise replace with an alias or contact form link.
-
 ---
 
 ## Phase 3 — CI so it stays fixed
@@ -180,8 +176,3 @@ mkdocs build --strict                       # fails on broken nav/links
   (`–` vs `—` vs `-`) and inconsistent `Author – Title` formats. Pick one format,
   re-sort, and add the sort check from P3-01 so it stays clean. Define the allowed
   front-matter tag vocabulary in `agents.md` at the same time.
-
-- [ ] **P4-06 (Decision) Third-party PII in conference assets.**
-  `09-conferences/gaise-2026.md` and `assets/speaking/` include third-party speaker
-  names/photos under a CC BY 4.0 docs license. Confirm consent/usage rights, or note
-  an exception in the license section.
