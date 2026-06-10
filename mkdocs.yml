@@ -31,18 +31,18 @@ nav:
     - Pattern Catalogue Smoke Tests: 06-models-and-evaluations/pattern-catalogue-smoke.yml
   - Tools:
     - Best AI Apps for 2026: 05-tools/best-ai-apps-2026.md
-    - Anatomy of a Claude Agent Skill: 02-ai-agents/anatomy-of-a-skill.md
-    - Claude Agent Skills Playbook: 02-ai-agents/claude-agent-skills.md
+    - Anatomy of a Claude Agent Skill: 02-ai-agents/02-skills/anatomy-of-a-skill.md
+    - Claude Agent Skills Playbook: 02-ai-agents/02-skills/claude-agent-skills.md
     - Claude Building Skills Guide: 04-guides/claude-building-skills-guide.md
-    - Skills Design Patterns: 02-ai-agents/skills-design-patterns.md
-    - Skills Testing and Iteration: 02-ai-agents/skills-testing-iteration.md
+    - Skills Design Patterns: 02-ai-agents/02-skills/skills-design-patterns.md
+    - Skills Testing and Iteration: 02-ai-agents/02-skills/skills-testing-iteration.md
     - Claude AI vs Claude Code vs Claude Cowork: 05-tools/claude-ai-vs-code-vs-cowork.md
     - Cowork Tool Selection Tutorial: 05-tools/cowork-tool-selection-tutorial.md
     - Claude Code Tool Guide: 05-tools/claude-code-tool-guide.md
     - Claude Code Certification Guide: 05-tools/claude-code-certification-guide.md
     - Claude Code Cheatsheet Tutorial: 05-tools/claude-code-cheatsheet-tutorial.md
     - Claude Code Project Structure Tutorial: 05-tools/claude-code-project-structure-tutorial.md
-    - AGENTS.md for Claude Code Tutorial: 05-tools/agents-md-claude-code-tutorial.md
+    - AGENTS.md for Claude Code Tutorial: 02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md
     - Google Cloud ADK Quickstart: 05-tools/google-cloud-platform-agents.md
     - LangChain Deep Agents Playbook: 05-tools/langchain-deep-agents.md
     - Hermes Agent Tutorial: 05-tools/hermes-agent-tutorial.md
@@ -82,15 +82,15 @@ nav:
     - How to Use ChatGPT: 04-guides/how-to-use-chatgpt.md
     - AI Knowledge Base for Agents (LLM Wiki Pattern): 02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md
     - AgentMemory Tutorial: 02-ai-agents/03-context-and-memory/agentmemory-tutorial.md
-    - AI Agents Overview: 02-ai-agents/ai-agents-overview.md
-    - Google 5-Day AI Agents Intensive Course: 02-ai-agents/google-5-day-ai-agents-course.md
-    - Self-Evolving AI with Google ADK and Agent Skills: 02-ai-agents/self-evolving-agents-google-adk.md
+    - AI Agents Overview: 02-ai-agents/01-foundations/ai-agents-overview.md
+    - Google 5-Day AI Agents Intensive Course: 02-ai-agents/01-foundations/google-5-day-ai-agents-course.md
+    - Self-Evolving AI with Google ADK and Agent Skills: 02-ai-agents/02-skills/self-evolving-agents-google-adk.md
     - From Prompt to Context to Harness Engineering: 02-ai-agents/01-foundations/prompt-context-harness-engineering.md
-    - Context Engineering: 02-ai-agents/context-engineering.md
-    - Agent Context Window Performance: 02-ai-agents/agent-context-window-performance.md
-    - Cursor Dynamic Context Discovery: 02-ai-agents/cursor-dynamic-context-discovery.md
-    - Ultimate 2026 AI Software Implementation Guide: 02-ai-agents/ultimate-2026-ai-software-implementation-guide.md
-    - AI Coding Spectrum: 02-ai-agents/ai-coding-spectrum.md
+    - Context Engineering: 02-ai-agents/03-context-and-memory/context-engineering.md
+    - Agent Context Window Performance: 02-ai-agents/03-context-and-memory/agent-context-window-performance.md
+    - Cursor Dynamic Context Discovery: 02-ai-agents/03-context-and-memory/cursor-dynamic-context-discovery.md
+    - Ultimate 2026 AI Software Implementation Guide: 02-ai-agents/05-production/ultimate-2026-ai-software-implementation-guide.md
+    - AI Coding Spectrum: 02-ai-agents/01-foundations/ai-coding-spectrum.md
     - AI Gone Wrong Incident Stories: 04-guides/ai-gone-wrong-stories.md
     - Generative AI Basics Glossary: 04-guides/genai-basics-glossary.md
     - AI Terms Explained (Glossary v2): 04-guides/genai-terms-explained-v2.md
@@ -100,8 +100,8 @@ nav:
     - CI/CD for AI Agents on Microsoft Foundry: 02-ai-agents/05-production/cicd-ai-agents-microsoft-foundry.md
     - AI Adoption Readiness Guide: 04-guides/ai-adoption-guide.md
     - Gemini 3 Pro + n8n Workflow JSON Guide: 04-guides/gemini-n8n-workflow-json-guide.md
-    - Model Context Protocol (MCP) Guide: 02-ai-agents/mcp-guide.md
-    - Agent-to-Agent (A2A) Protocol Guide: 02-ai-agents/a2a-protocol-guide.md
+    - Model Context Protocol (MCP) Guide: 02-ai-agents/04-protocols/mcp-guide.md
+    - Agent-to-Agent (A2A) Protocol Guide: 02-ai-agents/04-protocols/a2a-protocol-guide.md
     - Reasoning vs. Classic LLMs: 04-guides/reasoning-vs-classic-llms.md
     - Reasoning vs. Classic LLMs (DE): 04-guides/reasoning-vs-classic-llms-de.md
     - 12 Rules for AI Coding Tools (Senior Engineer Edition): 04-guides/ai-coding-rules-senior-engineers.md
@@ -109,8 +109,8 @@ nav:
     - Codex TDD Workflow and Skills Guide: 04-guides/codex-tdd-and-skills.md
     - Fine-Tune an Open Source LLM with Claude: 04-guides/claude-fine-tune-llm.md
     - FunctionGemma Fine-Tuning + Local Serving (LM Studio): 04-guides/finetune-functiongemma.md
-    - Best Model Providers for AI Agents for 2026: 02-ai-agents/models-for-ai-agents-2026.md
-    - Open Models for Agentic AI: 02-ai-agents/open-models.md
+    - Best Model Providers for AI Agents for 2026: 02-ai-agents/01-foundations/models-for-ai-agents-2026.md
+    - Open Models for Agentic AI: 02-ai-agents/01-foundations/open-models.md
   - About the Author:
     - Tomas Herda Biography: 01-about-author/tomas-herda-biography.md
   - Speaking & Keynotes:

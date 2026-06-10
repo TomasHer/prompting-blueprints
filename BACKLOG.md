@@ -20,22 +20,6 @@ mkdocs build --strict                       # fails on broken nav/links
 
 ## Phase 1 — Fix what is broken on the published site
 
-- [ ] **P1-01 Fix 17 broken `mkdocs.yml` nav paths.**
-  The `02-ai-agents/` reorganization into `01-foundations/`, `02-skills/`,
-  `03-context-and-memory/`, `04-protocols/`, `05-production/` was never reflected in
-  the nav. Broken entries (old → new location):
-  `02-ai-agents/anatomy-of-a-skill.md`, `claude-agent-skills.md`,
-  `skills-design-patterns.md`, `skills-testing-iteration.md` → `02-ai-agents/02-skills/`;
-  `ai-agents-overview.md`, `google-5-day-ai-agents-course.md`, `ai-coding-spectrum.md`,
-  `models-for-ai-agents-2026.md`, `open-models.md` → `02-ai-agents/01-foundations/`;
-  `context-engineering.md`, `agent-context-window-performance.md`,
-  `cursor-dynamic-context-discovery.md` → `02-ai-agents/03-context-and-memory/`;
-  `mcp-guide.md`, `a2a-protocol-guide.md` → `02-ai-agents/04-protocols/`;
-  `ultimate-2026-ai-software-implementation-guide.md` → `02-ai-agents/05-production/`;
-  `self-evolving-agents-google-adk.md` → `02-ai-agents/02-skills/`;
-  `05-tools/agents-md-claude-code-tutorial.md` → `02-ai-agents/03-context-and-memory/`.
-  Done when: `mkdocs build --strict` reports no missing nav files.
-
 - [ ] **P1-02 Add orphaned pages to `mkdocs.yml` nav.**
   ~31 content pages are unreachable from the site. Add nav sections mirroring the
   folder structure, including: the whole `08-requirements-engineering/` folder
