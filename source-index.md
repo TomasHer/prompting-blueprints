@@ -20,7 +20,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [A2A Python SDK (GitHub)](https://github.com/a2aproject/a2a-python)
   - cited in: `02-ai-agents/04-protocols/a2a-protocol-guide.md`
 - [AI Shot Studio – 42 Camera Movements for AI Video Prompts](https://aishotstudio.com/42-camera-movements-ai-prompts/)
-  - cited in: `06-models-and-evaluations/ai-video-camera-movements-prompt-library.md`, `07-use-cases-and-research/ai-video-camera-movements-prompt-library.md`
+  - cited in: `07-use-cases-and-research/ai-video-camera-movements-prompt-library.md`
 - [Agent Development Kit Documentation (Google)](https://google.github.io/adk-docs/)
   - cited in: `02-ai-agents/02-skills/self-evolving-agents-google-adk.md`, `05-tools/google-cloud-platform-agents.md`
 - [agents.md](https://agents.md)
@@ -60,7 +60,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Claude - Claude AI](https://claude.ai)
   - cited in: `05-tools/best-ai-apps-2026.md`, `05-tools/claude-ai-vs-code-vs-cowork.md`
 - [Claude - Claude Code product page](https://claude.com/product/claude-code)
-  - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`, `05-tools/claude-code-cheatsheet-tutorial.md`, `05-tools/claude-code-project-structure-tutorial.md`, `05-tools/claude-code-tool-guide.md`
+  - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`, `05-tools/claude-code-project-structure-tutorial.md`, `05-tools/claude-code-tool-guide.md`
 - [Claude - Claude Cowork product page](https://claude.com/product/cowork)
   - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
@@ -104,7 +104,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Elicit](https://elicit.com/)
   - cited in: `07-use-cases-and-research/vibe-research.md`
 - [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
-  - cited in: `05-tools/claude-code-cheatsheet-tutorial.md`, `05-tools/claude-code-project-structure-tutorial.md`
+  - cited in: `05-tools/claude-code-project-structure-tutorial.md`
 - [Every - Source Code](https://every.to/source-code)
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [Gemini API](https://ai.google.dev/gemini-api)

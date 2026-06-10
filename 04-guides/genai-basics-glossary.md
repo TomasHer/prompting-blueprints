@@ -9,6 +9,8 @@ last_updated: "2026-01-10"
 ## Intent
 Use this glossary to get comfortable with the essential terms you will see across generative AI tutorials, tools, and communities.
 
+> Looking for the current, expanded glossary? See [AI Terms Explained (Glossary v2)](./genai-terms-explained-v2.md), which covers 85 terms. This page stays as the beginner-friendly basics edition.
+
 ## Quick definitions
 | Term | Plain-language snapshot |
 | --- | --- |

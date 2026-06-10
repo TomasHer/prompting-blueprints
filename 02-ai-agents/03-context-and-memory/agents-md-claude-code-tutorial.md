@@ -248,7 +248,7 @@ This is purely additive: keep the agent-operations sections above, and append a 
 - **[Claude Code Project Structure Tutorial](./claude-code-project-structure-tutorial.md)** — The 4-layer architecture, `.claude/` layout, Hooks, MCP, and skills.
 - **[AI Knowledge Base for Agents: The LLM Wiki Pattern](../02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md)** — Use your schema file to maintain a compounding wiki.
 - **[Agent Context Window Performance](../02-ai-agents/03-context-and-memory/agent-context-window-performance.md)** — Why context-file size and quality affect instruction following.
-- **[Claude Code Cheatsheet Tutorial](./claude-code-cheatsheet-tutorial.md)** — `/init`, `/memory`, `/compact`, and friends.
+- **[Claude Code Cheat Sheet v2.81](../../05-tools/claude-code-cheatsheet-v2.md)** — `/init`, `/memory`, `/compact`, and friends.
 
 ## References
 

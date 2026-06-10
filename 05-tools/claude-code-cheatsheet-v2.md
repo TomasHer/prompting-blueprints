@@ -386,7 +386,6 @@ The following pages from this repository are relevant to this cheat sheet:
 ### Claude Code Guides
 
 - [Claude Code Tool Guide](./claude-code-tool-guide.md) — Comprehensive guide to Claude Code capabilities and usage
-- [Claude Code Cheatsheet Tutorial](./claude-code-cheatsheet-tutorial.md) — Earlier cheatsheet reference (pre-v2.81)
 - [Claude Code Project Structure Tutorial](./claude-code-project-structure-tutorial.md) — Best practices for organizing projects in Claude Code
 - [How to Design a CLAUDE.md That Actually Works](./claude-md-design-tutorial.md) — Scopes, WHAT/WHY/HOW framework, and 5 rules for effective CLAUDE.md files
 - [Claude Code Certification Guide](./claude-code-certification-guide.md) — Certification path for Claude Code proficiency

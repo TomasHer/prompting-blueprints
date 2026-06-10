@@ -33,12 +33,11 @@ mkdocs build --strict                       # fails on broken nav/links
   `05-tools/claude-code-plugins-tutorial.md`, `05-tools/claude-md-design-tutorial.md`,
   `06-models-and-evaluations/types-of-ai-models-tutorial.md`,
   `09-conferences/conference-template.md` (or deliberately exclude templates).
-  Depends on P1-05/P1-06 for the duplicate files.
   Done when: every content `.md` outside `docs/`/`website/` is in nav or deliberately excluded.
 
-- [ ] **P1-03 Fix 13 broken internal links + 3 bare-filename links.**
+- [ ] **P1-03 Fix 12 broken internal links + 3 bare-filename links.**
   Worst file: `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`
-  (9 broken links — still uses `./` paths from its old `05-tools/` location and wrong
+  (8 broken links — still uses `./` paths from its old `05-tools/` location and wrong
   `../02-ai-agents/...` prefixes). Also: `agents.md` links to nonexistent
   `./mcp-guide.md` (twice); `09-conferences/conference-template.md` has a literal
   `<organizer-url>` placeholder; `07-use-cases-and-research/langchain-research-agent.md`
@@ -59,22 +58,6 @@ mkdocs build --strict                       # fails on broken nav/links
   `03-prompts-and-patterns/role-constraint-format.md` ('pattern'→'patterns'),
   `07-use-cases-and-research/intelligent-document-processing-daita.md` ('use-case'→'research').
   Done when: both scripts exit 0 and `git diff` after regeneration is empty.
-
-- [ ] **P1-05 Deduplicate the camera-movements library.**
-  `ai-video-camera-movements-prompt-library.md` exists in both
-  `06-models-and-evaluations/` and `07-use-cases-and-research/` (identical bodies) and
-  both are in nav. Keep the `07-` copy (changelog says it was moved there), delete the
-  `06-` copy, remove its nav entry, and fix any links pointing at the old path.
-
-- [ ] **P1-06 Resolve versioned-content duplicates.**
-  (a) `05-tools/claude-code-cheatsheet-tutorial.md` (210 lines, in nav) vs.
-  `claude-code-cheatsheet-v2.md` (415 lines, orphaned) — merge or replace v1 with v2 in
-  nav, then delete or deprecation-banner the loser.
-  (b) `04-guides/genai-basics-glossary.md` vs. `genai-terms-explained-v2.md` — both in
-  nav; either merge or add explicit cross-references stating which is current.
-  (c) Delete stray HTML exports that duplicate markdown pages:
-  `02-ai-agents/01-foundations/ai-agents-overview.html`,
-  `05-tools/claude-code-notebooklm-integration-tutorial.html`.
 
 - [ ] **P1-07 Fix `CITATION.cff`.**
   `cff-version: 1.3.0` is not a valid spec version — change to `1.2.0` (can break

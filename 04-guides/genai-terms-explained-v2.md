@@ -7,7 +7,7 @@ last_updated: "2026-03-29"
 # AI Terms Explained (Glossary v2)
 
 ## Intent
-Transcribe the 85 common AI terms from the "AI Terms Explained" visual into a searchable, copy-friendly glossary while keeping the original glossary intact.
+Transcribe the 85 common AI terms from the "AI Terms Explained" visual into a searchable, copy-friendly glossary while keeping the original glossary intact. This is the current glossary; the original [Generative AI Basics Glossary](./genai-basics-glossary.md) remains available as a beginner-friendly introduction.
 
 ## Artificial Intelligence and core model families
 - **Artificial Intelligence (AI):** Systems that perform tasks typically requiring human cognition such as reasoning, learning, perception, and decision making.
