@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Remove redistributed third-party documents (~176 MB: OpenAI, Google, Perplexity, Anthropic PDFs, the Microsoft M365 Copilot PPTX, and their first-page preview images) and link to the official vendor sources instead, resolving the licensing exposure of shipping non-CC-BY content in the repo.
 - Add AGENTS.md for Claude Code tutorial (`05-tools/agents-md-claude-code-tutorial.md`) covering how to author a new repo's `AGENTS.md`, the AGENTS.md-vs-CLAUDE.md relationship, and connecting it to Claude Code via symlink or `@AGENTS.md` import.
 - Add reference to `multica-ai/andrej-karpathy-skills` (≈154k-star, single-file `CLAUDE.md` implementing Andrej Karpathy's 4-rule baseline) in the 12 Rules for AI Coding Tools guide and the CLAUDE.md design tutorial, plus an entry in `external-sources.md`.
 - Add CI/CD for AI Agents on Microsoft Foundry tutorial (`02-ai-agents/05-production/cicd-ai-agents-microsoft-foundry.md`) covering the five-layer reference architecture, evaluation-driven quality gates, OIDC-based auth, and parallel GitHub Actions / Azure DevOps pipeline implementations for both containerised hosted and declarative prompt-based agents.
