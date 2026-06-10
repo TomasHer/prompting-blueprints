@@ -1,7 +1,7 @@
 ---
 title: "Claude Code Cheat Sheet v2.81"
 tags: ["tools", "claude-code"]
-last_updated: "2026-04-22"
+last_updated: "2026-06-10"
 ---
 
 # Claude Code Cheat Sheet v2.81
@@ -39,6 +39,7 @@ last_updated: "2026-04-22"
 | `Ctrl V` | Paste image |
 | `Ctrl F` | Kill background agents (×2) |
 | `Esc Esc` | Rewind / undo |
+| `⌘ Esc` | Quick launch in IDE |
 
 ### Mode Switching
 
@@ -54,6 +55,7 @@ last_updated: "2026-04-22"
 |---|---|
 | `\ Enter` | Newline (quick) |
 | `Ctrl J` | Newline (control seq) |
+| `Ctrl U` | Delete entire line |
 
 ### Prefixes
 
@@ -114,6 +116,7 @@ last_updated: "2026-04-22"
 | `/rename [name]` | Name current session |
 | `/branch [name]` | Branch conversation (`/fork` alias) |
 | `/cost` | Token usage stats |
+| `/bashes` | List background tasks |
 | `/context` | Visualize context (grid) |
 | `/diff` | Interactive diff viewer |
 | `/copy` | Copy last response |
@@ -145,7 +148,10 @@ last_updated: "2026-04-22"
 | `/skills` | List available skills |
 | `/agents` | Manage agents |
 | `/chrome` | Chrome integration |
+| `/plugin` | Manage plugins |
 | `/reload-plugins` | Hot-reload plugins |
+| `/review` | Request code review |
+| `/sandbox` | Enable sandboxed bash tool |
 | `/add-dir <path>` | Add working directory |
 
 ### Special
@@ -242,6 +248,7 @@ last_updated: "2026-04-22"
 
 - `.claude/skills/<name>/` — Project skills
 - `~/.claude/skills/<name>/` — Personal skills
+- `.claude/commands/<name>.md` — Custom slash commands
 
 ### Skill Frontmatter
 
@@ -275,6 +282,31 @@ last_updated: "2026-04-22"
 | `background: true` | Background task |
 | `maxTurns` | Limit agentic turns |
 | `SendMessage` | Resume agents (replaces resume) **NEW** |
+
+---
+
+## Plugins
+
+### Manage
+
+- `/plugin` — Install & manage plugins
+- `/reload-plugins` — Hot-reload plugins
+- `.claude-plugin/plugin.json` — Plugin metadata
+
+### Popular Community Plugins
+
+| Plugin | Purpose | Source |
+|---|---|---|
+| Superpowers | Core super skills library | `github.com/obra/superpowers` |
+| Context7 | Up-to-date code documentation | `github.com/upstash/context7` |
+| Exa Search | Web search and crawling | `github.com/exa-labs/exa-mcp-server` |
+| Playwright | End-to-end testing for web apps | `github.com/lackeyjb/playwright-skill` |
+| Beads | Memory upgrade for coding agents | `github.com/steveegge/beads` |
+| Front-end Design | Improve agents' design skills | `github.com/anthropics/claude-code` (plugins/frontend-design) |
+| PR Review Toolkit | PR automation agents | `github.com/anthropics/claude-code` (plugins/pr-review-toolkit) |
+| Code Simplifier | Simplifies large code bases | `claude plugin install code-simplifier` |
+
+> Deep dive: [10 Claude Code Plugins That Give You Superpowers](./claude-code-plugins-tutorial.md)
 
 ---
 
@@ -352,6 +384,7 @@ claude -p "q"           # Headless
 claude -c               # Continue last
 claude -r "n"           # Resume
 claude update           # Update
+claude --version        # Show version
 ```
 
 ### Key Flags
@@ -386,7 +419,6 @@ The following pages from this repository are relevant to this cheat sheet:
 ### Claude Code Guides
 
 - [Claude Code Tool Guide](./claude-code-tool-guide.md) — Comprehensive guide to Claude Code capabilities and usage
-- [Claude Code Cheatsheet Tutorial](./claude-code-cheatsheet-tutorial.md) — Earlier cheatsheet reference (pre-v2.81)
 - [Claude Code Project Structure Tutorial](./claude-code-project-structure-tutorial.md) — Best practices for organizing projects in Claude Code
 - [How to Design a CLAUDE.md That Actually Works](./claude-md-design-tutorial.md) — Scopes, WHAT/WHY/HOW framework, and 5 rules for effective CLAUDE.md files
 - [Claude Code Certification Guide](./claude-code-certification-guide.md) — Certification path for Claude Code proficiency

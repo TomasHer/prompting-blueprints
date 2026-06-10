@@ -23,7 +23,6 @@ nav:
   - Models & Evaluations:
     - Overview: 06-models-and-evaluations/README.md
     - Gemini Nano Banana Pro Prompt Library: 06-models-and-evaluations/nano-banana-pro-library.md
-    - AI Video Camera Movements Prompt Library: 06-models-and-evaluations/ai-video-camera-movements-prompt-library.md
     - GLM-5 Setup & Serving Guide: 06-models-and-evaluations/glm-5-guide.md
     - Google Veo 3.1 Video Tutorial: 06-models-and-evaluations/google-veo-3-1-video-tutorial.md
     - FACTS Benchmark Overview: 06-models-and-evaluations/facts-benchmark-overview.md
@@ -40,7 +39,7 @@ nav:
     - Cowork Tool Selection Tutorial: 05-tools/cowork-tool-selection-tutorial.md
     - Claude Code Tool Guide: 05-tools/claude-code-tool-guide.md
     - Claude Code Certification Guide: 05-tools/claude-code-certification-guide.md
-    - Claude Code Cheatsheet Tutorial: 05-tools/claude-code-cheatsheet-tutorial.md
+    - Claude Code Cheat Sheet v2.81: 05-tools/claude-code-cheatsheet-v2.md
     - Claude Code Project Structure Tutorial: 05-tools/claude-code-project-structure-tutorial.md
     - AGENTS.md for Claude Code Tutorial: 02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md
     - Google Cloud ADK Quickstart: 05-tools/google-cloud-platform-agents.md

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Remove the duplicate AI video camera movements prompt library from `06-models-and-evaluations/` (the canonical copy lives in `07-use-cases-and-research/`) and drop its nav entry.
+- Replace the Claude Code Cheatsheet Tutorial with the Claude Code Cheat Sheet v2.81 in the site nav, delete the superseded v1 page, and repoint internal links to v2.
+- Port the v1-only cheatsheet content into the Cheat Sheet v2.81 (community plugins section linking to the plugins tutorial, `/review`, `/bashes`, `/sandbox`, `/plugin` commands, `⌘ Esc` and `Ctrl U` shortcuts, `claude --version`, `.claude/commands/` and `.claude-plugin/plugin.json` locations) so v2 fully supersedes v1.
+- Merge the v1 cheatsheet's tutorial prose that was missing from the Claude Code Tool Guide (workspace setup tips, in-session commands and reuse, troubleshooting quick hits).
+- Add cross-references between the Generative AI Basics Glossary and AI Terms Explained (Glossary v2) stating that v2 is the current glossary.
+- Keep the HTML exports (`ai-agents-overview.html`, `claude-code-notebooklm-integration-tutorial.html`) deliberately, to showcase that markdown pages can also be visualized as HTML.
 - Remove redistributed third-party documents (~176 MB: OpenAI, Google, Perplexity, Anthropic PDFs, the Microsoft M365 Copilot PPTX, and their first-page preview images) and link to the official vendor sources instead, resolving the licensing exposure of shipping non-CC-BY content in the repo.
 - Add AGENTS.md for Claude Code tutorial (`05-tools/agents-md-claude-code-tutorial.md`) covering how to author a new repo's `AGENTS.md`, the AGENTS.md-vs-CLAUDE.md relationship, and connecting it to Claude Code via symlink or `@AGENTS.md` import.
 - Add reference to `multica-ai/andrej-karpathy-skills` (≈154k-star, single-file `CLAUDE.md` implementing Andrej Karpathy's 4-rule baseline) in the 12 Rules for AI Coding Tools guide and the CLAUDE.md design tutorial, plus an entry in `external-sources.md`.

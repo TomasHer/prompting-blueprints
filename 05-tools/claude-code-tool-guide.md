@@ -1,7 +1,7 @@
 ---
 title: "Claude Code Tool Guide"
 tags: ["tools", "claude-code"]
-last_updated: "2026-01-10"
+last_updated: "2026-06-10"
 ---
 
 # Claude Code Tool Guide
@@ -22,6 +22,8 @@ last_updated: "2026-01-10"
 ## Setup checklist
 - Follow the official install and login instructions on the product page.
 - Open the repo root and gather your build/test commands and style rules.
+- Use `claude --add-dir /path/to/project` when the CLI needs to validate the workspace.
+- If you work with multiple repos, create a separate CLAUDE.md per repo to store stable context.
 - Decide your guardrails (no new dependencies, keep public APIs stable, avoid specific paths).
 
 ## Core workflow (repeatable loop)
@@ -100,6 +102,17 @@ REQUEST: Provide a short plan, then implement.
 - Ask for a file list and change summary before merging.
 - Always record tests run or explicitly state "not run".
 
+## In-session commands and reuse
+- `/memory` to edit CLAUDE.md and lock in project conventions.
+- `/permissions` to pre-allow safe commands.
+- `/review` to request a post-change code review.
+- Turn frequent tasks into custom commands stored at `.claude/commands/` and check them into git (e.g. `/commit-push-pr`).
+
+## Troubleshooting quick hits
+- **Claude misses context** → add a short repo summary in CLAUDE.md.
+- **Too many changes at once** → ask for smaller batches or a plan checkpoint.
+- **Permissions blocked** → open `/permissions` and pre-allow the safe commands.
+
 ## Top Claude Code Resources 2026
 
 ### Long courses
@@ -142,6 +155,7 @@ REQUEST: Provide a short plan, then implement.
 - [A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
 
 ## Related guides
+- [Claude Code Cheat Sheet v2.81](./claude-code-cheatsheet-v2.md)
 - [AI Coding Spectrum](../02-ai-agents/01-foundations/ai-coding-spectrum.md)
 - [Context Engineering](../02-ai-agents/03-context-and-memory/context-engineering.md)
 - [Claude Agent Skills Playbook](../02-ai-agents/02-skills/claude-agent-skills.md)

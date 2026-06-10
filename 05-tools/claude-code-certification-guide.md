@@ -123,7 +123,7 @@ Evaluate this prompt for schema reliability. Return:
 - [Claude Agent Skills Playbook](../02-ai-agents/02-skills/claude-agent-skills.md)
 - [Model Context Protocol (MCP) Quick Start](../02-ai-agents/04-protocols/mcp-guide.md)
 - [Claude Code Tool Guide](./claude-code-tool-guide.md)
-- [Claude Code Cheatsheet Tutorial](./claude-code-cheatsheet-tutorial.md)
+- [Claude Code Cheat Sheet v2.81](./claude-code-cheatsheet-v2.md)
 
 ## References
 - Anthropic Skilljar — Claude Certified Architect Foundations Access Request: <https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request>
