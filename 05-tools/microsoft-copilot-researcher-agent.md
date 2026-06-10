@@ -118,4 +118,4 @@ Microsoft’s official guidance for Researcher in Microsoft 365 Copilot emphasiz
 ## References
 - GPT-Lab. “Effective Prompts for Reasoning LLMs.” https://gpt-lab.eu/effective-prompts-for-reasoning-llms/
 - Microsoft. “Get started with Researcher in Microsoft 365 Copilot.” https://support.microsoft.com/en-us/topic/get-started-with-researcher-in-microsoft-365-copilot-e63ab760-f3de-4c47-ae87-dad601b0e9c4
-- Microsoft. *Recommended Prompts for Microsoft 365 Copilot.* August 2025. Internal slide deck stored at `assets/guides/microsoft-m365-copilot-prompting-guide.pptx`.
+- Microsoft. *Recommended Prompts for Microsoft 365 Copilot.* August 2025. Slide deck distributed by Microsoft; no stable public download available. See the [Microsoft Adoption Copilot resources](https://adoption.microsoft.com/en-us/copilot/) for equivalent material.

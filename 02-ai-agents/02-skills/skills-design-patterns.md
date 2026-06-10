@@ -218,5 +218,5 @@ ELSE:
 - [Anatomy of a Claude Agent Skill](./anatomy-of-a-skill.md)
 - [Claude Building Skills Guide](../../04-guides/claude-building-skills-guide.md)
 - [Skills Testing and Iteration](./skills-testing-iteration.md)
-- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](../../assets/guides/anthropic-claude-skills-guide.pdf)
+- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
 - [GitHub — anthropics/skills repository](https://github.com/anthropics/skills)

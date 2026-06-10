@@ -130,5 +130,5 @@ Use the ACRUE rubric to benchmark Copilot responses against other AI systems. Sc
 | **Exceptional** | Does it exceed expectations? | Generic or uninspired | Meets expectations | Surpasses expectations with creativity or depth |
 
 ## References
-- Microsoft. *Recommended Prompts for Microsoft 365 Copilot.* August 2025. Internal slide deck stored at `assets/guides/microsoft-m365-copilot-prompting-guide.pptx`.
+- Microsoft. *Recommended Prompts for Microsoft 365 Copilot.* August 2025. Slide deck distributed by Microsoft; no stable public download available. See the [Microsoft Adoption Copilot resources](https://adoption.microsoft.com/en-us/copilot/) for equivalent material.
 - Microsoft. *Copilot Prompt Gallery.* https://m365.cloud.microsoft/copilot-prompts

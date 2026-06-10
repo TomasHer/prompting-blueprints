@@ -22,7 +22,7 @@
 - [Anthropic Skilljar - Claude Certified Architect Foundations Access Request](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request)
 - [Anthropic Skilljar - Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action)
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
-- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](assets/guides/anthropic-claude-skills-guide.pdf)
+- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
 - [arXiv 2512.15943 — Tool-calling specialization beats scale (PDF)](https://arxiv.org/pdf/2512.15943)
 
 ### B

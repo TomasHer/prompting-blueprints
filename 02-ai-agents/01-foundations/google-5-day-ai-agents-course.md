@@ -16,7 +16,7 @@ Google released massive learning resources for AI Agents, including 10+ code sam
 
 Understand AI agent fundamentals: core architecture, taxonomy of capabilities, and how agents differ from LLMs. Learn to build agents that perceive, plan, act autonomously.
 
-[![Day 1 Preview](../../assets/guides/google-2026/previews/01%20Introduction%20to%20Agents.png)](../../assets/guides/google-2026/01%20Introduction%20to%20Agents.pdf)
+**Whitepaper:** [Introduction to Agents](https://www.kaggle.com/whitepaper-introduction-to-agents)
 
 > [!NOTE]
 > See also our internal [AI Agents Overview](./ai-agents-overview.md) for more context.
@@ -30,7 +30,7 @@ Understand AI agent fundamentals: core architecture, taxonomy of capabilities, a
 
 Learn how agents interact with external systems through tools and APIs. Understand MCP architecture, tool design best practices, and human-in-loop approval workflows.
 
-[![Day 2 Preview](../../assets/guides/google-2026/previews/02%20Agent%20Tools%20%26%20Interoperability%20with%20Model%20Context%20Protocol%20%28MCP%29.png)](../../assets/guides/google-2026/02%20Agent%20Tools%20%26%20Interoperability%20with%20Model%20Context%20Protocol%20%28MCP%29.pdf)
+**Whitepaper:** [Agent Tools & Interoperability with MCP](https://www.kaggle.com/whitepaper-agent-tools-and-interoperability-with-mcp)
 
 
 > [!NOTE]
@@ -45,7 +45,7 @@ Learn how agents interact with external systems through tools and APIs. Understa
 
 Discover how agents maintain context across conversations. Understand Sessions for immediate state and Memory for persistent learning across interactions.
 
-[![Day 3 Preview](../../assets/guides/google-2026/previews/03%20Context%20Engineering%3A%20Sessions%20%26%20Memory.png)](../../assets/guides/google-2026/03%20Context%20Engineering%3A%20Sessions%20%26%20Memory.pdf)
+**Whitepaper:** [Context Engineering: Sessions & Memory](https://www.kaggle.com/whitepaper-context-engineering-sessions-and-memory)
 
 > [!TIP]
 > Compare these approaches with our repository's guide on [Context Engineering](../03-context-and-memory/context-engineering.md).
@@ -59,7 +59,7 @@ Discover how agents maintain context across conversations. Understand Sessions f
 
 Master observability foundations: Logs, Traces, Metrics. Learn evaluation frameworks including LLM-as-a-Judge and Human-in-the-Loop for production reliability.
 
-[![Day 4 Preview](../../assets/guides/google-2026/previews/04%20Agent%20Quality.png)](../../assets/guides/google-2026/04%20Agent%20Quality.pdf)
+**Whitepaper:** [Agent Quality](https://www.kaggle.com/whitepaper-agent-quality)
 
 **Resources**
 - [Code Resource 1: Agent Observability](https://www.kaggle.com/code/kaggle5daysofai/day-4a-agent-observability) | [Code Resource 2: Agent Evaluation](https://www.kaggle.com/code/kaggle5daysofai/day-4b-agent-evaluation)
@@ -70,7 +70,7 @@ Master observability foundations: Logs, Traces, Metrics. Learn evaluation framew
 
 Understand deployment lifecycle and scaling strategies. Learn Agent2Agent Protocol for system-wide coordination and production readiness on Vertex AI.
 
-[![Day 5 Preview](../../assets/guides/google-2026/previews/05%20Prototype%20to%20Production.png)](../../assets/guides/google-2026/05%20Prototype%20to%20Production.pdf)
+**Whitepaper:** [Prototype to Production](https://www.kaggle.com/whitepaper-prototype-to-production)
 
 > [!NOTE]
 > To understand coordination deeper, read our local [Agent-to-Agent (A2A) Protocol Guide](../04-protocols/a2a-protocol-guide.md).

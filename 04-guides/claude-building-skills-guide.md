@@ -6,7 +6,7 @@ last_updated: "2026-03-15"
 
 # Claude Building Skills Guide
 
-[![Anthropic Claude Skills Guide Preview](../assets/guides/previews/anthropic-claude-skills-guide.png)](../assets/guides/anthropic-claude-skills-guide.pdf)
+**Source:** [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) · [Announcement post](https://claude.com/blog/complete-guide-to-building-skills-for-claude)
 
 ## Why this guide matters
 Skills have effectively replaced classic prompt engineering for AI agents. Instead of rewriting long prompts every time, you can package reusable task intelligence once and apply it across Claude.ai, Claude Code, and API workflows.
@@ -197,7 +197,7 @@ Up to 8 skills per request. Skills require the Code Execution Tool beta for thei
 If prompt engineering helped you get one-off results, skills help you operationalize those results at scale. Start by creating one narrowly scoped skill with strong triggers and clear step-by-step instructions, then compose it with others as your workflows grow.
 
 ## References
-- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](../assets/guides/anthropic-claude-skills-guide.pdf)
+- [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
 - [Anatomy of a Claude Agent Skill](../02-ai-agents/02-skills/anatomy-of-a-skill.md)
 - [Claude Agent Skills Playbook](../02-ai-agents/02-skills/claude-agent-skills.md)
