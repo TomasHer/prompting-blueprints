@@ -3,6 +3,8 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Refresh the README for accuracy: add the `09-conferences/` section to the TL;DR, quick links, and repository structure tree; reword the guides "PDF library" / "downloadable PDFs" claims to "links to official vendor PDFs" (the redistributed copies were removed earlier for licensing reasons); complete the structure tree (`02-ai-agents/` subfolders, `scripts/`, `BACKLOG.md`, `source-index.md`, broader `05-tools/` and `docs/` descriptions); and update the FAQ model coverage to mention Claude and open models such as GLM-5.
+- Add a root `.gitignore` (covering `.env`, Python caches, `.DS_Store`, and the MkDocs `site/` output) so the README FAQ's git-ignored `.env` guidance is backed by repo config.
 - Remove the duplicate AI video camera movements prompt library from `06-models-and-evaluations/` (the canonical copy lives in `07-use-cases-and-research/`) and drop its nav entry.
 - Replace the Claude Code Cheatsheet Tutorial with the Claude Code Cheat Sheet v2.81 in the site nav, delete the superseded v1 page, and repoint internal links to v2.
 - Port the v1-only cheatsheet content into the Cheat Sheet v2.81 (community plugins section linking to the plugins tutorial, `/review`, `/bashes`, `/sandbox`, `/plugin` commands, `⌘ Esc` and `Ctrl U` shortcuts, `claude --version`, `.claude/commands/` and `.claude-plugin/plugin.json` locations) so v2 fully supersedes v1.
