@@ -146,14 +146,15 @@ mkdocs build --strict                       # fails on broken nav/links
 ## Phase 4 — Cleanup & slimming
 
 - [ ] **P4-01 Asset diet (398 MB → target <100 MB).**
-  (a) Delete byte-identical PDF duplicates: the three OpenAI PDFs exist in both
-  `assets/guides/` and `assets/prompting-guides/` (~22 MB free; keep one location, fix links).
-  (b) Replace vendored third-party PDFs >10 MB with links to the original sources —
-  `pplx-at-work.pdf` (35 MB), `google-ai-agents-for-startup.pdf` (26 MB),
-  `microsoft-m365-copilot-prompting-guide.pptx` (25 MB) — this also resolves the
-  licensing exposure (they are not CC BY 4.0, unlike the repo's declared docs license).
+  (a) ~~Delete byte-identical PDF duplicates~~ — done: `assets/prompting-guides/` removed.
+  (b) ~~Replace vendored third-party PDFs with links to the original sources~~ — done:
+  all 16 third-party PDFs/PPTX and their preview renders removed, references now link
+  to official vendor URLs, and the README license section gained a third-party content
+  clause. Full removal from git history still requires the history purge below.
   (c) Compress images >5 MB (`google_veo_3_1.gif` 16 MB, several speaking photos) and
   the 2.1 MB README hero PNG.
+  (d) Purge the deleted PDF/PPTX blobs from git history (`git filter-repo` + force-push)
+  so they are no longer downloadable from old commits.
 
 - [ ] **P4-02 Cut a release.**
   ~40 entries sit under "Unreleased" and the repo has zero git tags. Move them under

@@ -101,6 +101,7 @@ Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) and 
 
 - **Code:** MIT — see [`LICENSE`](./LICENSE).
 - **Documentation & non-code content:** CC BY 4.0 — see [`docs/LICENSE-CC-BY-4.0.txt`](./docs/LICENSE-CC-BY-4.0.txt).
+- **Third-party content:** The CC BY 4.0 license applies only to original content authored in this repository. Third-party materials (vendor guides, whitepapers, logos, quoted excerpts) remain the property of their respective owners under their own terms; they are linked to their official sources rather than redistributed here, and they are attributed where referenced.
 
 ---
 
@@ -139,7 +140,7 @@ Review ongoing investigations, experiment logs, and calls for collaboration in t
 
 ## FAQ
 **Q: Can I use these prompts commercially?**  
-A: Yes. Code is MIT; docs/prompts are CC BY 4.0 (attribution required).
+A: Yes. Code is MIT; docs/prompts are CC BY 4.0 (attribution required). Linked third-party materials remain under their owners' terms.
 
 **Q: Which models are supported?**  
 A: Patterns are model‑agnostic; guides cover GPT‑5 and Gemini explicitly.
