@@ -1,7 +1,7 @@
 ---
 title: "GAISE 2026 — Conference Notes"
 tags: ["conferences", "gaise", "ai", "software-engineering"]
-last_updated: "2026-06-09"
+last_updated: "2026-06-14"
 ---
 
 # GAISE 2026 — Tampere, Finland
@@ -52,6 +52,7 @@ These are my personal notes from the sessions I attended.
 | [Lab — Tools That Use Tools to Build Tools](#lab-jussi-rasku) | Dr. Jussi Rasku, GPT-Lab / Tampere University |
 | [Live Demo — Sovereign AI](#demo-sovereign-ai) | Jiri Härmä, GPT-Lab / Tampere University |
 | [Live Demo — World Models](#demo-world-models) | Kalle Kulonen, GPT-Lab / Tampere University |
+| [Keynote — Where AI Creates Competitive Advantage](#keynote-meeri-haataja) | Meeri Haataja, CEO & CPO, Saidot |
 
 ### Day 3 — Wednesday, 3 June · Responsible AI Era
 
@@ -360,6 +361,39 @@ What better way to expose the limits of a language model than to make it literal
 <!-- <img src="../assets/conferences/gaise-2026/day2/05-kalle/cosmos-predict-2-5.jpg" alt="What If the Maze Became Real? — Cosmos Predict 2.5 simulates a physical maze where a mouse runs the shortest path to the cheese"> -->
 
 - **The takeaway: tokens aren't space.** LLMs predict the next token; they don't maintain a model of the physical world, so spatial and embodied tasks are exactly where they hit a wall. World models — which learn the *dynamics* of an environment rather than the statistics of text — are the complementary capability the field is now racing toward.
+
+<a id="keynote-meeri-haataja"></a>
+
+### 🎤 Keynote — Where AI Creates Competitive Advantage — Managing Risk Environments by Meeri Haataja, CEO & CPO, Saidot
+
+<img src="../assets/conferences/gaise-2026/day2/06-meeri/IMG_7840.JPG" alt="Where AI Creates Competitive Advantage — Managing Risk Environments — keynote by Meeri Haataja, CEO & CPO, Saidot">
+
+Opening the Executive Track, Meeri Haataja — CEO & CPO of AI-governance company **Saidot** — made the case that AI's real competitive edge isn't faster code but a *structural* change in how software organizations create value, and that capturing it depends on managing the new risk environment that comes with it. Grounding the argument in Saidot's own shift to agentic ways of working and in Chi Zhang et al.'s 2026 study of the AI-driven development paradigm, she walked through two structural shifts — redefining roles around **vertical integration** and a value-creation shift toward **maximizing cognitive bandwidth** — then turned to what governance looks like once agents, not humans, do most of the doing. The throughline: AI lets one person own far more of the value chain, but the advantage only compounds for organizations that redesign roles around individuals and move governance from forms to events.
+
+**Interesting observations**
+
+- **Role redefinition — from horizontal layering to vertical integration.** The first shift is org-structural. Traditional teams are *horizontally layered* by function: a PM passes a PRD down to an Architect who splits work across Front-end and Back-end, who hand off to Test, who hand off to Ops — and every handover crosses a *communication wall* that piles up friction and cost. AI collapses that stack into *vertical*, cross-functional **super-cells**, where one person owns an entire column end-to-end — PM, Architect, Front-end, Back-end, Test, Ops — on top of a shared layer of AI infrastructure and agents. The flagged takeaway: **one person can now do far more things**, so value shifts from coordinating across silos to genuine end-to-end ownership (Chi Zhang et al., 2026).
+
+<!-- PHOTO PLACEHOLDER — "Role Redefinition: Vertical integration" slide (Figure 1); save to day2/06-meeri/ and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/06-meeri/vertical-integration.jpg" alt="Role Redefinition: Vertical integration — traditional horizontal functional layering vs. AI-driven vertical cross-functional super-cells with end-to-end ownership (Chi Zhang et al., 2026)"> -->
+
+- **Value creation shift — maximizing cognitive bandwidth.** The second shift reframes seniority as *unused capacity*. Charting cognitive bandwidth across a career, the *utilized* load (actual work) paradoxically falls as engineers get more senior — ~9.5 units in Year 1 (novice), 8.0 at Year 3 (intermediate), 4.8 at Year 5 (senior), and just 2.5 at Year 10+ (expert) — even as total capacity keeps climbing. The gap between the two is *idle bandwidth (waste)*, and it widens with experience: the most capable people leave the most on the table under the traditional paradigm. AI's role is to close that gap — the rising *target load* line — by letting experts run near full bandwidth instead of being boxed into a narrow functional role.
+
+<!-- PHOTO PLACEHOLDER — "Value Creation Shift: Maximising Cognitive Bandwidth" slide (Figure 2); save to day2/06-meeri/ and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/06-meeri/cognitive-bandwidth.jpg" alt="Value Creation Shift: Maximising Cognitive Bandwidth — utilized cognitive load falls with seniority while idle bandwidth (waste) widens against the AI-paradigm target load"> -->
+
+- **In a nutshell — eight observations from Saidot's own shift to agentic working.** The closing slide distilled what the company has actually lived through:
+<br>(1) **Fast shift to agentic use** — moving away from the UI, with a big shift in risk appetite.
+<br>(2) **Volume is the biggest governance challenge** — move from forms to event-based governance.
+<br>(3) **Agent use is no longer voluntary.**
+<br>(4) **Performance gaps are widening** — the main driver is attitude toward agents.
+<br>(5) **Seniority is a clear advantage** in making use of agents.
+<br>(6) **Work is more interesting than ever** — and also more intellectually demanding.
+<br>(7) **Design the org around individuals, not standard roles.**
+<br>(8) **Testing and instructions are the new bottleneck** — you now build instructions for agents, not just humans.
+
+<!-- PHOTO PLACEHOLDER — "In a nutshell" slide; save to day2/06-meeri/ and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/06-meeri/in-a-nutshell.jpg" alt="In a nutshell — Saidot's observations from its shift to agentic ways of working"> -->
 
 ---
 
