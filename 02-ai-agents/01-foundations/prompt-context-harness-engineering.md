@@ -7,9 +7,9 @@ last_updated: "2026-06-07"
 # From Prompt to Context to Harness Engineering
 
 ## Intent
-Explain how AI engineering has moved through three overlapping generations — **prompt engineering**, **context engineering**, and **harness engineering** — and give you a practical mental model for which layer a problem actually lives in. Use this as a teaching primer or onboarding deck for teams shipping agents in 2026.
+Explain how AI engineering has moved through three overlapping generations — **prompt engineering**, **context engineering**, and **harness engineering** — plus an emerging fourth, **loop engineering**, and give you a practical mental model for which layer a problem actually lives in. Use this as a teaching primer or onboarding deck for teams shipping agents in 2026.
 
-> **One-line summary:** Prompt engineering is *how you talk to the model*, context engineering is *what the model sees*, and harness engineering is *the execution environment the model operates within*. Each generation subsumes the previous one rather than replacing it.
+> **One-line summary:** Prompt engineering is *how you talk to the model*, context engineering is *what the model sees*, harness engineering is *the execution environment the model operates within*, and the newly emerging loop engineering is *the iteration cycle that runs that environment over and over*. Each generation subsumes the previous one rather than replacing it.
 
 ## Why a third generation appeared
 
@@ -22,18 +22,20 @@ The shift is driven by a concrete change in what models are asked to do. A singl
 
 These aren't prompt bugs or context bugs. They're properties of letting a stateless next-token predictor run a long, stateful process unsupervised. Fixing them means engineering the *environment* around the model — which is exactly what a harness is.
 
-## The three generations at a glance
+## The generations at a glance
 
-| | Generation 1 — **Prompt Engineering** | Generation 2 — **Context Engineering** | Generation 3 — **Harness Engineering** |
-| :--- | :--- | :--- | :--- |
-| **Focus** | Expression: the single instruction | Information: what fills the context window | Execution: the environment the agent runs in |
-| **Unit of work** | One message / one turn | One session | The whole agent lifecycle, across sessions |
-| **Era** | ~2022–2024 | ~2025 | 2026+ |
-| **Core moves** | Phrasing, role-play, few-shot examples | RAG, memory, schemas, just-in-time retrieval | Tool orchestration, state persistence, verification loops, constraints |
-| **Analogy** | Writing the perfect email to delegate a task | Attaching the right files and schematics to that email | Architecting the office, the SOPs, and the QA checkpoints around the work |
-| **Failure mode it fixes** | "I didn't understand the question" | "I had the wrong information at the wrong time" | "I had everything I needed and still went off the rails" |
+| | Generation 1 — **Prompt Engineering** | Generation 2 — **Context Engineering** | Generation 3 — **Harness Engineering** | Generation 4 — **Loop Engineering** *(emerging)* |
+| :--- | :--- | :--- | :--- | :--- |
+| **Focus** | Expression: the single instruction | Information: what fills the context window | Execution: the environment the agent runs in | Iteration: the act→observe→verify cycle and the feedback that drives it |
+| **Unit of work** | One message / one turn | One session | The whole agent lifecycle, across sessions | The loop itself — many iterations, run unattended over time |
+| **Era** | ~2022–2024 | ~2025 | 2026+ | 2026+ (frontier, still settling) |
+| **Core moves** | Phrasing, role-play, few-shot examples | RAG, memory, schemas, just-in-time retrieval | Tool orchestration, state persistence, verification loops, constraints | Agentic-loop design (discover→plan→execute→verify→iterate), feedback gates, termination criteria, nested inner/outer loops, cron-driven unattended runs |
+| **Analogy** | Writing the perfect email to delegate a task | Attaching the right files and schematics to that email | Architecting the office, the SOPs, and the QA checkpoints around the work | Designing the self-running assembly line — QA at every station and a clear stop signal |
+| **Failure mode it fixes** | "I didn't understand the question" | "I had the wrong information at the wrong time" | "I had everything I needed and still went off the rails" | "It ran once and stopped" — or looped forever / quit arbitrarily, with no feedback to push against and no definition of done |
 
-Each row is additive. A good harness still depends on good context, which still depends on good prompts. The generations *nest* — harness engineering is the outermost layer, with context and prompt engineering operating inside it.
+Each column is additive. A good loop still depends on a good harness, which depends on good context, which depends on good prompts. The generations *nest*: prompt and context engineering operate inside the harness, and loop engineering is the outermost, *temporal* layer — it governs how the harness is run **again and again** over time, not just how it runs once.
+
+Generation 4 is genuinely nascent, and it overlaps the harness rather than cleanly replacing it: the harness already contains verification loops, learning loops, and scheduling (see *Core subsystems* below). Loop engineering is the move that promotes "the loop" from one subsystem among several to the *primary design object* — you stop hand-prompting each run and instead engineer the cycle that prompts the agent for you.
 
 ### Generation 1 — Prompt Engineering (Expression)
 
@@ -61,6 +63,20 @@ Anthropic's own framing makes the lineage concrete: the **Claude Agent SDK is de
 
 **Analogy:** Architecting the entire office building — standard operating procedures, specialized departments, and quality-assurance checkpoints.
 
+### Generation 4 — Loop Engineering (Iteration)
+
+The emerging frontier. Once a harness exists, the next leverage point is no longer *what* you say to the agent on any single run — it's the **cycle** the agent runs in. Loop engineering treats that cycle as the primary design object: you stop prompting the agent directly and instead *write the loop that prompts it for you*, then let it run — often unattended, on a cron schedule, "while you sleep" ([MindStudio](https://www.mindstudio.ai/blog/what-is-loop-engineering-ai-coding-agents), [explainx](https://explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026)).
+
+The canonical shape is **discover → plan → execute → verify → iterate**: if verification passes, the loop stops; if it fails, the agent feeds the failure back in and goes again. Three design choices separate a reliable loop from a runaway one:
+
+- **Feedback gates.** The loop is not the magic — the *feedback inside it* is. A loop with nothing to push back is just the agent agreeing with itself. Tests, type checks, and brutal review gates are what make iteration trustworthy.
+- **Termination criteria.** The loop has to know what "done" looks like, and it needs caps — max iterations, no-progress detection, and a dollar/token budget — so it neither runs forever nor quits arbitrarily.
+- **Nested loops.** Real systems layer loops: a tight inner verify-and-retry loop sits inside a broader outer loop that improves the process across runs (the learning loop), which in turn sits inside a human loop that bounds the agent's authority.
+
+This layer overlaps the harness on purpose — verification loops, the learning loop, and scheduling are all listed as harness subsystems below. The distinction is one of *emphasis*: harness engineering builds the machinery; loop engineering is the discipline of composing that machinery into a self-sustaining, self-correcting cycle that produces value on repeat without a human re-prompting it each time.
+
+**Analogy:** Designing a self-running assembly line — QA at every station, a clear stop signal, and a foreman (you) who tunes the line rather than placing each part by hand.
+
 ## Core subsystems of an AI harness
 
 A robust harness bridges the gap between a "smart model" and *reproducible* output. Six subsystems do most of the work:
@@ -82,24 +98,29 @@ A practical extension of state and orchestration is **scheduling**: a built-in s
 ## How the layers nest
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│ HARNESS ENGINEERING  (execution environment)                 │
-│  state · verification · orchestration · scope ·              │
-│  sandboxed toolchain · learning loop · scheduling           │
-│                                                              │
-│   ┌───────────────────────────────────────────────────┐     │
-│   │ CONTEXT ENGINEERING  (what the model sees)         │     │
-│   │  retrieval · memory · schemas · just-in-time data  │     │
-│   │                                                    │     │
-│   │   ┌─────────────────────────────────────────┐      │     │
-│   │   │ PROMPT ENGINEERING  (the instruction)    │      │     │
-│   │   │  role · constraints · format · examples  │      │     │
-│   │   └─────────────────────────────────────────┘      │     │
-│   └───────────────────────────────────────────────────┘     │
-└─────────────────────────────────────────────────────────────┘
+╔═══════════════════════════════════════════════════════════════════╗
+║ LOOP ENGINEERING  (iteration over time) ↻ discover→…→verify→repeat ║
+║  feedback gates · termination criteria · nested loops · cron runs  ║
+║                                                                    ║
+║  ┌─────────────────────────────────────────────────────────────┐  ║
+║  │ HARNESS ENGINEERING  (execution environment)                 │  ║
+║  │  state · verification · orchestration · scope ·              │  ║
+║  │  sandboxed toolchain · learning loop · scheduling           │  ║
+║  │                                                              │  ║
+║  │   ┌───────────────────────────────────────────────────┐     │  ║
+║  │   │ CONTEXT ENGINEERING  (what the model sees)         │     │  ║
+║  │   │  retrieval · memory · schemas · just-in-time data  │     │  ║
+║  │   │                                                    │     │  ║
+║  │   │   ┌─────────────────────────────────────────┐      │     │  ║
+║  │   │   │ PROMPT ENGINEERING  (the instruction)    │      │     │  ║
+║  │   │   │  role · constraints · format · examples  │      │     │  ║
+║  │   │   └─────────────────────────────────────────┘      │     │  ║
+║  │   └───────────────────────────────────────────────────┘     │  ║
+║  └─────────────────────────────────────────────────────────────┘  ║
+╚═══════════════════════════════════════════════════════════════════╝
 ```
 
-Reading it inside-out: a prompt is one instruction; context is the information environment that instruction runs in; the harness is the operating environment that the whole session runs in, across many instructions and many sessions.
+Reading it inside-out: a prompt is one instruction; context is the information environment that instruction runs in; the harness is the operating environment that the whole session runs in, across many instructions and many sessions; and the loop is the *temporal* wrapper that runs that harness over and over — feeding each run's verified result back into the next — until a termination condition says "done."
 
 ## A worked example: "fix this failing bug"
 
@@ -148,6 +169,9 @@ Most "the model is bad" complaints in production are actually harness gaps weari
 - Parallel — [What is an agent harness?](https://parallel.ai/articles/what-is-an-agent-harness)
 - Firecrawl — [What Is an Agent Harness?](https://www.firecrawl.dev/blog/what-is-an-agent-harness)
 - Daily Dose of DS — [The Anatomy of an Agent Harness](https://blog.dailydoseofds.com/p/the-anatomy-of-an-agent-harness)
+- MindStudio — [What Is Loop Engineering? The New Meta for AI Coding Agents](https://www.mindstudio.ai/blog/what-is-loop-engineering-ai-coding-agents)
+- explainx.ai — [Loop Engineering: How to Design Coding Agent Loops That Run While You Sleep (2026 Guide)](https://explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026)
+- Oracle Developers — [The Agent Loop Decoded: Three Levels Every Agent Engineer Must Know](https://blogs.oracle.com/developers/the-agent-loop-decoded-three-levels-every-agent-engineer-must-know)
 - Rakesh Gohel — "The AI Agent Harness: Your Production Control Plane" (infographic + post on the eight harness components, the engine/car framing, and how the big labs apply it)
 - OpenAI — [Introducing Operator](https://openai.com/index/introducing-operator/) / [ChatGPT agent](https://openai.com/index/introducing-chatgpt-agent/) (Computer-Using Agent; Operator folded into agent mode in 2025)
 - Anthropic — [Claude Managed Agents overview](https://platform.claude.com/docs/en/managed-agents/overview) (pre-built, configurable agent harness)
