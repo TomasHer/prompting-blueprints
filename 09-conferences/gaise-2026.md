@@ -53,6 +53,7 @@ These are my personal notes from the sessions I attended.
 | [Live Demo — Sovereign AI](#demo-sovereign-ai) | Jiri Härmä, GPT-Lab / Tampere University |
 | [Live Demo — World Models](#demo-world-models) | Kalle Kulonen, GPT-Lab / Tampere University |
 | [Keynote — Where AI Creates Competitive Advantage](#keynote-meeri-haataja) | Meeri Haataja, CEO & CPO, Saidot |
+| [Expert Talk — The Essentials of AI: What AI Can Already Do](#talk-pekka-abrahamsson) | Prof. Pekka Abrahamsson, GPT-Lab / Tampere University |
 
 ### Day 3 — Wednesday, 3 June · Responsible AI Era
 
@@ -394,6 +395,40 @@ Opening the Executive Track, Meeri Haataja — CEO & CPO of AI-governance compan
 
 <!-- PHOTO PLACEHOLDER — "In a nutshell" slide; save to day2/06-meeri/ and uncomment -->
 <!-- <img src="../assets/conferences/gaise-2026/day2/06-meeri/in-a-nutshell.jpg" alt="In a nutshell — Saidot's observations from its shift to agentic ways of working"> -->
+
+<a id="talk-pekka-abrahamsson"></a>
+
+### 🎤 Expert Talk — The Essentials of AI: What AI Can Already Do by Prof. Pekka Abrahamsson, GPT-Lab / Tampere University
+
+<img src="../assets/conferences/gaise-2026/day2/07-pekka/IMG_7860.JPG" alt="The Essentials of AI: What AI Can Already Do — expert talk by Prof. Pekka Abrahamsson, GPT-Lab / Tampere University">
+
+Continuing the Executive Track, GPT-Lab founder and conference host Prof. Pekka Abrahamsson gave leaders a deliberately grounded tour of what agentic AI can *already* do today — not what it might do someday. Delivered in Finnish under the title *"Tekoälyä pomoille – johtajat ja AI, mikä on oleellista?"* ("AI for bosses — leaders and AI, what's essential?") with the subtitle *"Agenttiset tekoälyjärjestelmät"* ("Agentic AI systems"), the talk paired a candid diagnosis of how executives actually — and only partially — adopt AI with two live demonstrations of autonomous, self-assembling agent systems. The throughline: the gap between leaders who *talk* about AI and leaders who *use* it has become the single biggest predictor of whether their organization captures any value, and the capability frontier has already moved past dashboards to agents that spawn other agents and to a digital twin that simulates an entire parliament passing a law.
+
+**Interesting observations**
+
+- **"Present like you are a bit bored."** Pekka opened with the (only half-joking) advice he'd been given right before going on stage: *"Present like you are a bit bored — otherwise they will think AI is just hype and won't believe you."* The deadpan framing was the point: the capabilities he was about to demo are real enough that overselling them would make them *less* believable, not more.
+
+- **The three CEO adoption patterns — and why each leaves value on the table.** Drawing on leaders from roughly 30 countries ("most sit in at least one"), Pekka sketched three recurring archetypes. 
+<br>**Pattern 1 — The Podcast CTO:** deeply informed, tracks every release and benchmark, but has never built an AI system for their own work — their desk is empty of an actual AI interface. 
+<br>**Pattern 2 — The Weekend Tinkerer:** builds impressive things in private time but never brings them into the day-to-day; the cool home rig never reaches the corporate office desk. 
+<br>**Pattern 3 — The Manifesto Writer:** has the vision and funded a transformation committee, but has never personally felt AI do work *at their level* ("AI can't help me!"). The shared failure mode: **partial engagement leaves value on the table.**
+
+- **The sharper claim: the leader has to be the best user.** The flip side of those patterns was the talk's central argument — **a leader's own quality of AI use is the single biggest predictor of team adoption.** When the CEO is the best user, making real decisions with AI at their own desk, the result is a *frontier company* and a hive of productive, AI-enabled people around them; when leaders only talk about it, the team is left swinging between underestimating and overestimating the technology.
+
+<!-- PHOTO PLACEHOLDER — "The Three CEO Adoption Patterns" slide; save to day2/07-pekka/ and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/07-pekka/ceo-adoption-patterns.jpg" alt="The Three CEO Adoption Patterns (and how they limit value) — the Podcast CTO, the Weekend Tinkerer, and the Manifesto Writer, all sharing the failure mode of partial engagement, versus the leader who is the best user"> -->
+
+- **A new coinage: "We as departments are humping forward."** Pekka offered his own neologism for the awkward, lurching, half-committed way most organizations are advancing on AI — not striding, not standing still, but *humping forward.* It landed as the talk's most memorable line precisely because it named the in-between state so many in the room recognized.
+
+- **Demo 1 — a digital twin of the Finnish government passing a law.** The first live demo ran a *Digital Finnish Parliament* — an agent-driven digital twin of the Finnish government that takes a proposal through the legislative process end-to-end, until a law is passed. The point for executives: agentic systems can now model not just a single task but an entire institution and its decision-making.
+
+<!-- PHOTO PLACEHOLDER — "Digital Finnish Parliament" demo; save to day2/07-pekka/ and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/07-pekka/digital-finnish-parliament.jpg" alt="Digital Finnish Parliament — an agent-driven digital twin that runs a proposal through the legislative process until a law is passed"> -->
+
+- **Demo 2 — godagent.org: agents that breed new agents.** The second demo, on [godagent.org](https://godagent.org), showed an *Agent Multiverse* in which a master orchestrator ("God Chat") takes a single natural-language request and **spawns the specialized agents it needs to answer it.** Asked to explain what drove the New York Stock Exchange to its latest close, it bred two sub-agents on the fly — a **NYSE Data Scout** to retrieve the exact closing level of the NYSE Composite Index (NYA) for the most recent session prior to 2 June 2026, and a **Market Causality Analyst** to run a self-grounded search over late-May-2026 Federal Reserve commentary, recent CPI/PCE prints, and sector-specific catalysts — then synthesized their outputs into one evidence-backed answer. The executive takeaway: agentic systems no longer need every tool pre-built; they **assemble their own team to resolve the task** ([AI agents overview](https://github.com/TomasHer/prompting-blueprints/blob/main/02-ai-agents/01-foundations/ai-agents-overview.md)).
+
+<!-- PHOTO PLACEHOLDER — "godagent.org — Agent Multiverse" demo; save to day2/07-pekka/ and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/07-pekka/godagent-agent-multiverse.jpg" alt="godagent.org Agent Multiverse — a God Chat master orchestrator breeding NYSE Data Scout and Market Causality Analyst sub-agents to resolve a query"> -->
 
 ---
 
