@@ -114,6 +114,7 @@
 - [GPT-Lab – Effective Prompts for Reasoning LLMs](https://gpt-lab.eu/effective-prompts-for-reasoning-llms/)
 
 ### H
+- [Hermes Agent (Nous Research)](https://hermes-agent.nousresearch.com)
 - [Hugging Face – HF Skills: training a fine-tuning agent with Claude Code](https://huggingface.co/blog/hf-skills-training)
 - [Hugging Face Model Card – GLM-5](https://huggingface.co/zai-org/GLM-5)
 
@@ -171,12 +172,14 @@
 
 ### N
 - [n8n – Official site](https://n8n.io/)
+- [Nous Research](https://nousresearch.com)
 - [n8n – Workflow templates gallery](https://n8n.io/workflows/)
 - [Next.js](https://nextjs.org/)
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
 
 ### O
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
+- [Ollama – Run open models locally](https://ollama.com)
 - [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
 - [On Tech Ethics Podcast – Vibe Research and the Future of Science (CITI Program)](https://about.citiprogram.org/blog/on-tech-ethics-podcast-vibe-research-and-the-future-of-science/)
 - [OpenClaw](https://openclaw.ai)
@@ -196,6 +199,9 @@
 - [Post Business Solutions — Business Solutions der Österreichischen Post AG](https://www.post.at/businesssolutions)
 - [Prompting Blueprints introduction video (YouTube)](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U)
 - [PromptPerfect — Deep Research prompt examples](https://daily.promptperfect.xyz/p/fifteen-examples-of-how-to-use-deep-research-in-chatgpt-with-prompts)
+
+### Q
+- [Qwen (Qwen3 models) – Official blog](https://qwenlm.github.io)
 
 ### R
 - [Reddit – I hope this answers everyone’s questions about the Titanic pool](https://www.reddit.com/r/titanic/comments/1l2zy41/i_hope_this_answers_everyones_questions_about_the/)
@@ -218,6 +224,7 @@
 - [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
 
 ### U
+- [Unsloth Documentation](https://docs.unsloth.ai)
 - [Unsloth Documentation – Deploy LLMs on Phone](https://docs.unsloth.ai/new/deploy-llms-phone)
 
 ### V

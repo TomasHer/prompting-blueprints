@@ -73,24 +73,24 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
 - [Cognition – Introducing Devin](https://www.cognition-labs.com/blog/introducing-devin)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
-- [Colab — FunctionGemma (270M) LM Studio notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/FunctionGemma_(270M)
+- [Colab — FunctionGemma (270M) LM Studio notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/FunctionGemma_(270M)-LMStudio.ipynb)
   - cited in: `04-guides/finetune-functiongemma.md`
 - [Continue](https://continue.dev/)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
-  - cited in: `05-tools/microsoft-365-copilot-prompting-guide.md`, `05-tools/microsoft-copilot-researcher-agent.md`
+  - cited in: `04-guides/overview.md`, `05-tools/microsoft-365-copilot-prompting-guide.md`, `05-tools/microsoft-copilot-researcher-agent.md`
 - [Coursera - Claude Code: Software Engineering with AI Agents](https://www.coursera.org/learn/claude-code)
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [CrewAI – Framework documentation](https://docs.crewai.com/introduction)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
 - [Cursor](https://www.cursor.com/)
-  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`, `05-tools/best-ai-apps-2026.md`
 - [Cursor quickstart](https://cursor.com/docs/get-started/quickstart)
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
 - [Docs: GitHub Copilot quickstart](https://docs.github.com/en/copilot/get-started/quickstart)
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
 - [DAiTA — Intelligent Document Processing platform (EN, Österreichische Post)](https://www.post.at/en/g/c/daita)
-  - cited in: `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`
+  - cited in: `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`, `09-conferences/gaise-2026.md`
 - [DAiTA — Intelligente Dokumentenverarbeitung Plattform (DE, Österreichische Post)](https://www.post.at/g/c/daita)
   - cited in: `07-use-cases-and-research/intelligent-document-processing-daita.md`
 - [DAIR.AI Thinkific - Claude Code for Everyone](https://dair-ai.thinkific.com/courses/claude-code)
@@ -202,7 +202,9 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Google — Gemini API changelog](https://ai.google.dev/gemini-api/docs/changelog?hl=en)
   - cited in: `04-guides/llm-lifecycle-monitoring.md`
 - [GPT-Lab – Effective Prompts for Reasoning LLMs](https://gpt-lab.eu/effective-prompts-for-reasoning-llms/)
-  - cited in: `03-prompts-and-patterns/researchers-prompting-blueprints.md`, `03-prompts-and-patterns/writers-prompting-blueprints.md`, `05-tools/microsoft-copilot-researcher-agent.md`
+  - cited in: `03-prompts-and-patterns/researchers-prompting-blueprints.md`, `03-prompts-and-patterns/writers-prompting-blueprints.md`, `05-tools/microsoft-copilot-researcher-agent.md`, `09-conferences/gaise-2026.md`
+- [Hermes Agent (Nous Research)](https://hermes-agent.nousresearch.com)
+  - cited in: `05-tools/hermes-agent-tutorial.md`
 - [Hugging Face – HF Skills: training a fine-tuning agent with Claude Code](https://huggingface.co/blog/hf-skills-training)
   - cited in: `04-guides/claude-fine-tune-llm.md`
 - [Hugging Face Model Card – GLM-5](https://huggingface.co/zai-org/GLM-5)
@@ -232,7 +234,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [LM Studio blog – FunctionGemma + Unsloth tutorial](https://lmstudio.ai/blog/functiongemma-unsloth)
   - cited in: `04-guides/finetune-functiongemma.md`
 - [Lovable](https://lovable.dev/)
-  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`, `05-tools/spec-driven-development-tutorial.md`
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`, `05-tools/best-ai-apps-2026.md`, `05-tools/spec-driven-development-tutorial.md`
 - [Lovable – Prompting best practices](https://docs.lovable.dev/prompting/prompting-one#prompting-best-practices)
   - cited in: `05-tools/lovable-vibe-coding-tutorial.md`
 - [Lovable – Prompting guide](https://docs.lovable.dev/prompting/prompting-one)
@@ -242,7 +244,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Make](https://www.make.com/)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Manus – Research Agent Workspace](https://manus.im/)
-  - cited in: `05-tools/langchain-deep-agents.md`
+  - cited in: `05-tools/best-ai-apps-2026.md`, `05-tools/langchain-deep-agents.md`
 - [Medium - Daniel Avila](https://medium.com/@dan.avila7)
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [Medium - Joe Njenga](https://medium.com/@joe.njenga)
@@ -294,7 +296,9 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [multica-ai/andrej-karpathy-skills – CLAUDE.md (raw)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)
   - cited in: `04-guides/ai-coding-rules-senior-engineers.md`
 - [n8n – Official site](https://n8n.io/)
-  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`, `05-tools/n8n-vs-langgraph.md`
+  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`, `05-tools/best-ai-apps-2026.md`, `05-tools/n8n-vs-langgraph.md`
+- [Nous Research](https://nousresearch.com)
+  - cited in: `05-tools/hermes-agent-tutorial.md`
 - [n8n – Workflow templates gallery](https://n8n.io/workflows/)
   - cited in: `05-tools/n8n-research-workflow-tutorial.md`
 - [Next.js](https://nextjs.org/)
@@ -303,6 +307,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `07-use-cases-and-research/deep-research.md`
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`
+- [Ollama – Run open models locally](https://ollama.com)
+  - _not cited in any content file_
 - [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
 - [On Tech Ethics Podcast – Vibe Research and the Future of Science (CITI Program)](https://about.citiprogram.org/blog/on-tech-ethics-podcast-vibe-research-and-the-future-of-science/)
@@ -328,7 +334,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
   - cited in: `05-tools/openai-gpt-5-prompt-optimizer.md`
 - [Perplexity](https://www.perplexity.ai/)
-  - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
+  - cited in: `05-tools/ai-tool-chaining-oct-2025.md`, `05-tools/best-ai-apps-2026.md`
 - [Perplexity: Introducing Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research)
   - cited in: `07-use-cases-and-research/deep-research.md`
 - [Post Business Solutions — Business Solutions der Österreichischen Post AG](https://www.post.at/businesssolutions)
@@ -337,10 +343,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `README.md`
 - [PromptPerfect — Deep Research prompt examples](https://daily.promptperfect.xyz/p/fifteen-examples-of-how-to-use-deep-research-in-chatgpt-with-prompts)
   - cited in: `07-use-cases-and-research/deep-research.md`
+- [Qwen (Qwen3 models) – Official blog](https://qwenlm.github.io)
+  - _not cited in any content file_
 - [Reddit – I hope this answers everyone’s questions about the Titanic pool](https://www.reddit.com/r/titanic/comments/1l2zy41/i_hope_this_answers_everyones_questions_about_the/)
   - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [Replit](https://replit.com/)
-  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`, `05-tools/best-ai-apps-2026.md`
 - [Replit – Everything you need to know about MCP](https://blog.replit.com/everything-you-need-to-know-about-mcp)
   - cited in: `02-ai-agents/04-protocols/mcp-guide.md`
 - [Resend](https://resend.com/)
@@ -363,6 +371,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
+- [Unsloth Documentation](https://docs.unsloth.ai)
+  - _not cited in any content file_
 - [Unsloth Documentation – Deploy LLMs on Phone](https://docs.unsloth.ai/new/deploy-llms-phone)
   - cited in: `05-tools/llm-on-phone-deployment-tutorial.md`
 - [V0](https://v0.dev/)
@@ -486,7 +496,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Meetup – Large-Scale Scrum NYC: The Courage to Descale](https://www.meetup.com/large-scale-scrum-less-in-nyc/events/311688494/)
   - cited in: `01-about-author/speaking/index.md`
 - [Post Business Solutions – Intelligent Document Processing](https://www.post.at/en/g/c/daita)
-  - cited in: `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`
+  - cited in: `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`, `09-conferences/gaise-2026.md`
 - [Prioritizing Software Requirements Using Large Language Models (arXiv 2405.01564)](https://arxiv.org/abs/2405.01564)
   - cited in: `01-about-author/research/overview.md`
 - [Researchr – VIBEX 2026 Workshop](https://conf.researchr.org/home/ease-2026/vibex-2026)
@@ -510,7 +520,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [TimeLess: A Vision for the Next Generation of Software Development (arXiv 2411.08507)](https://arxiv.org/abs/2411.08507)
   - cited in: `01-about-author/research/overview.md`
 - [Tomas Herda – LinkedIn](https://www.linkedin.com/in/herdatom)
-  - cited in: `01-about-author/speaking/index.md`, `README.md`
+  - cited in: `01-about-author/speaking/index.md`, `09-conferences/conference-template.md`, `09-conferences/gaise-2026.md`, `README.md`
 - [XP 2024 Conference – Call for Submissions](https://agilealliance.org/xp2024/call-for-submissions/)
   - cited in: `01-about-author/program-committee/index.md`
 - [XP 2024 Conference – Posters Track](https://agilealliance.org/xp2024/posters/)
