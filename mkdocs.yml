@@ -45,6 +45,7 @@ nav:
     - Google Cloud ADK Quickstart: 05-tools/google-cloud-platform-agents.md
     - LangChain Deep Agents Playbook: 05-tools/langchain-deep-agents.md
     - Hermes Agent Tutorial: 05-tools/hermes-agent-tutorial.md
+    - Local Hermes Daily Assistant (Qwen3 + Ollama + Unsloth + Obsidian): 05-tools/hermes-daily-assistant-setup.md
     - Microsoft Agent Framework Quickstart: 05-tools/microsoft-agent-framework.md
     - GitHub Copilot Custom Instructions Tutorial: 05-tools/github-copilot-custom-instructions-tutorial.md
     - GitHub Copilot Coding Agent MCP Tutorial: 05-tools/github-copilot-coding-agent-mcp-tutorial.md
