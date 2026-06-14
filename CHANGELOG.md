@@ -3,6 +3,7 @@
 All notable changes to this project will be documented here.
 
 ## Unreleased
+- Add Loop Engineering primer (`02-ai-agents/01-foundations/loop-engineering.md`) covering the shift from prompting to designing control loops, the loop primitives (automations, worktrees, skills/tools, sub-agents, memory), the "loopmaxxing" anti-pattern and comprehension debt, a pragmatic control-loop checklist, and two diagrams; wire it into the foundations nav next to the harness-engineering primer.
 - Refresh the README for accuracy: add the `09-conferences/` section to the TL;DR, quick links, and repository structure tree; reword the guides "PDF library" / "downloadable PDFs" claims to "links to official vendor PDFs" (the redistributed copies were removed earlier for licensing reasons); complete the structure tree (`02-ai-agents/` subfolders, `scripts/`, `BACKLOG.md`, `source-index.md`, broader `05-tools/` and `docs/` descriptions); and update the FAQ model coverage to mention Claude and open models such as GLM-5.
 - Add a root `.gitignore` (covering `.env`, Python caches, `.DS_Store`, and the MkDocs `site/` output) so the README FAQ's git-ignored `.env` guidance is backed by repo config.
 - Remove the duplicate AI video camera movements prompt library from `06-models-and-evaluations/` (the canonical copy lives in `07-use-cases-and-research/`) and drop its nav entry.
