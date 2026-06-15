@@ -71,7 +71,7 @@ The canonical shape is **discover → plan → execute → verify → iterate**:
 
 - **Feedback gates.** The loop is not the magic — the *feedback inside it* is. A loop with nothing to push back is just the agent agreeing with itself. Tests, type checks, and brutal review gates are what make iteration trustworthy.
 - **Termination criteria.** The loop has to know what "done" looks like, and it needs caps — max iterations, no-progress detection, and a dollar/token budget — so it neither runs forever nor quits arbitrarily.
-- **Nested loops.** Real systems layer loops: a tight inner verify-and-retry loop sits inside a broader outer loop that improves the process across runs (the learning loop), which in turn sits inside a human loop that bounds the agent's authority.
+- **Nested loops.** Real systems layer loops: a tight inner verify-and-retry loop sits inside a broader outer loop that improves the process across runs (the learning loop), which in turn sits inside a human loop that bounds the agent's authority. The outer learning loop can even rewrite the harness itself — the **Self-Harness** research below operationalizes exactly this: a propose → evaluate → accept cycle that turns each run's failures into validated harness edits.
 
 This layer overlaps the harness on purpose — verification loops, the learning loop, and scheduling are all listed as harness subsystems below. The distinction is one of *emphasis*: harness engineering builds the machinery; loop engineering is the discipline of composing that machinery into a self-sustaining, self-correcting cycle that produces value on repeat without a human re-prompting it each time.
 
@@ -91,7 +91,7 @@ A robust harness bridges the gap between a "smart model" and *reproducible* outp
 
 5. **Execution environment (toolchain & sandbox).** A harness has to be *rooted in a real environment*, not an abstract chat box. It gives the model hands and eyes — a tool ecosystem (web search, browser control, code execution, file operations, APIs) — and a place to run them: locally, inside Docker, over SSH, or in a serverless cloud sandbox. Sandboxing is also a safety boundary: it contains what a tool call can touch.
 
-6. **Learning loop (self-improvement).** Advanced harnesses close the loop — capturing outcomes from completed tasks and feeding them back so the agent improves over time. In practice this means an agent that writes its own reusable skills after finishing a task, refines them as they're used again, and carries that procedural memory forward instead of relearning every session.
+6. **Learning loop (self-improvement).** Advanced harnesses close the loop — capturing outcomes from completed tasks and feeding them back so the agent improves over time. In practice this means an agent that writes its own reusable skills after finishing a task, refines them as they're used again, and carries that procedural memory forward instead of relearning every session. The frontier of this idea is the harness improving *itself*: the **Self-Harness** paradigm mines its own failure traces and proposes validated edits to its own scaffolding (see [Self-improving harnesses](#self-improving-harnesses-when-the-harness-engineers-itself) below).
 
 A practical extension of state and orchestration is **scheduling**: a built-in scheduler (e.g. cron-style triggers) lets the harness run recurring or condition-triggered tasks unattended — operating for hours or days without a human in the loop. This is what turns an interactive assistant into a background operator.
 
@@ -135,6 +135,7 @@ Two benchmarks the whitepaper cites make the size of the effect concrete:
 
 - On **Terminal Bench 2.0**, one team moved a coding agent **from outside the Top 30 to the Top 5 by changing only the harness** — no model change at all.
 - A **LangChain** study raised an agent's score on the same benchmark by **13.7 points** by tweaking only the system prompt, tools, and middleware around a *fixed* model.
+- The **Self-Harness** study (below) pushed *held-out* Terminal-Bench-2.0 pass rates up by as much as **138% relative** (e.g., Qwen3.5-35B-A3B from 23.8% to 38.1%) by letting each fixed model rewrite its own harness — model held constant, harness only ([Zhang et al., 2026](https://arxiv.org/abs/2606.09498)).
 
 The everyday corollary is the most useful sentence in the section: when an agent misbehaves, the first instinct is to blame the model, but the failure usually traces back to a missing tool, a vague rule, an absent guardrail, or a context window stuffed with noise. **Most agent failures, examined honestly, are configuration failures** — which is the practical case for the [practitioner checklist](#practitioner-checklist) below.
 
@@ -190,6 +191,47 @@ Harness engineering isn't a fringe idea — it's where the frontier labs are spe
 
 The takeaway practitioners keep landing on: **the 2026 agent race isn't about who has the smartest model — it's about who builds the most reliable harness around it.** The same open-source harness pattern (memory, tools, orchestration, sandboxed execution, a learning loop) is now reproducible outside the big labs, which is exactly why a project like Hermes matters.
 
+## Self-improving harnesses: when the harness engineers itself
+
+Subsystem #6 above — the learning loop — has its sharpest research statement to date in **[Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/abs/2606.09498)** (Hangfan Zhang et al., Shanghai AI Laboratory, 2026). It poses a pointed question: if the harness is what makes an agent reliable, *who writes the harness?* Today the answer is almost always "a human expert" — and that scales badly when new models ship every few weeks, each with its own behavioral quirks, tool-use habits, and error modes. A harness tuned for one model is routinely suboptimal for the next. Self-Harness proposes that the agent improve **its own operating harness**, with no human engineer and no stronger external model in the loop.
+
+The paper frames three paradigms for improving a harness:
+
+- **Human harness engineering** — engineers manually inspect and revise the harness. Effective, but doesn't scale across a rapidly diversifying model zoo.
+- **Meta-Harness** — a *stronger external agent* tunes the harness of a weaker target. Powerful, but it assumes you have a better model on hand (you don't, for frontier models), and its fixes may not match the target's actual failure modes.
+- **Self-Harness** — the agent improves the very harness it runs in, using only its own execution evidence. The improvement loop is *internalized* in the target agent — Bergson's "going on creating itself," applied to scaffolding.
+
+### The propose → evaluate → accept loop
+
+Self-Harness keeps the model weights and the evaluator **fixed** and treats the harness as the only thing that changes — so any measured gain is attributable to the harness, not the model. It runs as an iterative loop with three stages:
+
+1. **Weakness Mining** — run the agent on a held-in task split, collect execution traces with verifiable pass/fail outcomes, then **cluster the failures** by a verifier-grounded *failure signature*: what the verifier ultimately rejected, how the agent's behavior caused it, and which reusable mechanism was involved. The aim is to reason about *recurring, model-specific failure patterns* rather than one-off mistakes — and to keep the diagnosing evaluator strictly separate from the optimizer. The stage emits an evidence bundle that names failures but deliberately does **not** prescribe the fix.
+2. **Harness Proposal** — the *same fixed model*, in a "proposer" role, turns those failure patterns into a handful of **diverse yet minimal** candidate edits (generated in parallel). Diversity is encouraged *across* proposals (different mechanisms, different editable surfaces); minimality is enforced *within* each (touch only the surface needed, preserve unrelated behavior, don't rewrite the control architecture). Each candidate is tied to a specific failure mechanism and carries an audit record of what it changes and what it risks. Not every failure cluster earns a patch — clusters that reflect raw task difficulty or model-capability limits rather than a missing execution rule are excluded.
+3. **Proposal Validation** — every candidate is re-run as a new harness variant and gated by **regression testing** on a held-in *and* a held-out split. The acceptance rule is deliberately conservative: an edit is promoted only if it improves at least one split **without degrading the other**. Edits that merely trade one split for another are rejected, even if the total pass count rises. Accepted edits merge into the next harness version; rejected ones are logged but never go live, keeping the whole harness lineage auditable.
+
+This is the learning loop and the verification loop from the subsystem list, made rigorous: a harness edit must name the behavior it changes, the surface it touches, the evidence that motivates it, and the test result that justifies promotion. The paper's framing — *harness improvement as an empirical, recorded, reversible state transition* — is a useful discipline even if you never automate any of it.
+
+### Harness design is model-specific
+
+The most actionable finding: **the same minimal initial harness exposes different pathologies in different models**, so the edits that help diverge sharply. Running Self-Harness on Terminal-Bench-2.0 across three model families produced three distinct harnesses:
+
+- **MiniMax M2.5** — create the required output artifact *early*, handle structured tool content more carefully, and cut off unproductive tool-use loops (e.g., redirect after a tool-message budget).
+- **Qwen3.5-35B-A3B** — precheck dependencies before use, stop retrying identical failed commands, break endless-exploration cycles, and recover the required artifact after a tool error (via tool-error-triggered middleware).
+- **GLM-5** — make environment changes (PATH, installs) persist across shell sessions, and shift from prolonged exploration toward implementation and testing.
+
+A common theme cuts across all three — **artifact reliability** (the agent actually leaving the verifier-required output in place) — but the route to it is model-specific. Notably, Self-Harness sometimes reached beyond local patches into **structural mechanisms** like subagent-based decomposition and middleware. The lesson for practitioners: a harness copied wholesale from another team's setup is tuned to *their* model's quirks; expect to re-tune the rule files, tool policies, and guardrails for yours.
+
+### The gains, and the caveats
+
+On Terminal-Bench-2.0, Self-Harness improved **held-out** pass rates from 40.5%→61.9% (M2.5), 23.8%→38.1% (Qwen3.5-35B-A3B), and 42.9%→57.1% (GLM-5) — relative gains up to **138%** and absolute gains up to **21.4 points**, with no promoted harness degrading either split. Because the gains hold on *held-out* tasks the proposer never saw, the edits are targeting reusable execution mechanisms rather than overfitting to observed failures.
+
+The authors are candid about the limits, and they're worth keeping in view before you trust a self-editing harness in production:
+
+- It studies **bounded edits under fixed benchmarks**, not open-ended self-improvement.
+- Accepted edits can still reflect **benchmark-specific** failure patterns.
+- The whole loop is only as good as the **verifier and trace quality** behind it.
+- **Pass-rate non-regression alone is a weak gate** for higher-stakes changes — you'd want stronger acceptance criteria before letting a harness rewrite itself against anything that matters.
+
 ## Practitioner checklist
 
 When an agent misbehaves, diagnose *which layer* the problem lives in before reaching for a fix:
@@ -206,10 +248,12 @@ Most "the model is bad" complaints in production are actually harness gaps weari
 - Harness engineering exists because **autonomy exposes failure modes prompts can't reach**: context anxiety and unreliable self-evaluation are environment problems with environment-level fixes.
 - Treating the model as **a bounded component in a structured environment**, rather than an unpredictable magic box, is what makes agent results reliable enough to scale.
 - **The model is the engine; the harness is the car.** Every major lab is building one, and in 2026 the differentiator is harness reliability, not raw model IQ.
+- **Harnesses are model-specific, and they can now improve themselves.** The same harness suits different models differently; the **Self-Harness** paradigm shows an agent can mine its own failure traces and ship validated, regression-gated edits to its own scaffolding — treating harness improvement as a recorded, reversible, empirical state transition rather than a manual craft.
 
 ## References
 - Kaggle / Google — [The New SDLC with Vibe Coding](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding) (whitepaper by Addy Osmani, Shubham Saboo, and Sokratis Kartakis; section *"Harness Engineering: What surrounds the model"* — [Google Drive mirror](https://drive.google.com/file/d/1wNEl8FMpTso8aXlb_joxgzparxi-0ciM/view))
 - Addy Osmani — [Agent Harness Engineering](https://addyosmani.com/blog/agent-harness-engineering/) (the whitepaper co-author's companion post on the harness components, the ratchet principle, and `AGENTS.md`)
+- Hangfan Zhang, Shao Zhang, Kangcong Li, Chen Zhang, Yang Chen, Yiqun Zhang, Lei Bai, Shuyue Hu (Shanghai AI Laboratory) — [Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/abs/2606.09498) (arXiv:2606.09498, 2026; the propose → evaluate → accept loop — Weakness Mining, Harness Proposal, Proposal Validation — that lets a fixed model rewrite its own harness, evaluated on Terminal-Bench-2.0 across MiniMax M2.5, Qwen3.5-35B-A3B, and GLM-5)
 - Inkeep — [Context Anxiety: How AI Agents Panic About Their Perceived Context Windows](https://inkeep.com/blog/context-anxiety)
 - Parallel — [What is an agent harness?](https://parallel.ai/articles/what-is-an-agent-harness)
 - Firecrawl — [What Is an Agent Harness?](https://www.firecrawl.dev/blog/what-is-an-agent-harness)
