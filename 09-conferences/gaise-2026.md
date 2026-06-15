@@ -22,8 +22,7 @@ These are my personal notes from the sessions I attended.
 
 <img src="../assets/conferences/gaise-2026/event-photo.png" alt="GAISE 2026 — Tampere University">
 
-<!-- VIDEO PLACEHOLDER — replace the URL below with the YouTube link once available -->
-<!-- <a href="https://www.youtube.com/watch?v=VIDEO_ID"><img src="https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg" alt="GAISE 2026 — Conference Highlight Video"></a> -->
+<a href="https://youtu.be/uxBbHanhJww"><img src="https://img.youtube.com/vi/uxBbHanhJww/maxresdefault.jpg" alt="GAISE 2026 — Conference Highlight Video"></a>
 
 ---
 
