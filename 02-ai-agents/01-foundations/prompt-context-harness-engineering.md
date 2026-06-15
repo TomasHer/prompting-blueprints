@@ -95,29 +95,48 @@ A robust harness bridges the gap between a "smart model" and *reproducible* outp
 
 A practical extension of state and orchestration is **scheduling**: a built-in scheduler (e.g. cron-style triggers) lets the harness run recurring or condition-triggered tasks unattended — operating for hours or days without a human in the loop. This is what turns an interactive assistant into a background operator.
 
-## The whitepaper's lens: "what surrounds the model"
+## The whitepaper's lens: `Agent = Model + Harness`
 
-The Kaggle/Google whitepaper **[The New SDLC with Vibe Coding](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding)** (Addy Osmani, Shubham Saboo, and Sokratis Kartakis) frames the same three generations as a maturity progression — **prompt engineering (language) → context engineering (information) → harness engineering (environment)** — and its section *"Harness Engineering: What surrounds the model"* is the most concrete enumeration of the parts. It defines the harness as **the model plus everything you build around it** and lands on a blunt rule of thumb: **a decent model with a great harness beats a great model with a poor one.** The model is bought off the shelf; the harness is where the engineering leverage actually lives.
+The Kaggle/Google whitepaper **[The New SDLC with Vibe Coding](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding)** (Addy Osmani, Shubham Saboo, and Sokratis Kartakis, May 2026) devotes a section — *"Harness Engineering: What surrounds the model"* — to exactly this layer, and its framing is worth lifting wholesale.
 
-The whitepaper inventories the harness as a specific set of components wrapped around the model. Mapped onto the six subsystems above, they are:
+The whitepaper opens by naming a tempting but wrong intuition: *treating the model as the system.* A new model ships and the agent gets smarter; an older model and it gets worse — so the model becomes the explanation for everything good and bad. That instinct leads to the wrong investments. The model is **one input** into a running agent; everything else — the prompts, tools, context policies, hooks, sandboxes, sub-agents, and observability — is the **harness**, the scaffolding wrapped around the model that lets it actually *finish* something. The whitepaper compresses this into an equation:
 
-- **Prompts** — the system/sub-agent/tool prompts (Generation 1, now a component of the harness).
-- **Tools** — the actions the agent can take. The harness owns the full **tool-call lifecycle**: it validates the arguments the model proposes, checks permissions, executes the call inside a sandbox, and captures the result (or the error) back into context.
-- **Context policies & compaction** — rules for what enters the window and, as it fills, **compaction** that offloads and summarizes existing context so the agent can keep going past a single window (the structural answer to context anxiety).
-- **Hooks** — a **deterministic enforcement layer**. Where prompts *ask* the model to behave, hooks are code that *guarantees* it: lifecycle triggers (e.g. run the formatter after every edit, block a write outside the allowed paths, force tests before a commit) that fire regardless of what the model "decides." This is harness logic the model cannot talk its way out of.
-- **Sandboxes** — the execution boundary that contains what any tool call can touch (local, Docker, SSH, serverless).
-- **Subagents** — isolated delegation: a sub-agent explores extensively in its own window and returns only a **condensed 1–2k-token summary**, keeping the orchestrator's context clean.
-- **Feedback loops & recovery paths** — errors are returned to the model as results so it can self-correct, and state is persisted so a run can resume after an interruption instead of restarting.
-- **Memory: `AGENTS.md` + the session log** — `AGENTS.md` is the **rolling rulebook** injected on every start; when the agent edits it, the harness reloads it, so a lesson learned in one session carries into the next. The **session log** is the durable record of what happened. Together they are how procedural knowledge outlives a single context window.
-- **Skills** — reusable workflow chunks **progressively disclosed** into the system prompt only when relevant, so the agent gains a capability without paying for its full instructions on every turn (this is the mechanism behind the learning loop above).
-- **Verification** — a signal *separate from the model* that the work clears a bar. The whitepaper is pointed about why this matters: models **reliably skew positive when grading their own work**, producing the agent that "ships at 30% complete with full confidence." Truth has to come from a test, a type check, or a review gate, never the model's say-so.
+> **Agent = Model + Harness**
 
-Two pieces of *discipline* tie these components together:
+A raw model is not an agent; it becomes one once a harness gives it state, tool execution, feedback loops, and enforceable constraints. The behaviour developers experience with **Claude Code, Cursor, Codex, Antigravity, Aider, or Cline** is dominated by what the harness does, not just by which model is underneath. The whitepaper attaches a rough budget to this — roughly **~10% model, ~90% harness** — and a memorable line: *the model is the engine; the harness is the car, the road, and the traffic laws.* Crucially, that surface area is **the team's responsibility, not the model provider's.**
 
-- **The ratchet principle.** Treat every agent mistake as a permanent signal that **tightens the harness** — a new hook, a sharper `AGENTS.md` rule, a stricter verification gate. The harness only ever gets tighter, so a failure mode you've seen once should never get through again.
-- **Work backwards from desired behavior.** Don't bolt on components speculatively; start from the behavior you want (or the misbehavior you keep seeing) and design the prompt, tool, hook, or gate that produces it.
+### What's in the harness
 
-The new components this adds to the subsystem list above are **hooks** (deterministic enforcement) and the **`AGENTS.md` rulebook** (reloadable, cross-session memory) — both worth adding to any harness checklist, because they are where a lot of the day-to-day reliability of coding agents like Claude Code actually comes from.
+The whitepaper itemizes six components. Mapped against the six subsystems above, they line up closely — and add two the list above doesn't name explicitly (**observability** and the **instructions/rule-files** layer):
+
+- **Instructions and rule files** — the text defining who the agent is, what it cares about, and what it is forbidden from doing: `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, skill files, and sub-agent prompts.
+- **Tools** — the functions, MCP servers, and APIs the agent can call, *plus the prose around them* that tells the model when and how to call them.
+- **Sandboxes and execution environments** — where the agent's code actually runs, what it can access, and what it cannot reach.
+- **Orchestration logic** — sub-agent spawning, model routing, hand-offs between specialists, and the rules governing when each fires.
+- **Guardrails / hooks** — *deterministic* code that runs at specific lifecycle points (before a tool call, after a file edit, before a commit). Hooks are the place for things the agent should never forget but often does.
+- **Observability** — logs, traces, evaluations, and cost/latency metering. Without it there is no way to tell whether the agent is doing well or quietly drifting.
+
+### The harness operates in every SDLC phase
+
+The whitepaper's core SDLC claim is that the harness is not a one-time setup — it is active in **every phase** an agent works in:
+
+1. **Requirements, planning & architecture — *configuring* the harness.** Before any production code, the developer writes the instructions/rule files (e.g. `AGENTS.md`, architectural constraints), wires up the tools the agent may use, and sets the rules it cannot break.
+2. **Implementation — *running* the harness.** Generated code executes inside the harness's isolated sandbox; when the model needs to read a file or search the web, it does so through harness-provided tools.
+3. **Testing & QA — the *feedback loop*.** The harness's execution environment runs the automated tests; when one fails, the **orchestration logic** captures the error output and routes it back to the model to try again. This is what creates the autonomous **think → act → observe** loop.
+4. **Review, deployment & maintenance — *observing* the harness.** Deterministic **hooks** enforce safety (e.g. block a commit that pushes a hard-coded password), while the **observability** layer tracks token cost, latency, and drift so engineers can audit exactly why an agent made a given decision.
+
+### Vibe coding vs. agentic engineering
+
+The whitepaper draws a sharp line that reframes this whole repo's subject: the move from "vibe coding" to **agentic engineering** is *not* about which tools you use — the same agent can do either. It is defined by **how deliberately you configure and apply the harness.** Vibe coding leans on minimal, implicit scaffolding aimed at rapid implementation; agentic engineering uses clear, extensive harness abstractions that guide the AI from the first planning document through to production monitoring.
+
+### The harness effect is measurable
+
+Two benchmarks the whitepaper cites make the size of the effect concrete:
+
+- On **Terminal Bench 2.0**, one team moved a coding agent **from outside the Top 30 to the Top 5 by changing only the harness** — no model change at all.
+- A **LangChain** study raised an agent's score on the same benchmark by **13.7 points** by tweaking only the system prompt, tools, and middleware around a *fixed* model.
+
+The everyday corollary is the most useful sentence in the section: when an agent misbehaves, the first instinct is to blame the model, but the failure usually traces back to a missing tool, a vague rule, an absent guardrail, or a context window stuffed with noise. **Most agent failures, examined honestly, are configuration failures** — which is the practical case for the [practitioner checklist](#practitioner-checklist) below.
 
 ## How the layers nest
 
