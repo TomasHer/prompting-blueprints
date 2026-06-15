@@ -213,6 +213,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `07-use-cases-and-research/vibe-research.md`
 - [Kaggle 5-Day AI Agents Course Guide](https://www.kaggle.com/learn-guide/5-day-agents)
   - cited in: `02-ai-agents/01-foundations/google-5-day-ai-agents-course.md`
+- [Kaggle / Google – The New SDLC with Vibe Coding (whitepaper, Addy Osmani, Shubham Saboo, Sokratis Kartakis)](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding)
+  - cited in: `02-ai-agents/01-foundations/prompt-context-harness-engineering.md`, `04-guides/overview.md`
 - [Karpathy Andrej – LLM Wiki: A Pattern for Building Personal Knowledge Bases (GitHub Gist)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`
 - [KIRO – Hooks documentation](https://kiro.dev/docs/hooks/)

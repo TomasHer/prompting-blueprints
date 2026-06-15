@@ -1,7 +1,7 @@
 ---
 title: "From Prompt to Context to Harness Engineering"
 tags: ["agents", "harness-engineering", "context-engineering"]
-last_updated: "2026-06-07"
+last_updated: "2026-06-15"
 ---
 
 # From Prompt to Context to Harness Engineering
@@ -95,6 +95,30 @@ A robust harness bridges the gap between a "smart model" and *reproducible* outp
 
 A practical extension of state and orchestration is **scheduling**: a built-in scheduler (e.g. cron-style triggers) lets the harness run recurring or condition-triggered tasks unattended — operating for hours or days without a human in the loop. This is what turns an interactive assistant into a background operator.
 
+## The whitepaper's lens: "what surrounds the model"
+
+The Kaggle/Google whitepaper **[The New SDLC with Vibe Coding](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding)** (Addy Osmani, Shubham Saboo, and Sokratis Kartakis) frames the same three generations as a maturity progression — **prompt engineering (language) → context engineering (information) → harness engineering (environment)** — and its section *"Harness Engineering: What surrounds the model"* is the most concrete enumeration of the parts. It defines the harness as **the model plus everything you build around it** and lands on a blunt rule of thumb: **a decent model with a great harness beats a great model with a poor one.** The model is bought off the shelf; the harness is where the engineering leverage actually lives.
+
+The whitepaper inventories the harness as a specific set of components wrapped around the model. Mapped onto the six subsystems above, they are:
+
+- **Prompts** — the system/sub-agent/tool prompts (Generation 1, now a component of the harness).
+- **Tools** — the actions the agent can take. The harness owns the full **tool-call lifecycle**: it validates the arguments the model proposes, checks permissions, executes the call inside a sandbox, and captures the result (or the error) back into context.
+- **Context policies & compaction** — rules for what enters the window and, as it fills, **compaction** that offloads and summarizes existing context so the agent can keep going past a single window (the structural answer to context anxiety).
+- **Hooks** — a **deterministic enforcement layer**. Where prompts *ask* the model to behave, hooks are code that *guarantees* it: lifecycle triggers (e.g. run the formatter after every edit, block a write outside the allowed paths, force tests before a commit) that fire regardless of what the model "decides." This is harness logic the model cannot talk its way out of.
+- **Sandboxes** — the execution boundary that contains what any tool call can touch (local, Docker, SSH, serverless).
+- **Subagents** — isolated delegation: a sub-agent explores extensively in its own window and returns only a **condensed 1–2k-token summary**, keeping the orchestrator's context clean.
+- **Feedback loops & recovery paths** — errors are returned to the model as results so it can self-correct, and state is persisted so a run can resume after an interruption instead of restarting.
+- **Memory: `AGENTS.md` + the session log** — `AGENTS.md` is the **rolling rulebook** injected on every start; when the agent edits it, the harness reloads it, so a lesson learned in one session carries into the next. The **session log** is the durable record of what happened. Together they are how procedural knowledge outlives a single context window.
+- **Skills** — reusable workflow chunks **progressively disclosed** into the system prompt only when relevant, so the agent gains a capability without paying for its full instructions on every turn (this is the mechanism behind the learning loop above).
+- **Verification** — a signal *separate from the model* that the work clears a bar. The whitepaper is pointed about why this matters: models **reliably skew positive when grading their own work**, producing the agent that "ships at 30% complete with full confidence." Truth has to come from a test, a type check, or a review gate, never the model's say-so.
+
+Two pieces of *discipline* tie these components together:
+
+- **The ratchet principle.** Treat every agent mistake as a permanent signal that **tightens the harness** — a new hook, a sharper `AGENTS.md` rule, a stricter verification gate. The harness only ever gets tighter, so a failure mode you've seen once should never get through again.
+- **Work backwards from desired behavior.** Don't bolt on components speculatively; start from the behavior you want (or the misbehavior you keep seeing) and design the prompt, tool, hook, or gate that produces it.
+
+The new components this adds to the subsystem list above are **hooks** (deterministic enforcement) and the **`AGENTS.md` rulebook** (reloadable, cross-session memory) — both worth adding to any harness checklist, because they are where a lot of the day-to-day reliability of coding agents like Claude Code actually comes from.
+
 ## How the layers nest
 
 ```text
@@ -165,6 +189,8 @@ Most "the model is bad" complaints in production are actually harness gaps weari
 - **The model is the engine; the harness is the car.** Every major lab is building one, and in 2026 the differentiator is harness reliability, not raw model IQ.
 
 ## References
+- Kaggle / Google — [The New SDLC with Vibe Coding](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding) (whitepaper by Addy Osmani, Shubham Saboo, and Sokratis Kartakis; section *"Harness Engineering: What surrounds the model"* — [Google Drive mirror](https://drive.google.com/file/d/1wNEl8FMpTso8aXlb_joxgzparxi-0ciM/view))
+- Addy Osmani — [Agent Harness Engineering](https://addyosmani.com/blog/agent-harness-engineering/) (the whitepaper co-author's companion post on the harness components, the ratchet principle, and `AGENTS.md`)
 - Inkeep — [Context Anxiety: How AI Agents Panic About Their Perceived Context Windows](https://inkeep.com/blog/context-anxiety)
 - Parallel — [What is an agent harness?](https://parallel.ai/articles/what-is-an-agent-harness)
 - Firecrawl — [What Is an Agent Harness?](https://www.firecrawl.dev/blog/what-is-an-agent-harness)

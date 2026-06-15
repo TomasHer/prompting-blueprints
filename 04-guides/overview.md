@@ -1,7 +1,7 @@
 ---
 title: "Overview"
 tags: ["guides"]
-last_updated: "2026-06-10"
+last_updated: "2026-06-15"
 ---
 
 # Guides Overview
@@ -9,6 +9,7 @@ last_updated: "2026-06-10"
 These vendor guides are linked from their official sources rather than redistributed here — each document remains under its owner's copyright and license terms.
 
 ## Guides Library
+- [Kaggle / Google: The New SDLC with Vibe Coding](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding) — Whitepaper by Addy Osmani, Shubham Saboo, and Sokratis Kartakis on how AI-assisted ("vibe coding") development reshapes the software development lifecycle, including the progression from prompt → context → **harness engineering**. Its *"Harness Engineering: What surrounds the model"* section is digested into the repo's [harness engineering tutorial](../02-ai-agents/01-foundations/prompt-context-harness-engineering.md). ([Google Drive mirror](https://drive.google.com/file/d/1wNEl8FMpTso8aXlb_joxgzparxi-0ciM/view))
 - [Gemini Prompting Guide 101](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf) — Core prompting patterns, guardrails, and examples for Gemini models. ([Google Workspace landing page](https://workspace.google.com/learning/content/gemini-prompt-guide))
 - [Google: Startup Technical Guide for AI Agents](https://services.google.com/fh/files/misc/startup_technical_guide_ai_agents_final.pdf) — Technical guide for startups building AI agents. ([Google Cloud landing page](https://cloud.google.com/resources/content/building-ai-agents))
 - [OpenAI: A Practical Guide to Building Agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) — Blueprint for designing agent workflows, orchestration, and evaluation.

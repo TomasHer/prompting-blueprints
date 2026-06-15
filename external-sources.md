@@ -124,6 +124,7 @@
 ### K
 
 - [Kaggle 5-Day AI Agents Course Guide](https://www.kaggle.com/learn-guide/5-day-agents)
+- [Kaggle / Google – The New SDLC with Vibe Coding (whitepaper, Addy Osmani, Shubham Saboo, Sokratis Kartakis)](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding)
 - [Karpathy Andrej – LLM Wiki: A Pattern for Building Personal Knowledge Bases (GitHub Gist)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - [KIRO – Hooks documentation](https://kiro.dev/docs/hooks/)
 - [KIRO – Specs documentation](https://kiro.dev/docs/specs/)
