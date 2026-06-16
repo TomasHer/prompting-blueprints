@@ -39,7 +39,9 @@ Return code blocks and a brief setup note so I can run it locally.
 - **What it is**: Live coding support that injects intelligent completions, suggestions, and checks as you write.
 - **How it works**: The model streams real-time code, comments, tests, and warnings while you control commits and merges.
 - **AI product integration**: Increases developer productivity while keeping human oversight for architecture and reviews.
-- **AI tools and products**: [Cursor](https://www.cursor.com/), [GitHub Copilot](https://github.com/features/copilot), [Google Antigravity](https://labs.google.com/antigravity), [Continue](https://continue.dev/), [KIRO](https://kiro.studio/).
+- **AI tools and products**: [Cursor](https://www.cursor.com/), [GitHub Copilot](https://github.com/features/copilot), [Google Antigravity](https://labs.google.com/antigravity), [Continue](https://continue.dev/), [Kiro](https://kiro.dev/).
+
+> **Note:** [Kiro](https://kiro.dev/) spans this mid-level band into agentic coding — its Autopilot mode executes a full task list with minimal supervision. See the [Spec-Driven Development Tutorial](../../05-tools/spec-driven-development-tutorial.md) for its spec-driven workflow.
 
 **Starter prompt**
 ```text
@@ -74,4 +76,4 @@ Seek clarification if requirements are ambiguous.
 ## AI tools by category
 | Vibe-Coding | AI-Assisted Coding | Agentic Coding |
 | --- | --- | --- |
-| [bolt.new](https://bolt.new/) · [Lovable](https://lovable.dev/) · [Make](https://www.make.com/) · [Replit](https://replit.com/) · [Stagewise](https://stagewise.ai/) · [V0](https://v0.dev/) | [Cursor](https://www.cursor.com/) · [GitHub Copilot](https://github.com/features/copilot) · [Google Antigravity](https://labs.google.com/antigravity) · [Continue](https://continue.dev/) · [KIRO](https://kiro.studio/) | [OpenAI Codex](https://openai.com/blog/openai-codex) · [Claude Code](https://www.anthropic.com/news/claude-code) · [Devin](https://www.cognition-labs.com/blog/introducing-devin) · [Gemini CLI](https://ai.google.dev/cli) |
+| [bolt.new](https://bolt.new/) · [Lovable](https://lovable.dev/) · [Make](https://www.make.com/) · [Replit](https://replit.com/) · [Stagewise](https://stagewise.ai/) · [V0](https://v0.dev/) | [Cursor](https://www.cursor.com/) · [GitHub Copilot](https://github.com/features/copilot) · [Google Antigravity](https://labs.google.com/antigravity) · [Continue](https://continue.dev/) · [Kiro](https://kiro.dev/) | [OpenAI Codex](https://openai.com/blog/openai-codex) · [Claude Code](https://www.anthropic.com/news/claude-code) · [Devin](https://www.cognition-labs.com/blog/introducing-devin) · [Gemini CLI](https://ai.google.dev/cli) |
