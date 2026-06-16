@@ -84,6 +84,8 @@ GAISE 2026 kicked off with a warm welcome from Prof. Pekka Abrahamsson and Virve
 
 To kick off the session, we presented [#DAiTA — Intelligent Document Processing](https://www.post.at/en/g/c/daita) — Austrian Post Business Solutions' platform for AI-powered automation of business document workflows — as a real-world example of applied AI in enterprise operations.
 
+<img src="../assets/conferences/gaise-2026/day1/03-tomas/tomas2.jpg" alt="Agent-first IDEs Workshop — Tomas Herda presenting #DAiTA Intelligent Document Processing">
+
 <img src="../assets/conferences/gaise-2026/day1/03-tomas/IMG_8144.png" alt="Agent-first IDEs Workshop — Tomas Herda & Agnes Lipovits">
 
 The way we build software is changing rapidly. Modern Agent-first IDEs and coding agents such as Kiro, Google Antigravity, Cursor, Windsurf, and Claude Code no longer just autocomplete code — they can plan, implement, test, debug, and validate changes autonomously across entire repositories. At the same time, the industry is moving from prompt-driven coding toward **spec-driven autonomous engineering**, where agents execute structured specifications, constraints, and acceptance criteria instead of relying on ad-hoc prompts alone.
@@ -441,8 +443,7 @@ Continuing the Executive Track, GPT-Lab founder and conference host Prof. Pekka 
 
 ### 🎤 Conference Closing
 
-<!-- CLOSING PHOTO PLACEHOLDER -->
-<img src="../assets/conferences/gaise-2026/day3-closing.jpg" alt="GAISE 2026 — Conference Closing">
+<img src="../assets/conferences/gaise-2026/day3-closing.jpg" alt="GAISE 2026 — Conference Closing: Fishbowl — Reflections & Future Visions with the GPT-Lab team">
 
 A heartfelt thank you to everyone who made GAISE 2026 possible. The **GPT-Lab team** at Tampere University created an outstanding program that brought together researchers, practitioners, and executives from across the AI and software-engineering community.
 
