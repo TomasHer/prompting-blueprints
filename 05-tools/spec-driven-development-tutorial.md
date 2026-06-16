@@ -104,7 +104,7 @@ The agent MUST emit a deployment record with timestamp, image tag, and operator 
 
 ### Kiro IDE
 
-[Kiro](https://kiro.dev/) is purpose-built for spec-driven development. Two of its most important primitives are **Specs** and **Hooks**.
+[Kiro](https://kiro.dev/) is purpose-built for spec-driven development. Its most important primitives are **Specs**, **Steering**, and **Hooks**, and it connects to real systems through **MCP**. Kiro runs on Claude frontier models (Sonnet and Opus) with an *Auto* mode that selects the best model for each task, so model choice is one less thing to manage. To get started, download Kiro from [kiro.dev](https://kiro.dev/) and sign in with GitHub or Google — no AWS account is required.
 
 #### Specs
 
@@ -135,6 +135,40 @@ The agent reads the Spec before writing any code, ensuring every implementation 
 - Regenerate API documentation when an OpenAPI schema is modified.
 
 Hooks complement Specs by enforcing the *how* of your SDLC while Specs define the *what*. Together they replace the patchwork of manual steps that typically fall between vibe-coding and a production-ready codebase.
+
+#### Steering
+
+[Kiro Steering files](https://kiro.dev/docs/steering/) are persistent project rules that Kiro reads on *every* task and session — coding standards, architectural conventions, and tool preferences. Where a Spec is scoped to a single feature, Steering is the durable, repo-wide context that keeps the agent aligned no matter which feature it is working on.
+
+- Define naming conventions, preferred libraries, and directory layout once.
+- Encode review and security rules the agent must respect across the codebase.
+- Capture tool preferences (test runner, linter, package manager) so the agent picks the right command without being told.
+
+Steering is the Kiro-native equivalent of the lightweight spec layer that a `CLAUDE.md` provides for Claude Code (see below): both persist project intent across sessions so the agent never starts from a blank slate.
+
+#### MCP integration
+
+Kiro connects to real systems through the [Model Context Protocol (MCP)](https://kiro.dev/docs/mcp/). Configuring MCP servers lets the agent move beyond editing files to fetching real data and pushing real changes:
+
+- **Source control** — read and write GitHub or GitLab repositories, issues, and pull requests.
+- **Databases** — query PostgreSQL (and other stores) to ground implementation in the actual schema.
+- **Infrastructure** — interact with Docker and Kubernetes to inspect or update running services.
+
+MCP is what turns a Spec from a plan into an execution: the agent reads the intent from the Spec and Steering, then uses MCP-connected tools to act on the systems that intent describes.
+
+#### Workspace surfaces: IDE, CLI, and Web
+
+Kiro is not only an IDE — it ships in three surfaces that share the same Specs, Steering, and Hooks:
+
+| Surface | What it is | Best for |
+|---|---|---|
+| **IDE** | VS Code–compatible editor with Autopilot mode, diff reviews, multimodal input, and Open VSX plugins | Deep, hands-on feature work |
+| **CLI** | A terminal agent for feature development, bug fixing, and workflow automation (with SSH support) | Scripting and headless/remote environments |
+| **Web** | A cloud sandbox with persistent sessions and GitHub/GitLab integration | Working from anywhere without losing progress |
+
+> The Kiro CLI is distinct from the [Claude Code CLI](#claude-code-cli) covered below; both are terminal agents, but Kiro CLI shares Kiro's Specs/Steering/Hooks model, while Claude Code reads `CLAUDE.md`. They are complementary, not interchangeable.
+
+**Autopilot mode** is Kiro's autonomous execution mode: you hand off the generated task list and the agent implements, tests, and documents each task with full diff visibility, pausing for your review at the decision boundaries. It is the "Agents execute tasks" stage of the Prompt → Production pipeline.
 
 ### Google Antigravity
 
@@ -287,7 +321,9 @@ The human reviews the agent's execution log, confirms the plan matches the Spec,
 | Fast prototype | Lovable, bolt.new, Replit |
 | Feature spec with task list | Kiro Specs, GitHub spec-kit |
 | Automated quality gates | Kiro Hooks |
-| Terminal-based AI coding agent | Claude Code CLI |
+| Persistent, repo-wide agent rules | Kiro Steering, `CLAUDE.md` |
+| Connecting an agent to live systems | Kiro MCP servers |
+| Terminal-based AI coding agent | Kiro CLI, Claude Code CLI |
 | Repeatable operational SOPs | Strands Agents SDK |
 | Agent-agnostic spec commands | GitHub spec-kit |
 | IDE with built-in AI | Kiro, Google Antigravity |
@@ -308,8 +344,10 @@ The human reviews the agent's execution log, confirms the plan matches the Spec,
 
 ## References
 
-- Kiro IDE — Specs documentation: https://kiro.dev/docs/specs/
-- Kiro IDE — Hooks documentation: https://kiro.dev/docs/hooks/
+- Kiro — Specs documentation: https://kiro.dev/docs/specs/
+- Kiro — Hooks documentation: https://kiro.dev/docs/hooks/
+- Kiro — Steering documentation: https://kiro.dev/docs/steering/
+- Kiro — MCP documentation: https://kiro.dev/docs/mcp/
 - Strands Agents SDK — Quickstart: https://strandsagents.com/docs/user-guide/quickstart/overview/
 - Strands Agent SOP repository: https://github.com/strands-agents/agent-sop/tree/main
 - GitHub spec-kit: https://github.com/github/spec-kit
