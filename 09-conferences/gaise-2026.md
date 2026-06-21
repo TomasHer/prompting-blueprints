@@ -230,6 +230,8 @@ A session spotlighting doctoral research from the GPT-Lab community, chaired by 
 
 ### Theme: AI-Native World · Academic, Industry & Executive Tracks
 
+The day's **Executive Track** was chaired by **Sanni Pöntinen** (GPT-Lab / Tampere University).
+
 <a id="keynote-markus-borg"></a>
 
 ### 🎤 Keynote — Agents Code. Teams Erode. by Dr. Markus Borg, CodeScene / Lund University
@@ -263,7 +265,7 @@ Coding agents now write significant portions of production software, so Dr. Mark
 
 <img src="../assets/conferences/gaise-2026/day2/02-panel/IMG_7791.JPG" alt="The Rise of Agentic Organizations panel below Timo Savolainen's 'From Information Chaos to Organizational Shared Intelligence' slide — with Dr. Markus Borg, Alex Polyakov, Karoliina Kettukari and facilitator Sanni Pöntinen">
 
-**Opening remarks & panelist:** Timo Savolainen, Founder & CEO, 4. Aalto · **Panelists:** Dr. Markus Borg (CodeScene / Lund University), Alex Polyakov (CEO, ProjectSimple), Karoliina Kettukari (AI Director, OP Pohjola) · **Facilitator:** Sanni Pöntinen (Doctoral Student, University of Tampere)
+**Opening remarks & panelist:** Timo Savolainen, Founder & CEO, 4. Aalto · **Panelists:** Dr. Markus Borg (CodeScene / Lund University), Alex Polyakov (CEO, ProjectSimple), Karoliina Kettukari (AI Director, OP Pohjola) · **Facilitator:** Sanni Pöntinen (GPT-Lab / Tampere University)
 
 Right after the morning keynote, the Executive Track widened the lens from individual coding agents to the whole **agentic organization** — and to the people who have to lead it. The premise: organizations are becoming staffed not only by humans but by **physical AI** (robots and embodied systems) and **synthetic AI** (digital agents and "synthetic colleagues") that observe, decide, and act alongside their teams. Facilitated by Sanni Pöntinen, the panel paired a researcher (Markus Borg), two founders (Alex Polyakov and Timo Savolainen), and an enterprise AI leader (Karoliina Kettukari of OP Pohjola) to work through what leadership, structure, and accountability look like when the workforce is part human and part machine. Timo Savolainen set the table with opening remarks on the substrate all of this depends on — turning scattered, siloed knowledge into **shared organizational intelligence**.
 
@@ -372,7 +374,7 @@ What better way to expose the limits of a language model than to make it literal
 
 <img src="../assets/conferences/gaise-2026/day2/06-meeri/IMG_7840.JPG" alt="Where AI Creates Competitive Advantage — Managing Risk Environments — keynote by Meeri Haataja, CEO & CPO, Saidot">
 
-Opening the Executive Track, Meeri Haataja — CEO & CPO of AI-governance company **Saidot** — made the case that AI's real competitive edge isn't faster code but a *structural* change in how software organizations create value, and that capturing it depends on managing the new risk environment that comes with it. Grounding the argument in Saidot's own shift to agentic ways of working and in Chi Zhang et al.'s 2026 study of the AI-driven development paradigm, she walked through two structural shifts — redefining roles around **vertical integration** and a value-creation shift toward **maximizing cognitive bandwidth** — then turned to what governance looks like once agents, not humans, do most of the doing. The throughline: AI lets one person own far more of the value chain, but the advantage only compounds for organizations that redesign roles around individuals and move governance from forms to events.
+Opening the afternoon Executive Track, Meeri Haataja — CEO & CPO of AI-governance company **Saidot** — made the case that AI's real competitive edge isn't faster code but a *structural* change in how software organizations create value, and that capturing it depends on managing the new risk environment that comes with it. Grounding the argument in Saidot's own shift to agentic ways of working and in Chi Zhang et al.'s 2026 study of the AI-driven development paradigm, she walked through two structural shifts — redefining roles around **vertical integration** and a value-creation shift toward **maximizing cognitive bandwidth** — then turned to what governance looks like once agents, not humans, do most of the doing. The throughline: AI lets one person own far more of the value chain, but the advantage only compounds for organizations that redesign roles around individuals and move governance from forms to events.
 
 **Interesting observations**
 
@@ -439,7 +441,7 @@ Continuing the Executive Track, GPT-Lab founder and conference host Prof. Pekka 
 
 <img src="../assets/conferences/gaise-2026/day2/08-sebastian/IMG_7906.JPG" alt="AI Came To Work — But Who Is Leading It? — expert talk by Sebastian Sonntag, GPT-Lab / Tampere University">
 
-Closing the Executive Track, Sebastian Sonntag of GPT-Lab turned the leadership question into a field report. Drawing on his own 2026 interviews with CEOs, CFOs, and CTOs across **27 Finnish (S)MEs** (research still ongoing), he mapped where AI actually sits in companies today and who, if anyone, is steering it. The throughline: AI has already shown up to work in Finnish companies, but it has been handed to the wrong desk — filed as a technology project under the CTO when it is really a **business transformation** that needs its own leadership, literacy, and ownership up to board level.
+Also on the Executive Track, Sebastian Sonntag of GPT-Lab turned the leadership question into a field report. Drawing on his own 2026 interviews with CEOs, CFOs, and CTOs across **27 Finnish (S)MEs** (research still ongoing), he mapped where AI actually sits in companies today and who, if anyone, is steering it. The throughline: AI has already shown up to work in Finnish companies, but it has been handed to the wrong desk — filed as a technology project under the CTO when it is really a **business transformation** that needs its own leadership, literacy, and ownership up to board level.
 
 **Interesting observations**
 
