@@ -55,6 +55,8 @@ These are my personal notes from the sessions I attended.
 | [Expert Talk — The Essentials of AI: What AI Can Already Do](#talk-pekka-abrahamsson) | Prof. Pekka Abrahamsson, GPT-Lab / Tampere University |
 | [Expert Talk — AI Came To Work — But Who Is Leading It?](#talk-sebastian-sonntag) | Sebastian Sonntag, GPT-Lab / Tampere University |
 | [Hands-on Lab — How to Jailbreak LLMs](#lab-esa-karjalainen) | Esa Karjalainen, GPT-Lab / Tampere University |
+| [Hands-on Lab — Architecting in the AI Era](#lab-waseem) | Dr. Muhammad Waseem, GPT-Lab / Tampere University |
+| [Show & Tell — Stop Comparing Language Models. Start Building the Agentic OS.](#showtell-tiina) | Tiina Karhukivi & Mika Suominen, GPT-Lab / Tampere University |
 
 ### Day 3 — Wednesday, 3 June · Responsible AI Era
 
@@ -475,7 +477,7 @@ Closing the Executive Track, Sebastian Sonntag of GPT-Lab turned the leadership 
 
 <img src="../assets/conferences/gaise-2026/day2/09-esa/IMG_7924.JPG" alt="How to Jailbreak LLMs: Who Decides What AI Is Allowed to Say? — hands-on academic session by Esa Karjalainen, GPT-Lab / Tampere University">
 
-Rounding out Day 2, GPT-Lab doctoral researcher Esa Karjalainen ran a hands-on academic session with a deliberately provocative title — *How to Jailbreak LLMs* — but the subtitle gave away the real subject: *who decides what AI is allowed to say?* Rather than a playbook for bad actors, the session treated jailbreaking as a research lens: every successful jailbreak is also a probe of where the line between "allowed" and "refused" actually sits, who drew it, and how fragile that line really is. Before getting hands-on, Karjalainen made the case for why any organisation deploying LLMs should treat this as an operational security concern rather than academic curiosity — because the same techniques researchers use to red-team models are the ones attackers turn on production systems.
+On Day 2's hands-on academic track, GPT-Lab doctoral researcher Esa Karjalainen ran a session with a deliberately provocative title — *How to Jailbreak LLMs* — but the subtitle gave away the real subject: *who decides what AI is allowed to say?* Rather than a playbook for bad actors, the session treated jailbreaking as a research lens: every successful jailbreak is also a probe of where the line between "allowed" and "refused" actually sits, who drew it, and how fragile that line really is. Before getting hands-on, Karjalainen made the case for why any organisation deploying LLMs should treat this as an operational security concern rather than academic curiosity — because the same techniques researchers use to red-team models are the ones attackers turn on production systems.
 
 **Interesting observations**
 
@@ -488,7 +490,49 @@ Rounding out Day 2, GPT-Lab doctoral researcher Esa Karjalainen ran a hands-on a
 <!-- PHOTO PLACEHOLDER — "Why Your Organisation Should Care" slide (four quadrants); save to day2/09-esa/ and uncomment -->
 <!-- <img src="../assets/conferences/gaise-2026/day2/09-esa/why-your-organisation-should-care.jpg" alt="Why Your Organisation Should Care — the system prompt is your defence layer, agentic pipelines expand the attack surface, the alignment tax is real, and it is a moving target"> -->
 
-- **Jailbreaking reframed as a governance question.** The subtitle — *who decides what AI is allowed to say?* — ran underneath the techniques: refusals and guardrails encode someone's policy choices, so probing them is as much about understanding who sets those boundaries (and why) as about breaking them. It made a fitting close to the AI-Native World day and a bridge into Day 3's Responsible AI Era theme — complementing the governance threads from [Meeri Haataja](#keynote-meeri-haataja) and [Sebastian Sonntag](#talk-sebastian-sonntag).
+- **Jailbreaking reframed as a governance question.** The subtitle — *who decides what AI is allowed to say?* — ran underneath the techniques: refusals and guardrails encode someone's policy choices, so probing them is as much about understanding who sets those boundaries (and why) as about breaking them. It tied straight into the day's governance threads — complementing [Meeri Haataja](#keynote-meeri-haataja) and [Sebastian Sonntag](#talk-sebastian-sonntag) — and pointed ahead to Day 3's Responsible AI Era theme.
+
+<a id="lab-waseem"></a>
+
+### 🛠️ Hands-on Lab — Architecting in the AI Era by Dr. Muhammad Waseem, GPT-Lab / Tampere University
+
+<img src="../assets/conferences/gaise-2026/day2/10-waseem/IMG_7931.JPG" alt="Architecting in the AI Era — hands-on lab by Dr. Muhammad Waseem, GPT-Lab / Tampere University; the architecture-generation tool projected on both screens at the Requirement Collection stage">
+
+Day 2's hands-on academic track turned from breaking models to building with them. After his Day 1 survey of the field, Dr. Muhammad Waseem returned with a working artifact — a custom web tool that takes a plain-language application specification and walks it through more than fifteen sequential stages of software architecture, drafting reviewable artifacts at each step before producing the final diagrams and documentation. Where his [Day 1 talk](#academic-waseem) asked how we *measure* GenAI's impact on software engineering, this session put a concrete answer on the screen: [spec-driven development](https://github.com/TomasHer/prompting-blueprints/blob/main/05-tools/spec-driven-development-tutorial.md) carried all the way up to the architecture itself — a staged, gated pipeline where AI drafts and humans approve. The throughline: the leverage isn't a one-shot "generate my architecture" button, it's the disciplined, stage-by-stage review that keeps an AI-generated design honest.
+
+**Interesting observations**
+
+- **From spec to architecture, one gated stage at a time.** The tool's spine is a left-rail pipeline of 15+ stages grouped into three phases — **Requirement Definition** (Requirement Collection → Requirements Analysis → Architecture Drivers), **Architecture Design** (Style Recommendation, Tradeoff Evaluation, System Decomposition, Data Architecture, API & Integration, Cross-Cutting Concerns, Infrastructure & Deployment), and **Validation & Assurance** (Quality Attributes, Risk Assessment, Architecture Validation). Feed it an application spec and it walks the whole arc from raw requirements to a validated design.
+
+- **AI drafts, humans approve — stage by stage.** Each stage runs in an *AI + Manual Review* mode: the model proposes the artifacts and the human gates them. The demo's *E-Commerce Marketplace* project sat on **Requirement Collection** with **45 requirements** auto-extracted — 23 functional, 8 non-functional, 4 constraints, 5 assumptions, plus a fifth bucket — surfaced at *medium confidence* and **0% finalized** until reviewed. Two controls move the work on: **Lock & Advance** (approve and proceed) or **Flag for Revision** (send it back).
+
+- **Supervised or autonomous — your call.** Alongside the manual gates, an **Autonomous Pipeline** ("Run AI Automatically") can run the stages end-to-end without stopping at every checkpoint — the same approve-or-automate dial that ran through Alex Polyakov's [human-in-the-loop keynote](#keynote-alex-polyakov) and Jussi Rasku's [harness loop](#lab-jussi-rasku), here pointed at architecture work.
+
+- **The output is documentation, not just a diagram.** Every stage emits artifacts — a per-stage **Stage Report** and **PDF export** — so a finished run leaves behind architecture *documentation* (drivers, trade-offs, decisions, quality attributes, risks) alongside the diagrams. That captured rationale is precisely the kind of intent Markus Borg warned teams lose to agents; his prescription to [capture intent before agents act](#keynote-markus-borg) shows up here baked into a tool.
+
+- **Hands-on: run your own spec through it.** The lab then handed participants the wheel — feed in an application idea, watch the AI extract and classify the requirements, review the confidence-scored output, and lock stages to generate the downstream architecture and docs. The table groups huddled over a single laptop, debating an extraction before advancing it (below), were the session in miniature: the model does the drafting, but the judgment call at each gate stays human.
+
+<img src="../assets/conferences/gaise-2026/day2/10-waseem/IMG_7936.JPG" alt="Participants huddled over a laptop, reviewing the AI-extracted requirements together during Dr. Muhammad Waseem's hands-on architecture lab">
+
+<a id="showtell-tiina"></a>
+
+### 🖥️ Show & Tell — Stop Comparing Language Models. Start Building the Agentic OS. by Tiina Karhukivi & Mika Suominen, GPT-Lab / Tampere University
+
+<img src="../assets/conferences/gaise-2026/day2/11-tiina/20260602_154355.jpg" alt="Stop Comparing Language Models. Start Building the Agentic OS. — Show & Tell by Tiina Karhukivi & Mika Suominen, GPT-Lab / Tampere University; the closing 'Start today' five-step slide">
+
+Closing out Day 2's AI-Native World track, GPT-Lab's Tiina Karhukivi and Mika Suominen made the conference's running thesis personal — and literal — by building an everyday AI **"Chief of Staff"** live on stage. The provocation was right in the title: *stop comparing language models.* Benchmark-chasing is a treadmill; the durable advantage isn't which model you pick but the **structured layer you wrap around it** — identity, context, and memory — that turns a generic chatbot into a reliable, organization-aware system. They called that layer an **Agentic OS**, and the demo showed a plain assistant graduating into one as each layer was added. The throughline: the model is interchangeable, but *your* identity, context, and skills are the moat — and once they exist as an OS, every new agent inherits them for free.
+
+**Interesting observations**
+
+- **Stop comparing models — that's the wrong contest.** The title was the argument: obsessing over which LLM tops this week's benchmark misses where the leverage actually is. Models are converging and commoditizing; what separates one assistant from another is the **identity, context, and memory** wrapped around it. It's the same "the model isn't the bottleneck, the system around it is" lesson that ran through [Jussi Rasku's harness lab](#lab-jussi-rasku) and the [agent-harness demo](#demo-harnesses) — here pointed at everyday knowledge work instead of coding agents.
+
+- **The Agentic OS — a structured layer, not a clever prompt.** Their recipe for a dependable assistant stacks five things: an **identity** layer (who you are and how you work), **context** files (stakeholders, projects, operating principles), persistent **memory**, reusable **skills**, and **agents** on top. Adding each layer live, they showed a generic chatbot turn into something organization-aware — the working embodiment of the [context-engineering](https://github.com/TomasHer/prompting-blueprints/blob/main/02-ai-agents/03-context-and-memory/context-engineering.md) case Tomas Herda made on [Day 1](#workshop-agent-first-ides) and of Karpathy's line that most failures are missing context, not a weak model.
+
+- **Skills: write it once, fire it forever.** A skill captures a workflow you repeat so the assistant runs it the same way every time — the same reusable unit covered in [Anatomy of a Skill](https://github.com/TomasHer/prompting-blueprints/blob/main/02-ai-agents/02-skills/anatomy-of-a-skill.md). It's the step where an assistant stops being a chat box and starts being infrastructure.
+
+- **Each new agent inherits your entire OS.** The compounding punchline: once identity, context, and skills exist as a shared layer, you don't rebuild them per agent — every new agent stands on top of the same OS. It's an individual's take on the **shared organizational intelligence** Timo Savolainen sketched in the [agentic-organizations panel](#panel-agentic-organizations): build the layer once, and everything downstream draws on it.
+
+- **"Start today" — a five-step on-ramp.** The closing slide (pictured) turned the talk into homework anyone could begin that afternoon: (1) **Brain dump to an AI** — have it interview you with 15 questions about how you work; (2) **Write your identity file** — *"70% right is fine. You'll patch it as you go"*; (3) **Add 3 context files** — stakeholders, projects, operating principles, one page each; (4) **Build your first skill** — pick a workflow you repeat, *"write it once, fire it forever"*; (5) **Add your first agent** — after which *"each new agent inherits your entire OS."* A fitting close to the AI-Native World day: if Day 2's running argument was that the model is no longer the story, this was the build-it-yourself coda — and a hand-off into Day 3's Responsible AI Era.
 
 ---
 
