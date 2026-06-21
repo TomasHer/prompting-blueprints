@@ -54,6 +54,7 @@ These are my personal notes from the sessions I attended.
 | [Keynote — Where AI Creates Competitive Advantage](#keynote-meeri-haataja) | Meeri Haataja, CEO & CPO, Saidot |
 | [Expert Talk — The Essentials of AI: What AI Can Already Do](#talk-pekka-abrahamsson) | Prof. Pekka Abrahamsson, GPT-Lab / Tampere University |
 | [Expert Talk — AI Came To Work — But Who Is Leading It?](#talk-sebastian-sonntag) | Sebastian Sonntag, GPT-Lab / Tampere University |
+| [Hands-on Lab — How to Jailbreak LLMs](#lab-esa-karjalainen) | Esa Karjalainen, GPT-Lab / Tampere University |
 
 ### Day 3 — Wednesday, 3 June · Responsible AI Era
 
@@ -467,6 +468,27 @@ Closing the Executive Track, Sebastian Sonntag of GPT-Lab turned the leadership 
 <!-- <img src="../assets/conferences/gaise-2026/day2/08-sebastian/ai-leadership.jpg" alt="AI leadership — the responsibilities of a dedicated AI leader, from understanding business and AI possibilities to fixing data-readiness gaps"> -->
 
 - **Culture, and the bottom line.** Position AI as a positive not a threat, make its value visible through real examples, back **local and leadership champions**, and reward adoption — and reframe the message, since *"using AI is a step forward in your career"* lands far better than *"someone with AI will take your job."* Net: Finnish adoption is early-stage, and moving past chat-and-copilot use needs process redesign, governance, and **dedicated Data and AI leadership** to connect AI to real business bottlenecks — complementing [Meeri Haataja](#keynote-meeri-haataja), [Pekka Abrahamsson](#talk-pekka-abrahamsson), and [Janne Kuivalainen](#tech-talk-janne).
+
+<a id="lab-esa-karjalainen"></a>
+
+### 🛠️ Hands-on Lab — How to Jailbreak LLMs: Who Decides What AI Is Allowed to Say? by Esa Karjalainen, GPT-Lab / Tampere University
+
+<img src="../assets/conferences/gaise-2026/day2/09-esa/IMG_7924.JPG" alt="How to Jailbreak LLMs: Who Decides What AI Is Allowed to Say? — hands-on academic session by Esa Karjalainen, GPT-Lab / Tampere University">
+
+Rounding out Day 2, GPT-Lab doctoral researcher Esa Karjalainen ran a hands-on academic session with a deliberately provocative title — *How to Jailbreak LLMs* — but the subtitle gave away the real subject: *who decides what AI is allowed to say?* Rather than a playbook for bad actors, the session treated jailbreaking as a research lens: every successful jailbreak is also a probe of where the line between "allowed" and "refused" actually sits, who drew it, and how fragile that line really is. Before getting hands-on, Karjalainen made the case for why any organisation deploying LLMs should treat this as an operational security concern rather than academic curiosity — because the same techniques researchers use to red-team models are the ones attackers turn on production systems.
+
+**Interesting observations**
+
+- **Why your organisation should care — four reasons LLM safety is operational, not a checkbox.**
+<br>**The system prompt is your defence layer** — most deployed LLMs rely almost entirely on a system prompt for safety, so if it's underspecified, attackers don't need to do much.
+<br>**Agentic pipelines expand the attack surface** — once an LLM reads documents, fetches URLs, or calls tools, attackers can inject instructions from those sources, not just the chat input (indirect prompt injection).
+<br>**The alignment tax is real** — every guardrail has a false-positive rate, and overly cautious models frustrate legitimate users, which itself creates demand for workarounds.
+<br>**It is a moving target** — new attack techniques emerge continuously, so treating LLM safety as a one-time configuration is the same mistake as shipping software with no patch process.
+
+<!-- PHOTO PLACEHOLDER — "Why Your Organisation Should Care" slide (four quadrants); save to day2/09-esa/ and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/09-esa/why-your-organisation-should-care.jpg" alt="Why Your Organisation Should Care — the system prompt is your defence layer, agentic pipelines expand the attack surface, the alignment tax is real, and it is a moving target"> -->
+
+- **Jailbreaking reframed as a governance question.** The subtitle — *who decides what AI is allowed to say?* — ran underneath the techniques: refusals and guardrails encode someone's policy choices, so probing them is as much about understanding who sets those boundaries (and why) as about breaking them. It made a fitting close to the AI-Native World day and a bridge into Day 3's Responsible AI Era theme — complementing the governance threads from [Meeri Haataja](#keynote-meeri-haataja) and [Sebastian Sonntag](#talk-sebastian-sonntag).
 
 ---
 
