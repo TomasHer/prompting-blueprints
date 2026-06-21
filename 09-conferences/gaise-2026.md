@@ -224,8 +224,6 @@ A candid, practitioner's-eye talk on the pitfalls of leaning on generative AI in
 
 ### 🎓 Doctoral Research Presentations by Dr. Kai-Kristian Kemell & Dr. Mika Saari, GPT-Lab / Tampere University
 
-<!-- PHOTO PLACEHOLDER — add image once available -->
-
 A session spotlighting doctoral research from the GPT-Lab community, chaired by Dr. Kai-Kristian Kemell and Dr. Mika Saari. Early-stage researchers shared work-in-progress at the intersection of AI and software engineering — a window into the questions the next generation of the field is taking on.
 
 ---
@@ -338,13 +336,7 @@ Jiri Härmä's live, interactive walkthrough — *From dependence to sovereignty
 
 - **Your AI stack is a supply chain.** Out of the physical Bill of Materials grows an **AI-BOM** — models, vendors, data, compute, talent. Physical components have had second sources for decades; these have none.
 
-<!-- PHOTO PLACEHOLDER — "Your AI stack is a supply chain" slide; add image to day2/04-jiri/ once available -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/04-jiri/FILENAME.JPG" alt="Your AI stack is a supply chain — the AI-BOM of models, vendors, data, compute, and talent"> -->
-
 - **Simulate the shock.** Knock out a component (e.g. Data pipeline) and the impact propagates live: against ~€980K/week revenue, a six-month single-source outage put **€4.07M at risk** (−15%/week), because two downstream apps had no fallback.
-
-<!-- PHOTO PLACEHOLDER — "The dependency portfolio" slide; add image to day2/04-jiri/ once available -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/04-jiri/FILENAME.JPG" alt="The dependency portfolio — simulating the revenue impact when the Data pipeline fails"> -->
 
 - **From dependence to sovereignty (L1→L5).** A posture lever scales exposure down — from L1 "ungoverned" (full impact) to L5 "sovereign" (0.2×) — turning the case for GenAI sovereignty into a concrete number rather than an abstract principle.
 
@@ -362,15 +354,7 @@ What better way to expose the limits of a language model than to make it literal
 
 - **The frontier LLMs all hit the wall — some harder than others.** Handed the same maze, GPT-5.5 and Gemini 3.1 Pro both drew plausible-looking routes that slice straight through the walls — reasoning over the *picture* of the maze rather than its navigable space. Claude Opus 4.8 fared best, tracking the corridors from *Start* to *Exit* on a redrawn maze, but even the cleanest run made the same point: a text model has no real spatial model of the world.
 
-<!-- PHOTO PLACEHOLDER — three maze-attempt slides; save to day2/05-kalle/ and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/05-kalle/gpt-5-5.jpg" alt="GPT-5.5 attempts the maze — the red path cuts straight through the walls"> -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/05-kalle/gemini-3-1-pro.jpg" alt="Gemini 3.1 Pro attempts the maze — the green path also cuts through the walls"> -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/05-kalle/claude-opus-4-8.jpg" alt="Claude Opus 4.8 attempts the maze — the red path follows the corridors from Start to Exit"> -->
-
 - **"What if the maze became real?" — world models in action.** The pivot that named the session: NVIDIA's **Cosmos Predict 2.5** doesn't reason over pixels, it *simulates* the physical environment — so a mouse simply runs the shortest way through a real 3D maze to the cheese. Geometry, navigation, and dynamics emerge from the simulation instead of being guessed from a flat image.
-
-<!-- PHOTO PLACEHOLDER — "What If the Maze Became Real?" (Cosmos Predict 2.5) slide; save as day2/05-kalle/cosmos-predict-2-5.jpg and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/05-kalle/cosmos-predict-2-5.jpg" alt="What If the Maze Became Real? — Cosmos Predict 2.5 simulates a physical maze where a mouse runs the shortest path to the cheese"> -->
 
 - **The takeaway: tokens aren't space.** LLMs predict the next token; they don't maintain a model of the physical world, so spatial and embodied tasks are exactly where they hit a wall. World models — which learn the *dynamics* of an environment rather than the statistics of text — are the complementary capability the field is now racing toward.
 
@@ -386,13 +370,7 @@ Opening the afternoon Executive Track, Meeri Haataja — CEO & CPO of AI-governa
 
 - **Role redefinition — from horizontal layering to vertical integration.** The first shift is org-structural. Traditional teams are *horizontally layered* by function: a PM passes a PRD down to an Architect who splits work across Front-end and Back-end, who hand off to Test, who hand off to Ops — and every handover crosses a *communication wall* that piles up friction and cost. AI collapses that stack into *vertical*, cross-functional **super-cells**, where one person owns an entire column end-to-end — PM, Architect, Front-end, Back-end, Test, Ops — on top of a shared layer of AI infrastructure and agents. The flagged takeaway: **one person can now do far more things**, so value shifts from coordinating across silos to genuine end-to-end ownership (Chi Zhang et al., 2026).
 
-<!-- PHOTO PLACEHOLDER — "Role Redefinition: Vertical integration" slide (Figure 1); save to day2/06-meeri/ and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/06-meeri/vertical-integration.jpg" alt="Role Redefinition: Vertical integration — traditional horizontal functional layering vs. AI-driven vertical cross-functional super-cells with end-to-end ownership (Chi Zhang et al., 2026)"> -->
-
 - **Value creation shift — maximizing cognitive bandwidth.** The second shift reframes seniority as *unused capacity*. Charting cognitive bandwidth across a career, the *utilized* load (actual work) paradoxically falls as engineers get more senior — ~9.5 units in Year 1 (novice), 8.0 at Year 3 (intermediate), 4.8 at Year 5 (senior), and just 2.5 at Year 10+ (expert) — even as total capacity keeps climbing. The gap between the two is *idle bandwidth (waste)*, and it widens with experience: the most capable people leave the most on the table under the traditional paradigm. AI's role is to close that gap — the rising *target load* line — by letting experts run near full bandwidth instead of being boxed into a narrow functional role.
-
-<!-- PHOTO PLACEHOLDER — "Value Creation Shift: Maximising Cognitive Bandwidth" slide (Figure 2); save to day2/06-meeri/ and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/06-meeri/cognitive-bandwidth.jpg" alt="Value Creation Shift: Maximising Cognitive Bandwidth — utilized cognitive load falls with seniority while idle bandwidth (waste) widens against the AI-paradigm target load"> -->
 
 - **In a nutshell — eight observations from Saidot's own shift to agentic working.** The closing slide distilled what the company has actually lived through:
 <br>(1) **Fast shift to agentic use** — moving away from the UI, with a big shift in risk appetite.
@@ -403,9 +381,6 @@ Opening the afternoon Executive Track, Meeri Haataja — CEO & CPO of AI-governa
 <br>(6) **Work is more interesting than ever** — and also more intellectually demanding.
 <br>(7) **Design the org around individuals, not standard roles.**
 <br>(8) **Testing and instructions are the new bottleneck** — you now build instructions for agents, not just humans.
-
-<!-- PHOTO PLACEHOLDER — "In a nutshell" slide; save to day2/06-meeri/ and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/06-meeri/in-a-nutshell.jpg" alt="In a nutshell — Saidot's observations from its shift to agentic ways of working"> -->
 
 <a id="talk-pekka-abrahamsson"></a>
 
@@ -426,20 +401,11 @@ Continuing the Executive Track, GPT-Lab founder and conference host Prof. Pekka 
 
 - **The sharper claim: the leader has to be the best user.** The flip side of those patterns was the talk's central argument — **a leader's own quality of AI use is the single biggest predictor of team adoption.** When the CEO is the best user, making real decisions with AI at their own desk, the result is a *frontier company* and a hive of productive, AI-enabled people around them; when leaders only talk about it, the team is left swinging between underestimating and overestimating the technology.
 
-<!-- PHOTO PLACEHOLDER — "The Three CEO Adoption Patterns" slide; save to day2/07-pekka/ and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/07-pekka/ceo-adoption-patterns.jpg" alt="The Three CEO Adoption Patterns (and how they limit value) — the Podcast CTO, the Weekend Tinkerer, and the Manifesto Writer, all sharing the failure mode of partial engagement, versus the leader who is the best user"> -->
-
 - **A new coinage: "We as departments are humping forward."** Pekka offered his own neologism for the awkward, lurching, half-committed way most organizations are advancing on AI — not striding, not standing still, but *humping forward.* It landed as the talk's most memorable line precisely because it named the in-between state so many in the room recognized.
 
 - **Demo 1 — a digital twin of the Finnish government passing a law.** The first live demo ran a *Digital Finnish Parliament* — an agent-driven digital twin of the Finnish government that takes a proposal through the legislative process end-to-end, until a law is passed. The point for executives: agentic systems can now model not just a single task but an entire institution and its decision-making.
 
-<!-- PHOTO PLACEHOLDER — "Digital Finnish Parliament" demo; save to day2/07-pekka/ and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/07-pekka/digital-finnish-parliament.jpg" alt="Digital Finnish Parliament — an agent-driven digital twin that runs a proposal through the legislative process until a law is passed"> -->
-
 - **Demo 2 — godagent.org: agents that breed new agents.** The second demo, on [godagent.org](https://godagent.org), showed an *Agent Multiverse* in which a master orchestrator ("God Chat") takes a single natural-language request and **spawns the specialized agents it needs to answer it.** Asked to explain what drove the New York Stock Exchange to its latest close, it bred two sub-agents on the fly — a **NYSE Data Scout** to retrieve the exact closing level of the NYSE Composite Index (NYA) for the most recent session prior to 2 June 2026, and a **Market Causality Analyst** to run a self-grounded search over late-May-2026 Federal Reserve commentary, recent CPI/PCE prints, and sector-specific catalysts — then synthesized their outputs into one evidence-backed answer. The executive takeaway: agentic systems no longer need every tool pre-built; they **assemble their own team to resolve the task** ([AI agents overview](https://github.com/TomasHer/prompting-blueprints/blob/main/02-ai-agents/01-foundations/ai-agents-overview.md)).
-
-<!-- PHOTO PLACEHOLDER — "godagent.org — Agent Multiverse" demo; save to day2/07-pekka/ and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/07-pekka/godagent-agent-multiverse.jpg" alt="godagent.org Agent Multiverse — a God Chat master orchestrator breeding NYSE Data Scout and Market Causality Analyst sub-agents to resolve a query"> -->
 
 <a id="talk-sebastian-sonntag"></a>
 
@@ -464,18 +430,9 @@ Also on the Executive Track, Sebastian Sonntag of GPT-Lab turned the leadership 
 | Agentic process automation | AI executes substantial parts of a business process, with humans at exception and decision points | Process redesign, integrations, ownership, investment | Large savings/service gains; large investment with high execution risk |
 | AI-native operating model ("AI-first companies") | The organization is designed around AI as a core production capability, not just a tool | Major transformation and leadership commitment | Potential competitive advantage; **no proven public examples — is this viable?** |
 
-<!-- PHOTO PLACEHOLDER — "Business AI Adoption Ladder" slide; save to day2/08-sebastian/ and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/08-sebastian/adoption-ladder.jpg" alt="Business AI Adoption Ladder — six rungs from passive adoption to AI-native operating model, with what changes, requirements, and value/risk at each level"> -->
-
 - **The barriers.** Initiatives stall on unclear business value, cultural and identity resistance, poor data readiness, and lack of leadership — and the least technical bite hardest: identity-driven resistance (fear of lost professional value, the *"slop"* perception, needing to verify everything, fear of blame) and the quiet data killer, **AI outputs can't be verified against source data**.
 
-<!-- PHOTO PLACEHOLDER — "Barriers of AI adoption" slide ("Why AI initiatives struggle" cartoon); save to day2/08-sebastian/ and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/08-sebastian/barriers.jpg" alt="Barriers of AI adoption — unclear business value, cultural and identity resistance, poor data readiness, and lack of leadership"> -->
-
 - **The core argument: AI is a business transformation, not a technology project.** Because it's *"treated as IT"* and ownership is *"delegated too narrowly to the CTO,"* it gets run as tech delivery instead of operating-model change. Sonntag's structural fix: a **Head of AI fits better under the CIO than the CTO** — yet most leadership teams **lack anyone who genuinely understands AI**, and **no board-level AI seat exists yet**. The role he sketches closes that gap: learn the business from the teams, surface bottlenecks and opportunities, turn them into process change, set KPIs and ROI, and fix data-readiness gaps.
-
-<!-- PHOTO PLACEHOLDER — "AI leadership" slide; save to day2/08-sebastian/ and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/08-sebastian/ai-leadership.jpg" alt="AI leadership — the responsibilities of a dedicated AI leader, from understanding business and AI possibilities to fixing data-readiness gaps"> -->
 
 - **Culture, and the bottom line.** Position AI as a positive not a threat, make its value visible through real examples, back **local and leadership champions**, and reward adoption — and reframe the message, since *"using AI is a step forward in your career"* lands far better than *"someone with AI will take your job."* Net: Finnish adoption is early-stage, and moving past chat-and-copilot use needs process redesign, governance, and **dedicated Data and AI leadership** to connect AI to real business bottlenecks — complementing [Meeri Haataja](#keynote-meeri-haataja), [Pekka Abrahamsson](#talk-pekka-abrahamsson), and [Janne Kuivalainen](#tech-talk-janne).
 
@@ -494,9 +451,6 @@ On Day 2's hands-on academic track, GPT-Lab doctoral researcher Esa Karjalainen 
 <br>**Agentic pipelines expand the attack surface** — once an LLM reads documents, fetches URLs, or calls tools, attackers can inject instructions from those sources, not just the chat input (indirect prompt injection).
 <br>**The alignment tax is real** — every guardrail has a false-positive rate, and overly cautious models frustrate legitimate users, which itself creates demand for workarounds.
 <br>**It is a moving target** — new attack techniques emerge continuously, so treating LLM safety as a one-time configuration is the same mistake as shipping software with no patch process.
-
-<!-- PHOTO PLACEHOLDER — "Why Your Organisation Should Care" slide (four quadrants); save to day2/09-esa/ and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day2/09-esa/why-your-organisation-should-care.jpg" alt="Why Your Organisation Should Care — the system prompt is your defence layer, agentic pipelines expand the attack surface, the alignment tax is real, and it is a moving target"> -->
 
 - **Jailbreaking reframed as a governance question.** The subtitle — *who decides what AI is allowed to say?* — ran underneath the techniques: refusals and guardrails encode someone's policy choices, so probing them is as much about understanding who sets those boundaries (and why) as about breaking them. It tied straight into the day's governance threads — complementing [Meeri Haataja](#keynote-meeri-haataja) and [Sebastian Sonntag](#talk-sebastian-sonntag) — and pointed ahead to Day 3's Responsible AI Era theme.
 
@@ -602,23 +556,11 @@ Following Mikkonen's opening keynote, Day 3's industrial track turned the mornin
 
 - **The antidotes to unmanaged AI coding.** Torhola opened with a menu of countermeasures to the failure modes of vibe coding: **Spec-Driven Development (SDD)** and its fast-moving tool ecosystem (GitHub Spec Kit, Amazon Kiro, BMAD, Augment Intent, Tessl, Rovo, Tracey.io); **Test-Driven Development** (test first, develop later); the **DORA AI Capabilities Model** (a clear, communicated AI stance, healthy data ecosystems, AI-accessible internal data, strong version-control practices, working in small batches, user-centric focus, and quality internal platforms); his own **"Control, Context, Correctness"** triad (closely related to SDD, plus automated CI/CD, full-stack testing, and linter support); **AI-native development** rather than merely AI-assisted (*"embrace AI-native, but build it with strong guardrails"*); and **guardrails and agent security** with explicit boundaries on **input, execution, output, and memory** — echoing the agent-security concerns from Esa Karjalainen's [jailbreak lab](#lab-esa-karjalainen).
 
-<!-- PHOTO PLACEHOLDER — "Antidotes against the problems" slide; save as day3/02-mikat/antidotes.png and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day3/02-mikat/antidotes.png" alt="Antidotes against the problems — Spec-Driven Development, Test-Driven Development, the DORA AI Capabilities Model, Control/Context/Correctness, AI-native development, and guardrails and agent security"> -->
-
 - **"Is spec-driven development just waterfall in disguise?"** The talk's sharpest provocation: taken to its hard-core definition, pure SDD assumes you know almost everything about a feature before you build it — which sounds like a return to waterfall and the V-model. Torhola's resolution is **strong, bidirectional traceability**: once every artifact (spec or code) is linked to its dependencies, humans and AI alike can freely and agilely modify any of them, because an AI-assisted update can economically propagate the change through everything it touches. He invoked **Martin Fowler's 2004 "Is Design Dead?"** to broker the peace — agile development and up-front design *can* co-exist in AI-native SW dev — and grounded the stakes in **IEC 62304**, the medical-device software standard where traceability is the unbroken chain linking requirements, architecture, risk controls, source code, and test cases as the mandatory documentary evidence that the software is safe. It's the structural twin of Mikkonen's [shift-up](#keynote-tommi-mikkonen) and of Markus Borg's call to [capture intent before agents act](#keynote-markus-borg).
-
-<!-- PHOTO PLACEHOLDER — "Irony: SDD == Waterfall model?" slide (V-model, IEC 62304, Fowler's "Is Design Dead?"); save as day3/02-mikat/sdd-waterfall-irony.jpg and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day3/02-mikat/sdd-waterfall-irony.jpg" alt="Irony: SDD == Waterfall model? — strong traceability lets agile modification co-exist with up-front design, grounded in IEC 62304 and Martin Fowler's 'Is Design Dead?'"> -->
 
 - **AI-native SDD is a revival, not a revolution.** A nine-stage timeline — *From Assembly to AI-Native SDD* — framed today's moment as the return of an old discipline: from the 1950s Assembly era, through the abstraction jump of FORTRAN/LISP/COBOL, the careful software design taught in the 1990s (rich artifacts — requirements, use cases, architecture, UML, test plans), XP in 1999, the 2001 Agile Manifesto, Fowler's 2005 "Is Design Dead?", two decades of Agile/Scrum that quietly shed documentation, the 2022-onward LLM coding wave, and finally **AI-native SDD**, where the rich artifacts return, humans and AI can update any of them, and bidirectional spec↔code traceability is essential. The slide's key takeaway: AI-native SDD revives the strengths of 1990s software design, now in collaboration with AI, with continuous agility and strict traceability (*design matters · agile evolves · humans + AI collaborate · traceability ensures trust*).
 
-<!-- PHOTO PLACEHOLDER — "From Assembly to AI-Native SDD" evolution-of-software-development timeline; save as day3/02-mikat/from-assembly-to-ai-native-sdd.jpg and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day3/02-mikat/from-assembly-to-ai-native-sdd.jpg" alt="From Assembly to AI-Native SDD — a nine-stage timeline from the 1950s Assembly era to specification-first, AI-enabled development, with the key takeaway that AI-native SDD revives 1990s design discipline with strict traceability"> -->
-
 - **SPEXANT — "from spec to submission, faster."** The demo's centerpiece (pictured above) was Atostek's **SPEXANT**, an agentic development pipeline with built-in regulatory evidence — targeting **IEC 62304, ISO 13485, and ISO 14971**, so that *every line of code traces back to a requirement, and every requirement links to a risk control — automatically.* Its six stages run **Intent** (user needs & intended use) → **Spec & Risk** (PRD + FMEA, safety class, risk controls) → **Design** (IEC 62304 architecture and detailed design) → **Code Gen** (AI agents write code within spec) → **Verify & Validate** (auto tests, complete trace matrix) → **Release Ready** (technical file + audit package). Three principles hold it together: the **spec is a regulatory artifact** (every PRD requirement is simultaneously a compliance document — no separate compliance phase), **agents are constrained by spec** (they implement according to it, not around it — no hallucinated architecture), and **traceability is built in** (the Requirement → Design → Code → Test linkage is automatic, not manual copy-paste). It's the same AI-drafts-humans-gate spine as Waseem's [architecture lab](#lab-waseem), hardened for a regulated submission and an industrial sibling of [spec-driven development](https://github.com/TomasHer/prompting-blueprints/blob/main/05-tools/spec-driven-development-tutorial.md).
-
-<!-- PHOTO PLACEHOLDER — "How SPEXANT works" six-step pipeline slide; save as day3/02-mikat/how-spexant-works.jpg and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day3/02-mikat/how-spexant-works.jpg" alt="How SPEXANT works — a six-step spec-driven pipeline (Intent, Spec & Risk, Design, Code Gen, Verify & Validate, Release Ready) where the spec is a regulatory artifact, agents are constrained by spec, and traceability is built in"> -->
 
 - **A "Product Health Board" turns traceability into a live metric.** Rather than treating traceability as a one-time audit at submission, Torhola showed a dashboard that scores coverage continuously across the whole chain: how many **stakeholder needs** are covered by requirements, how many **requirements** have architecture specified, how many have **use cases**, how many are **implemented**, and how many have **test cases**. It operationalizes Markus Borg's instinct to [treat understanding as a KPI](#keynote-markus-borg) — gaps in the traceability chain become visible numbers a team can drive to zero, instead of surprises discovered at audit time.
 
@@ -636,15 +578,9 @@ Day 3's industrial track stayed on the morning's question — how do you make AI
 
 - **The secret is in the skills — 15 of them in a single repo.** The talk's central and most concrete claim: Koivu runs **15 distinct agentic skills inside one code repository**, each capturing a slice of how production code should be written, tested, reviewed, and shipped. Rather than re-explaining the team's standards to the model every session, the skills carry that knowledge so every agent run starts from the organization's accumulated way of working — the same reusable unit Tomas Herda walked through in [Anatomy of a Skill](https://github.com/TomasHer/prompting-blueprints/blob/main/02-ai-agents/02-skills/anatomy-of-a-skill.md) on [Day 1](#workshop-agent-first-ides) and that Tiina Karhukivi & Mika Suominen made the heart of their [Agentic OS](#showtell-tiina). It's *"write it once, fire it forever"* scaled up to an entire production codebase.
 
-<!-- PHOTO PLACEHOLDER — the "15 skills in one repository" slide; save to day3/03-sami/ and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day3/03-sami/fifteen-skills.jpg" alt="The 15 agentic skills Koivu Solutions uses inside a single code repository"> -->
-
 - **From vibe coding to production-quality code.** Vibe coding is unbeatable for standing something up fast, but it goes quiet exactly where production demands rigor — the gap Tommi Mikkonen named that same morning in [From Vibes to Engineering](#keynote-tommi-mikkonen). Lahti's answer is to *encode* the rigor — conventions, quality bars, test and review steps — as skills, so the agent produces shippable code on the first pass instead of a prototype that has to be reworked into something maintainable.
 
 - **Engineering Capacity Growth means changing the core SDLC — not bolting AI onto the old one.** Under a *Value Creation* heading, Lahti contrasted two lifecycles. The **Traditional** flow runs `Customer → Developer → Developer → App/Feature Delivery`, and he was blunt about its failure modes: requirements are hard to explain, communication loops slow the process, budget gets spent before the UX is ready, and it's a struggle to convince the customer to accept the delivery. The **AI-Assisted** flow rewires the chain — a **Consultant works directly with AI**, an **Architect owns code-quality control**, and a **Continuous Improvements** loop feeds back into the AI step — turning those problems into fast iterations, UX included, quality still ensured, and his pointed payoff: *architects do what they love.*
-
-<!-- PHOTO PLACEHOLDER — "How to implement Engineering Capacity Growth with AI" (Value Creation) slide; save as day3/03-sami/engineering-capacity-growth.png and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day3/03-sami/engineering-capacity-growth.png" alt="How to implement Engineering Capacity Growth with AI — Traditional SDLC (Customer → Developer → Developer → Delivery) versus AI-Assisted (Consultant ⟷ Consultant with AI → Architect / Code Quality Control → Delivery) with a Continuous Improvements loop, plus problem and solution lists"> -->
 
 - **"App as specs" collapses the feedback loop.** The diagram's two callouts named the mechanism: *shortening of the feedback loop* — the running app itself becomes the spec, so users react to something real and give early, direct feedback instead of debating a requirements document — and *long-term code quality ensured*, a *win-win for speed and quality*. Getting working, customer-visible functionality in front of people in minutes is exactly the curve Mikkonen plotted for AI-assisted development in [From Vibes to Engineering](#keynote-tommi-mikkonen) — here turned into a customer-acceptance strategy.
 
@@ -668,13 +604,7 @@ Day 3's hands-on academic track took the conference's governance theme and made 
 
 - **Four scoped agents — autonomy dialed in per role.** `create_agents()` builds a crew of four, each defined as *Role + Goal + Backstory + Tools + Memory + Autonomy Controls*: a **data_specialist** for catch trends (`max_iterations=3`, `allow_delegation=False`), an **economic_analyst** for valuation and species comparison (`max_iterations=4`, `allow_delegation=True` — slightly more rope, because pricing spans species, years, and prices), an **environment_analyst** for water-quality correlations (`max_iterations=4`, no delegation), and a **reporter** for final synthesis that is *intentionally tool-less* (`max_iterations=2`) so it can only assemble prior results, never conjure a fresh calculation. Autonomy here isn't a global switch — it's tuned agent by agent through tool access, iteration caps, and delegation, the per-role discipline Markus Borg argued for when he urged teams to [capture intent and add guardrails before agents act](#keynote-markus-borg).
 
-<!-- PHOTO PLACEHOLDER — "CrewAI Agent Architecture for Bio AI Fishery Assistant" (Slide 5); save as day3/04-ayman/slide5-crewai-agent-architecture.jpg and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day3/04-ayman/slide5-crewai-agent-architecture.jpg" alt="CrewAI Agent Architecture for Bio AI Fishery Assistant — create_agents() building four scoped agents (data_specialist, economic_analyst, environment_analyst, reporter), each with memory, max_iterations, and delegation controls, under a Governance by Design strip"> -->
-
 - **Runtime is a sequential, auditable crew — not a free-for-all.** From the command line the path stays tidy: `load_dotenv()` → `argparse` CLI input → `run_workflow()` → `create_agents()` → `create_tasks()` → `Crew(process=Process.sequential)` → `crew.kickoff()` → a plain-text answer. Two governance notes the presenters flagged: autonomy is bounded *inside each agent* via `max_iterations` (the older `max_steps` knob is kept only for backward compatibility), and the **sequential** process makes every run predictable and auditable. They were candid that the demo's task plan is deliberately *fixed* — it runs the same six tasks every time for teaching clarity — and that a production system would plan dynamically: *"user question → planner → only the necessary tasks → final answer."*
-
-<!-- PHOTO PLACEHOLDER — "Command-Line Entry Point for Agentic RAG CrewAI" (Slide 7); save as day3/04-ayman/slide7-runtime-execution.jpg and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day3/04-ayman/slide7-runtime-execution.jpg" alt="Command-Line Entry Point for Agentic RAG CrewAI — load_dotenv → argparse → run_workflow → create_agents → create_tasks → sequential Crew → crew.kickoff → final result, with a Governance & Autonomy note that autonomy is controlled per-agent via max_iterations"> -->
 
 - **The autonomy ladder — and "more autonomy = stronger governance needed."** The closing framework placed Agentic RAG on a five-rung ladder, each rung redefining the *human's* job:
 <br>**① Assistive Retrieval** — human as *Operator* (query → retrieve → cite → grounded answer).
@@ -722,27 +652,27 @@ In the day's final spotlight before the conference wrap-up, Salla Westerstrand d
 
 - **EU AI Act in three lines — Act, risk, rights.** A crisp recap established the shape of the regulation: it's an **Act, not a Directive** (it applies *as is* across every EU member state, with no national transposition to water it down); it takes a **risk-based approach** (obligations scale with the risk a system poses to health, safety, and fundamental rights); and it is a **rights-based and market regulation** whose ultimate goal is to protect fundamental rights while promoting the single market. The dual purpose matters — this isn't only consumer protection, it's also the rulebook for a common European AI market.
 
-<!-- PHOTO PLACEHOLDER — "EU AI Act — A Recap" three-pillar slide; save as day3/06-salla/eu-ai-act-recap.jpg and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day3/06-salla/eu-ai-act-recap.jpg" alt="EU AI Act — A Recap — an Act not a Directive (applied as is in all EU member states), a risk-based approach (requirements defined by the risk to health, safety, and fundamental rights), and a rights-based and market regulation (protecting fundamental rights and promoting the single market)"> -->
-
 - **Fragile → Robust → Resilient → Antifragile — where compliance actually lands you.** The conceptual heart of the talk borrowed Nassim Taleb's *Antifragile* (2012), by way of Spitz's *Disrupt with Impact* (2024): plotting **value creation vs. value destruction** against **shocks, change, and stress**, four responses to disruption fan out — **break** (fragile), **resistance** (robust), **adaptation** (resilient), and **innovation** (antifragile). The pointed implication: treating regulation as something to *resist and tick off* gets you to *robust* at best — you withstand the shock but create no new value. Genuine responsibility uses the same disruption as a catalyst to **innovate toward antifragility**, where the constraint becomes a source of advantage rather than a cost center.
-
-<!-- PHOTO PLACEHOLDER — antifragile value-vs-shocks diagram (adapted from Taleb 2012 and Spitz 2024); save as day3/06-salla/antifragile.jpg and uncomment -->
-<!-- <img src="../assets/conferences/gaise-2026/day3/06-salla/antifragile.jpg" alt="Antifragile — value creation vs. value destruction plotted against shocks, change, and stress, with four responses to disruption: break (fragile), resistance (robust), adaptation (resilient), and innovation (antifragile)"> -->
 
 - **Responsibility as competitive advantage, not compliance theatre.** Put together, the two halves of the title become a single claim: in Europe, the winners won't be the ones doing the *minimum* to stay legal, but the ones that treat trustworthiness as an engineering and design discipline — and are rewarded with durable, antifragile value. It's the responsible-AI-era twin of Meeri Haataja's [competitive-advantage keynote](#keynote-meeri-haataja): the standards are the floor, the judgment is the value — a fitting penultimate note before the conference closed.
 
 <a id="conference-closing"></a>
 
-### 🎤 Conference Closing
+### 🎤 Conference Closing with the GPT-Lab Team and Participants
 
 <img src="../assets/conferences/gaise-2026/day3-closing.jpg" alt="GAISE 2026 — Conference Closing: Fishbowl — Reflections & Future Visions with the GPT-Lab team">
+
+<img src="../assets/conferences/gaise-2026/day3/07-closing/IMG_2647.jpg" alt="GAISE 2026 — the GPT-Lab team and participants gathered at the conference closing">
 
 A heartfelt thank you to everyone who made GAISE 2026 possible. The **GPT-Lab team** at Tampere University created an outstanding program that brought together researchers, practitioners, and executives from across the AI and software-engineering community.
 
 Special recognition goes to the main organizers — **Vaishnavi Bankhele** and **Virve Yli-Savola** — whose meticulous planning and tireless effort ensured the event ran smoothly from the first keynote to the final session. Equal thanks to all the **volunteers** who handled registration, logistics, and the countless behind-the-scenes tasks that keep a multi-track conference on track.
 
 Your work gave everyone in the room the space to focus on learning and connecting. Thank you.
+
+**One last thing — and we couldn't be more excited.** 🎉 It's official: **XP 2027 is coming to Tampere, Finland!** 🇫🇮 The GPT-Lab team joined the celebration at **XP 2026** to officially announce that they will host next year's conference — welcoming the global software-engineering and agile community to Tampere for more innovation, research, and collaboration. A huge thank you to everyone who makes XP such an inspiring event year after year, and to **Tampere University**, **Pekka Abrahamsson**, the **City of Tampere**, and **North Arrow Films Oy** for their support. See you in Tampere in 2027! 💙
+
+<img src="../assets/conferences/gaise-2026/day3/07-closing/xp2027.jpeg" alt="XP 2027 coming to Tampere, Finland — the GPT-Lab team announcing the conference at XP 2026">
 
 ---
 
