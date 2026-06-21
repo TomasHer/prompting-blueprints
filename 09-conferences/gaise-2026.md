@@ -676,4 +676,6 @@ Your work gave everyone in the room the space to focus on learning and connectin
 
 ---
 
+**A note on AI tooling.** Fittingly for a conference about AI-assisted software engineering, these notes were themselves drafted and edited with AI tools: **Claude Code** (Claude Opus 4.8 on the Max plan, and Claude Fable 5 while it was available) and the **Google Antigravity** IDE (Gemini 3.5 Flash, High). The sessions I attended, the observations, and the takeaways are my own — the tools helped with writing, structuring, and editing.
+
 *Notes by Tomas Herda. Connect on [LinkedIn](https://www.linkedin.com/in/herdatom).*
