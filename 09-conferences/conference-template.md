@@ -15,13 +15,11 @@ How to use:
 5. Add a nav entry in mkdocs.yml under the "Conferences" section.
 
 Session heading emoji convention:
-  🎤  Keynote · conference opening · conference closing
-  🛠️  Workshop / hands-on session
-  🎓  Academic talk
-  🏢  Industry talk
-  👔  Executive talk or panel
-  ⚡  Lightning talk
-  👥  Panel discussion
+  🎤  Keynote · conference opening/closing · tech talk · expert talk
+  🛠️  Workshop · hands-on lab
+  🎓  Academic talk · doctoral research · spotlight talk
+  🖥️  Demo · live demo · industrial demo · show & tell
+  💬  Panel discussion
 
 Session structure — follow this pattern for each session:
   1. Heading:      ### [emoji] [Session Type] — [Full Title] by [Speaker Name, Affiliation]
