@@ -1,7 +1,7 @@
 ---
 title: "GAISE 2026 — Conference Notes"
 tags: ["conferences", "gaise", "ai", "software-engineering"]
-last_updated: "2026-06-14"
+last_updated: "2026-06-21"
 ---
 
 # GAISE 2026 — Tampere, Finland
@@ -53,6 +53,7 @@ These are my personal notes from the sessions I attended.
 | [Live Demo — World Models](#demo-world-models) | Kalle Kulonen, GPT-Lab / Tampere University |
 | [Keynote — Where AI Creates Competitive Advantage](#keynote-meeri-haataja) | Meeri Haataja, CEO & CPO, Saidot |
 | [Expert Talk — The Essentials of AI: What AI Can Already Do](#talk-pekka-abrahamsson) | Prof. Pekka Abrahamsson, GPT-Lab / Tampere University |
+| [Expert Talk — AI Came To Work — But Who Is Leading It?](#talk-sebastian-sonntag) | Sebastian Sonntag, GPT-Lab / Tampere University |
 
 ### Day 3 — Wednesday, 3 June · Responsible AI Era
 
@@ -428,6 +429,44 @@ Continuing the Executive Track, GPT-Lab founder and conference host Prof. Pekka 
 
 <!-- PHOTO PLACEHOLDER — "godagent.org — Agent Multiverse" demo; save to day2/07-pekka/ and uncomment -->
 <!-- <img src="../assets/conferences/gaise-2026/day2/07-pekka/godagent-agent-multiverse.jpg" alt="godagent.org Agent Multiverse — a God Chat master orchestrator breeding NYSE Data Scout and Market Causality Analyst sub-agents to resolve a query"> -->
+
+<a id="talk-sebastian-sonntag"></a>
+
+### 🎤 Expert Talk — AI Came To Work — But Who Is Leading It? by Sebastian Sonntag, GPT-Lab / Tampere University
+
+<img src="../assets/conferences/gaise-2026/day2/08-sebastian/IMG_7906.JPG" alt="AI Came To Work — But Who Is Leading It? — expert talk by Sebastian Sonntag, GPT-Lab / Tampere University">
+
+Closing the Executive Track, Sebastian Sonntag of GPT-Lab turned the leadership question into a field report. Drawing on his own 2026 interviews with CEOs, CFOs, and CTOs across **27 Finnish (S)MEs** (research still ongoing), he mapped where AI actually sits in companies today and who, if anyone, is steering it. The throughline: AI has already shown up to work in Finnish companies, but it has been handed to the wrong desk — filed as a technology project under the CTO when it is really a **business transformation** that needs its own leadership, literacy, and ownership up to board level.
+
+**Interesting observations**
+
+- **The state of play.** Across the 27 companies AI is still narrow — for many, **Microsoft 365 Copilot is the only tool**, and even it underwhelmed. Dedicated ownership is rare (**only 3 had a Head of AI role**, all large digital-natives, usually under the CTO); most companies are *talking* about AI with no concrete initiatives and frame it as **cost reduction, not strategic advantage**.
+
+- **The Business AI Adoption Ladder.** His maturity model runs six rungs, with value *and* risk rising together and the top rung still hypothetical:
+
+| Level | What changes | Requirements | Value / risk |
+|---|---|---|---|
+| Passive adoption | AI appears inside existing software | Employees learn new built-in features | Easy value, no differentiation |
+| Chat adoption | Employees use general-purpose AI chat | Basic AI literacy and usage guidelines | Individual productivity, uneven quality / shadow IT |
+| Enterprise chat / copilot adoption | AI chat can access approved company data | Data access, governance, security, user training | Better answers, but value still mostly task-level and dependent on individuals |
+| Agentic task automation | Agents automate bounded tasks | Agent platform and capable implementers | Saves hours or improves quality; ROI may be uncertain |
+| Agentic process automation | AI executes substantial parts of a business process, with humans at exception and decision points | Process redesign, integrations, ownership, investment | Large savings/service gains; large investment with high execution risk |
+| AI-native operating model ("AI-first companies") | The organization is designed around AI as a core production capability, not just a tool | Major transformation and leadership commitment | Potential competitive advantage; **no proven public examples — is this viable?** |
+
+<!-- PHOTO PLACEHOLDER — "Business AI Adoption Ladder" slide; save to day2/08-sebastian/ and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/08-sebastian/adoption-ladder.jpg" alt="Business AI Adoption Ladder — six rungs from passive adoption to AI-native operating model, with what changes, requirements, and value/risk at each level"> -->
+
+- **The barriers.** Initiatives stall on unclear business value, cultural and identity resistance, poor data readiness, and lack of leadership — and the least technical bite hardest: identity-driven resistance (fear of lost professional value, the *"slop"* perception, needing to verify everything, fear of blame) and the quiet data killer, **AI outputs can't be verified against source data**.
+
+<!-- PHOTO PLACEHOLDER — "Barriers of AI adoption" slide ("Why AI initiatives struggle" cartoon); save to day2/08-sebastian/ and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/08-sebastian/barriers.jpg" alt="Barriers of AI adoption — unclear business value, cultural and identity resistance, poor data readiness, and lack of leadership"> -->
+
+- **The core argument: AI is a business transformation, not a technology project.** Because it's *"treated as IT"* and ownership is *"delegated too narrowly to the CTO,"* it gets run as tech delivery instead of operating-model change. Sonntag's structural fix: a **Head of AI fits better under the CIO than the CTO** — yet most leadership teams **lack anyone who genuinely understands AI**, and **no board-level AI seat exists yet**. The role he sketches closes that gap: learn the business from the teams, surface bottlenecks and opportunities, turn them into process change, set KPIs and ROI, and fix data-readiness gaps.
+
+<!-- PHOTO PLACEHOLDER — "AI leadership" slide; save to day2/08-sebastian/ and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day2/08-sebastian/ai-leadership.jpg" alt="AI leadership — the responsibilities of a dedicated AI leader, from understanding business and AI possibilities to fixing data-readiness gaps"> -->
+
+- **Culture, and the bottom line.** Position AI as a positive not a threat, make its value visible through real examples, back **local and leadership champions**, and reward adoption — and reframe the message, since *"using AI is a step forward in your career"* lands far better than *"someone with AI will take your job."* Net: Finnish adoption is early-stage, and moving past chat-and-copilot use needs process redesign, governance, and **dedicated Data and AI leadership** to connect AI to real business bottlenecks — complementing [Meeri Haataja](#keynote-meeri-haataja), [Pekka Abrahamsson](#talk-pekka-abrahamsson), and [Janne Kuivalainen](#tech-talk-janne).
 
 ---
 
