@@ -64,6 +64,7 @@ These are my personal notes from the sessions I attended.
 |---------|---------|
 | [Keynote — From Vibes to Engineering](#keynote-tommi-mikkonen) | Prof. Tommi Mikkonen, University of Jyväskylä |
 | [Industrial Demo — Specification-Driven and AI-Powered Software Engineering in Regulated Environments and Beyond](#demo-spexant) | Mika Torhola, Atostek Oy |
+| [Industrial Demo — How to Generate Production-Ready AI Code from Day 1: The Secret Is in the Skills](#demo-skills) | Sami Lahti, Koivu Solutions Oy |
 | [Conference Closing](#conference-closing) | GPT-Lab Team |
 
 ---
@@ -619,6 +620,32 @@ Following Mikkonen's opening keynote, Day 3's industrial track turned the mornin
 - **A "Product Health Board" turns traceability into a live metric.** Rather than treating traceability as a one-time audit at submission, Torhola showed a dashboard that scores coverage continuously across the whole chain: how many **stakeholder needs** are covered by requirements, how many **requirements** have architecture specified, how many have **use cases**, how many are **implemented**, and how many have **test cases**. It operationalizes Markus Borg's instinct to [treat understanding as a KPI](#keynote-markus-borg) — gaps in the traceability chain become visible numbers a team can drive to zero, instead of surprises discovered at audit time.
 
 - **Spec-driven is the new "10× engineer."** Torhola tied the discipline back to the zeitgeist with a nod to the spec-driven-development-as-[10× engineer](https://www.instagram.com/p/DWTPcxHgMW-/) idea: in an agentic world, leverage no longer comes from typing code faster but from writing specifications precise enough that agents build the right thing within them. A fitting industrial coda to the morning keynote — the engineering ambition Mikkonen named in *From Vibes to Engineering*, delivered as a regulated-software pipeline.
+
+<a id="demo-skills"></a>
+
+### 🖥️ Industrial Demo — How to Generate Production-Ready AI Code from Day 1: The Secret Is in the Skills by Sami Lahti, Koivu Solutions Oy
+
+<img src="../assets/conferences/gaise-2026/day3/03-sami/IMG_8080.JPG" alt="How to Generate Production-Ready AI Code from Day 1: The Secret Is in the Skills — industrial demo by Sami Lahti, Koivu Solutions Oy; the 'From Vibe Coding to Production Quality Code' title slide">
+
+Day 3's industrial track stayed on the morning's question — how do you make AI-built software trustworthy enough to ship? — but where [Mika Torhola](#demo-spexant) answered with regulatory traceability, Sami Lahti of **Koivu Solutions** (a member of the publix group) answered with **skills**. His premise is right there in the title: you can generate *production-ready* code from day one — not a throwaway prototype someone has to harden later — and the thing that makes the difference isn't a bigger model or a cleverer prompt, but a library of reusable **agentic skills** that encode how your organization actually builds, reviews, and ships software. He framed it as the move *from vibe coding to production-quality code*, then made the larger argument that capturing the advantage is less a tooling change than an **organizational** one: it rewires the core software development life-cycle and the roles inside it. The throughline: vibe coding gets you a demo, but skills — reusable, repo-specific, and version-controlled — are what let agents produce code you can actually put into production.
+
+**Interesting observations**
+
+- **The secret is in the skills — 15 of them in a single repo.** The talk's central and most concrete claim: Koivu runs **15 distinct agentic skills inside one code repository**, each capturing a slice of how production code should be written, tested, reviewed, and shipped. Rather than re-explaining the team's standards to the model every session, the skills carry that knowledge so every agent run starts from the organization's accumulated way of working — the same reusable unit Tomas Herda walked through in [Anatomy of a Skill](https://github.com/TomasHer/prompting-blueprints/blob/main/02-ai-agents/02-skills/anatomy-of-a-skill.md) on [Day 1](#workshop-agent-first-ides) and that Tiina Karhukivi & Mika Suominen made the heart of their [Agentic OS](#showtell-tiina). It's *"write it once, fire it forever"* scaled up to an entire production codebase.
+
+<!-- PHOTO PLACEHOLDER — the "15 skills in one repository" slide; save to day3/03-sami/ and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day3/03-sami/fifteen-skills.jpg" alt="The 15 agentic skills Koivu Solutions uses inside a single code repository"> -->
+
+- **From vibe coding to production-quality code.** Vibe coding is unbeatable for standing something up fast, but it goes quiet exactly where production demands rigor — the gap Tommi Mikkonen named that same morning in [From Vibes to Engineering](#keynote-tommi-mikkonen). Lahti's answer is to *encode* the rigor — conventions, quality bars, test and review steps — as skills, so the agent produces shippable code on the first pass instead of a prototype that has to be reworked into something maintainable.
+
+- **Engineering Capacity Growth means changing the core SDLC — not bolting AI onto the old one.** Under a *Value Creation* heading, Lahti contrasted two lifecycles. The **Traditional** flow runs `Customer → Developer → Developer → App/Feature Delivery`, and he was blunt about its failure modes: requirements are hard to explain, communication loops slow the process, budget gets spent before the UX is ready, and it's a struggle to convince the customer to accept the delivery. The **AI-Assisted** flow rewires the chain — a **Consultant works directly with AI**, an **Architect owns code-quality control**, and a **Continuous Improvements** loop feeds back into the AI step — turning those problems into fast iterations, UX included, quality still ensured, and his pointed payoff: *architects do what they love.*
+
+<!-- PHOTO PLACEHOLDER — "How to implement Engineering Capacity Growth with AI" (Value Creation) slide; save as day3/03-sami/engineering-capacity-growth.png and uncomment -->
+<!-- <img src="../assets/conferences/gaise-2026/day3/03-sami/engineering-capacity-growth.png" alt="How to implement Engineering Capacity Growth with AI — Traditional SDLC (Customer → Developer → Developer → Delivery) versus AI-Assisted (Consultant ⟷ Consultant with AI → Architect / Code Quality Control → Delivery) with a Continuous Improvements loop, plus problem and solution lists"> -->
+
+- **"App as specs" collapses the feedback loop.** The diagram's two callouts named the mechanism: *shortening of the feedback loop* — the running app itself becomes the spec, so users react to something real and give early, direct feedback instead of debating a requirements document — and *long-term code quality ensured*, a *win-win for speed and quality*. Getting working, customer-visible functionality in front of people in minutes is exactly the curve Mikkonen plotted for AI-assisted development in [From Vibes to Engineering](#keynote-tommi-mikkonen) — here turned into a customer-acceptance strategy.
+
+- **The hard part is organizational, not technical.** The role shifts are the real content of the AI-Assisted picture: the *developer* becomes a *consultant working with AI*, and the *architect* moves onto *code-quality control* rather than line-by-line authorship. That reframing — design the work around what only humans should own — echoes Meeri Haataja's [vertical-integration super-cells](#keynote-meeri-haataja) and Sebastian Sonntag's case that [AI is a business transformation, not a technology project](#talk-sebastian-sonntag). Lahti's version is narrower and more operational: change the SDLC and the job titles attached to it, and production-quality output follows.
 
 <a id="conference-closing"></a>
 
