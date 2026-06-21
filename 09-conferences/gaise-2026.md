@@ -100,7 +100,7 @@ The way we build software is changing rapidly. Modern Agent-first IDEs and codin
 
 This hands-on workshop introduced the key concepts behind reliable AI-assisted development: Context Engineering, reusable Skills, AGENTS.md, MCP (Model Context Protocol), and persistent AI knowledge bases (wikis) that let agents accumulate and reuse project knowledge across sessions. The first half covered the concepts and tooling behind agent-first development; the second half was fully practical — participants built and experimented with a working setup directly on their own laptops.
 
-<img src="../assets/conferences/gaise-2026/day1/03-tomas/IMG_1171.heic" alt="Agent-first IDEs Workshop — Tomas Herda">
+<img src="../assets/conferences/gaise-2026/day1/03-tomas/IMG_1171.jpg" alt="Agent-first IDEs Workshop — Tomas Herda">
 
 **Interesting observations**
 
@@ -113,7 +113,7 @@ This hands-on workshop introduced the key concepts behind reliable AI-assisted d
 - **Personal AI knowledge base.** A live use case built with Obsidian + MCP (or the open-source alternative [Logseq](https://logseq.com)), echoing Karpathy's own AI knowledge-base workflow ([AI knowledge base tutorial](https://github.com/TomasHer/prompting-blueprints/blob/main/02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md#implementation-claude-obsidian)). Demonstrated by building a **Product Owner handbook** and walking through [Prompting Blueprints](https://github.com/TomasHer/prompting-blueprints) — my personal AI knowledge base.
 - **Hands-on: AI Bug Detective.** The interactive part put predefined agents and skills to work in a Replit project — [AI Bug Detective](https://replit.com/@laxxli/ai-bug-detective).
 
-<img src="../assets/conferences/gaise-2026/day1/03-tomas/IMG_1178.heic" alt="AI Bug Detective — hands-on session">
+<img src="../assets/conferences/gaise-2026/day1/03-tomas/IMG_1178.jpg" alt="AI Bug Detective — hands-on session">
 
 <a id="keynote-alex-polyakov"></a>
 
@@ -123,7 +123,7 @@ This hands-on workshop introduced the key concepts behind reliable AI-assisted d
 
 AI is changing far more than how code is written — software systems are starting to observe, decide, and act with ever less human involvement. Tracing the thread back to *"The first AI-Assisted Agile Software Engineering workshop"* he ran with Prof. Pekka Abrahamsson at XP Amsterdam on 13 June 2023, Alex Polyakov walked through what is already **dead**, what is rapidly **dying**, and what stays **very much alive** in the age of autonomous AI systems. His core message: agents make the coding fast, but the value — and the bottleneck — now lives in human judgment, ownership, and the checkpoints that keep autonomy honest.
 
-<img src="../assets/conferences/gaise-2026/day1/02-keynote/keynote2.HEIC" alt="Human-in-the-Loop vs. Autonomous Agents — where agents struggle without human checkpoints">
+<img src="../assets/conferences/gaise-2026/day1/02-keynote/keynote2.jpg" alt="Human-in-the-Loop vs. Autonomous Agents — where agents struggle without human checkpoints">
 
 **Interesting observations**
 
@@ -171,7 +171,7 @@ A state-of-the-art academic survey of where generative AI in software engineerin
 
 ### 🛠️ Workshop — Vibing Ideas: Knowing What to Build When AI Does the Rest by Prof. Xiaofeng Wang, Daniel Planötscher & Silvia Cortesia, LUT University / Free University of Bozen-Bolzano
 
-<img src="../assets/conferences/gaise-2026/day1/05-xiaofeng/IMG_6619.HEIC" alt="Vibing Ideas: Knowing What to Build When AI Does the Rest — workshop by Prof. Xiaofeng Wang, Daniel Planötscher & Silvia Cortesia">
+<img src="../assets/conferences/gaise-2026/day1/05-xiaofeng/IMG_6619.jpg" alt="Vibing Ideas: Knowing What to Build When AI Does the Rest — workshop by Prof. Xiaofeng Wang, Daniel Planötscher & Silvia Cortesia">
 
 *"If coding really is solved, the bottleneck moves to taste, judgment, and knowing what is worth building."* This hands-on workshop reframed AI not as a faster way to write code, but as a **thinking partner** — a collaborator for navigating ambiguity, surfacing real user needs, and shaping rough ideas into solutions actually worth building. Once implementation stops being the constraint, the hard part becomes deciding *what* to build and *why*, and the workshop put that judgment front and center.
 
@@ -216,7 +216,7 @@ The jump from a powerful LLM to a genuinely useful agent isn't a bigger model �
 
 ### 🎓 Academic Talk — AI Won't Save Your Research: Things Researchers Should Never Do by Dr. Kai-Kristian Kemell, GPT-Lab / Tampere University
 
-<img src="../assets/conferences/gaise-2026/day1/08-kai/IMG_1202.heic" alt="AI Won't Save Your Research: Things Researchers Should Never Do — academic talk by Dr. Kai-Kristian Kemell, GPT-Lab / Tampere University">
+<img src="../assets/conferences/gaise-2026/day1/08-kai/IMG_1202.jpg" alt="AI Won't Save Your Research: Things Researchers Should Never Do — academic talk by Dr. Kai-Kristian Kemell, GPT-Lab / Tampere University">
 
 A candid, practitioner's-eye talk on the pitfalls of leaning on generative AI in academic work. Dr. Kai-Kristian Kemell's message was a useful corrective to the hype: AI is a powerful assistant, but it won't do the thinking, the rigor, or the accountability for you — and researchers who treat it as a shortcut around those responsibilities tend to get burned. A grounded reminder of the things researchers should never hand off to a model.
 
