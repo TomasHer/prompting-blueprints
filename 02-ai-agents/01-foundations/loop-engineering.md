@@ -96,6 +96,10 @@ Before you let a loop run unattended, confirm every box:
 - **Build control loops, not open-ended cycles:** deterministic code on the outside, LLM decisions on the inside, a separate evaluator, and a human handoff after a few retries.
 - **Cognitive surrender is the real risk.** Agents run loudly and fail quietly. A system designed so you never have to think about your codebase again is a recipe for disaster — no amount of compute saves a poor architecture.
 
+## The next layer up: fleet governance
+
+Loop engineering makes a *single* autonomous loop reliable and persistent. The moment you run *many* loops concurrently across a team, a new problem appears that no per-loop guardrail solves: making the whole population accountable — identity, registry, permissions, audit, and a kill switch. That layer goes by **agent fleet governance** (Cobus Greyling frames it as **fleet engineering**, extending the prompt → context → harness → loop → fleet stack). See [Agent Fleet Governance (Fleet Engineering)](agent-fleet-governance.md).
+
 ## References
 - Peter Steinberger (OpenClaw creator) — public post: *"You shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents."*
 - Boris Cherny (Anthropic, Claude Code lead) — *"I don't prompt Claude anymore… My job is to write loops."*
