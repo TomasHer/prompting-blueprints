@@ -213,6 +213,11 @@
 
 ### S
 
+- [Santander AI Open Source (GitHub organization)](https://github.com/SantanderAI)
+- [SantanderAI – autoguardrails (GitHub)](https://github.com/SantanderAI/autoguardrails)
+- [SantanderAI – gen-fraud-graph (GitHub)](https://github.com/SantanderAI/gen-fraud-graph)
+- [SantanderAI – mech-gov-framework (GitHub)](https://github.com/SantanderAI/mech-gov-framework)
+- [SantanderAI – mutatis-mutandis (GitHub)](https://github.com/SantanderAI/mutatis-mutandis)
 - [Stagewise](https://stagewise.ai/)
 - [Strands Agents SDK quickstart overview](https://strandsagents.com/docs/user-guide/quickstart/overview/)
 - [Stripe](https://stripe.com/)
