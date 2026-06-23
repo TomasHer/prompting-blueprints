@@ -10,7 +10,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382)](https://arxiv.org/abs/2302.11382)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
 - [Agrici Daniel – claude-obsidian: AI-Powered Knowledge Management System (GitHub)](https://github.com/AgriciDaniel/claude-obsidian)
-  - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`
+  - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
   - cited in: `03-prompts-and-patterns/prompt-pattern-catalogue.md`
 - [A2A .NET SDK (GitHub)](https://github.com/a2aproject/a2a-dotnet)
@@ -204,7 +204,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [GPT-Lab – Effective Prompts for Reasoning LLMs](https://gpt-lab.eu/effective-prompts-for-reasoning-llms/)
   - cited in: `03-prompts-and-patterns/researchers-prompting-blueprints.md`, `03-prompts-and-patterns/writers-prompting-blueprints.md`, `05-tools/microsoft-copilot-researcher-agent.md`, `09-conferences/gaise-2026.md`
 - [Hermes Agent (Nous Research)](https://hermes-agent.nousresearch.com)
-  - cited in: `05-tools/hermes-agent-tutorial.md`
+  - cited in: `05-tools/hermes-agent-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
 - [Hugging Face – HF Skills: training a fine-tuning agent with Claude Code](https://huggingface.co/blog/hf-skills-training)
   - cited in: `04-guides/claude-fine-tune-llm.md`
 - [Hugging Face Model Card – GLM-5](https://huggingface.co/zai-org/GLM-5)
@@ -222,7 +222,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [KIRO – Specs documentation](https://kiro.dev/docs/specs/)
   - cited in: `05-tools/spec-driven-development-tutorial.md`
 - [KIRO](https://kiro.studio/)
-  - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+  - _not cited in any content file_
 - [LangChain Blog – Deep Agents](https://blog.langchain.com/deep-agents/)
   - cited in: `05-tools/langchain-deep-agents.md`
 - [LangChain Deep Agents Repository (tree/master)](https://github.com/langchain-ai/deepagents/tree/master)
@@ -300,7 +300,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [n8n – Official site](https://n8n.io/)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`, `05-tools/best-ai-apps-2026.md`, `05-tools/n8n-vs-langgraph.md`
 - [Nous Research](https://nousresearch.com)
-  - cited in: `05-tools/hermes-agent-tutorial.md`
+  - cited in: `05-tools/hermes-agent-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
 - [n8n – Workflow templates gallery](https://n8n.io/workflows/)
   - cited in: `05-tools/n8n-research-workflow-tutorial.md`
 - [Next.js](https://nextjs.org/)
@@ -308,9 +308,9 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
   - cited in: `07-use-cases-and-research/deep-research.md`
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
-  - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`
+  - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
 - [Ollama – Run open models locally](https://ollama.com)
-  - _not cited in any content file_
+  - cited in: `05-tools/hermes-daily-assistant-setup.md`
 - [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
 - [On Tech Ethics Podcast – Vibe Research and the Future of Science (CITI Program)](https://about.citiprogram.org/blog/on-tech-ethics-podcast-vibe-research-and-the-future-of-science/)
@@ -346,7 +346,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [PromptPerfect — Deep Research prompt examples](https://daily.promptperfect.xyz/p/fifteen-examples-of-how-to-use-deep-research-in-chatgpt-with-prompts)
   - cited in: `07-use-cases-and-research/deep-research.md`
 - [Qwen (Qwen3 models) – Official blog](https://qwenlm.github.io)
-  - _not cited in any content file_
+  - cited in: `05-tools/hermes-daily-assistant-setup.md`
 - [Reddit – I hope this answers everyone’s questions about the Titanic pool](https://www.reddit.com/r/titanic/comments/1l2zy41/i_hope_this_answers_everyones_questions_about_the/)
   - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [Replit](https://replit.com/)
@@ -357,6 +357,16 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Requirements Engineering Datasets for LLM4RE](https://nlp4se.github.io/LLM4RE-Datasets/)
   - cited in: `07-use-cases-and-research/requirements-engineering-dataset-experiments.md`
+- [Santander AI Open Source (GitHub organization)](https://github.com/SantanderAI)
+  - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
+- [SantanderAI – autoguardrails (GitHub)](https://github.com/SantanderAI/autoguardrails)
+  - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
+- [SantanderAI – gen-fraud-graph (GitHub)](https://github.com/SantanderAI/gen-fraud-graph)
+  - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
+- [SantanderAI – mech-gov-framework (GitHub)](https://github.com/SantanderAI/mech-gov-framework)
+  - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
+- [SantanderAI – mutatis-mutandis (GitHub)](https://github.com/SantanderAI/mutatis-mutandis)
+  - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
 - [Stagewise](https://stagewise.ai/)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Strands Agents SDK quickstart overview](https://strandsagents.com/docs/user-guide/quickstart/overview/)
@@ -374,7 +384,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
 - [Unsloth Documentation](https://docs.unsloth.ai)
-  - _not cited in any content file_
+  - cited in: `05-tools/hermes-daily-assistant-setup.md`
 - [Unsloth Documentation – Deploy LLMs on Phone](https://docs.unsloth.ai/new/deploy-llms-phone)
   - cited in: `05-tools/llm-on-phone-deployment-tutorial.md`
 - [V0](https://v0.dev/)
@@ -490,7 +500,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [LinkedIn Post by Tomas Herda – NotebookLM audio strategies](https://www.linkedin.com/posts/herdatom_notebooklm-google-aiandagile-activity-7323293140201709569-mBAU)
   - cited in: `05-tools/notebooklm-audio-overviews-blueprint.md`
 - [LLM-Based Agents for Automating the Enhancement of User Story Quality: An Early Report (arXiv 2403.09442)](https://arxiv.org/abs/2403.09442)
-  - cited in: `01-about-author/research/overview.md`
+  - cited in: `01-about-author/research/overview.md`, `09-conferences/gaise-2026.md`
 - [LLM-Based Agents for Automating the Enhancement of User Story Quality: An Early Report (Open PDF)](https://library.oapen.org/bitstream/handle/20.500.12657/90931/978-3-031-61154-4.pdf?sequence=1#page=126)
   - cited in: `01-about-author/research/overview.md`
 - [LSZ Talents for IT Future Event (2024)](https://lsz.at/Talents-Graz-Downloadarea)
@@ -520,7 +530,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Springer – User Story Quality Enhancement (Chapter 8)](https://link.springer.com/chapter/10.1007/978-3-031-61154-4_8)
   - cited in: `01-about-author/research/overview.md`, `02-ai-agents/01-foundations/ai-agents-overview.md`
 - [TimeLess: A Vision for the Next Generation of Software Development (arXiv 2411.08507)](https://arxiv.org/abs/2411.08507)
-  - cited in: `01-about-author/research/overview.md`
+  - cited in: `01-about-author/research/overview.md`, `09-conferences/gaise-2026.md`
 - [Tomas Herda – LinkedIn](https://www.linkedin.com/in/herdatom)
   - cited in: `01-about-author/speaking/index.md`, `09-conferences/conference-template.md`, `09-conferences/gaise-2026.md`, `README.md`
 - [XP 2024 Conference – Call for Submissions](https://agilealliance.org/xp2024/call-for-submissions/)
