@@ -21,10 +21,10 @@ The five most recently added pages (auto-generated from git history — do not e
 
 <!-- RECENT_ADDITIONS:START -->
 - **2026-06-23** · [Banking AI Governance Use-Case Tutorial (Santander AI Open Source)](./07-use-cases-and-research/santander-ai-banking-governance.md)
+- **2026-06-23** · [Agent Fleet Governance (Fleet Engineering)](./02-ai-agents/01-foundations/agent-fleet-governance.md)
 - **2026-06-14** · [Build a Local Hermes Daily Assistant (Qwen3 + Ollama + Unsloth + Obsidian)](./05-tools/hermes-daily-assistant-setup.md)
 - **2026-06-14** · [Loop Engineering (and How to Avoid Loopmaxxing)](./02-ai-agents/01-foundations/loop-engineering.md)
 - **2026-06-07** · [GAISE 2026 — Conference Notes](./09-conferences/gaise-2026.md)
-- **2026-06-03** · [From Prompt to Context to Harness Engineering](./02-ai-agents/01-foundations/prompt-context-harness-engineering.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
