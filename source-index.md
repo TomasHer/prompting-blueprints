@@ -67,6 +67,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`, `05-tools/coding-ai-agent-selection-tutorial.md`
 - [Clerk](https://clerk.com/)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [Cobus Greyling – The Evolving Vocabulary of AI](https://cobusgreyling.medium.com/the-evolving-vocabulary-of-ai-2ea12100811d)
+  - cited in: `02-ai-agents/01-foundations/agent-fleet-governance.md`, `02-ai-agents/01-foundations/prompt-context-harness-engineering.md`
 - [Code Newsletter - THE CODE](https://codenewsletter.ai/subscribe?utm_source=linkedin_profile_om)
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [Codelab: Get started with Google Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity#0)

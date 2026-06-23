@@ -37,6 +37,7 @@
 - [Claude - Claude Cowork product page](https://claude.com/product/cowork)
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 - [Clerk](https://clerk.com/)
+- [Cobus Greyling – The Evolving Vocabulary of AI](https://cobusgreyling.medium.com/the-evolving-vocabulary-of-ai-2ea12100811d)
 - [Code Newsletter - THE CODE](https://codenewsletter.ai/subscribe?utm_source=linkedin_profile_om)
 - [Codelab: Get started with Google Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity#0)
 - [Cognition – Introducing Devin](https://www.cognition-labs.com/blog/introducing-devin)
