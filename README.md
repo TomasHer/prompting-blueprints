@@ -15,6 +15,20 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 
 ---
 
+## 🆕 Recently added
+
+The five most recently added pages (auto-generated from git history — do not edit by hand):
+
+<!-- RECENT_ADDITIONS:START -->
+- **2026-06-23** · [Banking AI Governance Use-Case Tutorial (Santander AI Open Source)](./07-use-cases-and-research/santander-ai-banking-governance.md)
+- **2026-06-14** · [Build a Local Hermes Daily Assistant (Qwen3 + Ollama + Unsloth + Obsidian)](./05-tools/hermes-daily-assistant-setup.md)
+- **2026-06-14** · [Loop Engineering (and How to Avoid Loopmaxxing)](./02-ai-agents/01-foundations/loop-engineering.md)
+- **2026-06-08** · [GAISE 2026 — Conference Notes](./09-conferences/gaise-2026.md)
+- **2026-06-08** · [Requirements Engineering – Prompting Tips & Use Cases](./08-requirements-engineering/overview.md)
+<!-- RECENT_ADDITIONS:END -->
+
+---
+
 ## TL;DR
 - **About the author:** speaking, program committee, and research overviews -> `./01-about-author`
 - **AI agents:** agent architectures, protocols (MCP/A2A), context engineering (incl. dynamic context discovery), open models, and skills playbooks -> `./02-ai-agents`
@@ -82,7 +96,7 @@ Featured additions: [Dynamic Context Discovery](./02-ai-agents/03-context-and-me
 09-conferences/         # conference recaps and session notes (e.g., GAISE 2026)
 assets/                 # social previews and supporting images
 docs/                   # static repo-browser site & licenses
-scripts/                # maintenance scripts (front-matter checks, source index build)
+scripts/                # maintenance scripts (front-matter checks, source index build, recent-additions list)
 website/                # static HTML experiments (e.g., AI toolkit preview)
 BACKLOG.md              # planned content and ideas
 CHANGELOG.md            # updates (Keep a Changelog)

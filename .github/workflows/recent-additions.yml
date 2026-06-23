@@ -1,0 +1,49 @@
+name: Update "Recently added" list
+
+# Regenerates the "Recently added" block in README.md whenever content is
+# pushed to main, then commits the refreshed list back. The list is derived
+# from git history by scripts/build-recent-additions.py, so there is nothing
+# to maintain by hand.
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+# Avoid overlapping runs racing to commit README.md.
+concurrency:
+  group: recent-additions
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          # build-recent-additions.py reads `git log` to find when each page
+          # was first added, so it needs the complete history, not a shallow clone.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Regenerate Recently added list
+        run: python3 scripts/build-recent-additions.py
+
+      - name: Commit changes if the list changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "Recently added list already up to date; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          # [skip ci] stops this commit from triggering the workflow again.
+          git commit -m "docs: refresh Recently added list [skip ci]"
+          git push
