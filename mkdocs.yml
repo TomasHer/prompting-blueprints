@@ -24,6 +24,7 @@ nav:
     - Overview: 06-models-and-evaluations/README.md
     - Gemini Nano Banana Pro Prompt Library: 06-models-and-evaluations/nano-banana-pro-library.md
     - GLM-5 Setup & Serving Guide: 06-models-and-evaluations/glm-5-guide.md
+    - Ornith-1.0 on DGX Spark Guide: 06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md
     - Google Veo 3.1 Video Tutorial: 06-models-and-evaluations/google-veo-3-1-video-tutorial.md
     - FACTS Benchmark Overview: 06-models-and-evaluations/facts-benchmark-overview.md
     - Aggregated Suite (promptfoo.yml): 06-models-and-evaluations/promptfoo.yml

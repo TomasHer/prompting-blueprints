@@ -20,11 +20,11 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The five most recently added pages (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-06-26** · [Ornith-1.0: Run an Open-Source Agentic Coding LLM on a DGX Spark](./06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md)
 - **2026-06-23** · [Banking AI Governance Use-Case Tutorial (Santander AI Open Source)](./07-use-cases-and-research/santander-ai-banking-governance.md)
 - **2026-06-23** · [Agent Fleet Governance (Fleet Engineering)](./02-ai-agents/01-foundations/agent-fleet-governance.md)
 - **2026-06-14** · [Build a Local Hermes Daily Assistant (Qwen3 + Ollama + Unsloth + Obsidian)](./05-tools/hermes-daily-assistant-setup.md)
 - **2026-06-14** · [Loop Engineering (and How to Avoid Loopmaxxing)](./02-ai-agents/01-foundations/loop-engineering.md)
-- **2026-06-07** · [GAISE 2026 — Conference Notes](./09-conferences/gaise-2026.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---

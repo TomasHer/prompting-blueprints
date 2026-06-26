@@ -118,6 +118,7 @@
 - [Hermes Agent (Nous Research)](https://hermes-agent.nousresearch.com)
 - [Hugging Face – HF Skills: training a fine-tuning agent with Claude Code](https://huggingface.co/blog/hf-skills-training)
 - [Hugging Face Model Card – GLM-5](https://huggingface.co/zai-org/GLM-5)
+- [Hugging Face – Ornith-1.0 Collection (deepreinforce-ai)](https://huggingface.co/collections/deepreinforce-ai/ornith-10)
 
 ### J
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
@@ -178,9 +179,11 @@
 - [n8n – Workflow templates gallery](https://n8n.io/workflows/)
 - [Next.js](https://nextjs.org/)
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
+- [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
 
 ### O
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
+- [Ornith-1.0 Tech Blog (deep-reinforce.com)](https://deep-reinforce.com/ornith_1_0.html)
 - [Ollama – Run open models locally](https://ollama.com)
 - [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
 - [On Tech Ethics Podcast – Vibe Research and the Future of Science (CITI Program)](https://about.citiprogram.org/blog/on-tech-ethics-podcast-vibe-research-and-the-future-of-science/)
