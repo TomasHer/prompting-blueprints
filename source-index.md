@@ -211,6 +211,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/claude-fine-tune-llm.md`
 - [Hugging Face Model Card – GLM-5](https://huggingface.co/zai-org/GLM-5)
   - cited in: `06-models-and-evaluations/glm-5-guide.md`
+- [Hugging Face – Ornith-1.0 Collection (deepreinforce-ai)](https://huggingface.co/collections/deepreinforce-ai/ornith-10)
+  - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
   - cited in: `07-use-cases-and-research/vibe-research.md`
 - [Kaggle 5-Day AI Agents Course Guide](https://www.kaggle.com/learn-guide/5-day-agents)
@@ -309,8 +311,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
   - cited in: `07-use-cases-and-research/deep-research.md`
+- [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
+  - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
+- [Ornith-1.0 Tech Blog (deep-reinforce.com)](https://deep-reinforce.com/ornith_1_0.html)
+  - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
 - [Ollama – Run open models locally](https://ollama.com)
   - cited in: `05-tools/hermes-daily-assistant-setup.md`
 - [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
