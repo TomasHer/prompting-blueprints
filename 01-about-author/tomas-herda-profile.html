@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tomas Herda — Profile</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Patrick+Hand&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F2;
+    --paper2:#FFFFFF;
+    --ink:#1F3252;        /* deep fountain-pen ink */
+    --ink-soft:#56616F;   /* body */
+    --blue:#2A5BD7;       /* pen blue accent / name */
+    --blue-deep:#1E3A6E;
+    --teal:#179C88;       /* tech / agent accent */
+    --amber:#EFA92C;      /* highlighter accent */
+    --amber-soft:#FBE9C2;
+    --border:rgba(31,50,82,0.18);
+    --border-2:rgba(31,50,82,0.10);
+    --radius:14px 20px 16px 22px / 20px 14px 22px 16px;
+    --radius-sm:12px 16px 13px 17px / 16px 12px 17px 13px;
+    --shadow:3px 4px 0 rgba(31,50,82,0.06);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    font-family:"Inter",system-ui,sans-serif;
+    color:var(--ink-soft);
+    background-color:var(--paper);
+    background-image:radial-gradient(rgba(31,50,82,0.085) 1.1px, transparent 1.3px);
+    background-size:23px 23px;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .poster{max-width:1180px;margin:0 auto;padding:34px 20px 56px;}
+
+  /* ---------- shared bits ---------- */
+  .ico{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.7;
+       stroke-linecap:round;stroke-linejoin:round;flex:none;}
+  .squig{display:block;width:62px;height:8px;color:var(--amber);
+         fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;margin-top:5px;}
+
+  .card{
+    position:relative;background:rgba(255,255,255,0.78);
+    border:2px solid var(--border);border-radius:var(--radius);
+    padding:18px 20px;box-shadow:var(--shadow);
+  }
+  .card::before{content:"";position:absolute;inset:5px;border:1.4px solid var(--border-2);
+    border-radius:inherit;pointer-events:none;}
+
+  .card__hd{display:flex;align-items:flex-start;gap:9px;margin-bottom:13px;}
+  .card__hd .ico{color:var(--blue);margin-top:1px;}
+  .ttl{font-family:"Patrick Hand",cursive;text-transform:uppercase;letter-spacing:.05em;
+       font-size:1.2rem;color:var(--ink);line-height:1;}
+
+  .feat{list-style:none;padding:0;margin:0;}
+  .feat>li{display:flex;gap:11px;margin:11px 0;}
+  .feat>li:first-child{margin-top:2px;}
+  .feat>li:last-child{margin-bottom:2px;}
+  .feat .ico{color:var(--teal);margin-top:1px;}
+  .feat .t{font-weight:600;color:var(--ink);font-size:.95rem;}
+  .feat .d{font-size:.82rem;color:var(--ink-soft);margin-top:1px;}
+
+  /* ---------- top headline ---------- */
+  .topbar{text-align:center;display:flex;align-items:center;justify-content:center;gap:14px;
+          margin:2px auto 26px;max-width:880px;}
+  .topbar__t{font-family:"Caveat",cursive;font-weight:700;color:var(--ink);
+             font-size:clamp(1.5rem,3.6vw,2.35rem);line-height:1.15;}
+  .ticks{color:var(--blue);font-family:"Caveat",cursive;font-weight:700;
+         font-size:2rem;line-height:1;opacity:.85;}
+  .ticks.r{transform:scaleX(-1);}
+
+  /* ---------- hero ---------- */
+  .hero{text-align:center;margin-bottom:30px;}
+  .avatar{width:118px;height:118px;border-radius:50%;margin:0 auto 8px;
+          position:relative;display:flex;align-items:center;justify-content:center;
+          background:var(--paper2);border:2.5px solid var(--ink);
+          box-shadow:0 0 0 6px var(--paper2),0 0 0 8px var(--border);overflow:hidden;}
+  .avatar img{width:100%;height:100%;object-fit:cover;}
+  .avatar .mono{font-family:"Caveat",cursive;font-weight:700;font-size:3.6rem;color:var(--blue);}
+  .avatar .spk{position:absolute;top:-2px;right:6px;color:var(--amber);}
+  .name{font-family:"Caveat",cursive;font-weight:700;color:var(--blue);
+        font-size:clamp(3.4rem,9vw,5.6rem);line-height:.9;margin:6px 0 0;}
+  .nameline{display:flex;justify-content:center;}
+  .swoosh{width:min(340px,72vw);height:16px;color:var(--blue);display:block;margin:-2px auto 12px;
+          fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round;opacity:.7;}
+  .role-line{font-family:"Patrick Hand",cursive;text-transform:uppercase;letter-spacing:.12em;
+             color:var(--ink);font-size:clamp(.9rem,2.2vw,1.15rem);}
+  .subtitle{font-family:"Caveat",cursive;font-weight:600;color:var(--blue-deep);
+            font-size:clamp(1.15rem,2.6vw,1.5rem);margin-top:4px;}
+
+  /* ---------- roles strip ---------- */
+  .roles{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-bottom:30px;}
+  .role{text-align:center;}
+  .role__badge{width:58px;height:58px;margin:0 auto 8px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;color:var(--blue);
+    background:var(--paper2);border:2px solid var(--border);box-shadow:var(--shadow);}
+  .role__t{font-family:"Patrick Hand",cursive;text-transform:uppercase;letter-spacing:.04em;
+           color:var(--ink);font-size:1rem;}
+  .role__d{font-size:.78rem;color:var(--ink-soft);margin-top:2px;line-height:1.35;}
+
+  /* ---------- layout rows ---------- */
+  .stack{display:flex;flex-direction:column;gap:18px;}
+  .row3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:start;}
+  .row21{display:grid;grid-template-columns:1.7fr 1fr;gap:18px;align-items:start;}
+
+  /* ---------- "who I work with" grid ---------- */
+  .who{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;}
+  .who .ic{display:flex;gap:9px;align-items:flex-start;}
+  .who .ico{color:var(--blue);margin-top:1px;}
+  .who .t{font-weight:600;color:var(--ink);font-size:.86rem;line-height:1.25;}
+
+  /* ---------- technologies ---------- */
+  .tech__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;}
+  .tile{background:var(--paper2);border:2px solid var(--border);border-radius:var(--radius-sm);
+        padding:12px 12px 13px;text-align:center;}
+  .tile .ico{color:var(--teal);margin:0 auto 7px;width:26px;height:26px;}
+  .tile .t{font-weight:700;color:var(--ink);font-size:.82rem;line-height:1.15;}
+  .tile .d{font-size:.72rem;color:var(--ink-soft);margin-top:3px;line-height:1.3;}
+
+  /* ---------- signature: the four shifts ---------- */
+  .flow{ }
+  .flow__sub{font-family:"Caveat",cursive;font-weight:600;color:var(--blue-deep);
+             font-size:1.3rem;text-align:center;margin:-4px 0 14px;}
+  .flow__track{display:flex;align-items:stretch;justify-content:center;gap:8px;flex-wrap:nowrap;}
+  .stage{flex:1 1 0;min-width:0;background:var(--paper2);border:2px solid var(--border);
+         border-radius:var(--radius-sm);padding:15px 11px;text-align:center;}
+  .stage .ico{color:var(--blue);margin:0 auto 8px;width:28px;height:28px;}
+  .stage__t{font-weight:700;color:var(--ink);font-size:.92rem;line-height:1.1;}
+  .stage__d{font-size:.76rem;color:var(--ink-soft);margin-top:4px;line-height:1.35;}
+  .stage--last{border-color:var(--amber);background:#FFFCF4;
+               box-shadow:3px 4px 0 rgba(239,169,44,0.18);}
+  .stage--last .ico{color:var(--amber);}
+  .flow__arrow{display:flex;align-items:center;color:var(--blue);}
+  .flow__arrow .ico{width:30px;height:30px;}
+
+  /* ---------- ecosystem ---------- */
+  .eco{display:grid;grid-template-columns:1fr 1fr;gap:13px 16px;}
+  .eco .row{display:flex;gap:10px;align-items:flex-start;}
+  .eco .ico{color:var(--blue);margin-top:2px;}
+  .eco .nm{font-family:"Patrick Hand",cursive;font-size:1.02rem;color:var(--ink);line-height:1.05;}
+  .eco .d{font-size:.78rem;color:var(--ink-soft);margin-top:2px;line-height:1.3;}
+
+  /* ---------- github ---------- */
+  .gh .feat>li{margin:8px 0;}
+  .gh .feat .ico{color:var(--ink);}
+  .ghlink{display:inline-flex;align-items:center;gap:8px;margin-top:12px;
+          background:var(--ink);color:#fff;text-decoration:none;
+          font-family:"Inter",monospace;font-size:.74rem;letter-spacing:.01em;
+          padding:8px 12px;border-radius:10px 13px 11px 14px / 13px 10px 14px 11px;
+          box-shadow:var(--shadow);word-break:break-all;}
+  .ghlink .ico{stroke:#fff;width:18px;height:18px;}
+  .ghlink:hover{background:var(--blue-deep);}
+
+  /* ---------- journey ---------- */
+  .jrny__track{display:flex;align-items:stretch;justify-content:space-between;gap:6px;flex-wrap:nowrap;}
+  .jstep{flex:1 1 0;min-width:0;text-align:center;padding:4px 4px;}
+  .jstep__badge{width:50px;height:50px;margin:0 auto 8px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;color:var(--blue);
+    background:var(--paper2);border:2px solid var(--border);box-shadow:var(--shadow);}
+  .jstep__t{font-weight:700;color:var(--ink);font-size:.8rem;line-height:1.15;}
+  .jstep__d{font-size:.72rem;color:var(--ink-soft);margin-top:3px;line-height:1.3;}
+  .jrny__arrow{display:flex;align-items:center;color:var(--blue);align-self:flex-start;margin-top:18px;}
+  .jrny__arrow .ico{width:24px;height:24px;}
+
+  /* ---------- what's important + signpost ---------- */
+  .imp .feat>li{margin:9px 0;align-items:center;}
+  .imp .feat .ico{color:var(--teal);}
+  .imp .feat .t{font-size:.92rem;}
+  .signpost{display:flex;flex-direction:column;gap:9px;align-items:flex-start;
+            justify-content:center;height:100%;}
+  .sign{display:inline-flex;align-items:center;gap:8px;background:#FFFCF4;
+        border:2px solid var(--amber);color:var(--ink);font-family:"Patrick Hand",cursive;
+        text-transform:uppercase;letter-spacing:.08em;font-size:.95rem;
+        padding:6px 16px 6px 12px;border-radius:4px 13px 13px 4px;box-shadow:var(--shadow);}
+  .sign .dot{width:7px;height:7px;border-radius:50%;background:var(--amber);flex:none;}
+  .scene{margin:6px auto 0;color:var(--teal);width:120px;height:auto;display:block;
+         fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
+
+  /* ---------- quote ---------- */
+  .quote{text-align:center;margin-top:28px;}
+  .quote__t{font-family:"Caveat",cursive;font-weight:700;color:var(--ink);
+            font-size:clamp(1.5rem,3.8vw,2.5rem);line-height:1.2;}
+  .quote__t .q{color:var(--blue);}
+  .quote__t .hl{background:linear-gradient(transparent 62%, var(--amber-soft) 62%);padding:0 .1em;}
+  .heart{display:inline-block;color:var(--blue);vertical-align:middle;}
+
+  /* ---------- motion ---------- */
+  .fade{opacity:0;transform:translateY(14px);animation:rise .6s cubic-bezier(.2,.7,.3,1) forwards;}
+  @keyframes rise{to{opacity:1;transform:none;}}
+  @media (hover:hover){
+    .card{transition:transform .18s ease, box-shadow .18s ease;}
+    .card:hover{transform:translateY(-3px);box-shadow:5px 7px 0 rgba(31,50,82,0.08);}
+  }
+  .ghlink, .ghlink:focus-visible{outline:none;}
+  a:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:4px;}
+
+  @media (prefers-reduced-motion:reduce){
+    .fade{animation:none;opacity:1;transform:none;}
+    .card{transition:none;}
+  }
+
+  /* ---------- responsive ---------- */
+  @media (max-width:860px){
+    .roles{grid-template-columns:repeat(3,1fr);}
+    .row3{grid-template-columns:1fr;}
+    .row21{grid-template-columns:1fr;}
+    .tech__grid{grid-template-columns:repeat(2,1fr);}
+    .eco{grid-template-columns:1fr;}
+  }
+  @media (max-width:760px){
+    .flow__track,.jrny__track{flex-direction:column;align-items:stretch;}
+    .flow__arrow,.jrny__arrow{justify-content:center;margin:2px 0;align-self:center;}
+    .flow__arrow .ico,.jrny__arrow .ico{transform:rotate(90deg);}
+    .jstep{display:flex;align-items:center;gap:12px;text-align:left;}
+    .jstep__badge{margin:0;}
+  }
+  @media (max-width:480px){
+    .poster{padding:24px 14px 44px;}
+    .roles{grid-template-columns:repeat(2,1fr);}
+    .who{grid-template-columns:1fr;}
+    .tech__grid{grid-template-columns:1fr;}
+  }
+  @media print{
+    body{background:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .card:hover{transform:none;}
+    .fade{opacity:1;transform:none;animation:none;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== icon library ===== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="doc" viewBox="0 0 24 24"><path d="M7 3.5h6.5L17.5 7v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4.5a1 1 0 0 1 1-1z"/><path d="M13.5 3.5V7H17"/><path d="M8.5 12h7M8.5 15h7M8.5 18h4.5"/></symbol>
+  <symbol id="spark" viewBox="0 0 24 24"><path d="M12 3c.7 4 1.9 5.2 5.9 5.9C13.9 9.6 12.7 10.8 12 14.8c-.7-4-1.9-5.2-5.9-5.9C10.1 8.2 11.3 7 12 3z"/><path d="M18.5 14.5c.3 1.7.8 2.2 2.5 2.5-1.7.3-2.2.8-2.5 2.5-.3-1.7-.8-2.2-2.5-2.5 1.7-.3 2.2-.8 2.5-2.5z"/></symbol>
+  <symbol id="robot" viewBox="0 0 24 24"><rect x="5.5" y="8" width="13" height="9.5" rx="2.4"/><circle cx="9.5" cy="12.5" r="1.05"/><circle cx="14.5" cy="12.5" r="1.05"/><path d="M12 5v3"/><circle cx="12" cy="4.2" r="1"/><path d="M5.5 12.5H4M18.5 12.5H20M9.5 17.5v2M14.5 17.5v2"/></symbol>
+  <symbol id="layers" viewBox="0 0 24 24"><path d="M12 4 3.5 8.2 12 12.4l8.5-4.2L12 4z"/><path d="M3.5 12.2 12 16.4l8.5-4.2"/><path d="M3.5 16.2 12 20.4l8.5-4.2"/></symbol>
+  <symbol id="network" viewBox="0 0 24 24"><circle cx="6" cy="6.5" r="2.2"/><circle cx="18" cy="6.5" r="2.2"/><circle cx="12" cy="18" r="2.2"/><path d="M8.2 6.5h7.6M7.3 8.4 10.8 16M16.7 8.4 13.2 16"/></symbol>
+  <symbol id="chip" viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="1.6"/><rect x="10.2" y="10.2" width="3.6" height="3.6" rx=".6"/><path d="M9.5 4v3M12 4v3M14.5 4v3M9.5 17v3M12 17v3M14.5 17v3M4 9.5h3M4 12h3M4 14.5h3M17 9.5h3M17 12h3M17 14.5h3"/></symbol>
+  <symbol id="loop" viewBox="0 0 24 24"><path d="M5.5 9.5A7 7 0 0 1 17 7.3"/><path d="M18.5 14.5A7 7 0 0 1 7 16.7"/><path d="M17 4.5v3h-3"/><path d="M7 19.5v-3h3"/></symbol>
+  <symbol id="flask" viewBox="0 0 24 24"><path d="M10 4h4M10.4 4v5.4l-4.1 7.3A2 2 0 0 0 8 19.7h8a2 2 0 0 0 1.7-3L13.6 9.4V4"/><path d="M8.4 14h7.2"/></symbol>
+  <symbol id="share" viewBox="0 0 24 24"><circle cx="6.5" cy="12" r="2.4"/><circle cx="17.5" cy="6.3" r="2.4"/><circle cx="17.5" cy="17.7" r="2.4"/><path d="M8.7 10.9l6.6-3.4M8.7 13.1l6.6 3.4"/></symbol>
+  <symbol id="people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="2.5"/><circle cx="16.2" cy="9" r="2"/><path d="M4 19c0-2.9 2.1-4.6 5-4.6S14 16.1 14 19"/><path d="M14.6 14.6c2.3.1 4.2 1.7 4.2 4.4"/></symbol>
+  <symbol id="cap" viewBox="0 0 24 24"><path d="M3 9l9-3.8L21 9l-9 3.8L3 9z"/><path d="M7 11v3.6c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5V11"/><path d="M21 9v4.4"/></symbol>
+  <symbol id="book" viewBox="0 0 24 24"><path d="M12 6.6C10.5 5.4 8.3 5.1 4 5.1V17c4.3 0 6.5.3 8 1.6 1.5-1.3 3.7-1.6 8-1.6V5.1c-4.3 0-6.5.3-8 1.5z"/><path d="M12 6.6v12"/></symbol>
+  <symbol id="mic" viewBox="0 0 24 24"><rect x="9.5" y="3.5" width="5" height="9.5" rx="2.5"/><path d="M6.5 11a5.5 5.5 0 0 0 11 0"/><path d="M12 16.5V20M9 20h6"/></symbol>
+  <symbol id="handshake" viewBox="0 0 24 24"><path d="M12 7.6 14.6 6 21 9.2"/><path d="M12 7.6 9.4 6 3 9.2"/><path d="M3 9.2v4.2l4 2.8 1.6-1.6"/><path d="M21 9.2v4.2l-4 2.8-3.1-3"/><path d="M8.6 14.6 11 17a1.4 1.4 0 0 0 1.9 0"/></symbol>
+  <symbol id="gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 4.2v2.3M12 17.5v2.3M4.2 12h2.3M17.5 12h2.3M6.4 6.4l1.6 1.6M16 16l1.6 1.6M17.6 6.4 16 8M8 16l-1.6 1.6"/></symbol>
+  <symbol id="check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.4"/><path d="M8.4 12.4l2.6 2.6 5-5.6"/></symbol>
+  <symbol id="git" viewBox="0 0 24 24"><circle cx="7" cy="6.2" r="2.1"/><circle cx="7" cy="17.8" r="2.1"/><circle cx="16.5" cy="8.6" r="2.1"/><path d="M7 8.3v7.4"/><path d="M7 13c0-2.6 1.9-4.1 7.4-4.4"/></symbol>
+  <symbol id="arrow" viewBox="0 0 24 24"><path d="M3.5 12h16"/><path d="M14 6.5l5.5 5.5L14 17.5"/></symbol>
+  <symbol id="squig" viewBox="0 0 62 8"><path d="M2 5.5C9 1.5 13 1.5 19 4.5s10 3 16 0 12-3 18 0"/></symbol>
+  <symbol id="swoosh" viewBox="0 0 340 16"><path d="M6 9C70 3 130 3 200 7s90 5 134 1"/></symbol>
+  <symbol id="scene" viewBox="0 0 120 70"><circle cx="96" cy="20" r="7"/><path d="M2 60l22-32 14 19 9-12 26 25"/><path d="M24 28l9 13M61 47l7-9"/><path d="M70 60l13-18 13 18z"/><path d="M83 42v18"/><path d="M2 62h116"/></symbol>
+</svg>
+
+<main class="poster">
+
+  <!-- headline -->
+  <div class="topbar fade">
+    <span class="ticks">&raquo;</span>
+    <p class="topbar__t">I help people and teams build with generative AI — from documents to decisions, and from prompts to reliable agents.</p>
+    <span class="ticks r">&raquo;</span>
+  </div>
+
+  <!-- hero -->
+  <section class="hero fade" aria-label="Identity">
+    <!-- To use a photo: replace the <span class="mono"> line with <img src="your-photo.jpg" alt="Tomas Herda"> -->
+    <div class="avatar">
+      <svg class="ico spk" width="22" height="22" aria-hidden="true"><use href="#spark"/></svg>
+      <span class="mono">TH</span>
+    </div>
+    <div class="nameline"><h1 class="name">Tomas Herda</h1></div>
+    <svg class="swoosh" aria-hidden="true"><use href="#swoosh"/></svg>
+    <p class="role-line">Product Owner&nbsp;·&nbsp;Team Lead&nbsp;·&nbsp;Speaker&nbsp;·&nbsp;Educator&nbsp;·&nbsp;Author</p>
+    <p class="subtitle">Bridging industry &amp; research at the intersection of GenAI and software engineering</p>
+  </section>
+
+  <!-- roles -->
+  <section class="roles fade" aria-label="Roles I play">
+    <div class="role"><div class="role__badge"><svg class="ico"><use href="#people"/></svg></div><div class="role__t">Product Owner</div><div class="role__d">I turn vision into shippable value.</div></div>
+    <div class="role"><div class="role__badge"><svg class="ico"><use href="#gear"/></svg></div><div class="role__t">Team Lead</div><div class="role__d">I grow people and guide an AI&nbsp;/&nbsp;IDP team.</div></div>
+    <div class="role"><div class="role__badge"><svg class="ico"><use href="#mic"/></svg></div><div class="role__t">Speaker</div><div class="role__d">I share ideas at conferences and meetups.</div></div>
+    <div class="role"><div class="role__badge"><svg class="ico"><use href="#cap"/></svg></div><div class="role__t">Educator</div><div class="role__d">I teach prompting, context &amp; agentic flows.</div></div>
+    <div class="role"><div class="role__badge"><svg class="ico"><use href="#book"/></svg></div><div class="role__t">Author</div><div class="role__d">I write the open-source Prompting Blueprints.</div></div>
+    <div class="role"><div class="role__badge"><svg class="ico"><use href="#flask"/></svg></div><div class="role__t">Advisor</div><div class="role__d">I chair an industrial advisory board.</div></div>
+  </section>
+
+  <div class="stack">
+
+    <!-- trio: what i do / who i work with / values -->
+    <div class="row3">
+      <section class="card fade" aria-label="What I do">
+        <div class="card__hd"><svg class="ico"><use href="#spark"/></svg><div><div class="ttl">What I Do</div><svg class="squig"><use href="#squig"/></svg></div></div>
+        <ul class="feat">
+          <li><svg class="ico"><use href="#people"/></svg><div><div class="t">Product &amp; Team Leadership</div><div class="d">Leading Intelligent Document Processing at Post Business Solutions.</div></div></li>
+          <li><svg class="ico"><use href="#doc"/></svg><div><div class="t">AI Document Automation</div><div class="d">Building the DAiTA platform — from documents to decisions.</div></div></li>
+          <li><svg class="ico"><use href="#robot"/></svg><div><div class="t">Agent-First Engineering</div><div class="d">Helping teams work with agentic IDEs and LLMs.</div></div></li>
+          <li><svg class="ico"><use href="#mic"/></svg><div><div class="t">Speaking &amp; Workshops</div><div class="d">Talks and hands-on sessions at international conferences.</div></div></li>
+          <li><svg class="ico"><use href="#handshake"/></svg><div><div class="t">Advisory &amp; Community</div><div class="d">Connecting enterprise practice with academic research.</div></div></li>
+        </ul>
+      </section>
+
+      <section class="card fade" aria-label="Who I work with">
+        <div class="card__hd"><svg class="ico"><use href="#handshake"/></svg><div><div class="ttl">Who I Work With</div><svg class="squig"><use href="#squig"/></svg></div></div>
+        <div class="who">
+          <div class="ic"><svg class="ico"><use href="#chip"/></svg><div class="t">Developers &amp; AI Engineers</div></div>
+          <div class="ic"><svg class="ico"><use href="#people"/></svg><div class="t">Product &amp; Agile Teams</div></div>
+          <div class="ic"><svg class="ico"><use href="#cap"/></svg><div class="t">Researchers &amp; Academia</div></div>
+          <div class="ic"><svg class="ico"><use href="#mic"/></svg><div class="t">Community Organizers</div></div>
+          <div class="ic"><svg class="ico"><use href="#handshake"/></svg><div class="t">Enterprise &amp; Partners</div></div>
+        </div>
+        <p class="subtitle" style="font-size:1.2rem;margin-top:12px;text-align:left;">I love collaborating, sharing knowledge &amp; building value together.</p>
+      </section>
+
+      <section class="card fade" aria-label="My values">
+        <div class="card__hd"><svg class="ico"><use href="#share"/></svg><div><div class="ttl">My Values</div><svg class="squig"><use href="#squig"/></svg></div></div>
+        <ul class="feat">
+          <li><svg class="ico"><use href="#share"/></svg><div><div class="t">Knowledge Sharing</div><div class="d">I publish, teach, and give back.</div></div></li>
+          <li><svg class="ico"><use href="#gear"/></svg><div><div class="t">Pragmatic &amp; Practical</div><div class="d">Real adoption over hype.</div></div></li>
+          <li><svg class="ico"><use href="#flask"/></svg><div><div class="t">Research × Practice</div><div class="d">I bridge the lab and the enterprise.</div></div></li>
+          <li><svg class="ico"><use href="#loop"/></svg><div><div class="t">Continuous Learning</div><div class="d">I track the frontier and keep experimenting.</div></div></li>
+          <li><svg class="ico"><use href="#people"/></svg><div><div class="t">Collaboration</div><div class="d">We build better together.</div></div></li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- signature: four shifts -->
+    <section class="card flow fade" aria-label="Four shifts in the SDLC">
+      <div class="card__hd"><svg class="ico"><use href="#loop"/></svg><div><div class="ttl">Four Shifts in the SDLC</div><svg class="squig"><use href="#squig"/></svg></div></div>
+      <p class="flow__sub">How we build with AI keeps evolving</p>
+      <div class="flow__track">
+        <div class="stage"><svg class="ico"><use href="#spark"/></svg><div class="stage__t">Prompt Engineering</div><div class="stage__d">Ask the model well.</div></div>
+        <div class="flow__arrow"><svg class="ico"><use href="#arrow"/></svg></div>
+        <div class="stage"><svg class="ico"><use href="#layers"/></svg><div class="stage__t">Context Engineering</div><div class="stage__d">Give it the right context.</div></div>
+        <div class="flow__arrow"><svg class="ico"><use href="#arrow"/></svg></div>
+        <div class="stage"><svg class="ico"><use href="#chip"/></svg><div class="stage__t">Harness Engineering</div><div class="stage__d">Build the scaffolding around it.</div></div>
+        <div class="flow__arrow"><svg class="ico"><use href="#arrow"/></svg></div>
+        <div class="stage stage--last"><svg class="ico"><use href="#loop"/></svg><div class="stage__t">Loop Engineering</div><div class="stage__d">Close the feedback loop.</div></div>
+      </div>
+    </section>
+
+    <!-- technologies -->
+    <section class="card fade" aria-label="Technologies and focus areas">
+      <div class="card__hd"><svg class="ico"><use href="#chip"/></svg><div><div class="ttl">Technologies &amp; Focus Areas</div><svg class="squig"><use href="#squig"/></svg></div></div>
+      <div class="tech__grid">
+        <div class="tile"><svg class="ico"><use href="#spark"/></svg><div class="t">Generative AI</div><div class="d">LLMs, prompting, RAG, evaluation</div></div>
+        <div class="tile"><svg class="ico"><use href="#robot"/></svg><div class="t">Agent-First IDEs</div><div class="d">Claude Code, Kiro, Antigravity</div></div>
+        <div class="tile"><svg class="ico"><use href="#layers"/></svg><div class="t">Context Engineering</div><div class="d">AGENTS.md, MCP, skills, steering</div></div>
+        <div class="tile"><svg class="ico"><use href="#network"/></svg><div class="t">Multi-Agent Systems</div><div class="d">Orchestration, autonomy, loops</div></div>
+        <div class="tile"><svg class="ico"><use href="#doc"/></svg><div class="t">Document AI / IDP</div><div class="d">Extraction, classification, DAiTA</div></div>
+        <div class="tile"><svg class="ico"><use href="#loop"/></svg><div class="t">Agile &amp; SDLC</div><div class="d">Prompt → Context → Harness → Loop</div></div>
+        <div class="tile"><svg class="ico"><use href="#chip"/></svg><div class="t">LLM Deployment</div><div class="d">Hardware sizing, MoE, on-prem</div></div>
+        <div class="tile"><svg class="ico"><use href="#flask"/></svg><div class="t">R&amp;D &amp; Best Practices</div><div class="d">Requirements eng., SE research</div></div>
+      </div>
+    </section>
+
+    <!-- ecosystem + github -->
+    <div class="row21">
+      <section class="card fade" aria-label="My ecosystem">
+        <div class="card__hd"><svg class="ico"><use href="#network"/></svg><div><div class="ttl">My Ecosystem</div><svg class="squig"><use href="#squig"/></svg></div></div>
+        <div class="eco">
+          <div class="row"><svg class="ico"><use href="#doc"/></svg><div><div class="nm">Post Business Solutions</div><div class="d">IDP team &amp; the DAiTA platform.</div></div></div>
+          <div class="row"><svg class="ico"><use href="#cap"/></svg><div><div class="nm">GPT-Lab, Tampere</div><div class="d">Chairman, Industrial Advisory Board.</div></div></div>
+          <div class="row"><svg class="ico"><use href="#book"/></svg><div><div class="nm">Prompting Blueprints</div><div class="d">Open-source playbook on GitHub.</div></div></div>
+          <div class="row"><svg class="ico"><use href="#mic"/></svg><div><div class="nm">Conferences</div><div class="d">GAISE, XP, LeSS, IEEE RE, EASE.</div></div></div>
+          <div class="row"><svg class="ico"><use href="#share"/></svg><div><div class="nm">LinkedIn &amp; Content</div><div class="d">Ideas at GenAI × SE.</div></div></div>
+        </div>
+      </section>
+
+      <section class="card gh fade" aria-label="On GitHub">
+        <div class="card__hd"><svg class="ico"><use href="#git"/></svg><div><div class="ttl">On GitHub</div><svg class="squig"><use href="#squig"/></svg></div></div>
+        <ul class="feat">
+          <li><svg class="ico"><use href="#book"/></svg><div class="t">Open-source playbooks</div></li>
+          <li><svg class="ico"><use href="#layers"/></svg><div class="t">Tutorials &amp; examples</div></li>
+          <li><svg class="ico"><use href="#share"/></svg><div class="t">Sharing knowledge</div></li>
+          <li><svg class="ico"><use href="#handshake"/></svg><div class="t">Giving back</div></li>
+        </ul>
+        <a class="ghlink" href="https://github.com/TomasHer/prompting-blueprints" target="_blank" rel="noopener"><svg class="ico"><use href="#git"/></svg>github.com/TomasHer/prompting-blueprints</a>
+      </section>
+    </div>
+
+    <!-- journey -->
+    <section class="card fade" aria-label="My journey">
+      <div class="card__hd"><svg class="ico"><use href="#arrow"/></svg><div><div class="ttl">My Journey&nbsp;<span style="font-family:'Caveat';text-transform:none;color:var(--blue);font-size:1rem;">(highlights)</span></div><svg class="squig"><use href="#squig"/></svg></div></div>
+      <div class="jrny__track">
+        <div class="jstep"><div class="jstep__badge"><svg class="ico"><use href="#cap"/></svg></div><div><div class="jstep__t">Studied Informatics</div><div class="jstep__d">Slovak Univ. of Technology, MSc</div></div></div>
+        <div class="jrny__arrow"><svg class="ico"><use href="#arrow"/></svg></div>
+        <div class="jstep"><div class="jstep__badge"><svg class="ico"><use href="#spark"/></svg></div><div><div class="jstep__t">GenAI Practitioner</div><div class="jstep__d">Agile &amp; multi-agent systems</div></div></div>
+        <div class="jrny__arrow"><svg class="ico"><use href="#arrow"/></svg></div>
+        <div class="jstep"><div class="jstep__badge"><svg class="ico"><use href="#doc"/></svg></div><div><div class="jstep__t">PO &amp; Team Lead</div><div class="jstep__d">Document Processing, Post</div></div></div>
+        <div class="jrny__arrow"><svg class="ico"><use href="#arrow"/></svg></div>
+        <div class="jstep"><div class="jstep__badge"><svg class="ico"><use href="#flask"/></svg></div><div><div class="jstep__t">Advisory Chair</div><div class="jstep__d">GPT-Lab, Tampere</div></div></div>
+        <div class="jrny__arrow"><svg class="ico"><use href="#arrow"/></svg></div>
+        <div class="jstep"><div class="jstep__badge"><svg class="ico"><use href="#mic"/></svg></div><div><div class="jstep__t">Speaker &amp; Organizer</div><div class="jstep__d">GAISE · IEEE RE · EASE 2026</div></div></div>
+        <div class="jrny__arrow"><svg class="ico"><use href="#arrow"/></svg></div>
+        <div class="jstep"><div class="jstep__badge"><svg class="ico"><use href="#book"/></svg></div><div><div class="jstep__t">Author</div><div class="jstep__d">Prompting Blueprints</div></div></div>
+      </div>
+    </section>
+
+    <!-- what's important + signpost -->
+    <div class="row21">
+      <section class="card imp fade" aria-label="What's important to me">
+        <div class="card__hd"><svg class="ico"><use href="#check"/></svg><div><div class="ttl">What's Important to Me</div><svg class="squig"><use href="#squig"/></svg></div></div>
+        <ul class="feat">
+          <li><svg class="ico"><use href="#check"/></svg><div class="t">Make AI genuinely useful</div></li>
+          <li><svg class="ico"><use href="#check"/></svg><div class="t">Help people and teams grow</div></li>
+          <li><svg class="ico"><use href="#check"/></svg><div class="t">Bridge research and practice</div></li>
+          <li><svg class="ico"><use href="#check"/></svg><div class="t">Build reliable, trustworthy systems</div></li>
+          <li><svg class="ico"><use href="#check"/></svg><div class="t">Keep learning and exploring</div></li>
+          <li><svg class="ico"><use href="#check"/></svg><div class="t">Share generously</div></li>
+        </ul>
+      </section>
+
+      <section class="card fade" aria-label="My loop">
+        <div class="signpost">
+          <div class="sign"><span class="dot"></span>Build</div>
+          <div class="sign"><span class="dot"></span>Measure</div>
+          <div class="sign"><span class="dot"></span>Learn</div>
+          <div class="sign"><span class="dot"></span>Repeat</div>
+          <svg class="scene" aria-hidden="true"><use href="#scene"/></svg>
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+  <!-- quote -->
+  <!-- Edit this line to make the closing quote your own. -->
+  <footer class="quote fade">
+    <p class="quote__t"><span class="q">&ldquo;</span>Models are just tools. <span class="hl">Context, craft and curiosity</span> make the difference.<span class="q">&rdquo;</span> <span class="heart">&#9829;</span></p>
+  </footer>
+
+</main>
+
+<script>
+  // gentle staggered reveal (respects reduced-motion via CSS)
+  document.querySelectorAll('.fade').forEach(function(el,i){
+    el.style.animationDelay = (i*0.06).toFixed(2)+'s';
+  });
+</script>
+</body>
+</html>
