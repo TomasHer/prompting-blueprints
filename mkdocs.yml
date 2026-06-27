@@ -90,6 +90,7 @@ nav:
     - Loop Engineering (and How to Avoid Loopmaxxing): 02-ai-agents/01-foundations/loop-engineering.md
     - Agent Fleet Governance (Fleet Engineering): 02-ai-agents/01-foundations/agent-fleet-governance.md
     - Context Engineering: 02-ai-agents/03-context-and-memory/context-engineering.md
+    - Loop Engineering: 02-ai-agents/03-context-and-memory/loop-engineering.md
     - Agent Context Window Performance: 02-ai-agents/03-context-and-memory/agent-context-window-performance.md
     - Cursor Dynamic Context Discovery: 02-ai-agents/03-context-and-memory/cursor-dynamic-context-discovery.md
     - Ultimate 2026 AI Software Implementation Guide: 02-ai-agents/05-production/ultimate-2026-ai-software-implementation-guide.md
