@@ -31,6 +31,7 @@ The five most recently added pages (auto-generated from git history — do not e
 
 ## TL;DR
 - **About the author:** speaking, program committee, and research overviews -> `./01-about-author`
+- **AI people to follow:** curated list of voices to follow on AI, grounded in this repo's references -> `./01-about-author/ai-people-to-follow.md`
 - **AI agents:** agent architectures, protocols (MCP/A2A), context engineering (incl. dynamic context discovery), open models, and skills playbooks -> `./02-ai-agents`
 - **Prompts & patterns:** prompt packs and reusable scaffolds (role + constraints + format) -> `./03-prompts-and-patterns`
 - **Guides:** deep-dive primers with links to official vendor guides (Gemini Prompting Guide 101, Google Startup AI Agents) -> `./04-guides` (see `./04-guides/overview.md`)

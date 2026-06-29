@@ -4,7 +4,11 @@
 
 ### A
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382)](https://arxiv.org/abs/2302.11382)
+- [Addy Osmani – personal site](https://addyosmani.com/)
 - [Agrici Daniel – claude-obsidian: AI-Powered Knowledge Management System (GitHub)](https://github.com/AgriciDaniel/claude-obsidian)
+- [Agrici Daniel – GitHub profile](https://github.com/AgriciDaniel)
+- [Andrej Karpathy – GitHub profile](https://github.com/karpathy)
+- [Anthropic – home](https://www.anthropic.com/)
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
 - [A2A .NET SDK (GitHub)](https://github.com/a2aproject/a2a-dotnet)
 - [A2A Protocol Documentation – Get started](https://a2a-protocol.org/latest/#get-started-with-a2a)
@@ -37,6 +41,7 @@
 - [Claude - Claude Cowork product page](https://claude.com/product/cowork)
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 - [Clerk](https://clerk.com/)
+- [Cobus Greyling – Medium profile](https://cobusgreyling.medium.com/)
 - [Cobus Greyling – The Evolving Vocabulary of AI](https://cobusgreyling.medium.com/the-evolving-vocabulary-of-ai-2ea12100811d)
 - [Code Newsletter - THE CODE](https://codenewsletter.ai/subscribe?utm_source=linkedin_profile_om)
 - [Codelab: Get started with Google Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity#0)
@@ -55,6 +60,8 @@
 - [DAiTA — Intelligente Dokumentenverarbeitung Plattform (DE, Österreichische Post)](https://www.post.at/g/c/daita)
 - [DAIR.AI Thinkific - Claude Code for Everyone](https://dair-ai.thinkific.com/courses/claude-code)
 - [DeepLearning.AI - Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/)
+- [DeepLearning.AI – home](https://www.deeplearning.ai/)
+- [DeepMind – home](https://deepmind.google/)
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
 - [DeepSeek](https://www.deepseek.com/)
 
@@ -93,6 +100,7 @@
 - [GitHub – Microsoft Agent Framework (.git)](https://github.com/microsoft/agent-framework.git)
 - [GitHub – Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
 - [GitHub – nanoGPT](https://github.com/karpathy/nanoGPT)
+- [GitHub – Pamela Fox profile](https://github.com/pamelafox)
 - [GitHub – Strands agent-sop repository](https://github.com/strands-agents/agent-sop/tree/main)
 - [GLM-5 GitHub Repository](https://github.com/zai-org/GLM-5)
 - [Google ADK Python GitHub Repository](https://github.com/google/adk-python)
@@ -116,12 +124,14 @@
 
 ### H
 - [Hermes Agent (Nous Research)](https://hermes-agent.nousresearch.com)
+- [Hugging Face – home](https://huggingface.co/)
 - [Hugging Face – HF Skills: training a fine-tuning agent with Claude Code](https://huggingface.co/blog/hf-skills-training)
 - [Hugging Face Model Card – GLM-5](https://huggingface.co/zai-org/GLM-5)
 - [Hugging Face – Ornith-1.0 Collection (deepreinforce-ai)](https://huggingface.co/collections/deepreinforce-ai/ornith-10)
 
 ### J
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
+- [Joshua Kubicki – makelaw (Substack profile)](https://makelaw.substack.com/)
 
 ### K
 
@@ -137,6 +147,7 @@
 - [LangChain Deep Agents Repository (tree/master)](https://github.com/langchain-ai/deepagents/tree/master)
 - [LangChain Deep Agents – research_agent.py example](https://github.com/langchain-ai/deepagents/blob/master/examples/research/research_agent.py)
 - [LangChain – LangGraph Studio docs](https://docs.langchain.com/oss/python/langgraph/studio)
+- [LangChain – home](https://www.langchain.com/)
 - [LangGraph – Official site](https://www.langchain.com/langgraph)
 - [LM Studio blog – FunctionGemma + Unsloth tutorial](https://lmstudio.ai/blog/functiongemma-unsloth)
 - [Lovable](https://lovable.dev/)
@@ -147,6 +158,7 @@
 - [M365copilot.com](https://www.m365copilot.com)
 - [Make](https://www.make.com/)
 - [Manus – Research Agent Workspace](https://manus.im/)
+- [Medium - Albertina Bekhti profile](https://medium.com/@abertina)
 - [Medium - Daniel Avila](https://medium.com/@dan.avila7)
 - [Medium - Joe Njenga](https://medium.com/@joe.njenga)
 - [Medium - Joe Njenga Claude Code list](https://medium.com/@joe.njenga/list/claude-code-bd02c285e37f)
@@ -191,6 +203,7 @@
 - [OpenAI Academy – Use cases for managers](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/use-cases-for-managers)
 - [OpenAI – Agents API guide](https://platform.openai.com/docs/guides/agents)
 - [OpenAI – ChatGPT](https://openai.com/chatgpt)
+- [OpenAI – home](https://openai.com/)
 - [OpenAI – Codex](https://openai.com/blog/openai-codex)
 - [OpenAI Codex – AGENTS.md guide](https://developers.openai.com/codex/guides/agents-md)
 - [OpenAI Codex – Prompting guide](https://developers.openai.com/codex/prompting)
