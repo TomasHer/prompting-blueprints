@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd=$(jq -r '.tool_input.command // \"\"'); case \"$cmd\" in *\"git commit\"*) python3 scripts/build-recent-additions.py >/dev/null 2>&1; if ! git diff --quiet -- README.md 2>/dev/null; then echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUse\",\"additionalContext\":\"scripts/build-recent-additions.py refreshed the README Recently added list; README.md now has uncommitted changes. Stage and commit README.md so the refresh is included in this change.\"}}'; fi ;; esac",
+            "statusMessage": "Refreshing README Recently added list"
+          }
+        ]
+      }
+    ]
+  }
+}
