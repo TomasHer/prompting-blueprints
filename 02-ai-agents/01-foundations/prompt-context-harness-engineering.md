@@ -1,7 +1,7 @@
 ---
 title: "From Prompt to Context to Harness Engineering"
 tags: ["agents", "harness-engineering", "context-engineering"]
-last_updated: "2026-06-15"
+last_updated: "2026-06-29"
 ---
 
 # From Prompt to Context to Harness Engineering
@@ -166,6 +166,26 @@ The everyday corollary is the most useful sentence in the section: when an agent
 
 Reading it inside-out: a prompt is one instruction; context is the information environment that instruction runs in; the harness is the operating environment that the whole session runs in, across many instructions and many sessions; and the loop is the *temporal* wrapper that runs that harness over and over — feeding each run's verified result back into the next — until a termination condition says "done."
 
+## The maturity scale: from Prompter to System Architect
+
+The four engineering layers also describe a **progression of practitioners**, not just techniques. As the unit of work grows — from one message, to one session, to the whole agent lifecycle, to a *population* of loops — the role that owns it changes too. The same shift that moves a problem from the prompt layer to the loop layer moves a person from *writing prompts* to *designing the system that runs them*.
+
+| Role | What they do | Layer they own | Unit of work |
+| :--- | :--- | :--- | :--- |
+| **Prompter** | Writes prompts to get AI responses. Optimizes wording, role, and format for a good one-shot answer. | Prompt engineering | One message / turn |
+| **Operator** | Manages and monitors loops someone else designed — kicks off runs, watches outputs, intervenes when a loop drifts or stalls. | Context + harness (in operation) | One run / session |
+| **Loop Engineer** | Designs and optimizes the loops themselves — feedback gates, termination criteria, verification, the discover→plan→execute→verify→iterate cycle. Stops prompting the agent and writes the loop that prompts it. | Loop engineering | The loop, run unattended over time |
+| **System Architect** | Oversees the entire loop *system* — many loops running concurrently, with the identity, permissions, audit, and accountability that govern them as a fleet. | Fleet governance (above the loop) | A population of loops across a team or org |
+
+The ladder is **additive**, exactly like the layers it mirrors: a Loop Engineer is still prompting and curating context *inside* each iteration; a System Architect still relies on well-engineered loops underneath the governance layer. You don't graduate *out of* the lower rungs — you keep them and add scope.
+
+Two practical reads of this scale:
+
+- **Diagnose where you are, not just where a bug is.** The [practitioner checklist](#practitioner-checklist) tells you which *layer* a failure lives in; this scale tells you which *role* a problem demands. "Our loop runs but nobody can say which agent touched production" is not a Loop Engineer problem — it's a System Architect one (see [Agent Fleet Governance](agent-fleet-governance.md)).
+- **Hire and staff against it.** A team that only has Prompters will ship demos, not products — the title of the infographic this maps to is *"Build the Loop or Lose the Product."* Reliable autonomy needs at least a Loop Engineer; running many such loops safely needs a System Architect.
+
+**Analogy:** the Prompter writes a great work order; the Operator runs the machine that fills it; the Loop Engineer designs the self-running assembly line; the System Architect runs the whole factory floor — many lines at once — and answers for what comes off it.
+
 ## A worked example: "fix this failing bug"
 
 The same task lands very differently depending on which generation you stop at.
@@ -263,6 +283,7 @@ Most "the model is bad" complaints in production are actually harness gaps weari
 - explainx.ai — [Loop Engineering: How to Design Coding Agent Loops That Run While You Sleep (2026 Guide)](https://explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026)
 - Oracle Developers — [The Agent Loop Decoded: Three Levels Every Agent Engineer Must Know](https://blogs.oracle.com/developers/the-agent-loop-decoded-three-levels-every-agent-engineer-must-know)
 - Rakesh Gohel — "The AI Agent Harness: Your Production Control Plane" (infographic + post on the eight harness components, the engine/car framing, and how the big labs apply it)
+- Rakesh Gohel — "The difference between a Prompter and a Loop Engineer" (infographic mapping the four engineering layers to the Prompter → Operator → Loop Engineer → System Architect maturity scale; *"Build the Loop or Lose the Product"* — the source for the [maturity scale](#the-maturity-scale-from-prompter-to-system-architect) above)
 - OpenAI — [Introducing Operator](https://openai.com/index/introducing-operator/) / [ChatGPT agent](https://openai.com/index/introducing-chatgpt-agent/) (Computer-Using Agent; Operator folded into agent mode in 2025)
 - Anthropic — [Claude Managed Agents overview](https://platform.claude.com/docs/en/managed-agents/overview) (pre-built, configurable agent harness)
 - Related in this repo: [Context Engineering](../03-context-and-memory/context-engineering.md) · [Prompt Pattern Catalogue](../../03-prompts-and-patterns/prompt-pattern-catalogue.md) · [MCP Guide](../04-protocols/mcp-guide.md) · [Hermes Agent Tutorial](../../05-tools/hermes-agent-tutorial.md)

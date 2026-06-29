@@ -1,7 +1,7 @@
 ---
 title: "Context Engineering"
 tags: ["agents", "context-engineering"]
-last_updated: "2026-01-10"
+last_updated: "2026-06-29"
 ---
 
 # Context Engineering
@@ -9,6 +9,8 @@ last_updated: "2026-01-10"
 ![Context engineering overview](../../assets/other/context-engineering.PNG)
 
 Context engineering is the discipline of dynamically managing the entirety of information an AI agent sees. It's about filling the context window with the right information for the next step.
+
+At its center is a **curator** — the step that sits between the raw inputs (user query, documents and knowledge, past messages and memory, tool results and data) and the finite context window, deciding what earns a slot and what gets dropped. *Keep what matters; drop what does not.* Everything below — relevance over volume, just-in-time retrieval, compression, structured note-taking — is how that curator does its job.
 
 For a practical example, see [Cursor Dynamic Context Discovery](./cursor-dynamic-context-discovery.md).
 
