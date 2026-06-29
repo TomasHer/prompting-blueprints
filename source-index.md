@@ -9,8 +9,16 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382)](https://arxiv.org/abs/2302.11382)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [Addy Osmani – personal site](https://addyosmani.com/)
+  - cited in: `01-about-author/ai-people-to-follow.md`
 - [Agrici Daniel – claude-obsidian: AI-Powered Knowledge Management System (GitHub)](https://github.com/AgriciDaniel/claude-obsidian)
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
+- [Agrici Daniel – GitHub profile](https://github.com/AgriciDaniel)
+  - cited in: `01-about-author/ai-people-to-follow.md`
+- [Andrej Karpathy – GitHub profile](https://github.com/karpathy)
+  - cited in: `01-about-author/ai-people-to-follow.md`
+- [Anthropic – home](https://www.anthropic.com/)
+  - cited in: `01-about-author/ai-people-to-follow.md`
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
   - cited in: `03-prompts-and-patterns/prompt-pattern-catalogue.md`
 - [A2A .NET SDK (GitHub)](https://github.com/a2aproject/a2a-dotnet)
@@ -67,6 +75,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`, `05-tools/coding-ai-agent-selection-tutorial.md`
 - [Clerk](https://clerk.com/)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [Cobus Greyling – Medium profile](https://cobusgreyling.medium.com/)
+  - cited in: `01-about-author/ai-people-to-follow.md`
 - [Cobus Greyling – The Evolving Vocabulary of AI](https://cobusgreyling.medium.com/the-evolving-vocabulary-of-ai-2ea12100811d)
   - cited in: `02-ai-agents/01-foundations/agent-fleet-governance.md`, `02-ai-agents/01-foundations/prompt-context-harness-engineering.md`
 - [Code Newsletter - THE CODE](https://codenewsletter.ai/subscribe?utm_source=linkedin_profile_om)
@@ -99,6 +109,10 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [DeepLearning.AI - Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/)
   - cited in: `05-tools/claude-code-tool-guide.md`
+- [DeepLearning.AI – home](https://www.deeplearning.ai/)
+  - cited in: `01-about-author/ai-people-to-follow.md`
+- [DeepMind – home](https://deepmind.google/)
+  - cited in: `01-about-author/ai-people-to-follow.md`
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
   - cited in: `06-models-and-evaluations/facts-benchmark-overview.md`
 - [DeepSeek](https://www.deepseek.com/)
@@ -165,6 +179,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/microsoft-agent-framework.md`
 - [GitHub – nanoGPT](https://github.com/karpathy/nanoGPT)
   - cited in: `05-tools/nanogpt-tool-guide.md`
+- [GitHub – Pamela Fox profile](https://github.com/pamelafox)
+  - cited in: `01-about-author/ai-people-to-follow.md`
 - [GitHub – Strands agent-sop repository](https://github.com/strands-agents/agent-sop/tree/main)
   - cited in: `05-tools/spec-driven-development-tutorial.md`
 - [GLM-5 GitHub Repository](https://github.com/zai-org/GLM-5)
@@ -207,6 +223,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `03-prompts-and-patterns/researchers-prompting-blueprints.md`, `03-prompts-and-patterns/writers-prompting-blueprints.md`, `05-tools/microsoft-copilot-researcher-agent.md`, `09-conferences/gaise-2026.md`
 - [Hermes Agent (Nous Research)](https://hermes-agent.nousresearch.com)
   - cited in: `05-tools/hermes-agent-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
+- [Hugging Face – home](https://huggingface.co/)
+  - cited in: `01-about-author/ai-people-to-follow.md`
 - [Hugging Face – HF Skills: training a fine-tuning agent with Claude Code](https://huggingface.co/blog/hf-skills-training)
   - cited in: `04-guides/claude-fine-tune-llm.md`
 - [Hugging Face Model Card – GLM-5](https://huggingface.co/zai-org/GLM-5)
@@ -215,6 +233,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
   - cited in: `07-use-cases-and-research/vibe-research.md`
+- [Joshua Kubicki – makelaw (Substack profile)](https://makelaw.substack.com/)
+  - cited in: `01-about-author/ai-people-to-follow.md`
 - [Kaggle 5-Day AI Agents Course Guide](https://www.kaggle.com/learn-guide/5-day-agents)
   - cited in: `02-ai-agents/01-foundations/google-5-day-ai-agents-course.md`
 - [Kaggle / Google – The New SDLC with Vibe Coding (whitepaper, Addy Osmani, Shubham Saboo, Sokratis Kartakis)](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding)
@@ -235,6 +255,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/langchain-deep-agents.md`
 - [LangChain – LangGraph Studio docs](https://docs.langchain.com/oss/python/langgraph/studio)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [LangChain – home](https://www.langchain.com/)
+  - cited in: `01-about-author/ai-people-to-follow.md`
 - [LangGraph – Official site](https://www.langchain.com/langgraph)
   - cited in: `05-tools/n8n-vs-langgraph.md`
 - [LM Studio blog – FunctionGemma + Unsloth tutorial](https://lmstudio.ai/blog/functiongemma-unsloth)
@@ -251,10 +273,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Manus – Research Agent Workspace](https://manus.im/)
   - cited in: `05-tools/best-ai-apps-2026.md`, `05-tools/langchain-deep-agents.md`
+- [Medium - Albertina Bekhti profile](https://medium.com/@abertina)
+  - cited in: `01-about-author/ai-people-to-follow.md`
 - [Medium - Daniel Avila](https://medium.com/@dan.avila7)
-  - cited in: `05-tools/claude-code-tool-guide.md`
+  - cited in: `01-about-author/ai-people-to-follow.md`, `05-tools/claude-code-tool-guide.md`
 - [Medium - Joe Njenga](https://medium.com/@joe.njenga)
-  - cited in: `05-tools/claude-code-tool-guide.md`
+  - cited in: `01-about-author/ai-people-to-follow.md`, `05-tools/claude-code-tool-guide.md`
 - [Medium - Joe Njenga Claude Code list](https://medium.com/@joe.njenga/list/claude-code-bd02c285e37f)
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [Medium - JP Caparas](https://jpcaparas.medium.com/)
@@ -331,6 +355,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
 - [OpenAI – ChatGPT](https://openai.com/chatgpt)
   - cited in: `04-guides/vibe-coding-tech-stack.md`, `05-tools/ai-tool-chaining-oct-2025.md`
+- [OpenAI – home](https://openai.com/)
+  - cited in: `01-about-author/ai-people-to-follow.md`, `02-ai-agents/03-context-and-memory/agent-context-window-performance.md`
 - [OpenAI – Codex](https://openai.com/blog/openai-codex)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [OpenAI Codex – AGENTS.md guide](https://developers.openai.com/codex/guides/agents-md)
@@ -404,15 +430,15 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Vanderbilt – ChatGPT Advanced Data Analysis course announcement](https://www.vanderbilt.edu/datascience/2023/08/29/new-course-chatgpt-advanced-data-analysis-by-dr-jules-white-associate-professor-of-computer-science/)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
 - [Vanderbilt University – Prompt Patterns collection](https://www.vanderbilt.edu/generative-ai/prompt-patterns/)
-  - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+  - cited in: `01-about-author/ai-people-to-follow.md`, `02-ai-agents/01-foundations/ai-agents-overview.md`
 - [Vom Brocke et al. – How to Identify Promising AI Use Cases](https://www.alexandria.unisg.ch/server/api/core/bitstreams/35316f07-8d0b-47dc-bbf0-36753ca834b3/content)
   - cited in: `07-use-cases-and-research/ai-use-case-identification.md`
 - [Wei et al. – Chain-of-thought prompting elicits reasoning in large language models](https://arxiv.org/abs/2201.11903)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
 - [X - Boris Cherny](https://x.com/bcherny)
-  - cited in: `05-tools/claude-code-tool-guide.md`
+  - cited in: `01-about-author/ai-people-to-follow.md`, `05-tools/claude-code-tool-guide.md`
 - [X - Thariq](https://x.com/trq212)
-  - cited in: `05-tools/claude-code-tool-guide.md`
+  - cited in: `01-about-author/ai-people-to-follow.md`, `05-tools/claude-code-tool-guide.md`
 - [xAI – Grok](https://grok.x.ai/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
 - [YouTube – AI agents overview](https://youtu.be/bx-bcUWw2Wo)
