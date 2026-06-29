@@ -2,7 +2,7 @@
 """
 Generate the "Recently added" list in README.md.
 
-The list shows the 5 most recently *added* content pages, derived automatically
+The list shows the 10 most recently *added* content pages, derived automatically
 from git history (the commit that first introduced each file). No manual
 bookkeeping is required: add a new content page, commit it, and the next run
 picks it up.
@@ -36,7 +36,7 @@ START = "<!-- RECENT_ADDITIONS:START -->"
 END = "<!-- RECENT_ADDITIONS:END -->"
 
 # How many recent additions to list.
-LIMIT = 5
+LIMIT = 10
 
 # Only markdown under the numbered content sections counts as a "new thing".
 CONTENT_GLOB = re.compile(r"^0\d-[^/]+/.*\.md$")
