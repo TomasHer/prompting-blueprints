@@ -102,6 +102,7 @@ nav:
     - Generative AI Project Tutorial: 04-guides/gen-ai-project-tutorial.md
     - LLM Lifecycle Monitoring Guide: 04-guides/llm-lifecycle-monitoring.md
     - CI/CD for AI Agents on Microsoft Foundry: 02-ai-agents/05-production/cicd-ai-agents-microsoft-foundry.md
+    - AI Safety Classifiers & Jailbreak Severity: 02-ai-agents/05-production/ai-safety-classifiers-jailbreak-severity.md
     - AI Adoption Readiness Guide: 04-guides/ai-adoption-guide.md
     - Gemini 3 Pro + n8n Workflow JSON Guide: 04-guides/gemini-n8n-workflow-json-guide.md
     - Model Context Protocol (MCP) Guide: 02-ai-agents/04-protocols/mcp-guide.md

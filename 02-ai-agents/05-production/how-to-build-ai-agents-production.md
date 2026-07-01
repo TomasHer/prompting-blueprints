@@ -362,3 +362,4 @@ Use this before declaring an agent production-ready.
 | [N8N vs LangGraph](../../05-tools/n8n-vs-langgraph.md) | No-code vs code-first workflow comparison |
 | [Ultimate 2026 Implementation Guide](./ultimate-2026-ai-software-implementation-guide.md) | MCP-first stack, 30-60-90 rollout, production hardening |
 | [Models & Evaluations](../../06-models-and-evaluations/README.md) | promptfoo configs, evaluation strategy overview |
+| [AI Safety Classifiers & Jailbreak Severity](./ai-safety-classifiers-jailbreak-severity.md) | Defense-in-depth, safety margin tradeoffs, jailbreak severity scoring |
