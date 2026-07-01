@@ -28,8 +28,8 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-06-23** · [Agent Fleet Governance (Fleet Engineering)](./02-ai-agents/01-foundations/agent-fleet-governance.md)
 - **2026-06-14** · [Build a Local Hermes Daily Assistant (Qwen3 + Ollama + Unsloth + Obsidian)](./05-tools/hermes-daily-assistant-setup.md)
 - **2026-06-14** · [Loop Engineering (and How to Avoid Loopmaxxing)](./02-ai-agents/01-foundations/loop-engineering.md)
-- **2026-06-07** · [GAISE 2026 — Conference Notes](./09-conferences/gaise-2026.md)
-- **2026-06-03** · [From Prompt to Context to Harness Engineering](./02-ai-agents/01-foundations/prompt-context-harness-engineering.md)
+- **2026-06-10** · [GAISE 2026 — Conference Notes](./09-conferences/gaise-2026.md)
+- **2026-06-10** · [Requirements Engineering – Prompting Tips & Use Cases](./08-requirements-engineering/overview.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
@@ -46,6 +46,7 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **Use cases & research:** applied workflows, research tutorials, and collaboration playbooks -> `./07-use-cases-and-research`
 - **Requirements engineering:** prompting tips and use cases for RE tasks (model consistency, traceability, elicitation) — based on the IREB AI4RE Prompt Guide -> `./08-requirements-engineering`
 - **Conferences:** conference recaps and session notes (e.g., GAISE 2026) -> `./09-conferences`
+- **Security:** AI safety/misuse defenses — classifiers, jailbreak severity, threat models -> `./10-security`
 - **External sources:** curated references cited across guides and playbooks -> `./external-sources.md`
 - **Source index:** reverse map of each source to the page(s) that cite it -> `./source-index.md`
 - **Changelog:** release notes and updates -> `./CHANGELOG.md`
@@ -100,6 +101,7 @@ Featured additions: [The 10X Developer in the Agentic Era](./04-guides/10x-devel
 07-use-cases-and-research/  # applied workflows, research playbooks, and tutorials
 08-requirements-engineering/  # RE prompting tips and use cases (IREB AI4RE Prompt Guide)
 09-conferences/         # conference recaps and session notes (e.g., GAISE 2026)
+10-security/            # AI safety/misuse defenses — classifiers, jailbreak severity, threat models
 assets/                 # social previews and supporting images
 docs/                   # static repo-browser site & licenses
 scripts/                # maintenance scripts (front-matter checks, source index build, recent-additions list)

@@ -23,6 +23,7 @@
 - [Anthropic – Claude](https://www.anthropic.com/claude)
 - [Anthropic — Claude Code](https://www.anthropic.com/claude-code)
 - [Anthropic – Claude Code announcement](https://www.anthropic.com/news/claude-code)
+- [Anthropic – Redeploying Fable 5](https://www.anthropic.com/news/redeploying-fable-5)
 - [Anthropic Skilljar - Claude Certified Architect Foundations Access Request](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request)
 - [Anthropic Skilljar - Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action)
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
