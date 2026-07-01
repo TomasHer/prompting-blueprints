@@ -88,9 +88,36 @@ Before you let a loop run unattended, confirm every box:
 - [ ] **Budget ceiling** — a token/cost cap that triggers human handoff before the bill explodes.
 - [ ] **Isolation** — worktrees or sandboxes so parallel agents can't clobber each other or the main branch.
 
+## Zooming out: the loops around the loop (Andrew Ng)
+
+Everything above treats *one* loop — the agentic coding loop — as the object of engineering. In [*The Batch*, Issue 359](https://www.deeplearning.ai/the-batch/issue-359), **Andrew Ng** zooms out and points out that a good software product is actually built by **three nested loops running at different timescales**, and that the inner loop is only the fastest of them. He starts from the same closed-loop primitive the rest of this page is built on:
+
+> "Given a product specification and optionally a set of evals (that is, a dataset against which to measure performance), we can have an AI agent write code, test its work, and keep iterating until the code is bug-free and meets its specification." — Andrew Ng, *The Batch* #359
+
+That is the *engineering loop*. Ng's contribution is to nest it inside two slower, human-facing loops:
+
+| Loop | Timescale | Who closes it | What it decides |
+| :--- | :--- | :--- | :--- |
+| **Engineering loop** | minutes | the coding agent | Does the code build, pass tests, and meet the spec? |
+| **Developer-feedback loop** | tens of minutes to hours | a developer reviewing the product | Is this the *right* product? Steer the agent toward a better version. |
+| **External feedback loop** | hours to days or weeks | friends, alpha testers, A/B tests in production | Does the market actually want this? Evolve the vision. |
+
+In Ng's words:
+
+> "The engineering loop executes quickly. Every few minutes, the coding agent might build and test a new version of the software."
+
+> "The developer-feedback loop operates over time intervals between tens of minutes and hours — that's how frequently a developer might review a product and give feedback."
+
+> "The external feedback loop includes a wide range of tactics like asking a few friends for feedback, launching to alpha testers, or putting the code into production with A/B testing. These tactics are usually slow, rarely taking less than hours and sometimes taking days or even weeks."
+
+**Why this matters for loop engineering.** The control-loop discipline above makes the *engineering loop* fast and reliable. But when the inner loop speeds up, the bottleneck doesn't disappear — it moves outward to the slower loops. Ng's point is that with coding agents compressing the engineering loop to minutes, **more engineers now play a partial product-management role**, and the hardest part shifts from writing code to *shaping the product vision* — striking a balance between building (bridging the gap between vision and spec) and getting user feedback to evolve that vision. A loop engineer who optimizes only the inner loop is optimizing the part that was already fastest.
+
+This reframes the [loopmaxxing](#the-trap-loopmaxxing-is-the-new-tokenmaxxing) warning too: an agent drifting on a fuzzy goal is a symptom of a missing *outer* loop — no developer or external feedback is closing the loop on *whether the work is worth doing at all*. The verifiable exit condition answers "is the code correct?"; the outer loops answer "is it the right code?"
+
 ## Key takeaways
 
 - **Loop engineering is the new top skill:** you design the loop that prompts the agent, not the prompt itself. It's the execution-layer craft of [harness engineering](prompt-context-harness-engineering.md).
+- **There is more than one loop.** Andrew Ng nests the fast engineering loop (minutes) inside a developer-feedback loop (tens of minutes to hours) and an external feedback loop (hours to weeks). Speeding up the inner loop pushes the bottleneck outward to product vision — so engineers increasingly own a partial product-management role.
 - **The exit condition is the whole game.** A fuzzy goal with no verifiable check produces infinite drift; a verifiable goal with hard caps produces reliable work.
 - **Loopmaxxing is tokenmaxxing's successor** — brute-force iteration that burns budget and accrues comprehension debt instead of solving the architecture.
 - **Build control loops, not open-ended cycles:** deterministic code on the outside, LLM decisions on the inside, a separate evaluator, and a human handoff after a few retries.
@@ -105,4 +132,5 @@ Loop engineering makes a *single* autonomous loop reliable and persistent. The m
 - Boris Cherny (Anthropic, Claude Code lead) — *"I don't prompt Claude anymore… My job is to write loops."*
 - Addy Osmani (Google) — primitives of an AI loop (automations, worktrees, skills/tools, sub-agents, memory).
 - Andrej Karpathy — `autoresearch`, an overnight ML-experiment loop in Python.
+- Andrew Ng — [*The Batch*, Issue 359](https://www.deeplearning.ai/the-batch/issue-359): the three nested loops (engineering / developer-feedback / external feedback) at different timescales, and the shift of engineers into a partial product-management role.
 - Related in this repo: [From Prompt to Context to Harness Engineering](prompt-context-harness-engineering.md) · [Context Engineering](../03-context-and-memory/context-engineering.md) · [Prompt Pattern Catalogue](../../03-prompts-and-patterns/prompt-pattern-catalogue.md) · [MCP Guide](../04-protocols/mcp-guide.md)

@@ -45,7 +45,7 @@ People who make AI concepts, tools, and workflows accessible.
 | **Joe Njenga** | Practical Claude Code workflows and write-ups | [Joe Njenga (Medium)](https://medium.com/@joe.njenga) | Claude Code guides in [05-tools](../05-tools/claude-code-tool-guide.md) |
 | **Daniel Avila** | AI coding tools and tutorials | [Daniel Avila (Medium)](https://medium.com/@dan.avila7) | Tooling tutorials in [05-tools](../05-tools/) |
 | **Pamela Fox** | Python, MCP servers (FastMCP), developer education | [pamelafox (GitHub)](https://github.com/pamelafox) | [MCP guide](../02-ai-agents/04-protocols/mcp-guide.md) |
-| **Andrew Ng** _(curated)_ | AI education at scale; DeepLearning.AI short courses | [DeepLearning.AI](https://www.deeplearning.ai/) | DeepLearning.AI Claude Code course (cited in tooling guides) |
+| **Andrew Ng** _(curated)_ | AI education at scale; DeepLearning.AI short courses; *The Batch* newsletter | [DeepLearning.AI](https://www.deeplearning.ai/) | DeepLearning.AI Claude Code course (cited in tooling guides); the three nested loops in [Loop Engineering](../02-ai-agents/01-foundations/loop-engineering.md) |
 
 ---
 
