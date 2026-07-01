@@ -20,6 +20,7 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The ten most recently added pages (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-07-01** · [AI Safety Classifiers & Jailbreak Severity](./02-ai-agents/05-production/ai-safety-classifiers-jailbreak-severity.md)
 - **2026-06-29** · [The 10X Developer in the Agentic Era — Skills and How to Measure Value](./04-guides/10x-developer-agentic-era.md)
 - **2026-06-29** · [AI People to Follow](./01-about-author/ai-people-to-follow.md)
 - **2026-06-27** · [Loop Engineering](./02-ai-agents/03-context-and-memory/loop-engineering.md)
@@ -29,7 +30,6 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-06-14** · [Build a Local Hermes Daily Assistant (Qwen3 + Ollama + Unsloth + Obsidian)](./05-tools/hermes-daily-assistant-setup.md)
 - **2026-06-14** · [Loop Engineering (and How to Avoid Loopmaxxing)](./02-ai-agents/01-foundations/loop-engineering.md)
 - **2026-06-10** · [GAISE 2026 — Conference Notes](./09-conferences/gaise-2026.md)
-- **2026-06-10** · [Requirements Engineering – Prompting Tips & Use Cases](./08-requirements-engineering/overview.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
