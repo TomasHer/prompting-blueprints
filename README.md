@@ -28,8 +28,8 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-06-23** · [Agent Fleet Governance (Fleet Engineering)](./02-ai-agents/01-foundations/agent-fleet-governance.md)
 - **2026-06-14** · [Build a Local Hermes Daily Assistant (Qwen3 + Ollama + Unsloth + Obsidian)](./05-tools/hermes-daily-assistant-setup.md)
 - **2026-06-14** · [Loop Engineering (and How to Avoid Loopmaxxing)](./02-ai-agents/01-foundations/loop-engineering.md)
-- **2026-06-07** · [GAISE 2026 — Conference Notes](./09-conferences/gaise-2026.md)
-- **2026-06-03** · [From Prompt to Context to Harness Engineering](./02-ai-agents/01-foundations/prompt-context-harness-engineering.md)
+- **2026-06-10** · [GAISE 2026 — Conference Notes](./09-conferences/gaise-2026.md)
+- **2026-06-10** · [Requirements Engineering – Prompting Tips & Use Cases](./08-requirements-engineering/overview.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
