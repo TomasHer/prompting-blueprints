@@ -53,6 +53,19 @@ First tag: `agents`.
 - Defenses: input/output guardrails, allowlisting tool calls, human-in-the-loop
   approval gates, least-privilege tool scoping, sandboxing, output filtering,
   dual-LLM / quarantine patterns, and provenance/trust labeling of context.
+- **Case study: Anthropic – "Redeploying Fable 5"** (30 Jun 2026, see
+  `external-sources.md`). Real-world example of provider-side misuse defenses
+  worth folding into the attack catalogue / defense-patterns table: safety
+  classifiers that block potentially harmful cybersecurity requests at
+  inference time; the "defense in depth" idea (no single mechanism is perfect,
+  layering them is); the "safety margin" concept (deliberately over-blocking
+  borderline-benign requests to raise the bar against jailbreaks, trading
+  false positives for missed true positives); a jailbreak-severity taxonomy
+  (minor / narrow-harmful / universal) scored on four axes — capability gain,
+  breadth of capability gain, ease of weaponization, discoverability — which
+  is a reusable rubric for triaging any jailbreak finding; and the role of
+  external red-teaming / bug-bounty channels (HackerOne) and government
+  pre-release evaluation in catching what classifiers miss.
 
 **Suggested outline.**
 1. Intent + one-line summary (threat model first, then defenses).
