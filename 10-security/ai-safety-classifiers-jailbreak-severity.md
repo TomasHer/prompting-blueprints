@@ -1,6 +1,6 @@
 ---
 title: "AI Safety Classifiers & Jailbreak Severity"
-tags: ["agents", "production", "safety"]
+tags: ["security", "agents", "safety"]
 last_updated: "2026-07-01"
 ---
 
@@ -40,7 +40,7 @@ No single safety mechanism is perfect on its own. Providers layer several, so th
 
 None of these is sufficient alone. Together, a successful jailbreak has to clear every layer to cause real harm — which is the entire point of stacking them.
 
-**Applying this to your own agent:** if your agent wraps a foundation model with tool access, add your own layer on top of the provider's — e.g., an allowlist of tool calls, a human-approval gate before irreversible actions, and logging/alerting on suspicious request patterns. See the [Production Agent Framework](./how-to-build-ai-agents-production.md) for the full build-out.
+**Applying this to your own agent:** if your agent wraps a foundation model with tool access, add your own layer on top of the provider's — e.g., an allowlist of tool calls, a human-approval gate before irreversible actions, and logging/alerting on suspicious request patterns. See the [Production Agent Framework](../02-ai-agents/05-production/how-to-build-ai-agents-production.md) for the full build-out.
 
 ---
 
@@ -101,4 +101,4 @@ A jailbreak that scores high on all four is the kind that warrants an immediate 
 | Source | What it covers |
 |---|---|
 | [Anthropic — Redeploying Fable 5](https://www.anthropic.com/news/redeploying-fable-5) | Full incident timeline, safety classifier design, jailbreak severity framework, government collaboration commitments |
-| [How to Build AI Agents That Work in Production](./how-to-build-ai-agents-production.md) | HITL gates, guardrail placement, and the full production build-out this page's checklist plugs into |
+| [How to Build AI Agents That Work in Production](../02-ai-agents/05-production/how-to-build-ai-agents-production.md) | HITL gates, guardrail placement, and the full production build-out this page's checklist plugs into |

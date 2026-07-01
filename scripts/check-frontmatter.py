@@ -20,6 +20,7 @@ CONTENT_DIRS = {
     "04-guides",
     "05-tools",
     "07-use-cases-and-research",
+    "10-security",
 }
 
 

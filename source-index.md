@@ -48,7 +48,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Anthropic – Claude Code announcement](https://www.anthropic.com/news/claude-code)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Anthropic – Redeploying Fable 5](https://www.anthropic.com/news/redeploying-fable-5)
-  - _not cited in any content file_
+  - cited in: `10-security/ai-safety-classifiers-jailbreak-severity.md`
 - [Anthropic Skilljar - Claude Certified Architect Foundations Access Request](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request)
   - cited in: `05-tools/claude-code-certification-guide.md`
 - [Anthropic Skilljar - Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action)

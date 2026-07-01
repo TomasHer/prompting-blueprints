@@ -46,6 +46,7 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **Use cases & research:** applied workflows, research tutorials, and collaboration playbooks -> `./07-use-cases-and-research`
 - **Requirements engineering:** prompting tips and use cases for RE tasks (model consistency, traceability, elicitation) — based on the IREB AI4RE Prompt Guide -> `./08-requirements-engineering`
 - **Conferences:** conference recaps and session notes (e.g., GAISE 2026) -> `./09-conferences`
+- **Security:** AI safety/misuse defenses — classifiers, jailbreak severity, threat models -> `./10-security`
 - **External sources:** curated references cited across guides and playbooks -> `./external-sources.md`
 - **Source index:** reverse map of each source to the page(s) that cite it -> `./source-index.md`
 - **Changelog:** release notes and updates -> `./CHANGELOG.md`
@@ -100,6 +101,7 @@ Featured additions: [The 10X Developer in the Agentic Era](./04-guides/10x-devel
 07-use-cases-and-research/  # applied workflows, research playbooks, and tutorials
 08-requirements-engineering/  # RE prompting tips and use cases (IREB AI4RE Prompt Guide)
 09-conferences/         # conference recaps and session notes (e.g., GAISE 2026)
+10-security/            # AI safety/misuse defenses — classifiers, jailbreak severity, threat models
 assets/                 # social previews and supporting images
 docs/                   # static repo-browser site & licenses
 scripts/                # maintenance scripts (front-matter checks, source index build, recent-additions list)
