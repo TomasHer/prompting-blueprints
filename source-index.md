@@ -111,6 +111,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [DeepLearning.AI – home](https://www.deeplearning.ai/)
   - cited in: `01-about-author/ai-people-to-follow.md`
+- [DeepLearning.AI – The Batch, Issue 359 (Andrew Ng on the three key loops for building software)](https://www.deeplearning.ai/the-batch/issue-359)
+  - cited in: `02-ai-agents/01-foundations/loop-engineering.md`
 - [DeepMind – home](https://deepmind.google/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
@@ -322,7 +324,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Mistral – Mistral Large](https://mistral.ai/models/mistral-large/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
 - [multica-ai/andrej-karpathy-skills (GitHub) — single-file CLAUDE.md derived from Andrej Karpathy's LLM coding-pitfall observations](https://github.com/multica-ai/andrej-karpathy-skills)
-  - cited in: `04-guides/ai-coding-rules-senior-engineers.md`, `05-tools/claude-md-design-tutorial.md`
+  - cited in: `04-guides/10x-developer-agentic-era.md`, `04-guides/ai-coding-rules-senior-engineers.md`, `05-tools/claude-md-design-tutorial.md`
 - [multica-ai/andrej-karpathy-skills – CLAUDE.md (raw)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)
   - cited in: `04-guides/ai-coding-rules-senior-engineers.md`
 - [n8n – Official site](https://n8n.io/)

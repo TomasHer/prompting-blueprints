@@ -61,6 +61,7 @@
 - [DAIR.AI Thinkific - Claude Code for Everyone](https://dair-ai.thinkific.com/courses/claude-code)
 - [DeepLearning.AI - Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/)
 - [DeepLearning.AI – home](https://www.deeplearning.ai/)
+- [DeepLearning.AI – The Batch, Issue 359 (Andrew Ng on the three key loops for building software)](https://www.deeplearning.ai/the-batch/issue-359)
 - [DeepMind – home](https://deepmind.google/)
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
 - [DeepSeek](https://www.deepseek.com/)

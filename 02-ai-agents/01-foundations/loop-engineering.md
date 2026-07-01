@@ -88,9 +88,44 @@ Before you let a loop run unattended, confirm every box:
 - [ ] **Budget ceiling** — a token/cost cap that triggers human handoff before the bill explodes.
 - [ ] **Isolation** — worktrees or sandboxes so parallel agents can't clobber each other or the main branch.
 
+## Zooming out: the loops around the loop (Andrew Ng)
+
+Everything above treats *one* loop — the agentic coding loop — as the object of engineering. In [*The Batch*, Issue 359](https://www.deeplearning.ai/the-batch/issue-359), **Andrew Ng** zooms out: a good 0-to-1 product is built by **three loops running at increasing timescales**, and the coding loop is only the fastest of them. He starts from the same closed-loop primitive the rest of this page is built on:
+
+> "Given a product specification and optionally a set of evals (that is, a dataset against which to measure performance), we can have an AI agent write code, test its work, and keep iterating until the code is bug-free and meets its specification." — Andrew Ng, *The Batch* #359
+
+The three loops aren't concentric — they're **chained through shared artifacts**. Each loop pivots on the output of the slower one outside it: external feedback shapes the *developer vision*, the vision drives the *product spec/evals*, and the spec drives the *coding agent*. Because each loop runs far faster than the one outside it, the coding agent cycles many times inside a single developer review, which cycles many times inside a single round of external feedback.
+
+![Andrew Ng's 3 key product development loops: the Agentic Coding Loop (coding agent ⇄ product spec/evals, ~minutes) chains into the Developer Feedback Loop (product spec/evals ⇄ developer vision, ~hours), which chains into the External Feedback Loop (developer vision ⇄ external feedback, ~days)](../../assets/other/ng-three-product-development-loops.jpeg)
+
+| Loop | Timescale | Pivots on | What it decides |
+| :--- | :--- | :--- | :--- |
+| **Agentic coding loop** (the "engineering loop") | ~minutes | coding agent ⇄ product spec/evals | Does the code build, pass tests, and meet the spec? |
+| **Developer-feedback loop** | ~hours | product spec/evals ⇄ developer vision | Is this the *right* product? Steer the agent; update or clarify the spec. |
+| **External feedback loop** | ~days | developer vision ⇄ external feedback | Does the market actually want this? Evolve the vision. |
+
+In Ng's words:
+
+> "The engineering loop executes quickly. Every few minutes, the coding agent might build and test a new version of the software."
+
+> "The developer-feedback loop operates over time intervals between tens of minutes and hours — that's how frequently a developer might review a product and give feedback."
+
+> "This includes a wide range of tactics like asking a few friends for feedback, launching to alpha testers, or putting the code into production with A/B testing. These tactics are usually slow, rarely taking less than hours and sometimes taking days or even weeks."
+
+**The bottleneck moves outward.** Last year, developers acted as the QA function for their agents — manually finding bugs and asking the agent to fix them. Now that agents test their own code (the verifiable exit condition this page argues for), that burden shrinks and frees the developer for higher-level product decisions: which features to offer, where the UI needs work, how the spec should change once they've *seen* an implementation. So when the inner loop speeds up, the bottleneck doesn't disappear — it moves to the slower, human-facing loops. Ng's conclusion:
+
+> "With coding agents speeding up software development, more engineers are starting to play a partial product management role. For many engineers who are growing into this role, the hardest part is shaping the product vision and striking a balance between building (bridging the gap between vision and spec) and getting user feedback to evolve the vision."
+
+**Why the human loops can't be automated away.** Evals still matter here — "if you find that the system repeatedly runs into certain problems, building a set of evals for the agent becomes useful" — but the developer-feedback and external loops stay human-in-the-loop for a structural reason. Ng argues that humans hold a **context advantage** over the AI about users and the environment the product runs in:
+
+> "Many people describe this human contribution as 'taste,' but I prefer to think of it as humans having a context advantage, since that gives us a clearer path to helping AI systems get better ... So long as the human knows something the AI does not, human-in-the-loop is needed to inject that knowledge into the system."
+
+This reframes the [loopmaxxing](#the-trap-loopmaxxing-is-the-new-tokenmaxxing) warning too: an agent drifting on a fuzzy goal is a symptom of a missing *outer* loop — no developer vision or external feedback is closing the loop on *whether the work is worth doing at all*. The verifiable exit condition answers "is the code correct?"; the outer loops answer "is it the right code?" A loop engineer who optimizes only the inner loop is optimizing the part that was already fastest.
+
 ## Key takeaways
 
 - **Loop engineering is the new top skill:** you design the loop that prompts the agent, not the prompt itself. It's the execution-layer craft of [harness engineering](prompt-context-harness-engineering.md).
+- **There is more than one loop.** Andrew Ng chains the fast agentic coding loop (~minutes) into a developer-feedback loop (~hours) and an external feedback loop (~days), linked through shared artifacts (spec/evals, developer vision). Speeding up the inner loop pushes the bottleneck outward to product vision — so engineers increasingly own a partial product-management role, and stay in the loop because they hold a *context advantage* the AI doesn't.
 - **The exit condition is the whole game.** A fuzzy goal with no verifiable check produces infinite drift; a verifiable goal with hard caps produces reliable work.
 - **Loopmaxxing is tokenmaxxing's successor** — brute-force iteration that burns budget and accrues comprehension debt instead of solving the architecture.
 - **Build control loops, not open-ended cycles:** deterministic code on the outside, LLM decisions on the inside, a separate evaluator, and a human handoff after a few retries.
@@ -105,4 +140,5 @@ Loop engineering makes a *single* autonomous loop reliable and persistent. The m
 - Boris Cherny (Anthropic, Claude Code lead) — *"I don't prompt Claude anymore… My job is to write loops."*
 - Addy Osmani (Google) — primitives of an AI loop (automations, worktrees, skills/tools, sub-agents, memory).
 - Andrej Karpathy — `autoresearch`, an overnight ML-experiment loop in Python.
+- Andrew Ng — [*The Batch*, Issue 359](https://www.deeplearning.ai/the-batch/issue-359): the three nested loops (engineering / developer-feedback / external feedback) at different timescales, and the shift of engineers into a partial product-management role.
 - Related in this repo: [From Prompt to Context to Harness Engineering](prompt-context-harness-engineering.md) · [Context Engineering](../03-context-and-memory/context-engineering.md) · [Prompt Pattern Catalogue](../../03-prompts-and-patterns/prompt-pattern-catalogue.md) · [MCP Guide](../04-protocols/mcp-guide.md)
