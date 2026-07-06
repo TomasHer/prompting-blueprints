@@ -7,6 +7,7 @@
 - [Addy Osmani – personal site](https://addyosmani.com/)
 - [Agrici Daniel – claude-obsidian: AI-Powered Knowledge Management System (GitHub)](https://github.com/AgriciDaniel/claude-obsidian)
 - [Agrici Daniel – GitHub profile](https://github.com/AgriciDaniel)
+- [AI Job Search — AI-powered job application framework built on Claude Code (GitHub, MadsLorentzen)](https://github.com/MadsLorentzen/ai-job-search)
 - [Andrej Karpathy – GitHub profile](https://github.com/karpathy)
 - [Anthropic – home](https://www.anthropic.com/)
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)

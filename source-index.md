@@ -15,6 +15,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
 - [Agrici Daniel – GitHub profile](https://github.com/AgriciDaniel)
   - cited in: `01-about-author/ai-people-to-follow.md`
+- [AI Job Search — AI-powered job application framework built on Claude Code (GitHub, MadsLorentzen)](https://github.com/MadsLorentzen/ai-job-search)
+  - cited in: `07-use-cases-and-research/ai-job-search-claude-code.md`
 - [Andrej Karpathy – GitHub profile](https://github.com/karpathy)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [Anthropic – home](https://www.anthropic.com/)
