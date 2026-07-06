@@ -27,6 +27,7 @@ nav:
     - Ornith-1.0 on DGX Spark Guide: 06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md
     - Google Veo 3.1 Video Tutorial: 06-models-and-evaluations/google-veo-3-1-video-tutorial.md
     - FACTS Benchmark Overview: 06-models-and-evaluations/facts-benchmark-overview.md
+    - AI Agent Evaluation Metrics: 06-models-and-evaluations/ai-agent-evaluation-metrics-tutorial.md
     - Aggregated Suite (promptfoo.yml): 06-models-and-evaluations/promptfoo.yml
     - Pattern Catalogue Smoke Tests: 06-models-and-evaluations/pattern-catalogue-smoke.yml
   - Tools:

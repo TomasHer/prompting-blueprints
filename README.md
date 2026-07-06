@@ -20,6 +20,7 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The ten most recently added pages (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-07-06** · [AI Agent Evaluation: Metrics That Actually Measure Agents](./06-models-and-evaluations/ai-agent-evaluation-metrics-tutorial.md)
 - **2026-06-29** · [The 10X Developer in the Agentic Era — Skills and How to Measure Value](./04-guides/10x-developer-agentic-era.md)
 - **2026-06-29** · [AI People to Follow](./01-about-author/ai-people-to-follow.md)
 - **2026-06-27** · [Loop Engineering](./02-ai-agents/03-context-and-memory/loop-engineering.md)
@@ -28,8 +29,7 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-06-23** · [Agent Fleet Governance (Fleet Engineering)](./02-ai-agents/01-foundations/agent-fleet-governance.md)
 - **2026-06-14** · [Build a Local Hermes Daily Assistant (Qwen3 + Ollama + Unsloth + Obsidian)](./05-tools/hermes-daily-assistant-setup.md)
 - **2026-06-14** · [Loop Engineering (and How to Avoid Loopmaxxing)](./02-ai-agents/01-foundations/loop-engineering.md)
-- **2026-06-07** · [GAISE 2026 — Conference Notes](./09-conferences/gaise-2026.md)
-- **2026-06-03** · [From Prompt to Context to Harness Engineering](./02-ai-agents/01-foundations/prompt-context-harness-engineering.md)
+- **2026-06-10** · [GAISE 2026 — Conference Notes](./09-conferences/gaise-2026.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
