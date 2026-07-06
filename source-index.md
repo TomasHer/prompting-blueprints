@@ -89,6 +89,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Colab — FunctionGemma (270M) LM Studio notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/FunctionGemma_(270M)-LMStudio.ipynb)
   - cited in: `04-guides/finetune-functiongemma.md`
+- [Confident AI – LLM Agent Evaluation Metrics: Tool Calling, Task Completion, Reasoning, and Trace-Based Evals](https://www.confident-ai.com/blog/llm-agent-evaluation-complete-guide)
+  - cited in: `06-models-and-evaluations/ai-agent-evaluation-metrics-tutorial.md`
 - [Continue](https://continue.dev/)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
@@ -129,6 +131,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [Gemini API](https://ai.google.dev/gemini-api)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [Google Cloud – Evaluate Gen AI agents (trajectory metrics)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/evaluation-agents)
+  - cited in: `06-models-and-evaluations/ai-agent-evaluation-metrics-tutorial.md`
 - [Gemini CLI](https://ai.google.dev/cli)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
@@ -261,6 +265,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
 - [LangChain – home](https://www.langchain.com/)
   - cited in: `01-about-author/ai-people-to-follow.md`
+- [LangChain – How to evaluate your agent with trajectory evaluations (LangSmith)](https://docs.langchain.com/langsmith/trajectory-evals)
+  - cited in: `06-models-and-evaluations/ai-agent-evaluation-metrics-tutorial.md`
 - [LangGraph – Official site](https://www.langchain.com/langgraph)
   - cited in: `05-tools/n8n-vs-langgraph.md`
 - [LM Studio blog – FunctionGemma + Unsloth tutorial](https://lmstudio.ai/blog/functiongemma-unsloth)
@@ -409,6 +415,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Strands Agents SDK quickstart overview](https://strandsagents.com/docs/user-guide/quickstart/overview/)
   - cited in: `05-tools/spec-driven-development-tutorial.md`
+- [Strands Agents SDK – Trajectory Evaluator](https://strandsagents.com/latest/documentation/docs/user-guide/evals-sdk/evaluators/trajectory_evaluator/)
+  - cited in: `06-models-and-evaluations/ai-agent-evaluation-metrics-tutorial.md`
 - [Stripe](https://stripe.com/)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Substack - Why Senior Engineers Who Master Claude Code Will Leave Their Competition Behind](https://agiinprogress.substack.com/p/the-100000-productivity-multiplier)

@@ -48,6 +48,7 @@
 - [Codelab: Get started with Google Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity#0)
 - [Cognition – Introducing Devin](https://www.cognition-labs.com/blog/introducing-devin)
 - [Colab — FunctionGemma (270M) LM Studio notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/FunctionGemma_(270M)-LMStudio.ipynb)
+- [Confident AI – LLM Agent Evaluation Metrics: Tool Calling, Task Completion, Reasoning, and Trace-Based Evals](https://www.confident-ai.com/blog/llm-agent-evaluation-complete-guide)
 - [Continue](https://continue.dev/)
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
 - [Coursera - Claude Code: Software Engineering with AI Agents](https://www.coursera.org/learn/claude-code)
@@ -75,6 +76,7 @@
 ### G
 
 - [Gemini API](https://ai.google.dev/gemini-api)
+- [Google Cloud – Evaluate Gen AI agents (trajectory metrics)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/evaluation-agents)
 - [Gemini CLI](https://ai.google.dev/cli)
 - [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
 - [Generative AI project template (GitHub)](https://github.com/honestsoul/generative_ai_project)
@@ -150,6 +152,7 @@
 - [LangChain Deep Agents – research_agent.py example](https://github.com/langchain-ai/deepagents/blob/master/examples/research/research_agent.py)
 - [LangChain – LangGraph Studio docs](https://docs.langchain.com/oss/python/langgraph/studio)
 - [LangChain – home](https://www.langchain.com/)
+- [LangChain – How to evaluate your agent with trajectory evaluations (LangSmith)](https://docs.langchain.com/langsmith/trajectory-evals)
 - [LangGraph – Official site](https://www.langchain.com/langgraph)
 - [LM Studio blog – FunctionGemma + Unsloth tutorial](https://lmstudio.ai/blog/functiongemma-unsloth)
 - [Lovable](https://lovable.dev/)
@@ -239,6 +242,7 @@
 - [SantanderAI – mutatis-mutandis (GitHub)](https://github.com/SantanderAI/mutatis-mutandis)
 - [Stagewise](https://stagewise.ai/)
 - [Strands Agents SDK quickstart overview](https://strandsagents.com/docs/user-guide/quickstart/overview/)
+- [Strands Agents SDK – Trajectory Evaluator](https://strandsagents.com/latest/documentation/docs/user-guide/evals-sdk/evaluators/trajectory_evaluator/)
 - [Stripe](https://stripe.com/)
 - [Substack - Why Senior Engineers Who Master Claude Code Will Leave Their Competition Behind](https://agiinprogress.substack.com/p/the-100000-productivity-multiplier)
 - [Supabase](https://supabase.com/)
