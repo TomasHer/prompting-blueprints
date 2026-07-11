@@ -133,6 +133,10 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Google Cloud – Evaluate Gen AI agents (trajectory metrics)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/evaluation-agents)
   - cited in: `06-models-and-evaluations/ai-agent-evaluation-metrics-tutorial.md`
+- [Google Cloud Blog – How the Open Knowledge Format (OKF) can improve data sharing](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)
+  - cited in: `02-ai-agents/03-context-and-memory/open-knowledge-format-okf.md`
+- [GoogleCloudPlatform/knowledge-catalog – Open Knowledge Format (OKF) spec & reference implementation (GitHub)](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf)
+  - cited in: `02-ai-agents/03-context-and-memory/open-knowledge-format-okf.md`
 - [Gemini CLI](https://ai.google.dev/cli)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
@@ -248,7 +252,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Kaggle / Google – The New SDLC with Vibe Coding (whitepaper, Addy Osmani, Shubham Saboo, Sokratis Kartakis)](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding)
   - cited in: `02-ai-agents/01-foundations/prompt-context-harness-engineering.md`, `04-guides/overview.md`
 - [Karpathy Andrej – LLM Wiki: A Pattern for Building Personal Knowledge Bases (GitHub Gist)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
-  - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`
+  - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `02-ai-agents/03-context-and-memory/open-knowledge-format-okf.md`
 - [KIRO – Hooks documentation](https://kiro.dev/docs/hooks/)
   - cited in: `05-tools/spec-driven-development-tutorial.md`
 - [KIRO – Specs documentation](https://kiro.dev/docs/specs/)

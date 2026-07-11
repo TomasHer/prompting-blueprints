@@ -77,6 +77,8 @@
 
 - [Gemini API](https://ai.google.dev/gemini-api)
 - [Google Cloud – Evaluate Gen AI agents (trajectory metrics)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/evaluation-agents)
+- [Google Cloud Blog – How the Open Knowledge Format (OKF) can improve data sharing](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)
+- [GoogleCloudPlatform/knowledge-catalog – Open Knowledge Format (OKF) spec & reference implementation (GitHub)](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf)
 - [Gemini CLI](https://ai.google.dev/cli)
 - [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
 - [Generative AI project template (GitHub)](https://github.com/honestsoul/generative_ai_project)
