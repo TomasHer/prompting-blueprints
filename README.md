@@ -22,6 +22,7 @@ The ten most recently added pages (auto-generated from git history — do not ed
 <!-- RECENT_ADDITIONS:START -->
 - **2026-07-11** · [Open Knowledge Format (OKF): Portable Knowledge for AI Agents](./02-ai-agents/03-context-and-memory/open-knowledge-format-okf.md)
 - **2026-07-11** · [Orders](./02-ai-agents/03-context-and-memory/examples/okf.md)
+- **2026-07-11** · [Agent Skills: Engineering Workflows for AI Coding Agents](./02-ai-agents/02-skills/agent-skills-engineering-workflows.md)
 - **2026-07-06** · [AI Agent Evaluation: Metrics That Actually Measure Agents](./06-models-and-evaluations/ai-agent-evaluation-metrics-tutorial.md)
 - **2026-06-29** · [The 10X Developer in the Agentic Era — Skills and How to Measure Value](./04-guides/10x-developer-agentic-era.md)
 - **2026-06-29** · [AI People to Follow](./01-about-author/ai-people-to-follow.md)
@@ -29,7 +30,6 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-06-26** · [Ornith-1.0: Run an Open-Source Agentic Coding LLM on a DGX Spark](./06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md)
 - **2026-06-23** · [Banking AI Governance Use-Case Tutorial (Santander AI Open Source)](./07-use-cases-and-research/santander-ai-banking-governance.md)
 - **2026-06-23** · [Agent Fleet Governance (Fleet Engineering)](./02-ai-agents/01-foundations/agent-fleet-governance.md)
-- **2026-06-14** · [Build a Local Hermes Daily Assistant (Qwen3 + Ollama + Unsloth + Obsidian)](./05-tools/hermes-daily-assistant-setup.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
