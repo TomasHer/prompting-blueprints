@@ -83,6 +83,7 @@ nav:
     - Overview: 04-guides/overview.md
     - How to Use ChatGPT: 04-guides/how-to-use-chatgpt.md
     - AI Knowledge Base for Agents (LLM Wiki Pattern): 02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md
+    - Open Knowledge Format (OKF): 02-ai-agents/03-context-and-memory/open-knowledge-format-okf.md
     - AgentMemory Tutorial: 02-ai-agents/03-context-and-memory/agentmemory-tutorial.md
     - AI Agents Overview: 02-ai-agents/01-foundations/ai-agents-overview.md
     - Google 5-Day AI Agents Intensive Course: 02-ai-agents/01-foundations/google-5-day-ai-agents-course.md
