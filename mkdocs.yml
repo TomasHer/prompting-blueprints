@@ -34,6 +34,7 @@ nav:
     - Best AI Apps for 2026: 05-tools/best-ai-apps-2026.md
     - Anatomy of a Claude Agent Skill: 02-ai-agents/02-skills/anatomy-of-a-skill.md
     - Claude Agent Skills Playbook: 02-ai-agents/02-skills/claude-agent-skills.md
+    - "Agent Skills: Engineering Workflows for AI Coding Agents": 02-ai-agents/02-skills/agent-skills-engineering-workflows.md
     - Claude Building Skills Guide: 04-guides/claude-building-skills-guide.md
     - Skills Design Patterns: 02-ai-agents/02-skills/skills-design-patterns.md
     - Skills Testing and Iteration: 02-ai-agents/02-skills/skills-testing-iteration.md
