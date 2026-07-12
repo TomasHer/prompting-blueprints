@@ -39,7 +39,8 @@ END = "<!-- RECENT_ADDITIONS:END -->"
 LIMIT = 10
 
 # Only markdown under the numbered content sections counts as a "new thing".
-CONTENT_GLOB = re.compile(r"^0\d-[^/]+/.*\.md$")
+# Two digits so sections past 09 (e.g. 10-security) are included.
+CONTENT_GLOB = re.compile(r"^\d\d-[^/]+/.*\.md$")
 
 # Section overviews and scaffolding are not content "things".
 EXCLUDE_NAMES = {"README.md"}
