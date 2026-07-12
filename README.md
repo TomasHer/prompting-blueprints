@@ -20,6 +20,7 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The ten most recently added pages (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-07-12** · [Test Any Skill Before Installing It](./10-security/test-a-skill-before-installing.md)
 - **2026-07-11** · [Open Knowledge Format (OKF): Portable Knowledge for AI Agents](./02-ai-agents/03-context-and-memory/open-knowledge-format-okf.md)
 - **2026-07-11** · [Orders](./02-ai-agents/03-context-and-memory/examples/okf.md)
 - **2026-07-11** · [Agent Skills: Engineering Workflows for AI Coding Agents](./02-ai-agents/02-skills/agent-skills-engineering-workflows.md)
@@ -29,7 +30,6 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-06-27** · [Loop Engineering](./02-ai-agents/03-context-and-memory/loop-engineering.md)
 - **2026-06-26** · [Ornith-1.0: Run an Open-Source Agentic Coding LLM on a DGX Spark](./06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md)
 - **2026-06-23** · [Banking AI Governance Use-Case Tutorial (Santander AI Open Source)](./07-use-cases-and-research/santander-ai-banking-governance.md)
-- **2026-06-23** · [Agent Fleet Governance (Fleet Engineering)](./02-ai-agents/01-foundations/agent-fleet-governance.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
