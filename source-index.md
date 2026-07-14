@@ -31,6 +31,10 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `07-use-cases-and-research/ai-video-camera-movements-prompt-library.md`
 - [Agent Development Kit Documentation (Google)](https://google.github.io/adk-docs/)
   - cited in: `02-ai-agents/02-skills/self-evolving-agents-google-adk.md`, `05-tools/google-cloud-platform-agents.md`
+- [joslat/agent-memory-dotnet – Agent Memory for .NET (GitHub)](https://github.com/joslat/agent-memory-dotnet)
+  - _not cited in any content file_
+- [neo4j-labs/agent-memory – Neo4j Agent Memory, upstream reference (GitHub)](https://github.com/neo4j-labs/agent-memory)
+  - _not cited in any content file_
 - [agents.md](https://agents.md)
   - cited in: `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`, `04-guides/codex-agent-prompting-guide.md`
 - [arXiv 2601.20404 — On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents](https://arxiv.org/abs/2601.20404)

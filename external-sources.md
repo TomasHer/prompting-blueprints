@@ -15,6 +15,8 @@
 - [A2A Python SDK (GitHub)](https://github.com/a2aproject/a2a-python)
 - [AI Shot Studio – 42 Camera Movements for AI Video Prompts](https://aishotstudio.com/42-camera-movements-ai-prompts/)
 - [Agent Development Kit Documentation (Google)](https://google.github.io/adk-docs/)
+- [joslat/agent-memory-dotnet – Agent Memory for .NET (GitHub)](https://github.com/joslat/agent-memory-dotnet)
+- [neo4j-labs/agent-memory – Neo4j Agent Memory, upstream reference (GitHub)](https://github.com/neo4j-labs/agent-memory)
 - [agents.md](https://agents.md)
 - [arXiv 2601.20404 — On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents](https://arxiv.org/abs/2601.20404)
 - [arXiv 2602.11988 — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](https://arxiv.org/abs/2602.11988)
