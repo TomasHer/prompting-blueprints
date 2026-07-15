@@ -37,9 +37,12 @@
 
 ### C
 - [ChatGPT Deep Research announcement](https://openai.com/index/introducing-deep-research/)
+- [Chrome DevTools MCP — Chrome DevTools for coding agents (GitHub)](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+- [Chrome for Developers – Chrome DevTools for agents](https://developer.chrome.com/docs/devtools/agents)
 - [Claude - Claude AI](https://claude.ai)
 - [Claude - Claude Code product page](https://claude.com/product/claude-code)
 - [Claude - Claude Cowork product page](https://claude.com/product/cowork)
+- [Claude Code docs – Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp)
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 - [Clerk](https://clerk.com/)
 - [Cobus Greyling – Medium profile](https://cobusgreyling.medium.com/)
@@ -72,6 +75,11 @@
 - [Elicit](https://elicit.com/)
 - [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
 - [Every - Source Code](https://every.to/source-code)
+
+### F
+- [Firecrawl](https://www.firecrawl.dev/)
+- [Firecrawl – MCP for AI agents](https://www.firecrawl.dev/use-cases/ai-mcps)
+- [Firecrawl MCP Server (GitHub, official)](https://github.com/firecrawl/firecrawl-mcp-server)
 
 ### G
 
@@ -189,6 +197,7 @@
 - [Microsoft Support – Get started with Researcher in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/get-started-with-researcher-in-microsoft-365-copilot-e63ab760-f3de-4c47-ae87-dad601b0e9c4)
 - [Microsoft Support – Knowledge Agent: An overview](https://support.microsoft.com/en-gb/topic/knowledge-agent-an-overview-c0b1efc3-81d0-4981-8be9-7ba3a75fae15)
 - [Mistral – Mistral Large](https://mistral.ai/models/mistral-large/)
+- [Model Context Protocol – introduction](https://modelcontextprotocol.io/introduction)
 - [multica-ai/andrej-karpathy-skills (GitHub) — single-file CLAUDE.md derived from Andrej Karpathy's LLM coding-pitfall observations](https://github.com/multica-ai/andrej-karpathy-skills)
 - [multica-ai/andrej-karpathy-skills – CLAUDE.md (raw)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)
 
@@ -220,6 +229,8 @@
 
 ### P
 - [Perplexity](https://www.perplexity.ai/)
+- [Perplexity – MCP Server documentation](https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server)
+- [Perplexity MCP Server (GitHub, official)](https://github.com/perplexityai/modelcontextprotocol)
 - [Perplexity: Introducing Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research)
 - [Post Business Solutions — Business Solutions der Österreichischen Post AG](https://www.post.at/businesssolutions)
 - [Prompting Blueprints introduction video (YouTube)](https://youtu.be/5ZxBHNKWJYs?si=7eJwo2Iy0FfNRm0U)

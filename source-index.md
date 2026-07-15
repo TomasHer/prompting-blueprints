@@ -67,12 +67,18 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [ChatGPT Deep Research announcement](https://openai.com/index/introducing-deep-research/)
   - cited in: `05-tools/langchain-deep-agents.md`, `07-use-cases-and-research/deep-research.md`
+- [Chrome DevTools MCP — Chrome DevTools for coding agents (GitHub)](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+  - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
+- [Chrome for Developers – Chrome DevTools for agents](https://developer.chrome.com/docs/devtools/agents)
+  - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Claude - Claude AI](https://claude.ai)
   - cited in: `05-tools/best-ai-apps-2026.md`, `05-tools/claude-ai-vs-code-vs-cowork.md`
 - [Claude - Claude Code product page](https://claude.com/product/claude-code)
   - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`, `05-tools/claude-code-project-structure-tutorial.md`, `05-tools/claude-code-tool-guide.md`
 - [Claude - Claude Cowork product page](https://claude.com/product/cowork)
   - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`
+- [Claude Code docs – Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp)
+  - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
   - cited in: `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`, `05-tools/coding-ai-agent-selection-tutorial.md`
 - [Clerk](https://clerk.com/)
@@ -129,6 +135,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/claude-code-project-structure-tutorial.md`
 - [Every - Source Code](https://every.to/source-code)
   - cited in: `05-tools/claude-code-tool-guide.md`
+- [Firecrawl](https://www.firecrawl.dev/)
+  - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
+- [Firecrawl – MCP for AI agents](https://www.firecrawl.dev/use-cases/ai-mcps)
+  - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
+- [Firecrawl MCP Server (GitHub, official)](https://github.com/firecrawl/firecrawl-mcp-server)
+  - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Gemini API](https://ai.google.dev/gemini-api)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Google Cloud – Evaluate Gen AI agents (trajectory metrics)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/evaluation-agents)
@@ -335,6 +347,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/microsoft-sharepoint-knowledge-agent.md`
 - [Mistral – Mistral Large](https://mistral.ai/models/mistral-large/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
+- [Model Context Protocol – introduction](https://modelcontextprotocol.io/introduction)
+  - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [multica-ai/andrej-karpathy-skills (GitHub) — single-file CLAUDE.md derived from Andrej Karpathy's LLM coding-pitfall observations](https://github.com/multica-ai/andrej-karpathy-skills)
   - cited in: `04-guides/10x-developer-agentic-era.md`, `04-guides/ai-coding-rules-senior-engineers.md`, `05-tools/claude-md-design-tutorial.md`
 - [multica-ai/andrej-karpathy-skills – CLAUDE.md (raw)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)
@@ -384,7 +398,11 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
   - cited in: `05-tools/openai-gpt-5-prompt-optimizer.md`
 - [Perplexity](https://www.perplexity.ai/)
-  - cited in: `05-tools/ai-tool-chaining-oct-2025.md`, `05-tools/best-ai-apps-2026.md`
+  - cited in: `05-tools/ai-tool-chaining-oct-2025.md`, `05-tools/best-ai-apps-2026.md`, `05-tools/claude-code-mcp-setup-tutorial.md`
+- [Perplexity – MCP Server documentation](https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server)
+  - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
+- [Perplexity MCP Server (GitHub, official)](https://github.com/perplexityai/modelcontextprotocol)
+  - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Perplexity: Introducing Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research)
   - cited in: `07-use-cases-and-research/deep-research.md`
 - [Post Business Solutions — Business Solutions der Österreichischen Post AG](https://www.post.at/businesssolutions)
