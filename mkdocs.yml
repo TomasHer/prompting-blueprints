@@ -44,6 +44,7 @@ nav:
     - Claude Code Certification Guide: 05-tools/claude-code-certification-guide.md
     - Claude Code Cheat Sheet v2.81: 05-tools/claude-code-cheatsheet-v2.md
     - Claude Code Project Structure Tutorial: 05-tools/claude-code-project-structure-tutorial.md
+    - Claude Code MCP Setup (Perplexity, Firecrawl, Chrome DevTools): 05-tools/claude-code-mcp-setup-tutorial.md
     - AGENTS.md for Claude Code Tutorial: 02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md
     - Google Cloud ADK Quickstart: 05-tools/google-cloud-platform-agents.md
     - LangChain Deep Agents Playbook: 05-tools/langchain-deep-agents.md
