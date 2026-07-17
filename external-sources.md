@@ -29,6 +29,7 @@
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
 - [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
 - [arXiv 2512.15943 — Tool-calling specialization beats scale (PDF)](https://arxiv.org/pdf/2512.15943)
+- [Attention Is All You Need (arXiv 1706.03762)](https://arxiv.org/abs/1706.03762)
 
 ### B
 - [Bear Blog - A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
@@ -73,6 +74,7 @@
 
 ### E
 - [Elicit](https://elicit.com/)
+- [Epoch AI – Machine Learning Trends](https://epoch.ai/trends)
 - [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
 - [Every - Source Code](https://every.to/source-code)
 
@@ -220,6 +222,7 @@
 - [OpenAI – Agents API guide](https://platform.openai.com/docs/guides/agents)
 - [OpenAI – ChatGPT](https://openai.com/chatgpt)
 - [OpenAI – home](https://openai.com/)
+- [OpenAI Help – What are tokens and how to count them?](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)
 - [OpenAI – Codex](https://openai.com/blog/openai-codex)
 - [OpenAI Codex – AGENTS.md guide](https://developers.openai.com/codex/guides/agents-md)
 - [OpenAI Codex – Prompting guide](https://developers.openai.com/codex/prompting)
