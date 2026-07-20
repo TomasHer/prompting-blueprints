@@ -42,7 +42,9 @@
 - [Claude - Claude AI](https://claude.ai)
 - [Claude - Claude Code product page](https://claude.com/product/claude-code)
 - [Claude - Claude Cowork product page](https://claude.com/product/cowork)
+- [Claude Code docs – Agent Skills](https://code.claude.com/docs/en/skills)
 - [Claude Code docs – Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp)
+- [Claude Code docs – Plugins](https://code.claude.com/docs/en/plugins)
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 - [Clerk](https://clerk.com/)
 - [Cobus Greyling – Medium profile](https://cobusgreyling.medium.com/)
@@ -228,6 +230,7 @@
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
 
 ### P
+- [Paweł Huryn – PM Skills Marketplace (GitHub, phuryn/pm-skills)](https://github.com/phuryn/pm-skills)
 - [Perplexity](https://www.perplexity.ai/)
 - [Perplexity – MCP Server documentation](https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server)
 - [Perplexity MCP Server (GitHub, official)](https://github.com/perplexityai/modelcontextprotocol)
@@ -263,6 +266,9 @@
 ### T
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
+- [The Product Compass – PM Brain OS: The Second Brain for Product Managers](https://www.productcompass.pm/p/pm-brain-os)
+- [The Product Compass – PM Skills 2.0: Free Claude Skills for PMs (Red-Team + Ship)](https://www.productcompass.pm/p/pm-skills-2-red-team-ship)
+- [The Product Compass – PM Skills Marketplace: An AI Operating System for Better Product Decisions](https://www.productcompass.pm/p/pm-skills-marketplace-claude)
 - [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
 
 ### U
