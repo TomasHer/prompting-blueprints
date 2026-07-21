@@ -77,8 +77,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`, `05-tools/claude-code-project-structure-tutorial.md`, `05-tools/claude-code-tool-guide.md`
 - [Claude - Claude Cowork product page](https://claude.com/product/cowork)
   - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`
+- [Claude Code docs – Agent Skills](https://code.claude.com/docs/en/skills)
+  - _not cited in any content file_
 - [Claude Code docs – Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
+- [Claude Code docs – Plugins](https://code.claude.com/docs/en/plugins)
+  - _not cited in any content file_
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
   - cited in: `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`, `05-tools/coding-ai-agent-selection-tutorial.md`
 - [Clerk](https://clerk.com/)
@@ -397,6 +401,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/langchain-deep-agents.md`, `07-use-cases-and-research/deep-research.md`
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
   - cited in: `05-tools/openai-gpt-5-prompt-optimizer.md`
+- [Paweł Huryn – PM Skills Marketplace (GitHub, phuryn/pm-skills)](https://github.com/phuryn/pm-skills)
+  - _not cited in any content file_
 - [Perplexity](https://www.perplexity.ai/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`, `05-tools/best-ai-apps-2026.md`, `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Perplexity – MCP Server documentation](https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server)
@@ -449,6 +455,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
   - cited in: `04-guides/ai-gone-wrong-stories.md`
+- [The Product Compass – PM Brain OS: The Second Brain for Product Managers](https://www.productcompass.pm/p/pm-brain-os)
+  - _not cited in any content file_
+- [The Product Compass – PM Skills 2.0: Free Claude Skills for PMs (Red-Team + Ship)](https://www.productcompass.pm/p/pm-skills-2-red-team-ship)
+  - _not cited in any content file_
+- [The Product Compass – PM Skills Marketplace: An AI Operating System for Better Product Decisions](https://www.productcompass.pm/p/pm-skills-marketplace-claude)
+  - _not cited in any content file_
 - [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
 - [Unsloth Documentation](https://docs.unsloth.ai)
