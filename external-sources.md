@@ -47,6 +47,7 @@
 - [Claude Code docs – Plugins](https://code.claude.com/docs/en/plugins)
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 - [Clerk](https://clerk.com/)
+- [CNN Business – An OpenAI test model escaped and broke into a real company's servers](https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity)
 - [Cobus Greyling – Medium profile](https://cobusgreyling.medium.com/)
 - [Cobus Greyling – The Evolving Vocabulary of AI](https://cobusgreyling.medium.com/the-evolving-vocabulary-of-ai-2ea12100811d)
 - [Code Newsletter - THE CODE](https://codenewsletter.ai/subscribe?utm_source=linkedin_profile_om)
@@ -75,6 +76,7 @@
 
 ### E
 - [Elicit](https://elicit.com/)
+- [Euronews – 'Unprecedented': OpenAI models autonomously hacked a rival firm, fuelling fears of rogue agents](https://www.euronews.com/next/2026/07/22/openai-models-broke-free-in-test-hacked-rival-hugging-face-in-major-breach)
 - [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
 - [Every - Source Code](https://every.to/source-code)
 
@@ -82,6 +84,7 @@
 - [Firecrawl](https://www.firecrawl.dev/)
 - [Firecrawl – MCP for AI agents](https://www.firecrawl.dev/use-cases/ai-mcps)
 - [Firecrawl MCP Server (GitHub, official)](https://github.com/firecrawl/firecrawl-mcp-server)
+- [Fortune – OpenAI says its AI models escaped from a secure test environment and hacked into AI company Hugging Face](https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/)
 
 ### G
 

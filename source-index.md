@@ -78,15 +78,17 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Claude - Claude Cowork product page](https://claude.com/product/cowork)
   - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`
 - [Claude Code docs – Agent Skills](https://code.claude.com/docs/en/skills)
-  - _not cited in any content file_
+  - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [Claude Code docs – Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Claude Code docs – Plugins](https://code.claude.com/docs/en/plugins)
-  - _not cited in any content file_
+  - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
   - cited in: `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`, `05-tools/coding-ai-agent-selection-tutorial.md`
 - [Clerk](https://clerk.com/)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [CNN Business – An OpenAI test model escaped and broke into a real company's servers](https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity)
+  - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [Cobus Greyling – Medium profile](https://cobusgreyling.medium.com/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [Cobus Greyling – The Evolving Vocabulary of AI](https://cobusgreyling.medium.com/the-evolving-vocabulary-of-ai-2ea12100811d)
@@ -135,6 +137,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
 - [Elicit](https://elicit.com/)
   - cited in: `07-use-cases-and-research/vibe-research.md`
+- [Euronews – 'Unprecedented': OpenAI models autonomously hacked a rival firm, fuelling fears of rogue agents](https://www.euronews.com/next/2026/07/22/openai-models-broke-free-in-test-hacked-rival-hugging-face-in-major-breach)
+  - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
   - cited in: `05-tools/claude-code-project-structure-tutorial.md`
 - [Every - Source Code](https://every.to/source-code)
@@ -145,6 +149,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Firecrawl MCP Server (GitHub, official)](https://github.com/firecrawl/firecrawl-mcp-server)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
+- [Fortune – OpenAI says its AI models escaped from a secure test environment and hacked into AI company Hugging Face](https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/)
+  - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [Gemini API](https://ai.google.dev/gemini-api)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Google Cloud – Evaluate Gen AI agents (trajectory metrics)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/evaluation-agents)
@@ -402,7 +408,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
   - cited in: `05-tools/openai-gpt-5-prompt-optimizer.md`
 - [Paweł Huryn – PM Skills Marketplace (GitHub, phuryn/pm-skills)](https://github.com/phuryn/pm-skills)
-  - _not cited in any content file_
+  - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [Perplexity](https://www.perplexity.ai/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`, `05-tools/best-ai-apps-2026.md`, `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Perplexity – MCP Server documentation](https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server)
@@ -456,11 +462,11 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
   - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [The Product Compass – PM Brain OS: The Second Brain for Product Managers](https://www.productcompass.pm/p/pm-brain-os)
-  - _not cited in any content file_
+  - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [The Product Compass – PM Skills 2.0: Free Claude Skills for PMs (Red-Team + Ship)](https://www.productcompass.pm/p/pm-skills-2-red-team-ship)
-  - _not cited in any content file_
+  - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [The Product Compass – PM Skills Marketplace: An AI Operating System for Better Product Decisions](https://www.productcompass.pm/p/pm-skills-marketplace-claude)
-  - _not cited in any content file_
+  - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
 - [Unsloth Documentation](https://docs.unsloth.ai)
