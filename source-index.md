@@ -435,6 +435,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Requirements Engineering Datasets for LLM4RE](https://nlp4se.github.io/LLM4RE-Datasets/)
   - cited in: `07-use-cases-and-research/requirements-engineering-dataset-experiments.md`
+- [Sam Altman on X – "openai now generates about 100 billion words per day"](https://x.com/sama/status/1756089361609981993)
+  - _not cited in any content file_
 - [Santander AI Open Source (GitHub organization)](https://github.com/SantanderAI)
   - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
 - [SantanderAI – autoguardrails (GitHub)](https://github.com/SantanderAI/autoguardrails)

@@ -254,6 +254,7 @@
 
 ### S
 
+- [Sam Altman on X – "openai now generates about 100 billion words per day"](https://x.com/sama/status/1756089361609981993)
 - [Santander AI Open Source (GitHub organization)](https://github.com/SantanderAI)
 - [SantanderAI – autoguardrails (GitHub)](https://github.com/SantanderAI/autoguardrails)
 - [SantanderAI – gen-fraud-graph (GitHub)](https://github.com/SantanderAI/gen-fraud-graph)
