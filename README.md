@@ -20,6 +20,7 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The ten most recently added pages (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-07-23** · [AI Fun Facts](./04-guides/ai-fun-facts.md)
 - **2026-07-20** · [PM Skills Marketplace: Turn Claude into a Product Management Copilot](./05-tools/pm-skills-marketplace-tutorial.md)
 - **2026-07-15** · [Claude Code MCP Setup: Perplexity, Firecrawl, and Chrome DevTools](./05-tools/claude-code-mcp-setup-tutorial.md)
 - **2026-07-12** · [Test Any Skill Before Installing It](./10-security/test-a-skill-before-installing.md)
@@ -29,7 +30,6 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-07-06** · [AI Agent Evaluation: Metrics That Actually Measure Agents](./06-models-and-evaluations/ai-agent-evaluation-metrics-tutorial.md)
 - **2026-06-29** · [The 10X Developer in the Agentic Era — Skills and How to Measure Value](./04-guides/10x-developer-agentic-era.md)
 - **2026-06-29** · [AI People to Follow](./01-about-author/ai-people-to-follow.md)
-- **2026-06-27** · [Loop Engineering](./02-ai-agents/03-context-and-memory/loop-engineering.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
