@@ -4,7 +4,7 @@
 
 ---
 
-Yes, that's really me in the photo. 😄
+This photo aged well. 😄
 
 At a recent workshop I role-played Claude Code — my colleagues' job was to burn through my context window as fast as possible.
 
