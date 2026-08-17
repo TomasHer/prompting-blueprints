@@ -88,7 +88,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Clerk](https://clerk.com/)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [CNN Business – An OpenAI test model escaped and broke into a real company's servers](https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity)
-  - cited in: `04-guides/ai-gone-wrong-stories.md`
+  - cited in: `04-guides/ai-fun-facts.md`, `04-guides/ai-gone-wrong-stories.md`
 - [Cobus Greyling – Medium profile](https://cobusgreyling.medium.com/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [Cobus Greyling – The Evolving Vocabulary of AI](https://cobusgreyling.medium.com/the-evolving-vocabulary-of-ai-2ea12100811d)
@@ -107,6 +107,10 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
   - cited in: `04-guides/overview.md`, `05-tools/microsoft-365-copilot-prompting-guide.md`, `05-tools/microsoft-copilot-researcher-agent.md`
+- [Cordiverse – A Programming Paradigm for Spatiotemporal Composability (GitHub)](https://github.com/cordiverse/paper)
+  - _not cited in any content file_
+- [Cordiverse – Cordis meta-framework (GitHub)](https://github.com/cordiverse/cordis)
+  - cited in: `02-ai-agents/01-foundations/prompt-context-harness-engineering.md`
 - [Coursera - Claude Code: Software Engineering with AI Agents](https://www.coursera.org/learn/claude-code)
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [CrewAI – Framework documentation](https://docs.crewai.com/introduction)
@@ -135,6 +139,18 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `06-models-and-evaluations/facts-benchmark-overview.md`
 - [DeepSeek](https://www.deepseek.com/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
+- [DeepSeek – deepseek-harness: Everything is a Plugin (GitHub)](https://github.com/deepseek-ai/deepseek-harness)
+  - _not cited in any content file_
+- [DeepSeek – deepseek-harness: Running benchmarks (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/BENCHMARK.md)
+  - _not cited in any content file_
+- [DeepSeek – deepseek-harness: Tool catalog (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/tool-catalog.md)
+  - _not cited in any content file_
+- [DeepSeek – deepseek-harness: Your first plugin tutorial (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/index.md)
+  - _not cited in any content file_
+- [DeepSeek – DeepSeek Harness v0.1 developer preview announcement (X)](https://x.com/deepseek_ai/status/2087887408440164663)
+  - _not cited in any content file_
+- [DeepSeek Platform](https://platform.deepseek.com/)
+  - _not cited in any content file_
 - [Elicit](https://elicit.com/)
   - cited in: `07-use-cases-and-research/vibe-research.md`
 - [Euronews – 'Unprecedented': OpenAI models autonomously hacked a rival firm, fuelling fears of rogue agents](https://www.euronews.com/next/2026/07/22/openai-models-broke-free-in-test-hacked-rival-hugging-face-in-major-breach)
@@ -150,7 +166,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Firecrawl MCP Server (GitHub, official)](https://github.com/firecrawl/firecrawl-mcp-server)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Fortune – OpenAI says its AI models escaped from a secure test environment and hacked into AI company Hugging Face](https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/)
-  - cited in: `04-guides/ai-gone-wrong-stories.md`
+  - cited in: `04-guides/ai-fun-facts.md`, `04-guides/ai-gone-wrong-stories.md`
 - [Gemini API](https://ai.google.dev/gemini-api)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Google Cloud – Evaluate Gen AI agents (trajectory metrics)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/evaluation-agents)
@@ -195,6 +211,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
   - cited in: `05-tools/nanogpt-tool-guide.md`
+- [GitHub – dsh-plugin topic (DeepSeek Harness community plugins)](https://github.com/topics/dsh-plugin)
+  - _not cited in any content file_
 - [GitHub Docs – Extend the GitHub Copilot coding agent with MCP](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp)
   - cited in: `05-tools/github-copilot-coding-agent-mcp-tutorial.md`
 - [GitHub – ExecuTorch Examples Repository (.git)](https://github.com/meta-pytorch/executorch-examples.git)
@@ -436,7 +454,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Requirements Engineering Datasets for LLM4RE](https://nlp4se.github.io/LLM4RE-Datasets/)
   - cited in: `07-use-cases-and-research/requirements-engineering-dataset-experiments.md`
 - [Sam Altman on X – "openai now generates about 100 billion words per day"](https://x.com/sama/status/1756089361609981993)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-fun-facts.md`
 - [Santander AI Open Source (GitHub organization)](https://github.com/SantanderAI)
   - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
 - [SantanderAI – autoguardrails (GitHub)](https://github.com/SantanderAI/autoguardrails)
