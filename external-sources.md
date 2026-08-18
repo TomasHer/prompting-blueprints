@@ -8,6 +8,7 @@
 - [Agrici Daniel – claude-obsidian: AI-Powered Knowledge Management System (GitHub)](https://github.com/AgriciDaniel/claude-obsidian)
 - [Agrici Daniel – GitHub profile](https://github.com/AgriciDaniel)
 - [Andrej Karpathy – GitHub profile](https://github.com/karpathy)
+- [Andrej Karpathy on X – observations on LLM coding pitfalls (the post behind andrej-karpathy-skills)](https://x.com/karpathy/status/2015883857489522876)
 - [Anthropic – home](https://www.anthropic.com/)
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
 - [A2A .NET SDK (GitHub)](https://github.com/a2aproject/a2a-dotnet)
@@ -214,6 +215,10 @@
 - [Model Context Protocol – introduction](https://modelcontextprotocol.io/introduction)
 - [multica-ai/andrej-karpathy-skills (GitHub) — single-file CLAUDE.md derived from Andrej Karpathy's LLM coding-pitfall observations](https://github.com/multica-ai/andrej-karpathy-skills)
 - [multica-ai/andrej-karpathy-skills – CLAUDE.md (raw)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)
+- [multica-ai/andrej-karpathy-skills – CURSOR.md (Cursor rule setup)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CURSOR.md)
+- [multica-ai/andrej-karpathy-skills – EXAMPLES.md (the four principles applied to real scenarios)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/EXAMPLES.md)
+- [multica-ai/andrej-karpathy-skills – karpathy-guidelines skill (SKILL.md)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md)
+- [multica-ai/multica – open-source platform for running and managing coding agents with reusable skills (GitHub)](https://github.com/multica-ai/multica)
 
 ### N
 - [n8n – Official site](https://n8n.io/)
