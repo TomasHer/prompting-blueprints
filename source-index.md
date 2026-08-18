@@ -108,9 +108,9 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
   - cited in: `04-guides/overview.md`, `05-tools/microsoft-365-copilot-prompting-guide.md`, `05-tools/microsoft-copilot-researcher-agent.md`
 - [Cordiverse – A Programming Paradigm for Spatiotemporal Composability (GitHub)](https://github.com/cordiverse/paper)
-  - _not cited in any content file_
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [Cordiverse – Cordis meta-framework (GitHub)](https://github.com/cordiverse/cordis)
-  - cited in: `02-ai-agents/01-foundations/prompt-context-harness-engineering.md`
+  - cited in: `02-ai-agents/01-foundations/prompt-context-harness-engineering.md`, `05-tools/deepseek-harness-tutorial.md`
 - [Coursera - Claude Code: Software Engineering with AI Agents](https://www.coursera.org/learn/claude-code)
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [CrewAI – Framework documentation](https://docs.crewai.com/introduction)
@@ -140,17 +140,17 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [DeepSeek](https://www.deepseek.com/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
 - [DeepSeek – deepseek-harness: Everything is a Plugin (GitHub)](https://github.com/deepseek-ai/deepseek-harness)
-  - _not cited in any content file_
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [DeepSeek – deepseek-harness: Running benchmarks (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/BENCHMARK.md)
-  - _not cited in any content file_
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [DeepSeek – deepseek-harness: Tool catalog (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/tool-catalog.md)
-  - _not cited in any content file_
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [DeepSeek – deepseek-harness: Your first plugin tutorial (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/index.md)
-  - _not cited in any content file_
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [DeepSeek – DeepSeek Harness v0.1 developer preview announcement (X)](https://x.com/deepseek_ai/status/2087887408440164663)
-  - _not cited in any content file_
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [DeepSeek Platform](https://platform.deepseek.com/)
-  - _not cited in any content file_
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [Elicit](https://elicit.com/)
   - cited in: `07-use-cases-and-research/vibe-research.md`
 - [Euronews – 'Unprecedented': OpenAI models autonomously hacked a rival firm, fuelling fears of rogue agents](https://www.euronews.com/next/2026/07/22/openai-models-broke-free-in-test-hacked-rival-hugging-face-in-major-breach)
@@ -212,7 +212,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
   - cited in: `05-tools/nanogpt-tool-guide.md`
 - [GitHub – dsh-plugin topic (DeepSeek Harness community plugins)](https://github.com/topics/dsh-plugin)
-  - _not cited in any content file_
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [GitHub Docs – Extend the GitHub Copilot coding agent with MCP](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp)
   - cited in: `05-tools/github-copilot-coding-agent-mcp-tutorial.md`
 - [GitHub – ExecuTorch Examples Repository (.git)](https://github.com/meta-pytorch/executorch-examples.git)
@@ -389,6 +389,14 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/n8n-research-workflow-tutorial.md`
 - [Next.js](https://nextjs.org/)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [nidhinjs – prompt-master: a Claude skill that writes optimized prompts for any AI tool (GitHub)](https://github.com/nidhinjs/prompt-master)
+  - _not cited in any content file_
+- [nidhinjs – prompt-master: templates reference (GitHub)](https://github.com/nidhinjs/prompt-master/blob/main/references/templates.md)
+  - _not cited in any content file_
+- [nidhinjs – prompt-master: credit-killing patterns reference (GitHub)](https://github.com/nidhinjs/prompt-master/blob/main/references/patterns.md)
+  - _not cited in any content file_
+- [nidhinjs – GitHub profile](https://github.com/nidhinjs)
+  - _not cited in any content file_
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
   - cited in: `07-use-cases-and-research/deep-research.md`
 - [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)

@@ -220,6 +220,10 @@
 - [Nous Research](https://nousresearch.com)
 - [n8n – Workflow templates gallery](https://n8n.io/workflows/)
 - [Next.js](https://nextjs.org/)
+- [nidhinjs – prompt-master: a Claude skill that writes optimized prompts for any AI tool (GitHub)](https://github.com/nidhinjs/prompt-master)
+- [nidhinjs – prompt-master: templates reference (GitHub)](https://github.com/nidhinjs/prompt-master/blob/main/references/templates.md)
+- [nidhinjs – prompt-master: credit-killing patterns reference (GitHub)](https://github.com/nidhinjs/prompt-master/blob/main/references/patterns.md)
+- [nidhinjs – GitHub profile](https://github.com/nidhinjs)
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
 - [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
 

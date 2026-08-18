@@ -20,6 +20,7 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The ten most recently added pages (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-08-18** · [Prompt Master: A Claude Skill That Writes Your Prompts](./05-tools/prompt-master-skill-tutorial.md)
 - **2026-08-17** · [DeepSeek Harness Tutorial](./05-tools/deepseek-harness-tutorial.md)
 - **2026-07-23** · [AI Fun Facts](./04-guides/ai-fun-facts.md)
 - **2026-07-20** · [PM Skills Marketplace: Turn Claude into a Product Management Copilot](./05-tools/pm-skills-marketplace-tutorial.md)
@@ -29,7 +30,6 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-07-11** · [Orders](./02-ai-agents/03-context-and-memory/examples/okf.md)
 - **2026-07-11** · [Agent Skills: Engineering Workflows for AI Coding Agents](./02-ai-agents/02-skills/agent-skills-engineering-workflows.md)
 - **2026-07-06** · [AI Agent Evaluation: Metrics That Actually Measure Agents](./06-models-and-evaluations/ai-agent-evaluation-metrics-tutorial.md)
-- **2026-06-29** · [The 10X Developer in the Agentic Era — Skills and How to Measure Value](./04-guides/10x-developer-agentic-era.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
