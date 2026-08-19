@@ -16,7 +16,9 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Agrici Daniel – GitHub profile](https://github.com/AgriciDaniel)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [Andrej Karpathy – GitHub profile](https://github.com/karpathy)
-  - cited in: `01-about-author/ai-people-to-follow.md`
+  - cited in: `01-about-author/ai-people-to-follow.md`, `05-tools/andrej-karpathy-skills-tutorial.md`
+- [Andrej Karpathy on X – observations on LLM coding pitfalls (the post behind andrej-karpathy-skills)](https://x.com/karpathy/status/2015883857489522876)
+  - cited in: `05-tools/andrej-karpathy-skills-tutorial.md`
 - [Anthropic – home](https://www.anthropic.com/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
@@ -378,9 +380,17 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Model Context Protocol – introduction](https://modelcontextprotocol.io/introduction)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [multica-ai/andrej-karpathy-skills (GitHub) — single-file CLAUDE.md derived from Andrej Karpathy's LLM coding-pitfall observations](https://github.com/multica-ai/andrej-karpathy-skills)
-  - cited in: `04-guides/10x-developer-agentic-era.md`, `04-guides/ai-coding-rules-senior-engineers.md`, `05-tools/claude-md-design-tutorial.md`
+  - cited in: `04-guides/10x-developer-agentic-era.md`, `04-guides/ai-coding-rules-senior-engineers.md`, `05-tools/andrej-karpathy-skills-tutorial.md`, `05-tools/claude-md-design-tutorial.md`
 - [multica-ai/andrej-karpathy-skills – CLAUDE.md (raw)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)
-  - cited in: `04-guides/ai-coding-rules-senior-engineers.md`
+  - cited in: `04-guides/ai-coding-rules-senior-engineers.md`, `05-tools/andrej-karpathy-skills-tutorial.md`
+- [multica-ai/andrej-karpathy-skills – CURSOR.md (Cursor rule setup)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CURSOR.md)
+  - cited in: `05-tools/andrej-karpathy-skills-tutorial.md`
+- [multica-ai/andrej-karpathy-skills – EXAMPLES.md (the four principles applied to real scenarios)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/EXAMPLES.md)
+  - cited in: `05-tools/andrej-karpathy-skills-tutorial.md`
+- [multica-ai/andrej-karpathy-skills – karpathy-guidelines skill (SKILL.md)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md)
+  - cited in: `05-tools/andrej-karpathy-skills-tutorial.md`
+- [multica-ai/multica – open-source platform for running and managing coding agents with reusable skills (GitHub)](https://github.com/multica-ai/multica)
+  - cited in: `05-tools/andrej-karpathy-skills-tutorial.md`
 - [n8n – Official site](https://n8n.io/)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`, `05-tools/best-ai-apps-2026.md`, `05-tools/n8n-vs-langgraph.md`
 - [Nous Research](https://nousresearch.com)
@@ -390,13 +400,13 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Next.js](https://nextjs.org/)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [nidhinjs – prompt-master: a Claude skill that writes optimized prompts for any AI tool (GitHub)](https://github.com/nidhinjs/prompt-master)
-  - _not cited in any content file_
+  - cited in: `05-tools/prompt-master-skill-tutorial.md`
 - [nidhinjs – prompt-master: templates reference (GitHub)](https://github.com/nidhinjs/prompt-master/blob/main/references/templates.md)
-  - _not cited in any content file_
+  - cited in: `05-tools/prompt-master-skill-tutorial.md`
 - [nidhinjs – prompt-master: credit-killing patterns reference (GitHub)](https://github.com/nidhinjs/prompt-master/blob/main/references/patterns.md)
-  - _not cited in any content file_
+  - cited in: `05-tools/prompt-master-skill-tutorial.md`
 - [nidhinjs – GitHub profile](https://github.com/nidhinjs)
-  - _not cited in any content file_
+  - cited in: `05-tools/prompt-master-skill-tutorial.md`
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
   - cited in: `07-use-cases-and-research/deep-research.md`
 - [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
