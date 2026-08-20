@@ -63,6 +63,18 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/models-for-ai-agents-2026.md`
 - [Bear Blog - A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
   - cited in: `05-tools/claude-code-tool-guide.md`
+- [BMad Method – documentation site](https://docs.bmad-method.org/)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`
+- [bmad-code-org – BMAD-METHOD: Breakthrough Method for Agile AI Driven Development (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
+- [bmad-code-org – BMAD-METHOD docs: agents reference (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/agents.md)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`
+- [bmad-code-org – BMAD-METHOD docs: commands reference (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/commands.md)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`
+- [bmad-code-org – BMAD-METHOD docs: workflow map (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/workflow-map.md)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`
+- [bmad-code-org – BMAD-METHOD docs: official modules (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/modules.md)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`
 - [bolt.new](https://bolt.new/)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`, `05-tools/spec-driven-development-tutorial.md`
 - [Business Insider – Google AI told me to put glue on pizza. I tried it.](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5)
@@ -167,6 +179,10 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Firecrawl MCP Server (GitHub, official)](https://github.com/firecrawl/firecrawl-mcp-server)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
+- [Fission-AI – OpenSpec: Spec-driven development for AI coding assistants (GitHub)](https://github.com/Fission-AI/OpenSpec)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
+- [Fission-AI – OpenSpec: supported tools (GitHub)](https://github.com/Fission-AI/OpenSpec/blob/main/docs/supported-tools.md)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`
 - [Fortune – OpenAI says its AI models escaped from a secure test environment and hacked into AI company Hugging Face](https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/)
   - cited in: `04-guides/ai-fun-facts.md`, `04-guides/ai-gone-wrong-stories.md`
 - [Gemini API](https://ai.google.dev/gemini-api)

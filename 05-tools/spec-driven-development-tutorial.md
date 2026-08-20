@@ -210,6 +210,13 @@ The core idea is that a spec should be an **executable artifact**, not prelimina
 
 spec-kit also supports 100+ community extensions for specialised workflows and presets that let teams customise artifact formats and terminology without modifying the core tooling. Store the generated spec artifacts in your repository alongside your `CLAUDE.md` or Kiro Specs so every agent — CLI or IDE — reads from the same source of truth.
 
+### OpenSpec and BMAD Method
+
+Two community frameworks round out the landscape, and each gets a full walkthrough in the dedicated [OpenSpec & BMAD Method tutorial](openspec-bmad-tutorial.md):
+
+- **[OpenSpec](https://github.com/Fission-AI/OpenSpec)** (Fission-AI) is a lightweight, brownfield-first change-management layer: every change is a reviewable proposal carrying ADDED/MODIFIED/REMOVED spec deltas, and archiving the change merges the deltas into the living spec — version control for requirements.
+- **[BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)** (Breakthrough Method for Agile AI Driven Development) is a full agile lifecycle methodology: named agent personas (Analyst, PM, Architect, Developer, UX) drive four scale-adaptive phases from analysis through PRD, architecture, epics/stories, and implementation.
+
 ---
 
 ## AI CLI tools
@@ -326,6 +333,8 @@ The human reviews the agent's execution log, confirms the plan matches the Spec,
 | Terminal-based AI coding agent | Kiro CLI, Claude Code CLI |
 | Repeatable operational SOPs | Strands Agents SDK |
 | Agent-agnostic spec commands | GitHub spec-kit |
+| Change proposals with spec deltas (brownfield) | [OpenSpec](openspec-bmad-tutorial.md) |
+| Full agile lifecycle with agent personas | [BMAD Method](openspec-bmad-tutorial.md) |
 | IDE with built-in AI | Kiro, Google Antigravity |
 | Programmatic agent pipelines | Strands Agents SDK |
 
@@ -352,6 +361,7 @@ The human reviews the agent's execution log, confirms the plan matches the Spec,
 - Strands Agent SOP repository: https://github.com/strands-agents/agent-sop/tree/main
 - GitHub spec-kit: https://github.com/github/spec-kit
 - Claude Code CLI overview: https://docs.anthropic.com/en/docs/claude-code/overview
+- [Prompting Blueprints — OpenSpec & BMAD Method: Two Spec-Driven Development Frameworks](./openspec-bmad-tutorial.md)
 - [Prompting Blueprints — How to Design a CLAUDE.md That Actually Works](./claude-md-design-tutorial.md)
 - [Prompting Blueprints — AI Coding Spectrum](../02-ai-agents/01-foundations/ai-coding-spectrum.md)
 - [Prompting Blueprints — Vibe Coding Tech Stack](../04-guides/vibe-coding-tech-stack.md)

@@ -33,6 +33,12 @@
 
 ### B
 - [Bear Blog - A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
+- [BMad Method – documentation site](https://docs.bmad-method.org/)
+- [bmad-code-org – BMAD-METHOD: Breakthrough Method for Agile AI Driven Development (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD)
+- [bmad-code-org – BMAD-METHOD docs: agents reference (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/agents.md)
+- [bmad-code-org – BMAD-METHOD docs: commands reference (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/commands.md)
+- [bmad-code-org – BMAD-METHOD docs: workflow map (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/workflow-map.md)
+- [bmad-code-org – BMAD-METHOD docs: official modules (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/modules.md)
 - [bolt.new](https://bolt.new/)
 - [Business Insider – Google AI told me to put glue on pizza. I tried it.](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5)
 
@@ -93,6 +99,8 @@
 - [Firecrawl](https://www.firecrawl.dev/)
 - [Firecrawl – MCP for AI agents](https://www.firecrawl.dev/use-cases/ai-mcps)
 - [Firecrawl MCP Server (GitHub, official)](https://github.com/firecrawl/firecrawl-mcp-server)
+- [Fission-AI – OpenSpec: Spec-driven development for AI coding assistants (GitHub)](https://github.com/Fission-AI/OpenSpec)
+- [Fission-AI – OpenSpec: supported tools (GitHub)](https://github.com/Fission-AI/OpenSpec/blob/main/docs/supported-tools.md)
 - [Fortune – OpenAI says its AI models escaped from a secure test environment and hacked into AI company Hugging Face](https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/)
 
 ### G
