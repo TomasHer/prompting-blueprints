@@ -159,6 +159,7 @@
 - [Hugging Face – Ornith-1.0 Collection (deepreinforce-ai)](https://huggingface.co/collections/deepreinforce-ai/ornith-10)
 
 ### J
+- [Jesse Vincent – Superpowers announcement (blog.fsck.com)](https://blog.fsck.com/2025/10/09/superpowers/)
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
 - [Joshua Kubicki – makelaw (Substack profile)](https://makelaw.substack.com/)
 
@@ -234,6 +235,10 @@
 
 ### O
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
+- [obra (Jesse Vincent) – superpowers: a complete software development methodology as composable skills (GitHub)](https://github.com/obra/superpowers)
+- [obra – superpowers: skills library (GitHub)](https://github.com/obra/superpowers/tree/main/skills)
+- [obra – superpowers: using-superpowers SKILL.md (GitHub)](https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md)
+- [obra – superpowers-marketplace (GitHub)](https://github.com/obra/superpowers-marketplace)
 - [Ornith-1.0 Tech Blog (deep-reinforce.com)](https://deep-reinforce.com/ornith_1_0.html)
 - [Ollama – Run open models locally](https://ollama.com)
 - [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
@@ -253,6 +258,7 @@
 ### P
 - [Paweł Huryn – PM Skills Marketplace (GitHub, phuryn/pm-skills)](https://github.com/phuryn/pm-skills)
 - [Perplexity](https://www.perplexity.ai/)
+- [Prime Radiant – Superpowers release announcements](https://primeradiant.com/superpowers/)
 - [Perplexity – MCP Server documentation](https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server)
 - [Perplexity MCP Server (GitHub, official)](https://github.com/perplexityai/modelcontextprotocol)
 - [Perplexity: Introducing Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research)

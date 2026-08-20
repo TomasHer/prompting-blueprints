@@ -132,6 +132,8 @@ claude /plugin install superpowers
 
 **Source:** [github.com/obra/superpowers](https://github.com/obra/superpowers)
 
+> Deep dive: [Superpowers: A Complete Development Methodology as Claude Skills](superpowers-tutorial.md)
+
 ---
 
 ### 7. GSD — Get Sh*t Done
