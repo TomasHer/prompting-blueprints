@@ -22,6 +22,7 @@ The ten most recently added pages (auto-generated from git history — do not ed
 <!-- RECENT_ADDITIONS:START -->
 - **2026-08-20** · [Superpowers: A Complete Development Methodology as Claude Skills](./05-tools/superpowers-tutorial.md)
 - **2026-08-20** · [OpenSpec & BMAD Method: Two Spec-Driven Development Frameworks](./05-tools/openspec-bmad-tutorial.md)
+- **2026-08-20** · [LinkedIn Post: AI Support for Product Owners (Photo Post)](./01-about-author/linkedin-posts/ai-support-product-owner.md)
 - **2026-08-18** · [Prompt Master: A Claude Skill That Writes Your Prompts](./05-tools/prompt-master-skill-tutorial.md)
 - **2026-08-18** · [Andrej Karpathy Skills: Karpathy's Coding Rules as a Claude Skill](./05-tools/andrej-karpathy-skills-tutorial.md)
 - **2026-08-17** · [DeepSeek Harness Tutorial](./05-tools/deepseek-harness-tutorial.md)
@@ -29,7 +30,6 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-07-20** · [PM Skills Marketplace: Turn Claude into a Product Management Copilot](./05-tools/pm-skills-marketplace-tutorial.md)
 - **2026-07-15** · [Claude Code MCP Setup: Perplexity, Firecrawl, and Chrome DevTools](./05-tools/claude-code-mcp-setup-tutorial.md)
 - **2026-07-12** · [Test Any Skill Before Installing It](./10-security/test-a-skill-before-installing.md)
-- **2026-07-11** · [Open Knowledge Format (OKF): Portable Knowledge for AI Agents](./02-ai-agents/03-context-and-memory/open-knowledge-format-okf.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
