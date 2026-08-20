@@ -285,6 +285,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `06-models-and-evaluations/glm-5-guide.md`
 - [Hugging Face – Ornith-1.0 Collection (deepreinforce-ai)](https://huggingface.co/collections/deepreinforce-ai/ornith-10)
   - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
+- [Jesse Vincent – Superpowers announcement (blog.fsck.com)](https://blog.fsck.com/2025/10/09/superpowers/)
+  - cited in: `05-tools/superpowers-tutorial.md`
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
   - cited in: `07-use-cases-and-research/vibe-research.md`
 - [Joshua Kubicki – makelaw (Substack profile)](https://makelaw.substack.com/)
@@ -413,6 +415,14 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
+- [obra (Jesse Vincent) – superpowers: a complete software development methodology as composable skills (GitHub)](https://github.com/obra/superpowers)
+  - cited in: `05-tools/claude-code-plugins-tutorial.md`, `05-tools/superpowers-tutorial.md`
+- [obra – superpowers: skills library (GitHub)](https://github.com/obra/superpowers/tree/main/skills)
+  - cited in: `05-tools/superpowers-tutorial.md`
+- [obra – superpowers: using-superpowers SKILL.md (GitHub)](https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md)
+  - cited in: `05-tools/superpowers-tutorial.md`
+- [obra – superpowers-marketplace (GitHub)](https://github.com/obra/superpowers-marketplace)
+  - cited in: `05-tools/superpowers-tutorial.md`
 - [Ornith-1.0 Tech Blog (deep-reinforce.com)](https://deep-reinforce.com/ornith_1_0.html)
   - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
 - [Ollama – Run open models locally](https://ollama.com)
@@ -447,6 +457,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [Perplexity](https://www.perplexity.ai/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`, `05-tools/best-ai-apps-2026.md`, `05-tools/claude-code-mcp-setup-tutorial.md`
+- [Prime Radiant – Superpowers release announcements](https://primeradiant.com/superpowers/)
+  - cited in: `05-tools/superpowers-tutorial.md`
 - [Perplexity – MCP Server documentation](https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Perplexity MCP Server (GitHub, official)](https://github.com/perplexityai/modelcontextprotocol)
