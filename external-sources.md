@@ -73,6 +73,9 @@
 
 ### D
 - [Docs: GitHub Copilot quickstart](https://docs.github.com/en/copilot/get-started/quickstart)
+- [Demystifying Agent Skills: Why They Work — Until They Don't (arXiv 2608.14036)](https://arxiv.org/abs/2608.14036)
+- [Demystifying Agent Skills — code, prompts, and taxonomy outputs (GitHub)](https://github.com/zhiyuanjiang04/demystify-agent-skills)
+- [Demystifying Agent Skills — project website](https://zhiyuanjiang04.github.io/demystify-agent-skills/)
 - [DAiTA — Intelligent Document Processing platform (EN, Österreichische Post)](https://www.post.at/en/g/c/daita)
 - [DAiTA — Intelligente Dokumentenverarbeitung Plattform (DE, Österreichische Post)](https://www.post.at/g/c/daita)
 - [DAIR.AI Thinkific - Claude Code for Everyone](https://dair-ai.thinkific.com/courses/claude-code)
@@ -288,6 +291,7 @@
 
 - [Sam Altman on X – "openai now generates about 100 billion words per day"](https://x.com/sama/status/1756089361609981993)
 - [Santander AI Open Source (GitHub organization)](https://github.com/SantanderAI)
+- [SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks (arXiv 2602.12670)](https://arxiv.org/abs/2602.12670)
 - [SantanderAI – autoguardrails (GitHub)](https://github.com/SantanderAI/autoguardrails)
 - [SantanderAI – gen-fraud-graph (GitHub)](https://github.com/SantanderAI/gen-fraud-graph)
 - [SantanderAI – mech-gov-framework (GitHub)](https://github.com/SantanderAI/mech-gov-framework)
