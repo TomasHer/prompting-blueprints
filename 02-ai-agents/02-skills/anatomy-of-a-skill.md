@@ -425,3 +425,4 @@ Symptoms: noticeably slow responses or degraded output quality.
 - [Anthropic engineering — Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
 - [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
 - [Claude Building Skills Guide](../../04-guides/claude-building-skills-guide.md)
+- [Evidence-Based Skill Design](./evidence-based-skill-design.md)

@@ -38,6 +38,7 @@ nav:
     - Claude Building Skills Guide: 04-guides/claude-building-skills-guide.md
     - Skills Design Patterns: 02-ai-agents/02-skills/skills-design-patterns.md
     - Skills Testing and Iteration: 02-ai-agents/02-skills/skills-testing-iteration.md
+    - Evidence-Based Skill Design: 02-ai-agents/02-skills/evidence-based-skill-design.md
     - Claude AI vs Claude Code vs Claude Cowork: 05-tools/claude-ai-vs-code-vs-cowork.md
     - Cowork Tool Selection Tutorial: 05-tools/cowork-tool-selection-tutorial.md
     - Claude Code Tool Guide: 05-tools/claude-code-tool-guide.md
