@@ -54,6 +54,7 @@ nav:
     - Google Cloud ADK Quickstart: 05-tools/google-cloud-platform-agents.md
     - LangChain Deep Agents Playbook: 05-tools/langchain-deep-agents.md
     - DeepSeek Harness Tutorial: 05-tools/deepseek-harness-tutorial.md
+    - OpenWorker Security Coworkers: 05-tools/openworker-security-tutorial.md
     - Hermes Agent Tutorial: 05-tools/hermes-agent-tutorial.md
     - Local Hermes Daily Assistant (Qwen3 + Ollama + Unsloth + Obsidian): 05-tools/hermes-daily-assistant-setup.md
     - Microsoft Agent Framework Quickstart: 05-tools/microsoft-agent-framework.md
