@@ -9,6 +9,8 @@
 - [Agrici Daniel – GitHub profile](https://github.com/AgriciDaniel)
 - [Andrej Karpathy – GitHub profile](https://github.com/karpathy)
 - [Andrej Karpathy on X – observations on LLM coding pitfalls (the post behind andrej-karpathy-skills)](https://x.com/karpathy/status/2015883857489522876)
+- [Andrew Ng on X – announcing OpenWorker (23 Jul 2026)](https://x.com/AndrewYNg/status/2080333504446108104)
+- [Andrew Ng on X – OpenWorker security release (25 Aug 2026)](https://x.com/andrewyng/status/2092315079576555806)
 - [Anthropic – home](https://www.anthropic.com/)
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
 - [A2A .NET SDK (GitHub)](https://github.com/a2aproject/a2a-dotnet)
@@ -200,6 +202,7 @@
 - [M365copilot.com](https://www.m365copilot.com)
 - [Make](https://www.make.com/)
 - [Manus – Research Agent Workspace](https://manus.im/)
+- [MarkTechPost – Andrew Ng Just Released OpenWorker](https://www.marktechpost.com/2026/07/23/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat/)
 - [Medium - Albertina Bekhti profile](https://medium.com/@abertina)
 - [Medium - Daniel Avila](https://medium.com/@dan.avila7)
 - [Medium - Joe Njenga](https://medium.com/@joe.njenga)
@@ -265,6 +268,9 @@
 - [OpenAI Cookbook – GPT-5 Prompt Optimization Cookbook](https://cookbook.openai.com/examples/gpt-5/prompt-optimization-cookbook)
 - [OpenAI – Introducing Deep Research](https://openai.com/index/introducing-deep-research/)
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
+- [OpenWorker – Andrew Ng's open-source local-first AI coworker (GitHub, andrewyng/openworker)](https://github.com/andrewyng/openworker)
+- [OpenWorker – official site](https://openworker.com)
+- [OpenWorker – releases (GitHub)](https://github.com/andrewyng/openworker/releases)
 
 ### P
 - [Paweł Huryn – PM Skills Marketplace (GitHub, phuryn/pm-skills)](https://github.com/phuryn/pm-skills)

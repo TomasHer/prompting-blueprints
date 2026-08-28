@@ -19,6 +19,10 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `01-about-author/ai-people-to-follow.md`, `05-tools/andrej-karpathy-skills-tutorial.md`
 - [Andrej Karpathy on X – observations on LLM coding pitfalls (the post behind andrej-karpathy-skills)](https://x.com/karpathy/status/2015883857489522876)
   - cited in: `05-tools/andrej-karpathy-skills-tutorial.md`
+- [Andrew Ng on X – announcing OpenWorker (23 Jul 2026)](https://x.com/AndrewYNg/status/2080333504446108104)
+  - _not cited in any content file_
+- [Andrew Ng on X – OpenWorker security release (25 Aug 2026)](https://x.com/andrewyng/status/2092315079576555806)
+  - _not cited in any content file_
 - [Anthropic – home](https://www.anthropic.com/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
@@ -353,6 +357,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Manus – Research Agent Workspace](https://manus.im/)
   - cited in: `05-tools/best-ai-apps-2026.md`, `05-tools/langchain-deep-agents.md`
+- [MarkTechPost – Andrew Ng Just Released OpenWorker](https://www.marktechpost.com/2026/07/23/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat/)
+  - _not cited in any content file_
 - [Medium - Albertina Bekhti profile](https://medium.com/@abertina)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [Medium - Daniel Avila](https://medium.com/@dan.avila7)
@@ -475,6 +481,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/langchain-deep-agents.md`, `07-use-cases-and-research/deep-research.md`
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
   - cited in: `05-tools/openai-gpt-5-prompt-optimizer.md`
+- [OpenWorker – Andrew Ng's open-source local-first AI coworker (GitHub, andrewyng/openworker)](https://github.com/andrewyng/openworker)
+  - _not cited in any content file_
+- [OpenWorker – official site](https://openworker.com)
+  - _not cited in any content file_
+- [OpenWorker – releases (GitHub)](https://github.com/andrewyng/openworker/releases)
+  - _not cited in any content file_
 - [Paweł Huryn – PM Skills Marketplace (GitHub, phuryn/pm-skills)](https://github.com/phuryn/pm-skills)
   - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [Perplexity](https://www.perplexity.ai/)
