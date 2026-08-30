@@ -124,6 +124,7 @@ nav:
     - 12 Rules for AI Coding Tools (Senior Engineer Edition): 04-guides/ai-coding-rules-senior-engineers.md
     - The 10X Developer in the Agentic Era (Skills + Metrics): 04-guides/10x-developer-agentic-era.md
     - AI Engineering Skills Map (Software Engineering Fundamentals): 04-guides/ai-engineering-skills-map.md
+    - The AI-Native SDLC Playbook (Anthropic): 04-guides/ai-native-sdlc-playbook.md
     - Codex Agent Prompting Guide: 04-guides/codex-agent-prompting-guide.md
     - Codex TDD Workflow and Skills Guide: 04-guides/codex-tdd-and-skills.md
     - Fine-Tune an Open Source LLM with Claude: 04-guides/claude-fine-tune-llm.md
