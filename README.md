@@ -20,6 +20,7 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The ten most recently added pages (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-08-30** · [AI-Supported SDLC — Overview and Reading Path](./04-guides/ai-sdlc-overview.md)
 - **2026-08-30** · [The AI-Native SDLC Playbook (Anthropic) — Stage-by-Stage Tutorial](./04-guides/ai-native-sdlc-playbook.md)
 - **2026-08-30** · [The AI Engineering Skills Map — Software Engineering Fundamentals in the Agentic Era](./04-guides/ai-engineering-skills-map.md)
 - **2026-08-26** · [OpenWorker Security Coworkers](./05-tools/openworker-security-tutorial.md)
@@ -29,7 +30,6 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-08-18** · [Prompt Master: A Claude Skill That Writes Your Prompts](./05-tools/prompt-master-skill-tutorial.md)
 - **2026-08-18** · [Andrej Karpathy Skills: Karpathy's Coding Rules as a Claude Skill](./05-tools/andrej-karpathy-skills-tutorial.md)
 - **2026-08-17** · [DeepSeek Harness Tutorial](./05-tools/deepseek-harness-tutorial.md)
-- **2026-07-23** · [AI Fun Facts](./04-guides/ai-fun-facts.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
@@ -41,6 +41,7 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **Prompts & patterns:** prompt packs and reusable scaffolds (role + constraints + format) -> `./03-prompts-and-patterns`
 - **Guides:** deep-dive primers with links to official vendor guides (Gemini Prompting Guide 101, Google Startup AI Agents) -> `./04-guides` (see `./04-guides/overview.md`)
 - **Tools:** tactics for NotebookLM, Perplexity Comet, Copilot Agents, and more -> `./05-tools`
+- **AI-supported SDLC:** one entry point for spec-driven development, the AI-native lifecycle, and the stage models in between -> `./04-guides/ai-sdlc-overview.md`
 - **Vibe coding stack:** beginner-friendly build stack and toolchain tutorial -> `./04-guides/vibe-coding-tech-stack.md`
 - **Models & evaluations:** model tips, benchmark overviews, and promptfoo configs -> `./06-models-and-evaluations`
 - **Use cases & research:** applied workflows, research tutorials, and collaboration playbooks -> `./07-use-cases-and-research`
@@ -53,7 +54,7 @@ The ten most recently added pages (auto-generated from git history — do not ed
 
 Quick links: [Author's Speaking](./01-about-author/speaking) · [Author's Involvement](./01-about-author/program-committee) · [Author's Research](./01-about-author/research) · [AI Agents Overview](./02-ai-agents/01-foundations/ai-agents-overview.md) · [Context Engineering](./02-ai-agents/03-context-and-memory/context-engineering.md) · [Prompts & Patterns](./03-prompts-and-patterns) · [AI Guides Overview](./04-guides/overview.md) · [AI Tools](./05-tools) · [Models & Evaluations](./06-models-and-evaluations) · [Use-cases & Research](./07-use-cases-and-research) · [Requirements Engineering](./08-requirements-engineering/overview.md) · [Conferences (GAISE 2026)](./09-conferences/gaise-2026.md) · [External Sources](./external-sources.md) · [Source Index](./source-index.md) · [Changelog](./CHANGELOG.md)
 
-Featured additions: [The 10X Developer in the Agentic Era](./04-guides/10x-developer-agentic-era.md) · [Dynamic Context Discovery](./02-ai-agents/03-context-and-memory/cursor-dynamic-context-discovery.md) · [Vibe Coding Tech Stack](./04-guides/vibe-coding-tech-stack.md) · [Claude AI vs Code vs Cowork](./05-tools/claude-ai-vs-code-vs-cowork.md) · [Claude Code Project Structure](./05-tools/claude-code-project-structure-tutorial.md) · [Google 5-Day AI Agents Course](./02-ai-agents/01-foundations/google-5-day-ai-agents-course.md) · [Lyria 3 in Gemini](./05-tools/lyra-3-gemini.md)
+Featured additions: [AI-Supported SDLC Overview](./04-guides/ai-sdlc-overview.md) · [The 10X Developer in the Agentic Era](./04-guides/10x-developer-agentic-era.md) · [Dynamic Context Discovery](./02-ai-agents/03-context-and-memory/cursor-dynamic-context-discovery.md) · [Vibe Coding Tech Stack](./04-guides/vibe-coding-tech-stack.md) · [Claude AI vs Code vs Cowork](./05-tools/claude-ai-vs-code-vs-cowork.md) · [Claude Code Project Structure](./05-tools/claude-code-project-structure-tutorial.md) · [Google 5-Day AI Agents Course](./02-ai-agents/01-foundations/google-5-day-ai-agents-course.md) · [Lyria 3 in Gemini](./05-tools/lyra-3-gemini.md)
 
 > Want more? Browse the publicly accessible [Google NotebookLM notebook](https://notebooklm.google.com/notebook/c486e20f-f02a-439c-8168-853472335263) for extended context, references, and drafts.
 
