@@ -1,3 +1,9 @@
+---
+title: "AI Agents Quiz — 20 Questions"
+tags: ["agents", "quiz"]
+last_updated: 2026-06-14
+---
+
 # AI Agents Quiz — 20 Questions
 
 Test your understanding of AI agent architectures, skills, context engineering, protocols, and production design. Questions range from foundational concepts to research-backed surprises. Answers are at the bottom — no peeking!

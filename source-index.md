@@ -65,6 +65,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/skills-design-patterns.md`, `02-ai-agents/02-skills/skills-testing-iteration.md`, `04-guides/claude-building-skills-guide.md`
 - [arXiv 2512.15943 — Tool-calling specialization beats scale (PDF)](https://arxiv.org/pdf/2512.15943)
   - cited in: `02-ai-agents/01-foundations/models-for-ai-agents-2026.md`
+- [Attention Is All You Need (arXiv 1706.03762)](https://arxiv.org/abs/1706.03762)
+  - _not cited in any content file_
 - [Bear Blog - A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [BMad Method – documentation site](https://docs.bmad-method.org/)
@@ -177,6 +179,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [Elicit](https://elicit.com/)
   - cited in: `07-use-cases-and-research/vibe-research.md`
+- [Epoch AI – Machine Learning Trends](https://epoch.ai/trends)
+  - _not cited in any content file_
 - [Euronews – 'Unprecedented': OpenAI models autonomously hacked a rival firm, fuelling fears of rogue agents](https://www.euronews.com/next/2026/07/22/openai-models-broke-free-in-test-hacked-rival-hugging-face-in-major-breach)
   - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
@@ -469,6 +473,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/vibe-coding-tech-stack.md`, `05-tools/ai-tool-chaining-oct-2025.md`
 - [OpenAI – home](https://openai.com/)
   - cited in: `01-about-author/ai-people-to-follow.md`, `02-ai-agents/03-context-and-memory/agent-context-window-performance.md`
+- [OpenAI Help – What are tokens and how to count them?](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)
+  - _not cited in any content file_
 - [OpenAI – Codex](https://openai.com/blog/openai-codex)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [OpenAI Codex – AGENTS.md guide](https://developers.openai.com/codex/guides/agents-md)

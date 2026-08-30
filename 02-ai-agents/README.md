@@ -1,3 +1,9 @@
+---
+title: "AI Agents"
+tags: ["agents", "overview"]
+last_updated: 2026-06-14
+---
+
 # AI Agents
 
 A curated collection of guides, tutorials, and reference material for building production AI agents.
