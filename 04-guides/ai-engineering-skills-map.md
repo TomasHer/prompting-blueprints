@@ -94,6 +94,12 @@ So fundamentals buy you three practical things:
 3. **Judgment on review** — the code compiles and the tests pass; whether the
    design is right is still yours to decide.
 
+**This branch is not only for AI products.** Worth stating plainly, because the
+map's title invites the opposite reading: "coding agents have changed how we
+build software, including software that does not contain any AI components." The
+five sub-skills below are what it takes to build *software* well when an agent
+writes it — whether or not a model appears anywhere in the finished product.
+
 Ng's conclusion is blunt, and worth quoting because it cuts against the "learning
 to code is obsolete" reading of agentic development:
 
@@ -430,9 +436,13 @@ inner loop produced. The skills map is the same argument as a curriculum: **the
 loop got faster, so the value moved to the parts of the loop that are still
 yours.**
 
-Ng closes the article by pointing forward — understanding software fundamentals
-"makes them important context for how you use coding agents and shape the build,"
-the two branches he says he will cover in future posts.
+Ng closes the article by pointing forward, and the link he draws is worth
+keeping: understanding fundamentals "helps you figure out what software can and
+cannot do," which is precisely what "makes them important context for how you use
+coding agents and shape the build" — the two branches he says he will cover in
+future posts. Feasibility judgment is the bridge. You cannot write a good spec
+for a system you cannot tell is buildable, and you cannot tell an agent it has
+gone somewhere impossible if you don't know where the edges are.
 
 ---
 
