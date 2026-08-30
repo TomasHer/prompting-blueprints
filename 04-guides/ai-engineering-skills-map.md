@@ -6,6 +6,10 @@ last_updated: "2026-08-30"
 
 # The AI Engineering Skills Map — Software Engineering Fundamentals in the Agentic Era
 
+![AI Engineering Skills Map: the AI Engineering root splits into Building and deploying AI applications, Software engineering fundamentals (highlighted), Using coding agents, and Shaping the build; software engineering fundamentals splits further into Building full-stack applications, Managing data, Designing system architectures, Making systems secure and reliable, and Scaling and operating in production](../assets/other/ng-ai-engineering-skills-map-swe-fundamentals.jpeg)
+
+*Andrew Ng's AI Engineering Skills Map, with the software engineering fundamentals branch expanded.*
+
 > "Even when you use a coding agent to write all your code, understanding software
 > fundamentals is important for steering your agent to make the tradeoffs you want
 > — or to even know what tradeoffs exist to be made."
@@ -34,8 +38,6 @@ language of steering.
 ---
 
 ## The map at a glance
-
-![AI Engineering Skills Map: the AI Engineering root splits into Building and deploying AI applications, Software engineering fundamentals (highlighted), Using coding agents, and Shaping the build; software engineering fundamentals splits further into Building full-stack applications, Managing data, Designing system architectures, Making systems secure and reliable, and Scaling and operating in production](../assets/other/ng-ai-engineering-skills-map-swe-fundamentals.jpeg)
 
 Ng's map names **four top-level skills** of AI engineering. It was built from an
 analysis of **over 10,000 job postings**, dozens of structured interviews with AI
