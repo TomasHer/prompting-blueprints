@@ -99,6 +99,8 @@ A practical extension of state and orchestration is **scheduling**: a built-in s
 
 The Kaggle/Google whitepaper **[The New SDLC with Vibe Coding](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding)** (Addy Osmani, Shubham Saboo, and Sokratis Kartakis, May 2026) devotes a section — *"Harness Engineering: What surrounds the model"* — to exactly this layer, and its framing is worth lifting wholesale.
 
+<img src="../../assets/google/sdlc_traditional_vs_ai_powered.png" alt="The New SDLC: the slow traditional way (weeks) vs the fast AI-powered way (minutes to hours) — same phases, time spent differently" width="80%">
+
 The whitepaper opens by naming a tempting but wrong intuition: *treating the model as the system.* A new model ships and the agent gets smarter; an older model and it gets worse — so the model becomes the explanation for everything good and bad. That instinct leads to the wrong investments. The model is **one input** into a running agent; everything else — the prompts, tools, context policies, hooks, sandboxes, sub-agents, and observability — is the **harness**, the scaffolding wrapped around the model that lets it actually *finish* something. The whitepaper compresses this into an equation:
 
 > **Agent = Model + Harness**
