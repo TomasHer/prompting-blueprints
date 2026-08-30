@@ -132,6 +132,9 @@ the same tool on the first pass. Audit in the sandbox; run only what came back c
   how providers layer defenses; the same defense-in-depth thinking applies to your own install habits.
 - [Claude Building Skills Guide](../04-guides/claude-building-skills-guide.md) — how skills are
   structured, so you know what a normal `SKILL.md` should and shouldn't contain.
+- [OpenWorker Security Coworkers](../05-tools/openworker-security-tutorial.md) — the same
+  audit instinct applied to a whole harness: risk classes, permission modes, and personas that
+  declare their entire capability surface up front.
 
 ---
 

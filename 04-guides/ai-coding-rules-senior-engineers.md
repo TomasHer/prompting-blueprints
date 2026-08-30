@@ -169,7 +169,7 @@ Paste this into your `CLAUDE.md` or `AGENTS.md` and customise the brackets.
 
 The 4-rule baseline referenced above is not theoretical — it ships as a single ~65-line `CLAUDE.md` in [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) (≈154k GitHub stars, ≈15.8k forks as of May 2026). The repository's premise: most LLM coding failures come from four recurring patterns Karpathy publicly called out — guessing instead of asking, overcomplicating the solution, touching code outside the requested scope, and declaring victory without a verifiable goal. Drop the file in a project root and Claude Code reads it automatically at the start of every session; Cursor honors it as well.
 
-The four rules map 1:1 to rules 1–4 of this guide:
+For a full walkthrough of the repo — all three install paths, the skill packaging, and the worked examples — see the dedicated [Andrej Karpathy Skills tutorial](../05-tools/andrej-karpathy-skills-tutorial.md). The four rules map 1:1 to rules 1–4 of this guide:
 
 | Repo rule | Maps to | What it enforces |
 | --- | --- | --- |

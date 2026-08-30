@@ -20,16 +20,16 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The ten most recently added pages (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
-- **2026-07-17** · [AI Fun Facts](./04-guides/ai-fun-facts.md)
+- **2026-08-26** · [OpenWorker Security Coworkers](./05-tools/openworker-security-tutorial.md)
+- **2026-08-23** · [Evidence-Based Skill Design](./02-ai-agents/02-skills/evidence-based-skill-design.md)
+- **2026-08-20** · [Superpowers: A Complete Development Methodology as Claude Skills](./05-tools/superpowers-tutorial.md)
+- **2026-08-20** · [OpenSpec & BMAD Method: Two Spec-Driven Development Frameworks](./05-tools/openspec-bmad-tutorial.md)
+- **2026-08-18** · [Prompt Master: A Claude Skill That Writes Your Prompts](./05-tools/prompt-master-skill-tutorial.md)
+- **2026-08-18** · [Andrej Karpathy Skills: Karpathy's Coding Rules as a Claude Skill](./05-tools/andrej-karpathy-skills-tutorial.md)
+- **2026-08-17** · [DeepSeek Harness Tutorial](./05-tools/deepseek-harness-tutorial.md)
+- **2026-07-23** · [AI Fun Facts](./04-guides/ai-fun-facts.md)
+- **2026-07-20** · [PM Skills Marketplace: Turn Claude into a Product Management Copilot](./05-tools/pm-skills-marketplace-tutorial.md)
 - **2026-07-15** · [Claude Code MCP Setup: Perplexity, Firecrawl, and Chrome DevTools](./05-tools/claude-code-mcp-setup-tutorial.md)
-- **2026-07-12** · [Test Any Skill Before Installing It](./10-security/test-a-skill-before-installing.md)
-- **2026-07-11** · [Open Knowledge Format (OKF): Portable Knowledge for AI Agents](./02-ai-agents/03-context-and-memory/open-knowledge-format-okf.md)
-- **2026-07-11** · [Orders](./02-ai-agents/03-context-and-memory/examples/okf.md)
-- **2026-07-11** · [Agent Skills: Engineering Workflows for AI Coding Agents](./02-ai-agents/02-skills/agent-skills-engineering-workflows.md)
-- **2026-07-06** · [AI Agent Evaluation: Metrics That Actually Measure Agents](./06-models-and-evaluations/ai-agent-evaluation-metrics-tutorial.md)
-- **2026-06-29** · [The 10X Developer in the Agentic Era — Skills and How to Measure Value](./04-guides/10x-developer-agentic-era.md)
-- **2026-06-29** · [AI People to Follow](./01-about-author/ai-people-to-follow.md)
-- **2026-06-27** · [Loop Engineering](./02-ai-agents/03-context-and-memory/loop-engineering.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---

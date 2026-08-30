@@ -158,7 +158,7 @@ Based on ETH Zurich research (arXiv 2602.11988), agent performance improves when
 
 If you want a baseline `CLAUDE.md` that is already proven in production, copy the ~65-line file from [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) (≈154k stars). It encodes four behavioural rules — Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution — derived from Andrej Karpathy's public observations about LLM coding pitfalls. Reported AI coding accuracy gains: **65% → 94%** when added to a project (figure cited in news coverage of the project; exact numbers depend on task mix and model).
 
-Use it as the WHY layer of the WHAT / WHY / HOW framework above, then add your project-specific WHAT and HOW on top. See the [12 Rules for AI Coding Tools guide](../04-guides/ai-coding-rules-senior-engineers.md#real-world-implementation-multica-aiandrej-karpathy-skills) for a side-by-side mapping and adoption steps.
+Use it as the WHY layer of the WHAT / WHY / HOW framework above, then add your project-specific WHAT and HOW on top. See the [12 Rules for AI Coding Tools guide](../04-guides/ai-coding-rules-senior-engineers.md#real-world-implementation-multica-aiandrej-karpathy-skills) for a side-by-side mapping and adoption steps, and the [Andrej Karpathy Skills tutorial](andrej-karpathy-skills-tutorial.md) for the full walkthrough (all install paths, skill packaging, worked examples).
 
 ---
 

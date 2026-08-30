@@ -8,6 +8,9 @@
 - [Agrici Daniel – claude-obsidian: AI-Powered Knowledge Management System (GitHub)](https://github.com/AgriciDaniel/claude-obsidian)
 - [Agrici Daniel – GitHub profile](https://github.com/AgriciDaniel)
 - [Andrej Karpathy – GitHub profile](https://github.com/karpathy)
+- [Andrej Karpathy on X – observations on LLM coding pitfalls (the post behind andrej-karpathy-skills)](https://x.com/karpathy/status/2015883857489522876)
+- [Andrew Ng on X – announcing OpenWorker (23 Jul 2026)](https://x.com/AndrewYNg/status/2080333504446108104)
+- [Andrew Ng on X – OpenWorker security release (25 Aug 2026)](https://x.com/andrewyng/status/2092315079576555806)
 - [Anthropic – home](https://www.anthropic.com/)
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
 - [A2A .NET SDK (GitHub)](https://github.com/a2aproject/a2a-dotnet)
@@ -33,6 +36,12 @@
 
 ### B
 - [Bear Blog - A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
+- [BMad Method – documentation site](https://docs.bmad-method.org/)
+- [bmad-code-org – BMAD-METHOD: Breakthrough Method for Agile AI Driven Development (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD)
+- [bmad-code-org – BMAD-METHOD docs: agents reference (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/agents.md)
+- [bmad-code-org – BMAD-METHOD docs: commands reference (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/commands.md)
+- [bmad-code-org – BMAD-METHOD docs: workflow map (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/workflow-map.md)
+- [bmad-code-org – BMAD-METHOD docs: official modules (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/modules.md)
 - [bolt.new](https://bolt.new/)
 - [Business Insider – Google AI told me to put glue on pizza. I tried it.](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5)
 
@@ -43,9 +52,12 @@
 - [Claude - Claude AI](https://claude.ai)
 - [Claude - Claude Code product page](https://claude.com/product/claude-code)
 - [Claude - Claude Cowork product page](https://claude.com/product/cowork)
+- [Claude Code docs – Agent Skills](https://code.claude.com/docs/en/skills)
 - [Claude Code docs – Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp)
+- [Claude Code docs – Plugins](https://code.claude.com/docs/en/plugins)
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 - [Clerk](https://clerk.com/)
+- [CNN Business – An OpenAI test model escaped and broke into a real company's servers](https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity)
 - [Cobus Greyling – Medium profile](https://cobusgreyling.medium.com/)
 - [Cobus Greyling – The Evolving Vocabulary of AI](https://cobusgreyling.medium.com/the-evolving-vocabulary-of-ai-2ea12100811d)
 - [Code Newsletter - THE CODE](https://codenewsletter.ai/subscribe?utm_source=linkedin_profile_om)
@@ -55,6 +67,8 @@
 - [Confident AI – LLM Agent Evaluation Metrics: Tool Calling, Task Completion, Reasoning, and Trace-Based Evals](https://www.confident-ai.com/blog/llm-agent-evaluation-complete-guide)
 - [Continue](https://continue.dev/)
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
+- [Cordiverse – A Programming Paradigm for Spatiotemporal Composability (GitHub)](https://github.com/cordiverse/paper)
+- [Cordiverse – Cordis meta-framework (GitHub)](https://github.com/cordiverse/cordis)
 - [Coursera - Claude Code: Software Engineering with AI Agents](https://www.coursera.org/learn/claude-code)
 - [CrewAI – Framework documentation](https://docs.crewai.com/introduction)
 - [Cursor](https://www.cursor.com/)
@@ -62,6 +76,9 @@
 
 ### D
 - [Docs: GitHub Copilot quickstart](https://docs.github.com/en/copilot/get-started/quickstart)
+- [Demystifying Agent Skills: Why They Work — Until They Don't (arXiv 2608.14036)](https://arxiv.org/abs/2608.14036)
+- [Demystifying Agent Skills — code, prompts, and taxonomy outputs (GitHub)](https://github.com/zhiyuanjiang04/demystify-agent-skills)
+- [Demystifying Agent Skills — project website](https://zhiyuanjiang04.github.io/demystify-agent-skills/)
 - [DAiTA — Intelligent Document Processing platform (EN, Österreichische Post)](https://www.post.at/en/g/c/daita)
 - [DAiTA — Intelligente Dokumentenverarbeitung Plattform (DE, Österreichische Post)](https://www.post.at/g/c/daita)
 - [DAIR.AI Thinkific - Claude Code for Everyone](https://dair-ai.thinkific.com/courses/claude-code)
@@ -71,10 +88,17 @@
 - [DeepMind – home](https://deepmind.google/)
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
 - [DeepSeek](https://www.deepseek.com/)
+- [DeepSeek – deepseek-harness: Everything is a Plugin (GitHub)](https://github.com/deepseek-ai/deepseek-harness)
+- [DeepSeek – deepseek-harness: Running benchmarks (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/BENCHMARK.md)
+- [DeepSeek – deepseek-harness: Tool catalog (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/tool-catalog.md)
+- [DeepSeek – deepseek-harness: Your first plugin tutorial (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/index.md)
+- [DeepSeek – DeepSeek Harness v0.1 developer preview announcement (X)](https://x.com/deepseek_ai/status/2087887408440164663)
+- [DeepSeek Platform](https://platform.deepseek.com/)
 
 ### E
 - [Elicit](https://elicit.com/)
 - [Epoch AI – Machine Learning Trends](https://epoch.ai/trends)
+- [Euronews – 'Unprecedented': OpenAI models autonomously hacked a rival firm, fuelling fears of rogue agents](https://www.euronews.com/next/2026/07/22/openai-models-broke-free-in-test-hacked-rival-hugging-face-in-major-breach)
 - [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
 - [Every - Source Code](https://every.to/source-code)
 
@@ -82,6 +106,9 @@
 - [Firecrawl](https://www.firecrawl.dev/)
 - [Firecrawl – MCP for AI agents](https://www.firecrawl.dev/use-cases/ai-mcps)
 - [Firecrawl MCP Server (GitHub, official)](https://github.com/firecrawl/firecrawl-mcp-server)
+- [Fission-AI – OpenSpec: Spec-driven development for AI coding assistants (GitHub)](https://github.com/Fission-AI/OpenSpec)
+- [Fission-AI – OpenSpec: supported tools (GitHub)](https://github.com/Fission-AI/OpenSpec/blob/main/docs/supported-tools.md)
+- [Fortune – OpenAI says its AI models escaped from a secure test environment and hacked into AI company Hugging Face](https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/)
 
 ### G
 
@@ -107,6 +134,7 @@
 - [GitHub Blog – 5 tips for writing better custom instructions for Copilot](https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/)
 - [GitHub Copilot](https://github.com/features/copilot)
 - [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
+- [GitHub – dsh-plugin topic (DeepSeek Harness community plugins)](https://github.com/topics/dsh-plugin)
 - [GitHub Docs – Extend the GitHub Copilot coding agent with MCP](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp)
 - [GitHub – ExecuTorch Examples Repository (.git)](https://github.com/meta-pytorch/executorch-examples.git)
 - [GitHub – ExecuTorch Examples Repository (tar.gz archive)](https://github.com/meta-pytorch/executorch-examples/archive/main.tar.gz)
@@ -146,6 +174,7 @@
 - [Hugging Face – Ornith-1.0 Collection (deepreinforce-ai)](https://huggingface.co/collections/deepreinforce-ai/ornith-10)
 
 ### J
+- [Jesse Vincent – Superpowers announcement (blog.fsck.com)](https://blog.fsck.com/2025/10/09/superpowers/)
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
 - [Joshua Kubicki – makelaw (Substack profile)](https://makelaw.substack.com/)
 
@@ -175,6 +204,7 @@
 - [M365copilot.com](https://www.m365copilot.com)
 - [Make](https://www.make.com/)
 - [Manus – Research Agent Workspace](https://manus.im/)
+- [MarkTechPost – Andrew Ng Just Released OpenWorker](https://www.marktechpost.com/2026/07/23/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat/)
 - [Medium - Albertina Bekhti profile](https://medium.com/@abertina)
 - [Medium - Daniel Avila](https://medium.com/@dan.avila7)
 - [Medium - Joe Njenga](https://medium.com/@joe.njenga)
@@ -202,17 +232,29 @@
 - [Model Context Protocol – introduction](https://modelcontextprotocol.io/introduction)
 - [multica-ai/andrej-karpathy-skills (GitHub) — single-file CLAUDE.md derived from Andrej Karpathy's LLM coding-pitfall observations](https://github.com/multica-ai/andrej-karpathy-skills)
 - [multica-ai/andrej-karpathy-skills – CLAUDE.md (raw)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)
+- [multica-ai/andrej-karpathy-skills – CURSOR.md (Cursor rule setup)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CURSOR.md)
+- [multica-ai/andrej-karpathy-skills – EXAMPLES.md (the four principles applied to real scenarios)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/EXAMPLES.md)
+- [multica-ai/andrej-karpathy-skills – karpathy-guidelines skill (SKILL.md)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md)
+- [multica-ai/multica – open-source platform for running and managing coding agents with reusable skills (GitHub)](https://github.com/multica-ai/multica)
 
 ### N
 - [n8n – Official site](https://n8n.io/)
 - [Nous Research](https://nousresearch.com)
 - [n8n – Workflow templates gallery](https://n8n.io/workflows/)
 - [Next.js](https://nextjs.org/)
+- [nidhinjs – prompt-master: a Claude skill that writes optimized prompts for any AI tool (GitHub)](https://github.com/nidhinjs/prompt-master)
+- [nidhinjs – prompt-master: templates reference (GitHub)](https://github.com/nidhinjs/prompt-master/blob/main/references/templates.md)
+- [nidhinjs – prompt-master: credit-killing patterns reference (GitHub)](https://github.com/nidhinjs/prompt-master/blob/main/references/patterns.md)
+- [nidhinjs – GitHub profile](https://github.com/nidhinjs)
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
 - [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
 
 ### O
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
+- [obra (Jesse Vincent) – superpowers: a complete software development methodology as composable skills (GitHub)](https://github.com/obra/superpowers)
+- [obra – superpowers: skills library (GitHub)](https://github.com/obra/superpowers/tree/main/skills)
+- [obra – superpowers: using-superpowers SKILL.md (GitHub)](https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md)
+- [obra – superpowers-marketplace (GitHub)](https://github.com/obra/superpowers-marketplace)
 - [Ornith-1.0 Tech Blog (deep-reinforce.com)](https://deep-reinforce.com/ornith_1_0.html)
 - [Ollama – Run open models locally](https://ollama.com)
 - [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
@@ -229,9 +271,14 @@
 - [OpenAI Cookbook – GPT-5 Prompt Optimization Cookbook](https://cookbook.openai.com/examples/gpt-5/prompt-optimization-cookbook)
 - [OpenAI – Introducing Deep Research](https://openai.com/index/introducing-deep-research/)
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
+- [OpenWorker – Andrew Ng's open-source local-first AI coworker (GitHub, andrewyng/openworker)](https://github.com/andrewyng/openworker)
+- [OpenWorker – official site](https://openworker.com)
+- [OpenWorker – releases (GitHub)](https://github.com/andrewyng/openworker/releases)
 
 ### P
+- [Paweł Huryn – PM Skills Marketplace (GitHub, phuryn/pm-skills)](https://github.com/phuryn/pm-skills)
 - [Perplexity](https://www.perplexity.ai/)
+- [Prime Radiant – Superpowers release announcements](https://primeradiant.com/superpowers/)
 - [Perplexity – MCP Server documentation](https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server)
 - [Perplexity MCP Server (GitHub, official)](https://github.com/perplexityai/modelcontextprotocol)
 - [Perplexity: Introducing Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research)
@@ -251,7 +298,9 @@
 
 ### S
 
+- [Sam Altman on X – "openai now generates about 100 billion words per day"](https://x.com/sama/status/1756089361609981993)
 - [Santander AI Open Source (GitHub organization)](https://github.com/SantanderAI)
+- [SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks (arXiv 2602.12670)](https://arxiv.org/abs/2602.12670)
 - [SantanderAI – autoguardrails (GitHub)](https://github.com/SantanderAI/autoguardrails)
 - [SantanderAI – gen-fraud-graph (GitHub)](https://github.com/SantanderAI/gen-fraud-graph)
 - [SantanderAI – mech-gov-framework (GitHub)](https://github.com/SantanderAI/mech-gov-framework)
@@ -266,6 +315,9 @@
 ### T
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
+- [The Product Compass – PM Brain OS: The Second Brain for Product Managers](https://www.productcompass.pm/p/pm-brain-os)
+- [The Product Compass – PM Skills 2.0: Free Claude Skills for PMs (Red-Team + Ship)](https://www.productcompass.pm/p/pm-skills-2-red-team-ship)
+- [The Product Compass – PM Skills Marketplace: An AI Operating System for Better Product Decisions](https://www.productcompass.pm/p/pm-skills-marketplace-claude)
 - [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
 
 ### U

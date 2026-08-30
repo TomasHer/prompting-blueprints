@@ -1,7 +1,7 @@
 ---
 title: "AI Fun Facts"
-tags: ["guides", "fun-facts", "llm-scale"]
-last_updated: 2026-07-17
+tags: ["guides", "fun-facts"]
+last_updated: "2026-07-23"
 ---
 
 # AI Fun Facts

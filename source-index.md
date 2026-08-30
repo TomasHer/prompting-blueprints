@@ -16,7 +16,13 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Agrici Daniel – GitHub profile](https://github.com/AgriciDaniel)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [Andrej Karpathy – GitHub profile](https://github.com/karpathy)
-  - cited in: `01-about-author/ai-people-to-follow.md`
+  - cited in: `01-about-author/ai-people-to-follow.md`, `05-tools/andrej-karpathy-skills-tutorial.md`
+- [Andrej Karpathy on X – observations on LLM coding pitfalls (the post behind andrej-karpathy-skills)](https://x.com/karpathy/status/2015883857489522876)
+  - cited in: `05-tools/andrej-karpathy-skills-tutorial.md`
+- [Andrew Ng on X – announcing OpenWorker (23 Jul 2026)](https://x.com/AndrewYNg/status/2080333504446108104)
+  - _not cited in any content file_
+- [Andrew Ng on X – OpenWorker security release (25 Aug 2026)](https://x.com/andrewyng/status/2092315079576555806)
+  - _not cited in any content file_
 - [Anthropic – home](https://www.anthropic.com/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
@@ -63,6 +69,18 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - _not cited in any content file_
 - [Bear Blog - A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
   - cited in: `05-tools/claude-code-tool-guide.md`
+- [BMad Method – documentation site](https://docs.bmad-method.org/)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`
+- [bmad-code-org – BMAD-METHOD: Breakthrough Method for Agile AI Driven Development (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
+- [bmad-code-org – BMAD-METHOD docs: agents reference (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/agents.md)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`
+- [bmad-code-org – BMAD-METHOD docs: commands reference (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/commands.md)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`
+- [bmad-code-org – BMAD-METHOD docs: workflow map (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/workflow-map.md)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`
+- [bmad-code-org – BMAD-METHOD docs: official modules (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/modules.md)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`
 - [bolt.new](https://bolt.new/)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`, `05-tools/spec-driven-development-tutorial.md`
 - [Business Insider – Google AI told me to put glue on pizza. I tried it.](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5)
@@ -79,12 +97,18 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`, `05-tools/claude-code-project-structure-tutorial.md`, `05-tools/claude-code-tool-guide.md`
 - [Claude - Claude Cowork product page](https://claude.com/product/cowork)
   - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`
+- [Claude Code docs – Agent Skills](https://code.claude.com/docs/en/skills)
+  - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [Claude Code docs – Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
+- [Claude Code docs – Plugins](https://code.claude.com/docs/en/plugins)
+  - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
   - cited in: `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`, `05-tools/coding-ai-agent-selection-tutorial.md`
 - [Clerk](https://clerk.com/)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [CNN Business – An OpenAI test model escaped and broke into a real company's servers](https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity)
+  - cited in: `04-guides/ai-fun-facts.md`, `04-guides/ai-gone-wrong-stories.md`
 - [Cobus Greyling – Medium profile](https://cobusgreyling.medium.com/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [Cobus Greyling – The Evolving Vocabulary of AI](https://cobusgreyling.medium.com/the-evolving-vocabulary-of-ai-2ea12100811d)
@@ -103,6 +127,10 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
   - cited in: `04-guides/overview.md`, `05-tools/microsoft-365-copilot-prompting-guide.md`, `05-tools/microsoft-copilot-researcher-agent.md`
+- [Cordiverse – A Programming Paradigm for Spatiotemporal Composability (GitHub)](https://github.com/cordiverse/paper)
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
+- [Cordiverse – Cordis meta-framework (GitHub)](https://github.com/cordiverse/cordis)
+  - cited in: `02-ai-agents/01-foundations/prompt-context-harness-engineering.md`, `05-tools/deepseek-harness-tutorial.md`
 - [Coursera - Claude Code: Software Engineering with AI Agents](https://www.coursera.org/learn/claude-code)
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [CrewAI – Framework documentation](https://docs.crewai.com/introduction)
@@ -113,6 +141,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
 - [Docs: GitHub Copilot quickstart](https://docs.github.com/en/copilot/get-started/quickstart)
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
+- [Demystifying Agent Skills: Why They Work — Until They Don't (arXiv 2608.14036)](https://arxiv.org/abs/2608.14036)
+  - cited in: `02-ai-agents/02-skills/evidence-based-skill-design.md`
+- [Demystifying Agent Skills — code, prompts, and taxonomy outputs (GitHub)](https://github.com/zhiyuanjiang04/demystify-agent-skills)
+  - cited in: `02-ai-agents/02-skills/evidence-based-skill-design.md`
+- [Demystifying Agent Skills — project website](https://zhiyuanjiang04.github.io/demystify-agent-skills/)
+  - cited in: `02-ai-agents/02-skills/evidence-based-skill-design.md`
 - [DAiTA — Intelligent Document Processing platform (EN, Österreichische Post)](https://www.post.at/en/g/c/daita)
   - cited in: `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`, `09-conferences/gaise-2026.md`
 - [DAiTA — Intelligente Dokumentenverarbeitung Plattform (DE, Österreichische Post)](https://www.post.at/g/c/daita)
@@ -131,10 +165,24 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `06-models-and-evaluations/facts-benchmark-overview.md`
 - [DeepSeek](https://www.deepseek.com/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
+- [DeepSeek – deepseek-harness: Everything is a Plugin (GitHub)](https://github.com/deepseek-ai/deepseek-harness)
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
+- [DeepSeek – deepseek-harness: Running benchmarks (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/BENCHMARK.md)
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
+- [DeepSeek – deepseek-harness: Tool catalog (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/tool-catalog.md)
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
+- [DeepSeek – deepseek-harness: Your first plugin tutorial (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/index.md)
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
+- [DeepSeek – DeepSeek Harness v0.1 developer preview announcement (X)](https://x.com/deepseek_ai/status/2087887408440164663)
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
+- [DeepSeek Platform](https://platform.deepseek.com/)
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [Elicit](https://elicit.com/)
   - cited in: `07-use-cases-and-research/vibe-research.md`
 - [Epoch AI – Machine Learning Trends](https://epoch.ai/trends)
   - _not cited in any content file_
+- [Euronews – 'Unprecedented': OpenAI models autonomously hacked a rival firm, fuelling fears of rogue agents](https://www.euronews.com/next/2026/07/22/openai-models-broke-free-in-test-hacked-rival-hugging-face-in-major-breach)
+  - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
   - cited in: `05-tools/claude-code-project-structure-tutorial.md`
 - [Every - Source Code](https://every.to/source-code)
@@ -145,6 +193,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Firecrawl MCP Server (GitHub, official)](https://github.com/firecrawl/firecrawl-mcp-server)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
+- [Fission-AI – OpenSpec: Spec-driven development for AI coding assistants (GitHub)](https://github.com/Fission-AI/OpenSpec)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
+- [Fission-AI – OpenSpec: supported tools (GitHub)](https://github.com/Fission-AI/OpenSpec/blob/main/docs/supported-tools.md)
+  - cited in: `05-tools/openspec-bmad-tutorial.md`
+- [Fortune – OpenAI says its AI models escaped from a secure test environment and hacked into AI company Hugging Face](https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/)
+  - cited in: `04-guides/ai-fun-facts.md`, `04-guides/ai-gone-wrong-stories.md`
 - [Gemini API](https://ai.google.dev/gemini-api)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Google Cloud – Evaluate Gen AI agents (trajectory metrics)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/evaluation-agents)
@@ -189,6 +243,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
   - cited in: `05-tools/nanogpt-tool-guide.md`
+- [GitHub – dsh-plugin topic (DeepSeek Harness community plugins)](https://github.com/topics/dsh-plugin)
+  - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [GitHub Docs – Extend the GitHub Copilot coding agent with MCP](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp)
   - cited in: `05-tools/github-copilot-coding-agent-mcp-tutorial.md`
 - [GitHub – ExecuTorch Examples Repository (.git)](https://github.com/meta-pytorch/executorch-examples.git)
@@ -259,6 +315,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `06-models-and-evaluations/glm-5-guide.md`
 - [Hugging Face – Ornith-1.0 Collection (deepreinforce-ai)](https://huggingface.co/collections/deepreinforce-ai/ornith-10)
   - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
+- [Jesse Vincent – Superpowers announcement (blog.fsck.com)](https://blog.fsck.com/2025/10/09/superpowers/)
+  - cited in: `05-tools/superpowers-tutorial.md`
 - [Joshua Kubicki – The Era of Vibe Research Is Here](https://makelaw.substack.com/p/the-era-of-vibe-research-is-here)
   - cited in: `07-use-cases-and-research/vibe-research.md`
 - [Joshua Kubicki – makelaw (Substack profile)](https://makelaw.substack.com/)
@@ -303,6 +361,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Manus – Research Agent Workspace](https://manus.im/)
   - cited in: `05-tools/best-ai-apps-2026.md`, `05-tools/langchain-deep-agents.md`
+- [MarkTechPost – Andrew Ng Just Released OpenWorker](https://www.marktechpost.com/2026/07/23/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat/)
+  - _not cited in any content file_
 - [Medium - Albertina Bekhti profile](https://medium.com/@abertina)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [Medium - Daniel Avila](https://medium.com/@dan.avila7)
@@ -354,9 +414,17 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Model Context Protocol – introduction](https://modelcontextprotocol.io/introduction)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [multica-ai/andrej-karpathy-skills (GitHub) — single-file CLAUDE.md derived from Andrej Karpathy's LLM coding-pitfall observations](https://github.com/multica-ai/andrej-karpathy-skills)
-  - cited in: `04-guides/10x-developer-agentic-era.md`, `04-guides/ai-coding-rules-senior-engineers.md`, `05-tools/claude-md-design-tutorial.md`
+  - cited in: `04-guides/10x-developer-agentic-era.md`, `04-guides/ai-coding-rules-senior-engineers.md`, `05-tools/andrej-karpathy-skills-tutorial.md`, `05-tools/claude-md-design-tutorial.md`
 - [multica-ai/andrej-karpathy-skills – CLAUDE.md (raw)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)
-  - cited in: `04-guides/ai-coding-rules-senior-engineers.md`
+  - cited in: `04-guides/ai-coding-rules-senior-engineers.md`, `05-tools/andrej-karpathy-skills-tutorial.md`
+- [multica-ai/andrej-karpathy-skills – CURSOR.md (Cursor rule setup)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CURSOR.md)
+  - cited in: `05-tools/andrej-karpathy-skills-tutorial.md`
+- [multica-ai/andrej-karpathy-skills – EXAMPLES.md (the four principles applied to real scenarios)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/EXAMPLES.md)
+  - cited in: `05-tools/andrej-karpathy-skills-tutorial.md`
+- [multica-ai/andrej-karpathy-skills – karpathy-guidelines skill (SKILL.md)](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md)
+  - cited in: `05-tools/andrej-karpathy-skills-tutorial.md`
+- [multica-ai/multica – open-source platform for running and managing coding agents with reusable skills (GitHub)](https://github.com/multica-ai/multica)
+  - cited in: `05-tools/andrej-karpathy-skills-tutorial.md`
 - [n8n – Official site](https://n8n.io/)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`, `05-tools/best-ai-apps-2026.md`, `05-tools/n8n-vs-langgraph.md`
 - [Nous Research](https://nousresearch.com)
@@ -365,12 +433,28 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/n8n-research-workflow-tutorial.md`
 - [Next.js](https://nextjs.org/)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
+- [nidhinjs – prompt-master: a Claude skill that writes optimized prompts for any AI tool (GitHub)](https://github.com/nidhinjs/prompt-master)
+  - cited in: `05-tools/prompt-master-skill-tutorial.md`
+- [nidhinjs – prompt-master: templates reference (GitHub)](https://github.com/nidhinjs/prompt-master/blob/main/references/templates.md)
+  - cited in: `05-tools/prompt-master-skill-tutorial.md`
+- [nidhinjs – prompt-master: credit-killing patterns reference (GitHub)](https://github.com/nidhinjs/prompt-master/blob/main/references/patterns.md)
+  - cited in: `05-tools/prompt-master-skill-tutorial.md`
+- [nidhinjs – GitHub profile](https://github.com/nidhinjs)
+  - cited in: `05-tools/prompt-master-skill-tutorial.md`
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
   - cited in: `07-use-cases-and-research/deep-research.md`
 - [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
   - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
+- [obra (Jesse Vincent) – superpowers: a complete software development methodology as composable skills (GitHub)](https://github.com/obra/superpowers)
+  - cited in: `05-tools/claude-code-plugins-tutorial.md`, `05-tools/superpowers-tutorial.md`
+- [obra – superpowers: skills library (GitHub)](https://github.com/obra/superpowers/tree/main/skills)
+  - cited in: `05-tools/superpowers-tutorial.md`
+- [obra – superpowers: using-superpowers SKILL.md (GitHub)](https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md)
+  - cited in: `05-tools/superpowers-tutorial.md`
+- [obra – superpowers-marketplace (GitHub)](https://github.com/obra/superpowers-marketplace)
+  - cited in: `05-tools/superpowers-tutorial.md`
 - [Ornith-1.0 Tech Blog (deep-reinforce.com)](https://deep-reinforce.com/ornith_1_0.html)
   - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
 - [Ollama – Run open models locally](https://ollama.com)
@@ -403,8 +487,18 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/langchain-deep-agents.md`, `07-use-cases-and-research/deep-research.md`
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
   - cited in: `05-tools/openai-gpt-5-prompt-optimizer.md`
+- [OpenWorker – Andrew Ng's open-source local-first AI coworker (GitHub, andrewyng/openworker)](https://github.com/andrewyng/openworker)
+  - _not cited in any content file_
+- [OpenWorker – official site](https://openworker.com)
+  - _not cited in any content file_
+- [OpenWorker – releases (GitHub)](https://github.com/andrewyng/openworker/releases)
+  - _not cited in any content file_
+- [Paweł Huryn – PM Skills Marketplace (GitHub, phuryn/pm-skills)](https://github.com/phuryn/pm-skills)
+  - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [Perplexity](https://www.perplexity.ai/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`, `05-tools/best-ai-apps-2026.md`, `05-tools/claude-code-mcp-setup-tutorial.md`
+- [Prime Radiant – Superpowers release announcements](https://primeradiant.com/superpowers/)
+  - cited in: `05-tools/superpowers-tutorial.md`
 - [Perplexity – MCP Server documentation](https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Perplexity MCP Server (GitHub, official)](https://github.com/perplexityai/modelcontextprotocol)
@@ -429,8 +523,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Requirements Engineering Datasets for LLM4RE](https://nlp4se.github.io/LLM4RE-Datasets/)
   - cited in: `07-use-cases-and-research/requirements-engineering-dataset-experiments.md`
+- [Sam Altman on X – "openai now generates about 100 billion words per day"](https://x.com/sama/status/1756089361609981993)
+  - cited in: `04-guides/ai-fun-facts.md`
 - [Santander AI Open Source (GitHub organization)](https://github.com/SantanderAI)
   - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
+- [SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks (arXiv 2602.12670)](https://arxiv.org/abs/2602.12670)
+  - cited in: `02-ai-agents/02-skills/evidence-based-skill-design.md`
 - [SantanderAI – autoguardrails (GitHub)](https://github.com/SantanderAI/autoguardrails)
   - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
 - [SantanderAI – gen-fraud-graph (GitHub)](https://github.com/SantanderAI/gen-fraud-graph)
@@ -455,6 +553,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
   - cited in: `04-guides/ai-gone-wrong-stories.md`
+- [The Product Compass – PM Brain OS: The Second Brain for Product Managers](https://www.productcompass.pm/p/pm-brain-os)
+  - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
+- [The Product Compass – PM Skills 2.0: Free Claude Skills for PMs (Red-Team + Ship)](https://www.productcompass.pm/p/pm-skills-2-red-team-ship)
+  - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
+- [The Product Compass – PM Skills Marketplace: An AI Operating System for Better Product Decisions](https://www.productcompass.pm/p/pm-skills-marketplace-claude)
+  - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [TheFuturaLab – Picking the Right AI for Every Need (Fall 2025 Edition)](https://www.instagram.com/thefuturalab/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
 - [Unsloth Documentation](https://docs.unsloth.ai)

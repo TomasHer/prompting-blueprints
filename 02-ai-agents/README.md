@@ -27,6 +27,7 @@ How to design, build, test, and reuse agent skills as composable capability modu
 | File | Description |
 |------|-------------|
 | [anatomy-of-a-skill.md](./02-skills/anatomy-of-a-skill.md) | Technical breakdown of SKILL.md structure and progressive disclosure |
+| [evidence-based-skill-design.md](./02-skills/evidence-based-skill-design.md) | Six design rules derived from the 8,135-trial *Demystifying Agent Skills* study |
 | [claude-agent-skills.md](./02-skills/claude-agent-skills.md) | Anthropic skills playbook: authoring, curation, activation, iteration |
 | [skills-design-patterns.md](./02-skills/skills-design-patterns.md) | Five reusable skill patterns (Sequential, Multi-MCP, Iterative Refinement, …) |
 | [skills-testing-iteration.md](./02-skills/skills-testing-iteration.md) | Three-tier testing framework for validating and improving skills |

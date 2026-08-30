@@ -38,6 +38,7 @@ nav:
     - Claude Building Skills Guide: 04-guides/claude-building-skills-guide.md
     - Skills Design Patterns: 02-ai-agents/02-skills/skills-design-patterns.md
     - Skills Testing and Iteration: 02-ai-agents/02-skills/skills-testing-iteration.md
+    - Evidence-Based Skill Design: 02-ai-agents/02-skills/evidence-based-skill-design.md
     - Claude AI vs Claude Code vs Claude Cowork: 05-tools/claude-ai-vs-code-vs-cowork.md
     - Cowork Tool Selection Tutorial: 05-tools/cowork-tool-selection-tutorial.md
     - Claude Code Tool Guide: 05-tools/claude-code-tool-guide.md
@@ -45,9 +46,15 @@ nav:
     - Claude Code Cheat Sheet v2.81: 05-tools/claude-code-cheatsheet-v2.md
     - Claude Code Project Structure Tutorial: 05-tools/claude-code-project-structure-tutorial.md
     - Claude Code MCP Setup (Perplexity, Firecrawl, Chrome DevTools): 05-tools/claude-code-mcp-setup-tutorial.md
+    - PM Skills Marketplace Tutorial: 05-tools/pm-skills-marketplace-tutorial.md
+    - "Prompt Master: A Claude Skill That Writes Your Prompts": 05-tools/prompt-master-skill-tutorial.md
+    - "Andrej Karpathy Skills: Karpathy's Coding Rules as a Claude Skill": 05-tools/andrej-karpathy-skills-tutorial.md
+    - "Superpowers: A Complete Development Methodology as Claude Skills": 05-tools/superpowers-tutorial.md
     - AGENTS.md for Claude Code Tutorial: 02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md
     - Google Cloud ADK Quickstart: 05-tools/google-cloud-platform-agents.md
     - LangChain Deep Agents Playbook: 05-tools/langchain-deep-agents.md
+    - DeepSeek Harness Tutorial: 05-tools/deepseek-harness-tutorial.md
+    - OpenWorker Security Coworkers: 05-tools/openworker-security-tutorial.md
     - Hermes Agent Tutorial: 05-tools/hermes-agent-tutorial.md
     - Local Hermes Daily Assistant (Qwen3 + Ollama + Unsloth + Obsidian): 05-tools/hermes-daily-assistant-setup.md
     - Microsoft Agent Framework Quickstart: 05-tools/microsoft-agent-framework.md
@@ -75,6 +82,7 @@ nav:
     - Lyria 3 in Gemini: 05-tools/lyra-3-gemini.md
     - AI Tool Chaining (Oct 2025): 05-tools/ai-tool-chaining-oct-2025.md
     - Spec-Driven Development Tutorial: 05-tools/spec-driven-development-tutorial.md
+    - "OpenSpec & BMAD Method: Spec-Driven Development Frameworks": 05-tools/openspec-bmad-tutorial.md
     - Vibe Coding Tech Stack Tutorial: 04-guides/vibe-coding-tech-stack.md
     - Lovable Vibe Coding Tutorial: 05-tools/lovable-vibe-coding-tutorial.md
     - Vibe Kanban Tool Tutorial: 05-tools/vibe-kanban-tool-tutorial.md

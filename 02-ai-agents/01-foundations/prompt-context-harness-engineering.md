@@ -99,6 +99,8 @@ A practical extension of state and orchestration is **scheduling**: a built-in s
 
 The Kaggle/Google whitepaper **[The New SDLC with Vibe Coding](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding)** (Addy Osmani, Shubham Saboo, and Sokratis Kartakis, May 2026) devotes a section — *"Harness Engineering: What surrounds the model"* — to exactly this layer, and its framing is worth lifting wholesale.
 
+<img src="../../assets/google/sdlc_traditional_vs_ai_powered.png" alt="The New SDLC: the slow traditional way (weeks) vs the fast AI-powered way (minutes to hours) — same phases, time spent differently" width="80%">
+
 The whitepaper opens by naming a tempting but wrong intuition: *treating the model as the system.* A new model ships and the agent gets smarter; an older model and it gets worse — so the model becomes the explanation for everything good and bad. That instinct leads to the wrong investments. The model is **one input** into a running agent; everything else — the prompts, tools, context policies, hooks, sandboxes, sub-agents, and observability — is the **harness**, the scaffolding wrapped around the model that lets it actually *finish* something. The whitepaper compresses this into an equation:
 
 > **Agent = Model + Harness**
@@ -200,6 +202,8 @@ The model is identical in all three. The reliability difference is entirely the 
 
 - **Claude Code / Claude Agent SDK** — Anthropic's general-purpose harness: compaction, tool dispatch, sub-agents, session and permission management. See [Claude Managed Agents](../04-protocols/claude-managed-agents-tutorial.md).
 - **Hermes Agent (Nous Research)** — a CLI-first harness built around a persistent learning loop: it persists memory and skills across sessions, isolates sub-agents in subprocesses, supports MCP, runs anywhere (local, Docker, SSH, serverless), and ships a built-in cron scheduler for unattended automations. It's a clean, open-source illustration of all six subsystems in one place. Walkthrough: [Hermes Agent Tutorial](../../05-tools/hermes-agent-tutorial.md).
+- **DeepSeek Harness (`dsh`)** — DeepSeek AI's own harness, open-sourced (MIT) in developer preview in August 2026. Its architectural bet is that *everything is a plugin*: the model adapter, tool registry, session log, sandbox, agent loop, and UI are all replaceable rows in a [Cordis](https://github.com/cordiverse/cordis) plugin tree, so a harness can be re-tuned per model from configuration alone — the composability answer to the model-specific-harness problem that Self-Harness (below) attacks with self-editing. Walkthrough: [DeepSeek Harness Tutorial](../../05-tools/deepseek-harness-tutorial.md).
+- **OpenWorker** — Andrew Ng's MIT-licensed, local-first desktop harness, and the clearest worked example of *harness-as-security-control*: five risk classes (`READ`, `EGRESS`, `WRITE_LOCAL`, `EXEC`, `EXTERNAL`) classified before a tool runs, six permission modes, and personas that ship no executable code and declare their whole capability surface in YAML frontmatter. Its August 2026 security release adds three coworkers that drive open-source scanners and own the fix through to a PR. Walkthrough: [OpenWorker Security Coworkers](../../05-tools/openworker-security-tutorial.md).
 
 ## Every major lab is building one
 
