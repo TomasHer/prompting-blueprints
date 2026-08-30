@@ -20,9 +20,17 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Andrej Karpathy on X – observations on LLM coding pitfalls (the post behind andrej-karpathy-skills)](https://x.com/karpathy/status/2015883857489522876)
   - cited in: `05-tools/andrej-karpathy-skills-tutorial.md`
 - [Andrew Ng on X – announcing OpenWorker (23 Jul 2026)](https://x.com/AndrewYNg/status/2080333504446108104)
-  - _not cited in any content file_
+  - cited in: `05-tools/openworker-security-tutorial.md`
 - [Andrew Ng on X – OpenWorker security release (25 Aug 2026)](https://x.com/andrewyng/status/2092315079576555806)
-  - _not cited in any content file_
+  - cited in: `05-tools/openworker-security-tutorial.md`
+- [Andrew Ng – AI Engineering Skills Map: Software engineering fundamentals (LinkedIn Pulse)](https://www.linkedin.com/pulse/ai-engineering-skills-map-software-fundamentals-andrew-ng-7lnac)
+  - cited in: `04-guides/ai-engineering-skills-map.md`
+- [Andrew Ng on X – AI Engineering Skills Map announcement](https://x.com/AndrewYNg/status/2088302050706686198)
+  - cited in: `04-guides/ai-engineering-skills-map.md`
+- [Andrew Ng on X – AI Engineering Skills Map: Building and Deploying AI Applications](https://x.com/AndrewYNg/article/2090840747738374568)
+  - cited in: `04-guides/ai-engineering-skills-map.md`
+- [Andrew Ng on X – AI Engineering Skills Map: Software engineering fundamentals](https://x.com/AndrewYNg/status/2093388974194872781)
+  - cited in: `04-guides/ai-engineering-skills-map.md`
 - [Anthropic – home](https://www.anthropic.com/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
@@ -66,7 +74,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [arXiv 2512.15943 — Tool-calling specialization beats scale (PDF)](https://arxiv.org/pdf/2512.15943)
   - cited in: `02-ai-agents/01-foundations/models-for-ai-agents-2026.md`
 - [Attention Is All You Need (arXiv 1706.03762)](https://arxiv.org/abs/1706.03762)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-fun-facts.md`
 - [Bear Blog - A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [BMad Method – documentation site](https://docs.bmad-method.org/)
@@ -108,7 +116,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Clerk](https://clerk.com/)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [CNN Business – An OpenAI test model escaped and broke into a real company's servers](https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity)
-  - cited in: `04-guides/ai-fun-facts.md`, `04-guides/ai-gone-wrong-stories.md`
+  - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [Cobus Greyling – Medium profile](https://cobusgreyling.medium.com/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [Cobus Greyling – The Evolving Vocabulary of AI](https://cobusgreyling.medium.com/the-evolving-vocabulary-of-ai-2ea12100811d)
@@ -158,7 +166,9 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [DeepLearning.AI – home](https://www.deeplearning.ai/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [DeepLearning.AI – The Batch, Issue 359 (Andrew Ng on the three key loops for building software)](https://www.deeplearning.ai/the-batch/issue-359)
-  - cited in: `02-ai-agents/01-foundations/loop-engineering.md`
+  - cited in: `02-ai-agents/01-foundations/loop-engineering.md`, `04-guides/ai-engineering-skills-map.md`
+- [DeepLearning.AI – The AI Engineering Skills Map (overview of the four top-level skills)](https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map)
+  - cited in: `04-guides/ai-engineering-skills-map.md`
 - [DeepMind – home](https://deepmind.google/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
@@ -180,7 +190,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Elicit](https://elicit.com/)
   - cited in: `07-use-cases-and-research/vibe-research.md`
 - [Epoch AI – Machine Learning Trends](https://epoch.ai/trends)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-fun-facts.md`
 - [Euronews – 'Unprecedented': OpenAI models autonomously hacked a rival firm, fuelling fears of rogue agents](https://www.euronews.com/next/2026/07/22/openai-models-broke-free-in-test-hacked-rival-hugging-face-in-major-breach)
   - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
@@ -197,8 +207,10 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
 - [Fission-AI – OpenSpec: supported tools (GitHub)](https://github.com/Fission-AI/OpenSpec/blob/main/docs/supported-tools.md)
   - cited in: `05-tools/openspec-bmad-tutorial.md`
+- [Forbes – Andrew Ng Maps The AI Skills That Decide Which Teams Ship Efficiently](https://www.forbes.com/sites/josipamajic/2026/08/16/andrew-ng-maps-the-ai-skills-that-decide-which-startups-ship/)
+  - cited in: `04-guides/ai-engineering-skills-map.md`
 - [Fortune – OpenAI says its AI models escaped from a secure test environment and hacked into AI company Hugging Face](https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/)
-  - cited in: `04-guides/ai-fun-facts.md`, `04-guides/ai-gone-wrong-stories.md`
+  - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [Gemini API](https://ai.google.dev/gemini-api)
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Google Cloud – Evaluate Gen AI agents (trajectory metrics)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/evaluation-agents)
@@ -362,7 +374,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Manus – Research Agent Workspace](https://manus.im/)
   - cited in: `05-tools/best-ai-apps-2026.md`, `05-tools/langchain-deep-agents.md`
 - [MarkTechPost – Andrew Ng Just Released OpenWorker](https://www.marktechpost.com/2026/07/23/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat/)
-  - _not cited in any content file_
+  - cited in: `05-tools/openworker-security-tutorial.md`
 - [Medium - Albertina Bekhti profile](https://medium.com/@abertina)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [Medium - Daniel Avila](https://medium.com/@dan.avila7)
@@ -474,7 +486,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [OpenAI – home](https://openai.com/)
   - cited in: `01-about-author/ai-people-to-follow.md`, `02-ai-agents/03-context-and-memory/agent-context-window-performance.md`
 - [OpenAI Help – What are tokens and how to count them?](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-fun-facts.md`
 - [OpenAI – Codex](https://openai.com/blog/openai-codex)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [OpenAI Codex – AGENTS.md guide](https://developers.openai.com/codex/guides/agents-md)
@@ -488,11 +500,11 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
   - cited in: `05-tools/openai-gpt-5-prompt-optimizer.md`
 - [OpenWorker – Andrew Ng's open-source local-first AI coworker (GitHub, andrewyng/openworker)](https://github.com/andrewyng/openworker)
-  - _not cited in any content file_
+  - cited in: `05-tools/openworker-security-tutorial.md`
 - [OpenWorker – official site](https://openworker.com)
-  - _not cited in any content file_
+  - cited in: `05-tools/openworker-security-tutorial.md`
 - [OpenWorker – releases (GitHub)](https://github.com/andrewyng/openworker/releases)
-  - _not cited in any content file_
+  - cited in: `05-tools/openworker-security-tutorial.md`
 - [Paweł Huryn – PM Skills Marketplace (GitHub, phuryn/pm-skills)](https://github.com/phuryn/pm-skills)
   - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [Perplexity](https://www.perplexity.ai/)
@@ -524,7 +536,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Requirements Engineering Datasets for LLM4RE](https://nlp4se.github.io/LLM4RE-Datasets/)
   - cited in: `07-use-cases-and-research/requirements-engineering-dataset-experiments.md`
 - [Sam Altman on X – "openai now generates about 100 billion words per day"](https://x.com/sama/status/1756089361609981993)
-  - cited in: `04-guides/ai-fun-facts.md`
+  - _not cited in any content file_
 - [Santander AI Open Source (GitHub organization)](https://github.com/SantanderAI)
   - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
 - [SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks (arXiv 2602.12670)](https://arxiv.org/abs/2602.12670)
@@ -648,7 +660,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Google Scholar – Tomas Herda](https://scholar.google.com/citations?user=fq1PsnsAAAAJ&hl=en)
   - cited in: `01-about-author/tomas-herda-biography.md`
 - [GPT-Lab (Tampere University)](https://gpt-lab.eu)
-  - cited in: `01-about-author/tomas-herda-biography.md`
+  - cited in: `01-about-author/tomas-herda-biography.md`, `04-guides/ai-fun-facts.md`
 - [GPT-Lab – XP2025 AI Agile Workshop](https://gpt-lab.eu/ai-agile-workshop-xp2025/)
   - cited in: `05-tools/perplexity-comet.md`
 - [ICSE 2026](https://conf.researchr.org/home/icse-2026)

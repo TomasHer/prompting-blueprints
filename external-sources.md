@@ -11,6 +11,10 @@
 - [Andrej Karpathy on X – observations on LLM coding pitfalls (the post behind andrej-karpathy-skills)](https://x.com/karpathy/status/2015883857489522876)
 - [Andrew Ng on X – announcing OpenWorker (23 Jul 2026)](https://x.com/AndrewYNg/status/2080333504446108104)
 - [Andrew Ng on X – OpenWorker security release (25 Aug 2026)](https://x.com/andrewyng/status/2092315079576555806)
+- [Andrew Ng – AI Engineering Skills Map: Software engineering fundamentals (LinkedIn Pulse)](https://www.linkedin.com/pulse/ai-engineering-skills-map-software-fundamentals-andrew-ng-7lnac)
+- [Andrew Ng on X – AI Engineering Skills Map announcement](https://x.com/AndrewYNg/status/2088302050706686198)
+- [Andrew Ng on X – AI Engineering Skills Map: Building and Deploying AI Applications](https://x.com/AndrewYNg/article/2090840747738374568)
+- [Andrew Ng on X – AI Engineering Skills Map: Software engineering fundamentals](https://x.com/AndrewYNg/status/2093388974194872781)
 - [Anthropic – home](https://www.anthropic.com/)
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (arXiv 2302.11382 PDF)](https://arxiv.org/pdf/2302.11382)
 - [A2A .NET SDK (GitHub)](https://github.com/a2aproject/a2a-dotnet)
@@ -85,6 +89,7 @@
 - [DeepLearning.AI - Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/)
 - [DeepLearning.AI – home](https://www.deeplearning.ai/)
 - [DeepLearning.AI – The Batch, Issue 359 (Andrew Ng on the three key loops for building software)](https://www.deeplearning.ai/the-batch/issue-359)
+- [DeepLearning.AI – The AI Engineering Skills Map (overview of the four top-level skills)](https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map)
 - [DeepMind – home](https://deepmind.google/)
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
 - [DeepSeek](https://www.deepseek.com/)
@@ -108,6 +113,7 @@
 - [Firecrawl MCP Server (GitHub, official)](https://github.com/firecrawl/firecrawl-mcp-server)
 - [Fission-AI – OpenSpec: Spec-driven development for AI coding assistants (GitHub)](https://github.com/Fission-AI/OpenSpec)
 - [Fission-AI – OpenSpec: supported tools (GitHub)](https://github.com/Fission-AI/OpenSpec/blob/main/docs/supported-tools.md)
+- [Forbes – Andrew Ng Maps The AI Skills That Decide Which Teams Ship Efficiently](https://www.forbes.com/sites/josipamajic/2026/08/16/andrew-ng-maps-the-ai-skills-that-decide-which-startups-ship/)
 - [Fortune – OpenAI says its AI models escaped from a secure test environment and hacked into AI company Hugging Face](https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/)
 
 ### G
