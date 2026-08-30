@@ -20,6 +20,7 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The ten most recently added pages (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-08-30** · [The AI Engineering Skills Map — Software Engineering Fundamentals in the Agentic Era](./04-guides/ai-engineering-skills-map.md)
 - **2026-08-26** · [OpenWorker Security Coworkers](./05-tools/openworker-security-tutorial.md)
 - **2026-08-23** · [Evidence-Based Skill Design](./02-ai-agents/02-skills/evidence-based-skill-design.md)
 - **2026-08-20** · [Superpowers: A Complete Development Methodology as Claude Skills](./05-tools/superpowers-tutorial.md)
@@ -29,7 +30,6 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-08-17** · [DeepSeek Harness Tutorial](./05-tools/deepseek-harness-tutorial.md)
 - **2026-07-23** · [AI Fun Facts](./04-guides/ai-fun-facts.md)
 - **2026-07-20** · [PM Skills Marketplace: Turn Claude into a Product Management Copilot](./05-tools/pm-skills-marketplace-tutorial.md)
-- **2026-07-15** · [Claude Code MCP Setup: Perplexity, Firecrawl, and Chrome DevTools](./05-tools/claude-code-mcp-setup-tutorial.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
