@@ -62,7 +62,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Anthropic – Claude Code announcement](https://www.anthropic.com/news/claude-code)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [Anthropic — How Anthropic secures its AI-native software development lifecycle](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-native-sdlc-playbook.md`
 - [Anthropic – Redeploying Fable 5](https://www.anthropic.com/news/redeploying-fable-5)
   - cited in: `10-security/ai-safety-classifiers-jailbreak-severity.md`
 - [Anthropic Skilljar - Claude Certified Architect Foundations Access Request](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request)
@@ -72,7 +72,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
   - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/claude-agent-skills.md`, `04-guides/claude-building-skills-guide.md`
 - [Anthropic — The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-native-sdlc-playbook.md`
 - [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
   - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/skills-design-patterns.md`, `02-ai-agents/02-skills/skills-testing-iteration.md`, `04-guides/claude-building-skills-guide.md`
 - [arXiv 2512.15943 — Tool-calling specialization beats scale (PDF)](https://arxiv.org/pdf/2512.15943)
@@ -110,7 +110,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Claude - Claude Cowork product page](https://claude.com/product/cowork)
   - cited in: `05-tools/claude-ai-vs-code-vs-cowork.md`
 - [Claude Academy – The AI-Native SDLC Playbook (course)](https://academy.claude.com/courses/ai-native-sdlc-playbook)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-native-sdlc-playbook.md`
 - [Claude Code docs – Agent Skills](https://code.claude.com/docs/en/skills)
   - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [Claude Code docs – Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp)

@@ -68,6 +68,13 @@ Required outputs: plan, code diffs, tests run, and a brief risk/rollback note.
 Seek clarification if requirements are ambiguous.
 ```
 
+## Where to go next
+
+Once the mode is chosen, the lifecycle around it is the harder question. The
+[AI-Supported SDLC overview](../../04-guides/ai-sdlc-overview.md) maps the repo's
+pages on spec-driven development, stage models, and agent governance into one
+reading path.
+
 ## Picking the right mode
 - **Prototype fast** with Vibe-Coding when you need UI/UX proof-of-concepts in hours, not days.
 - **Ship safely** with AI-Assisted Coding when teams want consistent linting, tests, and incremental reviews.

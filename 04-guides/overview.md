@@ -8,6 +8,10 @@ last_updated: "2026-06-15"
 
 These vendor guides are linked from their official sources rather than redistributed here — each document remains under its owner's copyright and license terms.
 
+## Topic overviews
+
+- [AI-Supported SDLC — Overview and Reading Path](./ai-sdlc-overview.md) — one entry point for spec-driven development, the AI-native SDLC, and the stage models in between.
+
 ## Guides Library
 - [Kaggle / Google: The New SDLC with Vibe Coding](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding) — Whitepaper by Addy Osmani, Shubham Saboo, and Sokratis Kartakis on how AI-assisted ("vibe coding") development reshapes the software development lifecycle, including the progression from prompt → context → **harness engineering**. Its *"Harness Engineering: What surrounds the model"* section is digested into the repo's [harness engineering tutorial](../02-ai-agents/01-foundations/prompt-context-harness-engineering.md). ([Google Drive mirror](https://drive.google.com/file/d/1wNEl8FMpTso8aXlb_joxgzparxi-0ciM/view))
 

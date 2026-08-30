@@ -238,6 +238,13 @@ Skills
 
 ---
 
+## Related in this repo
+
+- [AI-Supported SDLC — Overview and Reading Path](./ai-sdlc-overview.md) — where this red-green loop sits inside the wider lifecycle.
+- [The AI-Native SDLC Playbook](./ai-native-sdlc-playbook.md) — Stage 4 makes the same argument: a failing test is a finding, not an obstacle.
+
+---
+
 ## References
 - https://developers.openai.com/codex/learn/best-practices
 - https://developers.openai.com/codex/skills

@@ -412,6 +412,9 @@ You do not need all six stages on day one. In rough order of payoff:
 
 ## Related reading in this repo
 
+- [AI-Supported SDLC — Overview and Reading Path](./ai-sdlc-overview.md) — the map of this whole topic: which page owns what, and how the rival stage models line up.
+- [Spec-Driven Development Tutorial](../05-tools/spec-driven-development-tutorial.md) — the method behind Stage 2's `spec.md`, and the tools that implement it (Kiro, spec-kit, Antigravity, Strands).
+- [OpenSpec & BMAD Method](../05-tools/openspec-bmad-tutorial.md) — two open-source frameworks that package the artifact chain above as installable workflows.
 - [AI Engineering Skills Map](./ai-engineering-skills-map.md) — the fundamentals you need to *judge* what the agent produced.
 - [12 Rules for AI Coding Tools (Senior Engineer Edition)](./ai-coding-rules-senior-engineers.md) — tactical habits that sit inside the Build stage.
 - [Claude Building Skills Guide](./claude-building-skills-guide.md) — how to author the Layer 01 skills this playbook depends on.

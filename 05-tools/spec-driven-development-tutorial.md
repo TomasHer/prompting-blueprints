@@ -348,6 +348,7 @@ The human reviews the agent's execution log, confirms the plan matches the Spec,
 - [ ] Browse the [Strands Agent SOP templates](https://github.com/strands-agents/agent-sop/tree/main) and adapt one for your deployment workflow.
 - [ ] Run the Strands [quickstart](https://strandsagents.com/docs/user-guide/quickstart/overview/) to build your first SOP-driven agent locally.
 - [ ] Review the [AI Coding Spectrum](../02-ai-agents/01-foundations/ai-coding-spectrum.md) guide to understand where spec-driven development sits relative to vibe coding and agentic coding.
+- [ ] Read [The AI-Native SDLC Playbook](../04-guides/ai-native-sdlc-playbook.md) for the lifecycle this method sits inside — the artifact chain (`intent.md` → `spec.md` → `plan.md`), the human gates, and the hooks that enforce them.
 
 ---
 
@@ -361,6 +362,8 @@ The human reviews the agent's execution log, confirms the plan matches the Spec,
 - Strands Agent SOP repository: https://github.com/strands-agents/agent-sop/tree/main
 - GitHub spec-kit: https://github.com/github/spec-kit
 - Claude Code CLI overview: https://docs.anthropic.com/en/docs/claude-code/overview
+- [Prompting Blueprints — AI-Supported SDLC: Overview and Reading Path](../04-guides/ai-sdlc-overview.md)
+- [Prompting Blueprints — The AI-Native SDLC Playbook](../04-guides/ai-native-sdlc-playbook.md)
 - [Prompting Blueprints — OpenSpec & BMAD Method: Two Spec-Driven Development Frameworks](./openspec-bmad-tutorial.md)
 - [Prompting Blueprints — How to Design a CLAUDE.md That Actually Works](./claude-md-design-tutorial.md)
 - [Prompting Blueprints — AI Coding Spectrum](../02-ai-agents/01-foundations/ai-coding-spectrum.md)

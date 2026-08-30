@@ -230,7 +230,9 @@ Skills pull in shared reference checklists as needed, including:
 - [Claude Agent Skills Playbook](./claude-agent-skills.md)
 - [Skills Design Patterns](./skills-design-patterns.md)
 - [Skills Testing and Iteration](./skills-testing-iteration.md)
+- [AI-Supported SDLC — Overview and Reading Path](../../04-guides/ai-sdlc-overview.md)
 - [Spec-Driven Development Tutorial](../../05-tools/spec-driven-development-tutorial.md)
+- [The AI-Native SDLC Playbook](../../04-guides/ai-native-sdlc-playbook.md)
 - [The 10X Developer in the Agentic Era](../../04-guides/10x-developer-agentic-era.md)
 
 ## Source
