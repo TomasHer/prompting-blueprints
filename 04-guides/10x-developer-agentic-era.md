@@ -216,6 +216,7 @@ Concretely, a defensible dashboard is:
 ## Related resources
 
 - [12 Rules for AI Coding Tools — Senior Engineer Edition](ai-coding-rules-senior-engineers.md) — the discipline that compounds
+- [The AI Engineering Skills Map (Software Engineering Fundamentals)](ai-engineering-skills-map.md) — Andrew Ng's map of which skills still matter, and why fundamentals became a steering language
 - [From Prompt to Context to Harness Engineering](../02-ai-agents/01-foundations/prompt-context-harness-engineering.md) — the Prompter → System Architect maturity scale
 - [Loop Engineering (and How to Avoid Loopmaxxing)](../02-ai-agents/01-foundations/loop-engineering.md) — designing verifiable agent loops
 - [Agent Fleet Governance](../02-ai-agents/01-foundations/agent-fleet-governance.md) — accountability across many concurrent loops

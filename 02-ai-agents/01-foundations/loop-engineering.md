@@ -141,4 +141,5 @@ Loop engineering makes a *single* autonomous loop reliable and persistent. The m
 - Addy Osmani (Google) — primitives of an AI loop (automations, worktrees, skills/tools, sub-agents, memory).
 - Andrej Karpathy — `autoresearch`, an overnight ML-experiment loop in Python.
 - Andrew Ng — [*The Batch*, Issue 359](https://www.deeplearning.ai/the-batch/issue-359): the three nested loops (engineering / developer-feedback / external feedback) at different timescales, and the shift of engineers into a partial product-management role.
+- Andrew Ng — [*AI Engineering Skills Map*](../../04-guides/ai-engineering-skills-map.md): the curriculum version of the same argument — a faster inner loop moves value to the spec and to the software engineering fundamentals you need in order to judge what the loop produced.
 - Related in this repo: [From Prompt to Context to Harness Engineering](prompt-context-harness-engineering.md) · [Context Engineering](../03-context-and-memory/context-engineering.md) · [Prompt Pattern Catalogue](../../03-prompts-and-patterns/prompt-pattern-catalogue.md) · [MCP Guide](../04-protocols/mcp-guide.md)
