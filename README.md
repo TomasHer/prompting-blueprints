@@ -20,6 +20,7 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The ten most recently added pages (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-09-02** · [Conference Venues 2027 — Where the Relevant Events Land](./09-conferences/venues-2027.md)
 - **2026-08-30** · [AI-Supported SDLC — Overview and Reading Path](./04-guides/ai-sdlc-overview.md)
 - **2026-08-30** · [The AI-Native SDLC Playbook (Anthropic) — Stage-by-Stage Tutorial](./04-guides/ai-native-sdlc-playbook.md)
 - **2026-08-30** · [The AI Engineering Skills Map — Software Engineering Fundamentals in the Agentic Era](./04-guides/ai-engineering-skills-map.md)
@@ -29,7 +30,6 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-08-20** · [OpenSpec & BMAD Method: Two Spec-Driven Development Frameworks](./05-tools/openspec-bmad-tutorial.md)
 - **2026-08-18** · [Prompt Master: A Claude Skill That Writes Your Prompts](./05-tools/prompt-master-skill-tutorial.md)
 - **2026-08-18** · [Andrej Karpathy Skills: Karpathy's Coding Rules as a Claude Skill](./05-tools/andrej-karpathy-skills-tutorial.md)
-- **2026-08-17** · [DeepSeek Harness Tutorial](./05-tools/deepseek-harness-tutorial.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
@@ -46,13 +46,13 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **Models & evaluations:** model tips, benchmark overviews, and promptfoo configs -> `./06-models-and-evaluations`
 - **Use cases & research:** applied workflows, research tutorials, and collaboration playbooks -> `./07-use-cases-and-research`
 - **Requirements engineering:** prompting tips and use cases for RE tasks (model consistency, traceability, elicitation) — based on the IREB AI4RE Prompt Guide -> `./08-requirements-engineering`
-- **Conferences:** conference recaps and session notes (e.g., GAISE 2026) -> `./09-conferences`
+- **Conferences:** conference recaps, session notes (e.g., GAISE 2026), and the 2027 venue planner -> `./09-conferences`
 - **Security:** AI safety/misuse defenses — classifiers, jailbreak severity, threat models -> `./10-security`
 - **External sources:** curated references cited across guides and playbooks -> `./external-sources.md`
 - **Source index:** reverse map of each source to the page(s) that cite it -> `./source-index.md`
 - **Changelog:** release notes and updates -> `./CHANGELOG.md`
 
-Quick links: [Author's Speaking](./01-about-author/speaking) · [Author's Involvement](./01-about-author/program-committee) · [Author's Research](./01-about-author/research) · [AI Agents Overview](./02-ai-agents/01-foundations/ai-agents-overview.md) · [Context Engineering](./02-ai-agents/03-context-and-memory/context-engineering.md) · [Prompts & Patterns](./03-prompts-and-patterns) · [AI Guides Overview](./04-guides/overview.md) · [AI Tools](./05-tools) · [Models & Evaluations](./06-models-and-evaluations) · [Use-cases & Research](./07-use-cases-and-research) · [Requirements Engineering](./08-requirements-engineering/overview.md) · [Conferences (GAISE 2026)](./09-conferences/gaise-2026.md) · [External Sources](./external-sources.md) · [Source Index](./source-index.md) · [Changelog](./CHANGELOG.md)
+Quick links: [Author's Speaking](./01-about-author/speaking) · [Author's Involvement](./01-about-author/program-committee) · [Author's Research](./01-about-author/research) · [AI Agents Overview](./02-ai-agents/01-foundations/ai-agents-overview.md) · [Context Engineering](./02-ai-agents/03-context-and-memory/context-engineering.md) · [Prompts & Patterns](./03-prompts-and-patterns) · [AI Guides Overview](./04-guides/overview.md) · [AI Tools](./05-tools) · [Models & Evaluations](./06-models-and-evaluations) · [Use-cases & Research](./07-use-cases-and-research) · [Requirements Engineering](./08-requirements-engineering/overview.md) · [Conferences (GAISE 2026)](./09-conferences/gaise-2026.md) · [Conference Venues 2027](./09-conferences/venues-2027.md) · [External Sources](./external-sources.md) · [Source Index](./source-index.md) · [Changelog](./CHANGELOG.md)
 
 Featured additions: [AI-Supported SDLC Overview](./04-guides/ai-sdlc-overview.md) · [The 10X Developer in the Agentic Era](./04-guides/10x-developer-agentic-era.md) · [Dynamic Context Discovery](./02-ai-agents/03-context-and-memory/cursor-dynamic-context-discovery.md) · [Vibe Coding Tech Stack](./04-guides/vibe-coding-tech-stack.md) · [Claude AI vs Code vs Cowork](./05-tools/claude-ai-vs-code-vs-cowork.md) · [Claude Code Project Structure](./05-tools/claude-code-project-structure-tutorial.md) · [Google 5-Day AI Agents Course](./02-ai-agents/01-foundations/google-5-day-ai-agents-course.md) · [Lyria 3 in Gemini](./05-tools/lyra-3-gemini.md)
 
