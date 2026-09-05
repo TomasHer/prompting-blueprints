@@ -1,6 +1,6 @@
 ---
 title: "Conference Venues 2027 — Where the Relevant Events Land"
-tags: ["conferences", "2027", "planning", "agile", "requirements-engineering", "software-engineering"]
+tags: ["conferences", "2027", "planning", "agile", "requirements-engineering", "software-engineering", "gtc", "nvidia"]
 last_updated: "2026-09-02"
 ---
 
@@ -10,8 +10,8 @@ last_updated: "2026-09-02"
 
 A single planning table for the 2027 editions of the conferences that matter for this repo's
 topics — the ones where [Tomas Herda has spoken](../01-about-author/speaking/index.md), the ones
-where he serves on a [program committee](../01-about-author/program-committee/index.md), and two
-adjacent events (ICSE and Agile Austria) tracked for reference.
+where he serves on a [program committee](../01-about-author/program-committee/index.md), and three
+adjacent events (NVIDIA GTC, ICSE and Agile Austria) tracked for reference.
 
 Use it to spot date clashes early and to decide which calls for papers are worth a submission.
 
@@ -19,6 +19,7 @@ Use it to spot date clashes early and to decide which calls for papers are worth
 
 | Date | Conference | City / Venue | Relationship |
 | --- | --- | --- | --- |
+| 14–18 Mar 2027 | **NVIDIA GTC 2027** — GPU Technology Conference | San Jose, California 🇺🇸 · San Jose McEnery Convention Center | Not involved — tracked for reference |
 | 5–9 Apr 2027 | **SAC 2027** — 42nd ACM/SIGAPP Symposium on Applied Computing | Gwangju, South Korea 🇰🇷 | PC member on the Lean & Agile track in 2026 |
 | 12–15 Apr 2027 | **REFSQ 2027** — 33rd Int. Working Conference on RE: Foundation for Software Quality | Basel, Switzerland 🇨🇭 · FHNW Dreispitz Campus | Program Committee, Research Track — confirmed |
 | 25 Apr – 1 May 2027 | **ICSE 2027** — 49th Int. Conference on Software Engineering | Dublin, Ireland 🇮🇪 · The Convention Centre Dublin | Not involved — tracked for reference |
@@ -32,6 +33,16 @@ Use it to spot date clashes early and to decide which calls for papers are worth
 
 ## Planning notes
 
+- **GTC runs as a series, and only the San Jose edition has a 2027 date.** NVIDIA splits GTC into a
+  flagship US conference plus regional editions. San Jose is confirmed for 14–18 March 2027 (core
+  conference days 15–18, with 14 March as a pre-conference training day); registration was still
+  listed as opening "later this fall" as of September 2026. The European and Washington, D.C.
+  editions have no 2027 announcement yet — the current ones are
+  [GTC Berlin](https://www.nvidia.com/en-eu/gtc/), 20–22 October 2026 at STATION-Berlin (Jensen
+  Huang's keynote on 21 October at the Tempodrom), and
+  [GTC Washington, D.C.](https://www.nvidia.com/gtc/dc/), 30 November – 3 December 2026. If the
+  cadence holds, expect a European edition in autumn 2027; the 2025 European slot was GTC Paris,
+  co-located with VivaTech.
 - **ICSE and Agile Austria collide.** Agile Austria's 29–30 April falls inside ICSE's core
   conference days (28–30 April). Dublin or Graz — not both.
 - **April 2027 is dense.** SAC, REFSQ, ICSE/CAIN and Agile Austria all fall within four weeks.
@@ -52,7 +63,10 @@ Dates and venues below were collected in September 2026 from conference series p
 listings. Editions marked *to be announced* had no published 2027 venue at that time. Confirm
 against the official site before booking travel or committing to a deadline.
 
-**Sources:** [ICSE 2027](https://conf.researchr.org/home/icse-2027) ·
+**Sources:** [NVIDIA GTC](https://www.nvidia.com/gtc/) ·
+[NVIDIA GTC FAQ (San Jose 2027)](https://www.nvidia.com/gtc/faq/) ·
+[NVIDIA GTC Europe / Berlin](https://www.nvidia.com/en-eu/gtc/) ·
+[ICSE 2027](https://conf.researchr.org/home/icse-2027) ·
 [ICSE 2027 venue](https://conf.researchr.org/venue/icse-2027/icse-2027-venue) ·
 [XP conference series](https://conf.researchr.org/series/xp) ·
 [RE 2027](https://conf.researchr.org/home/RE-2027) ·
