@@ -421,6 +421,7 @@
 - [Prioritizing Software Requirements Using Large Language Models (arXiv 2405.01564)](https://arxiv.org/abs/2405.01564)
 
 ### R
+- [REFSQ 2027 Conference (Researchr)](https://conf.researchr.org/home/refsq-2027)
 - [Researchr – VIBEX 2026 Workshop](https://conf.researchr.org/home/ease-2026/vibex-2026)
 - [Researchr – XP 2025 AI & Agile Workshop](https://conf.researchr.org/home/xp-2025/aiandagile-2025)
 - [Researchr – XP 2025 AI & Agile Workshop Program](https://conf.researchr.org/home/xp-2025/aiandagile-2025#program)

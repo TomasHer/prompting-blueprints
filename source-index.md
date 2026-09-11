@@ -707,6 +707,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`, `09-conferences/gaise-2026.md`
 - [Prioritizing Software Requirements Using Large Language Models (arXiv 2405.01564)](https://arxiv.org/abs/2405.01564)
   - cited in: `01-about-author/research/overview.md`
+- [REFSQ 2027 Conference (Researchr)](https://conf.researchr.org/home/refsq-2027)
+  - cited in: `01-about-author/program-committee/index.md`
 - [Researchr – VIBEX 2026 Workshop](https://conf.researchr.org/home/ease-2026/vibex-2026)
   - cited in: `01-about-author/program-committee/index.md`
 - [Researchr – XP 2025 AI & Agile Workshop](https://conf.researchr.org/home/xp-2025/aiandagile-2025)
