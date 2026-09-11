@@ -429,6 +429,7 @@
 
 ### S
 - [SAC 2026 Conference](https://www.sigapp.org/sac/sac2026/)
+- [SAC 2027 Conference](https://www.sigapp.org/sac/sac2027/)
 - [Springer – LLM-based Agents for Automating the Enhancement of User Story Quality](https://link.springer.com/book/10.1007/978-3-031-61154-4)
 - [Springer – Multi-agent LLM System for Automated Requirements Analysis](https://link.springer.com/chapter/10.1007/978-3-032-04200-2_12)
 - [Springer – User Story Quality Enhancement (Chapter 8)](https://link.springer.com/chapter/10.1007/978-3-031-61154-4_8)

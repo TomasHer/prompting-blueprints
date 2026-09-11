@@ -1,7 +1,7 @@
 ---
 title: "Conference Venues 2027 — Where the Relevant Events Land"
 tags: ["conferences", "2027", "planning", "agile", "requirements-engineering", "software-engineering", "gtc", "nvidia"]
-last_updated: "2026-09-02"
+last_updated: "2026-09-11"
 ---
 
 # Conference Venues 2027 — Where the Relevant Events Land
@@ -20,7 +20,7 @@ Use it to spot date clashes early and to decide which calls for papers are worth
 | Date | Conference | City / Venue | Relationship |
 | --- | --- | --- | --- |
 | 14–18 Mar 2027 | **NVIDIA GTC 2027** — GPU Technology Conference | San Jose, California 🇺🇸 · San Jose McEnery Convention Center | Not involved — tracked for reference |
-| 5–9 Apr 2027 | **SAC 2027** — 42nd ACM/SIGAPP Symposium on Applied Computing | Gwangju, South Korea 🇰🇷 | PC member on the Lean & Agile track in 2026 |
+| 5–9 Apr 2027 | **SAC 2027** — 42nd ACM/SIGAPP Symposium on Applied Computing | Gwangju, South Korea 🇰🇷 | Program Committee, Lean and Agile Software Development track — confirmed |
 | 12–15 Apr 2027 | **REFSQ 2027** — 33rd Int. Working Conference on RE: Foundation for Software Quality | Basel, Switzerland 🇨🇭 · FHNW Dreispitz Campus | Program Committee, Research Track — confirmed |
 | 25 Apr – 1 May 2027 | **ICSE 2027** — 49th Int. Conference on Software Engineering | Dublin, Ireland 🇮🇪 · The Convention Centre Dublin | Not involved — tracked for reference |
 | co-located with ICSE | **CAIN 2027** — 6th Int. Conference on AI Engineering | Dublin, Ireland 🇮🇪 · exact days to be announced | PC member on the CAIN 2026 Industry Track |
@@ -47,6 +47,10 @@ Use it to spot date clashes early and to decide which calls for papers are worth
   conference days (28–30 April). Dublin or Graz — not both.
 - **April 2027 is dense.** SAC, REFSQ, ICSE/CAIN and Agile Austria all fall within four weeks.
   Submission deadlines cluster in late 2026 accordingly; REFSQ's paper deadline is 12 November 2026.
+- **SAC 2027's submission deadline is 2 October 2026** (announced as likely soft) for the Lean and
+  Agile Software Development track. The track keeps the PC workload light — a maximum of one paper
+  per reviewer, and PC members who cannot review in a given round can say so by the submission
+  deadline instead of declining the invitation.
 - **No GAISE edition in 2027.** The GPT-Lab summer school ran in 2025 and 2026; for 2027 the
   Tampere slot is taken by **XP 2027** instead. See the
   [GAISE 2026 session notes](gaise-2026.md) for what the Tampere community is working on.
@@ -72,7 +76,7 @@ against the official site before booking travel or committing to a deadline.
 [RE 2027](https://conf.researchr.org/home/RE-2027) ·
 [REFSQ 2027](https://2027.refsq.org/) ·
 [CAIN conference series](https://conf.researchr.org/series/cain) ·
-[SAC 2027](https://www.sigapp.org/sac/) ·
+[SAC 2027](https://www.sigapp.org/sac/sac2027/) ·
 [Agile Austria 2027](https://agile-austria.org/) ·
 [Agile Austria 2027 (SFG listing)](https://www.sfg.at/e/agile-austria-conference-2027/) ·
 [LeSS conferences](https://less.works/less-conferences)
