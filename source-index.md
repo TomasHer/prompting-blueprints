@@ -72,7 +72,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
   - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/claude-agent-skills.md`, `04-guides/claude-building-skills-guide.md`
 - [Anthropic — The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)
-  - cited in: `04-guides/ai-native-sdlc-playbook.md`
+  - cited in: `04-guides/ai-native-sdlc-playbook.md`, `04-guides/ai-sdlc-overview.md`
 - [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
   - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/skills-design-patterns.md`, `02-ai-agents/02-skills/skills-testing-iteration.md`, `04-guides/claude-building-skills-guide.md`
 - [arXiv 2512.15943 — Tool-calling specialization beats scale (PDF)](https://arxiv.org/pdf/2512.15943)
@@ -84,7 +84,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [BMad Method – documentation site](https://docs.bmad-method.org/)
   - cited in: `05-tools/openspec-bmad-tutorial.md`
 - [bmad-code-org – BMAD-METHOD: Breakthrough Method for Agile AI Driven Development (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD)
-  - cited in: `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
+  - cited in: `04-guides/ai-sdlc-overview.md`, `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
 - [bmad-code-org – BMAD-METHOD docs: agents reference (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/agents.md)
   - cited in: `05-tools/openspec-bmad-tutorial.md`
 - [bmad-code-org – BMAD-METHOD docs: commands reference (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/commands.md)
@@ -181,8 +181,24 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `06-models-and-evaluations/facts-benchmark-overview.md`
 - [DeepSeek](https://www.deepseek.com/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
+- [DeepSeek – deepseek-harness: Configure models guide (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/providers.md)
+  - _not cited in any content file_
+- [DeepSeek – deepseek-harness: Documentation site](https://deepseek-harness.github.io/deepseek-harness/)
+  - _not cited in any content file_
+- [DeepSeek – deepseek-harness: dsh-agent-instructions reference (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/context/agent-instructions/README.md)
+  - _not cited in any content file_
+- [DeepSeek – deepseek-harness: dsh-headless reference (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/bundle/headless/README.md)
+  - _not cited in any content file_
+- [DeepSeek – deepseek-harness: dsh-permission-presets reference (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/interaction/permission-presets/README.md)
+  - _not cited in any content file_
+- [DeepSeek – deepseek-harness: dsh-skill-filesystem reference (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/skill/skill-filesystem/README.md)
+  - _not cited in any content file_
+- [DeepSeek – deepseek-harness: dsh-web-app bundle reference (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/bundle/web-app/README.md)
+  - _not cited in any content file_
 - [DeepSeek – deepseek-harness: Everything is a Plugin (GitHub)](https://github.com/deepseek-ai/deepseek-harness)
   - cited in: `05-tools/deepseek-harness-tutorial.md`
+- [DeepSeek – deepseek-harness: Python SDK guide (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/python-sdk.md)
+  - _not cited in any content file_
 - [DeepSeek – deepseek-harness: Running benchmarks (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/BENCHMARK.md)
   - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [DeepSeek – deepseek-harness: Tool catalog (GitHub)](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/tool-catalog.md)
@@ -210,7 +226,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Firecrawl MCP Server (GitHub, official)](https://github.com/firecrawl/firecrawl-mcp-server)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Fission-AI – OpenSpec: Spec-driven development for AI coding assistants (GitHub)](https://github.com/Fission-AI/OpenSpec)
-  - cited in: `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
+  - cited in: `04-guides/ai-sdlc-overview.md`, `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
 - [Fission-AI – OpenSpec: supported tools (GitHub)](https://github.com/Fission-AI/OpenSpec/blob/main/docs/supported-tools.md)
   - cited in: `05-tools/openspec-bmad-tutorial.md`
 - [Forbes – Andrew Ng Maps The AI Skills That Decide Which Teams Ship Efficiently](https://www.forbes.com/sites/josipamajic/2026/08/16/andrew-ng-maps-the-ai-skills-that-decide-which-startups-ship/)
@@ -342,7 +358,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Kaggle 5-Day AI Agents Course Guide](https://www.kaggle.com/learn-guide/5-day-agents)
   - cited in: `02-ai-agents/01-foundations/google-5-day-ai-agents-course.md`
 - [Kaggle / Google – The New SDLC with Vibe Coding (whitepaper, Addy Osmani, Shubham Saboo, Sokratis Kartakis)](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding)
-  - cited in: `02-ai-agents/01-foundations/prompt-context-harness-engineering.md`, `04-guides/overview.md`
+  - cited in: `02-ai-agents/01-foundations/prompt-context-harness-engineering.md`, `04-guides/ai-sdlc-overview.md`, `04-guides/overview.md`
 - [Karpathy Andrej – LLM Wiki: A Pattern for Building Personal Knowledge Bases (GitHub Gist)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `02-ai-agents/03-context-and-memory/open-knowledge-format-okf.md`
 - [KIRO – Hooks documentation](https://kiro.dev/docs/hooks/)
@@ -401,6 +417,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `07-use-cases-and-research/microsoft-adoption-scenario-library.md`
 - [Microsoft – AutoGen documentation](https://microsoft.github.io/autogen/stable//index.html)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [Microsoft – Visual Studio Code: Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh)
+  - _not cited in any content file_
 - [Microsoft – Autogen Studio user guide](https://microsoft.github.io/autogen/dev//user-guide/autogenstudio-user-guide/index.html)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
 - [Microsoft Foundry – Introducing Microsoft Agent Framework](https://devblogs.microsoft.com/foundry/introducing-microsoft-agent-framework-the-open-source-engine-for-agentic-ai-apps/)
@@ -466,7 +484,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
 - [obra (Jesse Vincent) – superpowers: a complete software development methodology as composable skills (GitHub)](https://github.com/obra/superpowers)
-  - cited in: `05-tools/claude-code-plugins-tutorial.md`, `05-tools/superpowers-tutorial.md`
+  - cited in: `04-guides/ai-sdlc-overview.md`, `05-tools/claude-code-plugins-tutorial.md`, `05-tools/superpowers-tutorial.md`
 - [obra – superpowers: skills library (GitHub)](https://github.com/obra/superpowers/tree/main/skills)
   - cited in: `05-tools/superpowers-tutorial.md`
 - [obra – superpowers: using-superpowers SKILL.md (GitHub)](https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md)
@@ -728,7 +746,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [TimeLess: A Vision for the Next Generation of Software Development (arXiv 2411.08507)](https://arxiv.org/abs/2411.08507)
   - cited in: `01-about-author/research/overview.md`, `09-conferences/gaise-2026.md`
 - [Tomas Herda – LinkedIn](https://www.linkedin.com/in/herdatom)
-  - cited in: `01-about-author/speaking/index.md`, `09-conferences/conference-template.md`, `09-conferences/gaise-2026.md`, `README.md`
+  - cited in: `01-about-author/speaking/index.md`, `09-conferences/conference-template.md`, `09-conferences/gaise-2026.md`, `09-conferences/venues-2027.md`, `README.md`
 - [XP 2024 Conference – Call for Submissions](https://agilealliance.org/xp2024/call-for-submissions/)
   - cited in: `01-about-author/program-committee/index.md`
 - [XP 2024 Conference – Posters Track](https://agilealliance.org/xp2024/posters/)
