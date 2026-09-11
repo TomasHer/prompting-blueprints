@@ -747,6 +747,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `01-about-author/program-committee/index.md`
 - [XP 2026 Conference (Researchr)](https://conf.researchr.org/home/xp-2026)
   - cited in: `01-about-author/program-committee/index.md`
+- [XP 2027 Conference (Researchr)](https://conf.researchr.org/home/xp-2027)
+  - cited in: `01-about-author/program-committee/index.md`, `09-conferences/venues-2027.md`
 - [YouTube – AI and Agile XP 2025 session preview](https://www.youtube.com/watch?v=VYZGBN4rHTo)
   - cited in: `01-about-author/research/overview.md`
 - [Z.AI Blog Announcement – GLM-5](https://z.ai/blog/glm-5)

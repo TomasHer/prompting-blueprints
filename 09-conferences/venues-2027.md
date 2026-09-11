@@ -25,7 +25,7 @@ Use it to spot date clashes early and to decide which calls for papers are worth
 | 25 Apr – 1 May 2027 | **ICSE 2027** — 49th Int. Conference on Software Engineering | Dublin, Ireland 🇮🇪 · The Convention Centre Dublin | Not involved — tracked for reference |
 | co-located with ICSE | **CAIN 2027** — 6th Int. Conference on AI Engineering | Dublin, Ireland 🇮🇪 · exact days to be announced | PC member on the CAIN 2026 Industry Track |
 | 29–30 Apr 2027 | **Agile Austria Conference 2027** | Graz, Austria 🇦🇹 · NOVAPARK Flugzeughotel | Not involved — tracked for reference |
-| 31 May – 3 Jun 2027 | **XP 2027** — Int. Conference on Agile Software Development | Tampere, Finland 🇫🇮 | Spoke at XP 2023, 2024 and 2025; track and workshop chair roles |
+| 31 May – 3 Jun 2027 | **XP 2027** — Int. Conference on Agile Software Development | Tampere, Finland 🇫🇮 | Industry and Practice Track Chair — confirmed; spoke at XP 2023, 2024 and 2025 |
 | 9–12 Jun 2027 | **EASE 2027** — Int. Conference on Evaluation and Assessment in SE | Hanoi, Vietnam 🇻🇳 | VIBEX workshop co-organizer at EASE 2026 |
 | 23–27 Aug 2027 | **RE 2027** — 35th IEEE Int. Requirements Engineering Conference | Milan, Italy 🇮🇹 · Politecnico di Milano | Spoke at RE 2024 (Industrial Innovation Papers) |
 | To be announced | **Global LeSS Conference 2027** | Not yet announced — 2026 edition: Tokyo, 8–9 Oct 2026 | Spoke at the 2025 edition in Amsterdam |
@@ -73,6 +73,7 @@ against the official site before booking travel or committing to a deadline.
 [ICSE 2027](https://conf.researchr.org/home/icse-2027) ·
 [ICSE 2027 venue](https://conf.researchr.org/venue/icse-2027/icse-2027-venue) ·
 [XP conference series](https://conf.researchr.org/series/xp) ·
+[XP 2027](https://conf.researchr.org/home/xp-2027) ·
 [RE 2027](https://conf.researchr.org/home/RE-2027) ·
 [REFSQ 2027](https://2027.refsq.org/) ·
 [CAIN conference series](https://conf.researchr.org/series/cain) ·

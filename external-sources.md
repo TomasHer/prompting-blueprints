@@ -447,6 +447,7 @@
 - [XP 2025 AI & Agile Workshop Summary (arXiv 2506.20159 PDF)](https://arxiv.org/pdf/2506.20159)
 - [XP 2025 Conference (Researchr)](https://conf.researchr.org/home/xp-2025)
 - [XP 2026 Conference (Researchr)](https://conf.researchr.org/home/xp-2026)
+- [XP 2027 Conference (Researchr)](https://conf.researchr.org/home/xp-2027)
 
 ### Y
 - [YouTube – AI and Agile XP 2025 session preview](https://www.youtube.com/watch?v=VYZGBN4rHTo)

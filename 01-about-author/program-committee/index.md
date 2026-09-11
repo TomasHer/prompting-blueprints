@@ -16,6 +16,7 @@ Highlight Tomas Herda's roles across program committees and track leadership tea
 | [ISD 2026](https://isd2026.ksi.fit.cvut.cz) | Prague, Czechia 🇨🇿<br>September 2–4, 2026 | Track Program Committee Member | [Lean and Agile Software Development](https://lasd.pl/) |
 | [SAC 2027](https://www.sigapp.org/sac/sac2027/) | Gwangju, South Korea 🇰🇷<br>April 5–9, 2027 | Track Program Committee Member | [Lean and Agile Software Development Track](https://lasd.pl/) |
 | REFSQ 2027 | Basel, Switzerland 🇨🇭<br>April 12–15, 2027 | Program Committee Member | Research Track |
+| [XP 2027](https://conf.researchr.org/home/xp-2027) | Tampere, Finland 🇫🇮<br>May 31 – June 3, 2027 | Industry and Practice Track Chair | Industry and Practice Track |
 
 ### Past engagements
 | Conference | Location & Dates | Function | Track |
