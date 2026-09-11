@@ -421,6 +421,7 @@
 - [Prioritizing Software Requirements Using Large Language Models (arXiv 2405.01564)](https://arxiv.org/abs/2405.01564)
 
 ### R
+- [REFSQ 2027 Conference (Researchr)](https://conf.researchr.org/home/refsq-2027)
 - [Researchr – VIBEX 2026 Workshop](https://conf.researchr.org/home/ease-2026/vibex-2026)
 - [Researchr – XP 2025 AI & Agile Workshop](https://conf.researchr.org/home/xp-2025/aiandagile-2025)
 - [Researchr – XP 2025 AI & Agile Workshop Program](https://conf.researchr.org/home/xp-2025/aiandagile-2025#program)
@@ -429,6 +430,7 @@
 
 ### S
 - [SAC 2026 Conference](https://www.sigapp.org/sac/sac2026/)
+- [SAC 2027 Conference](https://www.sigapp.org/sac/sac2027/)
 - [Springer – LLM-based Agents for Automating the Enhancement of User Story Quality](https://link.springer.com/book/10.1007/978-3-031-61154-4)
 - [Springer – Multi-agent LLM System for Automated Requirements Analysis](https://link.springer.com/chapter/10.1007/978-3-032-04200-2_12)
 - [Springer – User Story Quality Enhancement (Chapter 8)](https://link.springer.com/chapter/10.1007/978-3-031-61154-4_8)
@@ -446,6 +448,7 @@
 - [XP 2025 AI & Agile Workshop Summary (arXiv 2506.20159 PDF)](https://arxiv.org/pdf/2506.20159)
 - [XP 2025 Conference (Researchr)](https://conf.researchr.org/home/xp-2025)
 - [XP 2026 Conference (Researchr)](https://conf.researchr.org/home/xp-2026)
+- [XP 2027 Conference (Researchr)](https://conf.researchr.org/home/xp-2027)
 
 ### Y
 - [YouTube – AI and Agile XP 2025 session preview](https://www.youtube.com/watch?v=VYZGBN4rHTo)

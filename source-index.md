@@ -72,7 +72,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
   - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/claude-agent-skills.md`, `04-guides/claude-building-skills-guide.md`
 - [Anthropic — The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)
-  - cited in: `04-guides/ai-native-sdlc-playbook.md`
+  - cited in: `04-guides/ai-native-sdlc-playbook.md`, `04-guides/ai-sdlc-overview.md`
 - [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
   - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/skills-design-patterns.md`, `02-ai-agents/02-skills/skills-testing-iteration.md`, `04-guides/claude-building-skills-guide.md`
 - [arXiv 2512.15943 — Tool-calling specialization beats scale (PDF)](https://arxiv.org/pdf/2512.15943)
@@ -84,7 +84,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [BMad Method – documentation site](https://docs.bmad-method.org/)
   - cited in: `05-tools/openspec-bmad-tutorial.md`
 - [bmad-code-org – BMAD-METHOD: Breakthrough Method for Agile AI Driven Development (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD)
-  - cited in: `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
+  - cited in: `04-guides/ai-sdlc-overview.md`, `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
 - [bmad-code-org – BMAD-METHOD docs: agents reference (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/agents.md)
   - cited in: `05-tools/openspec-bmad-tutorial.md`
 - [bmad-code-org – BMAD-METHOD docs: commands reference (GitHub)](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/reference/commands.md)
@@ -210,7 +210,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Firecrawl MCP Server (GitHub, official)](https://github.com/firecrawl/firecrawl-mcp-server)
   - cited in: `05-tools/claude-code-mcp-setup-tutorial.md`
 - [Fission-AI – OpenSpec: Spec-driven development for AI coding assistants (GitHub)](https://github.com/Fission-AI/OpenSpec)
-  - cited in: `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
+  - cited in: `04-guides/ai-sdlc-overview.md`, `05-tools/openspec-bmad-tutorial.md`, `05-tools/spec-driven-development-tutorial.md`
 - [Fission-AI – OpenSpec: supported tools (GitHub)](https://github.com/Fission-AI/OpenSpec/blob/main/docs/supported-tools.md)
   - cited in: `05-tools/openspec-bmad-tutorial.md`
 - [Forbes – Andrew Ng Maps The AI Skills That Decide Which Teams Ship Efficiently](https://www.forbes.com/sites/josipamajic/2026/08/16/andrew-ng-maps-the-ai-skills-that-decide-which-startups-ship/)
@@ -342,7 +342,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Kaggle 5-Day AI Agents Course Guide](https://www.kaggle.com/learn-guide/5-day-agents)
   - cited in: `02-ai-agents/01-foundations/google-5-day-ai-agents-course.md`
 - [Kaggle / Google – The New SDLC with Vibe Coding (whitepaper, Addy Osmani, Shubham Saboo, Sokratis Kartakis)](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding)
-  - cited in: `02-ai-agents/01-foundations/prompt-context-harness-engineering.md`, `04-guides/overview.md`
+  - cited in: `02-ai-agents/01-foundations/prompt-context-harness-engineering.md`, `04-guides/ai-sdlc-overview.md`, `04-guides/overview.md`
 - [Karpathy Andrej – LLM Wiki: A Pattern for Building Personal Knowledge Bases (GitHub Gist)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `02-ai-agents/03-context-and-memory/open-knowledge-format-okf.md`
 - [KIRO – Hooks documentation](https://kiro.dev/docs/hooks/)
@@ -466,7 +466,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
 - [obra (Jesse Vincent) – superpowers: a complete software development methodology as composable skills (GitHub)](https://github.com/obra/superpowers)
-  - cited in: `05-tools/claude-code-plugins-tutorial.md`, `05-tools/superpowers-tutorial.md`
+  - cited in: `04-guides/ai-sdlc-overview.md`, `05-tools/claude-code-plugins-tutorial.md`, `05-tools/superpowers-tutorial.md`
 - [obra – superpowers: skills library (GitHub)](https://github.com/obra/superpowers/tree/main/skills)
   - cited in: `05-tools/superpowers-tutorial.md`
 - [obra – superpowers: using-superpowers SKILL.md (GitHub)](https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md)
@@ -707,6 +707,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`, `09-conferences/gaise-2026.md`
 - [Prioritizing Software Requirements Using Large Language Models (arXiv 2405.01564)](https://arxiv.org/abs/2405.01564)
   - cited in: `01-about-author/research/overview.md`
+- [REFSQ 2027 Conference (Researchr)](https://conf.researchr.org/home/refsq-2027)
+  - cited in: `01-about-author/program-committee/index.md`
 - [Researchr – VIBEX 2026 Workshop](https://conf.researchr.org/home/ease-2026/vibex-2026)
   - cited in: `01-about-author/program-committee/index.md`
 - [Researchr – XP 2025 AI & Agile Workshop](https://conf.researchr.org/home/xp-2025/aiandagile-2025)
@@ -719,6 +721,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `01-about-author/program-committee/index.md`
 - [SAC 2026 Conference](https://www.sigapp.org/sac/sac2026/)
   - cited in: `01-about-author/program-committee/index.md`
+- [SAC 2027 Conference](https://www.sigapp.org/sac/sac2027/)
+  - cited in: `01-about-author/program-committee/index.md`, `09-conferences/venues-2027.md`
 - [Springer – LLM-based Agents for Automating the Enhancement of User Story Quality](https://link.springer.com/book/10.1007/978-3-031-61154-4)
   - cited in: `01-about-author/speaking/index.md`
 - [Springer – Multi-agent LLM System for Automated Requirements Analysis](https://link.springer.com/chapter/10.1007/978-3-032-04200-2_12)
@@ -728,7 +732,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [TimeLess: A Vision for the Next Generation of Software Development (arXiv 2411.08507)](https://arxiv.org/abs/2411.08507)
   - cited in: `01-about-author/research/overview.md`, `09-conferences/gaise-2026.md`
 - [Tomas Herda – LinkedIn](https://www.linkedin.com/in/herdatom)
-  - cited in: `01-about-author/speaking/index.md`, `09-conferences/conference-template.md`, `09-conferences/gaise-2026.md`, `README.md`
+  - cited in: `01-about-author/speaking/index.md`, `09-conferences/conference-template.md`, `09-conferences/gaise-2026.md`, `09-conferences/venues-2027.md`, `README.md`
 - [XP 2024 Conference – Call for Submissions](https://agilealliance.org/xp2024/call-for-submissions/)
   - cited in: `01-about-author/program-committee/index.md`
 - [XP 2024 Conference – Posters Track](https://agilealliance.org/xp2024/posters/)
@@ -745,6 +749,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `01-about-author/program-committee/index.md`
 - [XP 2026 Conference (Researchr)](https://conf.researchr.org/home/xp-2026)
   - cited in: `01-about-author/program-committee/index.md`
+- [XP 2027 Conference (Researchr)](https://conf.researchr.org/home/xp-2027)
+  - cited in: `01-about-author/program-committee/index.md`, `09-conferences/venues-2027.md`
 - [YouTube – AI and Agile XP 2025 session preview](https://www.youtube.com/watch?v=VYZGBN4rHTo)
   - cited in: `01-about-author/research/overview.md`
 - [Z.AI Blog Announcement – GLM-5](https://z.ai/blog/glm-5)
