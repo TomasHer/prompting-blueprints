@@ -2,10 +2,15 @@
 """
 Generate the "Recently added" list in README.md.
 
-The list shows the 10 most recently *added* content pages, derived automatically
-from git history (the commit that first introduced each file). No manual
-bookkeeping is required: add a new content page, commit it, and the next run
-picks it up.
+The list shows the 10 most recent content pages, derived automatically from git
+history (the commit that first introduced each file). No manual bookkeeping is
+required: add a new content page, commit it, and the next run picks it up.
+
+A few pages are maintained *in place* rather than published once -- the program
+committee overview, for example, grows a table row per engagement instead of
+becoming a new page. Those are listed in LIVING_PAGES and are dated by their
+latest content update, so refreshing one surfaces it here the same way adding a
+new page does. Their rows are marked "updated" to keep the list honest.
 
 The list is written between these markers in README.md:
 
@@ -46,6 +51,14 @@ CONTENT_GLOB = re.compile(r"^\d\d-[^/]+/.*\.md$")
 EXCLUDE_NAMES = {"README.md"}
 EXCLUDE_SUFFIXES = ("-template.md",)
 
+# Pages that are updated in place instead of superseded by a new page. For these
+# the *latest* commit touching the file counts, not the commit that added it, so
+# a refresh shows up in the list. Keep this list short and deliberate: every
+# entry here can re-enter the list on each edit and push an older page out.
+LIVING_PAGES = {
+    "01-about-author/program-committee/index.md",
+}
+
 
 def added_dates() -> dict[str, str]:
     """Map each content file to the date it was first added to git (YYYY-MM-DD)."""
@@ -77,6 +90,18 @@ def added_dates() -> dict[str, str]:
     return dates
 
 
+def updated_date(path: str) -> str | None:
+    """Date of the latest commit that touched `path` (YYYY-MM-DD), if any."""
+    out = subprocess.run(
+        ["git", "log", "-1", "--date=short", "--pretty=format:%ad", "--", path],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+        check=True,
+    ).stdout.strip()
+    return out or None
+
+
 def is_content(path: str) -> bool:
     if not CONTENT_GLOB.match(path):
         return False
@@ -105,12 +130,26 @@ def title_for(path: str) -> str:
 
 
 def build_list() -> str:
-    dates = added_dates()
+    added = added_dates()
+    dates = dict(added)
+    # A living page is dated by its latest refresh; one that has not been touched
+    # since it was added simply keeps its added date and reads as a new page.
+    refreshed: set[str] = set()
+    for path in LIVING_PAGES:
+        if not is_content(path):
+            continue
+        latest = updated_date(path)
+        if latest and latest > added.get(path, ""):
+            dates[path] = latest
+            refreshed.add(path)
     content = [(p, d) for p, d in dates.items() if is_content(p)]
     content.sort(key=lambda pd: (pd[1] or "", pd[0]), reverse=True)
     rows = []
     for path, date in content[:LIMIT]:
-        rows.append(f"- **{date}** · [{title_for(path)}](./{path})")
+        row = f"- **{date}** · [{title_for(path)}](./{path})"
+        if path in refreshed:  # distinguish a refreshed page from a brand-new one
+            row += " · updated"
+        rows.append(row)
     if not rows:
         return "_No content pages found yet._"
     return "\n".join(rows)

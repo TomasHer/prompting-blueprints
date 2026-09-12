@@ -17,9 +17,10 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 
 ## 🆕 Recently added
 
-The ten most recently added pages (auto-generated from git history — do not edit by hand):
+The ten most recent pages — newly added, plus in-place updates to living pages such as the program committee overview (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-09-12** · [Program Committee & Track Leadership Overview](./01-about-author/program-committee/index.md) · updated
 - **2026-09-02** · [Conference Venues 2027 — Where the Relevant Events Land](./09-conferences/venues-2027.md)
 - **2026-08-30** · [AI-Supported SDLC — Overview and Reading Path](./04-guides/ai-sdlc-overview.md)
 - **2026-08-30** · [The AI-Native SDLC Playbook (Anthropic) — Stage-by-Stage Tutorial](./04-guides/ai-native-sdlc-playbook.md)
@@ -29,7 +30,6 @@ The ten most recently added pages (auto-generated from git history — do not ed
 - **2026-08-20** · [Superpowers: A Complete Development Methodology as Claude Skills](./05-tools/superpowers-tutorial.md)
 - **2026-08-20** · [OpenSpec & BMAD Method: Two Spec-Driven Development Frameworks](./05-tools/openspec-bmad-tutorial.md)
 - **2026-08-18** · [Prompt Master: A Claude Skill That Writes Your Prompts](./05-tools/prompt-master-skill-tutorial.md)
-- **2026-08-18** · [Andrej Karpathy Skills: Karpathy's Coding Rules as a Claude Skill](./05-tools/andrej-karpathy-skills-tutorial.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
