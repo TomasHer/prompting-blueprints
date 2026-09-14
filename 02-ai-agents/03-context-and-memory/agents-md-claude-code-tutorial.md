@@ -216,6 +216,7 @@ Rules of thumb:
 - **Never paste an LLM-generated file as-is.** Curate it.
 - **Use Hooks for 100% enforcement.** A memory file is followed ~70% of the time — it is guidance, not a guarantee. For absolute rules (no secrets in commits, always lint before push) use [Claude Code Hooks](./claude-code-project-structure-tutorial.md#6-configuring-hooks-and-mcp), which run deterministically.
 - **Update it monthly.** It is a living document; prune stale rules as the project evolves.
+- **Re-audit when you switch models.** OpenAI's GPT-6 Astra guidance shows how rules written for a weaker model (blanket pre-reads, test nags, per-step approvals) become liabilities for a stronger one — see [GPT-6 Astra: Rethinking Skills, AGENTS.md, and Task Prompts](../../06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md).
 
 ---
 
@@ -248,6 +249,7 @@ This is purely additive: keep the agent-operations sections above, and append a 
 - **[Claude Code Project Structure Tutorial](./claude-code-project-structure-tutorial.md)** — The 4-layer architecture, `.claude/` layout, Hooks, MCP, and skills.
 - **[AI Knowledge Base for Agents: The LLM Wiki Pattern](../02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md)** — Use your schema file to maintain a compounding wiki.
 - **[Agent Context Window Performance](../02-ai-agents/03-context-and-memory/agent-context-window-performance.md)** — Why context-file size and quality affect instruction following.
+- **[GPT-6 Astra: Rethinking Skills, AGENTS.md, and Task Prompts](../../06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md)** — OpenAI's audit checklist for trimming `AGENTS.md`, skills, and task prompts when moving to a more capable model.
 - **[Claude Code Cheat Sheet v2.81](../../05-tools/claude-code-cheatsheet-v2.md)** — `/init`, `/memory`, `/compact`, and friends.
 
 ## References

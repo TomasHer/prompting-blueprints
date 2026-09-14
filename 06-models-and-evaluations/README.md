@@ -2,6 +2,17 @@
 
 This folder hosts model guides alongside a small suite of `promptfoo` configurations that keep key blueprints honest.
 
+## Model guides
+
+| Guide | Focus |
+| --- | --- |
+| [GPT-6 Astra: Rethinking Skills, AGENTS.md, and Task Prompts](./gpt-6-astra-skills-and-prompts.md) | OpenAI's guidance on trimming skills, `AGENTS.md`, and task prompts for GPT-6 Astra, with an audit checklist and rewrites. |
+| [GLM-5 Setup & Serving Guide](./glm-5-guide.md) | Open-weight agentic model: specs, vLLM/SGLang serving, OpenClaw integration. |
+| [Ornith-1.0 on DGX Spark Guide](./ornith-1-0-dgx-spark-guide.md) | Run an open-source agentic coding LLM locally. |
+| [Gemini Nano Banana Pro Prompt Library](./nano-banana-pro-library.md) | Copy-ready image-generation prompts. |
+| [Google Veo 3.1 Video Tutorial](./google-veo-3-1-video-tutorial.md) | Cinematic video prompting. |
+| [The 8 Types of AI Models](./types-of-ai-models-tutorial.md) | Which model class fits which agent job. |
+
 ## Available configs
 
 | Config | Focus | Quick run |

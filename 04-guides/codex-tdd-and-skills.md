@@ -242,6 +242,7 @@ Skills
 
 - [AI-Supported SDLC — Overview and Reading Path](./ai-sdlc-overview.md) — where this red-green loop sits inside the wider lifecycle.
 - [The AI-Native SDLC Playbook](./ai-native-sdlc-playbook.md) — Stage 4 makes the same argument: a failing test is a finding, not an obstacle.
+- [GPT-6 Astra: Rethinking Skills, AGENTS.md, and Task Prompts](../06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md) — OpenAI's model-specific advice on scoping skill triggers, routing to sub-guides, and stating `Done when` so Astra does not stop early.
 
 ---
 

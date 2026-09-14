@@ -197,6 +197,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `07-use-cases-and-research/vibe-research.md`
 - [Epoch AI – Machine Learning Trends](https://epoch.ai/trends)
   - cited in: `04-guides/ai-fun-facts.md`
+- [Eric Provencher on X – Rethinking skills and prompts for GPT-6 Astra (article)](https://x.com/pvncher/article/2095991462416490862)
+  - cited in: `06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md`
 - [Euronews – 'Unprecedented': OpenAI models autonomously hacked a rival firm, fuelling fears of rogue agents](https://www.euronews.com/next/2026/07/22/openai-models-broke-free-in-test-hacked-rival-hugging-face-in-major-breach)
   - cited in: `04-guides/ai-gone-wrong-stories.md`
 - [Everything Claude Code (GitHub)](https://github.com/affaan-m/everything-claude-code)
@@ -496,13 +498,23 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [OpenAI – Codex](https://openai.com/blog/openai-codex)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [OpenAI Codex – AGENTS.md guide](https://developers.openai.com/codex/guides/agents-md)
-  - cited in: `04-guides/codex-agent-prompting-guide.md`, `04-guides/codex-tdd-and-skills.md`
+  - cited in: `04-guides/codex-agent-prompting-guide.md`, `04-guides/codex-tdd-and-skills.md`, `06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md`
 - [OpenAI Codex – Prompting guide](https://developers.openai.com/codex/prompting)
   - cited in: `04-guides/codex-agent-prompting-guide.md`
+- [OpenAI Codex – Skills](https://developers.openai.com/codex/skills)
+  - cited in: `04-guides/codex-tdd-and-skills.md`, `06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md`
 - [OpenAI Cookbook – GPT-5 Prompt Optimization Cookbook](https://cookbook.openai.com/examples/gpt-5/prompt-optimization-cookbook)
   - cited in: `05-tools/openai-gpt-5-prompt-optimizer.md`
+- [OpenAI Developers – Rethinking skills and prompts for GPT-6 Astra (Eric Provencher)](https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra)
+  - cited in: `06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md`
+- [OpenAI Developers on X – Get more out of GPT-6 Astra by revisiting your skills, AGENTS.md, and task prompts](https://x.com/OpenAIDevs/status/2098480213244117065)
+  - cited in: `06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md`
+- [OpenAI – GPT-6 Astra: A new generation of intelligence](https://openai.com/index/gpt-6-astra/)
+  - cited in: `06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md`
 - [OpenAI – Introducing Deep Research](https://openai.com/index/introducing-deep-research/)
   - cited in: `05-tools/langchain-deep-agents.md`, `07-use-cases-and-research/deep-research.md`
+- [OpenAI – Model guidance (latest model: GPT-6 Astra)](https://developers.openai.com/api/docs/guides/latest-model)
+  - cited in: `06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md`
 - [OpenAI Platform – GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
   - cited in: `05-tools/openai-gpt-5-prompt-optimizer.md`
 - [OpenWorker – Andrew Ng's open-source local-first AI coworker (GitHub, andrewyng/openworker)](https://github.com/andrewyng/openworker)
@@ -571,6 +583,10 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/vibe-coding-tech-stack.md`
 - [Tech.co – AI Failures, Mistakes & Errors](https://tech.co/news/list-ai-failures-mistakes-errors)
   - cited in: `04-guides/ai-gone-wrong-stories.md`
+- [The Decoder – GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends](https://the-decoder.com/gpt-6-astra-needs-leaner-prompts-and-fewer-guardrails-openai-recommends/)
+  - cited in: `06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md`
+- [The Decoder – OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words](https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words/)
+  - cited in: `06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md`
 - [The Product Compass – PM Brain OS: The Second Brain for Product Managers](https://www.productcompass.pm/p/pm-brain-os)
   - cited in: `05-tools/pm-skills-marketplace-tutorial.md`
 - [The Product Compass – PM Skills 2.0: Free Claude Skills for PMs (Red-Team + Ship)](https://www.productcompass.pm/p/pm-skills-2-red-team-ship)
