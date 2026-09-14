@@ -37,6 +37,9 @@ OUTPUT FORMAT: Markdown with sections → Plan, Changes, Tests, Next steps.
 - **User → Codex**: “Refactor the payments webhook retry logic. Scope: `services/payments/webhooks/*`. Avoid touching `services/payments/legacy/*`. Failing test: `make test-payments` reproduces flake `RetryableError`. Prefer `pnpm` over `npm`. Follow AGENTS.md guidance.”
 - **Codex → User (expected)**: Shares a short plan, edits targeted files, runs `make test-payments`, reports results, and proposes any extra cleanups.
 
+## Running on GPT-6 Astra
+OpenAI's guidance for GPT-6 Astra (September 2026) inverts part of the checklist above: the model reads what it needs on its own, runs tests without being told, and stops *early* rather than late. Trim blanket "read X before every change" and "run the full suite after every edit" rules, keep skill descriptions scoped to one trigger, pre-approve safe workflows, and always state what *done* means. Full audit checklist and rewrites: [GPT-6 Astra: Rethinking Skills, AGENTS.md, and Task Prompts](../06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md).
+
 ## Layering instructions with AGENTS.md
 - **Global defaults** live in `~/.codex/AGENTS.md`; temporary overrides in `~/.codex/AGENTS.override.md`. Switch profiles with `CODEX_HOME=/path/to/.codex`.
 - **Project guidance**: Codex walks from repo root to your current directory, loading at most one file per folder in this order: `AGENTS.override.md`, `AGENTS.md`, then any `project_doc_fallback_filenames` (e.g., `TEAM_GUIDE.md`, `.agents.md`).
@@ -68,3 +71,4 @@ Codex can handle multiple independent tasks simultaneously. When work items don'
 - https://developers.openai.com/codex/guides/agents-md
 - https://agents.md
 - [Codex TDD Workflow and Skills Guide](./codex-tdd-and-skills.md)
+- [GPT-6 Astra: Rethinking Skills, AGENTS.md, and Task Prompts](../06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md)

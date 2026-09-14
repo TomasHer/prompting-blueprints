@@ -396,6 +396,8 @@ extraction and redline comparison. Do NOT use for simple PDF reading
 (use the pdf skill instead).
 ```
 
+The same fix applies outside Claude: OpenAI's GPT-6 Astra guidance names over-broad descriptions as the top cause of misfired skills. See [GPT-6 Astra: Rethinking Skills, AGENTS.md, and Task Prompts](../../06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md).
+
 ### MCP connection issues
 
 If the skill loads but MCP calls fail, work through this checklist in order:

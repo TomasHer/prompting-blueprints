@@ -160,6 +160,8 @@ The composition breakdown is the part the headline numbers hide. Embedding preci
 
 Pool size is not the problem — **semantic confusability** is. A hundred unrelated skills are cheap; ten near-duplicates are expensive.
 
+> OpenAI reached the same conclusion from the model side: its GPT-6 Astra guidance asks for skill descriptions scoped to the specific trigger rather than the general category, with the root `SKILL.md` acting as a router. See [GPT-6 Astra: Rethinking Skills, AGENTS.md, and Task Prompts](../../06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md).
+
 **Two-level gating pattern:**
 
 ```text

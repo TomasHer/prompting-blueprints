@@ -22,6 +22,7 @@ nav:
     - Presentations Prompting Blueprints (Patrick Winston): 03-prompts-and-patterns/presentations-prompting-blueprints.md
   - Models & Evaluations:
     - Overview: 06-models-and-evaluations/README.md
+    - "GPT-6 Astra: Rethinking Skills, AGENTS.md, and Task Prompts": 06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md
     - Gemini Nano Banana Pro Prompt Library: 06-models-and-evaluations/nano-banana-pro-library.md
     - GLM-5 Setup & Serving Guide: 06-models-and-evaluations/glm-5-guide.md
     - Ornith-1.0 on DGX Spark Guide: 06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md
