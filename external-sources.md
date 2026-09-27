@@ -129,6 +129,7 @@
 - [Gemini CLI](https://ai.google.dev/cli)
 - [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
 - [Generative AI project template (GitHub)](https://github.com/honestsoul/generative_ai_project)
+- [GitHub Changelog – Bring your own language model key in VS Code now available (April 2026)](https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available/)
 - [GitHub - Anthropic PDF skill quick reference](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md#quick-reference)
 - [GitHub - Anthropic Skills examples directory](https://github.com/anthropics/skills/tree/main/skills)
 - [GitHub - Anthropic Skills repository](https://github.com/anthropics/skills)
@@ -258,6 +259,7 @@
 - [nidhinjs – GitHub profile](https://github.com/nidhinjs)
 - [NinjaTech — Deep Research prompt best practices](https://www.ninjatech.ai/blog/how-to-use-deep-research-best-practices-for-crafting-effective-prompts#:~:text=%2A%20Strong%20Prompt%3A%20,in%20the%20next%20five%20years)
 - [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
+- [NVIDIA – DGX Spark vibe-coding playbook (GitHub)](https://github.com/NVIDIA/dgx-spark-playbooks/blob/main/nvidia/vibe-coding/README.md)
 
 ### O
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
@@ -267,6 +269,9 @@
 - [obra – superpowers-marketplace (GitHub)](https://github.com/obra/superpowers-marketplace)
 - [Ornith-1.0 Tech Blog (deep-reinforce.com)](https://deep-reinforce.com/ornith_1_0.html)
 - [Ollama – Run open models locally](https://ollama.com)
+- [Opilot – Ollama for GitHub Copilot: user's guide](https://opilot.self.agency/users/)
+- [Opilot – Ollama for GitHub Copilot (VS Code Marketplace)](https://marketplace.visualstudio.com/items?itemName=selfagency.opilot)
+- [Opilot – selfagency/opilot (GitHub)](https://github.com/selfagency/opilot)
 - [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
 - [On Tech Ethics Podcast – Vibe Research and the Future of Science (CITI Program)](https://about.citiprogram.org/blog/on-tech-ethics-podcast-vibe-research-and-the-future-of-science/)
 - [OpenClaw](https://openclaw.ai)
