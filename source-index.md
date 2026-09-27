@@ -233,6 +233,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `07-use-cases-and-research/deep-research.md`
 - [Generative AI project template (GitHub)](https://github.com/honestsoul/generative_ai_project)
   - cited in: `04-guides/gen-ai-project-tutorial.md`
+- [GitHub Changelog – Bring your own language model key in VS Code now available (April 2026)](https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available/)
+  - _not cited in any content file_
 - [GitHub - Anthropic PDF skill quick reference](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md#quick-reference)
   - cited in: `02-ai-agents/02-skills/claude-agent-skills.md`
 - [GitHub - Anthropic Skills examples directory](https://github.com/anthropics/skills/tree/main/skills)
@@ -465,6 +467,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `07-use-cases-and-research/deep-research.md`
 - [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
   - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
+- [NVIDIA – DGX Spark vibe-coding playbook (GitHub)](https://github.com/NVIDIA/dgx-spark-playbooks/blob/main/nvidia/vibe-coding/README.md)
+  - _not cited in any content file_
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
 - [obra (Jesse Vincent) – superpowers: a complete software development methodology as composable skills (GitHub)](https://github.com/obra/superpowers)
@@ -479,6 +483,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
 - [Ollama – Run open models locally](https://ollama.com)
   - cited in: `05-tools/hermes-daily-assistant-setup.md`
+- [Opilot – Ollama for GitHub Copilot: user's guide](https://opilot.self.agency/users/)
+  - _not cited in any content file_
+- [Opilot – Ollama for GitHub Copilot (VS Code Marketplace)](https://marketplace.visualstudio.com/items?itemName=selfagency.opilot)
+  - _not cited in any content file_
+- [Opilot – selfagency/opilot (GitHub)](https://github.com/selfagency/opilot)
+  - _not cited in any content file_
 - [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
 - [On Tech Ethics Podcast – Vibe Research and the Future of Science (CITI Program)](https://about.citiprogram.org/blog/on-tech-ethics-podcast-vibe-research-and-the-future-of-science/)
