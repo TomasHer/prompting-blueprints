@@ -20,6 +20,7 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The ten most recent pages — newly added, plus in-place updates to living pages such as the program committee overview (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-10-02** · [PDCA Skill Improvement from Agent Sessions](./02-ai-agents/02-skills/pdca-skill-improvement-from-sessions.md)
 - **2026-09-27** · [Opilot + DGX Spark: Local LLMs in VS Code Copilot Chat](./05-tools/opilot-dgx-spark-vscode-tutorial.md)
 - **2026-09-14** · [GPT-6 Astra: Rethinking Skills, AGENTS.md, and Task Prompts](./06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md)
 - **2026-09-12** · [Program Committee & Track Leadership Overview](./01-about-author/program-committee/index.md) · updated
@@ -29,7 +30,6 @@ The ten most recent pages — newly added, plus in-place updates to living pages
 - **2026-08-30** · [The AI Engineering Skills Map — Software Engineering Fundamentals in the Agentic Era](./04-guides/ai-engineering-skills-map.md)
 - **2026-08-26** · [OpenWorker Security Coworkers](./05-tools/openworker-security-tutorial.md)
 - **2026-08-23** · [Evidence-Based Skill Design](./02-ai-agents/02-skills/evidence-based-skill-design.md)
-- **2026-08-20** · [Superpowers: A Complete Development Methodology as Claude Skills](./05-tools/superpowers-tutorial.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---
