@@ -234,6 +234,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Generative AI project template (GitHub)](https://github.com/honestsoul/generative_ai_project)
   - cited in: `04-guides/gen-ai-project-tutorial.md`
 - [GitHub Changelog – Bring your own language model key in VS Code now available (April 2026)](https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available/)
+  - cited in: `05-tools/opilot-dgx-spark-vscode-tutorial.md`
+- [GitHub Changelog – Gain insights across your agent sessions with /chronicle (June 2026)](https://github.blog/changelog/2026-06-02-gain-insights-across-your-agent-sessions-with-chronicle/)
   - _not cited in any content file_
 - [GitHub - Anthropic PDF skill quick reference](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md#quick-reference)
   - cited in: `02-ai-agents/02-skills/claude-agent-skills.md`
@@ -269,6 +271,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/deepseek-harness-tutorial.md`
 - [GitHub Docs – Extend the GitHub Copilot coding agent with MCP](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp)
   - cited in: `05-tools/github-copilot-coding-agent-mcp-tutorial.md`
+- [GitHub Docs – Using GitHub Copilot CLI session data (/chronicle)](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli/chronicle)
+  - _not cited in any content file_
 - [GitHub – ExecuTorch Examples Repository (.git)](https://github.com/meta-pytorch/executorch-examples.git)
   - cited in: `05-tools/llm-on-phone-deployment-tutorial.md`
 - [GitHub – ExecuTorch Examples Repository (tar.gz archive)](https://github.com/meta-pytorch/executorch-examples/archive/main.tar.gz)
@@ -468,7 +472,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
   - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
 - [NVIDIA – DGX Spark vibe-coding playbook (GitHub)](https://github.com/NVIDIA/dgx-spark-playbooks/blob/main/nvidia/vibe-coding/README.md)
-  - _not cited in any content file_
+  - cited in: `05-tools/opilot-dgx-spark-vscode-tutorial.md`
 - [Obsidian – Note-taking and knowledge management app](https://obsidian.md)
   - cited in: `02-ai-agents/03-context-and-memory/ai-knowledge-base-tutorial.md`, `05-tools/hermes-daily-assistant-setup.md`
 - [obra (Jesse Vincent) – superpowers: a complete software development methodology as composable skills (GitHub)](https://github.com/obra/superpowers)
@@ -482,13 +486,13 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Ornith-1.0 Tech Blog (deep-reinforce.com)](https://deep-reinforce.com/ornith_1_0.html)
   - cited in: `06-models-and-evaluations/ornith-1-0-dgx-spark-guide.md`
 - [Ollama – Run open models locally](https://ollama.com)
-  - cited in: `05-tools/hermes-daily-assistant-setup.md`
+  - cited in: `05-tools/hermes-daily-assistant-setup.md`, `05-tools/opilot-dgx-spark-vscode-tutorial.md`
 - [Opilot – Ollama for GitHub Copilot: user's guide](https://opilot.self.agency/users/)
-  - _not cited in any content file_
+  - cited in: `05-tools/opilot-dgx-spark-vscode-tutorial.md`
 - [Opilot – Ollama for GitHub Copilot (VS Code Marketplace)](https://marketplace.visualstudio.com/items?itemName=selfagency.opilot)
-  - _not cited in any content file_
+  - cited in: `05-tools/opilot-dgx-spark-vscode-tutorial.md`
 - [Opilot – selfagency/opilot (GitHub)](https://github.com/selfagency/opilot)
-  - _not cited in any content file_
+  - cited in: `05-tools/opilot-dgx-spark-vscode-tutorial.md`
 - [OpenAI Codex quickstart](https://developers.openai.com/codex/quickstart/)
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
 - [On Tech Ethics Podcast – Vibe Research and the Future of Science (CITI Program)](https://about.citiprogram.org/blog/on-tech-ethics-podcast-vibe-research-and-the-future-of-science/)
