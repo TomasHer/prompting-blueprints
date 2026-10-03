@@ -82,6 +82,7 @@
 - [Cursor quickstart](https://cursor.com/docs/get-started/quickstart)
 
 ### D
+- [daninacan.com – 10 cool things you can do with GitHub Copilot CLI](https://daninacan.com/10-cool-things-you-can-do-with-github-copilot-cli/)
 - [Docs: GitHub Copilot quickstart](https://docs.github.com/en/copilot/get-started/quickstart)
 - [Demystifying Agent Skills: Why They Work — Until They Don't (arXiv 2608.14036)](https://arxiv.org/abs/2608.14036)
 - [Demystifying Agent Skills — code, prompts, and taxonomy outputs (GitHub)](https://github.com/zhiyuanjiang04/demystify-agent-skills)
@@ -130,6 +131,7 @@
 - [Gemini Deep Research overview](https://gemini.google/gb/overview/deep-research/?hl=en-GB)
 - [Generative AI project template (GitHub)](https://github.com/honestsoul/generative_ai_project)
 - [GitHub Changelog – Bring your own language model key in VS Code now available (April 2026)](https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available/)
+- [GitHub Changelog – Gain insights across your agent sessions with /chronicle (June 2026)](https://github.blog/changelog/2026-06-02-gain-insights-across-your-agent-sessions-with-chronicle/)
 - [GitHub - Anthropic PDF skill quick reference](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md#quick-reference)
 - [GitHub - Anthropic Skills examples directory](https://github.com/anthropics/skills/tree/main/skills)
 - [GitHub - Anthropic Skills repository](https://github.com/anthropics/skills)
@@ -147,6 +149,7 @@
 - [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
 - [GitHub – dsh-plugin topic (DeepSeek Harness community plugins)](https://github.com/topics/dsh-plugin)
 - [GitHub Docs – Extend the GitHub Copilot coding agent with MCP](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp)
+- [GitHub Docs – Using GitHub Copilot CLI session data (/chronicle)](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli/chronicle)
 - [GitHub – ExecuTorch Examples Repository (.git)](https://github.com/meta-pytorch/executorch-examples.git)
 - [GitHub – ExecuTorch Examples Repository (tar.gz archive)](https://github.com/meta-pytorch/executorch-examples/archive/main.tar.gz)
 - [GitHub – ExecuTorch Examples Repository](https://github.com/meta-pytorch/executorch-examples)
@@ -326,6 +329,7 @@
 - [SantanderAI – mech-gov-framework (GitHub)](https://github.com/SantanderAI/mech-gov-framework)
 - [SantanderAI – mutatis-mutandis (GitHub)](https://github.com/SantanderAI/mutatis-mutandis)
 - [Stagewise](https://stagewise.ai/)
+- [Stefano Demiliani – GitHub Copilot sessions: obtaining tips for better usage](https://demiliani.com/2026/06/23/github-copilot-sessions-obtaining-tips-for-better-usage/)
 - [Strands Agents SDK quickstart overview](https://strandsagents.com/docs/user-guide/quickstart/overview/)
 - [Strands Agents SDK – Trajectory Evaluator](https://strandsagents.com/latest/documentation/docs/user-guide/evals-sdk/evaluators/trajectory_evaluator/)
 - [Stripe](https://stripe.com/)
