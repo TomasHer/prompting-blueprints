@@ -181,6 +181,7 @@ Most of the advice is not Astra-specific; it lines up with the evidence already 
 | Define *done*, pre-approve safe workflows | [Codex Agent Prompting Guide](../04-guides/codex-agent-prompting-guide.md) (prompt template) and [Codex TDD Workflow and Skills Guide](../04-guides/codex-tdd-and-skills.md) (`Done when` / `Abort conditions` sections) |
 | Skills route to scripts | [Claude Building Skills Guide](../04-guides/claude-building-skills-guide.md) |
 | Output style and slop blocklist | [Writers Prompting Blueprints](../03-prompts-and-patterns/writers-prompting-blueprints.md) |
+| Audit for handholding after a model upgrade | [PDCA Skill Improvement from Agent Sessions](../02-ai-agents/02-skills/pdca-skill-improvement-from-sessions.md) (Claude Code's `/claude-api prompt-audit` as the pruning half of the loop) |
 
 ## Sourcing note
 The tips, failure modes, and examples above are adapted from OpenAI's post and its coverage; the rewrites are this repo's illustrations of the guidance rather than examples copied from the post. The slop-word list and output-style notes come from OpenAI's model guidance page and the Codex writing-style instructions as reported by The Decoder.

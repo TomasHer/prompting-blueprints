@@ -37,6 +37,7 @@
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
 - [Anthropic — The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)
 - [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
+- [Anthropic Skills – claude-api `prompt-audit` guide (`shared/prompt-audit.md`)](https://github.com/anthropics/skills/blob/main/skills/claude-api/shared/prompt-audit.md)
 - [arXiv 2512.15943 — Tool-calling specialization beats scale (PDF)](https://arxiv.org/pdf/2512.15943)
 - [Attention Is All You Need (arXiv 1706.03762)](https://arxiv.org/abs/1706.03762)
 

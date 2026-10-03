@@ -75,6 +75,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `04-guides/ai-native-sdlc-playbook.md`, `04-guides/ai-sdlc-overview.md`
 - [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
   - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/skills-design-patterns.md`, `02-ai-agents/02-skills/skills-testing-iteration.md`, `04-guides/claude-building-skills-guide.md`
+- [Anthropic Skills – claude-api `prompt-audit` guide (`shared/prompt-audit.md`)](https://github.com/anthropics/skills/blob/main/skills/claude-api/shared/prompt-audit.md)
+  - cited in: `02-ai-agents/02-skills/pdca-skill-improvement-from-sessions.md`
 - [arXiv 2512.15943 — Tool-calling specialization beats scale (PDF)](https://arxiv.org/pdf/2512.15943)
   - cited in: `02-ai-agents/01-foundations/models-for-ai-agents-2026.md`
 - [Attention Is All You Need (arXiv 1706.03762)](https://arxiv.org/abs/1706.03762)
