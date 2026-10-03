@@ -153,7 +153,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`, `05-tools/best-ai-apps-2026.md`
 - [Cursor quickstart](https://cursor.com/docs/get-started/quickstart)
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
-- [Daniel Nacan – 10 cool things you can do with GitHub Copilot CLI](https://daninacan.com/10-cool-things-you-can-do-with-github-copilot-cli/)
+- [daninacan.com – 10 cool things you can do with GitHub Copilot CLI](https://daninacan.com/10-cool-things-you-can-do-with-github-copilot-cli/)
   - cited in: `02-ai-agents/02-skills/pdca-skill-improvement-from-sessions.md`
 - [Docs: GitHub Copilot quickstart](https://docs.github.com/en/copilot/get-started/quickstart)
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`

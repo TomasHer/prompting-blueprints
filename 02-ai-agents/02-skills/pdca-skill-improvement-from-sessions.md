@@ -287,6 +287,6 @@ Do not propose more than 5 rows. Do not paste raw logs into the rule.
 
 - [GitHub Changelog – Gain insights across your agent sessions with /chronicle (June 2026)](https://github.blog/changelog/2026-06-02-gain-insights-across-your-agent-sessions-with-chronicle/)
 - [GitHub Docs – Using GitHub Copilot CLI session data (/chronicle)](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli/chronicle)
-- [Daniel Nacan – 10 cool things you can do with GitHub Copilot CLI](https://daninacan.com/10-cool-things-you-can-do-with-github-copilot-cli/)
+- [daninacan.com – 10 cool things you can do with GitHub Copilot CLI](https://daninacan.com/10-cool-things-you-can-do-with-github-copilot-cli/)
 - [Stefano Demiliani – GitHub Copilot sessions: obtaining tips for better usage](https://demiliani.com/2026/06/23/github-copilot-sessions-obtaining-tips-for-better-usage/)
 - [GitHub Blog – 5 tips for writing better custom instructions for Copilot](https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/)

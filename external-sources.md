@@ -82,7 +82,7 @@
 - [Cursor quickstart](https://cursor.com/docs/get-started/quickstart)
 
 ### D
-- [Daniel Nacan – 10 cool things you can do with GitHub Copilot CLI](https://daninacan.com/10-cool-things-you-can-do-with-github-copilot-cli/)
+- [daninacan.com – 10 cool things you can do with GitHub Copilot CLI](https://daninacan.com/10-cool-things-you-can-do-with-github-copilot-cli/)
 - [Docs: GitHub Copilot quickstart](https://docs.github.com/en/copilot/get-started/quickstart)
 - [Demystifying Agent Skills: Why They Work — Until They Don't (arXiv 2608.14036)](https://arxiv.org/abs/2608.14036)
 - [Demystifying Agent Skills — code, prompts, and taxonomy outputs (GitHub)](https://github.com/zhiyuanjiang04/demystify-agent-skills)
