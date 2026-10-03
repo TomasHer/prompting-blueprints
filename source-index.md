@@ -153,6 +153,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`, `05-tools/best-ai-apps-2026.md`
 - [Cursor quickstart](https://cursor.com/docs/get-started/quickstart)
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
+- [Daniel Nacan – 10 cool things you can do with GitHub Copilot CLI](https://daninacan.com/10-cool-things-you-can-do-with-github-copilot-cli/)
+  - cited in: `02-ai-agents/02-skills/pdca-skill-improvement-from-sessions.md`
 - [Docs: GitHub Copilot quickstart](https://docs.github.com/en/copilot/get-started/quickstart)
   - cited in: `05-tools/coding-ai-agent-selection-tutorial.md`
 - [Demystifying Agent Skills: Why They Work — Until They Don't (arXiv 2608.14036)](https://arxiv.org/abs/2608.14036)
@@ -583,6 +585,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
 - [Stagewise](https://stagewise.ai/)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
+- [Stefano Demiliani – GitHub Copilot sessions: obtaining tips for better usage](https://demiliani.com/2026/06/23/github-copilot-sessions-obtaining-tips-for-better-usage/)
+  - cited in: `02-ai-agents/02-skills/pdca-skill-improvement-from-sessions.md`
 - [Strands Agents SDK quickstart overview](https://strandsagents.com/docs/user-guide/quickstart/overview/)
   - cited in: `05-tools/spec-driven-development-tutorial.md`
 - [Strands Agents SDK – Trajectory Evaluator](https://strandsagents.com/latest/documentation/docs/user-guide/evals-sdk/evaluators/trajectory_evaluator/)

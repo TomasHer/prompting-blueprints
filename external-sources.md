@@ -82,6 +82,7 @@
 - [Cursor quickstart](https://cursor.com/docs/get-started/quickstart)
 
 ### D
+- [Daniel Nacan – 10 cool things you can do with GitHub Copilot CLI](https://daninacan.com/10-cool-things-you-can-do-with-github-copilot-cli/)
 - [Docs: GitHub Copilot quickstart](https://docs.github.com/en/copilot/get-started/quickstart)
 - [Demystifying Agent Skills: Why They Work — Until They Don't (arXiv 2608.14036)](https://arxiv.org/abs/2608.14036)
 - [Demystifying Agent Skills — code, prompts, and taxonomy outputs (GitHub)](https://github.com/zhiyuanjiang04/demystify-agent-skills)
@@ -328,6 +329,7 @@
 - [SantanderAI – mech-gov-framework (GitHub)](https://github.com/SantanderAI/mech-gov-framework)
 - [SantanderAI – mutatis-mutandis (GitHub)](https://github.com/SantanderAI/mutatis-mutandis)
 - [Stagewise](https://stagewise.ai/)
+- [Stefano Demiliani – GitHub Copilot sessions: obtaining tips for better usage](https://demiliani.com/2026/06/23/github-copilot-sessions-obtaining-tips-for-better-usage/)
 - [Strands Agents SDK quickstart overview](https://strandsagents.com/docs/user-guide/quickstart/overview/)
 - [Strands Agents SDK – Trajectory Evaluator](https://strandsagents.com/latest/documentation/docs/user-guide/evals-sdk/evaluators/trajectory_evaluator/)
 - [Stripe](https://stripe.com/)
