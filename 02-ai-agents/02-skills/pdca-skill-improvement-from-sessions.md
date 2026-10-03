@@ -55,7 +55,7 @@ Typing `/chronicle` on its own opens a picker of subcommands. You can also add a
 | `/chronicle improve` | Scans your history for places where Copilot misunderstood your intent or needed a lot of back-and-forth, then proposes **3–5** recommendations. Each names the problem and the instruction that would fix it. It **asks which ones to apply** before creating or updating `.github/copilot-instructions.md`. | Current repository / working directory only | **Do** — generate the change |
 | `/chronicle reindex` | Rebuilds the local session store from your session history and syncs session data to your GitHub account | Local store | Housekeeping — run before a baseline if results look incomplete |
 
-> **Note on sources.** Some third-party summaries say `improve` updates `copilot-instructions.md` automatically and that `reindex` rebuilds a SQLite database in `~/.copilot/session-state/`. GitHub Docs says otherwise on both points: `improve` asks you to choose which recommendations to apply, `~/.copilot/session-state/` holds the raw session history, and the store is `~/.copilot/session-store.db`. The `cost-tips` details about redundant instructions, extra skill loading, and `/compact` come from community write-ups; GitHub Docs lists prompt length, tool-call frequency, and continuation steps.
+> **Note.** The `cost-tips` details about redundant instructions, extra skill loading, and `/compact` come from community write-ups. GitHub Docs lists prompt length, tool-call frequency, and continuation steps.
 
 **Related session commands** (Copilot CLI, from the same Docs page)
 
