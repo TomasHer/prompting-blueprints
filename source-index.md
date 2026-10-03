@@ -236,7 +236,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [GitHub Changelog – Bring your own language model key in VS Code now available (April 2026)](https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available/)
   - cited in: `05-tools/opilot-dgx-spark-vscode-tutorial.md`
 - [GitHub Changelog – Gain insights across your agent sessions with /chronicle (June 2026)](https://github.blog/changelog/2026-06-02-gain-insights-across-your-agent-sessions-with-chronicle/)
-  - _not cited in any content file_
+  - cited in: `02-ai-agents/02-skills/pdca-skill-improvement-from-sessions.md`
 - [GitHub - Anthropic PDF skill quick reference](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md#quick-reference)
   - cited in: `02-ai-agents/02-skills/claude-agent-skills.md`
 - [GitHub - Anthropic Skills examples directory](https://github.com/anthropics/skills/tree/main/skills)
@@ -262,7 +262,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [GitHub - Vibe Coding Playbook](https://github.com/RiyaParikh0112/vibe-coding-playbook)
   - cited in: `05-tools/claude-code-tool-guide.md`
 - [GitHub Blog – 5 tips for writing better custom instructions for Copilot](https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/)
-  - cited in: `05-tools/github-copilot-custom-instructions-tutorial.md`
+  - cited in: `02-ai-agents/02-skills/pdca-skill-improvement-from-sessions.md`, `05-tools/github-copilot-custom-instructions-tutorial.md`
 - [GitHub Copilot](https://github.com/features/copilot)
   - cited in: `02-ai-agents/01-foundations/ai-coding-spectrum.md`
 - [GitHub Discussion – nanochat introduction](https://github.com/karpathy/nanochat/discussions/1)
@@ -272,7 +272,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [GitHub Docs – Extend the GitHub Copilot coding agent with MCP](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp)
   - cited in: `05-tools/github-copilot-coding-agent-mcp-tutorial.md`
 - [GitHub Docs – Using GitHub Copilot CLI session data (/chronicle)](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli/chronicle)
-  - _not cited in any content file_
+  - cited in: `02-ai-agents/02-skills/pdca-skill-improvement-from-sessions.md`
 - [GitHub – ExecuTorch Examples Repository (.git)](https://github.com/meta-pytorch/executorch-examples.git)
   - cited in: `05-tools/llm-on-phone-deployment-tutorial.md`
 - [GitHub – ExecuTorch Examples Repository (tar.gz archive)](https://github.com/meta-pytorch/executorch-examples/archive/main.tar.gz)

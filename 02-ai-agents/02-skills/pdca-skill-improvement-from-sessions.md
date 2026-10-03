@@ -34,17 +34,38 @@ What the release changes:
 | **Admin opt-in** | **Copilot Business / Enterprise:** an administrator must enable local session syncing before you can use it. |
 | **Private by default** | Sessions are private to you. To share a view-only copy, run `/share gist` in the CLI, or on github.com open **`...` → Sharing settings** at the top right of a session view. |
 
-### `/chronicle` subcommands
+### `/chronicle` command reference
 
-| Subcommand | What it does | PDCA role |
-|---|---|---|
-| `/chronicle standup` | Report of recent work (default: last 24 h) | Check — what actually happened |
-| `/chronicle tips` | 3–5 personalised tips from your usage patterns | Plan — habits to change |
-| `/chronicle cost-tips` | Personalised tips to reduce token usage and cost | Plan / Check — cost lens |
-| `/chronicle search <terms>` | Keyword search across session content | Plan / Check — find evidence |
-| `/chronicle improve` | Suggests improvements to `copilot-instructions.md` from the friction it finds | Do — generate the change |
-| `/chronicle reindex` | Rebuilds the local store and syncs | Housekeeping |
-| `/chronicle <free-form question>` | Ask anything about your history | Plan / Check — targeted metrics |
+Typing `/chronicle` on its own opens a picker of subcommands. You can also add a free-form question or a focus area after any of them.
+
+**Insight and analysis commands**
+
+| Command | What it does | Scope / defaults | PDCA role |
+|---|---|---|---|
+| `/chronicle standup` | Builds a standup-style status report of recent work, grouped by completion status. Checks the current status of linked pull requests and links to them in Markdown. | Last **24 hours** by default; change it in plain language, e.g. `/chronicle standup for the last 3 days` | **Check** — what actually got done |
+| `/chronicle tips` | Reviews your recent prompts, message patterns, and tool use, then gives **3–5** personalised, actionable tips (tools you rarely use, prompting patterns that work better, workflow changes). | Recent sessions. Add context to focus it, e.g. `/chronicle tips for test writing` | **Plan** — habits and gaps to target |
+| `/chronicle cost-tips` | Analyses token spend: prompt length, tool-call frequency, continuation steps. Points out redundant instructions or skills loaded more than needed, and suggests savings such as running `/compact` manually. | Recent sessions | **Plan / Check** — the cost of your instructions and skills |
+| `/chronicle search <keyword>` | Direct keyword search across all session content, for finding past explanations, implementations, or discussions. Example: `/chronicle search authentication` | All sessions | **Plan / Check** — collect evidence and examples |
+| `/chronicle <question>` | Free-form question about your history: success rates, iteration patterns, cost, productivity timing, recalling past work | All sessions unless you add "in this repository" | **Plan / Check** — your own metrics |
+
+**System and management commands**
+
+| Command | What it does | Scope / defaults | PDCA role |
+|---|---|---|---|
+| `/chronicle improve` | Scans your history for places where Copilot misunderstood your intent or needed a lot of back-and-forth, then proposes **3–5** recommendations. Each names the problem and the instruction that would fix it. It **asks which ones to apply** before creating or updating `.github/copilot-instructions.md`. | Current repository / working directory only | **Do** — generate the change |
+| `/chronicle reindex` | Rebuilds the local session store from your session history and syncs session data to your GitHub account | Local store | Housekeeping — run before a baseline if results look incomplete |
+
+> **Note on sources.** Some third-party summaries say `improve` updates `copilot-instructions.md` automatically and that `reindex` rebuilds a SQLite database in `~/.copilot/session-state/`. GitHub Docs says otherwise on both points: `improve` asks you to choose which recommendations to apply, `~/.copilot/session-state/` holds the raw session history, and the store is `~/.copilot/session-store.db`. The `cost-tips` details about redundant instructions, extra skill loading, and `/compact` come from community write-ups; GitHub Docs lists prompt length, tool-call frequency, and continuation steps.
+
+**Related session commands** (Copilot CLI, from the same Docs page)
+
+| Command | Use |
+|---|---|
+| `copilot --continue` / `copilot --resume` | Resume the most recent session, or pick one from a list |
+| `/resume`, `/session` | Switch to an earlier session; show the current session ID |
+| `/rename NEW_NAME` | Give a session a name you can find later (useful for tagging PDCA cycles) |
+| `/share gist`, `/share file [PATH]`, `/share html [PATH]` | Share a view-only copy or export a session, e.g. as evidence in a PR |
+| `/session delete`, `/session delete-all` | Delete sessions you don't want kept or analysed |
 
 ### What `/chronicle improve` looks for
 
@@ -57,9 +78,9 @@ According to GitHub Docs, `improve` deep-dives your history for **friction signa
 
 Two more signals appear in GitHub's own example output (§2): **turn count** (sessions with 20+ turns) and **`/undo` calls**. Both are useful baseline metrics.
 
-It returns **3–5 recommendations**, each naming the problem and the instruction that would fix it, targeted at `.github/copilot-instructions.md`. `improve` is scoped to the **current repository / working directory**; free-form questions span **all** recorded sessions unless you narrow them.
+`improve` is scoped to the **current repository**. `standup`, `tips`, `cost-tips`, `search`, and free-form questions cover **all** recorded sessions unless you narrow them. Keep this in mind when you compare a baseline with a later measurement.
 
-Session data lives locally in `~/.copilot/session-state/` and `~/.copilot/session-store.db`.
+Session data lives locally in `~/.copilot/session-state/` (session history) and `~/.copilot/session-store.db` (the store that Chronicle queries).
 
 ---
 
@@ -107,11 +128,13 @@ The rule that makes it PDCA rather than "tweak and hope": **ask the same measure
 
 ### PLAN — find the friction and pick one target
 
-1. Get the broad picture:
+1. Get the broad picture (run `reindex` first if sessions from other tools seem to be missing):
 
    ```text
+   /chronicle reindex
    /chronicle tips
-   /chronicle improve
+   /chronicle cost-tips
+   /chronicle improve      # review the proposals; don't apply any yet
    ```
 
 2. Turn vague tips into a **baseline metric** with a free-form question (copy-ready):
@@ -155,6 +178,8 @@ The rule that makes it PDCA rather than "tweak and hope": **ask the same measure
   finding is about triggering.
   ```
 
+- When `improve` asks which recommendations to apply, choose only the one(s) for this cycle.
+- Optionally `/rename` the sessions that test the change (e.g. `pdca-3-release`) so you can find them again with `/resume` in the Check step.
 - Commit it on its own with a message that names the cycle: `docs(skill-release): PDCA #3 – build before publish`.
 
 ### CHECK — re-measure with the same question
@@ -262,4 +287,6 @@ Do not propose more than 5 rows. Do not paste raw logs into the rule.
 
 - [GitHub Changelog – Gain insights across your agent sessions with /chronicle (June 2026)](https://github.blog/changelog/2026-06-02-gain-insights-across-your-agent-sessions-with-chronicle/)
 - [GitHub Docs – Using GitHub Copilot CLI session data (/chronicle)](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli/chronicle)
+- [Daniel Nacan – 10 cool things you can do with GitHub Copilot CLI](https://daninacan.com/10-cool-things-you-can-do-with-github-copilot-cli/)
+- [Stefano Demiliani – GitHub Copilot sessions: obtaining tips for better usage](https://demiliani.com/2026/06/23/github-copilot-sessions-obtaining-tips-for-better-usage/)
 - [GitHub Blog – 5 tips for writing better custom instructions for Copilot](https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/)
