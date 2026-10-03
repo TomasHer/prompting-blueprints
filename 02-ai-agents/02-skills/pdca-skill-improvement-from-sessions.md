@@ -88,7 +88,7 @@ Session data lives locally in `~/.copilot/session-state/` (session history) and 
 
 The announcement's hero screenshot shows the `/chronicle` subcommand picker (Standup, Search, Tips, Cost-tips, Improve) and a sample `/chronicle tips` output. Each tip already contains evidence, a proposed change, and in most cases a metric, which is what a PDCA *Plan* needs:
 
-| # | Tip (paraphrased from the screenshot) | Evidence | Where the fix goes | Check metric |
+| # | Tip | Evidence | Where the fix goes | Check metric |
 |---|---|---|---|---|
 | 1 | *You're under-using subagents* | In 9 sessions this month you searched one part of the codebase, then the other, by hand (partly hidden in the screenshot) | Your workflow / a custom agent that delegates the exploration | Sessions with sequential manual searches |
 | 2 | *Your custom instructions are missing a convention* | You explained the team's error-handling convention (`Result<T, AppError>` with domain-specific variants) in **7 separate sessions**, across the CLI, desktop chats, and cloud agent issue descriptions | `.github/copilot-instructions.md`, added once and then applied in CLI sessions, desktop chats, cloud agent PRs, **and** Code Review | Times you re-explain the convention → 0 |
