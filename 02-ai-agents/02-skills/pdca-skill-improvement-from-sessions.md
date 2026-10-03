@@ -1,7 +1,7 @@
 ---
 title: "PDCA Skill Improvement from Agent Sessions"
 tags: ["agents", "skills", "pdca"]
-last_updated: 2026-10-02
+last_updated: 2026-10-03
 ---
 
 # PDCA Skill Improvement from Agent Sessions
@@ -22,9 +22,17 @@ Related: [Skills Testing and Iteration](./skills-testing-iteration.md) (pre-rele
 
 ## 1. What the article announced
 
-GitHub's changelog *Gain insights across your agent sessions with /chronicle* (2 June 2026) extends `/chronicle` — first shipped in Copilot CLI — so it sees sessions across **Copilot cloud agent, Copilot code review, the GitHub Copilot app, VS Code, and JetBrains**. Local CLI sessions now sync to your GitHub account and appear in the repository's **Agents** tab. Sessions can be shared view-only (`/share gist` in the CLI, or *Sharing settings* on github.com).
+GitHub's changelog *Gain insights across your agent sessions with /chronicle* (2 June 2026) starts from one observation: every Copilot session you run (fixing a bug, reviewing code, building a feature) adds to a history that only you can query. `/chronicle` turns that history into *"standup summaries, personalized tips, and custom instructions that make Copilot work better for you over time."* That sentence is the idea behind this tutorial.
 
-The changelog's one-line pitch is the whole idea of this tutorial: `/chronicle` turns session history into *"standup summaries, personalized tips, and custom instructions that make Copilot work better for you over time."*
+What the release changes:
+
+| Change | Detail |
+|---|---|
+| **Wider session coverage** | Chronicle now sees sessions from **Copilot cloud agent, Copilot code review, the GitHub Copilot app, VS Code, and JetBrains**, not only the CLI. GitHub's stated goals: understand what you worked on, pick up context from earlier tasks, and turn session history into *"a practical source of guidance."* |
+| **More entry points** | Chronicle insights are available from the GitHub Copilot app, github.com, VS Code, and JetBrains. Run `/chronicle` wherever you work, or just ask Copilot a question about your sessions. |
+| **Local session sync** | Local sessions sync to your GitHub account and appear next to other agent sessions in the repository's **Agents** tab. Combined with Copilot's recently released remote control, this makes it easier to continue local work from another device. |
+| **Admin opt-in** | **Copilot Business / Enterprise:** an administrator must enable local session syncing before you can use it. |
+| **Private by default** | Sessions are private to you. To share a view-only copy, run `/share gist` in the CLI, or on github.com open **`...` → Sharing settings** at the top right of a session view. |
 
 ### `/chronicle` subcommands
 
@@ -32,9 +40,9 @@ The changelog's one-line pitch is the whole idea of this tutorial: `/chronicle` 
 |---|---|---|
 | `/chronicle standup` | Report of recent work (default: last 24 h) | Check — what actually happened |
 | `/chronicle tips` | 3–5 personalised tips from your usage patterns | Plan — habits to change |
-| `/chronicle cost-tips` | Analyses token-spend patterns | Plan / Check — cost lens |
+| `/chronicle cost-tips` | Personalised tips to reduce token usage and cost | Plan / Check — cost lens |
 | `/chronicle search <terms>` | Keyword search across session content | Plan / Check — find evidence |
-| `/chronicle improve` | Finds friction and proposes custom-instruction edits | Do — generate the change |
+| `/chronicle improve` | Suggests improvements to `copilot-instructions.md` from the friction it finds | Do — generate the change |
 | `/chronicle reindex` | Rebuilds the local store and syncs | Housekeeping |
 | `/chronicle <free-form question>` | Ask anything about your history | Plan / Check — targeted metrics |
 
@@ -47,13 +55,35 @@ According to GitHub Docs, `improve` deep-dives your history for **friction signa
 - user messages that **corrected or redirected** the agent,
 - patterns that **recur across sessions**.
 
+Two more signals appear in GitHub's own example output (§2): **turn count** (sessions with 20+ turns) and **`/undo` calls**. Both are useful baseline metrics.
+
 It returns **3–5 recommendations**, each naming the problem and the instruction that would fix it, targeted at `.github/copilot-instructions.md`. `improve` is scoped to the **current repository / working directory**; free-form questions span **all** recorded sessions unless you narrow them.
 
 Session data lives locally in `~/.copilot/session-state/` and `~/.copilot/session-store.db`.
 
 ---
 
-## 2. Why this is a PDCA loop
+## 2. Worked example: the tips in GitHub's announcement
+
+The announcement's hero screenshot shows the `/chronicle` subcommand picker (Standup, Search, Tips, Cost-tips, Improve) and a sample `/chronicle tips` output. Each tip already contains evidence, a proposed change, and in most cases a metric, which is what a PDCA *Plan* needs:
+
+| # | Tip (paraphrased from the screenshot) | Evidence | Where the fix goes | Check metric |
+|---|---|---|---|---|
+| 1 | *You're under-using subagents* | In 9 sessions this month you searched one part of the codebase, then the other, by hand (partly hidden in the screenshot) | Your workflow / a custom agent that delegates the exploration | Sessions with sequential manual searches |
+| 2 | *Your custom instructions are missing a convention* | You explained the team's error-handling convention (`Result<T, AppError>` with domain-specific variants) in **7 separate sessions**, across the CLI, desktop chats, and cloud agent issue descriptions | `.github/copilot-instructions.md`, added once and then applied in CLI sessions, desktop chats, cloud agent PRs, **and** Code Review | Times you re-explain the convention → 0 |
+| 3 | *Use `/plan` before migration tasks* | Your longest sessions (20+ turns) are all schema migrations: you start editing, hit cascading type errors, backtrack, and try again. The `add-team-billing` session took **23 turns with two `/undo` calls** | A migration **skill** that starts with a plan: schema → types → service layer → handlers → tests | Turns per migration session; `/undo` count. GitHub: sessions that start with a plan finish **3× faster** on average |
+| 4 | *You're doing review work Code Review already handles* | In 6 PRs you spent 10+ minutes in the CLI checking null guards, unused imports, and inconsistent error responses, which Code Review then flagged on its own | Drop that step from your workflow; leave mechanical checks to Code Review | Manual-review minutes per PR |
+| 5 | *Use `#` issue references to auto-scope implementation work* | (cut off in the screenshot) | Your prompting habit | Corrections caused by unclear scope |
+
+Takeaways for your own cycles:
+
+- **Not every fix is an instruction.** Only tip 2 changes `copilot-instructions.md`. Tip 3 calls for a skill, tips 1 and 4 change how work is split between agents and tools, and tip 5 changes how *you* prompt. Use the routing table in §4 to decide.
+- **Repeated explanations are the strongest signal.** If you typed the same convention 7 times, the instruction file is missing it.
+- **Turn count and `/undo` are objective.** Prefer them over impressions when you set the baseline.
+
+---
+
+## 3. Why this is a PDCA loop
 
 PDCA (Deming cycle) is a four-step continuous-improvement method: **Plan** a change from evidence, **Do** it at small scale, **Check** the result against the expectation, **Act** by standardising or abandoning it — then repeat. Chronicle supplies the two things most teams lack for agent tuning: a **measurement source** (session history) and a **change generator** (`improve`).
 
@@ -73,7 +103,7 @@ The rule that makes it PDCA rather than "tweak and hope": **ask the same measure
 
 ---
 
-## 3. The cycle, step by step
+## 4. The cycle, step by step
 
 ### PLAN — find the friction and pick one target
 
@@ -161,7 +191,7 @@ Then start the next cycle with the **next-largest** friction cluster.
 
 ---
 
-## 4. PDCA log template
+## 5. PDCA log template
 
 Keep this next to the artifact (e.g. `.github/skills/release/CHANGELOG.md`) so every edit has evidence attached.
 
@@ -177,7 +207,7 @@ Keep this next to the artifact (e.g. `.github/skills/release/CHANGELOG.md`) so e
 
 ---
 
-## 5. Applying the loop without Chronicle
+## 6. Applying the loop without Chronicle
 
 The pattern is tool-agnostic. Any agent that keeps transcripts can run it:
 
@@ -205,9 +235,10 @@ Do not propose more than 5 rows. Do not paste raw logs into the rule.
 
 ---
 
-## 6. Guardrails
+## 7. Guardrails
 
-- **Privacy.** Session history contains code, paths, and sometimes secrets. Review before sharing; prefer view-only `/share` links; never paste raw transcripts into committed files.
+- **Privacy.** Sessions are private by default, but they contain code, paths, and sometimes secrets. Review a session before you share it, use view-only `/share gist` or *Sharing settings* links, and never paste raw transcripts into committed files.
+- **Enterprise setup.** On Copilot Business/Enterprise, ask an admin to enable local session syncing. Without it, Chronicle only sees part of your history and your baseline will be wrong.
 - **One change per cycle.** Batch edits make Check meaningless.
 - **Prune as well as add.** Every cycle, ask `/chronicle` which instructions were *never* relevant — dead rules cost context and can mis-trigger skills.
 - **Small samples lie.** Wait for enough sessions to compare; 2 vs 1 corrections is noise.
@@ -216,7 +247,7 @@ Do not propose more than 5 rows. Do not paste raw logs into the rule.
 
 ---
 
-## 7. Quick-start checklist
+## 8. Quick-start checklist
 
 - [ ] Run `/chronicle tips` and `/chronicle improve` in the repo.
 - [ ] Run the baseline friction query; save the counts.
