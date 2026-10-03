@@ -16,7 +16,7 @@ Use this tutorial to turn your **past agent chat sessions** into a repeatable im
 - You have weeks of session history and no systematic way to learn from it.
 - You want instruction changes to be **evidence-driven and reversible** instead of ad-hoc edits after a bad day.
 
-Related: [Skills Testing and Iteration](./skills-testing-iteration.md) (pre-release validation) · [Evidence-Based Skill Design](./evidence-based-skill-design.md) (why distilled skills beat raw logs) · [Self-Evolving AI with Google ADK](./self-evolving-agents-google-adk.md) (fully automated variant).
+Related: [Skills Testing and Iteration](./skills-testing-iteration.md) (pre-release validation) · [Evidence-Based Skill Design](./evidence-based-skill-design.md) (why distilled skills beat raw logs) · [Self-Evolving AI with Google ADK](./self-evolving-agents-google-adk.md) (fully automated variant) · [GPT-6 Astra: Rethinking Skills, AGENTS.md, and Task Prompts](../../06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md) (the same pruning idea for OpenAI models).
 
 ---
 
@@ -56,6 +56,27 @@ Typing `/chronicle` on its own opens a picker of subcommands. You can also add a
 | `/chronicle reindex` | Rebuilds the local session store from your session history and syncs session data to your GitHub account | Local store | Housekeeping — run before a baseline if results look incomplete |
 
 > **Note.** The `cost-tips` details about redundant instructions, extra skill loading, and `/compact` come from community write-ups. GitHub Docs lists prompt length, tool-call frequency, and continuation steps.
+
+**The pruning counterpart: `prompt-audit`.** `improve` mostly *adds* rules. Claude Code's `/claude-api prompt-audit` (also available as `/checkup prompt-audit`) works in the opposite direction: it reads the instruction files themselves, not your sessions, and proposes removing text that the current model no longer needs.
+
+| | `/chronicle improve` / `cost-tips` | `/claude-api prompt-audit` |
+|---|---|---|
+| **Input** | Session history (corrections, retries, token spend) | The instruction surface: `CLAUDE.md` / `AGENTS.md`, rule files, skills, commands, subagents, prompts, tool descriptions, request config |
+| **Usual direction** | Add a missing rule; `cost-tips` points at expensive instructions | Remove or rewrite dated rules (it can also propose additions) |
+| **Judged against** | What went wrong in your sessions | The target model's documented behaviour, and the repository itself |
+| **Output** | 3–5 recommendations, applied after you pick them | An audit report (`file:line`, pattern, why it's obsolete, confidence) plus a proposed diff, one finding per hunk; edits are applied only if you ask |
+| **PDCA role** | **Plan / Do** — find friction, generate the fix | **Plan / Act** — find bloat, standardise without it |
+
+The six anti-patterns from Lance Martin's write-up of the audit:
+
+1. **Verification rituals.** "Double-check your work" gets taken literally and duplicates effort.
+2. **Thoroughness and emphasis boosters.** "Be maximally thorough" or "CRITICAL: YOU MUST ALWAYS…" lead to verbosity and extra tool calls.
+3. **Mandatory procedures and scratchpad scaffolds.** Fixed step-by-step templates stack on top of the model's own reasoning and burn tokens.
+4. **Stale few-shot examples.** Examples tuned to an older model's failure modes can teach a newer one to over-reason.
+5. **Contradictory rules.** Better instruction-following means conflicting rules are followed more literally, and performance suffers.
+6. **Dated configuration.** Settings written for older models, such as manual thinking budgets, can be rejected by newer ones.
+
+The audit guide also has a **keep list**: context, exact scripts for fragile operations, tool contracts, and prohibitions against failures that still happen are *not* cruft. Its last step treats every removal as a hypothesis to check before and after, one change at a time, which is the PDCA Check step.
 
 **Related session commands** (Copilot CLI, from the same Docs page)
 
@@ -207,7 +228,7 @@ Record the result in the PDCA log (template below).
 
 | Outcome | Action |
 |---|---|
-| Friction gone, no regressions | Keep. Promote if useful elsewhere (org-level instructions, shared skill repo). Share an example session with `/share gist` in the PR. |
+| Friction gone, no regressions | Keep. Promote if useful elsewhere (org-level instructions, shared skill repo). Share an example session with `/share gist` in the PR. Before promoting, run `/claude-api prompt-audit` on the edited file so the rule doesn't bring CRITICAL/MUST emphasis or a scaffold with it. |
 | Friction reduced, not gone | Keep, refine the wording, run another cycle on the same target. |
 | No change | Revert. The rule was ignored or wrongly routed — revisit step 3 (maybe it needs a script, not prose). |
 | New friction appeared | Revert or narrow scope (move from global instructions into a skill). |
@@ -239,8 +260,10 @@ The pattern is tool-agnostic. Any agent that keeps transcripts can run it:
 | Tool | Where history lives | "improve" equivalent |
 |---|---|---|
 | GitHub Copilot (CLI, VS Code, JetBrains, cloud agent, app) | `~/.copilot/session-state/`, synced to GitHub | `/chronicle improve` |
-| Claude Code | JSONL transcripts under `~/.claude/projects/` | Ask Claude to analyse the transcripts with the prompt below |
+| Claude Code | JSONL transcripts under `~/.claude/projects/` | Ask Claude to analyse the transcripts with the prompt below. For pruning, run `/claude-api prompt-audit` (also `/checkup prompt-audit`), which reads the instruction files rather than the transcripts (see §1) |
 | Any other agent | Exported chats / logs | Same prompt, pasted transcripts |
+
+On Claude Code, the two halves split cleanly: the friction-mining prompt below supplies the **evidence-driven additions**, and `prompt-audit` supplies the **model-driven removals**. Neither measures the result for you, so keep the same-question Check from §4.
 
 Copy-ready friction-mining prompt for exported transcripts:
 
@@ -265,7 +288,7 @@ Do not propose more than 5 rows. Do not paste raw logs into the rule.
 - **Privacy.** Sessions are private by default, but they contain code, paths, and sometimes secrets. Review a session before you share it, use view-only `/share gist` or *Sharing settings* links, and never paste raw transcripts into committed files.
 - **Enterprise setup.** On Copilot Business/Enterprise, ask an admin to enable local session syncing. Without it, Chronicle only sees part of your history and your baseline will be wrong.
 - **One change per cycle.** Batch edits make Check meaningless.
-- **Prune as well as add.** Every cycle, ask `/chronicle` which instructions were *never* relevant — dead rules cost context and can mis-trigger skills.
+- **Prune as well as add.** Every cycle, ask `/chronicle` which instructions were *never* relevant — dead rules cost context and can mis-trigger skills. On Claude Code, run `/claude-api prompt-audit`, and run it again after every model upgrade: a rule needed on one model generation can be dead weight on the next. Prune in its own cycle, not in the same commit as an addition, so Check can tell which change caused what.
 - **Small samples lie.** Wait for enough sessions to compare; 2 vs 1 corrections is noise.
 - **Scope matters.** `improve` is repo-scoped; free-form questions span all sessions unless you say "in this repository".
 - **Humans in the loop.** `improve` proposes, you decide. Review its diff like any other PR.
@@ -280,6 +303,7 @@ Do not propose more than 5 rows. Do not paste raw logs into the rule.
 - [ ] Apply **one** change, commit with `PDCA #n`.
 - [ ] After the window, run the **same** query; log the result.
 - [ ] Keep, refine, or revert. Pick the next target.
+- [ ] After a model upgrade, run `/claude-api prompt-audit` and treat its diff as its own cycle.
 
 ---
 
@@ -290,3 +314,5 @@ Do not propose more than 5 rows. Do not paste raw logs into the rule.
 - [daninacan.com – 10 cool things you can do with GitHub Copilot CLI](https://daninacan.com/10-cool-things-you-can-do-with-github-copilot-cli/)
 - [Stefano Demiliani – GitHub Copilot sessions: obtaining tips for better usage](https://demiliani.com/2026/06/23/github-copilot-sessions-obtaining-tips-for-better-usage/)
 - [GitHub Blog – 5 tips for writing better custom instructions for Copilot](https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/)
+- [Anthropic Skills – claude-api `prompt-audit` guide (`shared/prompt-audit.md`)](https://github.com/anthropics/skills/blob/main/skills/claude-api/shared/prompt-audit.md)
+- Lance Martin – write-up of the `prompt-audit` command and its six anti-patterns (social post)
