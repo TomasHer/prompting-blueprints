@@ -679,6 +679,12 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `01-about-author/program-committee/index.md`
 - [CAIN 2026 – Industry Track](https://conf.researchr.org/track/cain-2026/cain-2026-industry-track)
   - cited in: `01-about-author/program-committee/index.md`
+- [CAIN 2027](https://conf.researchr.org/home/cain-2027)
+  - cited in: `01-about-author/program-committee/index.md`
+- [CAIN 2027 – Industry Track](https://conf.researchr.org/track/cain-2027/cain-2027-industry-track)
+  - cited in: `01-about-author/program-committee/index.md`
+- [CAIN 2027 – Industry Track Program Committee](https://conf.researchr.org/committee/cain-2027/cain-2027-industry-track-industry-track-program-committee)
+  - _not cited in any content file_
 - [EASE 2026 Conference (Researchr)](https://conf.researchr.org/home/ease-2026)
   - cited in: `01-about-author/program-committee/index.md`
 - [Exploring Human-AI Collaboration in Agile: Customised LLM Meeting Assistants (arXiv 2404.14871)](https://arxiv.org/abs/2404.14871)
@@ -707,6 +713,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/perplexity-comet.md`
 - [ICSE 2026](https://conf.researchr.org/home/icse-2026)
   - cited in: `01-about-author/program-committee/index.md`
+- [ICSE 2027](https://conf.researchr.org/home/icse-2027)
+  - cited in: `01-about-author/program-committee/index.md`, `09-conferences/venues-2027.md`
 - [IEEE RE’24 – Industrial Innovation Papers Track](https://conf.researchr.org/track/RE-2024/RE-2024-industrial-innovation-papers)
   - cited in: `01-about-author/speaking/index.md`
 - [ISD 2025 Conference](https://isd2025.fon.bg.ac.rs)
