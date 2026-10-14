@@ -3,12 +3,15 @@
 ## Intent
 Highlight Tomas Herda's roles across program committees and track leadership teams to showcase expertise in agile and AI-focused events.
 
+> Announcing a new role on LinkedIn? Use the [LinkedIn PC Announcement — Template & Process](./linkedin-pc-announcement.md).
+
 ## Engagements
 
 ### Future engagements
 | Conference | Location & Dates | Function | Track |
 | --- | --- | --- | --- |
 | [SAC 2027](https://www.sigapp.org/sac/sac2027/) | Gwangju, South Korea 🇰🇷<br>April 5–9, 2027 | Track Program Committee Member | [Lean and Agile Software Development Track](https://lasd.pl/) |
+| [CAIN 2027](https://conf.researchr.org/home/cain-2027) (co-located with [ICSE 2027](https://conf.researchr.org/home/icse-2027)) | Dublin, Ireland 🇮🇪<br>April 25–26, 2027 | Track Program Committee Member | [CAIN 2027 Industry Track](https://conf.researchr.org/track/cain-2027/cain-2027-industry-track) |
 | [REFSQ 2027](https://conf.researchr.org/home/refsq-2027) | Basel, Switzerland 🇨🇭<br>April 12–15, 2027 | Program Committee Member | Research Track |
 | [XP 2027](https://conf.researchr.org/home/xp-2027) | Tampere, Finland 🇫🇮<br>May 31 – June 3, 2027 | Industry and Practice Track Chair | Industry and Practice Track |
 

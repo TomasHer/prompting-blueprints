@@ -393,6 +393,9 @@
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 - [CAIN 2026](https://conf.researchr.org/home/cain-2026)
 - [CAIN 2026 – Industry Track](https://conf.researchr.org/track/cain-2026/cain-2026-industry-track)
+- [CAIN 2027](https://conf.researchr.org/home/cain-2027)
+- [CAIN 2027 – Industry Track](https://conf.researchr.org/track/cain-2027/cain-2027-industry-track)
+- [CAIN 2027 – Industry Track Program Committee](https://conf.researchr.org/committee/cain-2027/cain-2027-industry-track-industry-track-program-committee)
 
 ### E
 - [EASE 2026 Conference (Researchr)](https://conf.researchr.org/home/ease-2026)
@@ -413,6 +416,7 @@
 
 ### I
 - [ICSE 2026](https://conf.researchr.org/home/icse-2026)
+- [ICSE 2027](https://conf.researchr.org/home/icse-2027)
 - [IEEE RE’24 – Industrial Innovation Papers Track](https://conf.researchr.org/track/RE-2024/RE-2024-industrial-innovation-papers)
 - [ISD 2025 Conference](https://isd2025.fon.bg.ac.rs)
 - [IREB AI4RE Prompt Guide – Check Model Consistency](https://ireb.atlassian.net/wiki/spaces/airebpromptguide/pages/2585985025/Prompt+Guide+Check+Model+Consistency)
