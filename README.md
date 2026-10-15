@@ -20,6 +20,7 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The ten most recent pages — newly added, plus in-place updates to living pages such as the program committee overview (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-10-15** · [Mapping the AI-Native SDLC to DX (Core 4 + AI Measurement)](./04-guides/ai-sdlc-dx-mapping.md)
 - **2026-10-14** · [LinkedIn PC Announcement — Template & Process](./01-about-author/program-committee/linkedin-pc-announcement.md)
 - **2026-10-14** · [Program Committee & Track Leadership Overview](./01-about-author/program-committee/index.md) · updated
 - **2026-10-02** · [PDCA Skill Improvement from Agent Sessions](./02-ai-agents/02-skills/pdca-skill-improvement-from-sessions.md)
@@ -29,7 +30,6 @@ The ten most recent pages — newly added, plus in-place updates to living pages
 - **2026-08-30** · [AI-Supported SDLC — Overview and Reading Path](./04-guides/ai-sdlc-overview.md)
 - **2026-08-30** · [The AI-Native SDLC Playbook (Anthropic) — Stage-by-Stage Tutorial](./04-guides/ai-native-sdlc-playbook.md)
 - **2026-08-30** · [The AI Engineering Skills Map — Software Engineering Fundamentals in the Agentic Era](./04-guides/ai-engineering-skills-map.md)
-- **2026-08-26** · [OpenWorker Security Coworkers](./05-tools/openworker-security-tutorial.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---

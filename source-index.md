@@ -166,7 +166,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Demystifying Agent Skills — project website](https://zhiyuanjiang04.github.io/demystify-agent-skills/)
   - cited in: `02-ai-agents/02-skills/evidence-based-skill-design.md`
 - [DAiTA — Intelligent Document Processing platform (EN, Österreichische Post)](https://www.post.at/en/g/c/daita)
-  - cited in: `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`, `09-conferences/gaise-2026.md`
+  - cited in: `01-about-author/program-committee/linkedin-pc-announcement.md`, `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`, `09-conferences/gaise-2026.md`
 - [DAiTA — Intelligente Dokumentenverarbeitung Plattform (DE, Österreichische Post)](https://www.post.at/g/c/daita)
   - cited in: `07-use-cases-and-research/intelligent-document-processing-daita.md`
 - [DAIR.AI Thinkific - Claude Code for Everyone](https://dair-ai.thinkific.com/courses/claude-code)
@@ -179,6 +179,16 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/loop-engineering.md`, `04-guides/ai-engineering-skills-map.md`
 - [DeepLearning.AI – The AI Engineering Skills Map (overview of the four top-level skills)](https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map)
   - cited in: `04-guides/ai-engineering-skills-map.md`
+- [DX – A guide to the DX Core 4 metrics](https://help.getdx.com/en/articles/10336040-a-guide-to-the-dx-core-4-metrics)
+  - _not cited in any content file_
+- [DX – AI Measurement Framework](https://getdx.com/ai-measurement-framework/)
+  - _not cited in any content file_
+- [DX – Azure DevOps connector documentation](https://docs.getdx.com/connectors/azure-devops/)
+  - _not cited in any content file_
+- [DX – Measuring AI code assistants and agents](https://getdx.com/research/measuring-ai-code-assistants-and-agents/)
+  - _not cited in any content file_
+- [DX – Measuring engineering productivity in the AI era](https://getdx.com/blog/measuring-engineering-productivity-in-the-ai-era/)
+  - _not cited in any content file_
 - [DeepMind – home](https://deepmind.google/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
@@ -573,6 +583,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `07-use-cases-and-research/requirements-engineering-dataset-experiments.md`
 - [Sam Altman on X – "openai now generates about 100 billion words per day"](https://x.com/sama/status/1756089361609981993)
   - _not cited in any content file_
+- [SiliconANGLE – Atlassian acquires developer productivity startup DX for $1B](https://siliconangle.com/2025/09/18/atlassian-acquires-developer-productivity-startup-dx-1b/)
+  - _not cited in any content file_
 - [Santander AI Open Source (GitHub organization)](https://github.com/SantanderAI)
   - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
 - [SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks (arXiv 2602.12670)](https://arxiv.org/abs/2602.12670)
@@ -680,11 +692,11 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [CAIN 2026 – Industry Track](https://conf.researchr.org/track/cain-2026/cain-2026-industry-track)
   - cited in: `01-about-author/program-committee/index.md`
 - [CAIN 2027](https://conf.researchr.org/home/cain-2027)
-  - cited in: `01-about-author/program-committee/index.md`
+  - cited in: `01-about-author/program-committee/index.md`, `01-about-author/program-committee/linkedin-pc-announcement.md`
 - [CAIN 2027 – Industry Track](https://conf.researchr.org/track/cain-2027/cain-2027-industry-track)
-  - cited in: `01-about-author/program-committee/index.md`
+  - cited in: `01-about-author/program-committee/index.md`, `01-about-author/program-committee/linkedin-pc-announcement.md`
 - [CAIN 2027 – Industry Track Program Committee](https://conf.researchr.org/committee/cain-2027/cain-2027-industry-track-industry-track-program-committee)
-  - _not cited in any content file_
+  - cited in: `01-about-author/program-committee/linkedin-pc-announcement.md`
 - [EASE 2026 Conference (Researchr)](https://conf.researchr.org/home/ease-2026)
   - cited in: `01-about-author/program-committee/index.md`
 - [Exploring Human-AI Collaboration in Agile: Customised LLM Meeting Assistants (arXiv 2404.14871)](https://arxiv.org/abs/2404.14871)
@@ -748,7 +760,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Meetup – Large-Scale Scrum NYC: The Courage to Descale](https://www.meetup.com/large-scale-scrum-less-in-nyc/events/311688494/)
   - cited in: `01-about-author/speaking/index.md`
 - [Post Business Solutions – Intelligent Document Processing](https://www.post.at/en/g/c/daita)
-  - cited in: `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`, `09-conferences/gaise-2026.md`
+  - cited in: `01-about-author/program-committee/linkedin-pc-announcement.md`, `01-about-author/tomas-herda-biography.md`, `07-use-cases-and-research/intelligent-document-processing-daita.md`, `09-conferences/gaise-2026.md`
 - [Prioritizing Software Requirements Using Large Language Models (arXiv 2405.01564)](https://arxiv.org/abs/2405.01564)
   - cited in: `01-about-author/research/overview.md`
 - [REFSQ 2027 Conference (Researchr)](https://conf.researchr.org/home/refsq-2027)
