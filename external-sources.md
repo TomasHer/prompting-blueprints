@@ -95,6 +95,11 @@
 - [DeepLearning.AI – home](https://www.deeplearning.ai/)
 - [DeepLearning.AI – The Batch, Issue 359 (Andrew Ng on the three key loops for building software)](https://www.deeplearning.ai/the-batch/issue-359)
 - [DeepLearning.AI – The AI Engineering Skills Map (overview of the four top-level skills)](https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map)
+- [DX – A guide to the DX Core 4 metrics](https://help.getdx.com/en/articles/10336040-a-guide-to-the-dx-core-4-metrics)
+- [DX – AI Measurement Framework](https://getdx.com/ai-measurement-framework/)
+- [DX – Azure DevOps connector documentation](https://docs.getdx.com/connectors/azure-devops/)
+- [DX – Measuring AI code assistants and agents](https://getdx.com/research/measuring-ai-code-assistants-and-agents/)
+- [DX – Measuring engineering productivity in the AI era](https://getdx.com/blog/measuring-engineering-productivity-in-the-ai-era/)
 - [DeepMind – home](https://deepmind.google/)
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
 - [DeepSeek](https://www.deepseek.com/)
@@ -323,6 +328,7 @@
 ### S
 
 - [Sam Altman on X – "openai now generates about 100 billion words per day"](https://x.com/sama/status/1756089361609981993)
+- [SiliconANGLE – Atlassian acquires developer productivity startup DX for $1B](https://siliconangle.com/2025/09/18/atlassian-acquires-developer-productivity-startup-dx-1b/)
 - [Santander AI Open Source (GitHub organization)](https://github.com/SantanderAI)
 - [SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks (arXiv 2602.12670)](https://arxiv.org/abs/2602.12670)
 - [SantanderAI – autoguardrails (GitHub)](https://github.com/SantanderAI/autoguardrails)
