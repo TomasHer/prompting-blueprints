@@ -20,6 +20,8 @@ Your guide to the Agentic AI evolution. **Prompting Blueprints** offers a curate
 The ten most recent pages — newly added, plus in-place updates to living pages such as the program committee overview (auto-generated from git history — do not edit by hand):
 
 <!-- RECENT_ADDITIONS:START -->
+- **2026-10-20** · [Harness Improvement Loop for Copilot Agents](./07-use-cases-and-research/copilot-harness-improvement-loop.md)
+- **2026-10-20** · [Copilot Backlog Agent Blueprint (Azure DevOps MCP)](./07-use-cases-and-research/copilot-backlog-agent-blueprint.md)
 - **2026-10-15** · [Mapping the AI-Native SDLC to DX (Core 4 + AI Measurement)](./04-guides/ai-sdlc-dx-mapping.md)
 - **2026-10-14** · [LinkedIn PC Announcement — Template & Process](./01-about-author/program-committee/linkedin-pc-announcement.md)
 - **2026-10-14** · [Program Committee & Track Leadership Overview](./01-about-author/program-committee/index.md) · updated
@@ -28,8 +30,6 @@ The ten most recent pages — newly added, plus in-place updates to living pages
 - **2026-09-14** · [GPT-6 Astra: Rethinking Skills, AGENTS.md, and Task Prompts](./06-models-and-evaluations/gpt-6-astra-skills-and-prompts.md)
 - **2026-09-02** · [Conference Venues 2027 — Where the Relevant Events Land](./09-conferences/venues-2027.md)
 - **2026-08-30** · [AI-Supported SDLC — Overview and Reading Path](./04-guides/ai-sdlc-overview.md)
-- **2026-08-30** · [The AI-Native SDLC Playbook (Anthropic) — Stage-by-Stage Tutorial](./04-guides/ai-native-sdlc-playbook.md)
-- **2026-08-30** · [The AI Engineering Skills Map — Software Engineering Fundamentals in the Agentic Era](./04-guides/ai-engineering-skills-map.md)
 <!-- RECENT_ADDITIONS:END -->
 
 ---

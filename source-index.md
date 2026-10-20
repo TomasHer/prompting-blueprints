@@ -51,6 +51,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/03-context-and-memory/agent-context-window-performance.md`, `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`
 - [arXiv 2602.11988 — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](https://arxiv.org/abs/2602.11988)
   - cited in: `02-ai-agents/03-context-and-memory/agent-context-window-performance.md`, `02-ai-agents/03-context-and-memory/agents-md-claude-code-tutorial.md`, `05-tools/claude-md-design-tutorial.md`
+- [arXiv 2610.14224 — Harness²: Recursive Agent Harnessing for an Open World](https://arxiv.org/abs/2610.14224)
+  - _not cited in any content file_
 - [Albertina Bekhti – Vibe Research Instead of Deep Research? AI Agents and the Future of Scientific Discovery](https://medium.com/@abertina/vibe-research-instead-of-deep-research-ai-agents-and-the-future-of-scientific-discovery-4d561248f3e2)
   - cited in: `07-use-cases-and-research/vibe-research.md`
 - [Anthropic – Building agents with the Claude Agent SDK](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk)
@@ -72,7 +74,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Anthropic — Skills for Claude Agents](https://www.anthropic.com/news/skills)
   - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/claude-agent-skills.md`, `04-guides/claude-building-skills-guide.md`
 - [Anthropic — The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)
-  - cited in: `04-guides/ai-native-sdlc-playbook.md`, `04-guides/ai-sdlc-overview.md`
+  - cited in: `04-guides/ai-native-sdlc-playbook.md`, `04-guides/ai-sdlc-dx-mapping.md`, `04-guides/ai-sdlc-overview.md`
 - [Anthropic – The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
   - cited in: `02-ai-agents/02-skills/anatomy-of-a-skill.md`, `02-ai-agents/02-skills/skills-design-patterns.md`, `02-ai-agents/02-skills/skills-testing-iteration.md`, `04-guides/claude-building-skills-guide.md`
 - [Anthropic Skills – claude-api `prompt-audit` guide (`shared/prompt-audit.md`)](https://github.com/anthropics/skills/blob/main/skills/claude-api/shared/prompt-audit.md)
@@ -180,15 +182,15 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [DeepLearning.AI – The AI Engineering Skills Map (overview of the four top-level skills)](https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map)
   - cited in: `04-guides/ai-engineering-skills-map.md`
 - [DX – A guide to the DX Core 4 metrics](https://help.getdx.com/en/articles/10336040-a-guide-to-the-dx-core-4-metrics)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-sdlc-dx-mapping.md`
 - [DX – AI Measurement Framework](https://getdx.com/ai-measurement-framework/)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-sdlc-dx-mapping.md`
 - [DX – Azure DevOps connector documentation](https://docs.getdx.com/connectors/azure-devops/)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-sdlc-dx-mapping.md`
 - [DX – Measuring AI code assistants and agents](https://getdx.com/research/measuring-ai-code-assistants-and-agents/)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-sdlc-dx-mapping.md`
 - [DX – Measuring engineering productivity in the AI era](https://getdx.com/blog/measuring-engineering-productivity-in-the-ai-era/)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-sdlc-dx-mapping.md`
 - [DeepMind – home](https://deepmind.google/)
   - cited in: `01-about-author/ai-people-to-follow.md`
 - [DeepMind – FACTS Benchmark suite: systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/)
@@ -335,6 +337,8 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `05-tools/claude-code-notebooklm-integration-tutorial.md`
 - [Google One Help – Check AI Premium credits](https://support.google.com/googleone/answer/16287445?visit_id=638968334505579471-862084453&p=g1_ai_credit_menu&rd=1#g1_ai_credit_menu)
   - cited in: `06-models-and-evaluations/google-veo-3-1-video-tutorial.md`
+- [Google Research – Harness²: Recursive Agent Harnessing for an Open World (GitHub)](https://github.com/google-research/harness2)
+  - _not cited in any content file_
 - [Google Workspace – Gemini](https://workspace.google.com/products/gemini/)
   - cited in: `05-tools/ai-tool-chaining-oct-2025.md`
 - [Google – ADK Python repository (.git)](https://github.com/google/adk-python.git)
@@ -425,6 +429,10 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
 - [Microsoft – Autogen Studio user guide](https://microsoft.github.io/autogen/dev//user-guide/autogenstudio-user-guide/index.html)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
+- [Microsoft – Azure DevOps MCP Server (GitHub)](https://github.com/microsoft/azure-devops-mcp)
+  - _not cited in any content file_
+- [Microsoft – Azure DevOps MCP Server toolset (GitHub)](https://github.com/microsoft/azure-devops-mcp/blob/main/docs/TOOLSET.md)
+  - _not cited in any content file_
 - [Microsoft Foundry – Introducing Microsoft Agent Framework](https://devblogs.microsoft.com/foundry/introducing-microsoft-agent-framework-the-open-source-engine-for-agentic-ai-apps/)
   - cited in: `05-tools/microsoft-agent-framework.md`
 - [Microsoft Tech Community – CI/CD for AI Agents on Microsoft Foundry](https://techcommunity.microsoft.com/blog/educatordeveloperblog/cicd-for-ai-agents-on-microsoft-foundry/4522218)
@@ -584,7 +592,7 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
 - [Sam Altman on X – "openai now generates about 100 billion words per day"](https://x.com/sama/status/1756089361609981993)
   - _not cited in any content file_
 - [SiliconANGLE – Atlassian acquires developer productivity startup DX for $1B](https://siliconangle.com/2025/09/18/atlassian-acquires-developer-productivity-startup-dx-1b/)
-  - _not cited in any content file_
+  - cited in: `04-guides/ai-sdlc-dx-mapping.md`
 - [Santander AI Open Source (GitHub organization)](https://github.com/SantanderAI)
   - cited in: `07-use-cases-and-research/santander-ai-banking-governance.md`
 - [SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks (arXiv 2602.12670)](https://arxiv.org/abs/2602.12670)
@@ -643,6 +651,14 @@ Reverse map of every entry in [`external-sources.md`](external-sources.md) to th
   - cited in: `01-about-author/ai-people-to-follow.md`, `02-ai-agents/01-foundations/ai-agents-overview.md`
 - [Vom Brocke et al. – How to Identify Promising AI Use Cases](https://www.alexandria.unisg.ch/server/api/core/bitstreams/35316f07-8d0b-47dc-bbf0-36753ca834b3/content)
   - cited in: `07-use-cases-and-research/ai-use-case-identification.md`
+- [VS Code – Agent hooks](https://code.visualstudio.com/docs/agent-customization/hooks)
+  - _not cited in any content file_
+- [VS Code – Agent skills](https://code.visualstudio.com/docs/agent-customization/agent-skills)
+  - _not cited in any content file_
+- [VS Code – Custom agents](https://code.visualstudio.com/docs/agent-customization/custom-agents)
+  - _not cited in any content file_
+- [VS Code – Custom instructions](https://code.visualstudio.com/docs/agent-customization/custom-instructions)
+  - _not cited in any content file_
 - [Wei et al. – Chain-of-thought prompting elicits reasoning in large language models](https://arxiv.org/abs/2201.11903)
   - cited in: `02-ai-agents/01-foundations/ai-agents-overview.md`
 - [X - Boris Cherny](https://x.com/bcherny)
